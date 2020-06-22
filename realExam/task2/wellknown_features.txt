@@ -1,0 +1,14 @@
+1A Consonant Inventories
+2A Vowel Quality Inventories
+3A Consonant-Vowel Ratio
+4A Voicing in Plosives and Fricatives
+5A Voicing and Gaps in Plosive Systems
+6A Uvular Consonants
+7A Glottalized Consonants
+8A Lateral Consonants
+9A The Velar Nasal
+10A Vowel Nasalization
+91A Order of Degree Word and Adjective
+92A Position of Polar Question Particles
+93A Position of Interrogative Phrases in Content Questions
+97A Relationship between the Order of Object and Verb and the Order of Adjective and Noun

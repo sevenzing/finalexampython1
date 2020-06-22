@@ -1,0 +1,13 @@
+139A Irregular Negatives in Sign Languages
+140A Question Particles in Sign Languages
+144Y The Position of Negative Morphemes in Object-Initial Languages
+144N Obligatory Double Negation in SOV languages
+144M Multiple Negative Constructions in SOV Languages
+144U Double negation in verb-initial languages
+144G Optional Double Negation in SVO languages
+144F Obligatory Double Negation in SVO languages
+144E Multiple Negative Constructions in SVO Languages
+144D The Position of Negative Morphemes in SVO Languages
+144O Optional Double Negation in SOV languages
+144L The Position of Negative Morphemes in SOV Languages
+144T The Position of Negative Morphemes in Verb-Initial Languages
