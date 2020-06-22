@@ -1,0 +1,1955 @@
+{
+    "paper_id": "e335d09a88c606503dae3cdfd7cf3602824786cb",
+    "metadata": {
+        "title": "Journal Pre-proof Data analytics for novel coronavirus disease Data Analytics for Novel Coronavirus Disease",
+        "authors": [
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Rubaiyat",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hossain",
+                "middle": [],
+                "last": "Mondal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Subrato",
+                "middle": [],
+                "last": "Bharati",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Prajoy",
+                "middle": [],
+                "last": "Podder",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Priya",
+                "middle": [],
+                "last": "Podder",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Dhaka National Medical College",
+                    "location": {
+                        "postCode": "Dhaka-1100",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "This paper describes different aspects of novel coronavirus disease (COVID-19), presents visualization of the spread of the infection, and discusses the potential applications of data analytics on this viral infection. Firstly, a literature survey is done on COVID-19 highlighting a number of factors including its origin, its similarity with previous coronaviruses, its transmission capacity, its symptoms, etc. Secondly, data analytics is applied on a dataset of Johns Hopkins University to find out the spread of the viral infection. It is shown here that although the disease started in China in December 2019, the highest number of confirmed cases up to 04 June 2020 is in the USA. Thirdly, the worldwide increase in the number of confirmed cases over time is modelled here using a polynomial regression algorithm with degree 2. Fourthly, classification algorithms are applied on a dataset of 5644 samples provided by Hospital Israelita Albert Einstein of Brazil in order to diagnose COVID-19. It is shown here that multilayer perceptron (MLP), XGBoost and logistic regression can classify COVID-19 patients at an accuracy above 91 percent. Finally, a discussion is presented on the potential applications of data analytics in several important factors of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "A life threatening infectious coronavirus [1] started from Wuhan of China in December 2019. As of 04 June 2020, the disease has officially spread to 213 countries and territories infecting a total of 6,632,985 people causing a death of 391,136. The patients affected by this coronavirus show symptoms of pneumonia. The World Health Organization (WHO) has termed this particular virus as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and the associated disease as COVID-19 [2] [3] [4] [5] [6] . Recently, the WHO has declared COVID-19 as a pandemic. One of the similar coronaviruses reported in the last two decades is the outbreak of Severe Acute Diarrhea Syndrome (SADS) was noted in the swine industry in 2017. These diseases originated from bats and they are pathogenic to humans or livestock [7] [8] [9] [10] . Some of the main symptoms of this disease are the development of fever, cough, and respiratory problems including shortness of breath. According to WHO, the incubation period of this virus in most cases vary from 2 to 10 days. Unfortunately, there is no known cure for this disease, for example there is no vaccine for prevention of this disease. There is no specific antiviral treatment as well. The doctors help the patients to manage the symptoms. In many cases, the patients may develop pneumonia and experience failure of multiple organs leading to possible death. The COVID-19 is spread by respiratory droplets from the patients. In other words, the spread is severe when the infected patients cough or sneeze [10] . However, the spread can be minimized to some extent by taking hygiene measure including careful handwashing. Moreover, early detection of this disease can help in the containment of the virus. Because of the life threatening nature and no cure of COVID-19, significant research interest has been seen in this field since early January 2020. It is expected that data analytics can play an important role in investigating the salient features of COVID-19 and eventually find a vaccine for it. Therefore, this paper focuses on the application of data analytics on COVID-19. The contributions of this paper are summarized below:",
+            "cite_spans": [
+                {
+                    "start": 42,
+                    "end": 45,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 487,
+                    "end": 490,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 491,
+                    "end": 494,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 495,
+                    "end": 498,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 499,
+                    "end": 502,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 503,
+                    "end": 506,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 811,
+                    "end": 814,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 815,
+                    "end": 818,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 819,
+                    "end": 822,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 823,
+                    "end": 827,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1546,
+                    "end": 1550,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "1) The literature has been reviewed to find the important aspects of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "2) Data analytics has been applied on a currently available dataset to visualize the spread of COVID-19 as of 4 June 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "3) A description is provided on the feature selection, regression and classification algorithms suitable for this disease. A polynomial regression model has been used to model the number of confirmed cases in the world. Moreover, feature selection and classification algorithms are applied on a dataset for data-driven diagnosis of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "4) The possible applications of data analytics on the important aspects of the disease are presented.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The rest of the paper is organized as follows. Section 2 provides a literature survey on this virus. Section 3 uses data analytics to discuss the current situation of the spread of the virus across the globe. The application of regressions to model the confirmed cases and the application of classifiers to predict COVID-19 patients are discussed in Section 4. Section 5 discusses about the possible areas where data analytics can be used to get an understanding of the risks of COVID-19. Finally, Section 6 provides concluding remarks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Recently there has been tremendous research interest in COVID-19 focusing on its spread [1] [2] [3] [4] [5] [6] [7] [8] , origin and genomic structure [9] [10] [11] [12] [13] [14] [15] , clinical characteristics [16] [17] [18] , and drug discovery [13, [19] [20] [21] . Particularly the interest is significant after the start of COVID-19 in late December 2019.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 91,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 96,
+                    "end": 99,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 100,
+                    "end": 103,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 108,
+                    "end": 111,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 155,
+                    "end": 159,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 160,
+                    "end": 164,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 175,
+                    "end": 179,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 180,
+                    "end": 184,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 212,
+                    "end": 216,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 222,
+                    "end": 226,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "[20]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "[21]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Survey on the Research on COVID-19"
+        },
+        {
+            "text": "Some of the important research results are described in the following.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Survey on the Research on COVID-19"
+        },
+        {
+            "text": "This section focuses on the transmission dynamics and reproductive number of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transmission of COVID-19"
+        },
+        {
+            "text": "There is a relation among the species of coronaviruses, geographical distributions of coronaviruses, bat species and reservoir hosts [1] . In the early outbreak of COVID-19 in China, work-related transmission has been an important factor, and the infection may have spread greatly among health care workers, transport workers, services and sales workers [2] . The transmission of COVID-19 is estimated by the collection and analyzation of spatiotemporal data [3] . In this regard, the basic reproductive number of COVID-19 is estimated using the individual case reports of 140 infected persons. With the consideration of case reports, the estimates of the epidemiology parameters, human travel data and infection data, the basic reproductive number is found to be in between 4.7 to 6.6 [3] . There may be underreporting cases of coronavirus during the period of 1 to 15 January 2020 [4] . The cumulative incidence of 5502 cases in China is estimated with a confidence interval of 95% [5] . The epidemic of COVID-19 may spread due to some untraced exposures other than the exposure in seafood marker in China [5] . Some patients do not show symptoms, while others have different types of symptoms [6] . Some patients have different symptoms such as pneumonia with problem identified in CT scan, acute respiratory distress syndrome, RNAaemia, etc. [6] . There may be undetected internationally imported cases too [7] . A transmission model in [8] estimated the basic reproductive number to be 3.11.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 354,
+                    "end": 357,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 459,
+                    "end": 462,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 786,
+                    "end": 789,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 883,
+                    "end": 886,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 984,
+                    "end": 987,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1108,
+                    "end": 1111,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1196,
+                    "end": 1199,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1346,
+                    "end": 1349,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1411,
+                    "end": 1414,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1441,
+                    "end": 1444,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Transmission of COVID-19"
+        },
+        {
+            "text": "This section focuses on the time origin and genetic diversity of COVID-19. The increasing genetic diversity of this disease is indicated by phylogenetic, transmission network, and likelihood mapping analyses of the genome sequences [9] . The SARS and MERS diseases are caused by the SARS-CoV and MERS-CoV pathogens, respectively. SARS outbreak in 2002-2003 caused 8000 cases with 774 deaths in 37 countries. On the other hand, MERS outbreak in 2012 caused 2494 cases with 858 deaths in 27 countries over the world [9] . Both SARS-CoV and MERS-CoV are infectious disease zoonotic in origin that means these are spread from animal to human. Bats are regarded as the animal host source, while palm civets and camels are the intermediate means between bats and animals for SARS-CoV and MERS-CoV, respectively. Similar to SARS and MERS, COVID-19 may be originated from bats, but the intermediate carrier between bats to humans is yet to be cleared [9] . The concepts of the pathology and pathogenesis used for SARS-CoV and MERS-CoV are now applied to find the characteristics of COVID-19 [10] . COVID-19 is a class of \u03b2-coronavirus genus, having a 79.0% and a 51.8% nucleotide identity to SARS-CoV and MERS-CoV, respectively [10] . This virus has 96% similarity when compared with a bat coronavirus in terms of genome [9] [10] . COVID-19 is a recombinant virus which may be a homologous recombination of a bat coronavirus and another coronavirus whose origin is not known [11] . Moreover, COVID-19 has some genetic similarity with bat coronavirus and codon usage bias with snake or snake's translation machinery [11] . Four structural proteins are essential for the formation of coronavirus during virion assembly [12] .",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 235,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 514,
+                    "end": 517,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 943,
+                    "end": 946,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1083,
+                    "end": 1087,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1220,
+                    "end": 1224,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1313,
+                    "end": 1316,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1317,
+                    "end": 1321,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1467,
+                    "end": 1471,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1607,
+                    "end": 1611,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1709,
+                    "end": 1713,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Origin of COVID-19"
+        },
+        {
+            "text": "The genome of SARS-CoV-2 encodes non-structural proteins as well as structural proteins.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Origin of COVID-19"
+        },
+        {
+            "text": "The non-structural proteins are 3-chymotrypsin-like protease, papain-like protease, helicase, and RNA-dependent RNA polymerase (RdRp). The structural protein is spike glycoprotein. There are also accessory proteins [13] . In order to prevent any future outbreak of COVID-19, it is important to find the exact origin and the intermediate hosts of SARS-COV-2 [14] . It is found that the codon usage pattern of SARS-COV-2 is unique. When the codon usage of different viruses including SARS-CoV are taken into consideration, the codon usage of SARS-CoV-2 is very much different from that of humans. For the case of SARS-CoV-2, the codons are replaced by ones with lower human-preference. Because of this unique codon usage pattern, it is believed that SARS-CoV-2 was probably formed by evolving in an uncommon intermediate host for a long time. The codon biases are generated due to the evolution of genome composition [14] .",
+            "cite_spans": [
+                {
+                    "start": 215,
+                    "end": 219,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 357,
+                    "end": 361,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 915,
+                    "end": 919,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Origin of COVID-19"
+        },
+        {
+            "text": "When whole genome level is taken into consideration, SARS-CoV-2 has 79.5% similarity to SARS-CoV and 96% similarity to the bat coronavirus (RaTG13) [15] . This virus is still new in its evolutionary journey in human body hence it will be evolved in the future by changing codons, structures, etc. [14] .",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 152,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Origin of COVID-19"
+        },
+        {
+            "text": "The clinical symptoms, features, and parameters of COVID-19 are being investigated in a number of experiments and studies [16] [17] [18] . The study in [16] evaluates the clinical characteristics of COVID-19 for the case of nine pregnant women and possibility of intrauterine vertical transmission of this virus. The data related to clinical records, lab tests, and chest CT scans of those women are studied. According to the study [16] , as of 4 February 2020, seven patients had fever, four had cough, three had myalgia, two had sore throat, two had malaise and two had fetal distress, five had lymphopenia, three had increased aminotransferase concentrations, and no one died. Furthermore, the study reports that no neonatal asphyxia was observed in 9 newborn babies. Results of these nine patients indicate that COVID-19 may not cause intrauterine fetal infections at pregnancy. However, the small sample size of nine patients is not good enough to come to a definite conclusion. The interaction between the human innate immune system and COVID-19 is studied in [17] to understand the virus induced inflammation of lung tissues. The results show that the infection can be controlled by humoral immunity, targeted immunotherapy can be useful [17] . The genome structure, entry of the virus into target cells, etc. information is reported in [18] .",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 126,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 432,
+                    "end": 436,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1066,
+                    "end": 1070,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1245,
+                    "end": 1249,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1344,
+                    "end": 1348,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Clinical characteristics of COVID-19"
+        },
+        {
+            "text": "Recently there has been significant research [19] [20] [21] in the development of drugs and vaccines for COVID-19. Some of the promising drugs target nonstructural proteins, while other drugs target viral entry and immune regulation pathways [19] [20] . As of April 2020, some of the main potential post-infection therapies known as favipiravir (antiviral against influenza), remdesivir (antiviral), lopinavir/ritonavir (antiviral) and hydroxychloroquine/chloroquine (antiparasitic and antirheumatic) -are in the final stage of human testing [13] . ",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 49,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 50,
+                    "end": 54,
+                    "text": "[20]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 55,
+                    "end": 59,
+                    "text": "[21]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 247,
+                    "end": 251,
+                    "text": "[20]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Drugs of COVID-19"
+        },
+        {
+            "text": "The situation of this COVID-19 is changing very frequently. The work in [22] discusses about a number of datasets related to this virus. The authors in [22] also provide some visualization of this epidemic up to 16 February 2020. In this work, we analyze the dataset of 04 June 2020 death rate can be obtained in two ways. When the number of deaths is divided by the number of confirmed cases then death rate is 5.90%, however when number of deaths is divided by the number of closed cases (death + recovered) then death rate is 11.99%. For the rest of this paper, death rate will only be considered in terms of number of deaths over number of confirmed cases. mortality rate still has affected much more people than any of the epidemics mentioned in Table   2 . Fig. 3 shows the plots of death rate and recover rate across the globe for a time span ranging from 22 January 2020 to 04 June 2020. In this case, recovery/death rate is defined as the ratio of recovery/death to confirmed cases. It can be seen that the recovery rate has significantly increased from January to first week of March, however, it decreased from second week of March to first week of April 2020. The recovery rate has increased since early April 2020 which indicates that the number of active cases has reduced as many active patients have recovered. On the other hand, the death rate has increased from below 3% in Mid-February 2020 to around 6.0% in June 2020. Fig. 4 presents Graph showing the death cases, recovered and active cases over time in the world. It can be seen from Fig. 4 (a) that the death case has a significantly sharp increment since the first week of March 2020. From Fig. 4(b) it can be seen that the recovery cases have been steady with linear increment over time, but the active cases have experienced sharp increase after first week of March 2020. Fig. 5 illustrates the number of currently active cases of COVID-19. Fig. 5(a) is a pie chart indicating that the percentage of active cases in the world is currently 42.20% of the total confirmed cases. At the same time the recovered cases is 51.90% of the total confirmed cases. Fig. 5 ",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 76,
+                    "text": "[22]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[22]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 751,
+                    "end": 760,
+                    "text": "Table   2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 763,
+                    "end": 769,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF14"
+                },
+                {
+                    "start": 1439,
+                    "end": 1445,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1557,
+                    "end": 1563,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1665,
+                    "end": 1674,
+                    "text": "Fig. 4(b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1849,
+                    "end": 1855,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1918,
+                    "end": 1927,
+                    "text": "Fig. 5(a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2130,
+                    "end": 2136,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Data Analytics on the Status of the Disease"
+        },
+        {
+            "text": "showing the number of active cases in the world in different countries. In the graph, the larger the bubbles, the higher the number of active cases. It can be seen that currently the USA has far more active cases than any other country.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(b) is a bubble graph"
+        },
+        {
+            "text": "(a) (b) Fig. 1 : Horizontal bar chart of cases across countries, (a) for confirmed cases (b) death cases ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 8,
+                    "end": 14,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "(b) is a bubble graph"
+        },
+        {
+            "text": "This Section provides the methodology of data analytics on COVID-19. For this, different machine learning classifiers can be used. These operations can be done using different programming languages including Python, R-studio, MATLAB, etc. For classification, regression or prediction of a particular problem, feature selection methods can be used to find the features that have the highest impact on that problem [28] [29] . Then different classifiers and regression models can be applied to obtain the classification or prediction results [28] [29] .",
+            "cite_spans": [
+                {
+                    "start": 413,
+                    "end": 417,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 418,
+                    "end": 422,
+                    "text": "[29]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 545,
+                    "end": 549,
+                    "text": "[29]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of Data Analytics on COVID-19"
+        },
+        {
+            "text": "Using the concept of feature selection reported in [28] , the feature selection process is shown in Algorithm 1.",
+            "cite_spans": [
+                {
+                    "start": 51,
+                    "end": 55,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Feature selection and classification and regression algorithms"
+        },
+        {
+            "text": "Output: Selected features with higher ranking Process:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Input: A dataset"
+        },
+        {
+            "text": "1. Import several packages and classes ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Input: A dataset"
+        },
+        {
+            "text": "For the case of predicting a continuous quantity output regression is used, whereas classification is suitable for predicting a discrete class label output. Hence for modelling the number of In this paper, linear regression and polynomial regressions methods are taken into consideration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression model for predicting confirmed cases"
+        },
+        {
+            "text": "A linear regression can be expressed as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression model for predicting confirmed cases"
+        },
+        {
+            "text": "where X and Y are the input and output variables, while a and b are parameters of the regression analysis. A polynomial regression of degree two can be expressed as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression model for predicting confirmed cases"
+        },
+        {
+            "text": "where a, b and c are parameters of the regression analysis. Similarly, higher order polynomial regressions can be mathematically described as shown in [30] . Table 3 shows the values of the metric R 2 , adjusted R 2 , and parameters a, b and c for polynomial regression of degree 2 for test sizes of 20% as well as 10%. It can be seen that the value of R 2 is significantly higher for a test size of 20%, while adjusted R 2 is slightly higher for a test size of 10%. Table 3 presents the values of a, b and c along with their values of t-statistics (denoted as tstat) which is the ratio of a parameter divided by its standard error. Fig. 8 shows Table 3 . ",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[30]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 158,
+                    "end": 165,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 467,
+                    "end": 474,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 633,
+                    "end": 639,
+                    "text": "Fig. 8",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 646,
+                    "end": 653,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Regression model for predicting confirmed cases"
+        },
+        {
+            "text": "In the following machine learning algorithms are used for automatic diagnosis of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification for diagnosis of COVID-19 patients"
+        },
+        {
+            "text": "Currently there is a lack of acceptable datasets that could be used for prediction of COVID-19 in Table 5 . It can be seen that 'Serum Glucose' has the best ranking (rank 1) and thus is the most influential attribute among all the attributes in the dataset. The second and third best attributes are 'Respiratory Syncytial Virus' and 'Influenza A', respectively. Next These well-known classifiers are briefly described in the following [28] [29] . XGBoost is a DT- termed as AUC value, testing accuracy. The performance of the classifiers in our work are better than that of the work in [32] in terms of recall, AUC value and testing accuracy. For example, the highest value of AUC value in [32] is 84.70% compared to our highest AUC value of 96.70%, and the highest F1 score in [32] is 78.10% compared to our highest F1 score of 93%. The difference in the results of [32] and our work are due the fact that the work in [32] considers only 245 suspected patients and 15",
+            "cite_spans": [
+                {
+                    "start": 435,
+                    "end": 439,
+                    "text": "[28]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 440,
+                    "end": 444,
+                    "text": "[29]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 586,
+                    "end": 590,
+                    "text": "[32]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 690,
+                    "end": 694,
+                    "text": "[32]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 778,
+                    "end": 782,
+                    "text": "[32]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 867,
+                    "end": 871,
+                    "text": "[32]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 919,
+                    "end": 923,
+                    "text": "[32]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 98,
+                    "end": 105,
+                    "text": "Table 5",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "Classification for diagnosis of COVID-19 patients"
+        },
+        {
+            "text": "attributes. On the other hand, our work considers 1091 probable patients and 61 attributes after preprocessing. Moreover, the work in [32] uses the holdout method with 30% testing data and 70% training data. On the other hand, our work considers cross validation method for splitting the testing and training data samples. ",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 138,
+                    "text": "[32]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Classification for diagnosis of COVID-19 patients"
+        },
+        {
+            "text": "In future modeling the processes of COVID-19 can contribute to improving our understanding in this disease. This models and approaches will provide real time decisions to shape the research on this disease. Data analysis can be useful in fighting this issue. In future, data analytics can be applied in COVID-19 particularly in the following domains:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Possible Scope of Data Analytics"
+        },
+        {
+            "text": "1. To predict how the virus spreads that is the transmission possibility. To provide information about possible zones that may have clusters of the virus. This will identify possible risky zones and people may avoid these areas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Possible Scope of Data Analytics"
+        },
+        {
+            "text": "2. To develop a system that will continuously observe the conditions of a suspected person, and to automatically predict whether he/she has COVID-19 or not. This kind of warning system can help to detect cases of COVID-19 and reduce the number of undetected cases. For this, the symptoms of previous patients have to be stored in a repository. For example, the images of CT scans of normal people and coronavirus affected patients can be stored for training the system, while any new patient's CT scan image can be compared with the training images to find the similarity score. The main features of these patients can be found out from the application of machine learning. With the increase in the number of patient data, the training dataset will increase making the system's prediction work better. In addition to the above issues, research is required on the possible effect of the coronavirus in developing countries that are highly populated but have poor health care systems. In these countries many people are not accustomed to maintaining personal hygiene appropriately. Lack of proper education and awareness is also a big problem. Lack of proper testing kits means many are not tested. Moreover, there is lack of good lab facilities, skill personnel resulting in possible error in processing and analysis. So, many patients may remain undetected. Therefore, it is important to find an inexpensive and cheap artificial intelligent system for data driven diagnosis of COVID-19 patients in these countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Possible Scope of Data Analytics"
+        },
+        {
+            "text": "COVID-19 has become a pandemic across the globe since its first official appearance in China in ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Bat Coronaviruses in China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "210",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Work-related COVID-19 transmission in six Asian countries/areas: A follow-up study",
+            "authors": [
+                {
+                    "first": "F-Y",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-F",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-T",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Christiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kales",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0233588"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The novel Coronavirus 2019-nCoV is highly contagious and more infectious than initially estimated",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Romero-Severson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hengartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ke",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.07.20021154"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Estimating the unreported number of novel Coronavirus (2019-nCoV) cases in China in the first half of January 2020: a data-driven modelling analysis of the early outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The extent of transmission of novel Coronavirus in Wuhan, China, 2020",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Using predicted imports of 2019-nCoV cases to determine locations that may not be identifying all imported cases",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Salazar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Niehus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Buckee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.04.20020495"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Read",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jre",
+                    "middle": [],
+                    "last": "Bridgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dat",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jewell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.23.20018549"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Transmission dynamics and evolutionary history of 2019-nCoV",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "501--511",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Overlapping and discrete aspects of the pathology and pathogenesis of the emerging human pathogenic coronaviruses SARS-CoV, MERS-CoV, and 2019-nCoV",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "491--494",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Cross-species transmission of the newly identified coronavirus 2019-nCoV",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "433--440",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Emerging coronaviruses: Genome structure, replication, and pathogenesis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "418--423",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Therapeutic options for the 2019 novel coronavirus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Clercq",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Reviews. Drug Discovery",
+            "volume": "19",
+            "issn": "3",
+            "pages": "149--150",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/d41573-020-00016-0"
+                ],
+                "PMID": [
+                    "32127666"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The codon usage pattern of the novel coronavirus is drastically different from those of other pathogenic viruses",
+            "authors": [
+                {
+                    "first": "Xiaolong",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21203/rs.3.rs-18966/v1"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "270--273",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Clinical characteristics and intrauterine vertical transmission potential of COVID-19 infection in nine pregnant women: a retrospective review of medical records. The Lancet",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "809--815",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Coronavirus infections and immune responses",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "424--432",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Insights into the Recent",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ashour",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Elkhatib",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elshabrawy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Novel Coronavirus (SARS-CoV-2) in Light of Past Human Coronavirus Outbreaks",
+            "authors": [],
+            "year": 2020,
+            "venue": "Pathogens",
+            "volume": "9",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The COVID-19 vaccine development landscape",
+            "authors": [
+                {
+                    "first": "Arun; G\u00f3mez",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rom\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stig",
+                    "middle": [
+                        ";"
+                    ],
+                    "last": "Ra\u00fal; Tollefsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Melanie",
+                    "middle": [
+                        ";"
+                    ],
+                    "last": "Saville",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stephen",
+                    "middle": [],
+                    "last": "Mayhew",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Pharmacologic Treatments for Coronavirus Disease 2019 (COVID-19): A Review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Monogue",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Jodlowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cutrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.6019"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Fighting COVID-19: A quick review of diagnoses, therapies, and vaccines",
+            "authors": [
+                {
+                    "first": "H-I",
+                    "middle": [],
+                    "last": "Shih",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-F",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chi",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biomedical Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bj.2020.05.021"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Analyzing the epidemiological outbreak of COVID-19: A visual exploratory data analysis approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Siddiqi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Howlader",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "632--638",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Data-driven diagnosis of spinal abnormalities using feature selection and machine learning algorithms",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Raihan-Al-Masud",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mrh",
+                    "middle": [],
+                    "last": "Mondal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLOS ONE",
+            "volume": "15",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Comparative Performance Analysis of Different Classification Algorithm for the Purpose of Prediction of Lung Cancer",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bharati",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Podder",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mondal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mahmood",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Raihan-Al-Masud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Advances in Intelligent Systems and Computing",
+            "volume": "941",
+            "issn": "",
+            "pages": "447--457",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Data analysis of COVID-2019 epidemic using machine learning methods: a case study of India",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Yadav",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. j. inf. tecnol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s41870-020-00484-y"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Alexandre Dias Porto Chiavegatto Filho, COVID-19 diagnosis prediction in emergency care patients: a machine learning approach",
+            "authors": [
+                {
+                    "first": "Andre Filipe De Moraes",
+                    "middle": [],
+                    "last": "Batista",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joao",
+                    "middle": [
+                        "Luiz"
+                    ],
+                    "last": "Miraglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Thiago Henrique Rizzi",
+                    "middle": [],
+                    "last": "Donato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.04.20052092"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Syndrome (SARS) in 2003 causing thousands of deaths. Another disease Middle East Respiratory Syndrome (MERS) emerged in 2012. A third virus known as Swine Acute",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The development of vaccine against COVID-19 started just after the publication of genetic sequence of the causative virus SARS-CoV-2 on 11 January 2020. The first vaccine candidate started clinical trial on human on 16 March 2020. As of 8 April 2020, there are 78 confirmed active vaccine candidates of which 5 are into clinical development stage. Three of these are mRNA-1273, Ad5-nCoV and INO-4800 developed by Moderna, CanSino Biologicals, and Inovio, respectively. The remaining two LV-SMENP-DC and pathogen-specific aAPC are developed by Shenzhen Geno-Immune Medical Institute [19]. Very recently 5 more vaccines are also in the clinical trial stage. These are Covid-19/aAPC (Phase I), LV-SMENP-DC (modified DCs) (Phase I/II), bacTRL-Spike (Phase I),mRNA-1273 (Phase II), Ad5-nCoV (Phase II)[21].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "provided by the Johns Hopkins University available in Kaggle repository [23]. This dataset has 35775 records as of 04 June 2020. The attributes of the dataset are Province/State, Country/Region, Latitude, Longitude, Date, Confirmed Cases, Deaths, and Recovered cases. We present data visualizations in terms of tables, bar charts, pie charts and other graphs. According to this dataset, 213 countries have confirmed cases of 6,632,985, death cases of 391,136, active cases of 3,371,886 and recovered cases of 2,869,963 by COVID-19 as of 04 June 2020. The",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "China, Singapore and Japan have the first, second and third position in terms of the most number of patients having COVID-19. So, since February, the infection has spread very rapidly in other countries, while China, Singapore and Japan have managed the spread of the disease to some extent.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Death rate in several countries",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Death Graph showing the cases over time for (a) death cases (b) recovered and active cases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Illustration of the (a) percentage of active cases in the world via pie chart (b) number of active cases in different countries via bubble graph Fig. 6 presents the cumulative number of confirmed, recovered and death cases from 22 January to 4 June 2020, Fig. 6(a) for the case of China and Fig. 6(b) for rest of the world. From Fig. 6(a), it is observed that since early March 2020, the number of confirmed cases and number of deaths in China have become somewhat stable, while the number of recovered patients has increased greatly. This indicates the success of China in overcoming the spread of the virus. On the other hand, Fig. 6(b) reflects that the number of confirmed cases, deaths and recovered cases are increasing outside China since early March 2020. Fig. 7 presents a horizontal bar chart of confirmed/recovered/death cases in Hubei province of China, other provinces of China and the rest of the world. Most of the cases in China are in the Hubei province. The bar chart shows that the number of infections and the number of deaths in Hubei are 68135 and 4512, respectively. On the other hand, number of infections and deaths in other Chinese provinces are 16036 and 126, respectively. This indicates that China has successfully managed to stop the spread of COVID-19 from Hubei to other provinces. It can also be seen that number of infections and deaths in the rest of the world are 6,548,807 and 386,498, respectively. Graphs showing the confirmed, recovered and death cases over time, (a) for China (b) for rest of the world (ROW) Horizontal bar chart showing the confirmed, recovered and death cases for Hubei, other Chinese provinces and for the rest of the world.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Divide the data and assign the full dataset (except the target) to x 4. Assign the target to y 5. Obtain n number of features 6. Find the ranking or scores of features 7. Find the new variable _x new with only the n best features Again, using the concept of classification reported in[28], the process of classification and regression are shown in Algorithm 2:Algorithm 2: Classification/Regression ProcessInput: A datasetOutput: Predicted value, accuracy value Process:1. Import several packages and classes for the particular classifierDivide the data and assign the full dataset (except the target) to x . If feature selection is done, then x is converted to _ x new using algorithm 1 6. Assign the target to y 7. Split the dataset into training and testing portions:(i) for holdout method, randomly split the dataset into a testing group and a training group (ii) for k fold cross validation method, split the dataset into k equal sized groups where one group is used for testing and the rest for training, and finally average the performance across kpredictions 8. Create an instance of the model of a particular classifier/regressor 9. Fit the model instance with training data 10. Predict the target with testing data 11. Evaluate the classification predictions in terms of accuracy, and evaluate the regression predictions in terms of coefficient of determination.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "confirmed cases over time and predicting the future evolution, regression is considered. There are a number of regressors in machine learning, in this paper two widely used algorithms named linear regression and polynomial algorithms are considered. Linear regression is popular for simple algorithm and for a having well-known features. Linear regression finds an equation that ensures the smallest difference among the observed sample values and the corresponding fitted sample values. Polynomial regression is a special form of regression where the relationship between independent and dependent variable are modelled as a polynomial of n-th degree in the independent variable. The regression prediction can be evaluated by a number of metrics, but we will consider one of the popular metrics known as coefficient of determination or R). This 2 R term is considered as a goodness of fit of a model and measures how good the predictions approximate or fit the actual data samples. In other words, it measures the scatter of the data points around the fitted regression line. A value of 2 1 R = means that the predictions from the regression model perfectly fit to the actual data samples. In this case, dataset [23] is used for regression where the number of days is the independent variable and the confirmed cases is the dependent variable. The regression line is plotted using the steps described in Algorithm 2 and then applying the .plt() function. Recently there has been a number of research papers that consider regression for predicting the number of confirmed COVID-19 cases, for example the work in [30] develops a regression model for the case of India. In the following, regression models are used on the number of confirmed cases in the world available in the dataset [23]. The regression part version of Algorithm 2 reported in Section 4.1 is used to model the trend of the confirmed cases over time.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "the actual and predicted confirmed cases for polynomial regression of order 2 for test size of 20%. In this figure, x-axis indicates the number of days 0 indicates 22 January 2020 and y-axis represents the number of confirmed cases. From the dashed line which represents the predicted values one can predict the confirmed infection cases for a future day. For example, if the curve is extended for 30 more days, we can estimate what will be number of cases after 1 month assuming the increase in number follows the current pattern. Table 4 presents the predicted confirmed cases for future days with respect to 4 June 2020, the last day of the dataset. The predicted values are calculated using the model for polynomial regression of degree 2 shown in equation 2, and the values of the parameters of the model (test size 20%) given in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Number of confirmed cases versus the number of days starting from 22 January 2020. The green solid line is for actual data and the dashed lines are for predicted ones.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "patients. One dataset is recently uploaded at[31]  which contains 5644 samples with 111 attributes provided by Hospital Israelita Albert Einstein, Brazil. This dataset contains anonymized data samples collected by RT-PCR and additional laboratory tests during a visit to the hospital. In a recent preprint paper[32], some results are provided on the diagnosis of COVID-19 patients using a subset of the dataset in[31].First of all, preprocessing is done to process and standardize null values and categorical data.The attributes that have more than 99.80% null values in positive samples are dropped as these attributes are unlikely to predict positive cases. The records with mostly null values are also removed. This way the processed dataset has 1091 records and 61 columns. The target feature is converted to make positive samples or virus infected patients as '1' and negative samples or normal persons as '0'. Next, feature selection is performed using the steps shown in Algorithm 1 of Section 4.1. This provides us the ranking of all the features. The most 10 influential features are shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "classification algorithms are applied on the processed dataset to classify the COVID-19 positive patients from all suspected patients in the dataset. There are many popular classification algorithms including support vector machine (SVM), k nearest neighbors (kNN), XGBoost, multilayer perceptron (MLP), logistic regression (LR) and decision tree (DT), random forest (RF), majority voting and other ensemble methods. The parameters of these classifiers can also be varied to find the best result for a particular scenario. In this case, XGBoost, MLP, KNN, LR and DT are considered as these provide more promising results than others in our experiments.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "based ensemble classifier having a gradient boosting framework. It is designed for optimal hardware usage. MLP is a form of feed forward artificial neural network and composed of multiple layers of artificial neurons termed as perceptrons. In MLP algorithm, a perceptron uses an activation function which maps the weighted input of each neuron. In KNN, classification is performed by a plurality vote of the k neighbors where the output class is the one most closest to the neighbors. kNN is a non-parametric simple and versatile algorithm. Its implementation is easy, but the functioning gets slower with increase in the number of predictor variables. LR functions according to the concept of probability. LR is a form of classification algorithm where the observations are assigned to discrete classes with a logistic sigmoid function. This algorithm can be of three different types: binomial, multinomial and ordinal. In DT classifier, data are continuously split into subsets, then split into even smaller subsets, and this process continues until the data within the subsets become near homogenous. The structure of a DT is similar to flow-chart where each non-leaf nodes represent a test on an attribute, a branch represents the outcome of a test and each terminal node represent a class label. Moreover, DT algorithm is easy to interpret and performs well with large datasets.For our experiments, the steps in Algorithm 2 of Section 4.1 that are for classifiers and for cross validation are considered. In this case a 20 fold cross validation is performed to split the dataset into training and testing portions. These performance of the classifiers are measures in terms of precision, recall, F1 score, area under the receiver operating characteristic curve (ROC)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "To find the basic reproductive number of this virus. 4. To find the effect on pregnancy of different stages on COVID-19 patients and their newborns. 5. To find the effect of this virus on patients having heart disease, lungs problem, kidney disease, liver disease, cancers and other diseases. 6. To find the effect of isolation or quarantine on the spread of this coronavirus. For example, we can analyze the data of China, where the spread of this disease has slowed down after applying strict quarantine measures. 7. To find the effect of travel ban and school closure on the spreading of the virus. 8. To predict the effect of different vaccinations and treatments on COVID-19 patients. This prediction can be done by analyzing datasets of other viral diseases that have vaccination/treatment attributes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "As of 04 June 2020, the disease is now in 213 countries and territories, with the USA having the highest confirmed cases of the world. Since early March 2020, the situation in China has improved due to a number of steps taken including strict quarantine measures and travel bans. Currently there is no effective treatment for COVID-19, the existing treatments are only for the symptoms. Hence, investigation into the pathogenesis of this infection is important for finding its appropriate treatment. It is shown here that the current increase in the number of confirmed cases over time can be modelled by polynomial regression of degree 2. However, new models have to be developed to reliably predict the future number of confirmed cases considering continuation and relaxation of lockdowns and other aspects. It is also shown in this work, that MLP, XGBoost and LR can reliably classify COVID-19 patients found in a dataset of Hospital Israelita Albert Einstein, Brazil. However, the effectiveness of the classifiers should be validated on a more reliable and larger dataset. With the use of machine learning and with the availability of data on important features, automatic predictions can be made on the possibility of a suspected person to have COVID-19. In future it is believed that different types of coronavirus outbreaks will continue originating from animals for example bats. Hence continuous research is required in the investigation of current and any future coronaviruses.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "shows 20 countries that have the highest confirmed cases. Apart from the number of confirmed infection cases, Table 1 also presents the number of recovered patients, the number of active cases, the number of deaths, death rate and recovery rate. It can be seen that most of the confirmed cases are in the USA. After the USA, the countries with most confirmed cases are Brazil, Russia, UK, Spain, Italy, India, and France. It can be seen from [22] that on 16 February",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Spread of COVID-19 across the globe Country Confirmed Deaths Recovered Active Death Rate Recovered Rate Next, COVID-19, a pandemic, is compared with other recent epidemics using four datasets available in Kaggle [24-27]. Table 2 provides a comparison of COVID-19 with EBOLA, SARS, H1N1 and MERS diseases. It can be seen that compared to EBOLA, SARS and MERS, the number of affected people by COVID-19 is much higher. However, H1N1 disease having a low",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Comparison of COVID-19 with other epidemicsEpidemic/pandemic Start year End year confirmed deaths death rateNext, using the dataset in [23], a number of illustrations are shown.Fig. 1shows the bar chart of confirmed cases and death cases in different countries. It indicates that the number of confirmed cases and death cases of the disease are significantly higher in the USA than any other countries.Spain has the second and Italy has the third highest confirmed cases, while Italy has the second and the UK has the third highest death cases. An important point to note here that although China experienced the most number of confirmed cases up to 16 February 2020[22], it is now in the 18 th position in the world in terms of the number of confirmed cases and death cases.Fig. 2shows the bar chart of death rate across the globe. In this case, death rate is represented as the ratio of number of deaths to number of confirmed cases.The largest death rate is in Yemen being 22.74%. The Belgium, France and Italy have the 2 nd , 3 rd and 4 th highest death rates being 16.25%, 15.33% and 14.40%, respectively.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "The values of a, b and c are estimated by a type of linear least squares known as ordinary least squares method. penalizes for the addition of input variables that are uncorrelated with the outcome variable.Hence, adjusted R 2 is a better metric than R 2 for practical use case scenarios and for fairly comparing different models. Experiments are performed in Python language to compare the different models in modelling the number of confirmed cases in the world. It is observed from the experiment that the highest value of R 2 and adjusted R 2 are obtained for polynomial regression of degree 2. For a test size of 20% and a training size of 80% of the data samples,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Values of the metric and parameters for polynomial regression of degree 2",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Predicted confirmed cases",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Ranking of the features of the dataset",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "shows the performance comparison of these algorithms. It can be seen that MLP has the highest testing accuracy value of 93.13%, while LR and XGBoost have the testing accuracy values of 92.12% and 91.57%, respectively. This means that the MLP can 93.13% accurately classify a negative (normal) case as normal and a positive (infected) case as infected. In other words, any classification test with MLP for this dataset has 93.13% probability to be correct. Table 6 also shows that MLP has the highest AUC value 96.70%. This means that the classifier can successfully separate the positive and negative classes of the COVID-19 suspected patients with 96.70% probability. In addition, MLP has the highest values of precision, recall and F1 score, all being 93%. Note that the 93% recall value of MLP means that the classifier identifies patients having the disease at 93% accuracy. In other words, if a patient is diagnosed as negative (normal) there is only 7% chance that the test is inaccurate. Both XGBoost and LR have precision, recall and F1 score values equal to or greater than 92%. Hence, among the classifiers considered, MLP, XGBoost and LR are good choices for classifying this specific dataset and thus predict COVID-19 patients reliably.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Performance Comparison of the classifiers",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

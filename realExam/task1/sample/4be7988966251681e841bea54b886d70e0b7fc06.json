@@ -1,0 +1,845 @@
+{
+    "paper_id": "4be7988966251681e841bea54b886d70e0b7fc06",
+    "metadata": {
+        "title": "Commentary: COVID in Care Homes - Challenges and Dilemmas in Healthcare Delivery",
+        "authors": [
+            {
+                "first": "Adam",
+                "middle": [
+                    "L"
+                ],
+                "last": "Gordon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Nottingham",
+                    "location": {
+                        "country": "UK"
+                    }
+                },
+                "email": "adam.gordon@nottingham.ac.uk"
+            },
+            {
+                "first": "Claire",
+                "middle": [],
+                "last": "Goodman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Centre for Research in Public Health and Community Care (CRIPACC)",
+                    "institution": "University of Hertfordshire",
+                    "location": {
+                        "settlement": "Hatfield",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wilco",
+                "middle": [],
+                "last": "Achterberg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Leiden University Medical Centre",
+                    "location": {
+                        "settlement": "Leiden",
+                        "country": "The Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robert",
+                "middle": [
+                    "O"
+                ],
+                "last": "Barker",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Newcastle University",
+                    "location": {
+                        "settlement": "Newcastle",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eileen",
+                "middle": [],
+                "last": "Burns",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Leeds Teaching Hospitals NHS Trust",
+                    "location": {
+                        "settlement": "Leeds, London",
+                        "country": "UK., UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Barbara",
+                "middle": [],
+                "last": "Hanratty",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Newcastle University",
+                    "location": {
+                        "settlement": "Newcastle",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Finbarr",
+                "middle": [
+                    "C"
+                ],
+                "last": "Martin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Julienne",
+                "middle": [],
+                "last": "Meyer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Desmond",
+                "middle": [],
+                "last": "O&apos;neill",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jos",
+                "middle": [],
+                "last": "Schols",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [],
+                "last": "Spilsbury",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Adam",
+                "middle": [],
+                "last": "Gordon",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Claire Goodman is an NIHR Senior Investigator.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Declaration of sources of funding: None",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The incidence and case fatality rate from COVID-19 in care homes is, as yet, unclear. National strategies for testing have varied. In the UK, there was no consistent national strategy to diagnose COVID-19 and to collate mortality data from care homes early in the pandemic. As data reporting improved, the Office of National Statistics reported a doubling of care home COVID-19 deaths between 19 th and 24 th April 1 . Internationally, 19-72% of total COVID-19 deaths have been reported in care homes 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "By virtue of prevalent frailty, multimorbidity and disability 3 , care home residents will remain vulnerable to COVID-19 until effective vaccines are developed. Such vaccines, at present, remain an aspiration. It is possible that, as for influenza, immunity rates following vaccination will be lower in care home residents 4 as a consequence of immunosenescence. In this scenario, COVID outbreaks, like influenza outbreaks, could become a longstanding feature of care home work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This article provides a commentary on early and ongoing dilemmas that have faced clinicians and care home staff involved in planning and delivering care during the COVID-19 pandemic, and which have implications for how COVID-19 is managed in care homes longer term.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We focus predominantly on the UK, highlighting complementary experiences from the Netherlands and Ireland with a view on exploring principles which are generalisable and of international relevance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 frequently presents atypically in care home residents 5 . Pyrexia, diarrhoea and delirium are common presentations, frequently in advance or absence of respiratory symptoms. Non-specific symptoms such as anorexia and decreased mobility may be the only presenting features but have next to now specificity for COVID-19, since they are common presentations of many illnesses in older people. Early recommendations from the British Geriatrics Society (BGS) focussed on vigilance and a low threshold for a working diagnosis of COVID-19 6 . However, these recommendations are now challenged by international data suggesting pre-symptomatic carriage of SARS-CoV-2 in up to 56% of residents. These residents are asymptomatic at the time of testing but go onto develop COVID-19 7 .",
+            "cite_spans": [
+                {
+                    "start": 541,
+                    "end": 542,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Diagnosis and testing"
+        },
+        {
+            "text": "One response has been to recommend blanket testing of care home residents and staff to establish true prevalence and isolate carriers 8 . This is now permitted in the UK and is",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 135,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Diagnosis and testing"
+        },
+        {
+            "text": "well underway in Ireland. Yet whether such testing should be repeated as part of surveillance, and the optimal frequency of repeat testing, remains unclear. A negative test does not mean that a resident or staff member will be negative one week later, even if asymptomatic. Blanket testing also increases the likelihood that a resident tests positive but remains asymptomatic for 14 days, or tests positive over 14 days post recovery from symptoms. There are no evidence-based guidelines on how to approach such cases and it is clear that care home staff will require senior healthcare support to interpret and respond to swab results. In addition, blanket testing of staff requires contingency plans for temporary backfilling of staff found to be SARS-CoV-2 positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Diagnosis and testing"
+        },
+        {
+            "text": "Current tests for COVID-19, using nasopharyngeal swabs for polymerase chain reaction analysis have a false negative rate of up to 51% 9 . The corollary is that, once COVID-19 infection is suspected in a resident, they should be moved out of isolation only with caution, even with negative swabs. An appropriately cautious approach is for residents who swab negative, but who have symptoms, to remain in isolation for the full duration recommended in public health guidance 10 .",
+            "cite_spans": [
+                {
+                    "start": 473,
+                    "end": 475,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Diagnosis and testing"
+        },
+        {
+            "text": "The BGS Care Homes COVID-19 guidance recommends that residents are managed in their rooms as much as possible throughout the pandemic 6 . This represents a shielding measure to minimise transmission of COVID-19 by asymptomatic carriers but poses significant challenges.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 135,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Isolation"
+        },
+        {
+            "text": "Care homes are residents' homes. Restricting movement represents a significant loss of autonomy, with psychological and physical harms associated with social isolation and immobility 11 . These need to be weighed against potential harms to the resident and others if free movement is allowed.",
+            "cite_spans": [
+                {
+                    "start": 183,
+                    "end": 185,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Isolation"
+        },
+        {
+            "text": "The decision to isolate people in their rooms also raises practical difficulties. Although staff are present around the clock, staffing ratios mean that each resident receives between 3.1 and 4.8 hours of staff time per day 12 . Safe staffing is predicated on residents spending significant time in common areas. Managing residents, up to three quarters of whom have cognitive impairment 3 , in isolation in bedrooms, challenges staffing and places residents at risk of falls and injury due to lack of supervision. Longstanding issues with staffing care homes have been exacerbated by the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Isolation"
+        },
+        {
+            "text": "In the UK, Care England have reported that around one-third of care home employees are either isolating or have symptoms of coronavirus and some homes have reported 10-50% of staff absent on any day 13 . Similar rates of absence have been experienced in the Netherlands and Ireland.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 201,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Isolation"
+        },
+        {
+            "text": "About two thirds of care home residents have behavioural, or \"responsive\", symptoms associated with dementia 3 . If a resident chooses to walk with purpose out of their room, this can be difficult to prevent. It has taken years of campaigning to minimise the use of restraint and sedation in long term care and we must resist rapidly relinquishing progress that care homes have campaigned for and achieved. In the UK, it is likely that the optimal way to adequately support residents to remain in their room is to provide additional staffing from outside the care home. This will need rapid reconfiguration of how the National Health Service (NHS) and care home providers work together to identify and respond to staffing issues in care homes. Emerging strategies to zone care homes into COVID positive and negative areas may have some promise 14 .",
+            "cite_spans": [
+                {
+                    "start": 844,
+                    "end": 846,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Isolation"
+        },
+        {
+            "text": "The failure to provide care homes with adequate stocks of appropriate Personal Protective Equipment (PPE) has received much coverage in the lay media. This has been an issue in most countries and whilst root causes vary they are almost universally",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Personal Protective Equipment"
+        },
+        {
+            "text": "organisational. In the UK, care homes have long been outside NHS supply chains and their ability to procure PPE has been hampered by the NHS adopting a monopoly purchaser role during the pandemic. Care homes can see rapid increases in the number of residents requiring barrier care in the first few hours or days of an outbreak, which can quickly outstrip the small stocks they are able to hold. More responsive supply chains are required. It is illogical for care homes to have to compete against the NHS for supplies to support an organised response to COVID-19, integration of procurement and supply chains are a logical response, at least for the duration of the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Personal Protective Equipment"
+        },
+        {
+            "text": "Advance Care Planning (ACP) can modify clinical trajectories and improve outcomes for care home residents when deployed appropriately 15 . Most care home residents and relatives will by now have reflected on what COVID-19 means for them and it is sensible to explore issues around future care plans in the context of a pandemic which disproportionately affects older people living with frailty.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 136,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Advance care planning"
+        },
+        {
+            "text": "COVID-19 has challenged a number of the tenets that would underpin effective conversations around advance care planning. It has sometimes been difficult to have discussions face-to-face, due to shielding measures affecting residents, and family members and friends who may act as consultees. Misjudged attempts at blanket approaches to ACP have been appropriately criticised in the lay media. This exposure has led to some residents and families holding negative perceptions about advance care planning, which teams must explore and address before it is possible to discuss residents' wishes. Adverse media coverage has also focussed on the worry that some care home residents have been unable to access hospital care. It is important to recognise that an advance care plan which states a desire to be transferred to hospital in the event of deterioration provides care home, primary and secondary care staff with an opportunity to advocate on behalf the resident to ensure that they get appropriate access to secondary care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Advance care planning"
+        },
+        {
+            "text": "Care home staff are exhausted by this pandemic. Ensuring adequate medical or senior nursing support for individualised discussions, whilst enabling care home staff to play a role, must be a cornerstone of practice, as well as ensuring adequate medical and nursing input in the care home should the resident choose against transfer to hospital if their medical status deteriorates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Advance care planning"
+        },
+        {
+            "text": "A proportion of people with COVID-19 have mild symptoms, a proportion do not survive regardless of the intervention given, and a proportion recover with supportive therapy 7 . For the latter category, provision of subcutaneous fluids and oxygen in the care home setting may avoid the need for hospital admission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Augmented medical support in care homes"
+        },
+        {
+            "text": "There are challenges associated with this. Such practices are routine in the Netherlands where Elderly Care Physicians provide support to care homes. In the UK, care homes do not have standard specifications for medical cover nor doctors in residence and, despite improvements in GP support associated with the Enhanced Health in Care Homes programme 16 , the level of support that can be delivered remains variable. Whilst many care homes already care for residents on low flow oxygen for chronic obstructive pulmonary disease and have standard operating procedures for this, this is not the case for subcutaneous fluids. It is unclear whether staff can be provided with necessary competencies and have capacity to take on such extended roles in the midst of a crisis. This could, however, be an opportunity for better partnership working between care homes and community healthcare professionals, for example, GPs, nurses, geriatricians, dementia specialists, and palliative care teams. It is clear, though, that multiple visiting professionals are suboptimal in the context of a pandemic and the crisis has further",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 353,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Augmented medical support in care homes"
+        },
+        {
+            "text": "highlighted the importance of access to training and development opportunities for care home staff to ensure they are equipped with the skills and competencies to meet the changing health care needs of residents.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Augmented medical support in care homes"
+        },
+        {
+            "text": "The psychological impact of COVID-19 on healthcare staff has been well described. This is a highly infectious condition with high mortality rates and no cure. Staff are left providing support but often feel impotent. Care home staff look after their residents for months and years, building close relationships with them. Some care homes have reported a 10-fold increase in mortality during the COVID outbreak, with up to a quarter of residents dying within a week. Three quarters of UK health and social care staff surveyed during the pandemic felt that government could have done more to support them and up to a fifth had considered leaving their profession as a consequence of COVID-19 17 . If we are to avoid significant mental health issues for care home staff at the end of the pandemic and retain motivated and expert staff in the sector then systematic, high-quality psychological support for them needs to be built into our international response to COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 690,
+                    "end": 692,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Psychological impact of COVID-19"
+        },
+        {
+            "text": "These dilemmas lay bare the interdependency of health and social care. The arbitrary distinction between these sectors has long been challenged by academics and clinicians 18 . The losses and difficulties faced by the care home sector have simply emphasised systemic issues -endemic underfunding, failure to integrate needs-based health care paradigms into policy and practice, lack of integration between the public and private sectors, and lack of recognition and regard -all of which are obstacles good healthcare in care homes. For each UK example reported in this commentary, there are similar experiences in the Republic of Ireland and the Netherlands and reports from the care home sector internationally suggest that there have been similar experiences in many countries 19 . It is clear that we have some way to go, in the UK and internationally, to ensure that the sector is adequately recognised, resourced, equipped and integrated with acute healthcare provision to play its role as a cornerstone of health and social care. Political will to address this has hitherto been lacking. The hope is that learning and insights from the hard work of the care home sector through the COVID pandemic will provide long overdue impetus. ",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 174,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 779,
+                    "end": 781,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The future"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Office of National Statistics. Comparison of weekly death occurrences in England and Wales: up to week ending",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Mortality associated with COVID-19 outbreaks in care homes: early international evidence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Comas-Herrera",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zalaka\u00edn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Litwin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Health status of UK care home residents: a cohort study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Franklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bradshaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Age Ageing",
+            "volume": "43",
+            "issn": "",
+            "pages": "97--103",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ageing/aft077"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Response to influenza vaccination in community and in nursing home residing elderly: Relation to clinical factors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Muszkat",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dannenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Exp Gerontol",
+            "volume": "38",
+            "issn": "",
+            "pages": "1199--203",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.exger.2003.07.004"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus Disease 2019 in Geriatrics and Long-Term Care: The ABCDs of COVID-19",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "D&apos;adamo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yoshikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ouslander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Am Geriatr Soc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jgs.16445"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 -Managing the COVID pandemic in Care Homes for Older People",
+            "authors": [],
+            "year": null,
+            "venue": "British Geriatrics Society",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Presymptomatic SARS-CoV-2 Infections and Transmission in a Skilled Nursing Facility",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Arons",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hatfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2008457"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Coronavirus: Millions More to Be Eligible for Testing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bbc News",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Analysis and Prediction of COVID-19 Patients' False Negative Results for SARS-CoV-2 Detection with Pharyngeal Swab Specimen: A Retrospective Study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.26.20043042"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Admission and Care of Residents during COVID-19 Incident in a Care Home",
+            "authors": [
+                {
+                    "first": "Public",
+                    "middle": [],
+                    "last": "Health England",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Social isolation, loneliness and health in old age: a scoping review",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Courtin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Health Soc Care Community",
+            "volume": "25",
+            "issn": "",
+            "pages": "799--812",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/hsc.12311"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The relationship between nurse staffing and quality of care in nursing homes: A systematic review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Spilsbury",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hewitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stirk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Int. J. Nurs. Stud",
+            "volume": "48",
+            "issn": "",
+            "pages": "732--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijnurstu.2011.02.014"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Care Homes Struggle with Wave of COVID-19 Cases",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Care Homes Strategy for Infection Prevention & Control of Covid-19 Based on Clear Delineation of Risk Zones",
+            "authors": [
+                {
+                    "first": "Eric",
+                    "middle": [],
+                    "last": "Fewster",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Advance care planning: A systematic review of randomised controlled trials conducted with older adults",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Weathers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "O&apos;caoimh",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cornally",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Maturitas",
+            "volume": "91",
+            "issn": "",
+            "pages": "101--110",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.maturitas.2016.06.016"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "New Care Models: The Framework for enhanced health in care homes",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Nhs England",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Care Fit For Carers: Ensuring the Safety and Welfare of NHS and Social Care Workers During and After COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Commission on the Future of Health and Social Care in England",
+            "authors": [],
+            "year": null,
+            "venue": "The Kings Fund",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "International Reports on COVID-19 and long-term care",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ltc-Covid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

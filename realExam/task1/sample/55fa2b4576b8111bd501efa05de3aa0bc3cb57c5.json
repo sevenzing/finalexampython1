@@ -1,0 +1,884 @@
+{
+    "paper_id": "55fa2b4576b8111bd501efa05de3aa0bc3cb57c5",
+    "metadata": {
+        "title": "Title: Strengthening our Intuition about Elder Abuse",
+        "authors": [
+            {
+                "first": "Timothy",
+                "middle": [
+                    "F"
+                ],
+                "last": "Platts-Mills",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of North Carolina",
+                    "location": {
+                        "addrLine": "Chapel Hill",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [],
+                "last": "Hurka-Richardson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of North Carolina",
+                    "location": {
+                        "addrLine": "Chapel Hill",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "\"Intuition does not come to an unprepared mind.\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Over the past two decades the field of geriatric emergency medicine has grown from a handful of clinical researchers mostly in the U.S. to a global multidisciplinary subspecialty with active growth in policy and advocacy, clinical practice, and research. A few notable steps along the way include the publication of the Geriatric Emergency Department (ED) guidelines, 1 the development of the Geriatric ED Accreditation Program (now with over 100 accredited EDs), 2 the founding of Geriatric Emergency Medicine sections within European academic medicine societies, 3, 4 and federal funding of geriatric emergency medicine research networks. 5 In some ways, the development of geriatric emergency medicine was inevitable. Older adults account for more than 20 million ED visits annually in the U.S., 6 and even if your department doesn't have a geriatric ED, you, your colleagues, and your administrators are likely well aware of both the pleasures and the challenges of caring for older adults. Examples of the latter include subtle presentations of serious illness, the difficulty of finding a safe disposition for patients with minor injury or illness but for whom going home is no longer safe, the high prevalence of non-medical problems that impact health outcomes, and the importance of assessing cognition, physical function, and goals of care. 7-11 The disproportionate effect of the coronavirus disease-19 (COVID-19) pandemic on older adults 12 has shifted EDs in areas of high 2 viral prevalence even further toward needing specialized care for older adults. The pandemic has also highlighted this population's unique vulnerabilities.",
+            "cite_spans": [
+                {
+                    "start": 565,
+                    "end": 567,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 568,
+                    "end": 569,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 641,
+                    "end": 642,
+                    "text": "5",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "Of the many vulnerabilities faced by older adults, one of the most serious yet least often recognized is predation or neglect by other humans. Before the coronavirus pandemic, elder abuse was already a common problem. In the U.S., the prevalence of elder abuse during the past year in community dwelling older adults is estimated to be 10%, and is substantially higher in institutionalized elderly. 13, 14 A recent review of elder abuse prevalence from 52 studies in 28 countries found a pooled estimate of 16%. 15 Victims of elder abuse preferentially depend on EDs for care, 16 but there are no well conducted ED prevalence studies. We believe the prevalence of ongoing elder abuse that impacts the patient's wellbeing in ED patients is at least 5%. 9, 17 Not surprisingly, the burden of the coronavirus pandemic has fallen hardest on those least prepared for it. Numerous sources have reported increases in the rates and severity of elder abuse in the community, 18 and of neglect, or even complete abandonment of nursing home patients. 19, 20 Reduced access to community resources, loss of income and housing, and increased substance abuse are likely contributing factors. If elder abuse were a mountain, that mountain is large, is right outside our doorsteps, and in the past few months has grown much bigger. It is also a mountain that we have failed to climb; arguably we haven't even established a proper basecamp.",
+            "cite_spans": [
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "13,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 403,
+                    "end": 405,
+                    "text": "14",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 512,
+                    "end": 514,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 577,
+                    "end": 579,
+                    "text": "16",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 752,
+                    "end": 754,
+                    "text": "9,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 755,
+                    "end": 757,
+                    "text": "17",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 966,
+                    "end": 968,
+                    "text": "18",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1040,
+                    "end": 1043,
+                    "text": "19,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1044,
+                    "end": 1046,
+                    "text": "20",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "In this issue of Annals, Rosen and colleagues present the results of a carefully conducted study to identify physical patterns associated with elder abuse. 21 The authors examined the records of successfully prosecuted cases and compared the patterns of physical injury in those cases to older adults who presented to the ED after an unintentional fall. The cases were matched based listen. In our experience, victims of elder abuse will disclose their story, but they need some assurance that the person they are speaking to wants to hear it.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 158,
+                    "text": "21",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "Rosen and colleagues' work is successful for several reasons. First, they took a relatively small step forward using careful methods, which in the long run gets the field further than taking a big step with imperfect methods. Second, they take efforts to ensure a rigorous approach to case definitions. Defining whether elder abuse is present or not is a non-trivial challenge. Rosen et al. solve this by using only successfully prosecuted cases in which the perpetrator has been convicted or pled guilty. This approach may not be possible for many ED-based studies, but it is an example of a strong case definition in a field in which there can be a lot of subjectivity. Third, they provide a clinically relevant comparator. Falls are a common reason for ED visits by older adults and result in a wide range of injuries. By comparing injuries resulting from elder abuse to injuries resulting from falls, they give emergency physicians information that they can use to differentiate between etiologies for the patients in front of them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "Although developing a mental picture of elder abuse is important, it is also important to be aware that physical elder abuse is only present in a minority of victims of elder abuse receiving care in the ED. In ED elder abuse screening studies conducted by our group in Chapel Hill, physical abuse accounted for ~18% of the elder abuse cases we identified; psychological abuse, neglect, and financial abuse were each more common than physical abuse. 17 Although subtypes of elder abuse vary depending on study setting, the above mentioned global review found a prevalence of 12% for psychological abuse; 7% for financial abuse, 4% for neglect, 3% for physical abuse, and 1% for sexual abuse. 15 Not all elder abuse is equally severe, but victims of physical abuse are likely at particularly high risk for poor outcomes, and the work of Rosen and colleagues provides much needed insight into this important abuse subtype.",
+            "cite_spans": [
+                {
+                    "start": 449,
+                    "end": 451,
+                    "text": "17",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 691,
+                    "end": 693,
+                    "text": "15",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "To develop our intuition about other types of elder abuse, more research is needed and in the short-term, emergency physicians will need to look beyond the medical literature. Having some sense of the worst cases can help physicians anticipate the kinds of cases that might present to the ED. For starters, you might consider the CNN special report, Sick, Dying and Raped in America's Nursing Homes. 22 Needless to say, this is not a pleasant read, but it is important because it is common: in the past two decades there have been more than 16,000 complaints of sexual abuse in long-term care facilities and numerous nursing homes with repeated offenses. Mishandling of these cases by nursing home administrators is common. You might have thought that was the toughest read, but actually it's not. If you want to get really angry, try The New Yorker article How the Elderly Lose Their Rights. 23 Even if you don't want to get 5 angry, you should read this article, which describes coordinated activities in Las Vegas from approximately 2005 to 2015 by an entrepreneur and a judge to obtain guardianship of older adults and then institutionalize them and take over their assets. Although some of the culprits in the Las Vegas story went to jail, you can be sure that we have not seen the end of these or the many other forms of elder abuse, which is estimated to cost $36.5 billion in the U.S.",
+            "cite_spans": [
+                {
+                    "start": 400,
+                    "end": 402,
+                    "text": "22",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 893,
+                    "end": 895,
+                    "text": "23",
+                    "ref_id": null
+                },
+                {
+                    "start": 926,
+                    "end": 927,
+                    "text": "5",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "annually. 24 Financial abuse may seem like it is beyond the scope of an emergency physician, but its victims are right in front of us all the time, and there is overlap between financial abuse and other forms of abuse.",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 12,
+                    "text": "24",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "There is a blurred line between developing intuition about a disease, which strengthens our clinical acumen, and forming stereotypes for the disease, which can limit us. This is as true for elder abuse as it is for myocardial infarctions. Our experience and the literature indicate that elder abuse is more common in women, but still occurs in men, and that prevalence varies little based on race, ethnicity, formal education, or financial resources. Uncut toe nails, poor oral hygiene, uncared for bed sores, and dirty undergarments should raise concerns, but need to be distinguished from signs of poverty, which is not a risk factor. Similarly we need to be careful about stereotyping the culprit. A son with a substance abuse disorder or a daughter's boyfriend may be a likely suspect in elder abuse, but we have also identified older ED patients who are being abused by their daughters, and one case of a disabled older adult being abused by her (even older) mother.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "Seasoned emergency physicians have an intuition about common serious diseases. They have a sense for what these diseases usually look like, and a sense of the less common presentations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        },
+        {
+            "text": "It is time for emergency physicians to build our intuition about elder abuse, and the pandemic",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "--Albert Einstein"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Optimal older adult emergency care: introducing multidisciplinary geriatric emergency department guidelines from the American College of Emergency Physicians",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bromley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Caterino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Am Geriatr Soc",
+            "volume": "62",
+            "issn": "7",
+            "pages": "1360--1363",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Concepts in Practice: Geriatric Emergency Departments",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Southerland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Biese",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Improving care of older patients in Emergency Medicine throughout Europe",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mooijaart",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A Collaborative Network to Optimize Emergency Care of Older Adults with Alzheimer's Disease",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Prevalence of Nonmedical Problems Among Older Adults Presenting to the Emergency Department",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Richmond",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shenvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Platts-Mills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Acad Emerg Med",
+            "volume": "21",
+            "issn": "6",
+            "pages": "651--658",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Self-Reported Versus Performance-Based Assessments of a Simple Mobility Task Among Older Adults in the Emergency Department",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Roedersheimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Braz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mangipudi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Platts-Mills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ann Emerg Med",
+            "volume": "67",
+            "issn": "2",
+            "pages": "151--156",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Goals-of-Care Conversations for Older Adults With Serious Illness in the Emergency Department: Challenges and Opportunities",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ouchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "George",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schuur",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Emerg Med",
+            "volume": "74",
+            "issn": "2",
+            "pages": "276--284",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narasimhan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Prevalence and Correlates of Emotional, Physical, Sexual, and Financial Abuse and Potential Neglect in the United States: The National Elder Mistreatment Study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Acierno",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Amstadter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Am J Public Health",
+            "volume": "100",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The Prevalence of Resident-to-Resident Elder Mistreatment in Nursing Homes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lachs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Teresi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ramirez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ann Intern Med",
+            "volume": "165",
+            "issn": "4",
+            "pages": "229--236",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Elder abuse prevalence in community settings: a systematic review and meta-analysis. The Lancet Global Health",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mikton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gassoumis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wilber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "147--156",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Prospective study of the elder self-neglect and ED use in a community population",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Emerg Med",
+            "volume": "30",
+            "issn": "4",
+            "pages": "553--561",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Development of the Emergency Department Senior Abuse Identification (ED Senior AID) tool",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Platts-Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dayaa",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Reeve",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Elder Abuse Negl",
+            "volume": "",
+            "issn": "",
+            "pages": "1--24",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Coronavirus restrictions lead to rise in elder abuse cases, advocates say",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mckenna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A Deluged System Leaves Some Elderly to Die, Rocking Spain's Self-Image. The",
+            "authors": [
+                {
+                    "first": "Minder",
+                    "middle": [],
+                    "last": "Rap",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Elian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Abandoned By Caretakers, 83 Nursing Home Patients Evacuated. Patch2020;Health and Fitness",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mcallister Taps",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Identifying Injury Patterns Associated with Physical Elder Abuse: Analysis of Legally Adjudicated Cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rosen",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lofaso",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bloemen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reisig",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gogia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Elman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Markarian",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Flomenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lachs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Emerg Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Sick, Dying, and Raped in America's Nursing Homes. CNN2017;CNN Investigations 23",
+            "authors": [
+                {
+                    "first": "Hicken",
+                    "middle": [],
+                    "last": "Beam",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "How the Elderly Lose Their Rights",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Aviv",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "The New Yorker. October 9",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "on age, gender, and community or institutional living. The results give us a literal, if grim, picture of the physical findings of elder abuse. Injuries (mostly bruises, abrasions, and lacerations) of the head, face, neck, chest, abdomen, and back are substantially more common in older adults who are victims of elder abuse than in those who fall. Bruising around the eyes and cheeks are particularly specific for elder abuse. An older adult who presents with an isolated forearm fracture may have fallen or may have been pushed; it's worth asking a few questions to understand what happened. For patients with injuries of the face, head, or upper torso, you should ask more questions. For all patients, you should pause for a moment and",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

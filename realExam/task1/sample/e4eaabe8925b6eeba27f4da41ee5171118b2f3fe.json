@@ -1,0 +1,1033 @@
+{
+    "paper_id": "e4eaabe8925b6eeba27f4da41ee5171118b2f3fe",
+    "metadata": {
+        "title": "Progress in Pediatric Cardiology associated Multisystem Inflammatory Syndrome in Children (MIS-C) guidelines; a Western New York approach",
+        "authors": [
+            {
+                "first": "Teresa",
+                "middle": [
+                    "R"
+                ],
+                "last": "Hennon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michelle",
+                "middle": [
+                    "D"
+                ],
+                "last": "Penque",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rabheh",
+                "middle": [],
+                "last": "Abdul-Aziz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Omar",
+                "middle": [
+                    "S"
+                ],
+                "last": "Alibrahim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Megan",
+                "middle": [
+                    "B"
+                ],
+                "last": "Mcgreevy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [
+                    "J"
+                ],
+                "last": "Prout",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Beverly",
+                "middle": [
+                    "A"
+                ],
+                "last": "Schaefer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Steven",
+                "middle": [
+                    "J"
+                ],
+                "last": "Ambrusko",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [
+                    "V"
+                ],
+                "last": "Pastore",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stephen",
+                "middle": [
+                    "J"
+                ],
+                "last": "Turkovich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Oscar",
+                "middle": [
+                    "G"
+                ],
+                "last": "Gomez-Duarte",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "D"
+                ],
+                "last": "Hicar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University at Buffalo Jacobs School of Medicine and Biomedical Sciences",
+                    "location": {
+                        "settlement": "Buffalo",
+                        "region": "NY",
+                        "country": "United States of America"
+                    }
+                },
+                "email": "markhica@buffalo.edu"
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "Daniel"
+                ],
+                "last": "Hicar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Journal Pre-proof J o u r n a l P r e -p r o o f Conflict of Interest: Authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "COVID-19, a severe viral respiratory infection caused by SARS-CoV-2, affects all age groups, yet it is more severe in elderly and individuals with co-morbidities. Recently, a severe multi-system inflammatory syndrome has been reported in individuals less than 21 years of age.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This document details our multidisciplinary approach to this syndrome, and discusses current knowledge on the case definition and clinical manifestations, and proposes guidelines on diagnosis and treatment. As many of these children may deteriorate quickly and initially present to non-tertiary care facilities, a general guide for an approach to such children is warranted. [3] , the United Kingdom [4] , France and Switzerland [5] , and the Center for Disease Control (CDC) has issued an emergency alert [6] .",
+            "cite_spans": [
+                {
+                    "start": 375,
+                    "end": 378,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 400,
+                    "end": 403,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 429,
+                    "end": 432,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 506,
+                    "end": 509,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f rheumatology). Our knowledge of this newly described entity is evolving by the day, as are the proposed diagnostics, pharmacological and non-pharmacological management, and recommendations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The following proposed guidelines were created by a multidisciplinary team at our center consisting of pediatric emergency medicine physicians, hospitalists, intensivists, and specialists in the areas of infectious diseases, cardiology, rheumatology, and hematology (see ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proposed Guidelines for Evaluation"
+        },
+        {
+            "text": "Health care providers in the emergency department face a challenge as fever in children is a common presentation and currently many children have potentially been recently exposed to COVID-19. Patients in whom there is a low index of suspicion presenting with some but not all of the features of MIS-C should be considered for inflammation screening, at minimum, a complete blood count (CBC) and C-reactive protein (CRP) with strong consideration for SARS-CoV-2 PCR and antibody testing. Patients with signs and symptoms fulfilling the case definition of MIS-C (see Figure 1 ) should undergo a more extensive workup. Discussion with local pediatric emergency medicine physicians that serve your area is encouraged for further guidance on the workup of suspected cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 566,
+                    "end": 574,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Initial consideration in the emergency department:"
+        },
+        {
+            "text": "It has been reported that patients can initially be well appearing with reassuring laboratory workup, only to return to the hospital days later with worsening symptoms and rapid clinical deterioration. We propose that the patients evaluated for this condition who are discharged from the emergency department are given MIS-C specific discharge instructions and have a follow-up clinic or telehealth visit within 24-72 hours. Discussion with local pediatric infectious disease physicians that serve your area for questions that may arise during follow-up is recommended.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Proposing detailed criteria for hospital admission is challenging and it will depend on multiple factors. Children initially being evaluated in a rural area or a local emergency department/urgent care center/hospital, should be stabilized and transferred as quickly and safely as possible to a tertiary medical center. Taking into account the European and New York City experiences where many children required intensive care unit (ICU) care, we suggest a pediatric ICU consultation in children meeting MIS-C criteria, and to have a low threshold to transfer to a center with a pediatric ICU if pediatric ICU care is not available. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Criteria for hospitalization:"
+        },
+        {
+            "text": "This will vary depending on initial presentation; we recommend daily laboratory evaluation be done on all hospitalized children depending on the disease classification (see involvement (near normal ventricular function, lower troponins, lower BNPs) and seemed to respond well to care directed at KD [3] . KD shock presentation has been reported in up to 7% of cases of KD previously and is known to have elevations in BNP and troponins [9] with a clinical picture consistent with myocarditis. In the MIS-C cases reported, there have been a number with both inflamed coronaries and shock that would fit into the diagnosis of KD Shock Syndrome, however, not all of these reported patients have been shown to have preceding SARS-CoV-2. It is unclear at this time if these more typical KD cases occurring in this time period are unrelated or a post-infectious complication of SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 299,
+                    "end": 302,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 436,
+                    "end": 439,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hospital course:"
+        },
+        {
+            "text": "In some critically ill children, a cytokine storm syndrome (CSS) appears to develop in response to the virus. This syndrome is characterized by an overproduction of pro-inflammatory cytokines including TNF, IL-6, and IL-1\u03b2 resulting in clinical symptoms of high fevers, rashes, coagulopathy, and neurologic changes, with some progressing to multiple organ failure and death [15] . Lab abnormalities frequently associated with CSS include thrombocytopenia, lymphopenia, and elevations of the following: transaminase levels, D-dimers, lactate dehydrogenase (LDH), coagulation times, CRP, and ferritin (ferritin is often profoundly elevated). This syndrome is very similar to macrophage activation syndrome (MAS) or secondary hemophagocytic lymphohistiocytosis (HLH) which is commonly encountered and treated by rheumatologists. Treatments that have proven effective for treatment of MAS include corticosteroids, anakinra and tocilizumab among others [16] . Early reports, mainly from China, described adult patients that fit the description of COVID-19 associated CSS, and had successful J o u r n a l P r e -p r o o f outcomes after treatment with tocilizumab [17] . For this reason, many across the US have proposed this medication be used if evidence of CSS exists. Many rheumatologists, including our group, would propose using anakinra (IV is suggested specifically as subcutaneous dosing was not found to be as effective in one study) if children have evidence of CSS or are severely ill with multiorgan failure [18] . Anakinra has a quick onset, short half-life (4 hours), large therapeutic window, and a good safety profile. We find this a favorable treatment option; if there is not a quick and adequate response an alternate medication can be considered.",
+            "cite_spans": [
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[15]",
+                    "ref_id": null
+                },
+                {
+                    "start": 948,
+                    "end": 952,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1159,
+                    "end": 1163,
+                    "text": "[17]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1516,
+                    "end": 1520,
+                    "text": "[18]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Rheumatology:"
+        },
+        {
+            "text": "The limited reports available indicate that children with COVID-19 associated MIS-C can deteriorate quickly, so increased index of suspicion and discussion regarding higher level of care (transferring to pediatric tertiary care centers or to intensive care) are warranted early. As outlined herein, a broad initial approach with a multidisciplinary team for those meeting the case definition is crucial for successful outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical and epidemiological features of 36 children with coronavirus disease 2019 (COVID-19) in Zhejiang, China: an observational cohort study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Severe COVID-19 in Children and Young Adults in the Washington, DC Metropolitan Region",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Debiasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Delaney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Pediatr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "An outbreak of severe Kawasaki-like disease at the Italian epicentre of the SARS-CoV-2 epidemic: an observational cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Verdoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gervasoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Hyperinflammatory shock in children during COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Riphagen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gomez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gonzalez-Martinez",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Theocharis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Acute heart failure in multisystem inflammatory syndrome in children (MIS-C) in the context of global SARS-CoV-2 pandemic",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Belhadjer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Meot",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bajolle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Circulation",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Inflammatory Syndrome in Children (MIS-C) Associated with Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "Multisystem",
+                    "middle": [],
+                    "last": "Cdc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Therapeutic role of anakinra, an interleukin-1 receptor antagonist, in the management of secondary hemophagocytic lymphohistiocytosis/sepsis/multiple organ dysfunction/macrophage activating syndrome in critically ill children*",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rajasekaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kruse",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kovey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Pediatr Crit Care Med",
+            "volume": "15",
+            "issn": "5",
+            "pages": "401--409",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical Manifestations of Kawasaki Disease Shock Syndrome",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clin Pediatr (Phila)",
+            "volume": "57",
+            "issn": "4",
+            "pages": "428--435",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Alhazzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "46",
+            "issn": "1",
+            "pages": "10--67",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Surviving Sepsis Campaign: guidelines on the management of critically ill adults with Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Alhazzani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Moller",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Arabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Therapeutic Plasma Exchange in Children With Thrombocytopenia-Associated Multiple Organ Failure: The Thrombocytopenia-Associated Multiple Organ Failure Network Prospective Experience",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fortenberry",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Grunwell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Confirmation of the high cumulative incidence of thrombotic complications in critically ill ICU patients with COVID-19: An updated analysis",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Klok",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kruip",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J M"
+                    ],
+                    "last": "Van Der Meer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb Res",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Incidence of venous thromboembolism in hospitalized patients with COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Middeldorp",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Coppens",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Van Haaps",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemost",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The Rheumatologist's Role in COVID-19",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Cron",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chatham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Rheumatol",
+            "volume": "47",
+            "issn": "5",
+            "pages": "639--642",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The pathogenesis and treatment of the `Cytokine Storm' in COVID-19",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Interleukin-1 blockade with high-dose anakinra in patients with COVID-19, acute respiratory distress syndrome, and hyperinflammation: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cavalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L G"
+                    ],
+                    "last": "Campochiaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Rheumatology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2665-9913(20)30127-2"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Figure Legends: Figure 1: Proposed Guidelines for Evaluation",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Guideline was created following the CDC case definition with input from emergency medicine physicians, hospitalists, intensivists, and specialists in the areas of infectious diseases, cardiology, rheumatology, and hematology",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Hicar: Conceptualization, Visualization, Writing-Original draft preparation, Reviewing and Editing",
+            "authors": [
+                {
+                    "first": "Teresa",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hennon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michelle",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Penque",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mark",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Rabheh Abdul-Aziz",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Writing-Original draft preparation, Reviewing and Editing",
+            "authors": [
+                {
+                    "first": "Oscar",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Alibrahim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Megan",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gomez-Duarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrew",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcgreevy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Beverly",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Prout",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schaefer ; Steven",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Ambrusko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stephen",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pastore",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Turkovich",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Writing-Reviewing and Editing",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The guidelines are based, in part, on reported cases (unpublished and published), recommendations from the CDC, New York State Department of Health, and the Royal College of Pediatrics and Child Health.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". Aspirin dosage may also vary at individual centers. Patients with KD-like illness in high-risk categories (infants, KD shock syndrome, CRP >130 g/dL, admission echo Z score >2.5 or aneurysms, Asian race) should receive IVIG 2g/kg as single infusion with a threeday pulse methylprednisolone. If the presentation is most consistent with KD and there is failureof first line treatment a second dose of IVIG or infliximab (a Tumor necrosis factor (TNF)-alpha inhibitor) could be considered. For critically ill children, decisions regarding thrombosis prophylaxis should be guided by hematology. Some patients have presented with severe inflammation with or without KD features consistent with cytokine storm syndrome (CSS) (see Rheumatology section for a more detailed description). For these patients we would consider use of anakinra and corticosteroids, in particular if they are not responding to supportive care or first line treatments [8]. Anakinra has a short half-life, and quick onset, therefore if the patient does not respond quickly, other medications can be considered.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ". We advise stopping antibiotics if cultures are negative after 48 hours. Children presenting with KD symptoms should be reassessed 24-36 hours after the end of IVIG infusion for evidence of fevers or ongoing inflammation. If clinical inflammation continues or worsens, criteria of KD within early reports of MIS-C generally had less myocardial",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Recent reports from Europe and the United States support the emergence of a new phenomenon with significant hyperinflammatory response in previously healthy asymptomatic children related to SARS-CoV-2 infection. COVID-19 is the clinical presentation of acute disease associated with infection by the betacoronavirus SARS-CoV-2. Severe respiratory disease is the most concerning clinical presentation in adult patients. Initial reports during the pandemic suggested children have milder illness during acute infection [1]. Recent reports suggest a new COVID-19 related clinical syndrome, with significant inflammation and similarities to Kawasaki disease (KD), can present in children. Some children have had features of toxic shock syndrome and myocarditis with cardiogenic shock. Clinical reports have recently been published from the United States [2], Italy",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

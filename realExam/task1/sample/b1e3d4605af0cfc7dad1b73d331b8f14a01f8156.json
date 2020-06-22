@@ -1,0 +1,1528 @@
+{
+    "paper_id": "b1e3d4605af0cfc7dad1b73d331b8f14a01f8156",
+    "metadata": {
+        "title": "COVID-19 and psoriasis: Should we fear for patients treated with biologics?",
+        "authors": [
+            {
+                "first": "Paolo",
+                "middle": [],
+                "last": "Amerio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University G. D'Annunzio",
+                    "location": {
+                        "settlement": "Chieti",
+                        "country": "Italy"
+                    }
+                },
+                "email": "p.amerio@unich.it"
+            },
+            {
+                "first": "Francesca",
+                "middle": [],
+                "last": "Prignano",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Florence",
+                    "location": {
+                        "settlement": "Florence",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Federica",
+                "middle": [],
+                "last": "Giuliani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University G. D'Annunzio",
+                    "location": {
+                        "settlement": "Chieti",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giulio",
+                "middle": [],
+                "last": "Gualdi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University G. D'Annunzio",
+                    "location": {
+                        "settlement": "Chieti",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The new coronavirus pandemic poses question and challenges for dermatologists.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "One of question is if psoriasis patients treated with immunomodulating and immunosuppressive drugs have to discontinue their treatment in the midst of fears for the infection and its consequences. One of the challenges is how can we support our patients in this critical time. Previous coronaviruses outbreaks reports, current published evidences on pathogenesis and on clinical reports of COVID infection in immunosuppressed patients are used to make a scientifically based decision.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "A new coronavirus infection started in China in December 2019 and it quickly spread to other countries in and outside Asia. In January 2020 the world health organization termed this new virus SARS-CoV-2 as it is very similar to the one that caused the SARS outbreak (SARS-CoVs). 1 The ongoing SARS-CoV-2 or COVID 19 pandemic is a great concern for public health and Italy is one of the countries that has the largest outbreak outside mainland China with increasing number of infected people and deaths. 2 Psoriasis is an immune mediated disease that affects almost 3% of population. It is treated targeting effector cytokines identified as crucial in the pathogenesis of this disease: TNF alpha, IL-12-23, IL-17 and IL-23.",
+            "cite_spans": [
+                {
+                    "start": 279,
+                    "end": 280,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 503,
+                    "end": 504,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| BACKGROUND"
+        },
+        {
+            "text": "The usual approach to this disease is to suggest continuous treatment for patients since alteration of therapeutic schedule could enhance the risk of immunogenicity and thus treatment failure. 3 Recently some concern over the possibility that cytokine directed immunosuppressive treatment may be a risk factor for SARS-CoV-2 infection in psoriasis patients has been expressed. 4 The pandemic scenario changes very rapidly with new data on the clinical and serological characteristics of affected cases being reported every day. We think that is time to review more thoroughly the available data in the literature, in order to give a clearer advice to dermatologist. We screened Concerning the pathogenesis of SARS and MERS it seems that a Th1 activation associated with the production of high levels of proinflammatory cytokines may play a pivotal role in the disease.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 194,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 377,
+                    "end": 378,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| BACKGROUND"
+        },
+        {
+            "text": "Cytokines such as IL-1, IL-6 and IL-12, and chemokines such as IL-8, CCL2 and CXCL10 were elevated in SARS patients 6 and diminished in patients that recovered, accompanied by a robust anti-virus antibody response. 7 In MERS a worst outcome was associated with high levels of IL-10 and CXCL10 and with high levels of IL-17 and IL-23 8 . Moreover proinflammatory cytokines genes such as IL-1, IL-6, TNF, and chemokines such as CXCL1 and CCL20, were found to be overexpressed in SARS CoV infection by microarray datasets analysis. 9 The importance of the role of massive release of proinflammatory cytokines (cytokine storm) is underlined by the fact that there is a significant difference in the concentration of serum of IFN-\u03b3, IL-1, IL-6, IL-12, and TGF\u03b2 and of chemokines such as CCL2, CXCL10, CXCL9, and IL-8 between severe disease SARS patients compared to uncomplicated SARS patients. 8 Lethality in SARS was directly correlated with the serum concentration of IFN \u03b1 and \u03b3 and with up regulation of IFN-stimulated genes such as CXCL10 and CCL2. Furthermore, patients with severe disease had low levels of anti-inflammatory cytokine IL-10. 10 Both in SARS and MERS it seems that the severity of the disease depends from viral load in the airways, age and comorbid condition.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 117,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 215,
+                    "end": 216,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 333,
+                    "end": 334,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 529,
+                    "end": 530,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 890,
+                    "end": 891,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1144,
+                    "end": 1146,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| BACKGROUND"
+        },
+        {
+            "text": "No comment has been ever made, in literature, on concomitant immunosuppression in these patients. 11, 12 Being older with comorbid conditions such as hypertension, diabetes, obesity, heart and renal failure were associated with more severe cases. 11, 12 Several treatments have been proposed for SARS and MERS else than clinical support: antiviral, anti-malaria drugs, interferons, immunoglobulins, and vaccines.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 101,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 102,
+                    "end": 104,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 247,
+                    "end": 250,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 251,
+                    "end": 253,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| BACKGROUND"
+        },
+        {
+            "text": "Given the potential role of proinflammatory cytokines in the pathogenesis of SARS and MERS severe disease, also ant inflammatory drugs have been suggested as novel treatments in these diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| BACKGROUND"
+        },
+        {
+            "text": "Drug repurposing studies have identified immunosuppressive drug, cyclosporine, as potentially useful. 13 Moreover given the role of TNF\u03b1 in these diseases, this cytokine has been suggested as a putative target in respiratory viral disease in which a partial TNF-\u03b1 inhibition may benefit patients. 10 ",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 104,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 297,
+                    "end": 299,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| BACKGROUND"
+        },
+        {
+            "text": "Recent reports have shown that infection with SARS-CoV2 induces the production of IL-1 \u03b2, IFN-\u03b3, IP10, and MCP-1. The concentration of these cytokines (IP10, MCP-1) is directly related to the severity of the disease and with the probability of being admitted to the ICU. 14 . Since there are also reports that SARS-CoV-2 may induce also production of Th2 type cytokines further studies are needed to clarify the role of the cytokine storm into this disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| What do we know about SARS-CoV-2 (COVID19)"
+        },
+        {
+            "text": "High levels of IL-2, IL-7, GM-CSF, MIP1-\u03b1, and TNF-\u03b1 have also been correlated with disease severity in SARS-CoV-2 infected patients. 15 Among predictors of fatality in retrospective studies from China cases, high IL-6 plasma levels was suggested, implying that mortality might be due to virally driven hyperinflammation. 16 Thus, it could be suggested that a cytokine storm is responsible for massive tissue destruction and correlates with disease severity also in SARS-CoV2 disease. 15 This aspect has been also suggested for pediatric patients. 17 Even in this age group, critically ill patients showed high levels of IL-6, IL-10, and IFN \u03b1.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 136,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 322,
+                    "end": 324,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 485,
+                    "end": 487,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 548,
+                    "end": 550,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| What do we know about SARS-CoV-2 (COVID19)"
+        },
+        {
+            "text": "Anedoctical case series and trials with promising results have been reported with drugs with immunomodulating activities: hydroxychloroquine and azithromycin 18 as well as cytokine targeting drugs such as tocilizumab 19 and Jak-kinase inhibitors 20 . However currently, effective infection control intervention is the only way to prevent the spread of SARS-CoV-2. 20 What about patients with inflammatory conditions? How should we treat them during COVID-19 pandemic? There is controversy on this argument: question is to carefully balance the higher risk of infection in patients on immunomodulating therapy with the potential beneficial effect of reducing immunity. 14,21",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 219,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 246,
+                    "end": 248,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 364,
+                    "end": 366,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| What do we know about SARS-CoV-2 (COVID19)"
+        },
+        {
+            "text": "As already reported for SARS and MERS, also patients with SARS-CoV-2 infection may present with some characteristics that can predict severity of disease. Literature is very consistent in reporting that elderly male patients, with comorbidities were more prone to develop more severe disease. The most frequent comorbidities present in 30% to 80% of critically ill patients are: diabetes, cardiovascular disease, pulmonary disease (COPD), hypertension and malignancy. 14,22,23 A very large study of 72 314 patients from China confirmed that the majority of cases and the higher mortality (14,8%) were among elderly people. The same study showed that the fatality rate among those without comorbidities was 0,9% while in those with cardiovascular disease it was 10,5%, and 7,3% in those with diabetes, 6,3% in those with chronic respiratory diseases, 6% for those with hypertension, and 5,6% for those with cancer. 24 Some author wisely acknowledge that patient characteristics may change in different population affected, however an early analysis of the difference between Italian and Chinese cases concluded that the most at risk patients for severe disease were very similar. 25 More recent Italian data confirm that 84% of deceased patients were 70 years of older and that more than 50% had three or more comorbidities the most frequent of which were: hypertension, ischemic heart disease and diabetes. 26 The only relevant publication reporting immunosuppression and potentially lethal SARS CoV-2 illness was the one regarding the very limited Washington state outbreak in which other comorbidities associated with the 21 patients admitted to ICU were: history of organ transplant (9,5%), immunosuppression (14,3%), and rheumatologic disease (4,8%). 27 Case reports and large patients series, however, mitigate the fear about the potential high risk for immunosuppressed patients. At the best of our knowledge two papers address the issue. 28, 29 The first is a large case series coming from a city in the epicenter of the outbreak in Italy. It describes the cases recorded in a very big pediatric liver transplant population. Only three patients tested positive and no patient among over 200 liver transplanted, 100 with autoimmune liver disease and 300 under chemotherapy for liver cancer developed serious illness due to COVID-19. 28 The second is a case report from Wuhan, reportedly one of the cities with the largest number of kidney transplant in China, it describes the case of an adult kidney transplant patient with COVID-19 pneumonia. This patient recovered after immunosuppressive treatment reduction and introduction of intravenous immunoglobulins and low dose steroids. Noteworthy is the evidence that also this patient had high plasma levels of IL-2, IL-6, and TNF-\u03b1 and that his disease course was similar to nonimmunosuppressed patients. 29 3 | CONCLUSION 3.1 | Should we fear for our psoriasis patients treated with biologicals?",
+            "cite_spans": [
+                {
+                    "start": 914,
+                    "end": 916,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1179,
+                    "end": 1181,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1407,
+                    "end": 1409,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1755,
+                    "end": 1757,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1945,
+                    "end": 1948,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1949,
+                    "end": 1951,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2339,
+                    "end": 2341,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2860,
+                    "end": 2862,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "During this pandemic we have to base the decision on whether continue or withhold psoriasis treatment on scientific evidences. We must be very careful and act with caution since, as we presented, we only have indirect evidences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "In times in which the COVID-19 fear could lead to over psychological distress, people with disease such as psoriasis, may worsen, since they are already striving with a chronic psychologically distressing disease. 30 Stopping immunosuppressive or immunomodulating treatment in psoriasis could lead to reduced response at retreatment due to several reasons, the most important of which is immunogenicity. 3 We can speculate on three strong evidences that were discussed above:",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 216,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 404,
+                    "end": 405,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "1 The evidence that no reports have being published so far on immunosuppression being a risk or worsening condition for COVID-19 disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "2 The evidence that the severity of the disease, as happened for other coronaviruses outbreaks, is linked to a \"cytokine storm \"that has to be controlled in order to reach recovery. Moreover cytokines targeted by psoriasis treatment (such as TNF-\u03b1, IL-17, IL- 23) are not among the most relevant in COVID related inflammation.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 263,
+                    "text": "23)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "3 The evidence that the most important risk factors leading to more severe illness for COVID-19 SARS are comorbidities that we can find also in our psoriatic patients, 31 the more obvious consequence of this evidence is that that we have to stress virus containment measure to these fragile patients.",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 170,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "In conclusion we think that with all due caution, the treatment of psoriatic patients with biologicals should not be discontinued during the time of this pandemic. Caution has to be focused on elderly patients with coexisting morbidities such as hypertension, diabetes and obesity that enhance their chance of developing, if ever infected, a more severe disease. In this specific group of patients the decision to suspend the treatment should be made when patients develop flu like or COVID-19 specific (anosmia, asthenia) symptoms and if are exposed to high risk contact with infected people.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| What can we learn from patients characteristic"
+        },
+        {
+            "text": "PA and GG conceived and the manuscript, participated in the analysis and interpretation of data or acquisition of data, and drafted the manuscript. FG and FP participated in the acquisition and interpretation of data and revised the manuscript. All authors have given final approval of the version to be published.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "https://orcid.org/0000-0003-1589-9672",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Paolo Amerio"
+        },
+        {
+            "text": "Francesca Prignano https://orcid.org/0000-0002-5997-2045",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Paolo Amerio"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Evaluation and Treatment Coronavirus (COVID-19)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cascella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dulebohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Napoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 Coronavirus pandemic",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldometers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Immunogenicity of anti-TNF\u03b1 therapy in psoriasis: a clinical issue?",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Simone",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Amerio",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Amoruso",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Expert Opin Biol Ther",
+            "volume": "13",
+            "issn": "",
+            "pages": "1673--1682",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 and psoriasis: is it time to limit treatment with immunosuppressants? A call for action",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Conforti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Giuffrida",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dianzani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Meo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zalaudek",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Dermatol Ther",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/dth.13298"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Middle East respiratory syndrome: pathogenesis and therapeutic developments",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Choudhry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bakhrebah",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abdulaal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Future Virol",
+            "volume": "14",
+            "issn": "",
+            "pages": "237--246",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Plasma inflammatory cytokines and chemokines in severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cwk",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Akl",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin Exp Immunol",
+            "volume": "136",
+            "issn": "",
+            "pages": "95--103",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Coronaviruses post-SARS: update on replication and pathogenesis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Netland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nat Rev Microbiol",
+            "volume": "7",
+            "issn": "",
+            "pages": "439--450",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "MERS-CoV infection in humans is associated with a pro-inflammatory Th1 and Th17 cytokine profile",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mahallawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Khabour",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Makhdoum",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Suliman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cytokine",
+            "volume": "104",
+            "issn": "",
+            "pages": "8--13",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Identification of common biological pathways and drug targets across multiple respiratory viruses based on human host gene expression analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Dampier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tozeren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Magid-Slav",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS ONE",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Pathogenic human coronavirus infections: causes and consequences of cytokine storm and immunopathology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Semin Immunopathol",
+            "volume": "39",
+            "issn": "",
+            "pages": "529--539",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Epidemiological, demographic, and clinical characteristics of 47 cases of Middle East respiratory syndrome coronavirus disease from Saudi Arabia: a descriptive study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Assiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Tawfiq",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Al-Rabeeah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet Infect Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "752--761",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical and laboratory findings of SARS in Singapore",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Leong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Oon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Ann Acad Med Singapore",
+            "volume": "35",
+            "issn": "",
+            "pages": "332--339",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Drug repurposing for viral infectious diseases: how far are we?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mercorelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pal\u00f9",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Loregian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Trends Microbiol",
+            "volume": "26",
+            "issn": "",
+            "pages": "865--876",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Clinical features of patients infected with 2019 novel corona virus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1033--1034",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Clinical predictors of mortality due to COVID-19 based on an analysis of data of 150 patients AMERIO ET AL. from Wuhan, China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Intensive Care Med",
+            "volume": "1",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00134-020-05991-x"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical features of severe pediatric patients with coronavirus disease 2019 in Wuhan: a single center's observational study",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "World J Pediatr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12519-020-00354-4"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "New insights on the antiviral effects of chloroquine against coronavirus: what to expect for COVID-19?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Devaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rolain",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Colson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Raoult",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Antimicrob Agents",
+            "volume": "105938",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijantimicag.2020.105938"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The use of anti-inflammatory drugs in the treatment of people with severe coronavirus disease 2019 (COVID-19): the perspectives of clinical immunologists from China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Immunol",
+            "volume": "214",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clim.2020.108393"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The origin, transmission and clinical therapies on coronavirus disease 2019 (COVID-19) outbreak -an update on the status",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mil Med Res",
+            "volume": "7",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Comment on \"COVID-19 and psoriasis: is it time to limit treatment with immunosuppressants? A call for action",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abdelmaksoud",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Goldust",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vestita",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Dermatol Ther",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/dth.13360"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Clinical features and treatment of COVID-19 patients in Northeast Chongqing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25783"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The Novel Coronavirus Pneumonia Emergency Response Epidemiology Team. Vital surveillances: the epidemiological characteristics of an outbreak of 2019 novel Coronavirus diseases (COVID-19)-China",
+            "authors": [],
+            "year": 2020,
+            "venue": "China CDC Weekly",
+            "volume": "2",
+            "issn": "8",
+            "pages": "113--122",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "COVID-19 and rationally layered social distancing",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Clin Pract",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ijcp.13501"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Similarity in case fatality rates (CFR) of COVID-19/SARS-COV-2 in Italy and China",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Porcheddu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Serra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kelvin",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kelvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rubino",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Dev Ctries",
+            "volume": "14",
+            "issn": "",
+            "pages": "125--128",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Istituto superiore di Sanit\u00e0 -L'epidemiologia per la sanit\u00e0 pubblica, analisi sui decessi",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Characteristics and outcomes of 21 critically ill patients with COVID-19 in Washington state",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arentz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Yim",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Klaff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Jama",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4326"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Coronaviruses and immunosuppressed patients. The facts during the third epidemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "D&apos;antiga",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Liver Transpl",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/lt.25756"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Successful recovery of COVID-19 pneumonia in a renal transplant recipient with long-term immunosuppression",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Am J Transpl",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ajt.15869"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Expressive suppression and negative affect, pathways of emotional dysregulation in psoriasis patients",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ciuluvica",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fulcheri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Amerio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Psychol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "PSOCUBE, a multidimensional assessment of psoriasis patients as a both clinically/practically sustainable and evidence-based algorithm",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Linder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Altomare",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Amato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Eur Acad Dermatol Venereol",
+            "volume": "29",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "COVID-19 and psoriasis: Should we fear for patients treated with biologics? Dermatologic Therapy",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Amerio",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Prignano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Giuliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gualdi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/dth.13434"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "PubMed database with the keywords HCoV, NCoV, coronavirus, SARS-CoV, MERS-CoV, 2019-nCoV, SARS, MERS, pathogenesis, COVID-19, Immunosuppression, psoriasis, till March 20, 2020. We analyzed the results in order to record the most relevant evidences on similar pathogenetical mechanism of severe disease and risk factors for SARS, MERS and SARS-CoV-2, moreover we searched for evidences that immunosuppressive condition may predispose to more severe illnesses in SARS-CoV-2 infected patients.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Lesson from the past Members of Coronaviruses have caused two major outbreaks in the recent past. SARS-CoV caused an epidemic in 2002 to 2003 during which almost 8 400 individuals have become infected with an overall mortality rate of almost 10%. 2 In 2012 a similar coronavirus (MERS-CoV) caused an epidemic predominantly in the Middle East area. From 2012 to 2018 it infected about 2200 people with a death rate of 36%. 5",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,504 @@
+{
+    "paper_id": "bd137a8d2238b38dc4a113d1233cc3306c61bef9",
+    "metadata": {
+        "title": "Supplementary Information for: Vulnerabilities in coronavirus glycan shields despite extensive glycosylation",
+        "authors": [
+            {
+                "first": "Yasunori",
+                "middle": [],
+                "last": "Watanabe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Southampton",
+                    "location": {
+                        "postCode": "SO17 1BJ",
+                        "settlement": "Southampton",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zachary",
+                "middle": [
+                    "T"
+                ],
+                "last": "Berndsen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Scripps Research Institute",
+                    "location": {
+                        "postCode": "92037",
+                        "settlement": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jayna",
+                "middle": [],
+                "last": "Raghwani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "postCode": "OX3 7LF",
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gemma",
+                "middle": [
+                    "E"
+                ],
+                "last": "Seabright",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Southampton",
+                    "location": {
+                        "postCode": "SO17 1BJ",
+                        "settlement": "Southampton",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joel",
+                "middle": [
+                    "D"
+                ],
+                "last": "Allen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Southampton",
+                    "location": {
+                        "postCode": "SO17 1BJ",
+                        "settlement": "Southampton",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Oliver",
+                "middle": [
+                    "G"
+                ],
+                "last": "Pybus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Oxford",
+                    "location": {
+                        "postCode": "OX1 3PS",
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jason",
+                "middle": [
+                    "S"
+                ],
+                "last": "Mclellan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Texas at Austin",
+                    "location": {
+                        "postCode": "78712",
+                        "settlement": "Austin",
+                        "region": "TX",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ian",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wilson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Scripps Research Institute",
+                    "location": {
+                        "postCode": "92037",
+                        "settlement": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [
+                    "A"
+                ],
+                "last": "Bowden",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Wellcome Centre for Human Genetics",
+                    "location": {
+                        "postCode": "OX3 7BN",
+                        "settlement": "Oxford",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [
+                    "B"
+                ],
+                "last": "Ward",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Scripps Research Institute",
+                    "location": {
+                        "postCode": "92037",
+                        "settlement": "La Jolla",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Max",
+                "middle": [],
+                "last": "Crispin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Southampton",
+                    "location": {
+                        "postCode": "SO17 1BJ",
+                        "settlement": "Southampton",
+                        "country": "UK"
+                    }
+                },
+                "email": "max.crispin@soton.ac.uk"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Left to right; least-processed to most processed. The pie charts summarise the quantification of these glycans. (B) Modelling of experimentally observed glycosylation onto the pre-fusion structure of trimeric HKU1 S (PDB ID code 5I08) 2 . The glycans are coloured according to oligomannose content, as defined by the upper right-hand key. S1 and S2 subunits coloured light grey and dark grey, respectively. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "There are also N-linked glycosylation sites at N17, N1158, N1173, and N1194 that are not structurally resolved",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "HexNAc(3)Hex(4)Fuc(1)NeuAc(1)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hexnac",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "HexNAc(3)Hex(3)Fuc(1)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "HexNAc(3)Hex(6)Fuc(1)NeuAc(1)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hexnac",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "HexNAc(4)Hex(3)Fuc(1), HexNAc(4)Hex(4), HexNAc(4)Hex(4)Fuc(1), HexNAc(4)Hex(4)Fuc(1)NeuAc(1), HexNAc(4)Hex(4)Fuc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "HexNAc(4)Hex(5)Fuc(1)NeuAc(2)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hexnac",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "HexNAc(5)Hex(3)Fuc(1), HexNAc(5)Hex(3)Fuc(2) , HexNAc(5)Hex(4)NeuAc(1), HexNAc(5)Hex(4)Fuc(1), HexNAc(5)Hex(4)Fuc(1)NeuAc(1), HexNAc(5)Hex(4)Fuc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "HexNAc(5)Hex(6)Fuc(1)NeuAc(1), HexNAc(5)Hex(6)Fuc(1)NeuAc(2), HexNAc(5)Hex(6)Fuc(1)NeuAc(3)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hexnac",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": ")Hex(5)Fuc(1), HexNAc(5)Hex(5)Fuc(1)NeuAc(1)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "HexNAc(6)Hex(5)Fuc(1)NeuAc(2), HexNAc(6)Hex(6)Fuc(1)NeuAc(3), HexNAc(6)Hex(7)Fuc(1)NeuAc(2), HexNAc(6)Hex(7)Fuc(1)NeuAc(3)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hexnac",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": ")Hex(3)Fuc(1)NeuAc(1)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Glycan library generated from ESI-IM MS used as post-translational modifications",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Si Fig",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Proposal for a standard system for drawing structural diagrams of N-and O-linked carbohydrates and related compounds",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Harvey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proteomics",
+            "volume": "9",
+            "issn": "",
+            "pages": "3796--3801",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Pre-fusion structure of a human coronavirus spike protein",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kirchdoerfer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature",
+            "volume": "531",
+            "issn": "",
+            "pages": "118--121",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Structure of the Lassa virus glycan shield provides a model for immunological resistance",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "115",
+            "issn": "",
+            "pages": "7320--7325",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Composition and antigenic effects of individual glycan sites of a trimeric HIV-1 envelope glycoprotein",
+            "authors": [
+                {
+                    "first": "A.-J",
+                    "middle": [],
+                    "last": "Behrens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cell Rep",
+            "volume": "14",
+            "issn": "",
+            "pages": "2695--2706",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The chimpanzee SIV envelope trimer: structure and deployment as an HIV vaccine template",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Andrabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Rep",
+            "volume": "27",
+            "issn": "",
+            "pages": "2426--2441",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Cryo-EM structures of MERS-CoV and SARS-CoV spike glycoproteins reveal the dynamic receptor binding domains",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat. Commun",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Nextstrain: real-time tracking of pathogen evolution",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hadfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "",
+            "pages": "4121--4123",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2507"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Ion mobility-extracted mass spectra of singly-and doubly-charged N-linked glycan ions from HKU1, SARS and MERS S glycoproteins. Peaks are annotated with the corresponding compositions, using Consortium for Functional Glycomics symbolic nomenclature and Oxford system linkages 1 , as per the key. Oligomannose-type glycan m/z values are labelled in green.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Compositional analysis and structure-based mapping of HKU1 S N-linked glycans. (A) Quantitative site-specific N-linked analysis of HKU1 S. Purified HKU1 S was digested with trypsin, chymotrypsin, and trypsin + chymotrypsin, then analysed by LC-ESI MS. Glycan compositions are based on the glycan library generated from negative-ion mass spectrometry of released N-glycans. The bar graphs represent the relative quantities of each glycan group with oligomannose-type glycan series (M9 to M5; Man9GlcNAc2 to Man5GlcNAc2) (green), afucosylated and fucosylated hybrid glycans (Hybrid & F Hybrid) (dashed pink), and complex glycans grouped according to the number of antennae and fucosylation (A1 to FA4) (pink).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Site-specific quantification of fucosylation and sialylation of N-linked glycan sites, on MERS, SARS, and HKU1 S glycoproteins. SI Fig 4. Glycan deletion increases mannose trimming of N-linked glycans on MERS S oligomannose patch. (A) Relative quantitation of glycans in the mannose patch sites (N155, N166, N236) on MERS S. M9 to M5; (Man9GlcNAc2 to Man5GlcNAc2) (dark green to pale green). (B) Percentage point differences in the abundance of oligomannose-type glycans at mannose patch sites in the glycan knockout mutants compared to WT MERS. Decreased and increased abundances are colored red and blue, respectively. Oligomannose-and complex-type glycan composition table of viral fusion proteins, quantified by HILIC-UPLC. Endo H digestions of labelled glycans were performed to measure oligomannose abundance. SI Fig. 6: Sequence alignment of S proteins SARS-CoV-2 (Genbank: MN908947.3) and SARS CoV (Uniprot: P59594) highlighting conservation of N-linked glycan sequons. Conserved potential N-linked glycosylation sites (PNGs) are colored in green, PNGs observed in SARS-CoV-2 but not in SARS are colored purple, and PNGs observed in SARS but not SARS-CoV-2 are colored in yellow. SI Fig 7: Mapping the conservation of glycosylation sites between SARS and SARS-CoV-2. Glycan sites were modelled onto SARS S (PDB ID:5X58) 6 , with glycan sites conserved between both viruses, colored blue. Glycan sites only present in SARS are colored in light bluegrey. Approximate positions of N-linked glycans present on SARS-CoV-2 are highlighted by red asterisks, with numbering based on the SARS-CoV-2 protein sequence. SI Fig 8: (A) Low genetic diversity and conservation of SARS-CoV-2 N-linked glycosylation sites. Sequence diversity of S gene taken from nextstrain (17 th March 2020, n=566) 7 (https://nextstrain.org/ncov). The single spike corresponds to codon position 614 which changes from D to G with ~50% frequency. Bioinformatic analysis revealed no differences in predicted N-linked glycosylation sites within these 566 strains. (B) Schematic representation of SARS-CoV-2 S glycoprotein, showing the positions of N-linked glycosylation amino-acid sequons (NXS/T, where X \u2260 P) shown as branches. The domains of the S glycoproteins are illustrated: N-terminal domain (NTD), receptor-binding domain (RBD), fusion peptide (FP), heptad repeat 1 (HR1), central helix (CH), connector domain (CD) and transmembrane domain (TM), as characterised by Wrapp et al. 8 (C) A fully glycosylated model of SARS-CoV-2 S protein (PDB ID: 6VSB) with the three receptor-binding domains in the \"down\" conformation. Man5GlcNAc2 glycan compositions were modelled at each site. Note that the positions of glycosylation sites at N74, N149, and N331, which reside on extended loops that have not been",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

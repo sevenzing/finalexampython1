@@ -1,0 +1,911 @@
+{
+    "paper_id": "ccb38a02f24ec12621f67c14bfaa19e6965c433e",
+    "metadata": {
+        "title": "Early View Research letter Risk Factors for Viral RNA Shedding in COVID-19 Patients",
+        "authors": [
+            {
+                "first": "Yu",
+                "middle": [],
+                "last": "Fu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ping",
+                "middle": [],
+                "last": "Han",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rui",
+                "middle": [],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tao",
+                "middle": [],
+                "last": "Bai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jianhua",
+                "middle": [],
+                "last": "Yi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xi",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Meihui",
+                "middle": [],
+                "last": "Tao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Runze",
+                "middle": [],
+                "last": "Quan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chaoyue",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ying",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qin",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mengjia",
+                "middle": [],
+                "last": "Jing",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaofeng",
+                "middle": [],
+                "last": "Xiong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dean",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Yan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Take home message: The median time from symptoms onset to viral RNA shedding was 19 days. Patients with CHD comorbidity or decreased albumin levels experienced delays in clearance of SARS-CoV-2 RNA.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since there is an increasing number of coronavirus disease 2019 (COVID-19) cases confirmed in multiple countries around the world, resulting in alarmingly high mortality and morbidity [1], the World Health Organization (WHO) has declared a global pandemic [2] . To our knowledge, current research on COVID-19 focuses on the epidemics, its clinical features and treatment, but not on viral RNA shedding. Here, we discuss COVID-19 viral RNA conversion time and the risk factors associated with viral RNA shedding in a large patient cohort.",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "[2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A total of 410 laboratory-confirmed COVID-19 patients were recruited to this study, who were discharged from Wuhan Tongji hospital, Wuhan Jin Yin-tan hospital and Wuhan Union hospital main district between February 1, 2020 and February 20, 2020. Throat swab samples were collected and SARS-CoV-2 RNA was detected using real-time reverse transcription PCR (rRT-PCR). Data was extracted for demographic characteristics, comorbidities, symptoms, laboratory values and treatments using electronic medical records. All patients who were hospitalized received a standard diagnosis and treatment based on \"Diagnosis and Treatment Protocol for Novel Coronavirus Pneumonia (Trial Version 7)\" [3]. Follow-up throat swab specimens were obtained at intervals of 4\u00b12 days from when symptoms began to improve, including fever reduction or improvement in chest CTs. The date of symptom onset was defined as the day when initial symptoms were noticed. T1 referred to the duration from symptom onset to when SARS-CoV-2 RNA was negative two consecutive times, which indicated the duration of viral RNA shedding. The date of fever resolution was defined as the first day when the axillary temperature of a patient was no longer > 37.3\u2103 after admission. T2 was defined as the duration from the date of fever resolution to rRT-PCR conversion. A hazard ratio (HR) of <1 indicated prolonged viral RNA shedding. This study was approved by the ethics commission of all hospitals (S2020-055, S2020-056, 2020-YJ-046.01) where patients were observed and the requirement of informed consent was waived.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In total, there were 198 (48.3%) men that had a median age of 52 years (IQR 38-66 years).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Patients received an average of 3 rRT-PCR tests after admission. A total of 58 out of 410 patients had Our results first revealed that the median time from symptom onset to rRT-PCR conversion was 19 days, which was similar to what was uncovered in previous data reported by Fei Zhou et al. where the median time was 20 days for 137 cases [4] . In this study, most patients showed a negative PCR for viral RNA within 30 days, where the longest time observed was 44 days. Moreover, since many patients had a fever during the course of the disease, the median time from fever resolution to rRT-PCR conversion was 7 days, with a range between 0 and 28 days. However, owing to the fact that PCR tests sometimes show false negative results, it is best to repeat this at least 2 times. Based on the results, it is recommended that patients continue to follow prophylactic measures including wearing masks even after being discharged from the hospital.",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 295,
+                    "text": "Fei Zhou et al. where",
+                    "ref_id": null
+                },
+                {
+                    "start": 338,
+                    "end": 341,
+                    "text": "[4]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Based on these data, patients with decreased albumin levels experienced prolonged viral RNA shedding. As previously reported, hypoalbuminemia has a negative impact on the immune response system and increases short-term mortality in hospitalized patients with acute infectious diseases [5, 6] .",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 288,
+                    "text": "[5,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 289,
+                    "end": 291,
+                    "text": "6]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "However, further studies are needed to address the mechanism underlying between albumin and viral RNA shedding. In addition, patients with comorbidities showed prolonged viral RNA shedding.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Nevertheless, only CHD was proven to be an independent risk factor for prolonged viral RNA shedding. Similarly, major comorbidities including cardiovascular diseases, diabetes and malignancies were related to slower viral clearance in patients with SARS or influenza A [7, 8] . As previously reported, patients with pre-existing cardiovascular diseases were at a higher risk for COVID-19 and experienced worse outcomes, showing a 5-10 fold increase in mortality [9] .Hence, patients with chronic comorbidities, especially CHD, were more difficult to achieve viral clearance.",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "[7,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 273,
+                    "end": 275,
+                    "text": "8]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 462,
+                    "end": 465,
+                    "text": "[9]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "It is worth noting that only throat swab specimens were used for viral RNA detection since this is a retrospective study. Evidence has shown that SARS-CoV-2 could be detected in stool samples as well. However, a recent study declared that infectious virus was predominantly derived from the respiratory tract and not from stools [10] . One limitation of our work is that we detected virus by rRT-PCR but not by virus isolation. As rRT-PCR detects both viable and nonviable virus, more convincible studies are needed to investigate whether people with just persistent positive rRT-PCR results are transmissible or not.",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 333,
+                    "text": "[10]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, the median time from symptoms onset to viral RNA shedding was 19 days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Patients with CHD comorbidity, decreased albumin levels and delayed antiviral therapy experienced delays in clearance of SARS-CoV-2 RNA. A better understanding of viral RNA shedding provides guidance for assanation and contributes to identifying an appropriate plan for viral RNA detection. SARS-CoV-2,severe acute respiratory syndrome coronavirus; RNA, Ribose Nucleic Acid T1 referred to the duration from the symptom onset to the day when SARS-CoV-2 RNA was negative for consecutive two times which was considered to indicate an undetectable viral RNA level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 -11",
+            "authors": [],
+            "year": 2020,
+            "venue": "WHO.Coronavirus disease (COVID-19) outbreak situation. published online",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Serum albumin level and nosocomial pneumonia in stroke patients",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dziedzic",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pera",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Klimkowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Turaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Slowik",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rog",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Szczudlik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Eur J Neurol",
+            "volume": "13",
+            "issn": "",
+            "pages": "299--301",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Functional impairment and serum albumin predict in-hospital mortality in nonagenarians with acute infection: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Geriatr",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Long-term SARS coronavirus excretion from patient cohort",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fontanet",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Baril",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vabret",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Xin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "China. Emerg Infect Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "1841--1843",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Viral loads and duration of viral shedding in adult patients hospitalized with influenza",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rainer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lui",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cockram",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Infect Dis",
+            "volume": "200",
+            "issn": "",
+            "pages": "492--500",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The Science Underlying COVID-19: Implications for the Cardiovascular System",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Blet",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Smyth",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Circulation",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCULATIONAHA.120.047549"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Virological assessment of hospitalized patients with COVID-2019",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wolfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guggemos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seilmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zange",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Niemeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vollmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rothe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoelscher",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bleicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brunink",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ehmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zwirglmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wendtner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "1 negative test followed by 1 positive test. The median time of viral RNA shedding was 19 days (IQR 16-23), ranging from 3 days to 44 days (Figure 1a). Most patients (96%) tested negative for SARS-CoV-2 RNA within 30 days after symptom onset. The median time of T2 was 7 days (IQR 4-10). However, 36 patients tested negative for viral RNA and then achieved fever resolution and 4 patients still had a fever when discharged. Furthermore, we explored the risk factors involved in prolonged viral RNA shedding using a multivariable Cox proportional hazards model. Coronary heart disease (CHD) (HR=0.619, 95%CI: 0.411-0.933, P=0.022), albumin levels (HR=1.027, 95%CI: 1.005-1.049, P=0.014) and the initial time of antiviral treatment (HR=1.467, 95%CI: 1.187-1.815, P<0.001) were independent factors associated with SARS-CoV-2 RNA shedding. The median time for viral RNA shedding in patients with or without CHD were 21 days and 19 days, respectively (Figure 1b). Patients with CHD showed prolonged viral RNA shedding (P=0.029). Patients with albumin \u226535g/L had a shorter duration of viral RNA shedding compared to those with albumin <35g/L and the median times were 18 days and 20 days, respectively(Figure 1c). The median time for patients who started antiviral therapy within or later than 7 days after symptom onset were 18 days and 21 days, respectively(Figure 1d).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure legend Figure 1. Kaplan-Meier curve showing the proportion of SARS-CoV-2 RNA positive patients",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Kaplan-Meier curve showing the proportion of SARS-CoV-2 RNA positive patients a) the proportion of SARS-CoV-2 RNA positive patients from symptom onset. b) \u00b7\u00b7\u00b7\u00b7\u00b7\u00b7: Coronary heart disease (n=27); ----: Non-coronary heart disease (n=383). P=0.029. c) \u00b7\u00b7\u00b7\u00b7\u00b7\u00b7: albumin extremum <35g/L (n=193); ----: \u226535g/L (n=217). P=0.032. d) \u00b7\u00b7\u00b7\u00b7\u00b7\u00b7: Starting antiviral >7 after symptom onset (n=128); ----: Starting antiviral \u22647 after symptom onset (n=278). P<0.001.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Conflict of interest Disclosures\uff1aAll authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

@@ -1,0 +1,1509 @@
+{
+    "paper_id": "f7613969bb19dcda16b7aa83e588b7b487b29f99",
+    "metadata": {
+        "title": "Temporal clinical and laboratory response to interleukin-6 receptor blockade with Tocilizumab in 89 hospitalized patients with COVID-19 pneumonia",
+        "authors": [
+            {
+                "first": "Daria",
+                "middle": [
+                    "S"
+                ],
+                "last": "Fomina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Lysenko",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Irina",
+                "middle": [
+                    "P"
+                ],
+                "last": "Beloglazova",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zinaida",
+                "middle": [
+                    "Yu"
+                ],
+                "last": "Mutovina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nataliya",
+                "middle": [
+                    "G"
+                ],
+                "last": "Poteshkina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Inna",
+                "middle": [
+                    "V"
+                ],
+                "last": "Samsonova",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Kruglova",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anton",
+                "middle": [
+                    "A"
+                ],
+                "last": "Chernov",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "City Clinical Hospital No",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexander",
+                "middle": [
+                    "V"
+                ],
+                "last": "Karaulov",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of the Ministry of Healthcare of the Russian Federation",
+                    "location": {
+                        "settlement": "Moscow",
+                        "country": "Russia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [
+                    "M"
+                ],
+                "last": "Lederman",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Currently, there are no approved effective treatments for patients with COVID- 19 . Clinical management of this infection is supportive with provision of supplementary oxygen and mechanical ventilation as warranted. Therefore, there is an urgent unmet need for effective treatment that will alter the morbid course of this infection and prevent mortality.",
+            "cite_spans": [
+                {
+                    "start": 79,
+                    "end": 81,
+                    "text": "19",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The COVID-19 pandemic is caused by infection with a new, readily transmissible RNA virus SARS-2. SARS-2 is a single-stranded coronavirus that enters cells after binding to the angiotensin converting enzyme type 2 (ACE-2) receptors that are highly expressed by nasal epithelium, type 2 alveolar cells and gut epithelial cells, but are also present in other organs 1, 2, 3 .",
+            "cite_spans": [
+                {
+                    "start": 363,
+                    "end": 365,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 366,
+                    "end": 368,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 369,
+                    "end": 370,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "While this virus can infect persons of all ages, morbidity and mortality are highest is among older persons and persons with underlying conditions such as obesity, cardiovascular disease, hypertension and diabetes 4, 5 , who appear to be at greater risk for the development of pneumonia.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 216,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 217,
+                    "end": 218,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Those severely ill with pneumonia develop an aggressive progression of disease that is characterized by elevated levels of inflammatory cytokines resembling in many ways a cytokine storm that has been described in other settings, such as for example, after administration chimeric antigen receptor (CAR) T cells acute lymphocyte leukemia 6 .",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 339,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Here, we report our experience treating serious COVID-19 pneumonia with Tocilizumab (TCZ) a recombinant humanized monoclonal IgG1 antibody to the interleukin-6 receptor that binds both membrane and soluble receptors .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this uncontrolled study of 89 persons with COVID-19 pneumonia who were admitted to a Moscow Territorial COVID Center, we found evidence of clinical improvement following TCZ administration as well as improvement in laboratory indices that are linked to COVD-19induced cytokine storm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Off-label administration of Tocilizumab was approved by the Local Ethics Committee of the 52 nd Moscow City Clinical Hospital for treatment of COVID-19 complicated by cytokine storm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Intervention"
+        },
+        {
+            "text": "We treated eighty-nine patients admitted to the Moscow City Clinical Hospital \u2116 52 (a Territorial COVID Center) with a diagnosis of COVID-19 pneumonia. SARS-CoV-2 infection was confirmed by RT-PCR of nasopharyngeal swabs; pneumonia was diagnosed by CT scan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Intervention"
+        },
+        {
+            "text": "Tocilizumab 400 mg was administered intravenously based upon recent Russian Federal clinical recommendations for treatment of SARS-CoV-2 infection 7 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Intervention"
+        },
+        {
+            "text": "To standardize initial and serial assessments of patients' clinical status, the NEWS2 scale (the latest version of the National Early Warning Score) was used. NEWS2 scores were based on assessment of six physiological indices: respiratory rate; oxygen saturation; systolic blood pressure; heart rate; level of consciousness; temperature 8, 9 .",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 339,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 340,
+                    "end": 341,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patients and Intervention"
+        },
+        {
+            "text": "Routine clinical laboratory assays were performed in the hospital clinical laboratories. Clinical and laboratory information was extracted from the patients' medical records. C reactive protein (CRP) in plasma was measured by immunoturbidimetry (Beckman Coulter, Krefeld, Germany).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Laboratory and Radiology"
+        },
+        {
+            "text": "Interleukin-6 (IL-6) levels in plasma were measured by electrochemiluminescence (Siemens Medical Solutions Diagnostics, Siemens Healthcare, Erlangen, Germany). CT Scans were read by experienced radiologists who scored results by severity using criteria as shown in Figure 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 265,
+                    "end": 273,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Laboratory and Radiology"
+        },
+        {
+            "text": "Data are presented as medians and interquartile ranges (IQR).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Statistical data processing was carried out using the application program \"IBM SPSS STATISTICS V-22\" software. For comparison of quantitative indicators, the Mann-Whitney U test was used, and for qualitative characteristics, the Fisher \u03c7 2 test was used. Differences were considered significant if p <0.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Clinical characteristics of the 89 patients before administration of TCZ are shown in Table 1 . (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 86,
+                    "end": 93,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint MV patients and chronic lung disease was in 1/17 MV patients and 5/72 No MV patients (NSD).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Circulating lymphocyte numbers were low (<1000/uL) in 88% of MV patients (15/17) Among the 89 patients who were treated with TCZ, 74 had been treated for a median of 9 days with hydroxychloroquine+ azithromycin + lopinavir/ritonavir before TCZ treatment, 4 had been treated for a median of 9 days with hydroxychloroquine+azithromycin before TCZ treatment and 11 had been treated for a median of 9 days with lopinavir/ritonavir before TCZ treatment. Table 2 . CRP levels fell in the No MV group from a median of 95 mg/L pre-treatment to 13.5 mg/L 1-2 days after treatment (p <0.001). CRP levels also fell in the MV group from 89 mg/L before TCZ administration to 35 mg/L 1-2 days after TCZ treatment (p=0.014). Absolute lymphocyte counts rose from a median of 900/uL to 1000/uL (p=0.036) in the No MV group, but there was not a significant change in the MV group (from 700 to 800 cells/uL). In both groups, LDH, AST, ALT and fibrinogen levels did not change significantly although sampling was incomplete. The absolute leukocyte count increased significantly in the MV group from 5,800/uL to 9,100/uL (p=0.02), while in the No MV group there was a nonsignificant decrease from 5,500/uL to 4,000/uL . The absolute neutrophil count increased after All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 80,
+                    "text": "(15/17)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 449,
+                    "end": 456,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint TCZ treatment in the MV group from 3,900 /uL to 7,400/uL (p=0.001) while a decrease from 4,200/uL to 2,800/uL in the No MV group was not significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "At the time of data set freezing, between days 6 and 26 after TCZ administration, 63 patients had been discharged from the hospital, 11 died, while 15 patients remained in the hospital (Figure 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 194,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Clinical Outcomes"
+        },
+        {
+            "text": "In the No MV group, one patient died (1%), 63 patients were discharged from the hospital (88%), and 8 patients (11%) remained in the hospital at a median of 11days (range 6-23) after TCZ administration. In the MV group, 10 patients died (59%), 7 patients remained in hospital at a median 13 days (range 9-24) after TCZ administration, and no patients were discharged from the hospital. (Figure 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 386,
+                    "end": 395,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Clinical Outcomes"
+        },
+        {
+            "text": "Combined data on clinical and laboratory indices among patients who died (n=11) and those who survived and were discharged (n=63) in the MV and No MV groups, are presented in Table 3 . Patients who remained on treatment in the hospital were excluded from this analysis. Median baseline NEWS2 scores were higher in those who died than those who survived (9 vs 4; p<0.001), as were median NEWS2 scores 1-2 days after treatment with TCZ (9 vs 2; p<0.001). Median baseline CRP levels tended to be higher in those who died than in those who survived (168 vs 94 mg/L), however these differences did not reach statistical significance (p= 0.059) . After TCZ treatment, median CRP levels fell (p<0.001) in both groups but remained higher in those who died than in those who survived (51 vs 13 mg/L, p =0.001). Baseline lymphocyte counts were lower in lethal cases than in survivors (600 vs 900/uL, p = 0.003) and remained lower in fatal cases than in survivors after treatment with TCZ (800 vs 1100/uL, p = 0.05). Baseline and after-treatment levels of LDH were not different between these groups (data not shown).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 182,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Clinical Outcomes"
+        },
+        {
+            "text": "We found that absolute lymphopenia and elevated CRP levels immediately before treatment with TCZ could reliably distinguish survivors from those patients who died. Shown in Figure 4 are the survival curves for patients with known outcomes divided into four groups according to absolute lymphocyte counts above or lower than 1000 / /uL at baseline and CRP levels lower or greater than 30 mg/L at baseline. There were 41 patients in the highest CRP, low lymphocyte count group, 22 patients in the highest CRP normal lymphocyte count group, 5 patients in the lower CRP low lymphocyte group, and 6 patients in the lower CRP normal lymphocyte count group. Mortality was only seen in patients who had both an absolute lymphocyte count <1000/uL and a CRP >30 mg/L. Lymphopenia alone or elevated All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 173,
+                    "end": 181,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Clinical Outcomes"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical Outcomes"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint 6 CRP levels without lymphopenia were not seen in fatal cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical Outcomes"
+        },
+        {
+            "text": "Here, we report the outcomes of COVID-19 disease in individuals treated with the IL-6 receptor inhibitor, Tocilizumab (TCZ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The pathogenesis of severe COVID-19 disease is incompletely understood, however emerging evidence that includes elevated plasma levels of IL-6 and elevated levels of soluble markers that are induced by IL-6 (such as C reactive protein, ferritin and D-dimer products of fibrinolysis 10, 11 suggest that IL-6 may play an important role in the morbid outcome. In another setting of cytokine storm, i.e. the storm syndrome seen after CAR-T cell therapy IL-6 receptor blockade has been shown to be highly effective 6 In two small series of COVID-19 cases that included 15 14, 15 . In contrast to the two smaller series cited above 16,13 corticosteroids were not given to these patients during TCZ administration or All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 285,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 286,
+                    "end": 288,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 510,
+                    "end": 511,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 564,
+                    "end": 566,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 567,
+                    "end": 570,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 571,
+                    "end": 573,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint in the 2 days following.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The role of corticosteroids in treatment of COVID-19 is unproven 17, 18 .",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 68,
+                    "text": "17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 69,
+                    "end": 71,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our patients with COVID-19 pneumonia had a profound inflammatory disease. Specifically, all patients had elevated levels of C reactive protein exceeding the 6 mg/L upper limit of normal in our laboratories. Plasma IL-6 levels also were elevated in all patients exceeding the laboratory normal reference range of 6.4 pg/mL and circulating lymphocyte numbers were diminished in most patients. The drivers of inflammation and lymphocytopenia in COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "are not well understood yet but the preliminary data generated to date by this and other 16, 13 studies suggest that interfering with IL-6 activity improves these indices. The rapid improvement in NEWS2 scores after TCZ administration suggests that clinical improvement is While lymphocytopenia and elevated C reactive protein are common in COVID-19, mortality was only seen in patients who had both low lymphocyte counts (<1000/uL) and profoundly elevated CRP (>30 mg/L) before treatment with TCZ. In this regard, a recent case series of 209 persons with COVID-19 found that elevated levels of C reactive protein, particularly levels exceeding 26.9 mg/L predicted clinical deterioration. Lymphocytopenia was not associated with morbid deterioration but those who progressed had lower lymphocyte proportions than those who did not progress 19 . All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 92,
+                    "text": "16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 93,
+                    "end": 95,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 840,
+                    "end": 842,
+                    "text": "19",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. Scoring method: Mild (CT-1) -no more than 3 ground glass opacities of <3 cm in maximum diameter. Moderate (CT-2) -more than 3 ground glass opacities, less than 50 % involvement by visual assessment. Medium-heavy (CT-3) -ground glass opacities and pulmonary consolidation, 50-70% involvement by visual assessment. Severe (CT-4) -diffuse ground glass opacities with or without consolidation, more than 75 % involvement by visual assessment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "NEWS2 severity score is shown before (day of TCZ initiation) and 24-48 h after launching TCZ therapy for 17 patients who were receiving mechanical ventilation (MV) (red) or who were not receiving mechanical ventilation (blue)prior to therapy. The size of the circle reflects the number of patients with a given severity score. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Figure 2. Changes in NEWS2 severity score after TCZ therapy."
+        },
+        {
+            "text": "Highest and Lower CRP levels were >30 and <30 mg/L respectively. Normal and Low lymphocyte counts were >1000 and < 1000 cells/uL respectively. There were 41 patients in the highest CRP, low lymphocyte count group (red), there were 22 patients in the highest CRP normal lymphocyte count group (green), 5 patients in the lower CRP low lymphocyte group (blue) and 6 patients in the lower CRP normal lymphocyte count group (purple).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ". Mortality after TCZ is seen only in persons with highest CRP levels and low lymphocyte counts at treatment initiation."
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ". Mortality after TCZ is seen only in persons with highest CRP levels and low lymphocyte counts at treatment initiation."
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ". Mortality after TCZ is seen only in persons with highest CRP levels and low lymphocyte counts at treatment initiation."
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ". Mortality after TCZ is seen only in persons with highest CRP levels and low lymphocyte counts at treatment initiation."
+        },
+        {
+            "text": "We declare no competing interest All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06. 12.20122374 doi: medRxiv preprint Presented are the main clinical indices for patients who were or were not receiving mechanical ventilation at initiation of Tocilizumab treatment.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 142,
+                    "text": "12.20122374 doi: medRxiv preprint",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "Clinical indices did not differ between the groups excepting: *plasma IL-6 levels were higher in the mechanical ventilation group than in the non-mechanical ventilation group (p=0.001Mann-Whitney U test) and **CT Scores that were more severe in the MV group than in the non-mechanical ventilation group (median 3(IQR 3-4) vs median 2(IQR 2-3, p=0.01 Mann-Whitney U test). , All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint <0.001* All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint were not receiving mechanical ventilation (No MV) at initiation of Tocilizumab treatment (baseline) and 1-2 days later. Numbers of patients, medians and interquartile range (IQR) are indicated. NSD-no significant difference. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.12.20122374 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "270--73",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Letko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "5",
+            "issn": "4",
+            "pages": "562--69",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41564-020-0688-y"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.052"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Comorbid Chronic Diseases and Acute Organ Injuries Are Strongly Correlated with Disease Severity and Mortality among COVID-19 Patients: A Systemic Review and Meta-Analysis",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Research (Wash D C)",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.34133/2020/2402961"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Inflamm-aging: Why older men are the most susceptible to SARS-CoV-2 complicated outcomes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bonafe",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Prattichizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Giuliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Storci",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sabbatinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Olivieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cytokine Growth Factor Rev",
+            "volume": "1",
+            "issn": "26",
+            "pages": "1--16",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cytogfr.2020.04.005"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Cytokine Release Syndrome: Current Perspectives",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iqbal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chavez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kharfan-Dabaja",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Immunotargets Ther",
+            "volume": "8",
+            "issn": "",
+            "pages": "43--52",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/ITT.S202015"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Ministry of health of the Russian Federation.Temporary guidelines for the prevention, diagnosis and treatment of new coronovirus infection (COVID-19)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Accuracy of National Early Warning Score 2 (NEWS2) in Prehospital Triage on In-Hospital Early Mortality: A Multi-Center Observational Prospective Cohort Study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martin-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lopez-Izquierdo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Del",
+                    "middle": [
+                        "Pozo"
+                    ],
+                    "last": "Vegas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Prehosp Disaster Med",
+            "volume": "34",
+            "issn": "6",
+            "pages": "610--628",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S1049023X19005041"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Can the prehospital National Early Warning Score 2 identify patients at risk of in-hospital early mortality? A prospective, multicenter cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Martin-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lopez-Izquierdo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Del",
+                    "middle": [
+                        "Pozo"
+                    ],
+                    "last": "Vegas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Heart Lung",
+            "volume": "00",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.hrtlng.2020.02.047"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "IL-6 receptor inhibition with tocilizumab improves treatment outcomes in patients with rheumatoid arthritis refractory to anti-tumour necrosis factor biologicals: results from a 24-week multicentre randomised placebo-controlled trial",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Emery",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Keystone",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tony",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Ann Rheum Dis",
+            "volume": "67",
+            "issn": "11",
+            "pages": "1516--1539",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/ard.2008.092932"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prediction of severe illness due to COVID-19 based on an analysis of initial Fibrinogen to Albumin Ratio and Platelet count",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Platelets",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/09537104.2020.1760230"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Mechanisms and pathologic significances in increase in serum interleukin-6 (IL-6) and soluble IL-6 receptor after administration of an anti-IL-6 receptor antibody, tocilizumab, in patients with rheumatoid arthritis and Castleman disease",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nishimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Terao",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mima",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Takagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kakehi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Blood",
+            "volume": "112",
+            "issn": "10",
+            "pages": "3959--64",
+            "other_ids": {
+                "DOI": [
+                    "10.1182/blood-2008-05-155846"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Effective treatment of severe COVID-19 patients with tocilizumab",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.2005615117"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Therapeutic use of chloroquine and hydroxychloroquine in COVID-19 and other viral infections: A narrative review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hashem",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alghamdi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Algaissi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Travel Med Infect Dis",
+            "volume": "10",
+            "issn": "",
+            "pages": "17--35",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101735"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Real-world efficacy and safety of lopinavir/ritonavir and arbidol in treating with COVID-19 : an observational cohort study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Tocilizumab treatment in COVID-19: A single center experience",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Med Virol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25801"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical characteristics of novel coronavirus cases in tertiary hospitals in Hubei Province",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin Med J (Engl)",
+            "volume": "133",
+            "issn": "9",
+            "pages": "1025--1056",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/CM9.0000000000000744"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "11",
+            "pages": "1061--1069",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "C-Reactive Protein Level May Predict the Risk of COVID-19",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "IL6 inhibition in critically ill COVID-19 patients is associated with increased secondary infections",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kimmig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gold",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Pettit",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pitrak",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.15.20103531"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Seventeen of these patients (19%) were receiving mechanical ventilation (MV) while 72 (81%) were treated with supplemental oxygen without mechanical ventilation (No MV). Ten of these 72 patients were receiving high flow oxygen. Slightly over half of the patients in the MV group were 50 years old or older while 2/3 of patients who were in the No MV group were 50 years old. or older. Half of the MV patients were women while only approximately 1/3 (27/92) No MV patients were women. None of these demographics were significantly different between the MV and No MV groups. Pre-existent comorbidities were present in 77% patients (3/17) of the MV group and 67% (48/72) of the No MV group (no statistical difference, NSD). Hypertension was present in 41% of the MV group and in 31% of the No MV group (NSD) and obesity in 53% of the MV group and 19% of the No MV group (p = 0.04). Underlying diabetes was seen in only 1/17 MV patients and in 9/72 No All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "and in 58% of the No MV patients (42/72). Serum IL-6 levels were elevated and were higher in the MV group with median levels of 122 pg/mL (IQR 47-390) than in the No MV group (48 pg/mL (IQR 19-75, p=0.001)). Serum levels of C Reactive Protein (CRP) an acute phase reactant that is driven by IL-6 were elevated in both groups with medians of 89 mg/L (IQR 70-191) in the MV group and 95 mg/L (IQR 45-150) in the No MV group (NSD). CT scores were more severe in the MV group with median scores of 3 versus median scores of 2 in the No MV group (p = 0.01). Nearly half of patients (8/17) in the MV group had scores of 4 while in the No MV group, only 3 of 72 (4%) had scores of 4. Among MV patients, TCZ administration was begun on median day 12 of illness (IQR 7-12 days) and on median 10 th day of illness (IQR 7-11 days) among No MV patients.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "shows the changes in clinical status as determined by NEWS 2 scores, from baseline at the initiation of Tocilizumab to 1-2 days after TCZ administration. In the No MV group, median NEWS2 scores fell from 5 to 2 (p <0.001, Mann-Whitney U test ) with 65/72 patients experiencing a decrease reflecting clinical improvement, 6/72 remaining unchanged, and 1/72 increasing score reflecting clinical deterioration. None required mechanical ventilation. In the MV group, median NEWS2 scores remained at 8, with 10/17 experiencing a decrease reflecting improvement, 4/17 remaining unchanged, and 3/17 experiencing an increase in scores reflecting deterioration. Laboratory results at baseline before TCZ administration and 1-2 days after treatment are shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "and 21 patients who received open label TCZ, there was an improvement in clinical course as well as in laboratory and radiographic abnormalities in some. Luo et al. 12 treated 15 patients with TCZ by vein at varying doses from 80 to 600 mg, combining TCZ with methylprednisolone in eight and repeating TCZ dosing in 5. They reported clinical improvement in one, stabilization in nine, deterioration in five patients that included three deaths. CRP levels fell in all and IL-6 levels rose in all but one patient. Increase in serum IL-6 is expected with TCZ administration as a result of receptor blockade 12 . Xu et all 13 reported on 21 patients with severe COVID-19 pneumonia who were treated with TCZ 400 mg by vein in addition to treatment with lopinavir and methylprednisolone Clinical improvement, as characterized by rapid decrease in temperature, improvements in oxygenation and in chest CT abnormalities were reported; CRP levels fell in all patients and 19 of 21 were discharged from the hospital. In the present study we investigated the results of TCZ treatment in a larger cohort of 89 patients with COVID-19 pneumonia. Here, we report the early effects of TCZ administration on clinical and laboratory outcomes. All our patients had SARS-2 infection as revealed by viral sequences in respiratory secretions and all had pneumonia as evidenced by CT scan results. Severity of disease varied with 17 patients requiring mechanical ventilation support before administration of TCZ. Although all patients were treated with drugs often used for treatment of SARS-2 infection such as antimalarials (chloroquine or hydroxychloroquine), azithromycin or an antiviral protease inhibitor (lopinavir/ritonavir), none of these agents has confirmed clinical utility in treatment of COVID-19",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "linked to resolution of inflammation and that IL-6 activity is an important driver of morbidity in SARS-2 infection. In our series, outcome of disease in treated patients who did not require mechanical ventilation was largely favorable with nearly 90% of patients surviving to discharge and only one death among 72 treated patients at the time of writing. Clinical outcomes in patients who were receiving mechanical ventilation at initiation of TCZ treatment were not as good. Although 10 of 17 patients receiving mechanical ventilation experienced an improved NEWS2 score 1-2 days after TCZ treatment. (4 of these 10 patients died), overall there were 10 deaths in the entire group, while 7 patients remained in hospital.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Clinical assessment of pneumonia severity based on computed tomography (CT) scores.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Clinical outcomes according to use of mechanical ventilation before TCZ administration Outcomes are shown for the 17 patients who were on mechanical ventilation and 62 patients who were not on mechanical ventilation before TCZ therapy. Proportion of deaths are in red, proportions of patients still in hospital are in orange and proportions discharged from hospital in blue. Mortality was greater in patients receiving mechanical ventilation p <0.001 Fisher \u03c7 2 test).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 4. Mortality after TCZ is seen only in persons with highest CRP levels and low lymphocyte counts at treatment initiation. Highest and Lower CRP levels were >30 and <30 mg/L respectively. Normal and Low lymphocyte counts were >1000 and < 1000 cells/uL respectively. There were 41 patients in the highest CRP, low lymphocyte count group (red), there were 22 patients in the highest CRP normal lymphocyte count group (green), 5 patients in the lower CRP low lymphocyte group (blue) and 6 patients in the lower CRP normal lymphocyte count group (purple).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "clinical and laboratory indices at baseline (just before TCZ administration) and one-to-two days after TCZ treatment in patients who died and patients who survived to discharge from hospital. Number of patients (n) and interquartile ranges (IQR) are presented. NSD -no statistical differences Data for total of 74 patients. Another 15 patients remain in hospital, at time of writing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Although our results suggest that TCZ therapy is beneficial for hospitalized patients with COVID-19, this report has important limitations. First, this was a retrospective study conducted in a heterogeneous group of patients. Interpretation of this study is also limited by the absence of a control group that did not receive TCZ. Nonetheless the temporal improvement in clinical and laboratory scores suggest that these are related to TCZ",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Clinical characteristics of patients before administration of Tocilizumab",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Early changes in laboratory indices after TCZPresented are laboratory indices of patients who were receiving mechanical ventilation (MV) or",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Comparison of clinical and laboratory indices in patients who recovered or died",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to thank Dr. Leonid Margolis for encouragement and for assistance in manuscript preparation. We would thank Dr. Alexey Mazus for encouragement and help in coordinating this research References",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

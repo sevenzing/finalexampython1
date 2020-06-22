@@ -1,0 +1,197 @@
+{
+    "paper_id": "fbdc027eb77ab086d07395cd32e43879ce907bc6",
+    "metadata": {
+        "title": "Trainee education during COVID-19 Challenges to medical education",
+        "authors": [
+            {
+                "first": "Tushar",
+                "middle": [],
+                "last": "Garg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seth GS Medical College & KEM Hospital",
+                    "location": {
+                        "postCode": "400012",
+                        "settlement": "Mumbai",
+                        "region": "Maharashtra",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Apurva",
+                "middle": [],
+                "last": "Shrigiriwar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Seth GS Medical College & KEM Hospital",
+                    "location": {
+                        "postCode": "400012",
+                        "settlement": "Mumbai",
+                        "region": "Maharashtra",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kirang",
+                "middle": [],
+                "last": "Patel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Missouri-Kansas City School of Medicine",
+                    "location": {
+                        "settlement": "Kansas City",
+                        "region": "MO",
+                        "country": "USA Neuroradiology"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The coronavirus disease-19 (COVID-19) outbreak has quickly transitioned into a pandemic, resulting in disruption of medical education for medical students, residents, and fellows alike [1] . Medical students can potentially acquire and spread the virus in the course of their training; therefore, clinical rotations for medical students have been suspended all over the world for the time being. The effect of this pandemic not only is restricted to medical students but also affects resident and fellows' rotations. Trainee education has transitioned from being hands-on to a more virtual-type of education, in which some residents have work stations set up at home and attendings can check out the reports over the phone. Furthermore, there have also been a decline of in-person didactic sessions, afternoon teaching conferences, and laboratory research activities.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 188,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "What are we doing?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The American College of Radiology (ACR) has developed a 2-week virtual curriculum for medical students which includes online modules, reading assignments, and online scenarios to incorporate evidence-based strategies for imaging services. This has provided a curriculum that can be used by any institutions that have had to cancel medical student electives, in attempt to continue promoting radiology education [2] . Some residency programs have started using RadPrimer to serve as a structured curriculum for residents, where they can be assigned different sections to study according to a fixed schedule [3] . Instead of the in-person conferences, programs have also started using various virtual applications (Zoom, Microsoft teams, WebEx) to conduct online didactics. The American Institute for Radiologic Pathology (AIRP), which used to conduct an in-person course, has also switched over to a virtual platform to facilitate social distancing recommendations.",
+            "cite_spans": [
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 606,
+                    "end": 609,
+                    "text": "[3]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Radiology societies like the European Society of Radiology (ESR), European Society of Head and Neck Radiology (ESHNR), European Society of Neuroradiology (ESNR), British Society of Head and Neck Imaging (BSHNI), and American Society of Pediatric Neuroradiology (ASPNR) have helped to fill the gap created by the loss of didactic sessions by providing free online weekly lectures by various international experts, and the Australian and New Zealand Society of Neuroradiology (ANZSNR) has temporarily provided free access to their recorded lectures from their 2019 meeting. A wide variety of online resources have also been available to trainees which include, but are not limited to, ASNR neurocurriculum live, LearnNeuroradiology videos, educational videos by the American Society of Functional Neuroradiology (ASFNR) for their members, and MRI Online videos.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Social media has also served as a useful resource for learning during this pandemic. The ASNR, ASPNR, and American Society of Head and Neck Radiology (ASHNR) are posting various cases of the week on twitter. Journals, such as the American Journal of Neuroradiology (AJNR), are also regularly sharing twitter posts of their classic cases, case of the week and case of the month.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Even though the COVID-19 pandemic has affected the education of trainees at every level, efforts by the whole radiological community to provide various educational resources have helped prevent deficits in trainee education. The lessons learned during this pandemic may represent an enduring transformation in medical education for years to come.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "No content of the paper has been presented or published previously. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Rossi A. COVID-19: a primer for Neuroradiologists",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mankad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mirsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "62",
+            "issn": "",
+            "pages": "647--655",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Two-Week Virtual Radiology Curriculum for Medical Students | American College of Radiology",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Medical College & KEM Hospital, Mumbai, Maharashtra 400012, India 2 University of Missouri-Kansas City School of Medicine, Kansas City, MO, USA",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare that they have no conflict of interest.Ethical approval All procedures performed in the studies involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki Declaration and its later amendments or comparable ethical standards.Informed consent Informed consent was obtained from all individual participants included in the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        }
+    ]
+}

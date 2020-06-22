@@ -1,0 +1,267 @@
+{
+    "paper_id": "278c0dedb566c78d7c940de3b0a8c4e87e34bedb",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "P",
+                "middle": [
+                    "R"
+                ],
+                "last": "Greig",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NHS Foundation Trust",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": "paul.greig@ndcn.ox.ac.uk"
+            },
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Carvalho",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NHS Foundation Trust",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "K",
+                "middle": [],
+                "last": "El-Boghdadly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NHS Foundation Trust",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Ramessur Guy&apos;s",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NHS Foundation Trust",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "St",
+                "middle": [],
+                "last": "Thomas&apos;",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "NHS Foundation Trust",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "the face seals. Three attempts were made with minor modifications to the snorkel adaptor between each joint to reinforce the system. In every case the mask failed during the initial 'normal breathing' phase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "It might be speculated that snorkel masks are simply poorly suited for this use. When submerged, a highpressure exists outside the mask which presses it to the face.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In air there is no such gradient, so there remains only the force exerted by the head straps to hold it securely. It is not clear that they are sufficient to this task.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We recognise we have tested only a single combination of adaptor and mask on a single user, but our data demonstrate that it is essential to properly fit-test before use. It is crucially important to note that fit-testing quantitative methods are mandatory for full-face masks (such as this improvised system) [5]; qualitative fit-testing, using taste-or smell-based substances, is not adequate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "It is laudable that people are attempting to ameliorate the shortages of PPE worldwide, but we cannot recommend that staff use improvised equipment in clinical situations without fit-testing. There may be instances in which these systems can be safely used but, as with formal PPE systems, it is clear there is no 'one-size fits all', and to use these improvised designs without proper testing may present a significant hazard to staff.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Reported shortages of personal protective equipment (PPE) in the NHS have caused anxiety among healthcare workers [1] . Several designs for improvised PPE have been circulated online and via social media. One particularly widely shared design involves a 3D printed adaptor to allow the mating of a standard anaesthetic heat and moisture exchange (HME) filter to a commercially available snorkelling mask. Thingiverse, an online repository of 3D printable files, contains at least 18 adaptor designs that users can download [2] .",
+            "cite_spans": [
+                {
+                    "start": 52,
+                    "end": 57,
+                    "text": "(PPE)",
+                    "ref_id": null
+                },
+                {
+                    "start": 114,
+                    "end": 117,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 523,
+                    "end": 526,
+                    "text": "[2]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety testing improvised COVID-19 personal protective equipment based on a modified full-face snorkel mask"
+        },
+        {
+            "text": "Although one specific combination of mask, filter and HME has apparently passed fit-testing [3] , given the variation in masks, adaptors and HME filters we are concerned there are insufficient safety data to recommend general use of these devices. Websites generally contain important disclaimers that the systems have not been subjected to peer review or rigorously tested, but we remain anxious that users may attempt to wear these devices in clinical practice without proper validation.",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "[3]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety testing improvised COVID-19 personal protective equipment based on a modified full-face snorkel mask"
+        },
+        {
+            "text": "To evaluate one such design, we tested PPE based on an Omew full-face snorkel mask purchased from Amazon [4] . An adaptor from the Thingiverse website was printed on a 3D printer (Prusa i3 mk2 with standard PLA material.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "[4]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety testing improvised COVID-19 personal protective equipment based on a modified full-face snorkel mask"
+        },
+        {
+            "text": "1.75 nozzle, 0.15 layer height), to which we attached an Intersurgical Cleartherm-3 HME filter (Intersurgical, Wokingham, UK). The assembled system is illustrated in Fig. 1 . We subjected the system to a series of tests, firstly to check clinical applicability, and secondly to test fit.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 172,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Safety testing improvised COVID-19 personal protective equipment based on a modified full-face snorkel mask"
+        },
+        {
+            "text": "Quantitative fit-testing was conducted using the TSI Of great concern, however, was that the mask failed the quantitative fit-testing process despite the apparently successful fit-check. To permit formal fit-testing, we mounted a sampling line between the mask-adaptor and the filter using standard breathing system parts, such that ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Safety testing improvised COVID-19 personal protective equipment based on a modified full-face snorkel mask"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Personal protective equipment during the COVID-19 pandemic -a narrative review",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Anaesthesia",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1111/anae.15071"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "14B/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Guidance on respiratory protective equipment (RPE) fit testing. London: Her Majesty's Stationery Office",
+            "authors": [
+                {
+                    "first": "Safety",
+                    "middle": [],
+                    "last": "Health",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Executive",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/anae.15085"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Portacount 8038 system (TSI UK, High Wycombe, UK). One user was asked to perform simulated cannulation, airway management and patient transfer while wearing the mask. After donning the mask, the user performed a successful negative-pressure fit-check, by manually occluding the HME filter and inhaling. Over the next 20 min of activity there was a small degree of fogging of the internal surfaces, but this did not impair vision. We measured F I O 2 , ETO 2 and ETCO 2 with essentially no changes in gas composition over the testing period (F I O 2 : 0.20-0.21; E t O 2 : 0.15-0.17 kPa; ETCO 2 : 3.7-4.0 kPa). The user reported minimal discomfort and noted that in this regard it was comparable to a validated reusable filtering facepiece (FFP) 3 mask.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Depiction of the improvised PPE system.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

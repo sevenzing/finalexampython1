@@ -1,0 +1,3721 @@
+{
+    "paper_id": "349bcd223f2b65a36066387ce0d0dea8f88e1deb",
+    "metadata": {
+        "title": "Molecular docking, simulation and MM-PBSA studies of nigella sativa compounds: a computational quest to identify potential natural antiviral for COVID-19 treatment",
+        "authors": [
+            {
+                "first": "Sajjad",
+                "middle": [],
+                "last": "Ahmad",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Quaid-i-Azam University",
+                    "location": {
+                        "settlement": "Islamabad",
+                        "country": "Pakistan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wajid",
+                "middle": [],
+                "last": "Abbasi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shaheed Zulfiqar Ali Bhutto Medical University",
+                    "location": {
+                        "settlement": "Islamabad",
+                        "country": "Pakistan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sara",
+                "middle": [],
+                "last": "Shahid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shaheed Zulfiqar Ali Bhutto Medical University",
+                    "location": {
+                        "settlement": "Islamabad",
+                        "country": "Pakistan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sana",
+                "middle": [],
+                "last": "Gul",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National University of Medical Sciences",
+                    "location": {
+                        "settlement": "Rawalpindi",
+                        "country": "Pakistan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sumra",
+                "middle": [
+                    "Wajid"
+                ],
+                "last": "Abbasi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National University of Medical Sciences",
+                    "location": {
+                        "settlement": "Rawalpindi",
+                        "country": "Pakistan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Nigella sativa or black seed is used as a medicinal plant around the globe. Oil and seeds have a long tradition of folklore use in various medicinal and food systems. The conventional therapeutic use of Nigella sativa, in different ways, has been reported in several studies to treat different diseases including influenza, headache, hypertension, diabetes, inflammation, eczema, fever, cough, asthma, bronchitis, and fever. Based on previously reported potential therapeutic uses of N. sativa compounds, and keeping in mind the dire need of time for the development of potent antiviral, a combined docking, ADMET properties calculation, molecular dynamics, and MM-PBSA approaches were applied in the current study to check the therapeutic potentials of N. sativa chief constituents against COVID-19. Among the studied compounds, we found that dithymoquinone (DTQ), with binding affinity of \u00c08.6 kcal/mol compared to a positive control (chloroquine, \u00c07.2 kcal/mol) , has the high potential of binding at SARS-CoV-2:ACE2 interface and thus could be predicted as a plausible inhibitor to disrupt viral-host interactions. Molecular dynamics simulation of 100 ns well complemented binding affinity of the compound and revealed strong stability of DTQ at the docked site. Additionally, MM-PBSA also affirms the docking results. Compound DTQ of the present study, if validated in wet lab experiments, could be used to treat COVID-19 and could serve as a lead in the future for development of more effective natural antivirals against COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Nigella sativa, a herbal medicine belonging to the Ranunculaceae family, has been explored exclusively and acquired worldwide acknowledgment as a proven historical and religious remedy for a wide range of health problems (Goreja, 2003) . N. sativa seeds have been consumed to treat various diseases and infirmities (Begum & Mannan, 2020; Majeed et al., 2020; Yimer et al., 2019) . In Islamic as well as Christian literature it is considered as one of the best curing medicine. In \"Tibb-e-Nabwi\" the regular use of black seed is recommended. Unlike antibacterial drugs, the availability of antiviral medicines is limited with narrow effectiveness (D'Alessandro et al., 2020) . Oil extracted from black seed was used effectively in the \"Murine cytomegalovirus (MCMV) viral inhibition where reduced titer in the liver and spleen of infected individual was reported (Salem & Hossain, 2000) . Black seed has been used in turkey poultry to significantly suppress the pathogenicity of the influenza virus (H9N2) and also resulted in improved immune response (Umar et al., 2016) . N. sativa seeds showed strong antiviral properties when used against \"Laryngotrachietis Virus (ILTV)\" at a concentration of 35 lM in Chicken Embryo Rough Cells (CER) (Zaher et al., 2008) . In a clinical trial conducted on Egyptian patients who were infected with the Hepatitis C virus, some of them were diabetic and HCV-positive and were also not recommended for IFN/ribavirin therapy, N. sativa was given to them on regular basis for nearly three months (450 mg thrice a day). On completion of treatment, an improvement in the clinical condition of patients with decreased viral road, less oxidative stress and improved glycemic control was observed (Barakat et al., 2013) . Additionally, another surprising study was reported in 2013, in which an adult who was HIV-positive was treated with N. sativa at a dose of 10 ml (twice a day) for the 6 months. After 6 months, when the \"EIA Western Bolt\" test was repeated, the outcome was seronegative, the test was repeated multiple times, and results were obtained all the time, affirming the efficacy and potency of N. sativa seeds as potent anti-HIV (Onifade et al., 2013) . The medical importance of N. stativa has led to increased research interest to test its therapeutic potential against the COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 235,
+                    "text": "(Goreja, 2003)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 315,
+                    "end": 337,
+                    "text": "(Begum & Mannan, 2020;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 338,
+                    "end": 358,
+                    "text": "Majeed et al., 2020;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 359,
+                    "end": 378,
+                    "text": "Yimer et al., 2019)",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 646,
+                    "end": 673,
+                    "text": "(D'Alessandro et al., 2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 862,
+                    "end": 885,
+                    "text": "(Salem & Hossain, 2000)",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1051,
+                    "end": 1070,
+                    "text": "(Umar et al., 2016)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1239,
+                    "end": 1259,
+                    "text": "(Zaher et al., 2008)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1725,
+                    "end": 1747,
+                    "text": "(Barakat et al., 2013)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2172,
+                    "end": 2194,
+                    "text": "(Onifade et al., 2013)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The rapid outbreak of COVID-19 in Wuhan china followed by its spread worldwide with nearly 1,016,395 infected people and thousands of deaths, poses a serious public health issue (Boopathi et al., 2020; Elflein, 2020) . COVID-19 is caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) with the mild symptoms such as dry cough and rise in body temperature to severe symptoms like pneumonia or acute respiratory failure, particularly in adults (males) with comorbidity Zhou et al., 2020) . Coronavirus most likely originated from animals probably bats, and transmission occurs to humans that progressed in the form of infected droplets Wu et al., 2020; Zhou et al., 2020) . COVID-19 has been declared as a global health emergency by the World Health Organization (WHO), and it is believed that this pandemic like SARS-CoV-1, would result in the loss of many lives with tremendous social effects and huge economic damages (Keogh-Brown & Smith, 2008) . No specific and potent therapeutics are reported against this pandemic yet (Aanouz et al., 2020; Chen et al., 2020; . Thus, the designing and development of effective antivirals along with vaccines against SARS-CoV-2 is the dire need of the world today (Bouchentouf & Missoum, 2020; Emeka et al., 2014; Enayatkhani et al., 2020; Muralidharan et al., 2020; Sarma et al., 2020) . Keeping the current situation in mind and diverse therapeutically use of N. sativa, the present investigation aimed to identify the active constituents of N. sativa as probable drug leads against COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 201,
+                    "text": "(Boopathi et al., 2020;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 202,
+                    "end": 216,
+                    "text": "Elflein, 2020)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 484,
+                    "end": 502,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 651,
+                    "end": 667,
+                    "text": "Wu et al., 2020;",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 668,
+                    "end": 686,
+                    "text": "Zhou et al., 2020)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 936,
+                    "end": 963,
+                    "text": "(Keogh-Brown & Smith, 2008)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1041,
+                    "end": 1062,
+                    "text": "(Aanouz et al., 2020;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1063,
+                    "end": 1081,
+                    "text": "Chen et al., 2020;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1219,
+                    "end": 1248,
+                    "text": "(Bouchentouf & Missoum, 2020;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1249,
+                    "end": 1268,
+                    "text": "Emeka et al., 2014;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1269,
+                    "end": 1294,
+                    "text": "Enayatkhani et al., 2020;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1295,
+                    "end": 1321,
+                    "text": "Muralidharan et al., 2020;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1322,
+                    "end": 1341,
+                    "text": "Sarma et al., 2020)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The 2D structures of N. sativa chief constituents were generated using a freely available ChemDraw software of Chem Office 2004 (Li et al., 2004) . The structures were then converted into .mol2 format with the help of Chem3D Ultra, another package of Chem Office. For structural geometry optimization of selected inhibitor freely available UCSF Chimera 1.14 was employed (Pettersen et al., 2004) .",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 145,
+                    "text": "(Li et al., 2004)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 371,
+                    "end": 395,
+                    "text": "(Pettersen et al., 2004)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ligands preparation"
+        },
+        {
+            "text": "Recently reported three dimensional (3D) structure of the COVID-19 chimeric receptor-binding domain with its human receptor ACE2 (PDB ID: 6VW1) was retrieved from RCSB PDB (https://www.rcsb.org/structure/6vw1). The water molecules as well as co-crystallized ligands were deleted from the PDB file.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Target selection and preparation"
+        },
+        {
+            "text": "To determine the binding mode and interaction of the selected compounds and target, docking studies were performed using Autodock/vina (Trott & Olson, 2010) . The pdbqt files of the receptor protein, and N. sativa compounds along with the grid box setting at the active site of the receptor for compounds binding was done through Auto Dock GUI program (Morris et al., 2009) . The grid size boundaries along X, Y, and Z axes was scaled at 40 \u00c5 with a grid spacing of 0.375 \u00c5 to allow proper binding flexibility at the docked site. The output pdbqt files were written into a configuration (conf) file. The receptor was treated as rigid entity whereas ligands were kept flexible to attain the best fitting conformation with respect to the receptor complex. The generated solutions of docking were clustered and those with root mean square deviation (RMSD) value <1.0 \u00c5 were considered only. The binding conformation of ligands with the lowest binding affinity was characterized as the most stable conformation of the ligands with respect to the receptor. The docking protocol was validated by docking previously crystalized co-ligands with the S-protein. The visualization tools including Visual Molecular Dynamics (VMD) (Humphrey et al., 1996) , and Chimera were employed to analyze intermolecular chemical interactions such as both hydrogen bonding, ionic interactions, and hydrophobic contacts.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 156,
+                    "text": "(Trott & Olson, 2010)",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 352,
+                    "end": 373,
+                    "text": "(Morris et al., 2009)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1218,
+                    "end": 1241,
+                    "text": "(Humphrey et al., 1996)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Docking protocol"
+        },
+        {
+            "text": "The ADME properties of the selected compounds were predicted by freely available online SwissADME software (Daina et al., 2017) . Toxicity analysis was performed through online ProTox-II software (Drwal et al., 2014) . Toxicity parameters, such as hepatotoxicity, carcinogenicity, immunogenicity, mutagenicity, and cytotoxicity were evaluated. Toxicity is important to evaluate in drug designing as it helps in determining the toxic dose in animal model studies and also lessens the number of animal model studies (Sripriya et al., 2019) .",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 127,
+                    "text": "(Daina et al., 2017)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 196,
+                    "end": 216,
+                    "text": "(Drwal et al., 2014)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 514,
+                    "end": 537,
+                    "text": "(Sripriya et al., 2019)",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ADME properties analysis"
+        },
+        {
+            "text": "The selected complex then underwent 100 ns MD simulation using AMBER 18 software (Case et al., 2018) . The Leap of Amber19 tools was used to create receptor molecule topology files (Case et al., 2005 ). The simulation system was neutralized by adding Na \u00fe ions. The neutralized system was then submerged in TIP3PBOX, a water molecules box (Jorgensen et al., 1983 ). The solvated system was minimized first for 1500 steepest descent method iterations, followed by 1000 steps of conjugate gradient (Andleeb et al., 2016) . System heating was achieved for 100 ps that involve gradual heating from 0 K to 300 K at pressure of 1 atm (Abbasi et al., 2016) . After, the system was equilibrated for 100 ps (Lavenda, 2016) that allowed the exchange between kinetic and potential energies. Simulation production run was accomplished for 100 ns to evaluate dynamics of the complex and check stability of ligand docked conformation. To apply constraint on covalently bound hydrogen atoms, SHAKE algorithm (Ryckaert et al., 1977) was employed. The periodic boundary conditions in the simulation box were ensured with the use of canonical ensemble (Ahmad et al., 2019) . Temperature of the was kept constant using Berendsen algorithm (Lemak & Balabaev, 1994) . MD simulations were completed using the Ewald summation method (Darden et al., 1993) and the coordinate files were saved for every 0.5 ps. The trajectories were analyzed using the CPPTRAJ module implemented in Amber18.",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 100,
+                    "text": "(Case et al., 2018)",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 199,
+                    "text": "(Case et al., 2005",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 339,
+                    "end": 362,
+                    "text": "(Jorgensen et al., 1983",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 496,
+                    "end": 518,
+                    "text": "(Andleeb et al., 2016)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 628,
+                    "end": 649,
+                    "text": "(Abbasi et al., 2016)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 698,
+                    "end": 713,
+                    "text": "(Lavenda, 2016)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 993,
+                    "end": 1016,
+                    "text": "(Ryckaert et al., 1977)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1134,
+                    "end": 1154,
+                    "text": "(Ahmad et al., 2019)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1220,
+                    "end": 1244,
+                    "text": "(Lemak & Balabaev, 1994)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1310,
+                    "end": 1331,
+                    "text": "(Darden et al., 1993)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular dynamic (MD) simulation"
+        },
+        {
+            "text": "The free energy of binding for the docked complex was estimated using two methods: Molecular Mechanics-Generalized Born Surface Area (MMGBSA) and Molecular Mechanics Poisson-Boltzmann Surface Area (MMPBSA) embedded in MMPBSA.py module of AMBER18 (Miller et al., 2012) . In total, 100 frames were processed from the trajectories and the net energy of the system was estimated through the following equation,",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 267,
+                    "text": "(Miller et al., 2012)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Binding free energies of the complex"
+        },
+        {
+            "text": "Each of the above terms involves the calculation of several energy components: van der Waals energy, electrostatic energy, and internal energy summed from molecular mechanics and polar contribution towards solvation energy. The analysis also takes into account the contribution from non-polar term towards solvation energy and inhibitor entropy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Binding free energies of the complex"
+        },
+        {
+            "text": "Active ingredients of N. sativa reported in several studies are dithymoquinone (DTQ), thymoquinone (TQ), thymol, thymohydroquinone (THQ), p-cymene, 4-terpineol, and t-anethole. N. sativa seeds also contain other ingredients such as vitamins, mineral elements, carbohydrates, fats, proteins, and essential amino acids (Ahmad et al., 2013; Al-Jassir, 1992; Bhatia & Bajaj, 1972; Chun et al., 2002; Correa et al., 1986; Islam et al., 2019; Majeed et al., 2020; Omar et al., 1999) . Bioactive compounds used in the current study are shown in Figure 1 .",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 337,
+                    "text": "(Ahmad et al., 2013;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 338,
+                    "end": 354,
+                    "text": "Al-Jassir, 1992;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 355,
+                    "end": 376,
+                    "text": "Bhatia & Bajaj, 1972;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 377,
+                    "end": 395,
+                    "text": "Chun et al., 2002;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 396,
+                    "end": 416,
+                    "text": "Correa et al., 1986;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 417,
+                    "end": 436,
+                    "text": "Islam et al., 2019;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 437,
+                    "end": 457,
+                    "text": "Majeed et al., 2020;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 458,
+                    "end": 476,
+                    "text": "Omar et al., 1999)",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 538,
+                    "end": 546,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Nigella sativa and derived compounds"
+        },
+        {
+            "text": "Docking studies were conducted triplicate to have a clear depiction of the mode of action of N. sativa chief constituents against S protein: ACE2 receptor interface. For each compound, ten interactions were generated and the one with best binding affinity was selected. Docking results revealed that among the studied compounds, DTQ exhibited a high affinity of \u00c08.6 kcal/mol for the selected target (Table 1) . Interacting residues of the interface of S protein RBD (PHE 28, LYS31, GLU35, GLN76, LEU79) and ACE2 receptor complex (LYS452, LEU455, PHE456, GLU484, GLY485, CYC488, TYR489, PHE490, LEU492, GLN 493and SER494), involved in ligand binding, are shown in Figure 2 . Detailed 3 D inhibitor-interface interactions are depicted in Figure 3 , which may be useful for future identification of novel inhibitors and for designing of analogs of the studied compound. Exploration of the docked complex using VMD revealed that DTQ formed three hydrogen bonds and one ionic interaction with a key interacting residue of interface LYS31 ( Figure. 3). Aforesaid analysis of docked complex revealed that interactions noted between the DTQ and target complex have more preferences towards the ACE2 receptor, might in-turn limit the binding of S-protein with the human host, ACE2 receptor, and thus may restrict the viral interaction within the host cell. In addition, to further confirm docking results, we have superimposed DTQ-target docked complex with chloroquine-S-protein:ACE2 docked complex. Chloroquine (CQ) was recently tested in vitro and was found to be active against COVID-19. It was observed that more or less CQ and DTQ occupied the same binding pocket (Figure 4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 400,
+                    "end": 409,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 664,
+                    "end": 672,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 737,
+                    "end": 745,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1034,
+                    "end": 1035,
+                    "text": "(",
+                    "ref_id": null
+                },
+                {
+                    "start": 1036,
+                    "end": 1043,
+                    "text": "Figure.",
+                    "ref_id": null
+                },
+                {
+                    "start": 1662,
+                    "end": 1671,
+                    "text": "(Figure 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "To calculate the drug-likeness, the ADME properties of DTQ were calculated (Table 2 ). Based on the calculated LogP value, the compound proved to be lipophilic with a consensuses LogP value of 2.92. ESOL value (\u00c03.20) indicates that the compound is moderately water soluble. DQT estimated to have decent absorption in the gastrointestinal tract making it a good drug candidate for oral route administration. No violation of Lipinski's rule of five was noted (Lipinski, 2004) . The feasibility of the suggested compound to serve as a lead for the future design of potent antivirals to treat COVID-19 was explored using medicinal chemistry filters. Toxicity analysis indicated DTQ as inactive for all the used toxicity prediction parameters and thus predicted as non-toxic.",
+            "cite_spans": [
+                {
+                    "start": 458,
+                    "end": 474,
+                    "text": "(Lipinski, 2004)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 83,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "ADME properties analysis"
+        },
+        {
+            "text": "The binding affinity and dynamics of top-ranked DTQ conformation obtained as a result of docking were further evaluated using MD simulation. RMSD was determined to check how the binding of DTQ to the active site of protein affects its ability to reach an equilibrium state. As shown in Figure  5 , the system equilibrated after 0.5 ns, however, fluctuations were observed throughout the production run with an average of 2.58 \u00c5. It was noticed that during the 100 ns simulation run, the ligand re-equilibrated nine times. The docked complex was snapshot at different intervals from the production trajectories to assess the behavior and stability of ligand, shown in Figure 6 . The studied system experienced varying degrees of fluctuations at different intervals, i.e. around 12, 20, 29 (Figure 6a) , 50, 52, 59 (Figure 6b) , 76, 78, and 92 ns (Figure 6c ). The superimposition of protein structures, extracted from the trajectories, revealed that at aforementioned intervals ligand moved a bit away from the binding site and after some time (about 0.5 ns) returned to its original position. Further, the stability of the docked complex was assessed by computing the mobility of residues. Analysis of the root mean square fluctuation (RMSF) graph revealed no major fluctuations in the active site region. The average estimated value was 1.16 \u00c5. Lower RMSF values for the interacting residues indicated the loss of flexibility because of ligand binding as shown in Figure 7 (Ahmad et al., 2017; Kuzmanic & Zagrovic, 2010) . Results have shown that these residues might play a vital role in stabilizing the complex.",
+            "cite_spans": [
+                {
+                    "start": 1474,
+                    "end": 1494,
+                    "text": "(Ahmad et al., 2017;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1495,
+                    "end": 1521,
+                    "text": "Kuzmanic & Zagrovic, 2010)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 286,
+                    "end": 295,
+                    "text": "Figure  5",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 667,
+                    "end": 675,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 788,
+                    "end": 799,
+                    "text": "(Figure 6a)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 813,
+                    "end": 824,
+                    "text": "(Figure 6b)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 845,
+                    "end": 855,
+                    "text": "(Figure 6c",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 1465,
+                    "end": 1473,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "MD Simulation"
+        },
+        {
+            "text": "The binding free energy of the complex was carried out to revalidate the inhibitor affinity for the receptor protein complex predicted by the docking simulation studies. The binding free energies for the system in both MMGBSA and MMPBSA are tabulated in Table 3 . As can be seen, the complex interactions are mainly dominated and favored by van der Waals (\u00c032.8290 kcal/mol) in both methods in contrast to less contribution from electrostatic (\u00c04.7312 kcal/mol). The polar solvation energy was revealed more unfavorable in receptor-inhibitor formation (14.3225 kcal/mol in MMGBSA and 17.0286 kcal/mol in MMPBSA). The net binding energy for the complex predicted by MMGBSA is \u00c026.7955 kcal/mol that revealed stronger system stability compared to the one concluded by MMPBSA (\u00c022.9620 kcal/mol). The difference in the net energy of both techniques is large because of the polar solvation energy which seems to play less role in receptor-inhibitor interaction. The entropy impact over the inhibitor has not been considered due to higher computational cost.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 254,
+                    "end": 261,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "MMGBSA and MMPBSA binding free energies"
+        },
+        {
+            "text": "An outbreak of COVID-19 in Wuhan in the Hubei province of China opens up new horizons for the exploration of synthetic as well as natural small compounds to identify a potential lead that could be used to design plausible antiviral drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Recently reported crystallographic structure of SARS-CoV-2 Sprotein: human ACE2 receptor, indicates that disrupting the viral S-protein-ACE2 interface may be an attractive target for structure-based drug discovery (Elfiky, 2020a; 2020b; Enmozhi et al., 2020; Joshi et al., 2020) . However, the discovery and development of new potent drugs is a time taking and costly process. It almost takes 10-15 years, including trials and regulatory approval, in the United States to report a novel drug (Van Norman, 2016) . Keeping this and the reported therapeutic potentials of N. sativa main constituents in mind, the current in silico study is designed. Among the studies compounds, DTQ also known as nigellone, came out to be a more promising compound against the selected target. Nigellone, a carbonyl polymer of thymoquinone, retains its much of the pharmacologic properties (Chakravarty, 1993) . Based on results of docking, dynamics, and net free energy value, we hypothesized that N. sativa compounds particularly DTQ (Eid et al., 2017; Shrivastava et al., 2011) is showing high affinity and stability at SARS-CoV-2:ACE2 interface which upon binding with key residues of the interface may disrupt host recognition and also cure the viral infection by disrupting the S-protein pathway. Beside SARS-CoV-2:ACE2 interface, several other proteins could also target for drug designing (Elfiky & Azzam, 2020; Pant et al., 2020) . Among these, RNA-dependent RNA polymerase (RdRp) (catalyzes the replication of RNA from RNA template) (Elfiky, 2020b) , ion channel E protein (Gupta et al., 2020) , and the main protease (M Pro ) (Joshi et al., 2020) that is vital in viral replication and maturation can serve potential drug targets against SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 229,
+                    "text": "(Elfiky, 2020a;",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 230,
+                    "end": 236,
+                    "text": "2020b;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 237,
+                    "end": 258,
+                    "text": "Enmozhi et al., 2020;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 259,
+                    "end": 278,
+                    "text": "Joshi et al., 2020)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 492,
+                    "end": 510,
+                    "text": "(Van Norman, 2016)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 871,
+                    "end": 890,
+                    "text": "(Chakravarty, 1993)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1017,
+                    "end": 1035,
+                    "text": "(Eid et al., 2017;",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1036,
+                    "end": 1061,
+                    "text": "Shrivastava et al., 2011)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 1378,
+                    "end": 1400,
+                    "text": "(Elfiky & Azzam, 2020;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1401,
+                    "end": 1419,
+                    "text": "Pant et al., 2020)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1524,
+                    "end": 1539,
+                    "text": "(Elfiky, 2020b)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1564,
+                    "end": 1584,
+                    "text": "(Gupta et al., 2020)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1618,
+                    "end": 1638,
+                    "text": "(Joshi et al., 2020)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, N. sativa chief constituents revealed to have potential as natural antiviral agents against novel coronavirus. Particularly, DTQ showed a high affinity towards SARS-CoV-2:ACE2 interface and interacts with several hotspot residues both through hydrophobic and hydrophilic bonding. Additionally, this compound has high solubility, gut absorption, and good profile of druglikness making it a potent lead for future structure optimization to design more potent derivatives. Dynamically in an aqueous environment, the compound predicted conformation of docking studies is highly stable at CoV-2:ACE2 interface as affirmed by the binding free energy assays by securing a very low energy level. Based on these findings, it is hypothesized that DTQ (PubChem SID: 163237941) may be subjected to in vitro and in vivo assays validation to disclose its true inhibitory potency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "No potential conflict of interest was reported by the authors. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure statement"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Moroccan medicinal plants as inhibitors of COVID-19: Computational investigations",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Aanouz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Belhassan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "El Khatabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lakhlifi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "El Idrissi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouachrine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/07391102.2020.1758790"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Interaction mechanisms of a melatonergic inhibitor in the melatonin synthesis pathway",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azam",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Liedl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Fuchs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Molecular Liquids",
+            "volume": "221",
+            "issn": "",
+            "pages": "507--517",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.molliq.2016.06.034"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A review on therapeutic potential of Nigella sativa: A miracle herb",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Husain",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mujeeb",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Najmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Siddique",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Damanhouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Anwar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Asian Pacific Journal of Tropical Biomedicine",
+            "volume": "3",
+            "issn": "5",
+            "pages": "60075--60076",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2221-1691(13)60075-1"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Toward novel inhibitors against KdsB: A highly specific and selective broadspectrum bacterial enzyme",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Liedl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Biomolecular Structure & Dynamics",
+            "volume": "37",
+            "issn": "5",
+            "pages": "1326--1345",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/07391102.2018.1459318"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Binding mode analysis, dynamic simulation and binding free energy calculations of the MurF ligase from Acinetobacter baumannii",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Uddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Molecular Graphics & Modelling",
+            "volume": "77",
+            "issn": "",
+            "pages": "72--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmgm.2017.07.024"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A one-pot multicomponent facile synthesis of dihydropyrimidin-2(1: H)-thione derivatives using triphenylgermane as a catalyst and its binding pattern validation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Andleeb",
+                    "suffix": ""
+                },
+                {
+                    "first": "I-U-D",
+                    "middle": [],
+                    "last": "Imtiaz-Ud-Din",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Rauf",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Badshah",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sadaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Raheel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Tahir",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Raza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "RSC Advances",
+            "volume": "6",
+            "issn": "83",
+            "pages": "79651--79661",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/C6RA19162B"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Chemical composition and microflora of black cumin (Nigella sativa L.) seeds growing in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Al-Jassir",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mcgee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Swails",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Homeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gohlke",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Roitberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "Journal of Chemical Theory and Computation",
+            "volume": "45",
+            "issn": "4",
+            "pages": "3314--3321",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/ct300418h"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Effects of Nigella sativa on outcome of hepatitis C in Egypt",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M F"
+                    ],
+                    "last": "Barakat",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "El Wakeel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hagag",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "World Journal of Gastroenterology",
+            "volume": "19",
+            "issn": "16",
+            "pages": "2529--2536",
+            "other_ids": {
+                "DOI": [
+                    "10.3748/wjg.v19.i16.2529"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A review on Nigella sativa: A Marvel Herb",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Begum",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mannan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Drug Delivery and Therapeutics",
+            "volume": "10",
+            "issn": "2",
+            "pages": "213--219",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Novel 2019 coronavirus structure, mechanism of action, antiviral drug promises and rule out against its treatment",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boopathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Poma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kolandaivel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Identification of compounds from Nigella sativa as new potential inhibitors of 2019 Novel Coronasvirus (Covid-19): Molecular docking study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bouchentouf",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Missoum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Tannins in black-plum (Syzygium cumini L.) seeds",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bhatia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bajaj",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "The Biochemical Journal",
+            "volume": "128",
+            "issn": "1",
+            "pages": "56--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/bj1280056Pa"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The amber biomolecular simulation programs",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Case",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cheatham",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gohlke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Merz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Onufriev",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Simmerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Woods",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "26",
+            "issn": "16",
+            "pages": "1668--1688",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcc.20290"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Inhibition of histamine release from mast cells by nigellone",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chakravarty",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Annals of Allergy",
+            "volume": "70",
+            "issn": "3",
+            "pages": "237--242",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: A descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "10223",
+            "pages": "507--513",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Diagnosis and treatment recommendations for pediatric respiratory16 infection caused by the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "Z.-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "World Journal of Pediatrics",
+            "volume": "5",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12519-020-00345-5"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Biochemical properties of polysaccharides from black pepper",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Biological & Pharmaceutical Bulletin",
+            "volume": "25",
+            "issn": "9",
+            "pages": "1203--1208",
+            "other_ids": {
+                "DOI": [
+                    "10.1248/bpb.25.1203"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Amino acid composition of some Amaranthus sp. grain proteins and of its fractions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Correa",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jokl",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carlsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Archivos Latinoamericanos de Nutricion",
+            "volume": "36",
+            "issn": "3",
+            "pages": "466--476",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "SwissADME: A free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Daina",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Michielin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zoete",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Scientific Reports",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep42717"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Particle mesh Ewald-an Nlog (N) method for Ewald sums in large systems",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Darden",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "York",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Journal of Chemical Physics",
+            "volume": "98",
+            "issn": "12",
+            "pages": "10089--10092",
+            "other_ids": {
+                "DOI": [
+                    "10.1063/1.464397"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The use of antimalarial drugs against viral infection. Microorganisms",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "D&apos;alessandro",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Scaccabarozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Signorini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Perego",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ilboudo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ferrante",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Delbue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/microorganisms8010085"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "ProTox: A web server for the in silico prediction of rodent oral toxicity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Drwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Banerjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dunkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wettig",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Preissner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nucleic Acids Research",
+            "volume": "42",
+            "issn": "",
+            "pages": "53--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gku401"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Coronavirus (COVID-19) disease pandemic-statistics & facts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Elflein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Black seed: Nature's miracle remedy",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Goreja",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A review on the cosmeceutical and external applications of Nigella sativa",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eid",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elmarzugi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Abu Ayyash",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Sawafta",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Daana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Tropical Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2017/7092514"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Natural products may interfere with SARS-CoV-2 attachment to the host cell",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Elfiky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/07391102.2020.1761881"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "SARS-CoV-2 RNA dependent RNA polymerase (RdRp) targeting: An in silico perspective",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfiky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Novel guanosine derivatives against MERS CoV polymerase: An in silico perspective",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfiky",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Azzam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Dietary supplementation of chloroquine with nigella sativa seed and oil extracts in the treatment of malaria induced in mice with Plasmodium berghei",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Emeka",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Badger-Emeka",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eneh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Pharmacognosy Magazine",
+            "volume": "10",
+            "issn": "38",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/0973-1296.133282"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Reverse vaccinology approach to design a novel multi-epitope vaccine candidate against COVID-19: An in silico study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Enayatkhani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hasaniazad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Faezi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guklani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Davoodian",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ahmadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ahmadi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--19",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Andrographolide as a potential inhibitor of SARS-CoV-2 main protease: An in silico approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Enmozhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Raja",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sebastine",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "In-silico approaches to detect inhibitors of the human severe acute respiratory syndrome coronavirus envelope protein ion channel",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vemula",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Donde",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gouda",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Behera",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vadde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--17",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "VMD -Visual molecular dynamics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Humphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dalke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schulten",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Journal of Molecular Graphics",
+            "volume": "14",
+            "issn": "1",
+            "pages": "18--23",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0263-7855(96)00018-5"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "An updated literaturebased review: Phytochemistry, pharmacology and therapeutic promises of Nigella sativa L",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Islam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mishra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Oriental Pharmacy and Experimental Medicine",
+            "volume": "19",
+            "issn": "2",
+            "pages": "115--115",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s13596-019-00363-3"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Comparison of simple potential functions for simulating liquid water",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jorgensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chandrasekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Madura",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Impey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Journal of Chemical Physics",
+            "volume": "79",
+            "issn": "2",
+            "pages": "926--935",
+            "other_ids": {
+                "DOI": [
+                    "10.1063/1.445869"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Discovery of potential multi-target-directed ligands by targeting host-specific SARS-CoV-2 structurally conserved main protease$",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Joshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jagdale",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bansode",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shankar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pandya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Giri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kulkarni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The economic impact of SARS: How does the reality match the predictions? Health Policy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Keogh-Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "88",
+            "issn": "",
+            "pages": "110--120",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.healthpol.2008.03.003"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Targeting SARS-Cov-2: A systematic drug repurposing approach to identify promising inhibitors against 3C-like Proteinase and 2'-O-RiboseMethyltransferase",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jha",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Amera",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pathak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Muthukumaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--40",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Identification of chymotrypsin-like protease inhibitors of SARS-CoV-2 via integrated computational approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ashraf",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Uddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Haq",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Determination of ensemble-average pairwise root mean-square deviation from experimental B-factors",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kuzmanic",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zagrovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Biophysical Journal",
+            "volume": "98",
+            "issn": "5",
+            "pages": "861--871",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bpj.2009.11.011"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Personal experience with four kinds of chemical structure drawing software: Review on ChemDraw, ChemWindow, ISIS/Draw, and ChemSketch",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Chem Inf Comput Sci",
+            "volume": "44",
+            "issn": "5",
+            "pages": "1886--1890",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/ci049794h"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Statistical physics: A probabilistic approach",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lavenda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "On the Berendsen thermostat",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lemak",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Balabaev",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Molecular Simulation",
+            "volume": "13",
+            "issn": "3",
+            "pages": "177--187",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/08927029408021981"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Lead-and drug-like compounds: The rule-of-five revolution",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lipinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Drug Discovery Today. Technologies",
+            "volume": "1",
+            "issn": "4",
+            "pages": "337--341",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ddtec.2004.11.007"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Autodock4 and AutoDockTools4: Automated docking with selective receptor flexiblity",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huey",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lindstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Belew",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goodsell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "30",
+            "issn": "16",
+            "pages": "2785--2791",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcc.21256"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Nigella sativa L.: Uses in traditional and contemporary medicines-An overview",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Majeed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Muhammad",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S S"
+                    ],
+                    "last": "Hayat",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Inayat",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Siyyar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Ecologica Sinica",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chnaes.2020.02.001"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Computational studies of drug repurposing and synergism of lopinavir, oseltamivir and ritonavir binding with SARS-CoV-2 Protease against COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Muralidharan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sakthivel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Velmurugan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gromiha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "High performance liquid chromatographic analysis of the pharmacologically active quinones and related compounds in the oil of the black seed (Nigella sativa L.)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Omar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghosheh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abdulghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Houdi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Crookscor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Journal of Pharmaceutical and Biomedical Analysis",
+            "volume": "19",
+            "issn": "5",
+            "pages": "757--762",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0731-7085(98)00300-8"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Nigella sativa concoction induced sustained seroreversion in HIV patient",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Onifade",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Adedeji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "African Journal of Traditional, Complementary, and Alternative Medicines",
+            "volume": "10",
+            "issn": "5",
+            "pages": "332--335",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Strong and weak hydrogen bonds in protein-ligand complexes of kinases: A comparative study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Panigrahi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Amino Acids",
+            "volume": "34",
+            "issn": "4",
+            "pages": "617--633",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00726-007-0015-4"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Peptide-like and small-molecule inhibitors against Covid-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ravichandiran",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "S N"
+                    ],
+                    "last": "Murty",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Srivastava",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "UCSF Chimera-a visualization system for exploratory research and analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Pettersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Goddard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Couch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Greenblatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ferrin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "25",
+            "issn": "13",
+            "pages": "1605--1612",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcc.20084"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Numerical integration of the Cartesian equations of motion of a system with constraints: Molecular dynamics of n-alkanes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ryckaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ciccotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J C"
+                    ],
+                    "last": "Berendsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Journal of Computational Physics",
+            "volume": "23",
+            "issn": "3",
+            "pages": "327--341",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0021-9991(77)90098-5"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "In silico evaluation of multispecies toxicity of natural compounds",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sripriya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ranjith Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ashwin Karthick",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhuvaneswari",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Prakash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Drug and Chemical Toxicology",
+            "volume": "21",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/01480545.2019.1614023"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Protective effect of black seed oil from Nigella sativa against murine cytomegalovirus infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salem",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hossain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "International Journal of Immunopharmacology",
+            "volume": "22",
+            "issn": "9",
+            "pages": "36--45",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0192-0561(00)00036-9"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "In-silico homology assisted identification of inhibitor of RNA binding against 2019-nCoV N-protein (N terminal domain)",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sarma",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Prajapat",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Avti",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "A review on therapeutic applications of Nigella sativa",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shrivastava",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Agrawal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Parveen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Chemistry and Chemical Sciences",
+            "volume": "1",
+            "issn": "4",
+            "pages": "241--248",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Trott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of Computational Chemistry",
+            "volume": "31",
+            "issn": "2",
+            "pages": "455--461",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcc.21334"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Protective and antiviral activities of Nigella sativa against avian influenza (H9N2) in turkeys",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Umar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Munir",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Subhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Azam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Nisa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of the Saudi Society of Agricultural Sciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Drugs, devices, and the FDA: Part 1: An overview of approval processes for drugs",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Norman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JACC. Basic to Translational Science",
+            "volume": "1",
+            "issn": "3",
+            "pages": "170--179",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jacbts.2016.03.002"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-G",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-W",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-H",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-Y",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-L",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F.-H",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q.-M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-J",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Nigella sativa L.(black cumin): A promising natural remedy for wide range of illnesses",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tuem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Karim",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ur-Rehman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Anwar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Evidence-Based Complementary and Alternative Medicine : ECAM",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2019/1528635"
+                ]
+            }
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Observations on the biological effects of black cumin seed (Nigella sativa) and green tea (Camellia sinensis)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zaher",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Zerizer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Global Vet",
+            "volume": "2",
+            "issn": "",
+            "pages": "198--204",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-R",
+                    "middle": [],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-D",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R.-D",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-R",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2012-7"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Two-dimensional structures of compounds studied: (a) 4-TERPINEOL (b) Dithymoquinone (DTQ) (c) Carvacrol (d) Carvone (e) p-cymene (f) t-anethole (g) Thymohydroquinone (THQ) (h) Thymol (THY) and (i) Thymoquinone (TQ),.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "HZ1-UNK:O 2.68 \u00c5, LYS31:NZ-UNK:O 1.79 \u00c5). Ionic as well as hydrogen bond interactions were also observed with GLN493 (GLN493:NE2-UNK: O 3.201 \u00c5, GLN493:2HE2-UNK:O 3.53 \u00c5, GLN493:1HE2-UNK:O 3.16\u00c5), a residue important for binding with human ACE2. SER494 was also involved in electrostatics and H-bond interactions (SER494: HN-UNK:O 2.78 \u00c5, SER494:N-UNK:O 3.60 \u00c5). Hydrogen bond interactions play a vital role in maintaining the stability of the docked complex(Panigrahi, 2008). Additionally, a network of hydrophobic contacts between carbonyl groups of DTQ and interacting residues of target: LYS31:CD-UNK:C 1.18 \u00c5, LYS31:CD-UNK:C 1.81 \u00c5, LYS31:CD-UNK:C 2.41 \u00c5, LYS31:CD-UNK:C 3.37 \u00c5, LYS31:CD-UNK:C 3.66 \u00c5, LYS31:CD-UNK:C 3.10 \u00c5, LYS31:CG-UNK:C 1.62 \u00c5,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Highlighting the key interacting residues of DTQ and S-protein: ACE2 active site generated using Chimera.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Three-dimensional representation of important interactions using VMD. LYS31:CG-UNK:C 2.82 \u00c5, LYS31:CG-UNK:C 3.84 \u00c5, LYS31:CB-UNK:C 3.09 \u00c5, LYS31:CB-UNK:C 3.49 \u00c5, GLN76:CD-UNK:C 3.66 \u00c5, TYR489:CE1-UNK:C 3.91 \u00c5, TYR489:CD1-UNK:C 3.36 \u00c5, TYR489: CB-UNK:C 3.94 \u00c5, TYR489:CA-UNK:C 3.85 \u00c5, PHE490:CD2-UNK:C 3.59 \u00c5, PHE490:CD2-UNK:C 3.68 \u00c5, PHE490:CB-UNK:C 3.67 \u00c5, PHE490:CB-UNK:C 3.97 \u00c5, PHE490:CG-UNK:C 3.92 \u00c5, LYS452:CD-UNK:C 3.99 \u00c5 (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Superimposed structures of CQ and DTQ docked to S-protein:ACE2 interface.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "RMSD profile of DTQ and S-protein: ACE2 complex.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Superimposition of structures extracted from trajectories at, (a) 12, 20, 29 ns, (b) 50, 52, 59 ns, (c) 76, 78, 92 ns interval of 100 ns MD simulation. Movements are shown by kaki, cyan, and purple, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "RMSF profile of DTQ and S-protein: ACE2 complex. Interacting residues are labeled red.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Binding affinities of docked compounds using Autodock/vina.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "ADME properties calculated for dithymoquinone using the SwissADME server.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Binding free energies for the DTQ and S-protein: ACE2 complex.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,697 @@
+{
+    "paper_id": "eb80938b26e46404e61a6ac26325aa64c3a163ab",
+    "metadata": {
+        "title": "The American Journal of Geriatric Psychiatry Combating Heightened Social Isolation of Nurs-ing Home Elders: The Telephone Outreach in the COVID-19 Outbreak Program",
+        "authors": [
+            {
+                "first": "Laura",
+                "middle": [
+                    "I"
+                ],
+                "last": "Van Dyck",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "settlement": "New Haven",
+                        "region": "CT",
+                        "country": "USA"
+                    }
+                },
+                "email": "laura.vandyck@yale.edu"
+            },
+            {
+                "first": "Kirsten",
+                "middle": [
+                    "M"
+                ],
+                "last": "Wilkins",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "settlement": "New Haven",
+                        "region": "CT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jennifer",
+                "middle": [],
+                "last": "Ouellet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "settlement": "New Haven",
+                        "region": "CT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gregory",
+                "middle": [
+                    "M"
+                ],
+                "last": "Ouellet",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michelle",
+                "middle": [
+                    "L"
+                ],
+                "last": "Conroy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Yale University School of Medicine",
+                    "location": {
+                        "settlement": "New Haven",
+                        "region": "CT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: Social isolation and loneliness-common concerns in older adults-are exacerbated by the COVID-19 pandemic. To address social isolation in nursing home residents, the Yale School of Medicine Geriatrics Student Interest Group initiated a Telephone Outreach in the COVID-19 Outbreak (TOCO) Program that implements weekly phone calls with student volunteers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Local nursing homes were contacted; recreation directors identified appropriate and interested elderly residents. Student volunteers were paired with elderly residents and provided phone call instructions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods:"
+        },
+        {
+            "text": "Results: Three nursing homes opted to participate in the program. Thirty elderly residents were paired with student volunteers. Initial reports from recreation directors and student volunteers were positive: elderly residents look forward to weekly phone calls and express gratitude for social connectedness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods:"
+        },
+        {
+            "text": "The TOCO program achieved initial success and promotes the social wellbeing of nursing home residents. We hope to continue this program beyond the COVID-19 pandemic in order to address this persistent need in a notably vulnerable patient population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions:"
+        },
+        {
+            "text": "COVID-19 Telephone Outreach 3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions:"
+        },
+        {
+            "text": "Objective Social isolation and loneliness are common concerns in older adults. While social isolation is often conceptualized as the objective state of minimal social contact and integration, loneliness is the negative feeling accompanying perceived social isolation (1) . Studies estimate that a range of 33-72% older adults report feelings of loneliness and that a larger proportion of these individuals live in a residential home (2, 3, 4, 5) . Loneliness is associated with negative health outcomes, including increased morbidity and mortality (6) . Moreover, there are significant mental health consequences of loneliness, including cognitive decline (3, 7) and symptoms of depression and anxiety (8, 9) . To date, activities offered in nursing home settings to address social isolation (e.g. games, outings) appear to have limited benefit (10) . Although controversial and in its infancy, some data suggests the utility of socially assistive robotics to address social isolation in nursing home settings where the availability of healthcare providers may be less than optimal (11) .",
+            "cite_spans": [
+                {
+                    "start": 267,
+                    "end": 270,
+                    "text": "(1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 433,
+                    "end": 436,
+                    "text": "(2,",
+                    "ref_id": null
+                },
+                {
+                    "start": 437,
+                    "end": 439,
+                    "text": "3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 440,
+                    "end": 442,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 443,
+                    "end": 445,
+                    "text": "5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 548,
+                    "end": 551,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 656,
+                    "end": 659,
+                    "text": "(3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 660,
+                    "end": 662,
+                    "text": "7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 702,
+                    "end": 705,
+                    "text": "(8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 706,
+                    "end": 708,
+                    "text": "9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 845,
+                    "end": 849,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1082,
+                    "end": 1086,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Text"
+        },
+        {
+            "text": "As a result of restrictions imposed by the COVID-19 pandemic, the social isolation experienced by older adults has intensified (12) . In nursing homes, residents are secluded in their rooms and no longer partake in communal meals or activities. They have extremely limited contact with support staff and are no longer able to receive visits from family members and friends. This exaggerated isolation-in addition to the threat of infection and the loss of contact with loved ones-is likely to contribute to feelings of loneliness and subsequent negative outcomes in the elderly.",
+            "cite_spans": [
+                {
+                    "start": 127,
+                    "end": 131,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Text"
+        },
+        {
+            "text": "In order to address concerns related to social isolation in nursing home residents, the Yale",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Text"
+        },
+        {
+            "text": "Outreach in the COVID-19 Outbreak (TOCO) Program. This service aims to alleviate the social isolation suffered by older adults through weekly friendly phone calls with student volunteers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 Telephone Outreach 4"
+        },
+        {
+            "text": "In order to promote the TOCO Program and to identify nursing home residents appropriate for phone contact, it was first necessary to establish partnerships with local nursing homes. Given the current heightened clinical responsibilities of healthcare workers in these facilities, initial outreach to facilities and their nursing staff was unsuccessful. Subsequently, nursing home recreation directors were contacted. Recreation directors identified eligible seniors interested in participation. In general, older individuals were approached if they were Englishspeaking and able to participate meaningfully in a telephone program. Volunteers recognized common challenges experienced by many of these older adults, including feelings of restlessness and anxiety as isolation continues, and fearfulness as COVID-19 enters nursing home facilities. In addition, many nursing home residents experienced social isolation before the COVID-19 pandemic. These challenges are exacerbated by a lack of technology (e.g. limited computer and internet access to communicate with loved ones), as well as visual and hearing impairments. These factors similarly complicated phone calls with student volunteers: For example, hearing impairments and invalid landline telephone numbers impeded completion of initial phone calls. However, facilitation by recreation directors helped resolve COVID-19 Telephone Outreach 6 these technical issues, allowing volunteers to effectively connect with the nursing home residents.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Finally, this program has positively-though inadvertently-impacted our student volunteers. Multiple volunteers voiced they have personally benefited from their weekly conversations with their nursing home companions. Not only have they reported a greater sense of purpose, but student volunteers also emphasize the impact older adults have on their own wellbeing, particularly their own feelings of social connectedness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "This novel program aims to alleviate exacerbated social isolation experienced by nursing home residents during the COVID-19 pandemic. According to the feedback from nursing home administration and student volunteers, the TOCO Program has achieved initial success.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Participating seniors look forward to their weekly phone calls and feel gratitude for new companionship during this period of loneliness. Furthermore, while the program intended to focus on the needs of nursing home residents, weekly friendly phone calls have benefited the social wellbeing of student volunteers as well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The TOCO Program revealed the current social isolation experienced by nursing home residents existed prior to COVID-19 outbreak. Loneliness is an ongoing concern in older adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "In light of this realization, we hope to continue this program beyond the COVID-19 pandemic in order to address this persistent need in a notably vulnerable, and often neglected patient population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Given the widespread and growing demand for social connectedness during the COVID-recognize the importance of emphasizing the challenges met by the program. First, when establishing partnerships with nursing homes, it was evident their front-line healthcare workers were overwhelmed by COVID-19 and unable to participate in the identification of residents appropriate for the program. However, our program overcame this barrier by connecting with motivated recreation administrators. Their typical responsibility, the provision of communal activity support, is currently unavailable. Therefore, they are able to shift efforts to assist in the identification of appropriate residents.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The initial success of the program is encouraging. As the COVID-19 pandemic continues, we plan to expand the TOCO Program to include more nursing home residents. Furthermore, given the ongoing social isolation expected after the outbreak, we hope to continue the program as a permanent Geriatrics Student Interest Group volunteer opportunity. Finally, in the near future, we aim to collect qualitative data from student volunteers to determine the personal and professional impact of the TOCO program, to assess their ability to sustain the regularity of weekly phone calls, and to identify ongoing actionable needs students can advocate for on behalf of nursing home residents. We also plan to host a 'debriefing' webinar with our faculty leadership and the TOCO student participants to encourage feedback and provide a discussion forum for the provision of ongoing supportive phone engagement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Social isolation and loneliness in old age: review and model refinement",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wenger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shahtahmasebi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Ageing & Society",
+            "volume": "16",
+            "issn": "",
+            "pages": "333--358",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Social and emotional loneliness among nondemented and demented elderly people",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Holm\u00e9n",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ericsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Winblad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Archives of Gerontology and Geriatrics",
+            "volume": "31",
+            "issn": "",
+            "pages": "177--192",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Feelings of loneliness and 10-year cognitive decline in the aged population",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tilvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pitk\u00e4l\u00e4",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jolkkonen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Lancet",
+            "volume": "356",
+            "issn": "",
+            "pages": "77--78",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Predictors and subjective causes of loneliness in an aged population",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Savikko",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Routasalo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tilvis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Archives of gerontology and geriatrics",
+            "volume": "41",
+            "issn": "",
+            "pages": "223--233",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Factors associated with loneliness of noninstitutionalized and institutionalized older adults",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Prieto-Flores",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Forjaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fernandez-Mayoralas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of aging and health",
+            "volume": "23",
+            "issn": "",
+            "pages": "177--194",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Loneliness matters: A theoretical and empirical review of consequences and mechanisms",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hawkley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cacioppo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Annals of behavioral medicine",
+            "volume": "40",
+            "issn": "",
+            "pages": "218--227",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Loneliness and risk of Alzheimer disease",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Krueger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Arnold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Archives of general psychiatry",
+            "volume": "64",
+            "issn": "",
+            "pages": "234--240",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The impact of depression and sense of coherence on emotional and social loneliness among nursing home residents without cognitive impairment-a questionnaire survey",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Drageset",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Espehaug",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kirkevold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Clinical Nursing",
+            "volume": "21",
+            "issn": "",
+            "pages": "965--974",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Social disconnectedness, perceived isolation, and symptoms of depression and anxiety among older Americans (NSHAP): a longitudinal mediation analysis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Santini",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jose",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cornwell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Public Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "62--70",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The need for a social revolution in residential care",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Theurer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mortenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Stone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of aging studies",
+            "volume": "35",
+            "issn": "",
+            "pages": "201--210",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Socially assistive robots in elderly care: A systematic review into effects and effectiveness",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bemelmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gelderblom",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jonker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of the American Medical Directors Association",
+            "volume": "13",
+            "issn": "",
+            "pages": "114--120",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The unspoken COVID-19 toll on the elderly: Loneliness",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "What is the primary question addressed by this study? As a medical student interest group, can we alleviate social isolation suffered by nursing home residents during the COVID-19 pandemic through weekly phone calls?",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "What is the main finding of this study? The Yale Geriatrics Student Interest Group implemented the Telephone Outreach in the COVID-19 Outbreak Program at three nursing homes with initial success. Nursing home residents report looking forward to their weekly phone calls and gratitude for social connectedness",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "What is the meaning of this finding? Social isolation and loneliness in nursing home seniors-a common concern now exacerbated by the COVID-19 pandemic-is partly relieved by our replicable telephone outreach program",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Student volunteers were recruited through the Geriatrics Student Interest Group and through a volunteer forum publicized by the Yale School of Medicine Office of Student Affairs.If volunteers were available for regular weekly phone calls, they were paired with a nursing home resident.Volunteers were provided with general instructions and expectations for their phone calls (Figure 1). They were given first names and landline telephone numbers for their senior companion. For the majority of residents, only landline telephone numbers were available given the technological limitations in this population (e.g. a lack of cell phones and hearing impairments). The duration of phone calls-while flexible-was expected to last approximately 30 minutes. While unlikely to occur given the friendly nature of the phone calls, students were instructed to break confidentiality with the charge nurse if concerns of self-harm or harm-to-COVID-19 Telephone Outreach 5 others arose. Finally, volunteers were encouraged to set a regular schedule in order to foster predictability for their nursing home residents.ResultsTo date, ten nursing homes in New Haven and the surrounding communities were contacted. The TOCO Program was implemented in three nursing homes. Thirty nursing home residents expressed interest in participating and were subsequently paired with student volunteers for weekly phone calls.Initial reports from nursing home recreation directors and student volunteers were positive. In general, recreation directors convey their seniors deeply appreciated the program and benefited from meaningful conversations with their volunteer companions. Phone calls are generally interactive, in which both the nursing home residents and student volunteers share stories of their lives and their families. In addition, several volunteers identified unique and actionable needs of their senior companions. For example, one volunteer contacted the recreation director to obtain books for a resident.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

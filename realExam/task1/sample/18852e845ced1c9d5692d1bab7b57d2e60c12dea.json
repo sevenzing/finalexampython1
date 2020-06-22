@@ -1,0 +1,337 @@
+{
+    "paper_id": "18852e845ced1c9d5692d1bab7b57d2e60c12dea",
+    "metadata": {
+        "title": "Role of Telecom Network to Manage COVID-19 in India: Aarogya Setu",
+        "authors": [
+            {
+                "first": "Ashok",
+                "middle": [],
+                "last": "Jhunjhunwala",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Concerted Research, Development and Innovation have enabled telecom and Internet reach most of the 1.3 billion people in India at a price-point that they can afford. This telecom network is being used for a whole lot of application today providing a large variety of services like education, health care, financial inclusion and disaster management. In almost all crisis situation like that created by coronavirus, one finds that telecom network can be leveraged to offer help to the needy, administration and coordinators to better manage the disaster. Aarogya Setu for smartphones and Aarogya Setu for feature phones are two such efforts, which are potentially going to help in this difficult situation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Mobile Telecom Network today spans most of the country today. The overall tele-density stood at 91.82 as early as Jan-19 (https ://trai.gov.in/sites /defau lt/files /PR_No.22of2 019.pdf). We have close to 1.3 billion mobile phones in India today (https ://en.wikip edia.org/wiki/List_of_count ries_by_numbe r_of_mobil e_phone s_in_use and https :// trai.gov.in/sites /defau lt/files /PR_No.22of2 019_0.pdf). This is far cry from some 8 million telephones that India had 25 years ago and was adding less than 1 million telephones per year (Ramamurthi and Jhunjhunwala 1995) . One had to wait typically for 5-8 years to get a telephone line. The change took place, when the pair of copper wires carrying telephone signals from the telephone exchange to a home/ office (called wired local loop), got replaced by a wireless local loop. Initially the worry was that this would not give us reliable and quality telephony. But the continued Research and Development in the area of Digital Signal Processing and Communications, aided by Moore's law, made wireless telephony not only give us quality voice communications but also data communications at a per line cost much less than that was possible through wired phone (Jhunjhunwala and Ramamurthi 1998) . To Install a Wired telephone line in 1995, the telecom operator used to spend \u20b940,000 per line; today the operator spends less than \u20b92000 per line (not including the handset). This has brought down the tariff, and most people in India could afford mobile phones triggering huge growth. At the same time, technological development has given the ability to increase data-rates from a few kbits/s 25 years ago to tens of Mbits/s or even higher today with 4G without any additional costs.",
+            "cite_spans": [
+                {
+                    "start": 538,
+                    "end": 572,
+                    "text": "(Ramamurthi and Jhunjhunwala 1995)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1213,
+                    "end": 1247,
+                    "text": "(Jhunjhunwala and Ramamurthi 1998)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction to Telephony in India"
+        },
+        {
+            "text": "The second major technology development that took place in the last 15 years is on the handset. While the early handset was designed as a phone, the rapid technology development in the areas of Signal Processing in handset, batteries, display, touch-screen, memory, camera, speaker, microphone, other communication technologies like GPS, Bluetooth and USB, and of course the mobile software have converted a mobile into a powerful gadget called smartphone with almost every feature that a user could imagine (it has even a pencil-torch and can be used as a mirror). The application software on a smart-phone today includes a variety of entertainment Apps, different communications modes like video conferencing, messaging, chats, sharing of pictures, videos and data-files, location-tracking as well as a range of office applications. It is a device which has become personal and one that everyone carries everywhere and use almost all the time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction to Telephony in India"
+        },
+        {
+            "text": "However, the powerful 4G enabled smartphones that we are discussing is limited to only 35% of total mobiles in India. The rest are the feature phones of yesteryears, costing * Ashok Jhunjhunwala ashok@tenet.res.in somewhere from \u20b92000 onwards. Most of our lower-income group and poor population can only afford the feature phones. The good part is that mobile network extends to the remotest corner of the country and even with feature phones, whole variety of applications are enabled.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction to Telephony in India"
+        },
+        {
+            "text": "COVID-19 or Coronavirus (https ://en.wikip edia.org/wiki/ Coron aviru s_disea se_2019) is known to spread very fast and to all corners of our society. It could affect any individual who comes in proximity to another COVID-infected person. The worst is that during early stage, the patient shows no visible signs and disease starts showing up only after a few days. There is no vaccine for the virus as of now. The only defence therefore is social distancing; in other words, staying away from others who could possibly be infected. While appeals can be made for people to maintain this social distancing amongst themselves, a country like India with very high population density would find it very difficult to adhere to it for a prolonged period. This is specially so, where a large percentage of population lives in crowded homes with six to eight people sharing about 200 sq. ft. area. The only other way is to identify a person who could potentially be infected as soon as possible (while the disease shows up only later over the next couple of weeks), and isolate him/her completely, so as to not let the person spread the disease to the others. This could be done when the person is showing the first signs of getting infected or had come in contact with an individual who was later found to be infected or if the person had travelled to areas where the disease was widespread. Isolating the person, even if he/she does not turn out to be unwell, will ensure that the disease does not spread from him/her. Ideally if everyone who has potential to be infected is quarantined, one could stop spread of the disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Leveraging Telecom Network in Managing COVID-19 Crisis"
+        },
+        {
+            "text": "But how does one identify all such persons and quarantines these people, in a vast country with 1.3 billion people. The task is indeed difficult. But even if one is able to get to most of these people, it may slow-down the spread of the disease. This is the task that researchers in India took up and figured out a way to leverage telecom network to carry out the task. The initiative was backed up by Indian Prime Minister's Principal Scientific Advisor and Prime Minister's office and involved various ministries including Ministry of Electronics and Information Technology (MEITY), Ministry of Telecom, Ministry of Health as well as various scientists and researchers in India. It also involved several state Governments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Leveraging Telecom Network in Managing COVID-19 Crisis"
+        },
+        {
+            "text": "Two approaches were used. One was for those who have smartphones and 3G/4G telecom connectivity providing high-bit rate data connectivity as well as GPS and Bluetooth (BLE) features. Other was useful for those who just had feature phones with even 2G connectivity providing only voice and SMS connection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Leveraging Telecom Network in Managing COVID-19 Crisis"
+        },
+        {
+            "text": "Aarogya Setu is an application designed for Android and IoS Smartphones (Google Play 2020). An individual downloads the application and first carries out \"Self-Assess\" (SA News Channel 2020), which helps a user figure out the risk of being infected by answering some simple question on his/ her health and travel-history and contacts over the last fifteen days. This questionnaire asks ten to twelve simple questions and is available in 11 languages (English, Hindi, Tamil, Telugu, Kannada, Malayalam, Punjabi, Bengali, Oriya, Marathi and Gujarati) and is likely to be available in other Indian languages soon. It then uses simple analytics to figure out the risk-status of the individual. An appropriate advice is then provided to the individual. If the person needs full quarantine, the person is contacted and taken to a quarantine centre. If the person is showing some signs, but does not warrant full quarantine, the person is advised self-isolation at home. If the person is well, he/she is informed and advised to keep practicing social distancing. The Aarogya Setu App also shows the Status (called Your Status) of the person all the time, provides a COVID-19 update and a E-pass feature, which enables an individual to apply for a pass to travel or move around if required during any lock-down. The App is also used for sharing the best practices and Advisories updated regularly. Some ten million individuals have downloaded and are using the App as on 25th April 2020.",
+            "cite_spans": [
+                {
+                    "start": 450,
+                    "end": 548,
+                    "text": "(English, Hindi, Tamil, Telugu, Kannada, Malayalam, Punjabi, Bengali, Oriya, Marathi and Gujarati)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Aarogya Setu App for Smartphones"
+        },
+        {
+            "text": "All the user inputs are captured in secure servers of National Informatics Center (NIC) along with his/her geographical location (via GPS) after taking due permission from the user to capture and analyse the data. The server can provide application programming interface (API), so that other applications can use the data in their applications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Aarogya Setu App for Smartphones"
+        },
+        {
+            "text": "A Server connected to the cell phones could today track an individual's movement using GPS. Thus, if the person is infected, the server could track Coronavirus infection in a geographical location. Such applications have been developed and used by many COVID-19 applications (https :// en.wikip edia.org/wiki/COVID -19_apps) in several countries around the world. Countries like China and Israel went a step further and started looking at Contacts stored in individual's phones to determine whether these people, known to the individual, have been infected. Privacy Concerns have been raised by many researchers (https ://www.light bluet ouchp aper.org/2020/04/12/conta ct-traci ng-in-the-real-world /) around the world for use of such applications, especially as they could be used post-COVID to trace movements of individuals as well as that of their contacts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proximity Determination and Tracing"
+        },
+        {
+            "text": "The Aarogya Setu application uses GPS to figure out Coronavirus infection density in a geographical location but has stayed away from much more controversial contact-tracing. Instead, it tries to determine the risk to an individual when he/she comes in the same geographical location where an infected person is present within two meters by scanning through its database of infected persons in India. It uses less-intrusive Bluetooth Signals between the phone of the individual and that of infected person to determine proximity. Google (https ://www.nbcne ws.com/tech/tech-news/ behin d-globa l-effor ts-make-priva cy-first -coron aviru s-track ing-app-n1177 871) and Apple have jointly integrated support to such Bluetooth-based Apps directly into Android and IoS operating systems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proximity Determination and Tracing"
+        },
+        {
+            "text": "There are many technologists around the world, who are today working to develop similar smart-phone Apps. Many are volunteering their time and effort. The objective of such Apps is to leverage vast amount of user data stored in servers to help trace the movement of the virus; the App would give an answer to an individual whether he/she is in a unsafe situation with respect to Coronavirus. The challenge is to do this without any threat to the privacy of the users today as well as ensure that this could not be used as a surveillance tool tomorrow for governments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proximity Determination and Tracing"
+        },
+        {
+            "text": "As mentioned earlier, only 35% of phones are smart phones. The other 65% of the mobiles in India are low-cost and affordable feature phones, with no more than 2G connectivity. The lower income and most rural people have only these phones. They do provide reliable voice communications as well as SMS, but with no or poor data connectivity. When India decided to leverage telecom network to manage COVID-19 crisis, one first thought of only smartphones and 4G connectivity as these were the applications being developed in many countries. But soon it was realised that there has to be an intervention for non-smart-phone users also. At that time, one remembered the earlier work (Ganesan et al. 2011 ) carried out in India by researchers during SARS crisis. The work was done when 3G or 4G networks were not available and before smartphones came into India. It entirely used 2G feature phones (Ganesan et al. 2012) in the hand of health workers to feed and capture health-data by patients and analysed on the server to predict real-time movement of disease.",
+            "cite_spans": [
+                {
+                    "start": 678,
+                    "end": 698,
+                    "text": "(Ganesan et al. 2011",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 892,
+                    "end": 913,
+                    "text": "(Ganesan et al. 2012)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Aarogya Setu for Feature Phones"
+        },
+        {
+            "text": "If one could use telecom network and handsets some 12 years ago for SARS virus, why could we not leverage today's feature phones with 65% population of India! One initially started with the same approach as was used in the above study, using SMS. But during the design phase itself, it was realised that one can do much more today, simply leveraging the voice technologies that were available and used widely in call centres today. Interactive voice response system (IVRS) with voice recognition in different languages could be used to handle tens of thousands of calls simultaneously. Different voice-based applications can be built to track/follow-up with infected or potentially infected individuals.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Aarogya Setu for Feature Phones"
+        },
+        {
+            "text": "The one on which Aarogya Setu for feature phones is based, advertises a number to which an individual, worried about his/her health could give a missed call or send a SMS. The IVRS system would then make a call to the number and administer a simple questionnaire on voice. The questions are simple such that answers are either simple yes/no or male/female or simple numbers (digit by digit) or a choice of 1, 2, 3 or 4. This is to ensure that the voice recognition system is able to always recognise the answers correctly. If there is a doubt, the answer could be provided by dialling DTMF digits. The questions and answers are available in multiple languages and one starts by asking the person to choose the language. It then takes permission from the person to use the information and geographical location for further advisory. On getting the consent, the rest of the questionnaire is administered. The system architecture is as shown in Fig. 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 942,
+                    "end": 948,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Aarogya Setu for Feature Phones"
+        },
+        {
+            "text": "It starts with a question whether the person is reporting for him/herself or someone else, followed by name of the person. It then asks whether the person's gender, age, whether the person has travelled outside the state or the country over the last 15 days. It then asks whether the person has fever, has dry-cough or is having breathing-difficulty. It is followed by asking whether the individual have any of the following pre-existing ailments like cardiovascular disease, diabetes, hypertension, chronic respiratory disease or cancer. It then allows the person to leave a voice message. The data collected is stored in a Server and analysed and appropriate voice-advisory is given to the person. The server also sends an SMS giving the advisory. The server interfaces with the telecom network and gets to the geographical location of the person (with the accuracy that the network permits), the name and address of the person in whose name the phone is registered. The data plus the analysis is then sent to health officials and displayed on their dashboard in appropriate format.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Aarogya Setu for Feature Phones"
+        },
+        {
+            "text": "If the person who called is in risk-category, the health officials immediately take appropriate action like testing the person, taking the person to hospital or putting the person in quarantine. While the reporting person seems to be ok, his future could be risky, one can design future calls to figure out how the person is doing. It is also possible to geographically track the person who has been put on quarantine or is considered to be infected. This data can then be combined with the data collected from the smart-phone app to get a holistic picture. The Aarogya Setu for feature phone has first been implemented in Tamil Nadu.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Aarogya Setu for Feature Phones"
+        },
+        {
+            "text": "An alternate approach could be used to call all registered persons and carry out a survey in different localities. In this case, the IVRS would just call some numbers randomly and administer a health questionnaire to individuals. The data collected could then be used to not only follow the individual, but also classify geographies which are more prone to coronavirus. One can use similar system to figure out whether the amenities are reaching people in a lock-down situation and make amends if some areas / individuals are being left-out. As the IVRS system is computer controlled and automatic and no person is required to administer the call, the system is highly scalable. The voice recognition capability gives the additional flexibility in designing the questionnaire / service. The ability to provide the service in different Indian languages can play a major role, where still a significant percent of people are semi-literate or illiterate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Survey of Persons Using Automatic IVRS: Voice Recognition System"
+        },
+        {
+            "text": "The R&D and innovations in telecom and electronics over the last forty years have given huge gains to humankind. In India, where a large percentage of people have very low-income, it made the telephony and Internet affordable to most of its people. It extended the reach of the telecom network to almost every corner of the country. It enabled services which were hitherto unimaginable. In almost all crisis situation like that created by coronavirus, one finds that telecom network can be leveraged to offer help to the needy, administration and coordinators to better manage the disaster. Aarogya Setu for smartphones and Aarogya setu for feature phones are two such efforts, which are potentially going to help in this difficult situation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "It is true that telecom network, just like almost any other modern technological development, can be misused. There is fear around the world that COVID-19 is accelerating development of Apps, which has the potential to be misused by Governments against their political opponents. We have seen some social Apps being misused to spread all kinds of rumours, lies and hatred. Such dangers are always there and only an alert/aware scientific community, independent regulators and judiciary could forestall such possibilities. Fig. 1 Call flow (1) Person SMS/calls; (2) Telco picks up meta data and shares via API to server; (3) Server sends mobile numbers that are to be contacted to IVRS; (4) IVRS calls each number and categorizes responses (infected/likely to be infected etc.); (5) IVRS updates the server of the categorization; (6) Server sends information to Health Officials ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 522,
+                    "end": 528,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The use of mobile phone as a tool for capturing patient data in southern rural Tamil Nadu",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ganesan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prashant",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mary",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Janakiraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jhunjhunwala",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Waidyaanath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "India. J Health Inform Dev Ctries",
+            "volume": "5",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A review of challenges in implementing mobile phone based data collection in developing countries",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ganesan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prashant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jhunjhunwala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Health Inform Dev Ctries",
+            "volume": "6",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The role of technology in telecom expansion in India",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jhunjhunwala",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ramamurthi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "IEEE Commun Mag",
+            "volume": "36",
+            "issn": "",
+            "pages": "88--94",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Wireless in Local Loop: some key Issues",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ramamurthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jhunjhunwala",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J IETE",
+            "volume": "12",
+            "issn": "",
+            "pages": "309--314",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Aarogya Setu New UI and Features Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sa News Channel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

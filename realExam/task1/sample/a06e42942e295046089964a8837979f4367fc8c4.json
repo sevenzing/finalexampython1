@@ -1,0 +1,318 @@
+{
+    "paper_id": "a06e42942e295046089964a8837979f4367fc8c4",
+    "metadata": {
+        "title": "Journal Pre-proof Novel method of performing brachial plexus block using an aerosol box during COVID-19 pandemic Title of Manuscript: Novel Method of Performing Brachial Plexus Block Using an Aerosol Box During COVID-19 Pandemic Running title-Brachial plexus block with aerosol box",
+        "authors": [
+            {
+                "first": "Rammurthy",
+                "middle": [
+                    "R"
+                ],
+                "last": "Kulkarni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "People Tree Hospital",
+                    "location": {
+                        "settlement": "Bengaluru-560022",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Madona",
+                "middle": [],
+                "last": "Stephen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "People Tree Hospital",
+                    "location": {
+                        "settlement": "Bengaluru-560022",
+                        "country": "India"
+                    }
+                },
+                "email": "-madonastephen25@gmail.com"
+            },
+            {
+                "first": "Amrita",
+                "middle": [],
+                "last": "Shashank",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "People Tree Hospital",
+                    "location": {
+                        "settlement": "Bengaluru-560022",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lavanya",
+                "middle": [
+                    "N"
+                ],
+                "last": "Mandhal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "People Tree Hospital",
+                    "location": {
+                        "settlement": "Bengaluru-560022",
+                        "country": "India"
+                    }
+                },
+                "email": "-lavanya.ks@gmail.com"
+            },
+            {
+                "first": "",
+                "middle": [
+                    "Madona"
+                ],
+                "last": "Stephen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "People Tree Hospital",
+                    "location": {
+                        "settlement": "Bengaluru-560022",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Journal Pre-proof J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "to minimise the droplet exposure effectively. [1, 2] Various guidelines suggest that when feasible, regional anesthesia should be preferred over general anesthesia during the pandemic to reduce aerosol generation and the risk of exposure. [3, 4] However, the risk of exposure to a cough or sneeze may still be high while performing upper limb nerve or plexus block as the proceduralist will be in close proximity to the patient's head. [5] To minimise this risk, we investigated if an upper limb block can be performed using an aerosol box as a barrier. We describe a case of an ultrasound guided supraclavicular brachial plexus block performed within an aerosol box.",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 49,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 50,
+                    "end": 52,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 239,
+                    "end": 242,
+                    "text": "[3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 243,
+                    "end": 245,
+                    "text": "4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 436,
+                    "end": 439,
+                    "text": "[5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A middle aged male patient was scheduled for left distal radius fixation by plates and screws.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "He was untested for COVID-19. After the necessary consents, we placed the aerosol box We observed that block performance (duration of procedure and outcome) was not affected by the box. Nerve blocks above the clavicle can be easily performed without much ergonomic compromise inside this box. We would like to emphasise that an aerosol box is not an alternative for the personal protective equipment and may be used as an additional protective barrier for improved safety. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Barrier enclosure during endotracheal intubation",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Canelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nozari",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ortega",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1957--958",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Protective Device during Airway Management in Patients with Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rahmoune",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mmb",
+                    "middle": [],
+                    "last": "Yahia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hajjej",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pic",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chatti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Practical considerations for performing regional anesthesia: lessons learned from the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tgl",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chong",
+                    "middle": [],
+                    "last": "Sy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Can J Anesth Published Online First",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12630-020-01637-0"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "CoviHood\u2122, Octorite Technologies, Bangalore, IN) over the head end as soon as the patient arrived in the operating room. Oxygen was connected to the port on the right side of the box for supply throughout the procedure and to prevent fogging within the box. Continuous suction was connected to another port on the right which helped in aerosol clearance via a viral filter. The left supraclavicular fossa was painted and draped through the opening at the caudal end of the box. The proceduralist, wearing sterile gynaecological gloves with long sleeves inserted his both hands through the two openings on the left side of the box. An assistant tucked the proximal ends of the gloves to the rim of the openings to completely seal them yet allowing free hand movements within the box. The assistant also supplied the block needle with the syringe loaded with the local anesthetic attached through foot end of the box. Next, the high frequency linear ultrasound transducer (GE Healthcare) was inserted into a sterile gynaecological glove with its index and little finger sleeves pre-knotted. This knot acted as a rubber band when twisted around the transducer. The transducer was then presented to the proceduralist through the third opening on the right side and the proximal end of the glove was tucked to the rim of the opening similar to the proceduralist's gloves. J o u r n a l P r e -p r o o f hands and the transducer. The caudal end of the aerosol box was covered with a sterile drape to make the box a closed compartment. The long-sleeved gloves helped in reaching the block site without having to stretch the sleeves, thus allowing greater degree of hand movements. The proceduralist then scanned the left supraclavicular fossa for the subclavian artery and the brachial plexus trunks. After identifying the target, the block was performed with the proceduralist inserting and manipulating the block needle while the assistant injected the drug (20 ml of 0.5% Ropivacaine) from the syringe by inserting her hand via the fourth opening on the right side of the box. At the end of the procedure, the box was kept in place for 5 min to clear the aerosols if any, via continuous suction (figure 1).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "V, Sondekoppam RV, Landau R, El-Boghdadly K, Narouze S, Kalagara HKP. Neuraxial anaesthesia and peripheral nerve blocks during the COVID-19 pandemic: a literature review and practice recommendations. Anaesthesia Published Online First: 28 April 2020. doi: 10.1111/anae.15105.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure and Figure legend",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Proceduralist performing the brachial plexus block through the aerosol box with the help of an assistant. Note that the ports for the hands and the probe have been sealed off with the glove.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 1",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,1423 @@
+{
+    "paper_id": "5dacffb6fd632271df7083c33fb00ec423e9d3fd",
+    "metadata": {
+        "title": "Graded Cube of Opposition with Intermediate Quantifiers in Fuzzy Natural Logic",
+        "authors": [
+            {
+                "first": "Petra",
+                "middle": [],
+                "last": "Murinov\u00e1",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ostrava",
+                    "location": {
+                        "addrLine": "30. dubna 22",
+                        "postCode": "701 03",
+                        "settlement": "Ostrava 1",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "petra.murinova@osu.cz"
+            },
+            {
+                "first": "B",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ostrava",
+                    "location": {
+                        "addrLine": "30. dubna 22",
+                        "postCode": "701 03",
+                        "settlement": "Ostrava 1",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vil\u00e9m",
+                "middle": [],
+                "last": "Nov\u00e1k",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ostrava",
+                    "location": {
+                        "addrLine": "30. dubna 22",
+                        "postCode": "701 03",
+                        "settlement": "Ostrava 1",
+                        "country": "Czech Republic"
+                    }
+                },
+                "email": "vilem.novak@osu.cz"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In our previous papers, we formally analyzed the generalized Aristotle's square of opposition using tools of higher-order fuzzy logic. Namely, we introduced general definitions of selected intermediate quantifiers, constructed a generalized square of opposition consisting of them and syntactically analyzed the emerged properties. The main objective of this paper is to extend the graded Peterson's square of opposition into the graded cube of opposition with intermediate quantifiers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "This paper continues the work on intermediate quantifiers. Fuzzy natural logic (FNL) is a formal mathematical theory that consists of three theories: (1) a formal theory of evaluative linguistic expressions explained in detail in [1] , (2) a formal theory of fuzzy IF-THEN rules and approximate reasoning presented in [2, 3] , and (3) a formal theory of intermediate and generalized fuzzy quantifiers presented in [4] [5] [6] [7] . This paper is a contribution to the latter.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 233,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 322,
+                    "end": 324,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 414,
+                    "end": 417,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 418,
+                    "end": 421,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 422,
+                    "end": 425,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 426,
+                    "end": 429,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Intermediate quantifiers are special linguistic expressions, for example, almost all, a few, many, a large part of, etc. which were introduced and deeply studied by Thompson in [8] and later by Peterson in his book in [9] . Peterson introduced a square of opposition as a generalization of the Aristotle's one [10] [11] [12] [13] . It consists of five basic intermediate quantifiers.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 180,
+                    "text": "Thompson in [8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 310,
+                    "end": 314,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Formalization of Peterson's square was introduced by Murinov\u00e1 and Nov\u00e1k in [14, 15] . The main objective of this paper is to extend this approach to a graded 5-cube of opposition and prove its forming properties.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 80,
+                    "end": 83,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Note that the idea to extend the square of opposition to a cube was already studied by Dubois in [16] [17] [18] . The authors introduced a graded Aristotle's square of opposition extended to a cube that associates the traditional square of opposition with a dual one. Ciucci, Dubois, and Prade [19, 20] then introduced an application of the graded cube within the possibility theory.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 294,
+                    "end": 298,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 299,
+                    "end": 302,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this section, we will remind the main concepts and properties of the fuzzy type theory (higher-order fuzzy logic) and the theory of evaluative linguistic expressions. The reader can find details in several papers [1, 14, 21] .",
+            "cite_spans": [
+                {
+                    "start": 216,
+                    "end": 219,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 220,
+                    "end": 223,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Preliminaries"
+        },
+        {
+            "text": "The formal theory of intermediate quantifiers is developed within Lukasiewicz fuzzy type theory ( L-FTT). The algebra of truth values is a linearly ordered MV \u0394 \u0394 \u0394 -algebra extended by the delta operation (see [22, 23] ). A special case is the standard Lukasiewicz MV \u0394 -algebra.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 215,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 216,
+                    "end": 219,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "where \u2227 = minimum, \u2228 = maximum,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "The basic syntactical objects of L-FTT are classical (cf. [24] ), namely the concepts of type and formula. The atomic types are (elements) and o (truth values). General types are denoted by Greek letters \u03b1, \u03b2, . . .. We will omit the type whenever it is clear from the context. A set of all types is denoted by Types. The (meta-)symbol \":= \" used below means \"is defined by\".",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 62,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "The language consists of variables x \u03b1 , . . ., special constants c \u03b1 , . . . (\u03b1 \u2208 Types), symbol \u03bb, and parentheses. The connectives (which are special con-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "Formulas are formed of variables, constants (each of specific type), and the symbol \u03bb. Each formula A is assigned a type and we write it as A \u03b1 . 1 A set of formulas of type \u03b1 is denoted by Form \u03b1 . The set of all formulas is Form =",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "The fuzzy type theory is complete, i.e., a theory T is consistent iff it has a (Henkin) model. We sometimes apply its equivalent version:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "The following special formulas play a role in our theory below: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fuzzy Type Theory"
+        },
+        {
+            "text": "Evaluative linguistic expressions are expressions of a natural language such as small, medium, big, very short, more or less deep, quite roughly strong, extremely high, etc. Their theory is the basic constituent of the fuzzy natural logic. The semantics of evaluative linguistic expressions is formulated in a special formal theory T Ev of L-FTT that was introduced in [1] and less formally explained in [25] where also formulas for direct computation are provided.",
+            "cite_spans": [
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theory of Evaluative Linguistic Expressions"
+        },
+        {
+            "text": "The evaluative expressions are construed by special formulas Sm \u2208 Form oo(oo) (small ), Me \u2208 Form oo(oo) (medium), Bi \u2208 Form oo(oo) (big), and Ze \u2208 Form oo(oo) (zero) that can be extended by several selected linguistic hedges. Recall that a hedge, i.e., usually (but not necessarily) an adverb such as \"very, significantly, about, roughly\", etc. is in general construed by a formula \u03bd \u03bd \u03bd \u2208 Form oo with specific properties. To classify that a given formula is a hedge, we introduced a formula Hedge \u2208 Form o(oo) . Then T Ev Hedge \u03bd \u03bd \u03bd means that \u03bd \u03bd \u03bd is a hedge. We refer the reader to [1] for the technical details. We assume that the following is provable: T Ev Hedge \u03bd \u03bd \u03bd for all \u03bd \u03bd \u03bd \u2208 {Ex, Si, V e, ML, Ro, QR, V R}.",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 592,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theory of Evaluative Linguistic Expressions"
+        },
+        {
+            "text": "The theory of intermediate quantifiers is a special formal theory T IQ [S] of L-FTT extending T Ev . A detailed structure of T IQ [S] and precise definitions can be found in [5, 6, 14] .",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 177,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 178,
+                    "end": 180,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 181,
+                    "end": 184,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theory of Intermediate Quantifiers"
+        },
+        {
+            "text": "As discussed in the Introduction, the semantics of the intermediate quantifiers requires the idea of a \"size\" of a (fuzzy) set that can be characterized by the concept of a measure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theory of Intermediate Quantifiers"
+        },
+        {
+            "text": "represents a measure on fuzzy sets in the universe of type \u03b1 \u2208 Types if it has the following properties:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theory of Intermediate Quantifiers"
+        },
+        {
+            "text": "The following formula characterizes measurable fuzzy sets of a given type \u03b1:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theory of Intermediate Quantifiers"
+        },
+        {
+            "text": "where, for the simplicity of expression, we write (M1)-(M3) to stand for the axioms from (i).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theory of Intermediate Quantifiers"
+        },
+        {
+            "text": "We say that the theory T contains intermediate quantifiers w.r.t. the set of types S if for all \u03b1 \u2208 S the following is provable:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 2. Let S \u2286 Types be a selected set of types, P = {R \u2208 Form o(o\u03b1)(o\u03b1) | \u03b1 \u2208 S} be a set of new constants. Let T be a consistent extension of the theory T Ev in the language"
+        },
+        {
+            "text": "Formula (5) assures the existence of fuzzy sets in each measurable fuzzy set that have non-trivial measure. Obviously, formulas (4) and (5) can be also introduced as special axioms of T . In the sequel, we will denote a theory that contains intermediate quantifiers due to Definition 2 by T IQ . For the definition of intermediate quantifiers, we need to define a special operation called cut of a fuzzy set, which will be formally defined as follows: Let y, z \u2208 Form o\u03b1 . The cut of y by z is the fuzzy set",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 2. Let S \u2286 Types be a selected set of types, P = {R \u2208 Form o(o\u03b1)(o\u03b1) | \u03b1 \u2208 S} be a set of new constants. Let T be a consistent extension of the theory T Ev in the language"
+        },
+        {
+            "text": "The following lemma can be proved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 2. Let S \u2286 Types be a selected set of types, P = {R \u2208 Form o(o\u03b1)(o\u03b1) | \u03b1 \u2208 S} be a set of new constants. Let T be a consistent extension of the theory T Ev in the language"
+        },
+        {
+            "text": "One can see that the operation B|Z takes only those elements m \u2208 M \u03b1 from the fuzzy set B whose membership B(m) is equal to Z(m), otherwise (B|Z)(m) = 0. If there is no such an element, then B|Z = \u2205. We can thus use various fuzzy sets Z to \"picking up proper elements\" from B.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 1 ([15]). Let M be a model and p an assignment such that"
+        },
+        {
+            "text": "The following lemma will play a significant role in proofs of properties of the graded cube of opposition. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 1 ([15]). Let M be a model and p an assignment such that"
+        },
+        {
+            "text": "The following special intermediate quantifiers can be introduced: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 2. Let M be a model and p an assignment such that"
+        },
+        {
+            "text": "The graded Aristotle's square of opposition is formed by two positive and two negative intermediate quantifiers that fulfil the generalized properties of contraries, contradictories, sub-contraries, and sub-alterns. Below, we recall the main definitions from [14] . ",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 263,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "From the Graded Square to the Graded Cube of Opposition"
+        },
+        {
+            "text": "P 2 is subaltern of P 1 in the theory T (P 1 is superaltern of P 2 in the theory T ) if T P 1 \u21d2 \u21d2 \u21d2 P 2 . By completeness, this means that inequality (11) holds true in every model M |= T .",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 154,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "From the Graded Square to the Graded Cube of Opposition"
+        },
+        {
+            "text": "All these definitions were introduced as a generalization of the corresponding classical ones. In our previous paper [14] , we syntactically proved all the mentioned properties which form the graded Aristotle's square of opposition.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "From the Graded Square to the Graded Cube of Opposition"
+        },
+        {
+            "text": "Changing B and A into their negation, \u00ac \u00ac \u00acB and \u00ac \u00ac \u00acA respectively, leads to another similar square of opposition aeio, provided that we also assume that the fuzzy set \u00ac \u00ac \u00acB is non-empty. It means that we assume presupposition 3 (existential import) which was in detail discussed in our previous papers. The corresponding quantifier with presupposition is denoted by a star. To extend the graded Aristotle's square to a graded cube of opposition, we have to define new formulas as follows: *",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 ([14]). The following is true in T IQ : (a) formulas A and O are contradictories in T IQ , (b) formulas E and I are contradictories in T IQ . (c) formulas A and E are contraries with the presupposition in T IQ . (d) the formula A is subaltern of I."
+        },
+        {
+            "text": "We can see that the new logical square of opposition (aeio) develops from the graded Aristotle's one (AEIO) by replacing formulas Bx and Ax by \u00ac \u00ac \u00acBx and \u00ac \u00ac \u00acAx, respectively. It means that the \"basic\" properties between the intermediate quantifiers inside aeio can be proved similarly to AEIO. Proof. The properties (a)-(d) can be proved similarly as the properties of the graded Aristotle's square AEIO in [14] .",
+            "cite_spans": [
+                {
+                    "start": 410,
+                    "end": 414,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theorem 1 ([14]). The following is true in T IQ : (a) formulas A and O are contradictories in T IQ , (b) formulas E and I are contradictories in T IQ . (c) formulas A and E are contraries with the presupposition in T IQ . (d) the formula A is subaltern of I."
+        },
+        {
+            "text": "Lemma 3. The following is provable:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "Proof. (a) By properties of L-FTT we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "as well as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "which, using the properties of L-FTT, is equivalent with",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "From (16), (17) and (18) by transitivity and using MP, we conclude that",
+            "cite_spans": [
+                {
+                    "start": 11,
+                    "end": 15,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "Finally, by the quantifier properties, we have (20) which uses the definition of the negation equivalent with",
+            "cite_spans": [
+                {
+                    "start": 47,
+                    "end": 51,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "(b) It can be proved analogously. Proof. It follows from Lemma 3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relations Between \"AEIO\" and \"aeio\""
+        },
+        {
+            "text": "Let the following be true:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4."
+        },
+        {
+            "text": "Proof. (a) From Lemma 3(a), we have the following provable formula",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4."
+        },
+        {
+            "text": "Then by properties of the negation, we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4."
+        },
+        {
+            "text": "(b) Analogously as (a). Proof. It follows from Lemma 4.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Finally by properties of & & & with \u2227, we conclude that"
+        },
+        {
+            "text": "The following is provable:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 5."
+        },
+        {
+            "text": "Proof. (a) By the properties of L-FTT, we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 5."
+        },
+        {
+            "text": "as well as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 5."
+        },
+        {
+            "text": "Finally, by (21) and (22), we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 5."
+        },
+        {
+            "text": "(b) is proved analogously.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 5."
+        },
+        {
+            "text": "Proof. It follows from Lemma 5. These results are summarized in the following scheme. Recall that the straight lines mark contradictories, the dashed lines contraries, and the dotted lines subcontraries. The arrows indicate the relation superaltern-subaltern (Fig. 1) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 259,
+                    "end": 267,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Theorem 5. The following is true: (a) Formula A is subaltern of i, and I is superaltern of a. (b) Formula E is subaltern of o, and e is superaltern of O."
+        },
+        {
+            "text": "Either of the quantifiers (23) or (24) construes the sentence \" Quantifier not B's are not A\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 5. The following is true: (a) Formula A is subaltern of i, and I is superaltern of a. (b) Formula E is subaltern of o, and e is superaltern of O."
+        },
+        {
+            "text": "Lemma 6. Let B \u2208 Form o\u03b1 be a formula and z, z \u2208 Form o\u03b1 be variables. Then the following is provable:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contraries"
+        },
+        {
+            "text": "Proof. The proof of (25) is based on the following provable formulas:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contraries"
+        },
+        {
+            "text": "and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contraries"
+        },
+        {
+            "text": "Using quantifier properties and by Lemma 2 we obtain from these formulas that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contraries"
+        },
+        {
+            "text": "By the adjunction, the properties of \u2227 \u2227 \u2227, the quantifier properties and the definition of negation, we obtain (25) using the rules of L-FTT.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contraries"
+        },
+        {
+            "text": "are contraries in T IQ .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 6. The pairs of quantifiers"
+        },
+        {
+            "text": "Proof. It follows from Lemma 6 when replacing Ev by concrete evaluative linguistic expressions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 6. The pairs of quantifiers"
+        },
+        {
+            "text": "Let B \u2208 Form o\u03b1 be a formula and z, z \u2208 Form o\u03b1 be variables. Then the following is provable:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 7."
+        },
+        {
+            "text": "Proof. Similarly to Lemma 6, the proof of (27) is based on the following provable formula:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 7."
+        },
+        {
+            "text": "(28) By the adjunction, the properties of \u2227 \u2227 \u2227, the quantifier properties and the definition of negation, we obtain (28) using the rules of L-FTT. Proof. It follows from Lemma 7 when replacing Ev by concrete evaluative linguistic expressions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 7."
+        },
+        {
+            "text": "Lemma 8. The following is provable in L-FTT:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sub-alterns"
+        },
+        {
+            "text": "Proof. This proceeds similarly as in [14] using monotonicity of the corresponding evaluative linguistic expressions.",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 41,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sub-alterns"
+        },
+        {
+            "text": "Below, we introduce a 5-graded cube of opposition with five basic intermediate quantifiers as a generalization of the graded Peterson's square (Fig. 2) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 143,
+                    "end": 151,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Sub-alterns"
+        },
+        {
+            "text": "As we mentioned above, the idea of this paper was to introduce new forms of generalized intermediate quantifiers forming graded cube of opposition. An idea for future is to apply the theory of syllogistic reasoning introduced in our previous papers [6, 26] . Using inferred new forms of valid syllogisms to derive new information which is not included in real data. For example, below we introduce examples of sentences which can be used:",
+            "cite_spans": [
+                {
+                    "start": 249,
+                    "end": 252,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 253,
+                    "end": 256,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Future Applications"
+        },
+        {
+            "text": "-Most people who live in an area affected by heavy industry suffer from asthma.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future Applications"
+        },
+        {
+            "text": "-Almost all shares grow with growing economy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future Applications"
+        },
+        {
+            "text": "New idea is to work with examples of natural language linguistic expressions which form graded cube of opposition as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future Applications"
+        },
+        {
+            "text": "-Most people who do not smoke have higher lung capacity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future Applications"
+        },
+        {
+            "text": "-Most children who do not live in an area affected by heavy industry do not suffer from inflammation of the respiratory tract.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future Applications"
+        },
+        {
+            "text": "In this paper, we extended the theory of the graded classical Aristotle square of opposition to the graded Aristotle cube of opposition. Furthermore, we suggested a generalization of the Peterson's square of opposition to a graded generalized cube, i.e., the cube whose vertices contain intermediate quantifiers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The future work will focus on a more detailed analysis of the properties of the graded generalized cube of opposition and to extend by new forms of intermediate quantifiers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A comprehensive theory of trichotomous evaluative linguistic expressions",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Fuzzy Sets and Systems",
+            "volume": "159",
+            "issn": "22",
+            "pages": "2939--2969",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Perception-based logical deduction",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Computational Intelligence. Theory and Applications",
+            "volume": "",
+            "issn": "",
+            "pages": "237--250",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Logical structure of fuzzy IF-THEN rules. Fuzzy Sets and Systems",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lehmke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "157",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Type 1, 1 fuzzy quantifiers determined by fuzzy measures on residuated lattices. part i. basic definitions and examples. Fuzzy Sets and Systems",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dvo\u0159\u00e1k",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hol\u010dapek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "242",
+            "issn": "",
+            "pages": "31--55",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A formal theory of intermediate quantifiers",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Fuzzy Sets and Systems",
+            "volume": "159",
+            "issn": "10",
+            "pages": "1229--1246",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A formal theory of generalized intermediate syllogisms",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Murinov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Fuzzy Sets and Systems",
+            "volume": "186",
+            "issn": "",
+            "pages": "47--80",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The structure of generalized intermediate syllogisms",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Murinov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Fuzzy Sets and Systems",
+            "volume": "247",
+            "issn": "",
+            "pages": "18--37",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Syllogisms using \"few",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Notre Dame Journal of Formal Logic",
+            "volume": "23",
+            "issn": "",
+            "pages": "75--84",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Intermediate Quantifiers. Logic, linguistics, and Aristotelian semantics",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Analogical proportions and square of oppositions",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Miclet",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Proc. 15th Int. Conf. on Information Processing and Management of Uncer-tainty in Knowledge-Based Systems",
+            "volume": "443",
+            "issn": "",
+            "pages": "324--334",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Setting\" n-opposition",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pellissier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Logica Universalis",
+            "volume": "2",
+            "issn": "",
+            "pages": "235--263",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Quantifiers in Language and Logic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Westerst\u00e5hl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The traditional square of opposition and generalized quantifiers",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Westerst\u00e5hl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Studies in Logic",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Analysis of generalized square of opposition with intermediate quantifiers. Fuzzy Sets and Systems",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Murinov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "242",
+            "issn": "",
+            "pages": "89--113",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The theory of intermediate quantifiers in fuzzy natural logic revisited and the model of \"Many",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Murinov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Fuzzy Sets Syst",
+            "volume": "388",
+            "issn": "",
+            "pages": "56--89",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "From blanche's hexagonal organization of concepts to formal concepts analysis and possibility theory",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dubois",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "149--169",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Enric Trillas: Passion for Fuzzy Sets",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dubois",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Studies in Fuzziness and Soft Computing",
+            "volume": "322",
+            "issn": "",
+            "pages": "79--91",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Graded cubes of opposition and possibility theory with fuzzy events",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dubois",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prade",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rico",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International Journal of Approximate Reasoning",
+            "volume": "84",
+            "issn": "",
+            "pages": "168--185",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Oppositions in rough set theory",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ciucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dubois",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc. 7th Int. Conf. on Rough Sets and Knowledge Technology (RSKT12)",
+            "volume": "7414",
+            "issn": "",
+            "pages": "504--513",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The structure of oppositions in rough set theory and formal concept analysis -toward a new bridge between the two settings",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ciucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dubois",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Proc. 8th Int. Symp. on Foundations of Information and Knowledge Systems (FoIKS14)",
+            "volume": "8367",
+            "issn": "",
+            "pages": "154--173",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "On fuzzy type theory. Fuzzy Sets and Systems 149",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "235--273",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Algebraic Foundations of Manyvalued Reasoning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L O"
+                    ],
+                    "last": "Cignoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M L"
+                    ],
+                    "last": "D&apos;ottaviano",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mundici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Mathematical Principles of Fuzzy Logic",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Perfilieva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mo\u010dko\u0159",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "An Introduction to Mathematical Logic and Type Theory: To Truth Through Proof",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Andrews",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Insight into Fuzzy Modeling",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nov\u00e1k",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Perfilieva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dvo\u0159\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Generalized intermediate syllogisms with more premises",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Murinov\u00e1",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proc. FUZZ-IEEE 2019",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(general truth value) Thus, M(\u03a5 (A o )) = 1 iff M(A o ) > 0, and M(\u03a5 (A o )) = 1 iff M(A o ) \u2208 (0, 1) holds in any model M.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "A) B: Almost all B's are not A := (Q \u2200 Bi Ex x)(B, \u00ac \u00ac \u00acA) T: Most B's are A := (Q \u2200 Bi Ve x)(B, A) D: Most B's are not A := (Q \u2200 Bi Ve x)(B, \u00ac \u00ac \u00acA) K: Many B's are A := (Q \u2200 \u00ac Sm x)(B, A) G: Many B's are not A := (Q \u2200 \u00ac Sm x)(B, \u00ac \u00ac \u00acA) I: Some B are A :",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Let T be a consistent theory of L-FTT, M |= T be a model, p \u2208 Asg(M) be an assignment, and P 1 , P 2 \u2208 Form o be closed formulas of type o.(i) P 1 and P 2 are contraries in the model M ifM p (P 1 ) \u2297 M p (P 2 ) = 0. (8) They are contraries in the theory T if T \u00ac \u00ac \u00ac(P 1 & & & P 2 ). By completeness, this is equivalent to (8) for every model M |= T . (ii) P 1 and P 2 are subcontraries in the model M if M p (P 1 ) \u2295 M p (P 2 ) = 1.(9)They are subcontraries in the theory T if T (P 1 \u2207 \u2207 \u2207 P 2 ). By completeness, this is equivalent to(9) for every model M |= T . (iii) P 1 and P 2 are contradictories in the model M if both M p (\u0394 \u0394 \u0394P 1 ) \u2297 M p (\u0394 \u0394 \u0394P 2 ) = 0 as well as M p (\u0394 \u0394 \u0394P 1 ) \u2295 M p (\u0394 \u0394 \u0394P 2 ) = 1. (10) They are contradictories in the theory T if both T \u00ac \u00ac \u00ac(\u0394 \u0394 \u0394P 1 & & & \u0394 \u0394 \u0394P 2 ) as well as T \u0394 \u0394 \u0394P 1 \u2207 \u2207 \u2207 \u0394 \u0394 \u0394P 2 . By completeness, this means that (10) hold for every model M |= T .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The following is true in T IQ : (a) formulas a and o are contradictories in T IQ , (b) formulas e and i are contradictories in T IQ . (c) formulas a and e are contraries with the presupposition in T IQ . (d) formula a is subaltern of i.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The following holds true: (a) Formulas a and E are contraries in T IQ . (b) Formulas A and e are contraries in T IQ .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "The following is true: (a) Formulas i and O are subcontraries in T IQ . (b) Formulas I and o are subcontraries in T IQ .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Interpretation of Cube of opposition in T IQ ).(a) Construction of AEIO as follows: Let us consider a model M |= T IQ such that T IQ (\u2203x)Bx. Let M(A) = a > 0 (e.g., a = 0.2). Since [A, E] are contraries, we have M(E) = e \u2264 1 \u2212 a. Because the formulas [A, O] are contradictories, it follows from the definition of contradictories that M(\u0394 \u0394 \u0394A) = 0 and so M(\u0394 \u0394 \u0394O) = 1 because M(\u0394 \u0394 \u0394A) \u2297 M(\u0394 \u0394 \u0394O) = 0 and M(\u0394 \u0394 \u0394A) \u2295 M(\u0394 \u0394 \u0394O) = 1. Consequently, O is subaltern of E. The I is subaltern of A and thus M(I) = i \u2265 0.2. However, I is contradictory with E and so M(I) = i = 1. Finally, I is sub-contrary with O because M(O \u2207 \u2207 \u2207 I) = 1 and I is subaltern of A. (b) Construction of aeio as follows: Let us consider the same model M |= T IQ such that T IQ (\u2203x)\u00ac \u00ac \u00acAx. Let M(a) = a > 0 (e.g., a = 0.8), M(e) = e , M(i) = i and M(o) = o . Since [A, e], as well as [E, i] are contraries, we have M(e) = e \u2264 0.2 and M(a) = a \u2264 0.8. Similarly, formulas [i, O] and [I, o] are sub-contraries in T IQ then M(i) = i = 1 as well as M(i) = i = 1. Both of these results correspond with contradictories of the pairs [a, o] and [e, i]. Finally, A is subaltern of i as well as E is subaltern of o.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "The example of graded Aristotle's cube of opposition 4 Graded Cube with Intermediate Quantifiers We continue with an extension of graded the 5-square of opposition AEPBT-DKGIO, which was introduced as a generalization of Peterson's square, to the graded 5-cube of opposition aepbtdkgio with intermediate quantifiers. Below we introduce new forms of intermediate quantifiers as follows:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Graded cube of opposition with generalized intermediate quantifiers",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Definition 3. Let T IQ be a theory containing intermediate quantifiers w.r.t. a set of types S due to Definition 2. Let Ev \u2208 Form oo be an intension of some evaluative expression. Finally, let z \u2208 Form o\u03b1 , x \u2208 Form \u03b1 be variables and A, B \u2208 Form o\u03b1 be formulas where T IQ M o(o\u03b1) B o\u03b1 , \u03b1 \u2208 S. An intermediate generalized quantifier construes the sentence \" Quantifier B's are A\" is one of the following formulas:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The pairs of quantifiers(i) [(Q \u2200 Bi Ex x)(\u00ac \u00ac \u00acB, \u00ac \u00ac \u00acA), (Q \u2200 Bi Ex x)(B, \u00ac \u00ac \u00acA)], (i.e., [p, B]), (ii) [(Q \u2200 Bi Ve x)(\u00ac \u00ac \u00acB, \u00ac \u00ac \u00acA), (Q \u2200 Bi Ve x)(B, \u00ac \u00ac \u00acA)], (i.e., [t, D]), (iii) [(Q \u2200 \u00ac \u00ac \u00ac(Sm\u03bd \u03bd \u03bd) x)(\u00ac \u00ac \u00acB, \u00ac \u00ac \u00acA), (Q \u2200 \u00ac \u00ac \u00ac(Sm\u03bd \u03bd \u03bd) x)(B, \u00ac \u00ac \u00acA)], (i.e., [k, G]),are contraries in T IQ .",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

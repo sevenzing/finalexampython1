@@ -1,0 +1,1114 @@
+{
+    "paper_id": "85c7de0d41e83958b11df7efca934e98080a065f",
+    "metadata": {
+        "title": "Covariate-Adjusted Hybrid Principal Components Analysis",
+        "authors": [
+            {
+                "first": "Aaron",
+                "middle": [
+                    "Wolfe"
+                ],
+                "last": "Scheffler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "settlement": "San Francisco",
+                        "country": "USA"
+                    }
+                },
+                "email": "aaron.scheffler@ucsf.edu"
+            },
+            {
+                "first": "Abigail",
+                "middle": [],
+                "last": "Dickinson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "settlement": "Los Angeles",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Charlotte",
+                "middle": [],
+                "last": "Distefano",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "settlement": "Los Angeles",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shafali",
+                "middle": [],
+                "last": "Jeste",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "settlement": "Los Angeles",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Damla",
+                "middle": [],
+                "last": "\u015eent\u00fcrk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "settlement": "Los Angeles",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Electroencephalography (EEG) studies produce regionreferenced functional data in the form of EEG signals recorded across electrodes on the scalp. The high-dimensional data capture underlying neural dynamics and it is of clinical interest to model differences in neurodevelopmental trajectories between diagnostic groups, for example typically developing (TD) children and children with autism spectrum disorder (ASD). In such cases, valid group-level inference requires characterization of the complex EEG dependency structure as well as covariate-dependent heteroscedasticity, such as changes in variation over developmental age. In our motivating study, resting state EEG is collected on both TD and ASD children aged two to twelve years old. The peak alpha frequency (PAF), defined as the location of a prominent peak in the alpha frequency band of the spectral density, is an important biomarker linked to neurodevelopment and is known to shift from lower to higher frequencies as children age. To retain the most amount of information from the data, we model patterns of alpha spectral variation, rather than just the peak location, regionally across the scalp and chronologically across development for both the TD and ASD diagnostic groups. We propose a covariate-adjusted hybrid principal components analysis (CA-HPCA) for region-referenced functional EEG data, which utilizes both vector and functional principal components analysis while simultaneously adjusting for covariate-dependent heteroscedasticity. CA-HPCA assumes the covariance process is weakly separable conditional on observed covariates, allowing for covariate-adjustments to be made on the marginal covariances rather than the full covariance leading to stable and computationally efficient estimation. A mixed effects framework is proposed to estimate the model components coupled with a bootstrap test for group-level inference. The proposed methodology provides novel insights into neurodevelopmental differences between TD and ASD children.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Despite the numerous developmental delays observed in children with autism spectrum disorder (ASD) compared to their typically developing peers (TD), the neural mechanisms underpinning these delays are not well characterized. To address this gap, our motivating study collected resting-state electroencephalograms (EEG) on TD and ASD children aged two to twelve years old, making it possible to contrast neural processes between the two diagnostic groups over a wide developmental range. EEG and magnetoencephalography (MEG) characterize cortical and intracortical brain activity, respectively, via the measurement of electrical potentials and their corresponding oscillatory dynamics (i.e. spectral characteristics). Recent studies in cognitive development using both EEG and MEG highlight the peak alpha frequency (PAF), defined as the location of a single prominent peak in the spectral density within the alpha frequency band (6) (7) (8) (9) (10) (11) (12) (13) (14) , as a potential biomarker associated with autism diagnosis [7] [8] [9] . Specifically, the location of the PAF tends to shift from lower to higher frequencies as TD children age but this chronological shift is notably delayed or absent in ASD children [7, 8, 12, 16] . This trend is observed in our motivating data from a temporal electrode (T8) where the PAF, identifiable as 'humps' in age-specific slices of the group-specific bivariate mean spectral density (across age and frequency), increases in frequency with age for TD children but not for ASD children ( Fig. 1(a) ). Although the PAF holds promise as a biomarker for neural development in TD and ASD children, emphasis on the identification of a single peak produces considerable drawbacks. Estimation of a subject-electrode specific PAF can be error prone due to the presence of noise and multiple local maxima [6] and measurement of PAF inherently reduces the information from the alpha spectral band to a single scalar summary resulting in a loss of information. To avoid these limitations, we follow Scheffler et al. [15] and consider the entire spectral density across the alpha band as a functional measurement of neural activity. We focus on modeling and contrasting patterns of alpha spectral variation regionally across the scalp and chronologically across development for both the ASD and TD diagnostic groups. While Scheffler et al. [14] proposed a hybrid principal components analysis (HPCA) decomposition that models variation in regionreferenced functional EEG data, it does not allow for the covariance structure to change across development as needed in our application. Previous research clearly shows that alpha spectral dynamics differ as a function of age between TD and ASD children and to assume a constant covariance structure across development risks missing important findings. To avoid this misspecification, we propose a covariate-adjusted hybrid principal components analysis (CA-HPCA) that models variation in high-dimensional functional data while simultaneously allowing the patterns of variation to change as a function of subject-specific covariates. CA-HPCA assumes the covariance process is weakly separable conditional on observed covariates, allowing for covariate-adjustments to be made on the marginal covariances rather than the full covariance leading to stable and computationally efficient estimation.",
+            "cite_spans": [
+                {
+                    "start": 930,
+                    "end": 933,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 934,
+                    "end": 937,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 938,
+                    "end": 941,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 942,
+                    "end": 945,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 946,
+                    "end": 950,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 951,
+                    "end": 955,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 956,
+                    "end": 960,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 961,
+                    "end": 965,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 966,
+                    "end": 970,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1031,
+                    "end": 1034,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1035,
+                    "end": 1038,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1039,
+                    "end": 1042,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1224,
+                    "end": 1227,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1228,
+                    "end": 1230,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1231,
+                    "end": 1234,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1235,
+                    "end": 1238,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1845,
+                    "end": 1848,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 2054,
+                    "end": 2058,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2377,
+                    "end": 2381,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1537,
+                    "end": 1546,
+                    "text": "Fig. 1(a)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the simplified context of one-dimensional functional data, existing methods allow for covariate-adjustments to the functional covariance in two ways: (1) both the eigenvalues and eigenfunctions of the functional covariance are allowed to change as a function of observed covariates or (2) the eigenfunctions are assumed to be constant across the covariate dimension but their corresponding eigenvalues (hence principal scores) are covariate-dependent. In the former class, Cardot [2] proposed a non-parametric covariate-adjusted functional principal components analysis (FPCA) in the context of dense functional data and Jiang and Wang [10] extended covariate-adjusted FPCA to noisy or sparse settings by estimating subject-specific scores using conditional expectation. In both cases, covariance estimation is performed non-parametrically by simultaneous smoothing across the covariate and functional domains via kernel methods. By fixing eigenfunctions across the covariate domain, Chio et al. [5] introduced a semi-parametric functional regression model that estimates covariate-dependent principal scores using a single-index model and Backenroth et al. [1] developed a heteroscedastic FPCA for repeatedly measured curves that models eigenvalues as an exponential function of covariate and subject-dependent effects.",
+            "cite_spans": [
+                {
+                    "start": 483,
+                    "end": 486,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 639,
+                    "end": 643,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 999,
+                    "end": 1002,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1161,
+                    "end": 1164,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our proposed covariate-adjusted hybrid principal components analysis combines existing one-dimensional methods for covariate-dependent functional heteroscedasticity with recent advances in multi-dimensional FPCA to allow covariate-adjustments in the context of high-dimensional functional data. We briefly explore the methodological contributions of our proposed model and the resulting computational gains. A central theme in FPCA decompositions for multi-dimensional functional data is the use of simplifying assumptions regarding the covariance structure to ease estimation. A flexible approach in modeling two-dimensional functional data is to assume weak separability of the covariance process [4, 11] in which the marginal covariances along each dimension are targeted and the full covariance is projected onto a tensor basis formed from the corresponding marginal eigenfunctions. Thus, estimation is reduced from that of the total covariance in four-dimensions to the marginal covariances in twodimensions for which efficient two-dimensional smoothers exist. Scheffler et al. [14] extended weak separability to region-referenced functional EEG data (similar to our motivating study) by allowing a discrete regional dimension via HPCA. We leverage the simplifying assumptions and computational efficiency of HPCA through the proposed CA-HPCA which introduces covariate-dependence to the marginal covariances rather than the total covariance and allows the marginal eigenvalues and eigenfunctions to change across the covariate domain.",
+            "cite_spans": [
+                {
+                    "start": 699,
+                    "end": 702,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1083,
+                    "end": 1087,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "CA-HPCA provides a flexible modeling framework but introduces potential compute burden through the addition of a covariate dimension to estimation of the marginal covariances which for a scalar covariate requires smoothing across three dimensions. Previous methods such as Cardot [2] and Jiang and Wang [10] utilized kernel methods to estimate covariate-dependent marginal covariances but these approaches are computationally intensive and scale poorly with the introduction of additional covariates. To address this challenge, we extend the fast functional covariance smoothing proposed by Cederbaum et al. [3] to allow for covariate-adjustments by including an additional basis along the covariate dimension. Thus, CA-HPCA generalizes covariate-adjustments to high-dimensional functional covariances and substantially reduces the resulting computational burden by applying adjustments to the marginal covariances and introducing covariate-dependence to cutting-edge fast covariance smoothers. A mixed effects framework is proposed to estimate the model components and is paired with parametric bootstrap resampling to perform inference across the covariate domain. The remaining sections are organized as follows. Section 2 introduces the proposed CA-HPCA and Sect. 3 describes the corresponding estimation procedure. Application of the proposed method to our resting state EEG data follows in Sect. 4. Section 5 concludes with a brief summary and discussion.",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 303,
+                    "end": 307,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 608,
+                    "end": 611,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Let Y di (a i , r, \u03c9) be a random function observed in the presence of some continuous non-functional covariate a i \u2208 A, for subject i, i = 1, . . . , n d , from group d, d = 1, . . . , D, in region r, r = 1, . . . , R, and at frequency \u03c9, \u03c9 \u2208 \u03a9. We decompose Y di (a i , r, \u03c9) additively such that the expectation and covariance of the process depend on the covariate a i ,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Covariate-Adjusted Hybrid Principal Components Analysis (CA-HPCA)"
+        },
+        {
+            "text": "where \u03b7 d (a i , r, \u03c9) = E{Y di (a i , r, \u03c9)|a i } denotes the group-region mean function, Z di (a i , r, \u03c9) denotes a mean zero region-referenced stochastic process with total variance \u03a3 d,T (a i ; r, \u03c9; r , \u03c9 ) = cov{Z di (a i , r, \u03c9), Z di (a i , r , \u03c9 )|a i }, and di (a i , r, \u03c9) denotes measurement error with mean zero and variance \u03c3 2 d that is independent across the regional and functional domains. We assume the groupregion means \u03b7 d (a, r, \u03c9) are smooth in both the functional domain \u03a9 and the non-functional domain A though we place no restrictions across the regional domain R R .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Covariate-Adjusted Hybrid Principal Components Analysis (CA-HPCA)"
+        },
+        {
+            "text": "In the proposed CA-HPCA model, we assume that the total covariance \u03a3 d,T (a; r, \u03c9; r , \u03c9 ) is weakly separable for each a \u2208 A. Weak separability, a concept recently proposed by Lynch and Chen [11] and adapted by Scheffler et al. [14] to region-referenced functional EEG data, implies that a covariance can be approximated by a weighted sum of separable covariance components and that the direction of variation (i.e. eigenvectors/eigenfunctions) along one dimensions of the EEG data is the same across fixed slices of the other dimension. Note that weak separability is more flexible than strong separability (i.e. separability) commonly utilized in spatiotemporal modeling which requires the total covariance, not just the directions of variation, is the same up to a constant for fixed slices of the other dimensions. Unlike previously applications of weak separability, we assume that the total covariance is weakly separable conditional on observed covariates and the marginal covariance functions vary smoothly along the covariate domain. Let the covariate-adjusted regional and functional marginal covariances be defined as",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Covariate-Adjusted Hybrid Principal Components Analysis (CA-HPCA)"
+        },
+        {
+            "text": "where v dk (a, r) are covariate-adjusted marginal eigenvectors, \u03c6 d (a, \u03c9) are covariate-adjusted marginal eigenfunctions, and \u03c4 dk,R (a) and \u03c4 d ,\u03a9 (a) are their respective covariate-adjusted marginal eigenvalues. Utilizing the covariatedependent eigenvectors and eigenfunctions, the covariate-adjusted hybrid principal components decomposition (CA-HPCA) of Y di (a i , r, \u03c9) is given as,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Covariate-Adjusted Hybrid Principal Components Analysis (CA-HPCA)"
+        },
+        {
+            "text": "Weak separability of the total covariance at each covariate value implies that the scores \u03be di,k (a i ) are uncorrelated leading to the decomposition of the total covariance \u03a3 d,T (a; r, \u03c9; r , \u03c9 ) as follows, \u03a3d,T (a; r, \u03c9; r , \u03c9 ) = cov{Zdi(a, r, \u03c9), Zdi(a, r , \u03c9 )|a} + \u03c3 2 d \u03b4(a; r, \u03c9; r , \u03c9 )",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Covariate-Adjusted Hybrid Principal Components Analysis (CA-HPCA)"
+        },
+        {
+            "text": "where \u03c4 d,k (a) = var{\u03be di,k (a)}. Note, the above model assumes that both the marginal directions of variation and their associated tensor weights are allowed to vary across the covariate domain. In practice, the CA-HPCA decomposition is truncated to include only K d and L d covariate-adjusted marginal eigencomponents for the regional and functional domains, respectively, with the number of components initially selected on the marginal fraction of variance explained (FVE). One guideline is to include the minimum number of covariate-adjusted marginal eigencomponents in the CA-HPCA expansion that explain at least 90% of variation in their respective covariate-adjusted marginal covariances. The final number of components can be fixed after the subject-specific scores and their associated variance components are estimated in Sect. 3 which allow enumeration of the overall FVE in the observed data not just the marginal covariances.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Covariate-Adjusted Hybrid Principal Components Analysis (CA-HPCA)"
+        },
+        {
+            "text": "The following section outlines the CA-HPCA estimation procedure, provides detailed descriptions of each step, and outlines how to perform inference via parametric bootstrap.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "(1) Estimation of group-region mean functions: We estimate the group-region mean function \u03b7 d (a, r, \u03c9) for each region via smoothing performed by projection onto a tensor basis formed by penalized marginal B-splines in the regional and functional domains. Smoothing parameter selection and variance components are estimated using restricted maximum likelihood (REML) methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "( For fixed slices of the covariate domain, the regional marginal covariance {\u03a3 d,R (a)} r,r is discrete and thus not amenable to trivariate smoothers as the functional marginal covariance above. Therefore, we estimate the raw regional marginal covariance at each covariate-value, remove the measurement variance from the diagonals as in Scheffler et al. [14] and then apply a Nadarya-Watson kernel smoother to the resulting matrices entry-by-entry along the covariate domain. Our kernel smoother is the kernel weighted-average,",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 359,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "is some kernel with smoothness parameter \u03bb and |\u03a9| is the number of observed functional grid points. The smoothing parameter \u03bb is selected to minimize the LOSOCV(\u03bb) statistic across all channel pairs (r, r ), LOSOCV(\u03bb) = R r=1 r <r LOSOCV(\u03bb, r, r ), LOSOCV(\u03bb, r, r ) = (1/|\u03a9|n d )",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "d,R (a i )} is the smoothed marginal covariance matrix with the ith subject left out. Thus, we introduce two novel covariate-adjusted smoothers that allow for calculation of the covariateadjusted marginal covariances which are then used for subsequent covariateadjusted eigendecompositions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "(3) Estimation of covariate-adjusted marginal eigencomponents: To estimate the covariate-adjusted marginal eigencomponents we perform eigendecompositions at each fixed covariate-value as described in Scheffler et al. [14] retaining a common number of K d and L d covariate-adjusted eigencomponents.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "( 4) Estimation of covariate-adjusted variance components and subject-specific scores via linear mixed effects models: We make use of the estimated functional fixed effects and marginal eigencomponents to propose a linear mixed effects framework for modeling covariate-adjusted region-referenced functional data. Under the assumption of joint normality of the covariate-adjusted subjectspecific scores and measurement error, the proposed mixed effects framework induces regularization and stability in modeling the data by enforcing a low-rank structure on the covariate-adjusted variance components \u03c4 dg (a). The resulting variance components can be used to select the number of eigencomponents to include in the CA-HPCA decomposition by quantifying the proportion of variance explained and for hypothesis testing and point-wise confidence bands via parametric bootstrap. We present the linear mixed effects modeling framework below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "To make the notation more compact, we replace the double index k in CA-HPCA truncated at K d and L d with a single index g = (k \u2212 1) r, \u03c9) for subject i, i = 1, . . . , n d , observed along with covariate value a i . Note, an argument for the covariate domain a is included to stress that a subject's covariance is covariate-dependent. Analogous vectorized forms for the covariateadjusted functional fixed effects, \u03b7 d (a i , r, \u03c9) , the region-referenced stochastic process Z di (a i , r, \u03c9), multidimensional orthonormal basis \u03d5 dg (a i , r, \u03c9), and the measurement error di (a i , r, \u03c9) are denoted by \u03b7 di (a i ), Z di (a i ), \u03d5 dg (a i ), and di , respectively. Under the assumption that \u03b6 di (a i ) = {\u03b6 di1 (a i ), . . . , \u03b6 diG d (a i )} and di are jointly Gaussian and cov{\u03b6 di (a i ), di } = 0 at a fixed value of a i , the proposed linear mixed effects model is given as",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 133,
+                    "end": 138,
+                    "text": "r, \u03c9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 419,
+                    "end": 431,
+                    "text": "(a i , r, \u03c9)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "The model can be fit separately in each group, d = 1, . . . , D and the regional and functional dependencies in Y di (a i ) are induced through the subject-specific random effects \u03b6 dig (a i ) in (1) . Given the assumption that the total covariance is weakly separable for fixed values of a, cov{\u03b6 dig (a i ), \u03b6 dig (a i )} = 0 for g = g and thus the covariance of the subject-specific scores possess a diago-",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "We further assume that T d (a) evolves smoothly along the covariate domain and target the smooth variance components through their corresponding precision components. Given previous estimates for \u03b7 di (a i ) and \u03d5 dg (a i ), estimates of the variance components and subject-specific scores are obtained using REML methods [17] .",
+            "cite_spans": [
+                {
+                    "start": 322,
+                    "end": 326,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "The assumption that the variance components evolve smoothly over the covariate domain resolves several challenges that emerge when modeling the covariate-adjusted subject-specific scores. First, the estimation procedure is able to borrow strength across the covariate-domain when modeling variation, a necessity when specific covariate values may only be observed once as in our motivating data. Second, we are able to project the precision components onto a smooth low-rank basis which induces regularization and control over the speed at which \u03c4 g (a) is allowed to vary. Alternatively, a projection based approach is less computationally burdensome with estimates of the subject-specific scores obtained directly by numerical integration,\u03b6 dig (a i ) = Z di (a i , r, \u03c9),\u03c6 dg (a i , r, \u03c9) and their corresponding variance components calculated empirically,\u03c4 dg = cov{\u03b6 dig (a)}, but the resulting estimates are unstable due to the limited number of observations at each point along the covariate domain. Therefore, despite the added compute time, our proposed linear mixed effects framework is better suited for providing covariate-adjustments to the region-referenced functional process in a controlled and principled manner.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "The estimated variance components are used to choose the number of eigencomponents included in the CA-HPCA decomposition where G d denotes a set of eigencomponents such that the total fraction of variance explained (F V E dG d ) is greater than 0.8 in each group d = 1, . . . , D. We recommend starting with a larger number G d = K d L d of eigencomponents in the mixed effects modeling used for the estimation of {\u03c4 dg (a i ) : g = 1, . . . , G d } and then reducing or adding components as appropriate to fix the final value of G d . In order to estimate the group-specific fraction of total variance explained via the G d eigencomponents, we consider the quantity, (a i , r, \u03c9) 2 d\u03c9. Once G d is selected, the subjectspecific scores can be obtained using their best linear unbiased predictor (BLUP) as in Scheffler et al. [14] . r, \u03c9) in the other regions, where subject-specific scores and measurement error are sampled from",
+            "cite_spans": [
+                {
+                    "start": 825,
+                    "end": 829,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 668,
+                    "end": 680,
+                    "text": "(a i , r, \u03c9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 832,
+                    "end": 837,
+                    "text": "r, \u03c9)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "{\u03b7 d (a, \u03c9, s) \u2212\u03b7(a, r, \u03c9)} 2 d\u03c9] 1/2 is based on the norm of the sum of the departures of the estimated group-region shifts\u03b7 d (a, r, \u03c9) from the estimate of the common shift across groups,\u03b7(a, r, \u03c9). The common region shift estimat\u00ea \u03b7(a, r, \u03c9), under the null, is set to the point-wise average of the group-region shift estimates,\u03b7 d (a, r, \u03c9), d = 1, . . . , D. We utilize the proposed parametric bootstrap to estimate the distribution of the test statistic T r (a) which can be used to evaluate the null hypothesis along the covariate domain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "To generate point-wise confidence intervals for estimates of\u03b7 d (a, r, \u03c9), we repeat the above parametric bootstrap procedure but instead generate outcomes from the model ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of Model Components and Inference"
+        },
+        {
+            "text": "Data structure: In our motivating data application, EEG signals were sampled at 500 Hz for two minutes from a 128-channel HydroCel Geodesic Sensor Net on 58 ASD and 39 TD children aged 25 to 146 months old (diagnostic groups were age matched). EEG recordings were collected during an 'eyes-open' paradigm in which bubbles were displayed on a screen in a sound-attenuated room to subjects at rest [7] . We describe the dataset in our previous work and present an abbreviated description here, though the reader may reference Scheffler et al. [15] for technical details related to pre-processing and data acquisition. EEG data for each subject is interpolated down to a standard 10-20 system 25 electrode montage (R = 25) using spherical interpolation as detailed in Perrin et al. [13] , producing 25 electrodes with continuous EEG signal ( Fig. 1 (b) ). Alpha spectral density (\u03a9 = (6 Hz, 14 Hz)) estimates for each electrode were obtained and the resulting electrode-specific alpha spectral estimates form an instance of regionreferenced functional data.",
+            "cite_spans": [
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 541,
+                    "end": 545,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 779,
+                    "end": 783,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 839,
+                    "end": 849,
+                    "text": "Fig. 1 (b)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Application to the Task-Free Paradigm Data"
+        },
+        {
+            "text": "We present the results from our application of CA-HPCA to the EEG data collected under the 'eyes-open' paradigm. While the main focus of our analysis is to characterize differences in alpha spectral dynamics between TD and ASD children over the course of development via inference on the group-region mean functions, we begin by briefly discussing the eigencomponents produced by the decomposition. The leading four; four and four; six covariate-adjusted regional and functional marginal eigencomponents are collectively found to explain 1.006 and 0.895 of the total FVE (F V E dG d ) in the TD and ASD groups, respectively. In the functional dimension along the covariate domain, the first least leading covariate-adjusted marginal eigenfunctions \u03c6 d1 (a, \u03c9) ( Fig. 2(a) , top row) display maximal variation at approximately 6 and 10 Hz (in opposing directions), where the location of maximal variation shifts in TD children from higher to lower frequencies as age increases but remains relatively constant in ASD children. The second leading covariate-adjusted marginal eigenfunctions \u03c6 d2 (a, \u03c9) ( Fig. 2(a) , bottom row) show maximal variation at 6 Hz, 8.5 Hz, 10.5 Hz and 6 Hz, 7.5 Hz in the TD and ASD groups, respectively, where again peak variation moves from higher to lower frequencies as age increases in the TD group but not the ASD group which instead displays shifts in the magnitude of maximal variation across development. The first two leading covariate-adjusted marginal eigenfunctions together explain at least 65% of the variation in the covariate-adjusted functional marginal covariances. In the regional dimension along the covariate domain, the first leading covariate-adjusted marginal eigenvectors v d1 (a, r) ( Fig. 2(b) , top row) display maximal variation in the central; right temporal; left posterior and central; middle posterior electrodes at younger ages with a shift to right posterior and frontal; right temporal electrodes at older ages in the TD and ASD groups, respectively. The second leading covariate-adjusted marginal eigenvector v d2 (a, r) ( Fig. 2(b) , bottom row) shows maximal variation in the frontal and right frontal; right temporal electrodes at younger ages which moves to frontal; right posterior (opposing directions) and central; left posterior (opposing directions) at older ages in the TD and ASD groups, respectively. The first two covariate-adjusted marginal eigenvectors together explain at least 70% of the variation in the covariate-adjusted regional marginal covariances.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 762,
+                    "end": 771,
+                    "text": "Fig. 2(a)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1101,
+                    "end": 1110,
+                    "text": "Fig. 2(a)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1737,
+                    "end": 1746,
+                    "text": "Fig. 2(b)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2086,
+                    "end": 2095,
+                    "text": "Fig. 2(b)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Data analysis results:"
+        },
+        {
+            "text": "To test for differences between TD and ASD groups in the alpha spectrum over development, we utilize the parametric bootstrap procedure described in Sect. 3 under the null hypothesis that the TD and ASD group-region mean functions are equal for every electrode r at each age a = 25, . . . , 145 months which takes the form H 0 : \u03b7 d (r, \u03c9, a) = \u03b7(r, \u03c9, a), d = 1, 2. Figure 3 (a) displays the results of the hypothesis tests for all electrodes and ages with p-values transformed to the \u2212log 10 scale to better stratify results where values greater than \u2212log 10 (0.05) = 1.30 denote significance at level \u03b1 = .05. Nearly all electrodes show significant differences between diagnostic groups in the alpha spectrum at some point over development (with the exception of the P3 and P7 electrodes) with the strongest group differences occurring at younger ages (30-50 months) and older ages (100-130 months) in the frontal, central, temporal, and posterior regions.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 375,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Data analysis results:"
+        },
+        {
+            "text": "The greatest differences in the group-region mean functions across development are observed in the T8 and T10 electrodes displayed in Fig. 3 (b) along with their 95% point-wise confidence intervals generated as described in Sect. 3. At both electrodes, the TD group displays a well-defined peak in the alpha spectrum that shifts from 8 Hz-10 Hz moving from 50-110 months, whereas the ASD group generally has less clearly-defined peaks that tend to center around 9 Hz throughout development. Differences in the estimated group-region mean functions mirror the results found from the parametric bootstrap procedure with separation of the point-wise confidence intervals occurring at 50; 90; 110 months and 110 months for the T8 and T10 electrodes, respectively. When aggregated, the observations and inferences obtained from the CA-HPCA model components provide evidence for differences in both the mean structure and patterns of covariation between the two diagnostic groups that shift and change over development highlighting the need to provide covariate-adjustments in modeling the high-dimensional EEG data. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 140,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Data analysis results:"
+        },
+        {
+            "text": "We proposed a covariate-adjusted hybrid principal components analysis (CA-HPCA) which decomposes region-referenced functional data and accounts for covariate-dependent heteroscedasticity by assuming the high-dimensional covariance structure is weakly separable conditional on observed covariates. The proposed estimation procedure develops computationally efficient fast-covariance smoothers that incorporate covariate-dependence when estimating marginal covariances as well as a mixed effects framework which admits inference along the covariate-domain via bootstrap sampling. The CA-HPCA decomposition was developed to model EEG data over a broad developmental range but may be applied to other settings where high-dimensional data is expected to exhibit differential covariation as a function heterogenous covariates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Modeling motor learning using heteroscedastic functional principal components analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Backenroth",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Harran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cortes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Krakauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kitago",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Am. Stat. Assoc",
+            "volume": "113",
+            "issn": "523",
+            "pages": "1003--1015",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Conditional functional principal components analysis. Scand",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cardot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Stat",
+            "volume": "34",
+            "issn": "2",
+            "pages": "317--335",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Fast symmetric additive covariance smoothing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cederbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Scheipl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Greven",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Comput. Stat. Data Anal",
+            "volume": "120",
+            "issn": "",
+            "pages": "25--41",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Modelling function-valued stochastic processes, with applications to fertility dynamics",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Delicado",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Roy. Stat. Soc.: Ser. B (Methodol.)",
+            "volume": "79",
+            "issn": "1",
+            "pages": "177--196",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Functional quasi-likelihood regression models with smooth random effects",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Roy. Stat. Soc. Ser. B (Stat. Methodol.)",
+            "volume": "65",
+            "issn": "2",
+            "pages": "405--423",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Toward a reliable, automated method of individual alpha frequency (IAF) quantification",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Corcoran",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alday",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schlesewsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bornkessel-Schlesewsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Psychophysiology",
+            "volume": "55",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Peak alpha frequency is a neural marker of cognitive function across the autism spectrum",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dickinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Distefano",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Senturk",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jeste",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur. J. Neurosci",
+            "volume": "47",
+            "issn": "6",
+            "pages": "643--651",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Abnormal maturation of the resting-state peak alpha frequency in children with autism spectrum disorder",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Edgar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Hum. Brain Mapp",
+            "volume": "40",
+            "issn": "11",
+            "pages": "3288--3298",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Resting-state alpha in autism spectrum disorder and alpha associations with thalamic volume",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Edgar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Autism Dev. Disord",
+            "volume": "45",
+            "issn": "3",
+            "pages": "795--804",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Covariate adjusted functional principal components analysis for longitudinal data",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Ann. Statist",
+            "volume": "38",
+            "issn": "2",
+            "pages": "1194--1226",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A test of weak separability for multi-way functional data, with application to brain connectivity studies",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lynch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biometrika",
+            "volume": "105",
+            "issn": "4",
+            "pages": "815--831",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Developmental changes in spontaneous electrocortical activity and network organization from early to late childhood",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Miskovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "NeuroImage",
+            "volume": "118",
+            "issn": "",
+            "pages": "237--247",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Spherical splines for scalp potential and current density mapping",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Perrin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pernier",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Bertrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Echallier",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Electroencephalogr. Clin. Neurophysiol",
+            "volume": "72",
+            "issn": "2",
+            "pages": "184--187",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Hybrid principal components analysis for region-referenced longitudinal functional EEG data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Scheffler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biostatistics",
+            "volume": "21",
+            "issn": "1",
+            "pages": "139--157",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Covariate-adjusted region-referenced generalized functional linear model for EEG data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Scheffler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Stat. Med",
+            "volume": "38",
+            "issn": "30",
+            "pages": "5587--5602",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "White matter architecture rather than cortical surface area correlates with the EEG alpha rhythm",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Valdas-Hernandez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "NeuroImage",
+            "volume": "49",
+            "issn": "3",
+            "pages": "2328--2339",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Generalized Additive Models: An Introduction with R",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(a) The group-specific bivariate mean alpha band spectral density (across age and frequency (6-14 Hz)) at ages 50, 70, 90 and 110 months from the T8 electrode. (b) A diagram of the 25 electrode montage used in our motivating data with the T8 electrode marked by a star.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Estimation of covariate-adjusted marginal eigencomponents (a) For each unique value of a observed, employ FPCA on \u03a3 d,\u03a9 (a, \u03c9, \u03c9 ) to estimate the eigenvalue, eigenfunction pairs, {\u03c4 d ,\u03a9 (a), \u03c6 d (a, \u03c9) : = 1, . . . , L d }. (b) For each unique value of a observed, employ PCA on \u03a3 d,R (a) and to estimate the eigenvalue, eigenvector pairs {\u03c4 dk,R (a), v dk (a, r) : k = 1, . . . K d }. 4. Estimation of covariate-adjusted variance components and subject-specific scores via linear mixed effects models (a) Calculate\u03c4 dg (a i ) = cov{\u03b6 dig (a i )} and\u03c3 2 d by fitting the proposed linear mixed effects model. (b) Select G d such that F V E dG > .8 for d = 1, . . . , D and form predictions Y di (a i , r, \u03c9). (c) Calculate\u03b6 dig {a i as the BLUP\u03b6 dig (a i ) = E {\u03b6 dig (a i )|Y di }. 5. Inference via parametric bootstrap.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Inference via parametric bootstrap: Inference in the form of hypothesis testing and point-wise confidence intervals can be performed via a parametric bootstrap based on the estimated CA-HPCA model components. To test the null hypothesis that all groups have equal means in the region r for a fixed covariate value a \u2208 A, i.e. H 0 : \u03b7 d (a, r, \u03c9) = \u03b7(a, r, \u03c9) for d = 1, . . . D, we propose a parametric bootstrap procedure based on the CA-HPCA decomposition. For b = 1, . . . , B, the proposed parametric bootstrap generates outcomes based on the estimated model components under the null hypothesis as",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "r, \u03c9). At each iteration of the bootstrap, estimate\u03b7 b d (a, r, \u03c9) from the simulated data and then form point-wise confidence intervals based on percentiles of the estimated group-region mean functions as a function of a, r and \u03c9 across iterations, {\u03b7 b dg (a, r, \u03c9) : b = 1, . . . , B}.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "(a) Estimated first and second leading covariate-adjusted eigenfunctions \u03c6 d1 (a, \u03c9) and \u03c6 d2 (a, \u03c9) at a = 50, 70, 90, 110 months. (b) Estimated first and second leading covariate-adjusted eigenvectors v d1 (a, r) and v d2 (a, r) at a = 50, 70, 90, 110 months.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "(a) The \u2212log 10 transformed p-values from the hypothesis test for each electrode from the parametric bootstrap test for a = 25, . . . , 145 months. (b) The estimated group-region mean functions \u03b7 d (a, r, \u03c9) at ages a = 50, 70, 90, 110 months from the T8 and T10 electrodes. Grey shading denotes 95% point-wise confidence intervals for each estimate.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Estimation of covariate-adjusted marginal covariances and measurement error variance: We estimate the covariate-adjusted marginal covariances by assuming each two-dimensional marginal covariance varies smoothly over the covariate dimension. For the functional marginal covariance, \u03a3",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "R (a) by smoothing each (r, r ) entry across A. For r = r ,",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

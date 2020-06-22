@@ -1,0 +1,1225 @@
+{
+    "paper_id": "a848a2b7687ab2f5bb2279407fd4434b629f32f3",
+    "metadata": {
+        "title": "The role of asymptomatic screening in the detection of recurrent ovarian cancer",
+        "authors": [
+            {
+                "first": "M",
+                "middle": [
+                    "T"
+                ],
+                "last": "Richardson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Routson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Karam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "O",
+                "middle": [],
+                "last": "Dorigo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "K",
+                "middle": [],
+                "last": "Levy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Renz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [
+                    "J"
+                ],
+                "last": "Diver",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "settlement": "Stanford",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: To investigate the utility of asymptomatic screening, including CA-125, imaging, and pelvic exam, in the diagnosis and management of recurrent ovarian cancer. Methods: Women with ovarian cancer whose cancer recurred after remission were categorized by first method that their provider suspected disease recurrence: CA-125, imaging, symptoms, or physical exam. Differences in clinicopathologic, primary treatment characteristics, and outcomes data including secondary cytoreductive surgery (SCS) outcome and overall survival (OS) were collected. Results: 102 patients were identified at our institution from 2003 to 2015. 20 recurrences were detected by symptoms, while 62 recurrences were diagnosed first by asymptomatic rise in CA-125, 5 by pelvic exam, and 15 by imaging in the absence of known exam abnormality or rise in CA-125.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Mean time to recurrence was 18.9 months, and median survival was 45.8 months. These did not vary by recurrence detection method (all p > 0.4). Patients whose disease was detected by CA-125 were less likely to undergo SCS than those detected by other means (21.7% vs. 35.0%, p = 0.007). In addition to the 5 patients whose recurrence was detected primarily by pelvic exam, an additional 10 (total n = 15) patients had an abnormal pelvic exam at time of diagnosis of recurrence. Discussion: Recurrence detection method was not associated with differing rates of survival or optimal SCS, however those patients detected by CA-125 were less likely to undergo SCS. The pelvic exam was a useful tool for detecting a significant proportion of recurrences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Despite appropriate treatment, most women with ovarian cancer develop recurrent disease (Salani et al., 2017) . These patients typically undergo long-term surveillance after primary treatment in order to improve early detection of recurrence, with asymptomatic screening modalities including imaging, CA-125, and physical exam, such as pelvic exam.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 109,
+                    "text": "(Salani et al., 2017)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, the Society for Gynecologic Oncology (SGO) now recommends against routine asymptomatic imaging for ovarian cancer surveillance, and considers the use of CA-125 optional (Salani et al., 2017) . This latter recommendation followed the MRC OV05/EORTC 55955 trial, which found no survival benefit associated with CA-125 screening . However, other studies have suggested that early detection of recurrence through asymptomatic screening such as CA-125 may lead to higher rates of optimal secondary cytoreductive surgery (SCS) (Tanner et al., 2010) .",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 199,
+                    "text": "(Salani et al., 2017)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 530,
+                    "end": 551,
+                    "text": "(Tanner et al., 2010)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The role of the routine pelvic exam in diagnosing recurrent disease has come under scrutiny as well (Rustin, 2010) . However, there are few data on the pelvic exam in this setting, with variable reported rates of diagnosis of recurrence by pelvic exam (Chan et al., 2008; Menczer et al., 2006; Gadducci et al., 2009; von Georgi et al., 2004) . Additionally, there are few data regarding which portions of the physical exam are more likely to detect recurrence and whether body habitus could contribute to sensitivity of detecting recurrence.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 114,
+                    "text": "(Rustin, 2010)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 252,
+                    "end": 271,
+                    "text": "(Chan et al., 2008;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 272,
+                    "end": 293,
+                    "text": "Menczer et al., 2006;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 294,
+                    "end": 316,
+                    "text": "Gadducci et al., 2009;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 317,
+                    "end": 341,
+                    "text": "von Georgi et al., 2004)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Given the inconsistency in the ovarian cancer recurrence surveillance literature, we undertook a retrospective cohort study at our institution to determine the potential associations between recurrence detection methods, patient characteristics, and survival. In particular, we examined the utility of CA-125 in predicting optimal SCS, as well the benefit of routine pelvic exam in an environment of changing asymptomatic screening methods for diagnosing recurrent ovarian cancer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This retrospective cohort study was undertaken at our tertiary referral center following institutional review board approval. Included in our study were women diagnosed between January 1, 2003, and December 31, 2015, with primary ovarian, fallopian tube, or peritoneal cancer who achieved remission after primary treatment and had documented first cancer recurrence treated at our institution. Patients were excluded if they lacked complete medical records, were diagnosed with low-malignant potential disease, or progressed on primary chemotherapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Patients were divided into four groups based on the first method by which their clinician became suspicious of recurrent disease: rise in asymptomatic monitored CA-125 levels, findings on asymptomatic physical exam, routine asymptomatic imaging or imaging performed for another reason unrelated to ovarian cancer, or patient-reported symptoms. Rise in CA-125 was defined as by the patient's treating physician based on documentation in clinical progress notes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Baseline characteristics at initial diagnosis included age, race and ethnicity, weight and height, stage, histology, CA-125, receipt of neoadjuvant chemotherapy, debulking surgery outcome (i.e. optimal, defined as less than 1 cm of residual disease, versus suboptimal), and CA-125 at completion of chemotherapy. Recurrence and outcomes data included time to recurrence, CA-125 at recurrence, weight and height at recurrence, size of largest tumor on imaging, whether the patient received SCS and SCS outcome if applicable (optimal i.e. optimal, defined as less than 1 cm of residual disease, versus suboptimal), and time from end of upfront chemotherapy to start of chemotherapy for recurrence if applicable. Time to recurrence was defined as date of primary chemotherapy end to first documentation of recurrence suspicion. Details on pelvic exam data and symptoms for applicable patients were also collected from review of clinical progress notes. CA-125 was reported as units per milliliter (U/mL) and median with interquartile range (IQR).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "On subset analysis, patients in the abnormal pelvic exam group were analyzed to determine if a portion of the exam was particularly sensitive in the diagnosis of recurrence, and whether body mass index (BMI) and location of tumor were influential in detecting recurrence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Kaplan-Meyer log-rank method testing was used for survival assessments. Overall survival was calculated from date of diagnosis to date of death or last follow-up. Chi-squared and ANOVA testing were utilized to determine if any baseline or recurrence characteristics differed between recurrence groups. Median CA-125 measurements comparisons were tested utilizing the Kruskal-Wallis H Test. All hypothesis testing was two-sided, and a p-value of < 0.05 was considered statistically significant. No corrections were made for multiple comparisons. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "649 patients were identified at our institution with primary ovarian, peritoneal, or fallopian tube cancer. Of these, 102 met inclusion criteria. Descriptive baseline characteristics of these 102 patients with recurrent disease are described in Table 1 . Mean age was 60 (SD = 12, range 23-86). 65 (64%) patients were white, 2 (2%) black, 12 (12%) Asian, 16 (16%) Hispanic, and 7 (7%) unknown/other. 2 (2%) patients were diagnosed with Stage I disease, 4 (4%) Stage II, 72 (71%) Stage III, and 23 (23%) Stage IV. Median CA-125 at diagnosis was 605 (IQR: 168-1670) and median CA-125 at completion of chemotherapy was 23 (IQR: 7-28). 92 (90%) patients had CA-125 levels routinely measured as part of their cancer surveillance. This was consistent in the group of patients who had elevated CA-125 at diagnosis (twice upper limit of normal), with 81 of 92 (88%) patients followed by CA-125. Average BMI at time of diagnosis was 26.6 (SD = 6.0). All patients had epithelial ovarian cancer, 89 (87%) patients had serous histology, 84 (88%) patients received optimal primary debulking surgery, and 26 (26%) patients received neoadjuvant chemotherapy. Of the 102 patients, 20 presented with symptoms at diagnosis of recurrence, and the rest (n = 82) were diagnosed asymptomatically: 62 patients first by CA-125 screening, 5 by pelvic examination, and 15 by imaging. 96 of 102 (94%) patients had imaging documentation of recurrent disease prior to treatment. No patients were diagnosed by portions of the physical exam other than pelvic exam. There were no other relevant characteristics that were statistically significantly associated with method of diagnosis of recurrence, including NACT and optimal PDS/IDS.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 245,
+                    "end": 252,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Recurrence and outcomes data are depicted in Table 2 . Mean time from end of chemotherapy to first suspicion of recurrence (time to recurrence) was 18.5 months (SD = 27.5). 23 (23%) patients recurred within the first 6 months, 56 (55%) between 6 and 18 months, 17 (17%) between 18 months and 5 years, and 6 (6%) after 5 years. Median CA-125 at recurrence was 43 (IQR: 23-104). CA-125 levels of those patients whose recurrence was suspected first by CA-125 (median: 53, IQR: 33-118) or symptoms (median: 40, IQR: 20-418) were higher than those by pelvic exam (median: 6, IQR: 6-980) or imaging (median: 11, IQR: 7-23, p < 0.001). Mean BMI was 26.0 (SD = 6.6). 35 (35%) patients underwent SCS after diagnosis of recurrence. Those patients with recurrent disease suspected first by CA-125 were less likely to undergo SCS than other groups (22% vs. 58%, p = 0.007). Of those patients who received SCS, 21 (70%) received optimal SCS, and this did not differ by recurrence group (p = 0.613). The mean time from end of primary chemotherapy to initiation of chemotherapy for recurrence was 20.3 months (SD = 25.4), and this did not differ by recurrence group (p = 0.893).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 52,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Overall survival did not differ by recurrence group (p = 0.965; Fig. 1 ). There was no difference in overall survival between those who were asymptomatic versus asymptomatic (p = 0.895).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 70,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Detailed information on those patients with abnormal pelvic exam at recurrence are displayed in Table 3 . Of those 5 patients whose recurrence was first suspected by pelvic exam, none were symptomatic, and 2 (40%) patients had elevated CA-125 levels. In addition to the 5 patients in the pelvic exam recurrence group, an additional 10 (total n = 15) were documented to have an abnormal pelvic exam at time of recurrence, of which a total of 10 were asymptomatic at time of diagnosis of recurrence.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 96,
+                    "end": 103,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The portion of pelvic exam most likely to be abnormal at the time of recurrence was the rectal exam (10 patients overall, 67%, and 4 patients in the pelvic exam recurrence group, 80%). The most common abnormality noted was palpable tumor in the cul-de-sac (9 patients overall, 60%, 4 patients in the pelvic exam recurrence group (80%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In order to determine if higher BMI precluded abnormal pelvic exam findings, patients were divided into BMI categories as defined by the United States Centers for Disease Control and Prevention (underweight BMI < 18.5, normal weight BMI 18.6-24.9, overweight 25.0-29.9, and obese > 30). Of the total 102 patients for whom BMI data was available (93 patients), 55 (59%) were of normal weight or underweight, while 38 (41%) were overweight or obese. Of the 13 patients with an abnormal pelvic exam for whom BMI data was available, 8 were of normal weight or underweight (15% of all normal weight or underweight patients), while 5 were overweight or obese (13% of all overweight or obese patients).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The proper utilization of surveillance in the diagnosis of recurrent ovarian cancer remains unclear. In this institutional retrospective cohort study, we investigated the associations between recurrence detection methods, patient characteristics, and survival.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "While over 90% of our patients were followed by asymptomatic CA-125 levels, neither overall survival rates nor rates of SCS were correlated with this screening method. In fact, in contrast to previous studies, we found that those detected by CA-125 were less likely to undergo SCS compared to those patients detected by other means (Tanner et al., 2010) . Our study, therefore, does not lend support to the association of higher rates of SCS or subsequent patient survival with early recurrence detection by CA-125. Additionally, the role of secondary cytoreductive surgery has been recently questioned, with the results of showing no survival benefit with the use of SCS (Coleman et al., 2019) . The publication of DESKTOP-III is awaited to add to this discussion (Du Bois et al., 2017) . If CA-125 screening is not associated with prolonged survival and the role of SCS is unclear, it is important to carefully consider the utility of surveillance CA-125 for women with ovarian cancer.",
+            "cite_spans": [
+                {
+                    "start": 332,
+                    "end": 353,
+                    "text": "(Tanner et al., 2010)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 672,
+                    "end": 694,
+                    "text": "(Coleman et al., 2019)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 769,
+                    "end": 787,
+                    "text": "Bois et al., 2017)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As the current SGO guidelines recommend routine surveillance visits, we sought to determine if the pelvic exam was a useful part of this routine visit (Salani et al., 2017) . In this cohort, 5% of our patients had recurrence detected primarily by pelvic exam. However, if CA-125 and imaging were not utilized, over 10% of patients would have been detected asymptomatically by pelvic exam, for a total of 15 (15%) patients. Given the high rate of pelvic recurrence in ovarian cancer, the pelvic exam appears to be a low-cost intervention with potential diagnostic benefit in this population.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 172,
+                    "text": "(Salani et al., 2017)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study is unique in that we investigated the role of BMI in pelvic exams for the detection of recurrent ovarian cancer. In our cohort, higher BMI did not preclude detection of recurrence by pelvic exam, as overweight or obese patients were just as likely to have an abnormal pelvic exam as underweight or normal weight patients (13% vs 15%). Providers should be aware of the utility of the pelvic exam in this setting, particularly given previous studies showing that patients with higher BMI are less likely to receive pelvic exams in general (Wee et al., 2000; Ferrante et al., 2010) .",
+            "cite_spans": [
+                {
+                    "start": 547,
+                    "end": 565,
+                    "text": "(Wee et al., 2000;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 566,
+                    "end": 588,
+                    "text": "Ferrante et al., 2010)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In non-gynecologic cancers, recurrence follow-up by non-specialists may be equivalent to that performed by specialists (Moore et al., 2002) . However, this may not be the case in the monitoring of recurrent ovarian cancer through pelvic examination, as training highly correlates with ability to detect irregularities by pelvic exam (Dilaveri et al., 2013; Herbers et al., 2003) . Training and experience with routine pelvic exams should be considered when a patient undergoes ovarian cancer recurrence surveillance. Additionally, as visit delays, telemedicine, and video visits become more prevalent during and following the COVID-19 pandemic, providers must continue to emphasize the role for in-person visits when safe and appropriate, given the potential diagnostic benefit in monitoring for recurrent disease.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 139,
+                    "text": "(Moore et al., 2002)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 333,
+                    "end": 356,
+                    "text": "(Dilaveri et al., 2013;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 357,
+                    "end": 378,
+                    "text": "Herbers et al., 2003)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study was limited by biases inherent in all retrospective cohorts. We cannot exclude potential lead-time bias that could be answered only by a prospective study. Our data also came from a single institution and may not be generalizable to ovarian cancer patients treated in different locations. Additionally, as a tertiary referral center, a portion of patients included in our study sought treatment closer to their home and utilized our services as expert guidance, leading to a smaller patient sample due to incomplete medical records and exclusion from our study. Only studying patients with complete response to primary therapy and who had complete medical records may have led to a selection bias that can in part explain our relatively high overall survival rate. However, our study utilized real-world data and demonstrates the realities that many gynecologic cancer centers will experience. Ours is also among the few studies to investigate the role of the pelvic exam in detecting recurrent ovarian cancer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, there was no overall survival difference by recurrence suspicion method in our cohort, whether patients were diagnosed by symptoms or asymptomatic surveillance. Those recurrences detected by CA-125 did not have increased odds of undergoing SCS or of optimal SCS. Routine pelvic exam was a useful tool to detect recurrence in our patients, and high BMI should not exclude patients from pelvic exam.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Given the current lack of evidence from our and other studies regarding the association between early detection of asymptomatic ovarian cancer recurrence and improved patient survival, the choice to undergo surveillance utilizing these methods should be carefully made between provider and patient in a shared decision-making model. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The following authors have no conflicts of interest to report: Michael Richardson, Stephanie Routson, Karen Levy, Malte Renz.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        },
+        {
+            "text": "The following authors have potential conflicts of interest to report: Dr. Dorigo: personal fees from Clovis Oncology, AstraZeneca, Tesaro, IMV, and Merck.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        },
+        {
+            "text": "Dr. Karam: personal fees from Clovis Oncology and AstraZeneca. Dr. Diver: personal fees from Clovis Oncology and GlaxoSmithKline. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The role of regular physical examination in the detection of ovarian cancer recurrence",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ngan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Gynecol. Oncol",
+            "volume": "110",
+            "issn": "2",
+            "pages": "158--161",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ygyno.2008.04.030"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Secondary surgical cytoreduction for recurrent ovarian cancer",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Coleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Spirtos",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Enserro",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Herzog",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sabbatini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Armstrong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl. J. Med",
+            "volume": "381",
+            "issn": "20",
+            "pages": "1929--1939",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa1902626"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Simulation training for breast and pelvic physical examination: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dilaveri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Szostek",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BJOG",
+            "volume": "120",
+            "issn": "10",
+            "pages": "1171--1182",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1471-0528.12289"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Randomized controlled phase III study evaluating the impact of secondary cytoreductive surgery in recurrent ovarian cancer: AGO DESKTOP III/ENGOT ov20",
+            "authors": [
+                {
+                    "first": "Du",
+                    "middle": [],
+                    "last": "Bois",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vergote",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ferron",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Reuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meier",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Greggi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Clinical Oncology",
+            "volume": "35",
+            "issn": "",
+            "pages": "5501--5501",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Family physicians' barriers to cancer screening in extremely obese patients. Obesity (Silver Spring)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferrante",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fyffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Vega",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Piasecki",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ohman-Strickland",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Crabtree",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "18",
+            "issn": "",
+            "pages": "1153--1159",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/oby.2009.481"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Are surveillance procedures of clinical benefit for patients treated for ovarian cancer? A retrospective Italian multicentric study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gadducci",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fuso",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cosio",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Landoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Maggino",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perotto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Int. J. Gynecol. Can",
+            "volume": "19",
+            "issn": "3",
+            "pages": "367--374",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/IGC.0b013e3181a1cc02"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Pelvic examination training for interns: a randomized controlled trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Herbers",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wessel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "El-Bayoumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Hassan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "St Onge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Acad Med",
+            "volume": "78",
+            "issn": "11",
+            "pages": "1164--1169",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00001888-200311000-00019"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Follow-up of ovarian and primary peritoneal carcinoma: the value of physical examination in patients with pretreatment elevated CA125 levels",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Menczer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chetrit",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sadetzki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Golan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Levy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Gynecol. Oncol",
+            "volume": "103",
+            "issn": "1",
+            "pages": "137--140",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ygyno.2006.02.005"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Nurse led follow up and conventional medical follow up in management of patients with lung cancer: randomised trial",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Corner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Haviland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wells",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Salmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Normand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "BMJ",
+            "volume": "325",
+            "issn": "7373",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.325.7373.1145"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "What surveillance plan should be advised for patients in remission after completion of first-line therapy for advanced ovarian cancer?",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rustin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Int. J. Gynecol. Can",
+            "volume": "20",
+            "issn": "11",
+            "pages": "27--28",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/IGC.0b013e3181f63a28"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Early versus delayed treatment of relapsed ovarian cancer (MRC OV05/EORTC 55955): a randomised trial",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rustin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Van Der Burg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Griffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guthrie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lamont",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jayson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Lancet",
+            "volume": "376",
+            "issn": "9747",
+            "pages": "61268--61276",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0140-6736(10)61268-8"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "An update on posttreatment surveillance and diagnosis of recurrence in women with gynecologic malignancies: Society of Gynecologic Oncology (SGO) recommendations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Salani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bristow",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Gynecol Oncol",
+            "volume": "146",
+            "issn": "1",
+            "pages": "3--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ygyno.2017.03.022"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Surveillance for the detection of recurrent ovarian cancer: survival impact or lead-time bias?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Eisenhauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Diaz-Montes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Santillan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bristow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Gynecol. Oncol",
+            "volume": "117",
+            "issn": "2",
+            "pages": "336--340",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ygyno.2010.01.014"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Post-therapy surveillance and after-care in ovarian cancer",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Von Georgi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Munstedt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Eur. J. Obstet. Gynecol. Reprod. Biol",
+            "volume": "114",
+            "issn": "2",
+            "pages": "228--233",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ejogrb.2003.10.029"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Screening for cervical and breast cancer: is obesity an unrecognized barrier to preventive care?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wee",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Phillips",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Ann. Int. Med",
+            "volume": "132",
+            "issn": "9",
+            "pages": "697--704",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/0003-4819-132-9-200005020-00003"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "All statistical analysis was performed in SPSS version 26.0 (IBM Corp. Released 2017. IBM SPSS Statistics for Windows, Version 26.0. Armonk, NY: IBM Corp).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Pre-recurrence characteristics by primary recurrence detection method.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Recurrence and outcomes data by primary recurrence detection method.Fig. 1. Overall survival by primary recurrence detection method. -original draft, Writing -review & editing. S. Routson: Conceptualization, Formal analysis, Methodology, Investigation, Writing -original draft. A. Karam: Formal analysis, Methodology, Investigation, Writing -review & editing. O. Dorigo: . K. Levy: Investigation, Writing -review & editing. M. Renz: Formal analysis, Methodology, Investigation, Writing -original draft, Writing -review & editing. E.J. Diver: Conceptualization, Formal analysis, Methodology, Visualization, Investigation, Funding acquisition, Writing -original draft, Writing -review & editing.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Details for patients with abnormal pelvic exam.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Scholars Research Program.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "This work was funded by Stanford School of Medicine Medical"
+        }
+    ]
+}

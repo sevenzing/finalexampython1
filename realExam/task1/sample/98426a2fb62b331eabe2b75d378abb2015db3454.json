@@ -1,0 +1,1835 @@
+{
+    "paper_id": "98426a2fb62b331eabe2b75d378abb2015db3454",
+    "metadata": {
+        "title": "COVID-19Clinical trials: quality matters more than quantity",
+        "authors": [
+            {
+                "first": "Sergio",
+                "middle": [],
+                "last": "Bonini",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Italian National Research Council",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giuseppe",
+                "middle": [],
+                "last": "Maltese",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St Helier University Hospitals",
+                    "location": {
+                        "settlement": "Surrey",
+                        "country": "United Kingdomand"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Despite the ferment aroused in the scientific community by the COVID-19 outbreak and the over 11,000 papers listed in PubMed, published evidence on safe and effective drugs has not progressed yet at the same speed of the pandemic. However, clinical research is rapidly progressing, as shown by the hundreds of registered clinical trials on candidate drugs for COVID-19. Unfortunately, information on protocols of individual studies differs from registry to registry. Furthermore, study designs, criteria for stratification of patients and choice of outcomes are quite heterogeneous. All this makes data sharing and secondary analysis difficult.At last, small single centre studies and the use of drugs on a compassionate basis should be replaced by highly powered, multi-centre, multi-arm clinical trials, in orderto provide the required evidence of safety and efficacy of novel or repurposed candidate drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved Hopefully, the efforts of clinical researchers in the fight against the SARS Cov-2 will result into the identification of effective treatments. To make this possible, clinical research should be oriented by guidelines for more harmonized high-quality studies and by a united commitment of the scientific community to share personal knowledge and data. Allergists and clinical immunologists should have a leading role in this unprecedent challenge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Covid-19 has aroused an unprecedented scientific ferment to tackle this deadly pandemic. The most important scientific journals, including Allergy, have created a specific section on COVID-19. As of May 12, day of submission, a PubMed search for COVID-19 shows11,336papers published in 2020 (almost 10 every working hour).However, this number increasesas rapidly as the number of worldwide infected people and deaths reported daily by the WHO and the national authorities. Through this emerging literature, much has been learned on the mechanisms of SARS CoV-2 infection 1,2 , modes of transmission, incubation period, clinical features, incidence and lethality of the disease 3,4 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Following initial discordantstrategies in different countries 5 , there has also been general agreement on the efficacy of the lockdown in China and the strict public health measuresfirstly implemented in Europe by the Italian government to suppress COVID-19 diffusion (isolation of areas with a high number of positive cases, closure of non-essential public places, schools and universities, cancellation of congresses and mass gathering events). Recommendations made by governmentsfor a lockdown -although implemented at different times -appear to be fully justified and supported by accurate modelling on their potential effect on the mitigation or suppression of the infection 6 .",
+            "cite_spans": [
+                {
+                    "start": 681,
+                    "end": 682,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On the other hand, the search for an effective therapy of COVID-19 is still a work in progress, which demands a harmonized approach of the scientific community. This article aims to provide a critical overview of the clinical trials exploring candidate drugs for potential treatment for COVID-19. The several ongoing clinical trials on SARS-CoV-2 vaccines do not fall within the scope of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There is no doubt that allergists and clinical immunologists should be on the front line in the fight against SARS CoV-2, since their expertise is required for a better understanding of COVID-19pathophysiology and its management.First, the host immune response is the main mechanism to block the viral infection and attenuate or prevent symptoms 7 . Second, there is a wide consensus that the progression of the disease to the most severe life-threatening forms is associated with an intense inflammatory process and a cytokine storm 7 . Third, beyond plasma-based therapy and vaccines, several candidate drugs against SARS CoV-2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The leading role of allergists and clinical immunologists in the fight against SARS CoV-2"
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved are part of the current therapeutic armamentarium of the clinical immunologist and require the expertise of our specialty 8 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "In fact, 39 clinical trials explore the efficacy of Tocilizumab, an anti-IL-6R (sIL-6R and mIL-6R) monoclonal antibody widely used by allergists and clinical immunologists for the treatment of rheumatoid arthritis, giant cell arteritis and the CAR-T induced Cytokine Release Syndrome 9 . Some other candidate monoclonal antibodies for COVID-19 clinical trials -targeting IL-1, IL-17A, growth factors, complement factors -, are listed in Table I . Twenty-three registered studies 9 are evaluating the use of systemic corticosteroids in COVID- 19 . Despite concern about possible detrimental effects 10, 11 , there is yet no evidence for or against their use in COVID-19 patients. There is rational to speculate that their safety and efficacy may be different in the early viral phase compared to the late inflammatory phase. Conversely, there is no evidence to withdraw an ongoing treatment with inhaled steroids in subjects with asthma and rhinitis 12, 13 .",
+            "cite_spans": [
+                {
+                    "start": 542,
+                    "end": 544,
+                    "text": "19",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 598,
+                    "end": 601,
+                    "text": "10,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 602,
+                    "end": 604,
+                    "text": "11",
+                    "ref_id": null
+                },
+                {
+                    "start": 949,
+                    "end": 952,
+                    "text": "12,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 953,
+                    "end": 955,
+                    "text": "13",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 437,
+                    "end": 444,
+                    "text": "Table I",
+                    "ref_id": null
+                }
+            ],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Other immunomodulatory/immunosuppressive drugs and the effect of cytokine filtration devices are also under investigation, particularly in COVID-19 subjects with pneumonia and a severe inflammatory",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "More studies on anti-TNF drugs have been recommended 14 . Among cell-based therapies, 24 studies plan to investigate the immunomodulatory role of mesenchymal stem cells 8 .",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 55,
+                    "text": "14",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "However, despite this intense clinical research and236 papers (including 4 systematic reviews) on COVID-19 treatment listed by PubMed, evidence available for safe and effective drugs has not progressed at the same speed of the pandemic 15 .In fact, to our knowledge only very few clinical trials have been published.",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 238,
+                    "text": "15",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "The randomized, open-label trial with Lopinavir/Ritonavir in 199 patients with severe COVID-19 failed to meet the primary end-point (time to clinical improvement) 16 . However, 70additional studies are investigating the efficacy of Lopinavir/Ritonavir in various severity stages of the disease 9 .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 165,
+                    "text": "16",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Following the more promising results of a cohort study of patients treated with Remdesivir on a compassionate-use 17 , both FDA and EMA have permitted the use of this drug in COVID-19 clinical trials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "While a randomized double-blind placebo-controlled trial could not confirm a significant benefit of Remdesivir in a cohort of 236 patients -possibly because of the failure to recruit its target of 453 patients 18 -, it has been recently anticipated that a larger multi-centre trial in over 1000 subjects showed a high significant (<0.001) effect on the primary outcome of the study (i.e. time to recovery, which was",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved reduced from 15 to 11 days) 19 .Eleven more trials on Remdesivirare still ongoing 9 . A few additional published studies with hydroxichloroquine vs best supportive care, favipiravir vs umifenovir, and lopinavir/ritonavir vs umifenovir are reported by Thorlund and co-workers 20 .",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 90,
+                    "text": "19",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "However, clinical research is rapidly expanding and hundreds of clinical trials have been registered including, beside immunologic drugs, anti-viral drugs, protein-kinase inhibitors, anti-inflammatory drugs, or drugs aimed at facing the most severe symptoms of COVID-19, such as anti-coagulants, anti-infective drugs, drugs for the cardiovascular, respiratory and nervous systems ( Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 382,
+                    "end": 389,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 registries and drug pipeline"
+        },
+        {
+            "text": "The WHO registry 21 (ICTRP) included, at April 29,1524 studies, whose details are not easily accessible. The Only8studies are already completed with results (7 from Chinaand 1 from France) but only one has have a randomizeddouble-blind study design.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 registries and drug pipeline"
+        },
+        {
+            "text": "The comparative review of registries allows some critical considerations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 registries and drug pipeline"
+        },
+        {
+            "text": "There is a substantial discrepancy in the number of studies reported in different registries and it is quite difficult to identify duplicates among registries or studies listed in some registries but not in others.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 registries and drug pipeline"
+        },
+        {
+            "text": "Furthermore, the available information for individual studies differs from registry to registry and is not easily extractable. At last, protocols of studies are not accessible in most registries. Thus, it is highly appreciable the initiative of tracking and collating clinical trials in a single registry, also using artificial intelligence-based methods for data search and aggregator services 20 .This approachwill alloweasier data sharing among investigators and analysis of pooled data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 registries and drug pipeline"
+        },
+        {
+            "text": "Data sharing and secondary analysis represent valuable tools to advance knowledge and help regulatory decisions. Transparency policies have been recently adopted in Europe by the European Medicines Agency (EMA) 24 ",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 213,
+                    "text": "24",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 registries and drug pipeline"
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved several international institutions 26 and by the International Committee of Medical Journal Editors 27 . Data sharing appears fundamental in health emergencies, such as COVID-19 outbreak, to implement rapid and effective responses. Several platforms are available for data storage and analysis also offering protocol assistance and free anonymization of data from subjects with COVID-19 28 .",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 97,
+                    "text": "26",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 160,
+                    "end": 162,
+                    "text": "27",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "However, in order to make feasible secondary analysis of individual studies, these should follow guidelines for standard protocols and minimal requirements for outcome measures such as the Standard Protocol Items Recommendations for Interventional Trials (SPIRIT) 29 and the Core Outcome Measures in Effectiveness Trials (COMET) initiative 30 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The need for a standardized approach in COVID-19 clinical research"
+        },
+        {
+            "text": "In fact, the major criticism emerging from a review of the ongoing trials is theheterogeneity of protocols.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The need for a standardized approach in COVID-19 clinical research"
+        },
+        {
+            "text": "Following the decision of both FDA and EMA,respectively, to allow the use of chloroquine or hydroxichloroquine and remdesivirfor clinical trials inCOVID-19 31, 32 ,several small trials have started using these drugs on a compassionate basis. The EMA hasexpressed concern for these small studies andthe compassionate use programmes across Europe, as they are unlikely to produce the required level of evidence of efficacy and safety of investigational drugs. On the contrary, the EMA strongly recommends that a more coordinated approach and efforts are putin place to prioritize large multi-country randomized trials and multi-arm clinical trials investigating different agents simultaneously 33 .In order to generate robust evidence on efficacy and safety of drugs and vaccines for COVID-19,EMA offersfree scientific advice on the best methods and designs to be usedin clinical trials 34 .",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 159,
+                    "text": "31,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 160,
+                    "end": 162,
+                    "text": "32",
+                    "ref_id": null
+                },
+                {
+                    "start": 692,
+                    "end": 694,
+                    "text": "33",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "The need for a standardized approach in COVID-19 clinical research"
+        },
+        {
+            "text": "Unarguably, high quality clinical trials cannot be easily performed in the setting of an outbreak, when investigators are often asked to make patients' care a priority. Nonetheless, even if adapted to this challenging context, high quality research is still needed 35 . Accordingly, a more standardized approach to clinical research on COVID-19 should be warranted, including a rigorous but realistic study design, a well characterized study population stratified on the basis of age and severity of the disease, a rationale behind the use of the investigational drug and the choice of comparator, and optimal minimal primary outcome(s).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The need for a standardized approach in COVID-19 clinical research"
+        },
+        {
+            "text": "With regard to the study design, while masking might be difficult in studies of COVID-19, randomization should be mandatory. Multi-centre trials are highly advisable provided that standard operational procedures are set out. Adaptive designs might beconsidered and the setting should be specified. Rules for informed consent must adapted to the chosen population. Centralized Ethics Committees or IRBs",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The need for a standardized approach in COVID-19 clinical research"
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved might favour a more rapid start of the trial. Investigators should be encouraged to publish the study protocol to be drafted according to the SPIRIT 29 and COS-STAP statement 36 .",
+            "cite_spans": [
+                {
+                    "start": 235,
+                    "end": 237,
+                    "text": "36",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Age, gender, ethnicity, previous diseases and undergoing treatments of the selected population have been reported to influence the incidence of COVID 3, 4, [37] [38] [39] . Demographic and history data should be obtained, possibly through a standard questionnaire, along with other patients' characteristics such as social status and environmental exposure.",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 152,
+                    "text": "3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 153,
+                    "end": 155,
+                    "text": "4,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[37]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 161,
+                    "end": 165,
+                    "text": "[38]",
+                    "ref_id": null
+                },
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "[39]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "While waiting for a consensus on criteria for the diagnosis of COVID-19 and a classification of the disease, patients should be stratified on the basis of the study setting, severity, and the predominant pathophysiological abnormality in different phases of the disease (viral, pulmonary, inflammatory; Standard of care seems to be a more realistic comparator than placebo, in view of the emergency nature of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Collaborative trials and multi-arm studies comparing different drugs should also be considered.A commendable example of this kind of approach is represented by the Solidarity clinical trial launched by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved the WHO 43 .The Solidarity trial is a randomized multi-countries open label trial which compares the efficacy of four treatment options (Remdesivir, Lopinavir/Ritonavir, Interferon beta-1a and Chloroquine or Hydroxychloroquine) against standard of care in hospitalized adult patients with COVID-19. Underlying conditions are recorded and severity of illness at entry is determined bya reduced set of end-points that can be recorded even in overwhelmed hospitals. Clinically relevant outcomes undergo an interim analysis by an independent Global Data and Safety monitoring Committee. The simplicity of the trial is balanced by the thousands of patients that are expected to be recruited in more than 70 countries. Preliminary results of this trial are expected by June 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "In more rigorous study designs, primary outcome measures should be chosen in relation to the phase of the disease and the drug under investigation. While SARS CoV-2 RNA clearance and the effects on the progression of the disease may represent significant outcome measures for antivirals in the mild forms of the disease, hard end-points such survival/death are advisable in the most severe forms.However, a core outcome standard set is urgently needed to define a minimal set of outcome measures relevant to patients, investigators and regulators 44 .",
+            "cite_spans": [
+                {
+                    "start": 547,
+                    "end": 549,
+                    "text": "44",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Hopefully, the efforts of clinical researchers in the fight against the SARS Cov-2 will result into the identification of effective treatments. This would largely counterbalance the delaying effectsof COVID-on ongoing trials for other diseases 45 .However, these efforts might be negatively affected in the absence of guidelines for a more harmonized clinical research and a united commitment of the scientific community to share personal knowledge and data. Allergists and clinical immunologists should have a leading role in this unprecedent challenge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Conflict of Interest statement: The authors have nothing to disclose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Structural basis for the recognition of SARS-CoV-2 by fulllength human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "6485",
+            "pages": "1444--1452",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2180-5"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Accepted Article This article is protected by copyright. All rights reserved",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical characteristics of Coronavirus Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical characteristics of 140 patients infected with SARS CoV-2 in Wuhan",
+            "authors": [
+                {
+                    "first": "J-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-D",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Q",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Allergy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1111/all.14238"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Imperial College COVID-19 Response Team. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ld",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nedjati-Gilani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ainslie",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bhatia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The trinity of Covid-19: immunity, inflammation, intervention",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Renia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Macary",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lfp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Rev Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1038/s41577-020-0311-8"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Ongoing clinical trials for the management of COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lythgoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trend in Pharmacol Sci",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tips.2020.03.0069"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The effect of corticosteroid treatment on patients with coronavirus infection: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1016/j.jinf.2020.03.0629.11"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Inhaled corticosteroids and COVID-19: a systematic review and clinical perspective",
+            "authors": [
+                {
+                    "first": "Dmg",
+                    "middle": [],
+                    "last": "Halpin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hadfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Resp J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1183/13993003.01009-2020"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Intranasal Corticosteroids in Allergic Rhinitis in COVID-19 Infected Patients: An ARIA-EAACI Statement",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bousquet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Akdis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jutel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bachert",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Klimek",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Agache",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Allergy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1111/all.14302"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Trials of anti-tumour necrosis factor therapy for COVID-19 are urgently needed",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Feldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Maini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Woody",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Holgate",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Winter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rowland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1016/50140-6736(20)30858-8"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Flooded by the torrent: the COVID-19 drug pipeline",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mullard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1245--1251",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A Trial of Lopinavir-Ritonavir in Adults Hospitalized with Severe Covid-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001282"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Compassionate use of Remdesivir for patients with severe COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grein",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ohmagari",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Asperges",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Castagna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2007016"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Remdesivir in adults with severe COVID-19: a randomised, double-blind, placebo-controlled, multicentre trial",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "31022--31031",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A real-time dashboard of clinical trials for COVID-19",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Thorlund",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dron",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Forrest",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.1016/s2589-7500(20)30086-821"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Transparency and the European Medicines Agency--sharing of clinical trial data",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bonini",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Eichler",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wathion",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rasi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "N Engl J Med",
+            "volume": "371",
+            "issn": "26",
+            "pages": "2452--2457",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Regulation (EU) no. 536/2014 of the European Parliament and of the Council of 16",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Time for NIH to lead on data sharing -A draft policy is generally supportive but should start mandating data sharing",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stebbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bierer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Butte",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Drazen",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Dzau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "367",
+            "issn": "",
+            "pages": "1308--1317",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Sharing Clinical Trial Data: A Proposal from the International Committee of",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Taichman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Backus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Baethge",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bauchner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "De Leeuw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Drazen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Medical Journal Editors. N Z Med J",
+            "volume": "129",
+            "issn": "",
+            "pages": "7--9",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Drug evaluation during the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Rome",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Avorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMMp200945732"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Core Outcome Set-STAndardised Protocol Items: the COS-STAP Statement",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kirkham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gorst",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Blazeby",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Clarke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tunis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Trials",
+            "volume": "20",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVID-19 and diabetes: Knowledge in progress",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hussain",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bhowmik",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vale",
+                    "middle": [],
+                    "last": "Do",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Moreira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Res Clin Pract",
+            "volume": "162",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.diabres.2020.108142"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Are patients with hypertension and diabetes mellitus at increased risk for COVID-19 infection?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Karakiulakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1016/PII"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Renin-Angiotensin-Aldosterone System Inhibitors in Patients with Covid-19. NEJM2020",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vaduganathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Vardeny",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Michel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jjv",
+                    "middle": [],
+                    "last": "Mcmurray",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pfeffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Salomon",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "382",
+            "issn": "",
+            "pages": "1653--1659",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "COVID-19 Illness in Native and Immunosuppressed States: A Clinical-Therapeutic Staging Proposal",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Siddiqi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mehra",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Heart Lung Transplant",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1016/j.healun.2020.03.01241"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "identification of FDA approved drugs targeting COVID-19 virus by structure-based drug repositioning. Version 2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Farag",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sadek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chemrxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi10.26434/chemrxiv.12003930.v243"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Core Outcome Set-STAndards for Development: The COS-STAD recommendations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kirkham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Davis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Blazeby",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Clarke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tunis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Med",
+            "volume": "14",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Staging of COVID-19. Clinical features, management and candidate therapeutic options",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Legenda: ICU = Intensive Care Unit",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "SatO 2 = Oxigen saturation",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "PaO2/FiO2 = ratio of arterial oxygen partial pressure (PaO2, in mmHg) to fractional inspired oxygen (FiO2, expressed as a fraction)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Chain Reaction",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pcr = Polymerase",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Flow Nasal Cannula",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hfnc = High",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "NIPPV = Non-Invasive Positive Pressure Ventilation",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "LMWH = Low molecular-weight heparins",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "LFTs = Liver Function Tests; CAP = Community acquired",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Beside monoclonal antibodies, several other immunosuppressants and immunomodulators are under investigation 9 . Interferon beta 1a -both intravenously and in an inhaled formulation -, interferon alfa 2a and peginterferon lamda 1A are object of 31 clinical studies. Immunoglobulin and convalescent plasmabased therapy are investigated in 60trials.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "registry, due to the heavy traffic generated by the COVID-19 outbreak is temporarily not accessible from outside the WHO. US NIH Clinicaltrials.gov 22 lists1409trials, including830 interventional studies; only 20of these trials have been completed, but results have not been published yet. EudraCT 23 includes175clinical trials,all still ongoing. Cytel, a Global Coronavirus COVID-19 clinical trials tracker, funded in part by the Bill& Melinda Gates Foundation 9 , lists 1029 clinical trials, 340 from China and 51dealing with traditional Chinese medicinal products. Most interventional studies evaluate the effects ofhydroxychloroquine or chloroquine (218 studies), lopinavir/ritonavir (70studies), plasma-based therapy (60 studies), and tocilizumab (39studies).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "groups are working on a variety of preventive and therapeutic interventions. However, despite the accelerated development pathways adopted by many regulatory bodies 41 , the marketing authorization pathway for new drugs is a long process, with a high attrition rate. Therefore, there has been considerable interest in repurposing existing drugs -such as antiviral and immunosuppressant agents -for use in COVID-198 . Studies with these drugs should keep in consideration the putative mechanisms of action of the investigational drug in relation to the different phases of COVID-19. Antiviral agents, for example, should be used during the early viral phase of the disease while immunosuppressant may be promising candidate drugs in the severe inflammatory phase (while they might dampen the immune response if used early on15 ). Combination or sequential treatment might also be considered.An interesting alternative strategy for drugs repurposing in COVID-19 is represented by a structural analysis of available medicines with potential inhibitory effects on molecules involved in SARS-CoV-2 infection and replication 1,2 . In an in-silico molecular modelling screening of 2000 FDA approved drugs for potential inhibitory effect on SARS CoV-2 main protease enzyme (Mpro), the top hits bound to the central site of Mpro substrate-binding pocket included antiviral drugs such as Darunavir, Nelfinavir and Saquinavir.Interestingly, the top hits bound to the terminal site of Mpro substrate-binding pocket included Montelukast and Fexofenadine 42 . Independently from the practical impact of the above observation, this strategy appears promising in repositioning available drugs, until novel targeted treatments for COVID-19 are available.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

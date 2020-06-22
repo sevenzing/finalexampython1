@@ -1,0 +1,139 @@
+{
+    "paper_id": "de3a221210ea0e74868dfd2d1eb4206472a12fed",
+    "metadata": {
+        "title": "Simultaneous onset of COVID-19 and autoimmune haemolytic anaemia",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In rare cases, autoimmune haemolytic anaemia (AIHA) can complicate infections. We wish to report a case of simultaneous presentation of COVID-19 disease and warm AIHA.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A 46-year-old female with a medical history of congenital thrombocytopenia not on therapy presented with dyspnoea and cough to the Emergency Department. She was found to have pneumonia after chest computed tomography revealed a dense left upper lobe consolidation with minimal surrounding ground glass opacities and no evidence of pulmonary embolism (Fig 1) . She had normal vital signs and pulse oximetry on ambient air. She was initiated on azithromycin 500 mg on day 1 then 250 mg daily and discharged home.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 350,
+                    "end": 357,
+                    "text": "(Fig 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Her symptoms worsened over three days with progressive cough and dyspnoea. Her vital signs were a temperature of 40\u00b0C, pulse 130 bpm, respiratory rate 20 breaths per min, blood pressure 123/83 mm Hg and SpO 2 99% on ambient air. Her exam was only notable for diminished left-sided breath sounds. Laboratory studies gave haemoglobin 9\u00c17 g/l, white blood cells 9\u00c185 9 10 3 /ll with lymphopenia (0\u00c168 9 10 3 /ll), and platelets 43 9 10 3 /ll. Lactate dehydrogenase (LDH) was 296 U/l. She was admitted to the hospital.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Her Coombs test was positive, with direct antibody testing positive for IgG and C3. A test for antinuclear antibody (ANA) was negative. On hospital day 3, she was found to be positive for SARS-CoV-2 and started on hydroxychloroquine 400 mg bid on day 1, then 200 mg bid for four days because of its theoretical antiviral activity. Influenza, respiratory syncytial virus (RSV), viral respiratory polymerase chain reaction (PCR) panel, blood cultures and urine antigens for Streptococcus pneumoniae and legionella were negative.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Given her active COVID-19 disease she was started initially on intravenous immunoglobulin (IVIG) at 1 g/kg/day rather than prednisone. Despite this, she required transfusion of three units of packed red blood cells, and after three days was started on prednisone 60 mg/day. This led to stabilization of her blood counts. She completed a five-day course of hydroxychloroquine. During her hospital stay, her LDH rose from 296 to 553 U/l, falling to 355 U/l at discharge, and haptoglobin remained low. Her reticulocyte count was normal (95\u00c14 9 10 3 /ll) on admission and rose to 206 9 10 3 /ll at discharge. Her pneumonia improved and she was discharged on a prednisone taper on hospital day 8. At followup after one week, her haemoglobin was 11 g/l and LDH was normal. correspondence AIHA (autoimmune haemolytic anaemia) is the destruction of red cells by autoantibodies. While many cases are idiopathic, others have been associated with certain drugs, autoimmune disease or malignancies. Rare cases have been reported with Epstein-Barr virus and cytomegalovirus. 1 Patient had been started on azithromycin three days before admission but this drug has not been associated with AIHA and it would be unusual for it to present within such a short timeframe. Upon presentation, our patient had a warm antibody (IgG) haemolytic anaemia along with COVID-19 disease. Because of concerns for causing immunosuppression and worsening viral shedding, she was first started on intravenous immunoglobulin (IVIG), but did not have a response, which is consistent with the literature showing a poor response to IVIG in AIHA. 2 Her blood count stabilized with prednisone, which will be tapered. We suspect that as her infection clears this will also resolve the AIHA.",
+            "cite_spans": [
+                {
+                    "start": 1062,
+                    "end": 1063,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1609,
+                    "end": 1610,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "While many haematological complications of COVID-19 infections have been reported, the finding of AIHA is novel.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Onset of AIHA needs to be considered in COVID-19 patients who present with severe anaemia. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Autoimmune Hemolytic Anemia",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Liebman",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Weitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Med Clin North Am",
+            "volume": "101",
+            "issn": "",
+            "pages": "351--360",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "How I treat autoimmune hemolytic anemias in adults",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lechner",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Jager",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Blood",
+            "volume": "116",
+            "issn": "",
+            "pages": "1831--1839",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Computed tomography of the lungs demonstrating COVID-19 infiltrates.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Chris Lopez 1 Jeremy Kim 1 Apurva Pandey 2 Ted Huang 2 Thomas G. DeLoughery 2 Legacy Health System, Internal Medicine and 2 Knight Cancer Institute, Oregon Health Sciences University, Portland, OR, USA. E-mail: delought@ohsu.edu",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

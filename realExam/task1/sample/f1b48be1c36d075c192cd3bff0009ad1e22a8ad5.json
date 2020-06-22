@@ -1,0 +1,1821 @@
+{
+    "paper_id": "f1b48be1c36d075c192cd3bff0009ad1e22a8ad5",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Taylor",
+                "middle": [],
+                "last": "Winter",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Victoria University of Wellington",
+                    "location": {
+                        "settlement": "Wellington",
+                        "country": "New Zealand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Benjamin",
+                "middle": [
+                    "C"
+                ],
+                "last": "Riordan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sydney",
+                    "location": {
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Amir",
+                "middle": [
+                    "H"
+                ],
+                "last": "Pakpour",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "J\u00f6nk\u00f6ping University",
+                    "location": {
+                        "settlement": "J\u00f6nk\u00f6ping",
+                        "country": "Sweden"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "D"
+                ],
+                "last": "Griffiths",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "International Gaming Research Unit",
+                    "institution": "Nottingham Trent University",
+                    "location": {
+                        "settlement": "Nottingham",
+                        "country": "UK"
+                    }
+                },
+                "email": "mark.griffiths@ntu.ac.uk"
+            },
+            {
+                "first": "Andre",
+                "middle": [],
+                "last": "Mason",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Otago",
+                    "location": {
+                        "settlement": "Dunedin",
+                        "country": "New Zealand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [
+                    "W"
+                ],
+                "last": "Poulgrain",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Otago",
+                    "location": {
+                        "settlement": "Dunedin",
+                        "country": "New Zealand"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Damian",
+                "middle": [],
+                "last": "Scarf",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Otago",
+                    "location": {
+                        "settlement": "Dunedin",
+                        "country": "New Zealand"
+                    }
+                },
+                "email": "damian@psy.otago.ac.nz"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemic has many individuals around the world fearing for their lives. The constant news coverage, rapid transmission, and relatively high mortality rate, make fearfulness a natural response. To assess the fear of COVID-19, the Fear of COVID-19 Scale (FCV-19S) was developed. The primary aim of the present study was to conduct the first psychometric assessment and validation of the English version of the FCV-19S. Two samples were collected in New Zealand. Sample 1 comprised 1624 participants of which 1397 completed all questions and were used in the analyses. Sample 2 comprised 1111 participants of which 1023 completed all questions and were used in the analyses. Several psychometric tests were conducted to ascertain the scale's reliability and validity. Across both samples, the FCV-19S had high internal consistency. Consistent with the earlier validation studies, the FCV-19S displayed a moderately strong relationship with the perceived infectability and germ aversion subscales of the perceived vulnerability to disease scale (PVDS). Furthermore, FCV-19S scores were negatively correlated with the Warwick-Edinburgh Mental Wellbeing Scale (WEMWBS) scores. With respect to the motivating role of fear, there was a significant relationship between FCV-19S scores and adherence to the lockdown rules that were implemented in New Zealand. Finally, consistent with recent reports on the politicization of the COVID-19 pandemic, an exploratory question found that participants who rated themselves as more conservative tended to report lower FCV-19S scores. The English version of the COVID-19S is a sound unidimensional scale with robust psychometric properties and can be used with confidence among English-speaking populations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Behavior below for more detail on Alert Level 4). Sample 1 comprised more males (60.3%) than female participants, who were aged between 18 and 88 years old (mean [M] = 47.5 years; standard deviation [SD] = 16.3 years), and were largely New Zealand European (84.6%; 5.7% Maori or Pasifika, 1.8% Asian, and 7.9% other). Sample 2 comprised 1111 participants of which 1023 completed all questions and were used in the analyses. Sample 2 was collected during Alert Level 3. Level 3 immediately followed Alert Level 4, allowing people to expand their social circle to close family that they do not currently live with (see Lockdown Behavior below for more detail on Alert Level 3). Sample 2 comprised more female (69.7%) than male participants, who were aged between 18 and 85 years (M = 42.0 years; SD = 13.3 years), and were largely New Zealand European (75.4%; 7.6% Maori or Pasifika, 3.4% Asian, and 13.6% other).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "With respect to recruitment, both samples were recruited via posts on popular social networking sites and articles via several New Zealand news websites. Participants who agreed to take part in the study clicked on a hyperlink and were taken to the study webpage. The first page included a description of the study and an electronic consent form. Participants who provided informed consent were asked to complete a 15-min survey. The study was reviewed and approved by the University of Otago Human Ethics Committee.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Demographic Information Age, gender (male, female, other), and ethnicity were collected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "Fear of The FCV-19S is a seven-item measure assessing the extent to which a person fears COVID-19 (Ahorsu et al. 2020) . The scale asks participants to indicate the extent to which they agree with each item (e.g., \"When I watch news and stories about coronavirus 2019 on social media, I become nervous or anxious\") from 1 (strongly disagree) to 7 (strongly agree). Both Sample 1 (\u03b1 = .89) and Sample 2 (\u03b1 = .88) completed the FCV-19S.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 118,
+                    "text": "(Ahorsu et al. 2020)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "Perceived Vulnerability to Disease Scale The Perceived Vulnerability to Disease Scale (PVDS) is a 15-item measure of an individual's perceived vulnerability to disease and asks them to rate from 1 (strongly disagree) to 7 (strongly agree) the extent to which they agree with each item (Duncan et al. 2009 ). The scale has two subscales. Seven items assess perceived infectability (e.g., \"I have a history of susceptibility to infectious diseases\") and eight items assess germ aversion (e.g., \"It really bothers me when people sneeze without covering their mouths\"). Both Sample 1 (perceived infectability \u03b1 = 0.90, germ aversion \u03b1 = 0.71) and Sample 2 (perceived infectability \u03b1 = 0.92, germ aversion \u03b1 = 0.77) completed the PVDS. See Supplementary Table 1 for confirmatory factor analysis.",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 304,
+                    "text": "(Duncan et al. 2009",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 735,
+                    "end": 756,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Measures"
+        },
+        {
+            "text": "Scale (WEMWBS) is a 14-item measure of mental wellbeing. Participants are asked to indicate from 1 (none of the time) to 5 (all of the time) how often they experienced each statement (e.g., \"I've been feeling optimistic about the future\", \"I've been feeling close to other people\") (Tennant et al. 2007 ). Only Sample 2 (\u03b1 = .91) completed the WEMWBS. See Supplementary  Table 2 for confirmatory factor analysis.",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 302,
+                    "text": "(Tennant et al. 2007",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 356,
+                    "end": 378,
+                    "text": "Supplementary  Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Warwick-Edinburgh Mental Wellbeing Scale The Warwick-Edinburgh Mental Wellbeing"
+        },
+        {
+            "text": "Lockdown Behavior A State of National Emergency was declared in New Zealand on March 25, 2020, providing the New Zealand Government with access to \"\u2026extra-ordinary powers that will support delivery of an effective and timely response to COVID-19\" (Ardern 2020) . In brief, this allowed the implementation of a four-level Alert System. Alert Level 4 was implemented between March 26 and April 27, with all businesses (expect essential services) and educational facilities closed. Moreover, a set of rules regarding personal movement were implemented, with people instructed to stay home, only associate with individuals they live with, and limit travel to their local area. Alert Level 3 immediately followed Alert Level 4, implemented between April 28 and May 3. Alert Level 3 allowed some businesses and educational facilities to open. However, social contact was still severely limited, with individuals only allowed to extend their social circle to close family they do not currently live with. To assess whether participants abided by New Zealand's lockdown rules, participants were asked to indicate from 1 (strongly disagree) to 7 (strongly agree) whether they abided by the five rules (e.g., \"I ensure I maintain the 2-meter rule when out in public\") ( Table 3) .",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 260,
+                    "text": "(Ardern 2020)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1260,
+                    "end": 1268,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Warwick-Edinburgh Mental Wellbeing Scale The Warwick-Edinburgh Mental Wellbeing"
+        },
+        {
+            "text": "Political Beliefs Given recent work suggesting COVID-19 has become highly politicized in the USA (Conway et al. 2020; Rothgerber et al. 2020) , the survey also included a single exploratory item to assess participants' political beliefs (Jost 2006; Sibley and Wilson 2007) . More specifically, following Sibley and Wilson (2007) , participants were given the instructions \"Often, people use the terms 'liberal' or 'conservative' to describe their political beliefs. How would you rate yourself in these terms?\" (p. 75). Participants responded on a scale ranging from 1 (very liberal), through 4 (moderate), to 7 (very conservative).",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 117,
+                    "text": "(Conway et al. 2020;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 118,
+                    "end": 141,
+                    "text": "Rothgerber et al. 2020)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 237,
+                    "end": 248,
+                    "text": "(Jost 2006;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 249,
+                    "end": 272,
+                    "text": "Sibley and Wilson 2007)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 304,
+                    "end": 328,
+                    "text": "Sibley and Wilson (2007)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Warwick-Edinburgh Mental Wellbeing Scale The Warwick-Edinburgh Mental Wellbeing"
+        },
+        {
+            "text": "Descriptive statistics were used to describe the study participants' characteristics. The analysis also tested the skewness, kurtosis, and distributions of each scale item in the FCV-19S, the internal consistency (Cronbach's alpha), and inter-and item-total correlations. A confirmatory factor analysis (CFA) was conducted using maximum likelihood estimation to measure the factor structure of the FCV-19S and report the factor loadings and the goodness of fit using root mean square error of approximation (RMSEA where good fit is typically less than 0.1) and comparative fit index (CFI where good fit is typically more than 0.9).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "To date, most published psychometric reports have focused on classical test theory. The use of classical test theory, in which raw scores, linear combinations of these scores, and responses that are ordinal in scale, is considered as data on an interval scale. Rasch analysis is a statistical technique traditionally for binary data, but some polytomous generalizations can also be used for interval data . Standard Rasch analysis is based on unidimensional models. In unidimensional models, it is assumed that only one hidden feature of the individual determines the individual's performance in the scale. If the data do not fit well with the Rasch model, the unidimensional assumption is rejected. This means that more than one hidden feature has affected an individual's performance, so the feature cannot be assessed well using the scale in question .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "Here, Rasch analysis using the partial credit model was used to assess the unidimensionality and item fits of the FCV-19S (Masters 1982) . Item validity was assessed using information-weighted fit statistic (infit) mean square (MnSq), and outlier-sensitive fit statistic (outfit) MnSq with values between 0.5 and 1.5 considered acceptable. The presence of disordering threshold in the FCV-19S was assessed using average and step measures of the descriptors. A monotonic increase in difficulties between 0.5 and 1.5 suggests no disordering. The unidimensionality of the FCV-19S was examined by conducting principal component analysis of the residuals (PCAR) on the items. Explaining at least 50% of the variance in the Rasch dimension, and an eigenvalue of less than 2.0 on first contrast, provides evidence of unidimensionality (Linacre 2012) . The response pattern across subgroups of the population (age and gender groups) was assessed by differential item functioning (DIF). All analyses were conducted in R (version 4.0.0; R Core Team, 2019) using the LAVAAN (Rosseel 2012) and WINSTEPS 3.71 software (Linacre 2012) .",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 136,
+                    "text": "(Masters 1982)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 828,
+                    "end": 842,
+                    "text": "(Linacre 2012)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1063,
+                    "end": 1077,
+                    "text": "(Rosseel 2012)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1105,
+                    "end": 1119,
+                    "text": "(Linacre 2012)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "To test the concurrent validity, Pearson's correlations were used to assess the relationship between the FCV-19S and the PVDS (Samples 1 and 2), the WEMWBS (Sample 2), and adherence to lockdown rules (Samples 1 and 2). Finally, Spearman rank order correlations were used to test the relationship between FCV-19S and political beliefs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "For Samples 1 and 2 respectively, the mean FCV-19S score was 15.6 and 18.3 (SD = 7.7 and 7.9), PVD was 57.0 and 58.5 (SD = 10.9 and 14.0), and WEMWBS was 49.1 (SD = 8.7). Table 1 shows the summary statistics and item analysis for each scale item in the FCV-19S (mean item scores, standard deviation, skew, kurtosis, item difficulty, item discrimination, and internal consistency if item was deleted). As seen in Table 1 , items 3, 6, and 7 were not normally distributed (indicated by a Skew and Kurtosis falling outside of the \u2212 2 to 2 range), due to the fact that most participants \"strongly disagreed\" with these items. Finally, the internal consistency if an item was deleted ranged from .84 to .86, suggesting that dropping any item in the scale would not improve overall internal consistency.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 178,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 412,
+                    "end": 419,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "CFA of the FCVS-19 scale showed good fit with CFI of 0.90 for Sample 1 and 0.92 for Sample 2 ( Table 2 ). RMSEA was slightly higher than levels indicative of good fit, with RMSEA of 0.16 for Sample 1 and 0.13 for Sample 2, where a traditional cutoff of good fit is normally less than 0.1. Both samples, however, independently support a similar level of fit and all significantly loaded onto the same latent factor with standardized loadings between 0.6 and 0.8.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 102,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "All items fitted well with their latent construct as the infit and outfit MNSQ were within acceptable range (0.5-1.5) in both samples (Table 3 ). The most difficult item for Sample 1 and To assess concurrent validity, the FCV-19S was correlated with perceived vulnerability to disease (Sample 1 and 2) and wellbeing (Sample 2). The FCV-19S demonstrated good concurrent validity. More specifically, there was a moderately strong relationship between the FCV-19S and the two subscales of perceived vulnerability to disease scale: perceived infectability (Sample 1: r = 0.35, p < 0.001; Sample 2: r = 0.40, p < 0.001) and germ aversion (Sample 1: r = 0.39, p < 0.001; Sample 2: r = 0.45, p < 0.001). In addition, there was a negative relationship between FCV-19S and the WEMWBS (r = \u22120.31, p < 0.001), such that those who had higher fear scores reported lower overall wellbeing scores. Finally, when assessing participants' adherence to New Zealand's Lockdown Rules, FCV-19S was significantly associated with adherence with all five rules during Alert Level 4 (Sample 1) and three of the five rules during Alert Level 3 (Sample 2) (Table 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 142,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1128,
+                    "end": 1137,
+                    "text": "(Table 4)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Finally, consistent with the view that COVID-19 has become a politicized topic, there were modest negative correlations between the FCV-19S scores and political beliefs (Sample 1: M = 3.74, SD = 1.49, rho = \u2212.20, p < .001; Sample 2: M = 2.57, SD = 1.15, rho = \u2212.07, p = .014). That is, participants that rated themselves as more toward the conservative end of the political spectrum tended to report lower FCV-19S scores.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The primary aim of the present study was to evaluate the English version of the FCV-19S. Across two large samples, the FCV-19S had high internal consistency. Mirroring the Bangla (Sakib et al. 2020) , Italian (Soraci et al. 2020) , Arabic (Alyami et al. 2020) , and Hebrew (Bitan et al. 2020) validation studies, participants tended to \"strongly disagree\" with items 3, 6, and 7. As Alyami (2020) note, items 3, 6, and 7 refer to somatic responses to COVID-19 fear (e.g., \"My heart races or palpitates when I think about getting coronavirus-19\"), rather than the more general level of fear tapped by the remaining items (e.g., \"When watching news and stories about coronavirus-19 on social media, I become nervous or anxious\"). Consistent with the earlier validation studies, the FCV-19S displayed a moderately strong relationship with the perceived infectability and germ aversion subscales of the PVD scale (Duncan et al. 2009 ). Moreover, the FCV-19S scores were negatively correlated with the WEMWBS, reflecting the fact that as fear of COVID-19 increased wellbeing decreased. This finding is consistent with previous studies reporting positive correlations between the FCV-19S and the hospital anxiety and depression scale (Ahorsu et al. 2020; Alyami et al. 2020) , Patient Health Questionnaire (Sakib et al. 2020) , and the depression and anxiety stress scale (Bitan et al. 2020) . With respect to the motivating role of fear, there was a significant relationship between FCV-19S scores and adherence to the lockdown rules that were implemented in New Zealand (Harper et al. 2020; Pakpour and Griffiths 2020; Tannenbaum et al. 2015) . For example, fear of COVID-19 was associated with participants maintaining the 2-m rule (i.e., maintain 2-m distance from other people when out in public) and keeping physical activity to outdoor places that could be readily accessed by foot. This finding is consistent with Harper et al. (2020) , who reported a positive correlation between FCV-19S scores and participants judgment of the degree to which several behaviors and practices had changed due to the pandemic (e.g., hand washing, care of children, and the elderly).",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 198,
+                    "text": "(Sakib et al. 2020)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 209,
+                    "end": 229,
+                    "text": "(Soraci et al. 2020)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 239,
+                    "end": 259,
+                    "text": "(Alyami et al. 2020)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 273,
+                    "end": 292,
+                    "text": "(Bitan et al. 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 909,
+                    "end": 928,
+                    "text": "(Duncan et al. 2009",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1228,
+                    "end": 1248,
+                    "text": "(Ahorsu et al. 2020;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1249,
+                    "end": 1268,
+                    "text": "Alyami et al. 2020)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1300,
+                    "end": 1319,
+                    "text": "(Sakib et al. 2020)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1366,
+                    "end": 1385,
+                    "text": "(Bitan et al. 2020)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1566,
+                    "end": 1586,
+                    "text": "(Harper et al. 2020;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1587,
+                    "end": 1614,
+                    "text": "Pakpour and Griffiths 2020;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1615,
+                    "end": 1638,
+                    "text": "Tannenbaum et al. 2015)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1916,
+                    "end": 1936,
+                    "text": "Harper et al. (2020)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Consistent with the view that the politicization of COVID-19 is not limited to the USA, participants that rated themselves as more conservative displayed lower FCV-19S scores than participants that rated themselves more toward the liberal end of the political spectrum. Although conservative politicians in New Zealand have not gone as far as USA President Donald Trump, who early on referred to the virus as a hoax (Franck 2020) , they have argued that the liberal government should reduce alert levels more quickly, effectively communicating a lower level of risk (Burrows 2020; Coughlan 2020) . Indeed, in the USA, Rothgerber et al. (2020) demonstrated that perceptions of health risk (e.g., the likelihood of being infected with COVID-19) mediated the relationship between conservatism and abiding by social distancing rules.",
+            "cite_spans": [
+                {
+                    "start": 416,
+                    "end": 429,
+                    "text": "(Franck 2020)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 566,
+                    "end": 580,
+                    "text": "(Burrows 2020;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 581,
+                    "end": 595,
+                    "text": "Coughlan 2020)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 618,
+                    "end": 642,
+                    "text": "Rothgerber et al. (2020)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although the study comprised over 3000 participants in total, there are some limitations to consider when interpreting the results. Data were not collected from a nationally representative sample (i.e., they comprised a self-selecting sample) and all the data were self-report which is subject to established method biases. Given the cross-sectional nature of the data, the relationships between all the variables examined are associational, and the only way to establish the directional nature of the variables would be to carry out a longitudinal study. However, for a scale validation study, the design was robust.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The current study demonstrates that the English version of the COVID-19S is a sound unidimensional scale with robust psychometric properties that can be used with confidence Also shown is the association between FCV-19S and adherence to each rule among English-speaking populations. Critically, the COVID-19S displays sound concurrent validity and is associated with adherence to public health messages that aim to reduce the spread of COVID-19 (e.g., maintaining the 2-m rule).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Conflict of Interest The authors declare that they do not have any interests that could constitute a real, potential or apparent conflict of interest with respect to their involvement in the publication. The authors also declare that they do not have any financial or other relations (e.g. directorship, consultancy or speaker fee) with companies, trade associations, unions or groups (including civic associations and public interest groups) that may gain or lose financially from the results or conclusions in the study. Sources of funding are acknowledged.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        },
+        {
+            "text": "Ethical Approval All procedures performed in this study involving human participants were in accordance with the ethical standards of University's Research Ethics Board and with the 1975 Helsinki Declaration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        },
+        {
+            "text": "Informed Consent Informed consent was obtained from all participants.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        },
+        {
+            "text": "Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The fear of COVID-19 scale: development and initial validation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ahorsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Imani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Saffari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pakpour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00270-8"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Psychometric evaluation of the Arabic version of the fear of COVID-19 scale",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alyami",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Henning",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kr\u00e4geloh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alyami",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00316-x"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coughing while asian': living in fear as racism feeds off coronavirus panic. The Guardian",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Aratani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "State of national emergency declared to fight COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ardern",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Asian parents remove child from school as Covid-19 racism spikes. stuff.co.nz",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Biddle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Fear of COVID-19 scale: psychometric characteristics, reliability and validity in the israeli population",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bitan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grossman-Giron",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bloch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shiffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mendlovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatry Research",
+            "volume": "289",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psychres.2020.113100"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "New Zealand should consider quitting lockdown early, David Seymour says",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Burrows",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Why are conservatives less concerned about the coronavirus (COVID-19) than liberals? Testing experiential versus political explanations",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Conway",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Woodard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zubrod",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.31234/osf.io/fgb84"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Simon bridges says the lockdown should be lifted next week. stuff.co.nz",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Coughlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Perceived vulnerability to disease: development and validation of a 15-item self-report instrument",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schaller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Personality and Individual Differences",
+            "volume": "47",
+            "issn": "6",
+            "pages": "541--546",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.paid.2009.05.001"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Trump says the coronavirus is the democrats' 'new hoax",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Franck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Functional fear predicts public health compliance in the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Satchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fido",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Latzman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00281-5"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "O&apos;connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Tracey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wessely",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Arseneault",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Psychiatry",
+            "volume": "7",
+            "issn": "6",
+            "pages": "30168--30169",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-0366(20)30168-1"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "As they fight virus, Asian Americans battle racism",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Washington Post",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The end of the end of ideology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "American Psychologist",
+            "volume": "",
+            "issn": "7",
+            "pages": "651--670",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Social reaction toward the 2019 novel coronavirus (COVID-19)",
+            "authors": [
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Social Health and Behavior",
+            "volume": "3",
+            "issn": "1",
+            "pages": "1--2",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/SHB.SHB_11_20"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Using hospital anxiety and depression scale (HADS) on patients with epilepsy: confirmatory factor analysis and rasch models",
+            "authors": [
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pakpour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Seizure",
+            "volume": "45",
+            "issn": "",
+            "pages": "42--46",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.seizure.2016.11.019"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Psychometric validation of the Persian Bergen Social Media Addiction Scale using classic test theory and Rasch models",
+            "authors": [
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Brostr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Nilsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pakpour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Behavioral Addictions",
+            "volume": "6",
+            "issn": "4",
+            "pages": "620--629",
+            "other_ids": {
+                "DOI": [
+                    "10.1556/2006.6.2017.071"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A user's guide to WINSTEPS\u00ae MINISTEP Rasch-model computer programs program manual 3.80.0. Chicago: Winsteps",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Linacre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "First COVID-19 suicide case in bangladesh due to fear of COVID-19 and xenophobia: possible suicide prevention strategies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mamun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian Journal of Psychiatry",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajp.2020.102073"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A Rasch model for partial credit scoring",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Masters",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Psychometrika",
+            "volume": "47",
+            "issn": "2",
+            "pages": "149--174",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF02296272"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The fear of COVID-19 and its role in preventive behaviors",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pakpour",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Concurrent Disorders",
+            "volume": "2",
+            "issn": "1",
+            "pages": "58--63",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Psychosocial consequences of infectious diseases",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pappas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kiriaze",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Giannakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Falagas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Clinical Microbiology and Infection",
+            "volume": "15",
+            "issn": "8",
+            "pages": "743--747",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1469-0691.2009.02947.x"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "COVID-19 fear in Eastern Europe: validation of the fear of COVID-19 scale",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reznik",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gritsenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Konstantinov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khamenka",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Isralowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00283-3"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Lavaan: an R package for structural equation modeling and more",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Rosseel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Statistical Software",
+            "volume": "48",
+            "issn": "2",
+            "pages": "1--36",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Politicizing the covid-19 pandemic: ideological differences in adherence to social distancing",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rothgerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Whaley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rosenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Humphrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bihl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.31234/osf.io/k23cv"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Psychometric validation of the bangla fear of COVID-19 scale: confirmatory factor analysis and rasch analysis",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sakib",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K M I"
+                    ],
+                    "last": "Bhuiyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hossain",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Al Mamun",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hosen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Abdullah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00289-x"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Adaptation of the fear of COVID-19 scale: its association with psychological distress and life satisfaction in Turkey",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Satici",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gocet-Tekin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Deniz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Satici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00294-0"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Political attitudes and the ideology of equality: differentiating support for liberal and conservative political parties in New Zealand",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sibley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "New Zealand Journal of Psychology",
+            "volume": "36",
+            "issn": "2",
+            "pages": "72--84",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Effects of the COVID-19 pandemic and nationwide lockdown on trust, attitudes towards government, and wellbeing",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sibley",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Greaves",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Satherley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Overall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Barlow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/amp0000662"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Validation and psychometric evaluation of the Italian version of the fear of COVID-19 scale",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Soraci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abbiati",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Del Fante",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "De Pace",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Urso",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00277-1"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Appealing to fear: a meta-analysis of fear appeal effectiveness and theories",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tannenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hepler",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zimmerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Saul",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Albarrac\u00edn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Psychological Bulletin",
+            "volume": "",
+            "issn": "6",
+            "pages": "1178--1204",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/a0039729"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The warwick-edinburgh mental well-being scale (WEMWBS): development and UK validation",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tennant",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hiller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fishwick",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Platt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Joseph",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Weich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Parkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Secker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stewart-Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Health and Quality of Life Outcomes",
+            "volume": "5",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1477-7525-5-63"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "COVID-19 coronavirus pandemic",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldometers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Summary statistics and item analysis for each scale item in the FCV-19S Likert scales) was found in both samples. No DIF was seen across gender and age subgroups of both Sample 1 and Sample 2 (i.e., DIF contrasts < 0.5). The Rasch dimension demonstrated that the FCV-19S explained 64.2% and 67.2% of the variance in Sample 1 and Sample 2, with eigenvalues of 12.57 and 14.32, respectively. The first contrasts gave eigenvalues of 1.84 and 1.74 for both Sample 1 and Sample 2, respectively.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "CFA for the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Analyses from Rasch model for the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Means (M) and standard deviations (SD) for adherence to the lockdown rules I ensure I maintain the 2-m rule when out in public.5.61 1.21 0.20 < 0.001 I keep my physical activity local, limiting it to an outdoor place that can be readily accessed on foot from my home.5.78 1.35 0.17 < 0.001 I only drive for essential reasons, such as going to work or picking up essential supplies from the supermarket.When going to the supermarket, we only send one member of our household. 5.85 1.43 0.08 < 0.001 I have not been within 2-m of family or friends outside of my bubble.5.65 1.63 0.12 < 0.001 I ensure I maintain the 2-m rule when out in public.6.23 0.98 0.11 < 0.001 I keep my physical activity local, limiting it to an outdoor place that can be readily accessed on foot from my home.I only drive for essential reasons, such as going to work or picking up essential supplies from the supermarket. have not been within 2-m of family or friends outside of my bubble.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

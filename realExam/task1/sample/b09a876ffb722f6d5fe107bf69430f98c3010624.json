@@ -1,0 +1,940 @@
+{
+    "paper_id": "b09a876ffb722f6d5fe107bf69430f98c3010624",
+    "metadata": {
+        "title": "Ageism and COVID-19: what does our society's response say about us? , CCNA Social Inclusion and Stigma Working Group",
+        "authors": [
+            {
+                "first": "Sarah",
+                "middle": [],
+                "last": "Fraser",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "postCode": "KIN6N5",
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": "sarah.fraser@uottawa.ca"
+            },
+            {
+                "first": "Martine",
+                "middle": [],
+                "last": "Lagac\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "addrLine": "Desmarais Building",
+                        "postCode": "KIN6N5",
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bienvenu",
+                "middle": [],
+                "last": "Bongu\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Jean-Monnet",
+                    "location": {
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ndatt\u00e9",
+                "middle": [],
+                "last": "Ndeye",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Jean-Monnet",
+                    "location": {
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jessica",
+                "middle": [],
+                "last": "Guyot",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Jean-Monnet",
+                    "location": {
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lauren",
+                "middle": [],
+                "last": "Bechard",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Waterloo",
+                    "location": {
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Linda",
+                "middle": [],
+                "last": "Garcia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vanessa",
+                "middle": [],
+                "last": "Taler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "St\u00e9phane",
+                "middle": [],
+                "last": "Adam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Psychology of Aging Unit",
+                    "institution": "University of Li\u00e8ge",
+                    "location": {
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marie",
+                "middle": [],
+                "last": "Beaulieu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sherbrooke",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Caroline",
+                "middle": [
+                    "D"
+                ],
+                "last": "Bergeron",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "National Public Health Institute of Quebec",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Val\u00e9rian",
+                "middle": [],
+                "last": "Boudjemadi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Strasbourg",
+                    "location": {
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Donatienne",
+                "middle": [],
+                "last": "Desmette",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Facult\u00e9 des sciences \u00e9conomiques",
+                    "location": {
+                        "addrLine": "sociales, politiques et de communication"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anna",
+                "middle": [
+                    "Rosa"
+                ],
+                "last": "Donizzetti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Naples \"Federico II\"",
+                    "location": {
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sophie",
+                "middle": [],
+                "last": "\u00c9thier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Laval University",
+                    "location": {
+                        "settlement": "Qu\u00e9bec",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Suzanne",
+                "middle": [],
+                "last": "Garon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sherbrooke",
+                    "location": {
+                        "settlement": "Qu\u00e9bec",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Margaret",
+                "middle": [],
+                "last": "Gillis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M\u00e9lanie",
+                "middle": [],
+                "last": "Levasseur",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Sherbrooke",
+                    "location": {
+                        "settlement": "Qu\u00e9bec",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Monique",
+                "middle": [],
+                "last": "Lortie-Lussier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Patrik",
+                "middle": [],
+                "last": "Marier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Centre Affili\u00e9 Universitaire",
+                    "location": {
+                        "region": "Qu\u00e9bec",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Annie",
+                "middle": [],
+                "last": "Robitaille",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "postCode": "KIN6N5",
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kim",
+                "middle": [],
+                "last": "Sawchuk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Concordia University",
+                    "location": {
+                        "settlement": "Montreal",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Constance",
+                "middle": [],
+                "last": "Lafontaine",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Concordia University",
+                    "location": {
+                        "settlement": "Montreal",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francine",
+                "middle": [],
+                "last": "Tougas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ottawa",
+                    "location": {
+                        "settlement": "Ottawa",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The goal of this commentary is to highlight the ageism that has emerged during the COVID-19 pandemic. Over 20 international researchers in the field of ageing have contributed to this document. This commentary discusses how older people are misrepresented and undervalued in the current public discourse surrounding the pandemic. It points to issues in documenting the deaths of older adults, the lack of preparation for such a crisis in long-term care homes, how some 'protective' policies can be considered patronising and how the initial perception of the public was that the virus was really an older adult",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "problem. This commentary also calls attention to important intergenerational solidarity that has occurred during this crisis to ensure support and social-inclusion of older adults, even at a distance. Our hope is that with this commentary we can contribute to the discourse on older adults during this pandemic and diminish the ageist attitudes that have circulated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "\u2022 The public discourse during COVID-19 misrepresents and devalues older adults. \u2022 The ageist attitudes circulating during COVID-19 make some people think that the pandemic is an older person problem. \u2022 Intergenerational solidarity is important to maximise the support and connectedness of older adults during COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "'A society is measured by how it cares for its \"older\" citizens' (WHO, 2019) [1] .",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 80,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Ageism is a reality in western societies [2, 3] and current views of older people are too often tinged with false beliefs and prejudices [2, 3] . Public authorities often consider older adults to be a burden rather than an integral segment of the population whose members must be supported. Older adults are rarely given a voice and are seldom considered when making decisions. The media has a considerable role in the propagation of ageist stereotypes and negative attitudes towards older adults, particularly in times of crisis when age is not a relevant factor [3, 4] . The COVID-19 pandemic has accentuated the exclusion of and prejudice against older adults. The current crisis highlights a disturbing public discourse about ageing that questions the value of older adults' lives and disregards their valuable contributions to society [5] .",
+            "cite_spans": [
+                {
+                    "start": 41,
+                    "end": 44,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 45,
+                    "end": 47,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 141,
+                    "end": 143,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 564,
+                    "end": 567,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 568,
+                    "end": 570,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 840,
+                    "end": 843,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "One of the most blatant examples of disregard for the lives of older adults is the failure of the public authorities in France to report mortality figures for older adults in nursing homes. This could lead the public to conclude that their deaths were insignificant and to be expected [6] . The pandemic was initially not taken seriously, in France, and elsewhere, where the public discourse presented it as only dangerous to older adults. It may have been the case that this narrative partially explained the resistance to following public health guidelines. Even after many weeks of COVID-19, governments are still begging citizens to stay home. In other words, is this pandemic reinforcing and highlighting the dormant 'us' versus 'them' phenomenon? It is also revealing that the younger adults who have died from complications of COVID-19 throughout the world have often generated long and in-depth media reports, while the deaths of thousands of older adults have been simply counted and summarised, if they were documented at all. This implies that the death of a young adult merits a life story, while the death of an older adult is too often merely a statistic.",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 288,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Public discourse and the undocumented deaths of older adults"
+        },
+        {
+            "text": "In addition to the misrepresentation of COVID-19 as an 'older adult problem', many countries have chosen to impose stricter restrictions on older adults, ordering them to remain inside during the pandemic [7] . These restrictions exacerbate the longstanding problem of older adults' isolation and the health consequences of social disconnectedness that existed long before the pandemic [8] . While restrictions may aim to be protective, such policies have often translated into patronising public communication depicting all older adults as 'vulnerable' members of society. In one Canadian city, people over 70 years of age have been encouraged to sign up for the 'vulnerable person registry' [9] . In another province, many healthy adults aged 70 years old and older have been the target of patronising attitudes when out for a walk, being told that they should not be outside.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 208,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 386,
+                    "end": 389,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The patronising face of ageism"
+        },
+        {
+            "text": "Outbreaks of COVID-19 first emerged in Asia and Europe in December 2019 and January 2020. What was already evolving in those areas clearly pointed to particularly challenging and concerning situations, underscoring a need to protect older adults in long-term care (LTC) homes during a major pandemic. Health providers in countries such as Italy expressed major concerns regarding the safety and security of residents, pleading for more staff and protective equipment. Now, in Canada, many LTCs have been unable to manage devastation from of the virus. We were slow, and possibly even negligent in preparing a response to COVID-19 that could have reduced the number of victims in LTCs. Did a pre-pandemic lack of resources for residents of LTC homes exacerbate this looming crisis and slow our response?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disregarding the potential impact of COVID-19 in long-term care homes"
+        },
+        {
+            "text": "Canadian data now suggest that younger adults represent the largest proportion of COVID-19 carriers, and people under 60 years of age account for a significant portion of hospitalizations (including >35% in intensive care) [10] .",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 227,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The shared risk of COVID-19"
+        },
+        {
+            "text": "Younger adults are not immune to this virus, and they share responsibility for its spread. A lackadaisical attitude towards public health directives increases risk for everyone. Ultimately, COVID-19 is not a disease of older adults, and it effects will be felt by everyone. We all must do our part to curtail its spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The shared risk of COVID-19"
+        },
+        {
+            "text": "Ageism reached a new level with the hashtag #BoomerRemover. This vulgar concept highlights two prevalent ageist attitudes in the COVID-19 pandemic response [11] :",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 ageism and social media"
+        },
+        {
+            "text": "\u2022 Older adults are 'sitting ducks', vulnerable and helpless against COVID-19. High mortality rates amongst older adults are considered an 'inevitable' and 'normal' outcome of this pandemic. \u2022 Healthy younger adults may perceive themselves as invulnerable to COVID-19 and, as a result, may not realise the importance of following public health advice and policies on infection prevention. Videos of university-age students engaging in mass gatherings for Spring Break in Miami, FL [12] or St Patrick's Day in Kingston, ON [13] , despite calls from public health officials to engage in social distancing, highlight this misperception.",
+            "cite_spans": [
+                {
+                    "start": 480,
+                    "end": 484,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 521,
+                    "end": 525,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 ageism and social media"
+        },
+        {
+            "text": "Public messaging is important. How older and younger adults perceive their susceptibility to COVID-19 influences their health behaviours and has consequences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 ageism and social media"
+        },
+        {
+            "text": "Even though COVID-19 mortality rates are higher in older adults compared to other age groups, our concern is that age is being conflated with frailty and co-morbidity, which are likely to be the more important factors associated with mortality. Social media highlights older adults who sacrifice their own lives so that ventilators can be used for someone younger. When medical equipment, and hospital capacity becomes scarce, care providers may be faced with the ethical decisions about whose life takes priority and age may become a deciding factor. The USA has formally adopted the Ventilator Allocation Guidelines whereby 'age may be considered as a tie-breaking criterion in limited circumstances' [14] . This may lead people to believe that an older person's life may be less valuable than that of someone younger. What will be the cost to society of the sacrificed lives of older adults?",
+            "cite_spans": [
+                {
+                    "start": 703,
+                    "end": 707,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The value of a life as age-dependent"
+        },
+        {
+            "text": "Despite clear indications of ageism, there are also encouraging signs of intergenerational solidarity during this pandemic. There are myriad examples of younger people supporting older adults during their isolation: dropping off groceries, looking after their garden and working to keep them socially connected. Some health care professionals who are working tirelessly to help others have taken the time to show compassion and connect older adults in hospitals or residences with their loved ones via smartphones [15] .",
+            "cite_spans": [
+                {
+                    "start": 514,
+                    "end": 518,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "BUT also intergenerational solidarity"
+        },
+        {
+            "text": "Although the 'vulnerable person registry' has an unfortunate, ageist name, the goal of the programme is to communicate regularly with older adults (once per week) and ensure that they are aware of the resources available to them and that their needs are being met.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "BUT also intergenerational solidarity"
+        },
+        {
+            "text": "As concerned advocates and researchers interested in ageing, it is our opinion that we should be aware of and try to reduce the ageist views being propagated during COVID-19. Higher mortality rates for any group, including older adults, have devastating consequences. It's not just the preventable loss of human lives or strain being placed on our healthcare and social systems or older adults are invaluable members of society. They are a source of generational knowledge and wisdom, they contribute to the workforce in increasing numbers, they volunteer and they are key to the strength of our economies and our families. We cannot afford to be careless about these lost lives because of ageist attitudes. We need to consider what we stand to lose if we let ageism influence how we discuss and treat older adults during and after the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A society is measured by how it cares for its elderly citizens",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Progress on understanding ageism",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Macdonald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Social Issues",
+            "volume": "72",
+            "issn": "",
+            "pages": "5--25",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Comprendre et changer le regard social sur le vieillissement",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lagac\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "L&apos;\u00e2gisme",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "If it is in print, it must be true? Stereotypes associated with agerelated conditions and assistive device use in the Canadian media",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fraser",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kenyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lagac\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wittich",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Southall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Gerontologist",
+            "volume": "21",
+            "issn": "",
+            "pages": "762--70",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Volunteer transitions among older adults: the role of human, social, and cultural capital in later life",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mcnamara",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gonzales",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Gerontol B Psychol Sci Soc Sci",
+            "volume": "66",
+            "issn": "",
+            "pages": "490--501",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Le Nombre de d\u00e9c\u00e8s en Ehpad probablement beaucoup plus lourd que le bilan officiel",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boumedienne",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coronavirus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Measures against Covid-19 to stay in effect in Finland until 13 May, says Marin",
+            "authors": [
+                {
+                    "first": "Uusi",
+                    "middle": [],
+                    "last": "Suomi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "COVID-19 and the consequences of isolating the elderly",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Armitage",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nellums",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Beaconsfield opens 'vulnerable person registry",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Meagher",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coronavirus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Epidemiological Summary of COVID-19 cases in Canada: Demographics",
+            "authors": [
+                {
+                    "first": "Canada",
+                    "middle": [],
+                    "last": "Government Of",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Que faire de nos vieux?: une histoire de la protection sociale de 1880 \u00e0 Nos Jours. France: Presses de Sciences Po",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Capuano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "At the end of the day, I'm not gonna let it stop me from partying': Spring breakers are still flocking to Miami despite Coronavirus Warnings. Cbsn.ws/33sb67i",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cbs News",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Coronavirus: Queen's St. Patrick's Day party went on after health officials urged against it. Global News Canada",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Krause",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Ventilator Allocation Guidelines. Albany: New York State Department of Health Task Force on Life and the Law",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zucker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Adler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Berens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19: 4 tips to help the elderly stay connected",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Archbald-Pannone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Declaration of Funding: None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Conflicts of Interest: None."
+        }
+    ]
+}

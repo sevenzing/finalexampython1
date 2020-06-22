@@ -1,0 +1,1656 @@
+{
+    "paper_id": "fb45244ec2a4e763b4489010a24d46bda408c280",
+    "metadata": {
+        "title": "Commentary on the management of total laryngectomy patients during the COVID-19 pandemic",
+        "authors": [
+            {
+                "first": "Max",
+                "middle": [],
+                "last": "Hennessy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Pennsylvania State University",
+                    "location": {
+                        "settlement": "Hershey",
+                        "country": "Pennsylvania"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Darrin",
+                "middle": [
+                    "V"
+                ],
+                "last": "Bann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Pennsylvania State University",
+                    "location": {
+                        "settlement": "Hershey",
+                        "country": "Pennsylvania"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vijay",
+                "middle": [
+                    "A"
+                ],
+                "last": "Patel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Pennsylvania State University",
+                    "location": {
+                        "settlement": "Hershey",
+                        "country": "Pennsylvania"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robert",
+                "middle": [],
+                "last": "Saadi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Pennsylvania State University",
+                    "location": {
+                        "settlement": "Hershey",
+                        "country": "Pennsylvania"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Greg",
+                "middle": [
+                    "A"
+                ],
+                "last": "Krempl",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Oklahoma Health Sciences Center",
+                    "location": {
+                        "settlement": "Oklahoma City, Oklahoma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "G"
+                ],
+                "last": "Deschler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Massachusetts Eye and Ear Infirmary",
+                    "institution": "Massachusetts Correspondence Neerav Goyal",
+                    "location": {
+                        "settlement": "Boston"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Neerav",
+                "middle": [],
+                "last": "Goyal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Pennsylvania State University",
+                    "location": {
+                        "settlement": "Hershey",
+                        "country": "Pennsylvania"
+                    }
+                },
+                "email": "ngoyal1@pennstatehealth.psu.edu"
+            },
+            {
+                "first": "Karen",
+                "middle": [
+                    "Y"
+                ],
+                "last": "Choi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Pennsylvania State University",
+                    "location": {
+                        "settlement": "Hershey",
+                        "country": "Pennsylvania"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The coronavirus disease-2019 (COVID-19) pandemic has rapidly spread across the world, placing unprecedented strain on the health care system. Health care resources including hospital beds, ICUs, as well as personal protective equipment are becoming increasingly rationed and scare commodities. In this environment, the laryngectomee (patient having previously undergone a total laryngectomy) continues to represent a unique patient with unique needs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Given their surgically altered airway, they pose a challenge to manage for the otolaryngologist within the current COVID-19 pandemic. In this brief report, we present special considerations and best practice recommendations in the management of total laryngectomy patients. We also discuss recommendations for laryngectomy patients and minimizing community exposures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronavirus disease-2019 (COVID- 19) was first reported in Wuhan, Hubei province, China in December 2019 and has since rapidly spread across the globe, infecting 2 200 000 people and causing 1 50 000 deaths as of April 17, 2020. 1, 29 This disease is caused by Severe Acute Respiratory Syndrome Coronavirus-2 (SARS-CoV-2), a novel coronavirus closely related to the SARS and Middle Eastern Respiratory Syndrome (MERS) viruses. 1, 2 The exact route of transmission remains unknown but the primary mechanism of spread is believed to be via respiratory droplets and aerosols. 3 Due to the high viral load present in the upper airway, otolaryngologic procedures are considered high risk for occupational exposure and a number of otolaryngologists have been infected with COVID-19. 4 The most common initial symptoms of COVID-19 are cough, fever, fatigue, increased mucous production, dyspnea, sore throat, and myalgias. 5 Ground-glass opacities are found on chest computed tomography in 56% of patients on admission, with 2.3% of patients eventually requiring mechanical ventilation. 6 In an analysis of 72 314 COVID-19 patients in China, the overall casefatality rate was 2.3% but was 7.3% in patients with preexisting conditions (10.5% for cardiovascular disease, 7.3% for diabetes, 6.3% for chronic respiratory disease, 6.0% for hypertension, and 5.6% for cancer). 5 Notably, symptoms can take 1 to 2 weeks to manifest from the time of infection, and asymptomatic patients can still be contagious.",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 36,
+                    "text": "19)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 229,
+                    "end": 231,
+                    "text": "1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 232,
+                    "end": 234,
+                    "text": "29",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 427,
+                    "end": 429,
+                    "text": "1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 430,
+                    "end": 431,
+                    "text": "2",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 573,
+                    "end": 574,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 777,
+                    "end": 778,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 916,
+                    "end": 917,
+                    "text": "5",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1080,
+                    "end": 1081,
+                    "text": "6",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1364,
+                    "end": 1365,
+                    "text": "5",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "This manuscript has not been presented at any meetings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "Total laryngectomy, which results in an interruption between the upper airway and trachea with complete respiratory dependence through a tracheostoma, represents a unique challenge for patient management in the setting of COVID-19. Laryngectomy patients are at risk for poor outcomes with COVID-19 due to frequently present medical comorbidities including chronic pulmonary disease, peripheral vascular disease, cardiac disease, cerebrovascular disease, diabetes, the underlying cancer history, and a propensity for atelectasis due to loss of upper airway resistance. 7 Furthermore, as the majority of laryngectomy patients have a smoking history, they are also prone to acute infections due to impaired mucociliary function and mucosal irritation from cold, dry inspired air. 7 In addition, salvage total laryngectomy can result in postoperative wound complications and prolonged hospital stays and greater risk of exposure to the virus as hospitals are inundated with COVID-19 patients. If infected, laryngectomy patients carry a high risk of transmitting viral particles to health care workers or members of the community due to their significantly altered anatomy and to aerosolization of tracheal secretions. 8, 9 2 | INFECTION CONTROL PRECAUTIONS IN TOTAL LARYNGECTOMY PATIENTS Direct examination and instrumenting the head and neck region during physical examination of the infected patient represents a significant transmission hazard for the physician and ancillary support staff due to the high viral load present in the upper aerodigestive tract. 4 Unfortunately, many patients are asymptomatic early in infection, and some patients may remain asymptomatic throughout the course of the infection. Currently, COVID-19 testing is limited by access to supplies and lengthy turnaround times, and therefore, patients with unknown COVID-19 testing should be presumed positive until testing becomes readily available with rapid results.",
+            "cite_spans": [
+                {
+                    "start": 568,
+                    "end": 569,
+                    "text": "7",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 777,
+                    "end": 778,
+                    "text": "7",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1214,
+                    "end": 1216,
+                    "text": "8,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1217,
+                    "end": 1218,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1558,
+                    "end": 1559,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "The best approach for testing laryngectomy patients for COVID-19 also requires consideration. COVID-19 testing is most commonly performed via nasopharyngeal swab. Although laryngectomy patients have no significant airflow through the nasal cavity or nasopharynx, they can still develop sinonasal disease. 10 However, as the primary respiratory flow is via the tracheostoma, the trachea and lungs may serve as an additional site of direct inoculation. Therefore, it is important to consider testing for SARS-CoV-2 in tracheal aspirates as well as in the nasal passages for laryngectomy patients. This is consistent with CDC recommendations of lower respiratory track specimens if available. 11 Any manipulation of the upper aerodigestive tract that precipitates cough, including endoscopic examination of the nasal cavity, oral cavity, and pharynx must be treated as an aerosol-generating procedure that has a high risk of virus transmission. To limit COVID-19 transmission and preserve medical resources including personal protective equipment (PPE), the American College of Surgeons (ACS) and the American Academy of Otolaryngology-Head and Neck Surgery (AAO-HNS) have recommended otolaryngologic procedures be deferred unless the procedure is medically necessary in a high acuity. 12, 13 Given the extensive alterations in anatomy, their cancer history, and risk of airway complications related to tracheoesophageal fistulae (TEF) or tracheoesophageal prostheses (TEP), laryngectomy patients may still require acute face to face encounters. As such, special considerations to minimize the risk of SARS-CoV-2 transmission should be undertaken. The proper use of PPE is important in the setting of COVID-19. In these patients, unconditioned air enters the tracheostoma, which can lead to increased coughing. 3 Inherently, tracheostomas generate a greater aerosol load in comparison to normal respiration through the upper airway. 9 During the SARS outbreak in 2003, viral RNA was detected in high concentrations in tracheal aspiration samples, indicating the virus also replicates in tracheal secretions. 14 With this in mind, extra care must be taken to protect against aerosolized particles generated when examining and interacting with laryngectomy patients in both the inpatient and outpatient setting.",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 307,
+                    "text": "10",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 690,
+                    "end": 692,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1283,
+                    "end": 1286,
+                    "text": "12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1287,
+                    "end": 1289,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1808,
+                    "end": 1809,
+                    "text": "3",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1930,
+                    "end": 1931,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 2105,
+                    "end": 2107,
+                    "text": "14",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "We recommend using enhanced PPE, which we define as an N95 respirator and face shield or a powered airpurifying respirator (PAPR), as well as a disposable surgical cap, gown, gloves, and consideration for shoe covers when evaluating any laryngectomy patient with unknown, suspected, or positive COVID-19 status. Standard PPE, as defined by the Occupational Health and Safety Administration (OSHA), can be used for COVID-19-negative patients. 15 Proper PPE compliance is critical in maintaining its efficacy and the appropriate sequence of donning and doffing of the equipment is vital. 11 It is important to note, however, that the use of an N95 respirator and face shield may not be 100% effective at preventing COVID-19 transmission. In fact, two recent meta-analyses failed to demonstrate the superiority of N95 respirators over standard surgical masks in preventing influenza. 16, 17 Due to the increased protection afforded and possible reusability, a PAPR is preferred over an N95 respirator and face shield for high-risk procedures, when available, so long as there is appropriate physician comfort and training with a PAPR. 4, 18, 19 The availability of PAPR can vary greatly from center to center. Additional options for enhanced PPE to consider include N100 and reusable elastomeric respirators if available.",
+            "cite_spans": [
+                {
+                    "start": 442,
+                    "end": 444,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 586,
+                    "end": 588,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 881,
+                    "end": 884,
+                    "text": "16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 885,
+                    "end": 887,
+                    "text": "17",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1132,
+                    "end": 1134,
+                    "text": "4,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1135,
+                    "end": 1138,
+                    "text": "18,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1139,
+                    "end": 1141,
+                    "text": "19",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "Certain practices can minimize transmission of this highly contagious virus in the outpatient setting, the most effective measure being the deferral of all nonurgent visits and performing telemedicine visits when a physical exam is not necessary (ie, pathology and radiographic imaging results). The federal government has taken steps to greatly expand telemedicine services under Medicare and Medicaid with HIPAA flexibilities and this was made retroactive to January 27, 2020. 20 When in-office visits are absolutely necessary (eg, postoperative visits, tracheoesophageal prosthesis (TEP) complications, symptoms concerning for cancer recurrence, etc.), screening prior to the visit for symptoms of COVID-19 and self-quarantine measures may help reduce transmission risks. An example of pre-arrival instructions for patients are listed in Table 1 . To minimize aerosolized particle spread from a laryngectomy patient, the tracheostoma should be covered with a heat moisture exchanger (HME), preferably with an integrated viral/bacterial hydroscopic filter, and a physical barrier over the stoma such as a surgical mask, scarf, or shirt, prior to their arrival to the clinic. 21, 22 Two major manufacturers (Atos, InHealth) produce an HME with these filters: Atos Provox Micron HME filters virus and bacterial particles (https://www.atosmedical.com/ product/provox-micron-hme/), and the InHealth Technologies Blom-Singer HME filters bacterial particles (https:// www.inhealth.com/category_s/47.htm). In addition laryngectomy patients should, where feasible, be encouraged to use adhesive base plates such as the Provox StabiliBase (https://www.atosmedical.com/product/provox-stabilibase/) or the Blom-Singer TruSeal Adhesive Housing (https:// www.inhealth.com/product_p/truseal_standard.htm). These incorporate the HME and when properly applied will prevent airflow outside of the HME, and reduce mucous contamination of clothing or other physical barriers.",
+            "cite_spans": [
+                {
+                    "start": 479,
+                    "end": 481,
+                    "text": "20",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1177,
+                    "end": 1180,
+                    "text": "21,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1181,
+                    "end": 1183,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 841,
+                    "end": 848,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Outpatient clinic setting"
+        },
+        {
+            "text": "While scarves and shirts are not as effective as surgical masks in reducing inhaled aerosol spread, they do provide some protection in reducing aerosol projection. 21, 22 Attempts should be made to minimize the time the patient spends in common areas and check-in procedures should be expedited or performed in an examination room when possible.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 167,
+                    "text": "21,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 168,
+                    "end": 170,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Outpatient clinic setting"
+        },
+        {
+            "text": "During the visit, only necessary personnel should enter the patient room with the appropriate PPE as noted above. Defer nasopharyngoscopy and tracheoscopy if possible. Pledgets with lidocaine and/or oxymetazoline are preferable to atomized medications if anesthesia and decongestion are necessary. When performing flexible tracheoscopy, attempts should be made to minimize mucosal stimulation and resultant coughing. Following flexible tracheoscopy, the scope should be immediately handed off and cleaned to prevent contamination of counters and scope holders in the exam room. If suctioning is required, having patients self-suction will allow for providers and staff to leave the room during the time of suctioning. However, it should be noted that viable SARS-CoV-2 has been recovered from aerosols for up to Cancer surveillance or concern for recurrence -Same as standard postoperative instructions -If bleeding is present causing coughing or aspiration risk, proceed to nearest ED, utilizing same precautions to cover tracheostoma, mouth, and nose Abbreviations: ED, emergency department; HME, heat moisture exchanger.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Outpatient clinic setting"
+        },
+        {
+            "text": "3 hours. 23 Following the visit, institutional protocol for room decontamination should be followed while allowing an appropriate wait time for aerosols to settle. For patients with moderate to high risk of COVID-19, consider disinfecting all surfaces to reduce the risk of transmission, as SARS-CoV-2 has been shown to be viable on some surfaces for up to 24 to 72 hours. 24 ",
+            "cite_spans": [
+                {
+                    "start": 9,
+                    "end": 11,
+                    "text": "23",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 373,
+                    "end": 375,
+                    "text": "24",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Outpatient clinic setting"
+        },
+        {
+            "text": "TEP complications are unique to the laryngectomy population, including device dislodgement and leakage related to device failure in the tract. Typically, these complications can be managed in the office using standard PPE. However, due to the potential risk of SARS-CoV-2, the standard management and timing to address these complications is subject to change. Optimally, a negative pressure room and HEPA filtration can minimize the risk of viral transmission, and should be considered in the COVID-19 era. 25 However, this is not necessarily practical from a health care resource utilization and workflow standpoint. Figure 1 presents a possible decision algorithm in managing TEP complications including dislodgement of the prosthesis and leak around the prosthesis. A patient with a TEF or leak around a TEP is at an increased risk of aspiration with potential sequelae including pneumonia, which could lead to devastating outcomes if patients contract COVID-19. In the event of a dislodged TEP, radiographic imaging can serve as a diagnostic tool to replace flexible bronchoscopy or tracheoscopy in evaluating for an airway foreign body. This can begin with standard X-rays of the chest and abdomen but may be augmented with CT imaging. 26 Certainly, if the patient is in respiratory distress from an aspirated TEP, urgent surgical intervention is indicated regardless of COVID-19 status. As noted above, these patients should be presumed to be COVID-19 positive until proven otherwise and F I G U R E 1 A guide to determining approach to tracheoesophageal prostheses complications during the coronavirus disease-2019 pandemic [Color figure can be viewed at wileyonlinelibrary.com] enhanced PPE should be implemented. Precautions to minimize aerosolization of particles while in transport to the operating room and prior to intubation should be taken, such as covering the stoma with an HME and surgical mask. For patients who do not have an HME or laryngectomy tube, a tracheotomy tube with an HME can be considered, though this may worsen their coughing.",
+            "cite_spans": [
+                {
+                    "start": 508,
+                    "end": 510,
+                    "text": "25",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1242,
+                    "end": 1244,
+                    "text": "26",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 619,
+                    "end": 627,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Management of TEP complications"
+        },
+        {
+            "text": "In the stable patient, the main goal is to safely temporize and troubleshoot any TEP complications until the risk of COVID-19 transmission is sufficiently lowered or testing is readily available. Management at home should initially be attempted by the patient. If the patient has a TEP plug, this can be placed to attempt to reduce any leakage, though this will result in aphonia. Additionally, patients can try alternative diet measures such as thickened liquids to reduce leakage. A dislodged (nonaspirated) TEP may also be conservatively managed at home by placing a red rubber catheter or dilator into the TEF, if the patient is familiar with this procedure. An advantage to this measure is that the red rubber catheter can serve as alternate means of nutrition until TEP replacement becomes a viable option.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Management of TEP complications"
+        },
+        {
+            "text": "If in-office evaluation is necessary, ideally the patient should be tested for COVID-19 prior to evaluation. If testing is negative and symptoms are mild, the patient can undergo quarantine for 48 hours and then return to the clinic at a later date for TEP insertion. Some centers recommend a second rapid COVID-19 test following the 48-hour quarantine prior to evaluation or intervention to mitigate risk associated with false negative results. 27 However, this algorithm may remain infeasible until national testing supplies and capacity are no longer severely limited.",
+            "cite_spans": [
+                {
+                    "start": 446,
+                    "end": 448,
+                    "text": "27",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Management of TEP complications"
+        },
+        {
+            "text": "In the event of a TEP complication for a known COVID-19 positive patient, all efforts should be made by the patients to temporize themselves at home without coming to the hospital, so long as they are medically stable to remain at home. Once the patient is recovered from the infection, they may then proceed with further management. For COVID-19 positive patients, we strongly recommend the use of PAPR for all personnel in the room during any procedures that manipulate the airway. 15 If a PAPR is not available, consider the use of a level 4 surgical gown with helmet in addition to donning an N95 respirator and shoe covers. Involved personnel should be kept to the bare minimum during instrumentation of the stoma in a known COVID-19 positive patient.",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 486,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Management of TEP complications"
+        },
+        {
+            "text": "As is the case for any laryngectomy patient admitted to the hospital, it is crucial for the care teams involved to understand the surgically modified airway anatomy. Namely, it is imperative that all physicians and ancillary staff be cognizant of the fact that laryngectomy patients cannot be oxygenated, bag-masked, or intubated through the upper airway. Ideally, it is best for these patients to be tested for COVID-19, resource permitting. However, if testing is not feasible, all precautions should be taken to minimize risk of transmission of aerosolized particles. Again, strong consideration should be given to placing a laryngectomy tube or baseplate with an HME, with or without an integrated viral/bacterial hydroscopic filter, in the stoma. If the patient has a significant cough or secretions, measures such as placement of a tracheotomy tube in the stoma with an attached HEPA filter and closed-line suction on admission, or placing patients in a negative pressure room to minimize the spread of viral particles into the hallway, may be considered. 9 Placing patients on a closed-circuit system such as a mechanical ventilator, even if pressure support is not needed, has been utilized to reduce aerosolization of viral particles. 3, 25 However, this may not be feasible from a resource utilization standpoint, and as such, any efforts that reduce aerosolized viral spread with a physical barrier over the stoma as outlined above should be considered.",
+            "cite_spans": [
+                {
+                    "start": 1062,
+                    "end": 1063,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1244,
+                    "end": 1246,
+                    "text": "3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1247,
+                    "end": 1249,
+                    "text": "25",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Inpatient management"
+        },
+        {
+            "text": "Laryngectomy patients should also be counseled to selfsuction, if possible, so other care providers may be absent from the room during suctioning to minimize the risk of aerosolized transmission. 25 As these patients are unable to clear secretions from the nasal cavities, we strongly recommend against suctioning nasal secretions and instead suggest patients dab or wipe any nasal discharge. Use of enhanced PPE during all interactions with these patients should be considered until they are known to be COVID-19 negative.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 198,
+                    "text": "25",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Inpatient management"
+        },
+        {
+            "text": "For the COVID-19 negative laryngectomy patient admitted to the hospital, we recommend placing an HME with an integrated viral/bacterial hydroscopic filter over the stoma at all times, in addition to wearing a surgical mask over their stoma and face. 9,28 Patients should refrain from touching their stoma unnecessarily and should thoroughly wash their hands before and after performing any tracheostoma care. Stoma care may also be reduced to a daily event, if safe to do so, to reduce potential contamination of the peristomal skin. The laryngectomee must be cognizant of self-contamination while speaking using a TEP, and consider frequent hand sanitation (washing, hand sanitizer, gloved hands, etc.). A hands-free device can eliminate this concern.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Inpatient management"
+        },
+        {
+            "text": "2.4 | Best practices for the laryngectomy patient in the community Just as it is important for laryngectomy patients to take precautions while in the clinic and hospital setting, it is vital that they protect themselves and others in the community from COVID-19. Due to the increased aerosolization risk, the potential to become \"super spreaders\" necessitates that total laryngectomy patients always cover their stoma in public. As previously mentioned, the best protection against aerosolization and inhalation of viral particles in the community is to cover the stoma with an HME that includes a bacterial and/or viral filter. Many patients prefer to use laryngectomy tubes, but during this pandemic an HME attached to the stoma with a baseplate allows for a seal that will force all air through the HME, thus further minimizing aerosolization. If the patient is unable to obtain a good seal with the HME base plate, they can use laryngectomy tubes that accept HME filters. At this time, we strongly recommend disposal of HMEs after community exposure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Inpatient management"
+        },
+        {
+            "text": "In addition to wearing an HME at all times, we encourage patients to wear a surgical mask, 100% cotton turtleneck, or scarf over their stoma to prefilter inspired air, as these have been found to provide some measure of aerosol and particle filtration, albeit not to the same level as a dedicated filter as linked above. 21, 22 For patients in whom an HME is not an option, we still recommend the use of alternate coverings like a cotton turtleneck or scarf alone. 21, 22 This measure still affords for alternative methods of protection for laryngectomy patients regardless of socioeconomic status. An N95 respirator over the stoma would likely be of limited value as compared to those alternate options given the inability to create an appropriate seal around the stoma. Covering the mouth and nose are also important as these sites remain a potential vector of viral inoculation. The landscape surrounding COVID-19 is rapidly changing, and guidelines will continue to evolve, however, at this time general recommendations are for laryngectomy patients to wear a face mask in addition to an HME with viral filter and additional stomal covering with a surgical mask or other garment.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "21,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 325,
+                    "end": 327,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 465,
+                    "end": 468,
+                    "text": "21,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 469,
+                    "end": 471,
+                    "text": "22",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Inpatient management"
+        },
+        {
+            "text": "If a laryngectomy patient develops symptoms of COVID-19 they should seek testing, which should be both upper aerodigestive (nasopharynx) and lower respiratory (tracheal), and if positive patients should self-quarantine. All patients should continue to follow quarantine recommendations as issued by their home states and national governments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Inpatient management"
+        },
+        {
+            "text": "Total laryngectomy patients represent a unique challenge during the SARS-CoV-2 pandemic given their propensity for aerosolization of secretions, and concomitant respiratory comorbidities that put them at risk for higher mortality from COVID-19. At this time, it is critical to postpone all non-urgent patient interactions in the clinic setting and to develop new outpatient clinic workflow procedures to reduce aerosol particle transmission. In this patient cohort, when testing for SARS-CoV-2, it is important to include testing for the presence of the virus in tracheal aspirates as well as in the nasal passages. We recommend that until SARS-CoV-2 testing becomes more widely available, the same precautions used for COVID-19 positive patients should be implemented for laryngectomy patients with the use of enhanced PPE for all head and neck exams. Procedures such as TEP replacement, non-critical nasal endoscopy, or nasopharyngoscopy should be delayed when possible and patients should be counseled on appropriate temporizing measures that can be taken. If intervention is required, all efforts to lower clinical suspicion for COVID-19 infection should be taken with rapid testing, if available, and appropriate quarantine prior to any procedures. The use of HMEs and covers over the stoma can help limit exposure and transmission risk related to this patient population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Severe acute respiratory syndrome-related coronavirus: the species and its viruses -a statement of the Coronavirus Study Group",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BioRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:doi.org/10.1101/2020.02.07.937862"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Practical aspects of otolaryngologic clinical services during the 2019 novel coronavirus epidemic: an experience in Hong Kong",
+            "authors": [
+                {
+                    "first": "Jyk",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ewy",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Otolaryngol Head Neck Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaoto.2020.0488"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-CoV-2 viral load in upper respiratory specimens of infected patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "12",
+            "pages": "1177--1179",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2001737"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72 314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2648"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pulmonary function after total laryngectomy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hess",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schwenk",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Loddenkemper",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Laryngoscope",
+            "volume": "109",
+            "issn": "6",
+            "pages": "988--994",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00005537-199906000-00027"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Guidance for Surgical Tracheostomy and Tracheostomy Tube Change during the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Aerosol generating procedures and risk of transmission of acute respiratory infections to healthcare workers: a systematic review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cimon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Severn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pessoa-Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Conly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0035797"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Sinonasal disease in total laryngectomy patients",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pool",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dunklebarger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Schaefer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ann Otol Rhinol Laryngol",
+            "volume": "128",
+            "issn": "9",
+            "pages": "811--818",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0003489419839410"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "CDC. Sequence for Putting on Personal Protective Equipment (PPE)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Adult Elective Surgery and Procedures Recommendations: Limit All Non-essential Planned Surgeries and Procedures, Including Dental, Until Further Notice",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Siddiqui",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cms",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Guidance for Triage of Non-emergent Surgical Procedures",
+            "authors": [],
+            "year": 2020,
+            "venue": "ACOS",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Laboratory diagnosis of SARS",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerg Infect Dis",
+            "volume": "10",
+            "issn": "5",
+            "pages": "825--831",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1005.030682"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Safety recommendations for evaluation and surgery of the head and neck during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Givi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schiff",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chinn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Otolaryngol Head Neck Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaoto.2020.0780"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Effectiveness of N95 respirators versus surgical masks in protecting health care workers from acute respiratory infection: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Macdougall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Johnstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Copes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Garber",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Effectiveness of N95 respirators versus surgical masks against influenza: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Evid Based Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jebm.12381"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Infection control measures for operative procedures in severe acute respiratory syndrome-related patients",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Khoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Anesthesiology",
+            "volume": "100",
+            "issn": "6",
+            "pages": "1394--1398",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00000542-200406000-00010"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Elective and emergency surgery in patients with severe acute respiratory syndrome (SARS)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tien",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chughtai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jogeklar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Brenneman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Can J Surg",
+            "volume": "48",
+            "issn": "1",
+            "pages": "71--74",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Prioritizing Novel Approaches to Telehealth for All Practitioners",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hildrew",
+                    "suffix": ""
+                },
+                {
+                    "first": "A-",
+                    "middle": [],
+                    "last": "Committee",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ht",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Testing the efficacy of homemade masks: would they protect in an influenza pandemic? Disaster Med Public Health Prep",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Giri",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kafatos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "7",
+            "issn": "",
+            "pages": "413--418",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/dmp.2013.43"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Professional and homemade face masks reduce exposure to respiratory infections among the general population",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Der Sande",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Teunis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sabel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLoS One",
+            "volume": "3",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Aerosol and surface stability of SARS-CoV-2 as compared with SARS-CoV",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bushmaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Interim Infection Prevention and Control Recommendations for Patients with Suspected or Confirmed Coronavirus Disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cdc",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Anesthesiologists SC on KS of Recommendations for anesthesia in patients suspected of coronavirus 2019-nCoV infection",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Korean J Anesth",
+            "volume": "73",
+            "issn": "2",
+            "pages": "89--91",
+            "other_ids": {
+                "DOI": [
+                    "10.4097/kja.20110"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The missing tracheoesophageal puncture prosthesis: evaluation and management",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Leuin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Deschler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Ear Nose Throat J",
+            "volume": "92",
+            "issn": "2",
+            "pages": "14--16",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Correlation of chest CT and RT-PCR testing in coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200642"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Tracheotomy Recommendations During the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schiff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fritz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time. The Lancet Infectious Diseases",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hennessy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Bann",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Head & Neck",
+            "volume": "42",
+            "issn": "",
+            "pages": "1137--1143",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hed.26183"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Dislodged TEP-Same as standard postoperative instructions -Have patient place red rubber catheter or dilator in fistula if possible to preserve fistula and reduce aspiration risk TEP leak -Same as standard postoperative instructions -If leakage is from center of TEP, have patient place TEP plug to reduce aspiration risk -If leakage around prosthesis, consideration of diet modification and the use of thickening agents",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "ORCID Max Hennessy https://orcid.org/0000-0002-8253-385X Darrin V. Bann https://orcid.org/0000-0002-0246-4912 Vijay A. Patel https://orcid.org/0000-0002-8145-1721 Neerav Goyal https://orcid.org/0000-0001-7783-1097",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

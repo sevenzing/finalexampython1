@@ -1,0 +1,929 @@
+{
+    "paper_id": "ba3e4c94f36f902a52a1550415c25308ea80b68d",
+    "metadata": {
+        "title": "Early View The potential impact of COVID-19-related disruption on tuberculosis burden The potential impact of COVID-19-related disruption on tuberculosis burden",
+        "authors": [
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Finn Mcquaid",
+                "suffix": "",
+                "affiliation": {},
+                "email": "finn.mcquaid@lshtm.ac.uk"
+            },
+            {
+                "first": "Nicky",
+                "middle": [],
+                "last": "Mccreesh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jonathan",
+                "middle": [
+                    "M"
+                ],
+                "last": "Read",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lancaster University",
+                    "location": {
+                        "settlement": "Lancaster",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tom",
+                "middle": [],
+                "last": "Sumner",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rein",
+                "middle": [
+                    "M G J"
+                ],
+                "last": "Houben",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "G"
+                ],
+                "last": "White",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [
+                    "C"
+                ],
+                "last": "Harris",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cmmid",
+                "middle": [],
+                "last": "Covid-19",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Working",
+                "middle": [],
+                "last": "Group",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Take-home message: Any benefit of social distancing on TB deaths is likely to be outweighed b y health service disruption. As such, it is crucially important to maintain and strengthen TB-related health services during, and after, the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Before the COVID-19 pandemic, over 4000 people were dying from tuberculosis (TB) every day.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "[1] As with past emergencies [2] , the impact of COVID-19 on TB outcomes is a serious cause for concern[3] but is currently unknown. Health systems overload, due to high numbers of COVID-19 cases, as well as interventions necessary to limit the transmission of SARS-CoV-2, could result in severe reductions in health service availability and access for the detection and treatment of TB cases.",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 32,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "[4] However, physical distancing interventions could also limit Mycobacterium tuberculosis transmission outside of households, where most transmission occurs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "[5] This has not been adequately explored in existing work, [6] [7] [8] and it is currently unclear whether social distancing could compensate for disruptions in TB services, and what the impact of these combined COVID-19 disruption effects on TB burden is likely to be.",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 63,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 64,
+                    "end": 67,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 68,
+                    "end": 71,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We used a mathematical model of TB with an age-specific contact matrix calibrated to data from China, India and South Africa,[9] key high TB burden countries accounting for approximately 40% of global TB cases,[1] to estimate the relative impact of reductions in social contacts and health services due to COVID-19 on TB burden. We considered three scenarios for reductions in different forms of social contact, reweighting contact rates between age groups to reflect large reductions in the number of contacts per day occurring in schools (0%, 50%, and 100% in the low, medium, and high scenarios respectively), transport (30%, 60%, 80%) and leisure settings (50%, 70%, 80%), and smaller reductions in contacts occurring in workplaces (20%, 30%, 50%), which are within the range of already observed reductions. [10, 11] We assumed that mean numbers of contacts occurring within home settings did not change, although we did not model households explicitly. We also considered three scenarios for TB health service disruption, which could be a result of a number of factors such as decreases in diagnostic activities and clinic visits, delays in diagnosis and treatment initiation, and reduced treatment support. These were modelled as reductions in the proportion of incident TB cases detected and detected cases successfully treated: a 20%, 50% or 80% relative reduction in both simultaneously. Although our scenarios are in line with initial evidence on reductions in tested and notified cases [12,13], we examined a wide range of disruptions here as the scale of these is, as yet, largely unknown.. Both reductions in social contact and in health service parameters were implemented from early 2020, and were assumed to last for six months. We estimated the cumulative change in TB incidence and deaths over 5 years for each combination of these scenarios compared to a baseline with no change.",
+            "cite_spans": [
+                {
+                    "start": 812,
+                    "end": 816,
+                    "text": "[10,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 817,
+                    "end": 820,
+                    "text": "11]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results suggest that any potential 'benefit' of social distancing on TB burden is likely to be larger for TB disease incidence, than for TB deaths (Fig1 a-c vs d-f ). Such that in some scenarios where health services are less affected, lower numbers of TB cases may occur over this period. However, this is not considered the most plausible scenario based on current anecdotal information in most low and middle income settings. In addition, this potential reduction in the impact on TB burden tends not to be true for TB deaths, which show a net increase in deaths in all scenarios with some level of health service disruption. In scenarios with substantial health service disruption, we project an increase in both TB cases and deaths, regardless of the level of social distancing.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 147,
+                    "end": 163,
+                    "text": "(Fig1 a-c vs d-f",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "In our worst case scenario, where COVID-19 interventions to reduce social contacts are minimal, but TB health services are badly affected, results suggest an increase in TB deaths of 23,516 (range 18) additional TB deaths in these three countries alone. This would be an increase of 8-14% in cumulative TB deaths for that period. However, if these countries are able to minimise the impact on TB health service delivery, major reductions in social contacts could keep the number of additional TB deaths comparatively low.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "These impacts on TB burden are likely to be felt globally, particularly for TB mortality in the short term. However, our results suggest that the setting-specific nature of the TB epidemic and differences in changing social contacts and service delivery could create highly he terogeneous changes to long-term TB incidence. For example, higher proportions of TB resulting from reactivation in China[14] suggest that reductions in social contacts may have less influence on incidence than elsewhere. Further important factors for consideration include that health service declines are likely to have a greater impact on patients with drug-resistant TB (which we do not consider here). Indeed, a more detailed analysis of health service availability than our simplified consideration of case detection and treatment success, while not yet possible due to the lack of data, is necessary to understand and mitigate for these changes. Our model is also limited in its consideration of each country as a whole, when disruptions are likely to be geographically heterogeneous and specific to local measures. Meanwhile external factors such as increases in poverty and reductions in access to antiretroviral therapy in settings with a high HIV prevalence could also increase rates of progression to TB disease. In addition, we estimate the impact of a six month disruption, but given subsequent pandemic waves are anticipated, [15] and are likely to require further mitigation measures, estimates presented here could be considered conservative. Finally, the as-yet-unknown potential for an increase in risk of severe COVID-19 in patients with active or previous TB, as well as an increase in risk of exposure to SARS-CoV-2, could have major implications for TB burden. [16, 17] It is, however, imperative that continued access to TB diagnosis and care is ensured, together with the collection and regular reporting of TB indicators, to allow the impact on TB to be both measured and mitigated. Research, guidance and funding are urgently required to identify, prioritize and deliver those intervention that could best alleviate the impact of COVID-19-related disruptions. These will differ by timescale. Interventions necessary to prioritize during disruptions, such as digital adherence technologies to support patient treatment remotely, will be different to those to prioritize afterwards, such as active case finding activities focused on the household, where social contacts and transmission may have been concentrated. It is vital that decision-makers and funders recognise the importance of this issue and act to ensure that innovative approaches to peoplecentered TB care are rapidly scaled up, so that the fight to end one pandemic does not worsen another.",
+            "cite_spans": [
+                {
+                    "start": 1418,
+                    "end": 1422,
+                    "text": "[15]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1761,
+                    "end": 1765,
+                    "text": "[16,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1766,
+                    "end": 1769,
+                    "text": "17]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Acknowledgements",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Before the COVID-19 pandemic, over 4000 people were dying from tuberculosis (TB) every day. [1] As with past emergencies [2] , the impact of COVID-19 on TB outcomes is a serious cause for concern [3] but is currently unknown. Health systems overload, due to high numbers of COVID-19 cases, as well as interventions necessary to limit the transmission of SARS-CoV-2, could result in severe reductions in health service availability and access for the detection and treatment of TB cases. [4] However, physical distancing interventions could also limit Mycobacterium tuberculosis transmission outside of households, where most transmission occurs. [5] This has not been adequately explored in existing work, [6] [7] [8] and it is currently unclear whether social distancing could compensate for disruptions in TB services, and what the impact of these combined COVID-19 disruption effects on TB burden is likely to be.",
+            "cite_spans": [
+                {
+                    "start": 92,
+                    "end": 95,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 121,
+                    "end": 124,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 487,
+                    "end": 490,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 646,
+                    "end": 649,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 706,
+                    "end": 709,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 710,
+                    "end": 713,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 714,
+                    "end": 717,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We used a mathematical model of TB with an age-specific contact matrix calibrated to data from China, India and South Africa, [9] key high TB burden countries accounting for approximately 40% of global TB cases, [1] to estimate the relative impact of reductions in social contacts and health services due to COVID-19 on TB burden. We considered three scenarios for reductions in different forms of social contact, reweighting contact rates between age groups to reflect large reductions in the number of contacts per day occurring in schools (0%, 50%, and 100% in the low, medium, and high scenarios respectively), transport (30%, 60%, 80%) and leisure settings (50%, 70%, 80%), and smaller reductions in contacts occurring in workplaces (20%, 30%, 50%), which are within the range of already observed reductions. [10, 11] We assumed that mean numbers of contacts occurring within home settings did not change, although we did not model households explicitly. We also considered three scenarios for TB health service disruption, which could be a result of a number of factors such as decreases in diagnostic activities and clinic visits, delays in diagnosis and treatment initiation, and reduced treatment support. These were modelled as reductions in the proportion of incident TB cases detected and detected cases successfully treated: a 20%, 50% or 80% relative reduction in both simultaneously. Although our scenarios are in line with initial evidence on reductions in tested and notified cases [12, 13] , we examined a wide range of disruptions here as the scale of these is, as yet, largely unknown.. Both reductions in social contact and in health service parameters were implemented from early 2020, and were assumed to last for six months. We estimated the cumulative change in TB incidence and deaths over 5 years for each combination of these scenarios compared to a baseline with no change.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 129,
+                    "text": "[9]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 212,
+                    "end": 215,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 814,
+                    "end": 818,
+                    "text": "[10,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 819,
+                    "end": 822,
+                    "text": "11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1499,
+                    "end": 1503,
+                    "text": "[12,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1504,
+                    "end": 1507,
+                    "text": "13]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Results suggest that any potential 'benefit' of social distancing on TB burden is likely to be larger for TB disease incidence, than for TB deaths (Fig1 a-c vs d-f). Such that in some scenarios where health services are less affected, lower numbers of TB cases may occur over this period. However, this is not considered the most plausible scenario based on current anecdotal information in most low and middle income settings. In addition, this potential reduction in the impact on TB burden tends not to be true for TB deaths, which show a net increase in deaths in all scenarios with some level of health service disruption. In scenarios with substantial health service disruption, we project an increase in both TB cases and deaths, regardless of the level of social distancing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In our worst case scenario, where COVID-19 interventions to reduce social contacts are minimal, but TB health services are badly affected, results suggest an increase in TB deaths of 23,516 (range 18,560-27,940), 149,448 (85,000-233,602) and 28,631 (19,963-40,011) in China, India and South Africa, respectively between 2020-2024, totalling 201,595 (123,523-301,553) additional TB deaths in these three countries alone. This would be an increase of 8-14% in cumulative TB deaths for that period. However, if these countries are able to minimise the impact on TB health service delivery, major reductions in social contacts could keep the number of additional TB deaths comparatively low.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "These impacts on TB burden are likely to be felt globally, particularly for TB mortality in the short term. However, our results suggest that the setting-specific nature of the TB epidemic and differences in changing social contacts and service delivery could create highly he terogeneous changes to long-term TB incidence. For example, higher proportions of TB resulting from reactivation in China [14] suggest that reductions in social contacts may have less influence on incidence than elsewhere. Further important factors for consideration include that health service declines are likely to have a greater impact on patients with drug-resistant TB (which we do not consider here). Indeed, a more detailed analysis of health service availability than our simplified consideration of case detection and treatment success, while not yet possible due to the lack of data, is necessary to understand and mitigate for these changes. Our model is also limited in its consideration of each country as a whole, when disruptions are likely to be geographically heterogeneous and specific to local measures. Meanwhile external factors such as increases in poverty and reductions in access to antiretroviral therapy in settings with a high HIV prevalence could also increase rates of progression to TB disease. In addition, we estimate the impact of a six month disruption, but given subsequent pandemic waves are anticipated, [15] and are likely to require further mitigation measures, estimates presented here could be considered conservative. Finally, the as-yet-unknown potential for an increase in risk of severe COVID-19 in patients with active or previous TB, as well as an increase in risk of exposure to SARS-CoV-2, could have major implications for TB burden. [16, 17] It is, however, imperative that continued access to TB diagnosis and care is ensured, together with the collection and regular reporting of TB indicators, to allow the impact on TB to be both measured and mitigated. Research, guidance and funding are urgently required to identify, prioritize and deliver those intervention that could best alleviate the impact of COVID-19-related disruptions. These will differ by timescale. Interventions necessary to prioritize during disruptions, such as digital adherence technologies to support patient treatment remotely, will be different to those to prioritize afterwards, such as active case finding activities focused on the household, where social contacts and transmission may have been concentrated. It is vital that decision-makers and funders recognise the importance of this issue and act to ensure that innovative approaches to peoplecentered TB care are rapidly scaled up, so that the fight to end one pandemic does not worsen another.",
+            "cite_spans": [
+                {
+                    "start": 399,
+                    "end": 403,
+                    "text": "[14]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1419,
+                    "end": 1423,
+                    "text": "[15]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1762,
+                    "end": 1766,
+                    "text": "[16,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1767,
+                    "end": 1770,
+                    "text": "17]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Effects of Response to 2014-2015 Ebola Outbreak on Deaths from Malaria, HIV/AIDS, and Tuberculosis, West Africa",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Alyssa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ln-M",
+                    "middle": [],
+                    "last": "Martial",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Natasha",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alison",
+                    "middle": [],
+                    "last": "Pg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Emerg Infect Dis J",
+            "volume": "22",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Tackling two pandemics: a plea on World Tuberculosis Day",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wingfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Cuevas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Macpherson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Millington",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Squire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Respir Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Impact of COVID-19 on tuberculosis control in China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Tuberc Lung Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Whole Genome Sequencing Shows a Low Proportion of Tuberculosis Disease Is Attributable to Known Close Contacts in Rural Malawi",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Glynn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Guerra-Assun\u00e7\u00e3o",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rmgj",
+                    "middle": [],
+                    "last": "Houben",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sichali",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mzembe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mwaungulu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PloS One",
+            "volume": "10",
+            "issn": "7",
+            "pages": "132840--0132840",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Report 19 -The Potential Impact of the COVID-19 Epidemic on HIV, TB and Malaria in Low-and Middle-Income Countries",
+            "authors": [
+                {
+                    "first": "Alexandra",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Britta",
+                    "middle": [],
+                    "last": "Jewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ellie",
+                    "middle": [],
+                    "last": "Sherrard-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "Juan",
+                    "middle": [],
+                    "last": "Vesga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Oliver",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charles",
+                    "middle": [],
+                    "last": "Whittaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Predicted impact of the COVID-19 pandemic on global tuberculosis deaths in 2020. medRxiv",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Glaziou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The potential impact of the COVID-19 response on tuberculosis in high-burden countries: a modelling analysis",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Potential impact of new tuberculosis vaccines in China, South Africa and India and implications for vaccine development",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sumner",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Age profile of susceptibility, mixing, and social distancing shape the dynamics of the novel coronavirus disease 2019 outbreak in China. medRxiv",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Google COVID-19 Community Mobility Reports",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Impact of COVID-19 intervention on TB testing in South Africa. National Institute for Communicable Diseases",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ismail",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Moultrie",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The TB response is heavily impacted by the COVID-19 pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Age -targeted tuberculosis vaccination in China and implications for vaccine development: a modelling study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sumner",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knight",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Cardenas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Lancet Glob Health",
+            "volume": "7",
+            "issn": "2",
+            "pages": "209--227",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The Global Impact of COVID-19 and Strategies for Mitigation and Suppression",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Patrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "Charles",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "Oliver",
+                    "middle": [],
+                    "last": "Whittaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marc",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kylie",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sangeeta",
+                    "middle": [],
+                    "last": "Ainslie",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bhatia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Report",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Active tuberculosis, sequelae and COVID-19 co-infection: first cohort of 49 cases",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tadolini",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Eur Resp J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Tuberculosis, COVID-19 and migrants: preliminary analysis of deaths occurring in 69 patients from two cohorts",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Motta",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Pulmonology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

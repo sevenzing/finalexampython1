@@ -1,0 +1,4171 @@
+{
+    "paper_id": "5973e4619ce5cabee55cf40c89a9db018d2a45ab",
+    "metadata": {
+        "title": "From threat to cure: understanding of virus-induced cell death leads to highly immunogenic oncolytic influenza viruses",
+        "authors": [
+            {
+                "first": "Julijan",
+                "middle": [],
+                "last": "Kabiljo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Johannes",
+                "middle": [],
+                "last": "Laengle",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Bergmann",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Oncolytic viruses constitute an emerging strategy in immunomodulatory cancer treatment. The first oncolytic virus, Talimogene laherparepvec (T-VEC), based on herpes simplex virus 1 (HSV-1), was approved by the Food and Drug Administration (FDA) and European Medicines Agency (EMA) in 2015. The field of oncolytic virotherapy is still in its beginnings, since many promising viruses remain only superficially explored. Influenza A virus causes a highly immunogenic acute infection but never leads to a chronic disease. While oncolytic influenza A viruses are in preclinical development, they have not made the transition into clinical practice yet. Recent insights into different types of cell death caused by influenza A virus infection illuminate novel possibilities of enhancing its therapeutic effect. Genetic engineering and experience in influenza A virus vaccine development allow safe application of the virus in patients. In this review we give a summary of efforts undertaken to develop oncolytic influenza A viruses. We discuss strategies for targeting viral replication to cancerous lesions and arming them with immunogenic transgenes. We furthermore describe which modes of cell death are induced by influenza A virus infection and how these insights may be utilized to optimize influenza A virus-based oncolytic virus design.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Facts",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 Combination with other therapeutic modalities should be explored. \u2022 Oncolytic effects on clinical outcome needs to be proven in prospective randomized clinical trials. :,; 1234567890():,; 1234567890():,; Official journal of the Cell Death Differentiation Association Conflict of interest M.B. is a cofounder of Vacthera, a company seeking to develop oncolytic influenza viruses. M.B. and J.L. received an investigator-sponsored research grant from Bristol-Myers-Squibb in the field of tumor immunology. M.B. received consultant fees from Bristol-Myers-Squibb.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "\u2022 Influenza A virus can be targeted to tumors and armed with cytokines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Growth optimized influenza A virus for a phase I application can be generated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Oncolytic influenza A virus prototypes have been tested in humans as vaccine candidates and proven to be safe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\u2022 Optimal viral subtypes as well, as the impact of preexisting anti-viral immunity may still be determined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open questions"
+        },
+        {
+            "text": "The observation of viral infections leading to the reduction of cancerous tumors was reported throughout the 20th century 1,2 . The first report of a complete tumor remission in the context of an influenza A infection dates back to 1904 3 . Preclinical models solidified the assertion of oncolytic effects of influenza A viruses 4, 5 . However, the lack of understanding of virus biology made a safe and effective development of oncolytic A viruses impossible at that time. In the last decades advancements in molecular virology and viral engineering led to the clinical development of a variety of oncolytic viruses, including herpes simplex virus (HSV) 6 , reovirus 7 , vaccinia virus (VV) 8 , vesicular stomatitis virus (VSV) 9 , adenovirus 10 , newcastle disease virus (NDV) 11 , measles virus (MeV) 12 and picornaviridae 13 . This renewed interest in oncolytic viruses resulted in the Food and Drug Administration (FDA) and European Medicines Agency (EMA) approval of the first oncolytic virus, Talimogene laherparepvec (T-VEC), in 2015 6 . T-VEC is an HSV, which is modified to grow selectively in tumor cells and express the immunostimulatory transgene granulocyte-macrophage colony-stimulating factor (GM-CSF). The development of oncolytic viruses was based on conditional replication of prototype viruses in malignant tissue, while being attenuated in normal tissue 14 . The lytic effect of the virus was initially thought to be the main principle of their anti-cancer activity. Later it turned out that the therapeutic effect was mainly promoted by a pro-inflammatory stimulation of the tumor immune microenvironment (TIME) counteracting tumor-associated immunosuppression. Thus, the concept of virotherapy largely overlapped with the rational principles of immune checkpoint inhibiting antibodies [15] [16] [17] [18] [19] [20] [21] [22] . Importantly, the combination of oncolytic viruses with checkpoint inhibitors appears to be highly beneficial in a number of preclinical models [23] [24] [25] . In this line, a seminal paper by Zamarin et al. indicated , that an oncolytic NDV sensitized an immunologically \"cold\" murine tumor to systemic checkpoint inhibitors, which increased the rate of tumor remission 23 . Similarly, combining T-VEC with immune checkpoint inhibitors was associated with complete remission in 22% of stage IIIB/IV melanoma patients in a small phase I study strongly supporting this concept 26 . Those observations prompted a high level of interest in the field of virotherapy.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 238,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 329,
+                    "end": 331,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 332,
+                    "end": 333,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 655,
+                    "end": 656,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 668,
+                    "end": 669,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 692,
+                    "end": 693,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 729,
+                    "end": 730,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 779,
+                    "end": 781,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 804,
+                    "end": 806,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 826,
+                    "end": 828,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1042,
+                    "end": 1043,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1375,
+                    "end": 1377,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1808,
+                    "end": 1812,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1813,
+                    "end": 1817,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1818,
+                    "end": 1822,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1823,
+                    "end": 1827,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1828,
+                    "end": 1832,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1833,
+                    "end": 1837,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1838,
+                    "end": 1842,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1843,
+                    "end": 1847,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1993,
+                    "end": 1997,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1998,
+                    "end": 2002,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2003,
+                    "end": 2007,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 2043,
+                    "end": 2067,
+                    "text": "Zamarin et al. indicated",
+                    "ref_id": null
+                },
+                {
+                    "start": 2221,
+                    "end": 2223,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 2426,
+                    "end": 2428,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "With respect to oncolytic influenza A viruses, only preclinical studies have been accomplished yet, in spite of the fact, that this virus family is well studied and known to be highly immunogenic. In this review we summarize major milestones in the development of oncolytic influenza A viruses. We delineate in which manner targeted replication in cancer cells was achieved. Furthermore, we discuss strategies to arm influenza A viruses with immuno-stimulatory transgenes. Finally, we discuss which types of cell death influenza A virus-infected cancer cells succumb to and their implications for future design of oncolytic A viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There are several hallmarks viral candidates should possess in order to be considered for development into oncolytic agents: their genetics and biology should be well known and targeting to cancerous tissue needs to be feasible. They should be highly immunogenic and exert lytic activity leading to an immunogenic cell death (ICD) of malignant cells, while sparing normal tissue 27 . They should not lead to a chronic disease or retain capability of integrating into the human genome. Moreover, the use of the viruses as an oncolytic agent must be safe, in terms of excluding the possibility of the induction a pathogenic virus, which causes a disease the human population. It should also be feasible to genetically modify the virus and arm it with recombinant transgenes to enhance its immunogenicity or stimulate targeted anti-cancer mechanisms.",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 381,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Utilizing an influenza A virus as an oncolytic agent has several advantages. The influenza virus is a small virus of the Orthomyxoviridae family, commonly known for causing the flu 28 . It comprises 4 genera, influenza A, B, C, and D viruses, type A being the most extensively studied one 28, 29 . While the influenza virus can induce strong immunogenic reactions and intense pathology in humans, it never leads to chronic disease and attenuated forms have been described 30, 31 . Influenza virus is an enveloped, negative-strand RNA virus with no reverse transcriptase or DNA integration activity 28 . These factors predispose it as an ideal vector for oncolytic therapy. Oncolytic virus development focused on influenza A virus. This virus subtype contains 8 separate RNA fragments, kept in cyclical conformation within the 80-120 nm large virion 28 . These segments encode 11 viral proteins necessary for viral structure and replication ( Fig. 1) , as well as the nonstructural protein 1 (NS1) 28 , which antagonizes the anti-viral reaction of the host 32 . The extensive knowledge and infrastructure that has previously been established for the production of seasonal influenza vaccinations reduces the amount of novel biotechnological engineering and regulatory issues, which are necessary for clinical development of the virus in the field of oncology 33 . ",
+            "cite_spans": [
+                {
+                    "start": 289,
+                    "end": 292,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 293,
+                    "end": 295,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 472,
+                    "end": 475,
+                    "text": "30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 476,
+                    "end": 478,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 598,
+                    "end": 600,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 849,
+                    "end": 851,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 997,
+                    "end": 999,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1358,
+                    "end": 1360,
+                    "text": "33",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 942,
+                    "end": 949,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "The rational development of a conditionally replicating phenotype of a virus in tumor tissue requires the understanding of virus-host interactions, particularly how viruses lyse infected cells and how cells protect themselves from the lytic infection. Influenza A viruses have been shown to induce multiple distinct modes of cell death 34 .",
+            "cite_spans": [
+                {
+                    "start": 336,
+                    "end": 338,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The interplay of influenza virus and cell death"
+        },
+        {
+            "text": "In the early phase of infection, the virally encoded protein NS1 inhibits apoptosis 35, 36 , suggesting that apoptosis plays a role in anti-viral defense 37, 38 . In the absence of NS1 apoptosis appears to be induced through the viral-RNA-mediated induction of retinoic acidinducible gene I (RIG-I) and interferon (IFN) signaling including protein kinase R (PKR) and eukaryotic initiation factor 2 alpha (eIF2\u03b1) activation and subsequent block of translation [39] [40] [41] . NS1 has also been shown to inhibit apoptosis though interaction with the pro-apoptotic scribbled planar cell polarity protein (scribble) 42 .",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 87,
+                    "text": "35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 88,
+                    "end": 90,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "37,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 158,
+                    "end": 160,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 459,
+                    "end": 463,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 464,
+                    "end": 468,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 469,
+                    "end": 473,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 613,
+                    "end": 615,
+                    "text": "42",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The interplay of influenza virus and cell death"
+        },
+        {
+            "text": "However, influenza A viruses have a two-sided relationship to apoptosis 37 . There is evidence, that growth of influenza viruses is dependent on apoptosis 43 . Specifically, caspase 3 appears important for viral replication 44 . In this line, the influenza A virus can actively induce apoptosis. Apoptotic signaling may be initiated intrinsically through the viral protein PB1-F2 45 . A further major inducer of apoptosis during influenza A virus infections is the viral nucleoprotein (NP), interacting with the host's Bcl-2associated X protein (Bax) inhibitor clusterin, leading to Bax induced apoptosis 46 . Extrinsic induction of cell death, which inhibits viral replication at a late stage of viral life cycles, has been reported to occur through the release of tumor necrosis factor (TNF) receptor ligands, depending on nuclear factor kappa-light-chain-enhancer of activated B-cells (NF-\u03baB) activation 47 . This process is counterbalanced by NF-\u03baB inactivation through NS1 48 . The viral surface glycoprotein neuraminidase (NA) can also be involved in induction of cell death, as it enhances apoptosis through activation of transforming growth factor beta (TGF-\u03b2) 49 .",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 74,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 155,
+                    "end": 157,
+                    "text": "43",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 224,
+                    "end": 226,
+                    "text": "44",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 380,
+                    "end": 382,
+                    "text": "45",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 605,
+                    "end": 607,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 907,
+                    "end": 909,
+                    "text": "47",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 978,
+                    "end": 980,
+                    "text": "48",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1169,
+                    "end": 1171,
+                    "text": "49",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The interplay of influenza virus and cell death"
+        },
+        {
+            "text": "There are multiple theories, why influenza A virus may actively induce apoptosis. Overall, there seems to be a fine, time-dependent balance of pro-and anti-apoptotic stimuli, which are tightly controlled by the virus. Upon overexpression of anti-apoptotic molecules influenza A virus titers are reduced due to viral RNA-protein complexes being retained in the nucleus 43, 50 . Interestingly, caspase activation has been shown to enable diffusion of nuclear proteins into the cytoplasm 51 . This suggests that inhibition of both apoptosis and innate anti-viral responses through NS1 is necessary for viral propagation, especially in the initial phases of infection. In the late phase, activated caspases are needed to release viral RNA from the nucleus (Fig. 2 ). This theory is further reinforced by the observation, that the anti-mycotic amphotericin B enhances influenza virus growth 52 . Amphotericin B stabilizes pores within cellular membranes. This mechanism has been shown to aid RNA particles in passing through different cellular compartments 53 and might also enable viral RNA release from the nucleus.",
+            "cite_spans": [
+                {
+                    "start": 368,
+                    "end": 371,
+                    "text": "43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 372,
+                    "end": 374,
+                    "text": "50",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 485,
+                    "end": 487,
+                    "text": "51",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 886,
+                    "end": 888,
+                    "text": "52",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1052,
+                    "end": 1054,
+                    "text": "53",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 752,
+                    "end": 759,
+                    "text": "(Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "The interplay of influenza virus and cell death"
+        },
+        {
+            "text": "Influenza viral matrix-protein 2 (M2) and NS1 have been shown to induce autophagy 54 . This process leads to active transport of the danger associated molecular pattern (DAMP) adenosine triphosphate (ATP) out of the cell, resulting in immunogenic reactions 55, 56 .",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 84,
+                    "text": "54",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 257,
+                    "end": 260,
+                    "text": "55,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 261,
+                    "end": 263,
+                    "text": "56",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The interplay of influenza virus and cell death"
+        },
+        {
+            "text": "In conclusion, influenza A virus induces an apoptotic cell death through a number of pathways. It should be taken into account, that virally encoded danger molecules convert the apoptotic cell death into an ICD, leading to the stimulation of cytokines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The interplay of influenza virus and cell death"
+        },
+        {
+            "text": "In order to create a virus that initiates potent anticancer-immune responses without causing an infectious disease, it is necessary to target them to cancer cells. Mammalian cells react to viral infections by secreting type I IFN. Most viruses develop strategies to circumvent these immunogenic effects. It was shown, that the influenza A virus lacking NS1 (delNS1) generated by Egorov et al. 32 was unable to replicate in mice with a functioning IFN signaling pathway 57 . However, it retained lethality in signal transducer and activator of transcription 1 (STAT1) knockout mice, which are unable to react to IFN 57 . Since many cancers downregulate components of the IFN signaling pathway [58] [59] [60] , attenuation of the NS1 protein appeared to be an attractive strategy for targeting growth of influenza A viruses to malignant tissue. We were able to show that deletions of various lengths within the NS1 gene of an influenza A/Puerto Rico/8/34 (PR8) based H1N1 virus yielded potent anti-cancer effects in IFN resistant human melanoma (SK-MEL1) xenografts 61 .",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 395,
+                    "text": "32",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 692,
+                    "end": 696,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 697,
+                    "end": 701,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "[60]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1064,
+                    "end": 1066,
+                    "text": "61",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "Another mechanism through which NS1 counteracts cellular responses to influenza A virus infection is the inhibition of the double-stranded RNA sensor PKR 36, 62, 63 . We demonstrated that NS1 deleted influenza A virus was lethal to PKR knockout mice but was not lethal in wildtype mice 36 . Oncogenic rat sarcoma (RAS) gene mutation, present in approximately a third of all cancer subtypes, results in PKR inhibition 64 . We showed that NS1 deletion targets a PR8 influenza virus towards RAS mutated tumors in a PKR dependent manner, using mouse xenografts of human 518 melanoma cells, transfected with oncogenic RAS 65 .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 157,
+                    "text": "36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 158,
+                    "end": 161,
+                    "text": "62,",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 162,
+                    "end": 164,
+                    "text": "63",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 286,
+                    "end": 288,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 417,
+                    "end": 419,
+                    "text": "64",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 617,
+                    "end": 619,
+                    "text": "65",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "There are also developments of oncolytic influenza A viruses, which are based on attenuation markers other than the NS1 deletion. One preclinical study in murine non-small cell lung cancer (NSCLC) xenografts showed efficacy and safety of wild-type NS1, laboratory adapted, PR8 H1N1 virus 66 . Another study screened a variety of wild-type influenza A viruses for their infectivity in pancreatic carcinoma cell lines and showed oncolytic effectiveness in a mouse model of human pancreatic cancer 67 . Similarly, the seasonal flu vaccination has recently been assessed for sensitizing murine B16 melanoma models to immune check point inhibitor therapy, which showed promising results 24 .",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 290,
+                    "text": "66",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 495,
+                    "end": 497,
+                    "text": "67",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "NS1-deleted (delNS1) viruses are potent stimulators of the immune system",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "Apart from the conditionally replicating phenotype in malignant cells influenza A viruses with NS1 deletions are associated with a more potent stimulation of the innate immune system than wild-type viruses. This is due to the fact that the attenuation is linked to deletions in the viral inhibitor of the innate immune system. The inhibitory effect of NS1 on the immune system is based on its polyfunctional nature (Fig. 3a) . With respect to cellular innate immune mediators, NS1 was shown to inhibit interferon regulatory factor 3 (IRF3) and NF-\u03baB 48, 68 . Since NS1 deleted influenza A viruses are capable of inducing strong PKR pathway upregulation, it seems plausible that known downstream signaling might lead to calreticulin (CALR) exposure on the cell membrane 69 . Here CALR acts as a DAMP, causing enhanced immunogenicity of apoptotic bodies after influenza A virus infection in PKR sensitive cancers 70 .",
+            "cite_spans": [
+                {
+                    "start": 550,
+                    "end": 553,
+                    "text": "48,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 554,
+                    "end": 556,
+                    "text": "68",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 769,
+                    "end": 771,
+                    "text": "69",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 911,
+                    "end": 913,
+                    "text": "70",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 415,
+                    "end": 424,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "A transcriptional profiling confirmed that a delNS1 virus infection caused a much more potent induction of an immuno-stimulatory gene pattern compared with wild-type virus 71 . Correspondingly, infection of macrophages with the delNS1 virus is not only associated with an ICD, but also with a more potent stimulation of innate cytokines as compared with wild-type viruses 72 . The removal of C-terminal domains of NS1 provoked release of type I IFN, interleukin 6 (IL-6), tumor necrosis factor \u03b1 (TNF-\u03b1), and chemokine (C-C motif) ligand 3 (CCL3) 72 . Removal of N-terminal domains induced release of interleukin 1\u03b2 (IL-1\u03b2) and interleukin 18 (IL-18) 72 .",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 174,
+                    "text": "71",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 372,
+                    "end": 374,
+                    "text": "72",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 547,
+                    "end": 549,
+                    "text": "72",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 651,
+                    "end": 653,
+                    "text": "72",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "Importantly, whereas partial truncation of NS1 increased upregulation of pro-inflammatory genes, the full NS1 deletion leads to further increased expression 71 . The length of the NS1 deletion correlated with the potency of its immune stimulation and the level of its attenuation 31, 32 . Full NS1 deletion results in viruses characterized by an abortive infection. Thus, the level of pro-inflammatory immune stimulation and the level of attenuation can be titrated by the length of the deletion. Correspondingly, we observed that partial NS1 deletion to 80 or 116 remaining amino acids (AA; removing the effector domain, but leaving the RNA binding domain and one nuclear locating sequence) induced an optimal balance between attenuation and the oncolytic effect 61,73,74 . This truncation should reduce PKR pathway inhibition while retaining inhibition of immunogenic signaling through the RIG-I pathway 62, 63, 75 (Fig. 3a) . Both PKR and RIG-I have been implicated in type I IFN production 76, 77 . They both recognize the short double-stranded RNA \"panhandle\", which holds the single stranded RNA segments of the influenza A virus genome in a circular conformation [78] [79] [80] [81] .",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 159,
+                    "text": "71",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 284,
+                    "end": 286,
+                    "text": "32",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 906,
+                    "end": 909,
+                    "text": "62,",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 910,
+                    "end": 913,
+                    "text": "63,",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 914,
+                    "end": 916,
+                    "text": "75",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 994,
+                    "end": 997,
+                    "text": "76,",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 998,
+                    "end": 1000,
+                    "text": "77",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1170,
+                    "end": 1174,
+                    "text": "[78]",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 1175,
+                    "end": 1179,
+                    "text": "[79]",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 1180,
+                    "end": 1184,
+                    "text": "[80]",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 1185,
+                    "end": 1189,
+                    "text": "[81]",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 917,
+                    "end": 926,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "The immunogenic character of the delNS1 virus had also been explored in the context of potential vaccination agents. In a preclinical study the use of complete or partial NS1 deleted H1N1, H3N2, and H5N1 subtypes as vaccines induced potent T cell and B cell responses, protecting mice and ferrets against influenza A virus challenge 31, 82 . Importantly, the virus did not cause any disease in mice or the primate Macaca mulatta when applied intranasally, corresponding to systemic application 82 . In a phase I clinical trial we evaluated a NS1deleted H1N1 virus as an intranasal vaccination vector 83 . Another clinical trial conducted a similar study using the H5N1 virus 84 . These vaccine studies are relevant for the development of NS1-deletion viruses as oncolytic agents since they indicated that NS1-deletion viruses are safe in humans and are able to stimulate a potent adaptive immune response at the same time.",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 336,
+                    "text": "31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 337,
+                    "end": 339,
+                    "text": "82",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 494,
+                    "end": 496,
+                    "text": "82",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 600,
+                    "end": 602,
+                    "text": "83",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 675,
+                    "end": 677,
+                    "text": "84",
+                    "ref_id": "BIBREF83"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "Certainly, the major requirement of oncolytic viruses is the stimulation of an adaptive T cell response against tumor-associated antigens (TAA). In this line, we and others have demonstrated, that NS1-deletion viruses can be employed to stimulate dendritic cells (DC) to mount a T cell response against malignant cells via cross presentation 85, 86 . Stimulation of T cells can either be induced by DCs exposed to delNS1 virus generated virolysates or by exposing DCs infected with delNS1 viruses to tumor cell lysates. Again, partial NS1-deletion viruses were more effective than full deletion of the NS1 protein. Those ex vivo assays might somewhat model the in vivo tumor microenvironment during oncolytic therapy. Exposure of immune cells to oncolytic NS1 deletion viruses was also shown to induce direct IFN dependent cytotoxic effects of peripheral blood mononuclear cells (PMBCs), including T cells, B cells, monocytes and natural killer (NK) cells against various cancer cell lines 87 . These cytotoxic effects might contribute to the viruses' therapeutic effect in the tumor microenvironment.",
+            "cite_spans": [
+                {
+                    "start": 342,
+                    "end": 345,
+                    "text": "85,",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 346,
+                    "end": 348,
+                    "text": "86",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 990,
+                    "end": 992,
+                    "text": "87",
+                    "ref_id": "BIBREF86"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Influenza A viruses can be targeted to malignant cells"
+        },
+        {
+            "text": "Influenza A virus entry depends on a protease to cleave the hemagglutinin (HA), a protein mediating viral entry. Thus, the presence of trypsin or equivalent proteases in the tissue is substantial for host restriction. It restricts the influenza A virus infection to the lung, the enteric system and for some viral isolates to the brain. We discovered that various colon cancer cell lines express trypsin and allow oncolytic influenza A virus growth in the absence of exogenous protease 73 . To further target the influenza A virus to tumor tissue we generated a virus in which the conformational change of HA, which enables viral entry, relies on the protease elastase 74 . Elastase has been shown to be present in tumor tissue due to expression by neutrophils. Elastase is also strongly expressed by malignant cells of pancreatic origin. Replacing the trypsin cleavage site with an elastase cleavage site has been shown to attenuate influenza A virus replication in swine and mice [88] [89] [90] . We therefore exchanged the trypsin cleavage site within the partially NS1 deleted (116AA) PR8 influenza virus to elastase. Elastase-dependent viruses yielded a potent therapeutic efficacy in murine melanoma (B16) and pancreatic ductal adenocarcinoma (PANC-1) xenograft models 74 . Thus, this attenuation marker present in HA can be used to target virus to tumor tissue and might allow for the use of HA which is currently not present in the human population, including the H7 or H9 subtypes.",
+            "cite_spans": [
+                {
+                    "start": 486,
+                    "end": 488,
+                    "text": "73",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 669,
+                    "end": 671,
+                    "text": "74",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 982,
+                    "end": 986,
+                    "text": "[88]",
+                    "ref_id": "BIBREF87"
+                },
+                {
+                    "start": 987,
+                    "end": 991,
+                    "text": "[89]",
+                    "ref_id": "BIBREF88"
+                },
+                {
+                    "start": 992,
+                    "end": 996,
+                    "text": "[90]",
+                    "ref_id": "BIBREF89"
+                },
+                {
+                    "start": 1275,
+                    "end": 1277,
+                    "text": "74",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Targeting influenza viruses to tumor cells by viral entry"
+        },
+        {
+            "text": "Many clinical and preclinical studies have shown effectiveness of \"non-armed\" oncolytic viruses in cancer treatment. Still, their immuno-stimulatory properties do not always result in the expected potent anti-cancer effect. In order to optimize anti-cancer activity viruses are engineered to express various immuno-stimulatory (see figure on previous page) Fig. 3 Functions of the influenza A virus NS1 protein and generation of an armed oncolytic influenza A virus. a Schematic representation of the NS1 protein. Major domains are represented and their AA positions indicated above. The yellow line represents parts of NS1 expressed after truncation to 116 AA. Inhibitory functions of NS1 relevant to oncolytic virus development and the domains they have been attributed to are indicated 42, 48, 62, 63, 68, 72, 75 . b Example of genetic modifications in an influenza virus designed to be used as oncolytic agent 94 . Modifications are carried out on the NS segment. In the first step NS1 is truncated to a length of 116 AA, leaving NEP intact. In a second step the armed transgene, in this example IL-15, is encoded in the reading frame of NS1. It is connected to an IgK and separated from NS1 with the H2 FMDV. Reading frames for NS1 and NEP have a common beginning. NS1 continues on, while an alternative reading frame is created for NEP through splicing. The short, frame shifted overlap of the end of NS1 and middle part of NEP is indicated by the diagonal hatching pattern. The complete NEP reading frame is generated through splicing in the attenuated and armed examples as well. AA amino acids, IL-15 Interleukin-15, NS1 nonstructural 1 protein, NEP nuclear export protein, IgK mouse-derived IgKappa signal peptide, 2A FMDV 2A cleavage site of the foot and mouth disease virus.",
+            "cite_spans": [
+                {
+                    "start": 789,
+                    "end": 792,
+                    "text": "42,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 793,
+                    "end": 796,
+                    "text": "48,",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 797,
+                    "end": 800,
+                    "text": "62,",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 801,
+                    "end": 804,
+                    "text": "63,",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 805,
+                    "end": 808,
+                    "text": "68,",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 809,
+                    "end": 812,
+                    "text": "72,",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 813,
+                    "end": 815,
+                    "text": "75",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 914,
+                    "end": 916,
+                    "text": "94",
+                    "ref_id": "BIBREF93"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 357,
+                    "end": 363,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Arming oncolytic influenza viruses to enhance immunogenicity"
+        },
+        {
+            "text": "transgenes, most prominently T cell and DC activating cytokines like interleukin-2 (IL-2), interleukin-15 (IL-15) or GM-CSF 91 . Within the influenza A virus background we were able to establish potent expression of various transgenes from a deleted or truncated NS1 reading frame, including the reporter gene green fluorescing protein (GFP), the cytokine IL-2, or CC-chemokine ligand 20 (CCL20) 92, 93 . Using the viruses' inherent property of a high mutational frequency we were able to adapt viruses to stably express transgenes up to 441 AA from the NS segment, together with nuclear export protein (NEP) and NS1 truncated to 116 AA 92 using initial selection pressure. It seems likely that very long transgenes might be deleted, but the maximum transgene loading capacity has not yet been tested in influenza viruses.",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 126,
+                    "text": "91",
+                    "ref_id": "BIBREF90"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "92,",
+                    "ref_id": "BIBREF91"
+                },
+                {
+                    "start": 400,
+                    "end": 402,
+                    "text": "93",
+                    "ref_id": "BIBREF92"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Arming oncolytic influenza viruses to enhance immunogenicity"
+        },
+        {
+            "text": "We demonstrated superior therapeutic efficacy and enhancement of NK cell and T cell activation and proliferation when the partially NS1 deleted (116) influenza virus was armed with IL-15 94 (Fig. 3b) in murine models. Subsequently, Penghui et al. were able to show anticancer activity of an NS1-deleted influenza A virus armed with GM-CSF in a human Hep-G2 liver cancer cell line xenograft model 95 . Hamilton et al. expressed a recombinant humanized cytotoxic T-lymphocyte-associated protein 4 (CTLA4) immune checkpoint inhibiting antibody from two different RNA fragments of the influenza A virus genome in order to enhance its anti-cancer effectiveness in a murine B16 melanoma model 96 .",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 189,
+                    "text": "94",
+                    "ref_id": "BIBREF93"
+                },
+                {
+                    "start": 396,
+                    "end": 398,
+                    "text": "95",
+                    "ref_id": "BIBREF94"
+                },
+                {
+                    "start": 687,
+                    "end": 689,
+                    "text": "96",
+                    "ref_id": "BIBREF95"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 190,
+                    "end": 199,
+                    "text": "(Fig. 3b)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Arming oncolytic influenza viruses to enhance immunogenicity"
+        },
+        {
+            "text": "In order to elicit specific immunological memory against known cancer epitopes, Efferson et al. established a combined strategy of oncolytic influenza A viruses armed with a vaccination peptide against the human epidermal growth factor receptor 2 (HER2) 97 . This approach led to potent initiation of effector and memory T cells in an in vitro DC-based assay.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 256,
+                    "text": "97",
+                    "ref_id": "BIBREF96"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Arming oncolytic influenza viruses to enhance immunogenicity"
+        },
+        {
+            "text": "Overall, multiple promising transgenes that enhance therapeutic outcomes in preclinical models have been postulated for oncolytic influenza A viruses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Arming oncolytic influenza viruses to enhance immunogenicity"
+        },
+        {
+            "text": "Influenza viruses remain a major health concern as they cause epidemics and pandemics. This happens due to the emergence novel reassortments as well, as novel mutants, generated by genetic changes caused by viral polymerases characterized by a low fidelity. Therefore, the use of the virus as a therapeutic agent requires specific safety attention. Any oncolytic virus candidate needs to be tested for its stable attenuation. The existence of licensed live influenza A virus vaccines clearly indicates, that the genetic stability of attenuated live influenza viruses is feasible. We could demonstrate that delNS1 viruses, including armed versions, can be safely passaged for more than 5 times, without losing their transgene or phenotype 83, 92 . Moreover, expressing a transgene from a truncated NS1 reading frame within the NS segment, which codes for the attenuation marker at the same time, prevents the unwanted transmission of the transgene to a wild-type virus (Fig. 4) . This is particularly desirable, since reassortment of the chimeric segment with wild-type segments of other influenza virus subtypes might lead to an unexpected pathogenic phenotype. Thus, in case transgenes are expressed within a wild-type segment, the apathogenic character of such chimeric viruses may need to be proven within the background of various subtypes.",
+            "cite_spans": [
+                {
+                    "start": 738,
+                    "end": 741,
+                    "text": "83,",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 742,
+                    "end": 744,
+                    "text": "92",
+                    "ref_id": "BIBREF91"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 968,
+                    "end": 976,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "Enhancing oncolytic activity of the influenza A virus by optimizing immunogenic cell deathpotential strategies One strategy to optimize oncolytic virus-induced cell death is to enhance induction of apoptosis of neighboring cells. This can be achieved by arming the virus with a proapoptotic cytokine such as interleukin-24 (IL-24). We have shown that IL-24 sensitizes cancer cells to apoptosis within the background of an influenza A virus infection 98 . Importantly the apoptotic effect of IL-24 was strongly dependent on a second signal, namely the activation of the toll-like receptor 3 (TLR3) by viral RNA. This dependency targets the strong induction of apoptosis achieved by IL-24 to the tumor microenvironment, as the attenuated influenza virus used in this experiment cannot replicate otherwise. However, an influenza virus armed with IL-24 might be difficult to translate to clinical studies, due to IL-24 inhibiting viral growth and leading to low production titers 99 .",
+            "cite_spans": [
+                {
+                    "start": 450,
+                    "end": 452,
+                    "text": "98",
+                    "ref_id": "BIBREF97"
+                },
+                {
+                    "start": 976,
+                    "end": 978,
+                    "text": "99",
+                    "ref_id": "BIBREF98"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "Another strategy to optimize oncolysis is the induction of a more immunogenic form of cell death such as necrosis or necroptosis 100 . Necroptosis is a form of programmed death a cell may engage in as an alternative to apoptosis depending on abundance of caspases and various signaling proteins within the cell. It is dependent on receptor-interacting serine/threonine-protein kinase 3 (RIPK3) activation and subsequent membrane lysis through mixed lineage kinase domain-like pseudokinase (MLKL) activation. This leads to a phenotype resembling necrosis. Necroptosis is considered to be highly immunogenic due to passive release of a large variety of DAMPs and cancer neo-antigen 101 . A recent report implicates necroptosis signaling through RIPK3 in inducing potent anti-tumor immune responses independent of the subsequent necrotic phenotype induced by MLKL and DAMP release 102 . Influenza A virus infection can be sensed by the cell through Z-DNA binding protein 1 (ZBP1). This can lead to either necroptosis or apoptosis 103 . Conversely, the cellular inhibitor of apoptosis protein 2 (cIAP2) protein has been shown to protect against influenza A virus-induced necroptosis 104 .",
+            "cite_spans": [
+                {
+                    "start": 129,
+                    "end": 132,
+                    "text": "100",
+                    "ref_id": "BIBREF99"
+                },
+                {
+                    "start": 680,
+                    "end": 683,
+                    "text": "101",
+                    "ref_id": "BIBREF100"
+                },
+                {
+                    "start": 1027,
+                    "end": 1030,
+                    "text": "103",
+                    "ref_id": "BIBREF102"
+                },
+                {
+                    "start": 1179,
+                    "end": 1182,
+                    "text": "104",
+                    "ref_id": "BIBREF103"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "Necroptosis but also necrosis might be induced by specific influenza subtypes. Examples are the avian H5N1 and a reconstructed 1908 pandemic H1N1 105, 106 . Similarly, H5N1 has been shown to inhibit apoptosis, which possibly enables the cell to undergo necroptosis 107 . H5N1 was also more potent than H1N1 in initiating cytokine responses 108 . Specifically, H5N1 seems to induce stronger chemotactic signals and thus stronger modulation of chemoattraction of immune cells 109 102 . On the other hand, RIPK3 mediated effects seemed to depend on NF-\u03baB activation in the same study. Infection with delNS1 virus may lead to similar effects, as it strongly induces NF-\u03baB activation 48 .",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 150,
+                    "text": "105,",
+                    "ref_id": "BIBREF104"
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "106",
+                    "ref_id": "BIBREF105"
+                },
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "107",
+                    "ref_id": "BIBREF106"
+                },
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "108",
+                    "ref_id": "BIBREF107"
+                },
+                {
+                    "start": 474,
+                    "end": 477,
+                    "text": "109",
+                    "ref_id": "BIBREF108"
+                },
+                {
+                    "start": 478,
+                    "end": 481,
+                    "text": "102",
+                    "ref_id": "BIBREF101"
+                },
+                {
+                    "start": 679,
+                    "end": 681,
+                    "text": "48",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "Using in vitro models, we were not able to show necroptotic cell death after infection with delNS1 or wildtype viruses 98 . This may have been due to the lack of RIPK3 expression in the cancer cell lines examined. It is well established, that RIPK3 is downregulated in a variety of cancers 112 . This is usually correlated with worsened prognosis 112 . Interestingly, murine models indicate that necroptotic non-cancerous cells within the tumor microenvironment contribute to positive outcomes at least as much as necroptotic cancer cells 102 . Therefore, the potential of candidate oncolytic viruses to induce necroptosis in stroma cells should be examined.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 121,
+                    "text": "98",
+                    "ref_id": "BIBREF97"
+                },
+                {
+                    "start": 290,
+                    "end": 293,
+                    "text": "112",
+                    "ref_id": "BIBREF111"
+                },
+                {
+                    "start": 347,
+                    "end": 350,
+                    "text": "112",
+                    "ref_id": "BIBREF111"
+                },
+                {
+                    "start": 539,
+                    "end": 542,
+                    "text": "102",
+                    "ref_id": "BIBREF101"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "A novel pathway of regulating immunogenicity in viral infections is oxeiptosis 113 . Viruses like influenza A virus generate radical oxidative species (ROS). Cells can sense ROS through Kelch-like ECH-associated protein 1 (KEAP1) which produces a dose-dependent effect 113 . At low doses of ROS the transcription factor nuclear factor erythroid 2-related factor 2 (NRF2) is activated by KEAP1 and promotes cell survival 113 . Also, KEAP1 binds to PGAM family member 5 (PGAM5), and consequently inactivates it. At higher doses, KEAP1 dissociates from PGAM5, leading to induction of oxeiptosis, a caspaseindependent, immune-silent form of cell death 113 . Engaging in this type of cell death protects the cell from undergoing more immunogenic forms of death like necroptosis. PGAM5 knockout mice were shown to react to influenza A virus infection with enhanced necrotic histology and rapid death 113 . A malignant tumor might protect itself from ROS induced immunogenic forms of cell death through intact oxeiptotic signaling, which potentially reduces the effectiveness of oncolytic viruses. Downregulation of oxeiptotic cell death in the tumor microenvironment may be a promising strategy to enhance oncolytic virotherapy.",
+            "cite_spans": [
+                {
+                    "start": 79,
+                    "end": 82,
+                    "text": "113",
+                    "ref_id": "BIBREF112"
+                },
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "113",
+                    "ref_id": "BIBREF112"
+                },
+                {
+                    "start": 420,
+                    "end": 423,
+                    "text": "113",
+                    "ref_id": "BIBREF112"
+                },
+                {
+                    "start": 648,
+                    "end": 651,
+                    "text": "113",
+                    "ref_id": "BIBREF112"
+                },
+                {
+                    "start": 894,
+                    "end": 897,
+                    "text": "113",
+                    "ref_id": "BIBREF112"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "Further effects of oncolytic influenza A viruses on the cancer-immune microenvironment shown in murine models include activation of NK-cells and macrophage polarization towards immuno-stimulatory M1 phenotypes 66, 114 . Recent evidence suggests NS1 deleted influenza virus to exhibit enhanced growth when combined with an IFN blocking agent in vitro 115 . Therefore, coinjection with such an agent may lead to intensified initial growth and enhanced subsequent reactions against the tumor. Oncolytic viruses have been combined with multiple agents in preclinical studies, like histone deacetylase inhibitors or the HER2 antibody trastuzumab 116, 117 . Such novel combinations may prove to activate immunological anti-cancer mechanisms like antibody-dependent, cellmediated cytotoxicity (ADCC), which is reduced in breast cancer patients 118, 119 . The clinically approved oncolytic virus T-VEC is experimentally combined with other therapeutic modalities, such as radiotherapy 120 or immune checkpoint blockade 26, 121 . Similar methods may prove to be successful in influenza virus-based oncolytic virotherapy.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 213,
+                    "text": "66,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "114",
+                    "ref_id": "BIBREF113"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "115",
+                    "ref_id": "BIBREF114"
+                },
+                {
+                    "start": 641,
+                    "end": 645,
+                    "text": "116,",
+                    "ref_id": "BIBREF115"
+                },
+                {
+                    "start": 646,
+                    "end": 649,
+                    "text": "117",
+                    "ref_id": "BIBREF116"
+                },
+                {
+                    "start": 837,
+                    "end": 841,
+                    "text": "118,",
+                    "ref_id": "BIBREF117"
+                },
+                {
+                    "start": 842,
+                    "end": 845,
+                    "text": "119",
+                    "ref_id": "BIBREF118"
+                },
+                {
+                    "start": 1011,
+                    "end": 1014,
+                    "text": "26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1015,
+                    "end": 1018,
+                    "text": "121",
+                    "ref_id": "BIBREF120"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety aspects of oncolytic influenza viruses"
+        },
+        {
+            "text": "Influenza viruses attenuated by means of truncated or deleted NS1 or by other attenuation markers have proven to be safe vaccines in clinical studies and have promising characteristics for use as oncolytic agents. Various factors governing their immunogenicity have been described, and strategies for optimizing their oncolytic effects established. Arming viruses with cytokines or checkpoint inhibitors appears to enhance their therapeutic effect. These insights into the immunomodulatory properties of such viruses may help further refine choices and design of viruses to be used in clinical trials. The future challenge is bringing this promising novel immunotherapeutic agent into clinical routine. Open questions remain the impact of preexisting immunity and combination with other anticancer drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and outlook"
+        },
+        {
+            "text": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and outlook"
+        },
+        {
+            "text": "Received: 19 January 2020 Revised: 18 February 2020 Accepted: 20 February 2020",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and outlook"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Regression of Burkitt's lymphoma in association with measles infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Bluming",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ziegler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "Lancet (Lond., Engl.)",
+            "volume": "2",
+            "issn": "",
+            "pages": "105--106",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Regression of Hodgkin's disease after measles",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Taqi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Abdurrahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yakubu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fleming",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Lancet (Lond., Engl.)",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The influence of complicating diseases upon leukaemia",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dock",
+                    "suffix": ""
+                }
+            ],
+            "year": 1904,
+            "venue": "Am. J. Med. Sci",
+            "volume": "127",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Viral oncolysis: increased immunogenicity of host cell antigen associated with influenza virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lindenmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "J. Exp. Med",
+            "volume": "126",
+            "issn": "",
+            "pages": "93--108",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Oncolytic effect of influenza virus upon Ehrlich carcinoma and Yoshida ascites hepatoma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ono",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Hattori",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nagai",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Nagata",
+                    "suffix": ""
+                }
+            ],
+            "year": 1955,
+            "venue": "Gan",
+            "volume": "46",
+            "issn": "",
+            "pages": "512--514",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical development of talimogene laherparepvec (T-VEC): a modified herpes simplex virus type-1-derived oncolytic immunotherapy",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Harrington",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Expert Rev. Anticancer Ther",
+            "volume": "15",
+            "issn": "",
+            "pages": "1389--1403",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Intravenous delivery of oncolytic reovirus to brain tumor patients immunologically primes for subsequent checkpoint blockade",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Samson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci. Transl. Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Randomized dose-finding clinical trial of oncolytic immunotherapeutic vaccinia JX-594 in liver cancer",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Heo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nat. Med",
+            "volume": "19",
+            "issn": "",
+            "pages": "329--336",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Semireplication-competent vesicular stomatitis virus as a novel platform for oncolytic virotherapy",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Muik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Mol. Med",
+            "volume": "90",
+            "issn": "",
+            "pages": "959--970",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Phase I study of DNX-2401 (Delta-24-RGD) oncolytic adenovirus: replication and immunotherapeutic effects in recurrent malignant glioma",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Clin. Oncol",
+            "volume": "36",
+            "issn": "",
+            "pages": "1419--1427",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Efficiency of adjuvant active specific immunization with Newcastle disease virus modified tumor cells in colorectal cancer patients following resection of liver metastases: results of a prospective randomized trial",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schulze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Cancer Immunol. Immunother",
+            "volume": "58",
+            "issn": "",
+            "pages": "61--69",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical trials with oncolytic measles virus: current status and future prospects",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Msaouel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Curr. Cancer Drug Targets",
+            "volume": "18",
+            "issn": "",
+            "pages": "177--187",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Oncolytic viruses: from bench to bedside with a focus on safety",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R A"
+                    ],
+                    "last": "Buijs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H E"
+                    ],
+                    "last": "Verhagen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H J"
+                    ],
+                    "last": "Van Eijck",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Van Den Hoogen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Hum. Vaccin. Immunother",
+            "volume": "11",
+            "issn": "",
+            "pages": "1573--1584",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Oncolytic viruses: a new class of immunotherapy drugs",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kaufman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kohlhapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zloza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nat. Rev. Drug Discov",
+            "volume": "14",
+            "issn": "",
+            "pages": "642--662",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Improved survival with ipilimumab in patients with metastatic melanoma",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hodi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "N. Engl. J. Med",
+            "volume": "363",
+            "issn": "",
+            "pages": "711--723",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "First-line nivolumab in stage IV or recurrent non-smallcell lung cancer",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Carbone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N. Engl. J. Med",
+            "volume": "376",
+            "issn": "",
+            "pages": "2415--2426",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Overall survival with combined nivolumab and ipilimumab in advanced melanoma",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wolchok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "N. Engl. J. Med",
+            "volume": "377",
+            "issn": "",
+            "pages": "1345--1356",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Avelumab versus docetaxel in patients with platinum-treated advanced non-small-cell lung cancer (JAVELIN Lung 200): an open-label, randomised, phase 3 study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Barlesi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet Oncol",
+            "volume": "19",
+            "issn": "",
+            "pages": "1468--1479",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Pembrolizumab plus chemotherapy in metastatic non-smallcell lung cancer",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gandhi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "N. Engl. J. Med",
+            "volume": "378",
+            "issn": "",
+            "pages": "2078--2092",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Efficacy and safety of durvalumab in locally advanced or metastatic urothelial carcinoma: updated results from a phase 1/2 open-label study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Powles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA Oncol",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Current landscape of immune therapy in treatment of solid tumours, with future opportunities and challenges",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nixon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Curr. Oncol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3747/co.25.3840"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Atezolizumab versus docetaxel in patients with previously treated non-small-cell lung cancer (OAK): a phase 3, open-label, multicentre randomised controlled trial",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rittmeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lancet (Lond., Engl.)",
+            "volume": "389",
+            "issn": "",
+            "pages": "255--265",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Localized oncolytic virotherapy overcomes systemic tumor resistance to immune checkpoint blockade immunotherapy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zamarin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Sci. Transl. Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "226--258",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Intratumoral injection of the seasonal flu shot converts immunologically cold tumors to hot and serves as an immunotherapy for cancer",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Newman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc. Natl Acad. Sci",
+            "volume": "117",
+            "issn": "",
+            "pages": "1119--1128",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "CTLA-4 and PD-L1 checkpoint blockade enhances oncolytic measles virus therapy",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Engeland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mol. Ther",
+            "volume": "22",
+            "issn": "",
+            "pages": "1949--1959",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Talimogene laherparepvec in combination with ipilimumab in previously untreated, unresectable stage IIIB-IV melanoma",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Puzanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Clin. Oncol",
+            "volume": "34",
+            "issn": "",
+            "pages": "2619--2626",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Consensus guidelines for the detection of immunogenic cell death",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kepp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Oncoimmunology",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The biology of influenza viruses",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bouvier",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Vaccine",
+            "volume": "26",
+            "issn": "",
+            "pages": "49--53",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Novel influenza D virus: epidemiology, pathology, evolution and biological characteristics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kerlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Veit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Virulence",
+            "volume": "8",
+            "issn": "",
+            "pages": "1580--1591",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "An account of the epidemic catarrhal fever, or influenza, in manchester, together with some general remarks on this and similar epidemics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bardsley",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Med. Phys. J",
+            "volume": "9",
+            "issn": "",
+            "pages": "522--531",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Influenza A and B viruses expressing altered NS1 proteins: a vaccine approach",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Talon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Proc. Natl Acad. Sci. U. S. A",
+            "volume": "97",
+            "issn": "",
+            "pages": "4309--4314",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Transfectant influenza A viruses with long deletions in the NS1 protein grow efficiently in Vero cells",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Egorov",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J. Virol",
+            "volume": "72",
+            "issn": "",
+            "pages": "6437--6441",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Influenza vaccines: challenges and solutions",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Houser",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Subbarao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cell Host Microbe",
+            "volume": "17",
+            "issn": "",
+            "pages": "295--300",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The induction and consequences of Influenza A virus-induced cell death",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Atkin-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "K H"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell Death Dis",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Mitochondrial antiviral signaling adaptor mediated apoptosis in H3N2 swine influenza virus infection is inhibited by viral protein NS1 in vitro",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Miao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Vet. Immunol. Immunopathol",
+            "volume": "165",
+            "issn": "",
+            "pages": "34--44",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Influenza virus NS1 protein counteracts PKR-mediated inhibition of replication",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Virol",
+            "volume": "74",
+            "issn": "",
+            "pages": "6203--6206",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Ringing the alarm bells: signalling and apoptosis in influenza virus infected cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ludwig",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pleschka",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Planz",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wolff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Cell. Microbiol",
+            "volume": "8",
+            "issn": "",
+            "pages": "375--386",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Induction of programmed cell death (apoptosis) by influenza virus infection in tissue culture cells",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Takizawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J. Gen. Virol",
+            "volume": "74",
+            "issn": "",
+            "pages": "2347--2355",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Inflammatory response of mast cells during influenza A virus infection is mediated by active infection and RIG-I signaling",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hilmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zickovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Obar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Immunol",
+            "volume": "190",
+            "issn": "",
+            "pages": "4676--4684",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Possible involvement of doublestranded RNA-activated protein kinase in cell death by influenza virus infection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Takizawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ohashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nakanishi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Virol",
+            "volume": "70",
+            "issn": "",
+            "pages": "8128--8132",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Alpha/beta interferons potentiate virus-induced apoptosis through activation of the FADD/Caspase-8 death signaling pathway",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Balachandran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Virol",
+            "volume": "74",
+            "issn": "",
+            "pages": "1513--1523",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The ESEV PDZ-binding motif of the avian influenza A virus NS1 protein protects infected cells from apoptosis by directly targeting Scribble",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "11164--11174",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "bcl-2 alters influenza virus yield, spread, and hemagglutinin glycosylation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kehren",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dybdahl-Sissoko",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hinshaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Virol",
+            "volume": "70",
+            "issn": "",
+            "pages": "663--666",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Caspase 3 activation is essential for efficient influenza virus propagation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wurzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "EMBO J",
+            "volume": "22",
+            "issn": "",
+            "pages": "2717--2728",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "A novel influenza A virus mitochondrial protein that induces cell death",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nat. Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "1306--1312",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Influenza A virus nucleoprotein induces apoptosis in human airway epithelial cells: implications of a novel interaction between nucleoprotein and host protein Clusterin",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tripathi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cell Death Dis",
+            "volume": "4",
+            "issn": "",
+            "pages": "562--562",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "NF-kappaB-dependent induction of tumor necrosis factorrelated apoptosis-inducing ligand (TRAIL) and Fas/FasL is crucial for efficient influenza virus propagation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wurzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Biol. Chem",
+            "volume": "279",
+            "issn": "",
+            "pages": "30931--30937",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Influenza A virus NS1 protein prevents activation of NF-kappaB and induction of alpha/beta interferon",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Virol",
+            "volume": "74",
+            "issn": "",
+            "pages": "11566--11573",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Influenza virus neuraminidase activates latent transforming growth factor beta",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schultz-Cherry",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hinshaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Virol",
+            "volume": "70",
+            "issn": "",
+            "pages": "8624--8629",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Apoptosis: a mechanism of cell killing by influenza A and B viruses",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hinshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dybdahl-Sissoko",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J. Virol",
+            "volume": "68",
+            "issn": "",
+            "pages": "3667--3673",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Caspases disrupt the nuclear-cytoplasmic barrier",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Faleiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lazebnik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Cell Biol",
+            "volume": "151",
+            "issn": "",
+            "pages": "951--959",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Antimycotic-antibiotic amphotericin B promotes influenza virus replication in cell culture",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Roethl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "11139--11145",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Overcoming endosomal barrier by amphotericin B-loaded dual pH-responsive PDMA-b-PDPA micelleplexes for siRNA delivery",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "ACS Nano",
+            "volume": "5",
+            "issn": "",
+            "pages": "9246--9255",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Influenza A virus proteins NS1 and hemagglutinin along with M2 are involved in stimulation of autophagy in infected cells",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Zhirnov",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Klenk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Virol",
+            "volume": "87",
+            "issn": "",
+            "pages": "13107--13114",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "An autophagy-driven pathway of ATP secretion supports the aggressive phenotype of BRAF(V600E) inhibitor-resistant metastatic melanoma cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Autophagy",
+            "volume": "13",
+            "issn": "",
+            "pages": "1512--1527",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The P2X7 receptor in infection and inflammation",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Virgilio",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ben",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sarti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Giuliani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Falzoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Immunity",
+            "volume": "47",
+            "issn": "",
+            "pages": "15--31",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Influenza A virus lacking the NS1 gene replicates in interferon-deficient systems",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garc\u00eda-Sastre",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Virology",
+            "volume": "252",
+            "issn": "",
+            "pages": "324--330",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Interferon signaling is frequently downregulated in melanoma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alavi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Front. Immunol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Inactivation of interferon receptor promotes the establishment of immune privileged tumor microenvironment",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Katlinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cancer Cell",
+            "volume": "31",
+            "issn": "",
+            "pages": "194--207",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Progesterone receptor attenuates STAT1-mediated IFN signaling in breast cancer",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Goodman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Immunol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4049/jimmunol.1801152"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Interferon resistance promotes oncolysis by influenza virus NS1-deletion mutants",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Muster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Int. J. Cancer",
+            "volume": "110",
+            "issn": "",
+            "pages": "15--21",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "A site on the influenza A virus NS1 protein mediates both inhibition of PKR activation and temporal regulation of viral RNA synthesis",
+            "authors": [
+                {
+                    "first": "J.-Y",
+                    "middle": [],
+                    "last": "Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Krug",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Virology",
+            "volume": "363",
+            "issn": "",
+            "pages": "236--243",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Mutant influenza viruses with a defective NS1 protein cannot block the activation of PKR in infected cells",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hatada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Saito",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fukuda",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J. Virol",
+            "volume": "73",
+            "issn": "",
+            "pages": "2425--2433",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Oncogenic ras induces an inhibitor of doublestranded RNA-dependent eukaryotic initiation factor 2 alpha-kinase activation",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mundschau",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Faller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J. Biol. Chem",
+            "volume": "267",
+            "issn": "",
+            "pages": "23092--23098",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "A genetically engineered influenza A virus with rasdependent oncolytic properties",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Cancer Res",
+            "volume": "61",
+            "issn": "",
+            "pages": "8188--8193",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Oncolytic influenza virus infection restores immunocompetence of lung tumor-associated alveolar macrophages",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Masemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Oncoimmunology",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Oncolytic activity of avian influenza virus in human pancreatic ductal adenocarcinoma cell lines",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kasloff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "9321--9334",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Activation of interferon regulatory factor 3 is inhibited by the influenza A virus NS1 protein",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Talon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Virol",
+            "volume": "74",
+            "issn": "",
+            "pages": "7989--7996",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "PKR and GCN2 stress kinases promote an ER stressindependent eIF2\u03b1 phosphorylation responsible for calreticulin exposure in melanoma cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Giglio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Oncoimmunology",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Calreticulin exposure dictates the immunogenicity of cancer cell death",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Obeid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nat. Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "54--61",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Cellular transcriptional profiling in influenza A virus-infected lung epithelial cells: the role of the nonstructural NS1 protein in the evasion of the host innate defense and its potential contribution to pandemic influenza",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Geiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "99",
+            "issn": "",
+            "pages": "10736--10741",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Influenza A mutant viruses with altered NS1 protein function provoke caspase-1 activation in primary human macrophages, resulting in fast apoptosis and release of high levels of interleukins 1\u03b2 and 18",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stasakova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Gen. Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "185--195",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Endogenous expression of proteases in colon cancer cells facilitate influenza A viruses mediated oncolysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sturlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Cancer Biol. Ther",
+            "volume": "10",
+            "issn": "",
+            "pages": "592--599",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Targeting an oncolytic influenza A virus to tumor tissue by elastase",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kuznetsova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Mol. Ther. Oncolytics",
+            "volume": "7",
+            "issn": "",
+            "pages": "37--44",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Influenza A virus NS1 targets the ubiquitin ligase TRIM25 to evade recognition by the host viral RNA sensor RIG-I",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Gack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Cell Host Microbe",
+            "volume": "5",
+            "issn": "",
+            "pages": "439--449",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Protein kinase PKR amplification of interferon \u03b2 induction occurs through initiation factor eIF-2\u03b1-mediated translational control",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mcallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Taghavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Samuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Biol. Chem",
+            "volume": "287",
+            "issn": "",
+            "pages": "36384--36392",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "RIG-I detects viral genomic RNA during negative-strand RNA virus infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rehwinkel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Cell",
+            "volume": "140",
+            "issn": "",
+            "pages": "397--408",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Genomic RNAs of influenza viruses are held in a circular conformation in virions and in infected cells by a terminal panhandle",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Parvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Krystal",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "84",
+            "issn": "",
+            "pages": "8140--8144",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Preference of RIG-I for short viral RNA molecules in infected cells revealed by next-generation sequencing",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baum",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sachidanandam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Garc\u00eda-Sastre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Proc. Natl Acad. Sci. USA",
+            "volume": "107",
+            "issn": "",
+            "pages": "16303--16308",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "The relative amount of an influenza A virus segment present in the viral particle is not affected by a reduction in replication of that segment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Muster",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J. Gen. Virol",
+            "volume": "76",
+            "issn": "",
+            "pages": "3211--3215",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "RIG-I-mediated antiviral responses to single-stranded RNA bearing 5'-phosphates",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pichlmair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Science",
+            "volume": "314",
+            "issn": "",
+            "pages": "997--1001",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Preclinical evaluation of a replication-deficient intranasal DeltaNS1 H5N1 influenza vaccine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Romanova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS One",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "A novel type of influenza vaccine: safety and immunogenicity of replication-deficient influenza virus created by deletion of the interferon antagonist NS1",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Wacheck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Infect. Dis",
+            "volume": "201",
+            "issn": "",
+            "pages": "354--362",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Safety and immunogenicity of a replication-deficient H5N1 influenza virus vaccine lacking NS1",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nicolodi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Vaccine",
+            "volume": "37",
+            "issn": "",
+            "pages": "3722--3729",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Improvement of a dendritic cell-based tumour vaccine by an influenza virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sachet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Eur. J. Clin. Invest",
+            "volume": "39",
+            "issn": "",
+            "pages": "1000--1009",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Prostate tumor cells infected with a recombinant influenza virus expressing a truncated NS1 protein activate cytolytic CD8+ cells to recognize noninfected tumor cells",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Efferson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Virol",
+            "volume": "80",
+            "issn": "",
+            "pages": "383--394",
+            "other_ids": {}
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Influenza a virus induces an immediate cytotoxic activity in all major subsets of peripheral blood mononuclear cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sturlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS One",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Reverse genetics-generated elastasedependent swine influenza viruses are attenuated in pigs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Masic",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Babiuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Gen. Virol",
+            "volume": "90",
+            "issn": "",
+            "pages": "375--385",
+            "other_ids": {}
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "A new approach to an influenza live vaccine: modification of the cleavage site of hemagglutinin",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stech",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Garn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wegmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-D",
+                    "middle": [],
+                    "last": "Klenk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Nat. Med",
+            "volume": "11",
+            "issn": "",
+            "pages": "683--689",
+            "other_ids": {}
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Immunogenicity and protective efficacy of an elastasedependent live attenuated swine influenza virus vaccine administered intranasally in pigs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Masic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Vaccine",
+            "volume": "28",
+            "issn": "",
+            "pages": "7098--7108",
+            "other_ids": {}
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "Armed oncolytic viruses: a kick-start for anti-tumor immunity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "De Graaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "De Vor",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A M"
+                    ],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Van Den Hoogen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cytokine Growth Factor Rev",
+            "volume": "41",
+            "issn": "",
+            "pages": "28--39",
+            "other_ids": {}
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Adaptive mutation in nuclear export protein allows stable transgene expression in a chimaeric influenza A virus vector",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kuznetsova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Gen. Virol",
+            "volume": "95",
+            "issn": "",
+            "pages": "337--349",
+            "other_ids": {}
+        },
+        "BIBREF92": {
+            "ref_id": "b92",
+            "title": "Establishment of a chimeric, replication-deficient influenza A virus vector by modulation of splicing efficiency",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wolschek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "2469--2473",
+            "other_ids": {}
+        },
+        "BIBREF93": {
+            "ref_id": "b93",
+            "title": "Oncolytic influenza A virus expressing interleukin-15 decreases tumor growth in vivo",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Surgery",
+            "volume": "161",
+            "issn": "",
+            "pages": "735--746",
+            "other_ids": {}
+        },
+        "BIBREF94": {
+            "ref_id": "b94",
+            "title": "Oncolytic activity of a novel influenza A virus carrying granulocyte-macrophage colony-stimulating factor in hepatocellular carcinoma. Hum",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Penghui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Gene Ther",
+            "volume": "30",
+            "issn": "",
+            "pages": "330--338",
+            "other_ids": {}
+        },
+        "BIBREF95": {
+            "ref_id": "b95",
+            "title": "A recombinant antibodyexpressing influenza virus delays tumor growth in a mouse model",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vijayakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Palese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell Rep",
+            "volume": "22",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF96": {
+            "ref_id": "b96",
+            "title": "Activation of tumor antigen-specific cytotoxic T lymphocytes (CTLs) by human dendritic cells infected with an attenuated influenza A virus expressing a CTL epitope derived from the HER-2/neu proto-oncogene",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Efferson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Virol",
+            "volume": "77",
+            "issn": "",
+            "pages": "7411--7424",
+            "other_ids": {}
+        },
+        "BIBREF97": {
+            "ref_id": "b97",
+            "title": "IL-24 sensitizes tumor cells to TLR3-mediated apoptosis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Cell Death Differ",
+            "volume": "20",
+            "issn": "",
+            "pages": "823--833",
+            "other_ids": {}
+        },
+        "BIBREF98": {
+            "ref_id": "b98",
+            "title": "Interleukin-24 inhibits influenza A virus replication in vitro through induction of toll-like receptor 3 dependent apoptosis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Antivir. Res",
+            "volume": "123",
+            "issn": "",
+            "pages": "93--104",
+            "other_ids": {}
+        },
+        "BIBREF99": {
+            "ref_id": "b99",
+            "title": "Regulated necrosis: the expanding network of non-apoptotic cell death pathways",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Berghe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Linkermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jouan-Lanhouet",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Walczak",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vandenabeele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat. Rev. Mol. Cell Biol",
+            "volume": "15",
+            "issn": "",
+            "pages": "135--147",
+            "other_ids": {}
+        },
+        "BIBREF100": {
+            "ref_id": "b100",
+            "title": "Radiotherapy as a backbone for novel concepts in cancer immunotherapy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kabiljo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harpain",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carotta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cancers (Basel)",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF101": {
+            "ref_id": "b101",
+            "title": "Intratumoral activation of the necroptotic pathway components RIPK1 and RIPK3 potentiates antitumor immunity",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Snyder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Immunol",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF102": {
+            "ref_id": "b102",
+            "title": "ZBP1/DAI is an innate sensor of influenza virus triggering the NLRP3 inflammasome and programmed cell death pathways",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuriakose",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci. Immunol",
+            "volume": "1",
+            "issn": "",
+            "pages": "2045--2045",
+            "other_ids": {}
+        },
+        "BIBREF103": {
+            "ref_id": "b103",
+            "title": "Cellular inhibitor of apoptosis protein cIAP2 protects against pulmonary tissue necrosis during influenza virus infection to promote host survival",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rodrigue-Gervais",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cell Host Microbe",
+            "volume": "15",
+            "issn": "",
+            "pages": "23--35",
+            "other_ids": {}
+        },
+        "BIBREF104": {
+            "ref_id": "b104",
+            "title": "Pathology of natural infections by H5N1 highly pathogenic avian influenza virus in mute (Cygnus olor) and whooper (Cygnus cygnus) swans",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Teifke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Vet. Pathol",
+            "volume": "44",
+            "issn": "",
+            "pages": "137--143",
+            "other_ids": {}
+        },
+        "BIBREF105": {
+            "ref_id": "b105",
+            "title": "Genomic analysis of increased host immune and cell death responses induced by 1918 influenza virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nature",
+            "volume": "443",
+            "issn": "",
+            "pages": "578--581",
+            "other_ids": {}
+        },
+        "BIBREF106": {
+            "ref_id": "b106",
+            "title": "Highly pathogenic avian influenza H5N1 virus delays apoptotic responses via activation of STAT3",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P Y"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci. Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF107": {
+            "ref_id": "b107",
+            "title": "H5N1 influenza virus-induced mediators upregulate RIG-I in uninfected cells by paracrine effects contributing to amplified cytokine cascades",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "P Y"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Infect. Dis",
+            "volume": "204",
+            "issn": "",
+            "pages": "1866--1878",
+            "other_ids": {}
+        },
+        "BIBREF108": {
+            "ref_id": "b108",
+            "title": "H5N1 virus activates signaling pathways in human endothelial cells resulting in a specific imbalanced inflammatory response",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Viemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Immunol",
+            "volume": "186",
+            "issn": "",
+            "pages": "164--173",
+            "other_ids": {}
+        },
+        "BIBREF109": {
+            "ref_id": "b109",
+            "title": "Pandemic H1N1 influenza A viruses suppress immunogenic RIPK3-driven dendritic cell death",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hartmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat. Commun",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF110": {
+            "ref_id": "b110",
+            "title": "The NS1 protein of influenza A virus participates in necroptosis by interacting with MLKL and increasing its oligomerization and membrane translocation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gaba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "1835--1853",
+            "other_ids": {}
+        },
+        "BIBREF111": {
+            "ref_id": "b111",
+            "title": "The role of necroptosis in cancer biology and therapy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mol. Cancer",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF112": {
+            "ref_id": "b112",
+            "title": "Oxeiptosis, a ROS-induced caspase-independent apoptosis-like cell-death pathway",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Holze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Immunol",
+            "volume": "19",
+            "issn": "",
+            "pages": "130--140",
+            "other_ids": {}
+        },
+        "BIBREF113": {
+            "ref_id": "b113",
+            "title": "Tumor cells infected with oncolytic influenza A virus prime natural killer cells for lysis of resistant tumor cells",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ogbomo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Med. Microbiol. Immunol",
+            "volume": "199",
+            "issn": "",
+            "pages": "93--101",
+            "other_ids": {}
+        },
+        "BIBREF114": {
+            "ref_id": "b114",
+            "title": "Inhibitors of the Interferon Response Enhance Virus Replication In Vitro",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Stewart",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Randall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Adamson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF115": {
+            "ref_id": "b115",
+            "title": "Combining HDAC inhibitors with oncolytic virotherapy for cancer therapy",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chiocca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Oncolytic Viroth",
+            "volume": "4",
+            "issn": "",
+            "pages": "183--191",
+            "other_ids": {}
+        },
+        "BIBREF116": {
+            "ref_id": "b116",
+            "title": "Oncolytic reovirus combined with trastuzumab enhances antitumor efficacy through TRAIL signaling in human HER2-positive gastric cancer cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hamano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Cancer Lett",
+            "volume": "356",
+            "issn": "",
+            "pages": "846--854",
+            "other_ids": {}
+        },
+        "BIBREF117": {
+            "ref_id": "b117",
+            "title": "Histone deacetylase inhibitors valproic acid and vorinostat enhance trastuzumab-mediated antibody-dependent cell-mediated phagocytosis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Laengle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Immunother. Cancer",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF118": {
+            "ref_id": "b118",
+            "title": "Trastuzumab mediates antibody-dependent cell-mediated cytotoxicity and phagocytosis to the same extent in both adjuvant and metastatic HER2/neu breast cancer patients",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Petricevic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Transl. Med",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF119": {
+            "ref_id": "b119",
+            "title": "Radiation therapy and talimogene laherparepvec (TVEC) synergize in the treatment of melanoma",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jhawar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Immunol",
+            "volume": "198",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF120": {
+            "ref_id": "b120",
+            "title": "Complete intracranial response to talimogene laherparepvec (T-Vec), pembrolizumab and whole brain radiotherapy in a patient with melanoma brain metastases refractory to dual checkpoint-inhibition",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Blake",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Immunother. cancer",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Components of the influenza A virus. Schematic representation of all components of the influenza A virus virion.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "proposed model of how influenza A virus controls apoptosis in 2 phases. a In the early phase of an influenza virus infection, the virus benefits from reduced apoptosis, in order to transcribe viral structural proteins and replicate viral RNA. Anti-apoptotic functions are mediated by NS1, interfering with various danger signaling proteins and reducing NF-\u03baB induced TNF\u03b1 release. b In the late phase of influenza virus infection, the pro apoptotic viral protein PB1-F2 and the weakened TNF\u03b1 release might accumulate, leading to enhanced apoptotic signaling. Apoptosis enhances the release of viral RNA from the nucleus, a prerequisite for virus assembly and release. NF-\u03baB, nuclear factor kappa-light-chain-enhancer of activated B cells; TNF\u03b1, tumor necrosis factor alpha.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "See legend on next page.)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Reassortment of oncolytic influenza A viruses and wild-type influenza A viruses.Examples of reassortment of an armed oncolytic influenza virus attenuated by NS1 truncation during co-infection with wild-type influenza virus. a represents transgene expression from the NS1 reading frame. All reassortants carrying the transgene are attenuated. b represents transgene expression from the M segment. Some reassortants may carry both wild-type elements of the attenuation marker NS1 and a transgene, leading to unpredictable effects of the newly created virus. NS1 nonstructural 1 protein.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". Hartmann et al. recently described varying potential of different flu virus strains to cause necroptosis, specifically describing seasonal NC/99 H1N1 influenza A viruses as inducers and pandemic Cal/09 as inhibitors of necroptosis 110 . HA seemed particularly important in deciding cell fate in this experiment. These results indicate that choosing influenza A virus vectors according to their capability to initiate necroptosis is a promising strategy for future oncolytic virus design. The influenza A virus NS1 protein can directly cause necroptosis through interaction with MLKL 111 . This form of necroptosis may be inferior to upstream pathway activation, since RIPK3 is necessary for strong immunogenic responses to necroptosis in cancer",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

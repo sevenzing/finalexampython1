@@ -1,0 +1,2076 @@
+{
+    "paper_id": "1143fdb9bdd944cfe92450b4f21a382fd81a6366",
+    "metadata": {
+        "title": "Models of transmission of COVID-19 with time under the influence of meteorological determinants",
+        "authors": [
+            {
+                "first": "Atin",
+                "middle": [],
+                "last": "Adhikari",
+                "suffix": "",
+                "affiliation": {},
+                "email": "*aadhikari@georgiasouthern.edu\u2020shilpighosh@nbu.ac.in\u2021mmsen@ega.edu\u00a7rathin@ctp-jamia.res.in"
+            },
+            {
+                "first": "Shilpi",
+                "middle": [],
+                "last": "Ghosh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Moon",
+                "middle": [
+                    "M"
+                ],
+                "last": "Sen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rathin",
+                "middle": [],
+                "last": "Adhikari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Based on the statistical analyses of the data on the number of confirmed COVID-19 cases and meteorological determinants in some of the severely affected cities in Spain, Italy and the USA, some models are constructed showing the relationship of I (the number of infected individuals divided by the total population of a city) with temperature, relative humidity, wind velocity and time. Three models are based on the data before lockdown/travel restrictions in these cities, and the other three models are based on data both before and after lockdown/travel restrictions. These models, in general, indicate that the transmission of COVID-19 could be relatively high either for elevated temperatures with lower relative humidity or for lower temperatures with higher relative humidity conditions. Although one model indicates exponential increase in number of infection cases with time, the more statistically significant models show that the number of cases varies quadratically with time. We have discussed in short, how all these features could be linked with the alterations of structural characteristics of the SARS-CoV-2 virus. Finally, the possibility of natutal disappearance of COVID-19 pandemic, at the global level, has been discussed in the context of the most statistically significant model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The highly pathogenic coronavirus disease 2019 has become a pandemic after its initial outbreak in Wuhan, Hubei province of China, during December, 2019. According to the recent report of the World Health Organization, the disease has spread to six continents and 210 countries and has affected 4.42 million people with 0.30 million deaths as on 16th May, 2020 (WHO, 2020) . The causative organism for COVID-19 is severe acute respiratory syndrome coronavirus 2 (SARS-CoV2), a genus belonging to family Coronaviridae.",
+            "cite_spans": [
+                {
+                    "start": 361,
+                    "end": 372,
+                    "text": "(WHO, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Clinically, patients with COVID-19 develop respiratory symptoms, which is very similar to other respiratory virus infections. Multiple symptoms may be involved with COVID-19, including respiratory (cough, shortness of breath, sore throat, rhinorrhea, hemoptysis, and chest pain), gastrointestinal (diarrhea, nausea, and vomiting), musculoskeletal (muscle ache), and neurologic (headache or confusion) types. More common signs and symptoms are fever (83% -98%), cough (76% -82%), and shortness of breath (31% -55%) ). Historically, coronaviruses gained prominence during the outbreak of severe acute respiratory syndrome (SARS) during 2002-2003 with severe acute respiratory syndrome coronavirus (SARS-CoV) as the causative agent. The virus infected 8098 individuals with a mortality rate of 9% across twenty-six countries worldwide. In contrast, the incidence of COVID-19 infection has crossed more than 4.42 million to date worldwide, indicating increased transmission ability of SARS-CoV-2 (Cheng et al.,2007; Walls et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 992,
+                    "end": 1011,
+                    "text": "(Cheng et al.,2007;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1012,
+                    "end": 1031,
+                    "text": "Walls et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "According to recent evidence, SARS-CoV-2 virus is primarily transmitted between people through respiratory droplet, direct contact with infected people and indirect contact with surfaces in the immediate environment or with objects used on the infected person (Chan et al., 2020; Li et al., 2020; Liu et al., 2020) . Some scientific studies have provided the initial evidence for the viability of SARS-CoV2 virus in aerosols for hours, suggesting their plausible airborne transmission (van Doremalen et al., 2020) . Besides, their human transmissibility can be influenced by the environment in which pathogen and host meet (Pica Marr, 2012) . Apart from temperature and relative humidity, the wind velocity also could play a role in the transmission of the virus.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 279,
+                    "text": "(Chan et al., 2020;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 280,
+                    "end": 296,
+                    "text": "Li et al., 2020;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 297,
+                    "end": 314,
+                    "text": "Liu et al., 2020)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 485,
+                    "end": 513,
+                    "text": "(van Doremalen et al., 2020)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 623,
+                    "end": 640,
+                    "text": "(Pica Marr, 2012)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In most of the earlier works related to the spreading of the epidemic, the rate of increase of the number of infected individuals has been studied in relation to the various meteorological determinants Prata et al., 2020; Sajadi et al., 2020) . However, the rate would vary between cities because of their differences of total population, area and population density. Hence, in the present communication a different approach has been followed to study the spreading of COVID-19 by considering homogeneous mixing in the populations of various major cities (Spain, Italy and the USA) along with the meteorological determinants and population density. Under this consideration, the relevant quantity is the proportionate mixing of the number of infected individuals I, within the total population N of a city, denoted as I which is equal to I N . In this work, in the context of infection due to SARS-CoV-2 virus, we have found the relationship between I with temperature, relative humidity, wind velocity and time.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 221,
+                    "text": "Prata et al., 2020;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 222,
+                    "end": 242,
+                    "text": "Sajadi et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The section 2 of the manuscript mentions the data sources and their collection time period. In section 3, regression models were built up from the statistical analysis of the data on the number of infected persons in various cities, the related meteorological data and the time elapsed after the initial reporting of infected cases. We have found out that how the proportionate mixing I could depend on temperature, relative humidity, wind velocity, and time in a statistically significant way. In section 4, the results of the statistical analysis corresponding to various models have been presented with the help of different contour plots, which show the combination of temperature, relative humidity and wind velocity for favourable or unfavourable COVID-19 transmission. Also it has been shown that how the number of infected cases for a particular population, could evolve with time under various meteorological conditions. In section 5 some possible biochemical and biophysical explanation for the stability of the virus under different meteorological conditions (as indicated by the models) have been discussed. In section 6, it has been discussed through illustrative example, how these models indicate the possibility of the world to be free from COVID-19 in a natural way due to the change in the meteorological factors in the environment. Finally, in section 7, based on models, some precautionary measures have been discussed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "All data used for analysis were available in public databases. The data on the number of COVID-19 infection cases of several major cities in Spain, Italy, and the USA (Countries with relatively severe COVID-19 outbreak) from the following sources -(1) Data of Spain were collected from the database of the Centro de Coordinac\u00ed on de Alertas y Emergencias Sanitarias (CCAES), Spain. The center is responsible for coordinating information management and supporting the response to national or international health alert or emergencies,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sources and time period of data collection"
+        },
+        {
+            "text": "(2) Data of Italy were collected from the database of The Ministry of Health (Italian: Ministero della Salute), which is a governmental agency of Italy and is led by the Italian Minister of Health. (3) Data on different cities of USA were collected from USAFacts, which is a notfor-profit, nonpartisan civic initiative providing the most comprehensive and understandable source of government data available in the US. Data on meteorological factors were collected from the World Weather Online database.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sources and time period of data collection"
+        },
+        {
+            "text": "We have considered data of the cities Madrid, Catalonia and Pais Vasco-Basque in Spain during the period 4th March, 2020 to 14th March, 2020 before lockdown/travel restrictions and 15th March to 29th March after lockdown/travel restrictions. We have considered data of the cities Milan, Bologna and Venice in Italy during the period 26th February, 2020 to 9th March, 2020 before lockdown and 10th March to 31st March after lockdown. We have considered data of the cities of New York, San Francisco, Atlanta, Seattle, Chicago and Los Angeles in the USA during the period 2nd March, 2020 to 14th March, 2020 before travel restrictions/stay at home order orders. Data of the cities of New York, Chicago, Los Angeles in USA were also considered during the period 16th March to 31st March after travel restrictions/stay at home orders.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sources and time period of data collection"
+        },
+        {
+            "text": "Although we have considered data of different cities both before and after lockdown/travel restrictions, the global features of the spreading of COVID-19 in relation to climatic conditions should be examined before the implementation of restrictions when there were no human interventions on the transmission of the virus. Therefore in our study, the statistical analyses of data before restrictions have been done separately in which such features are expected to be present. However, assuming that the early parts of restrictions were not so stringent in the selected large cities, the combination of both before and after restrictions 5 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) data have also been considered separately for statistical analysis. But while interpreting any results from the analyses of the combined data, one needs to be careful about this assumption.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression Models for I"
+        },
+        {
+            "text": "The major cities of three countries have been chosen because they are expected to have almost homogeneous mixing of the population. On the other hand, small cities have different heterogeneous issues of the population, like change in population density, social behavior and movement of people could be more manifested, which are complicated to be taken into account for the statistical analysis. As our primary concern is to find the response of the SARS-CoV2 to different meteorological factors as well as the global properties of the spreading of the virus over space and time, the major cities with a higher population are more appropriate for the statistical analysis of the data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression Models for I"
+        },
+        {
+            "text": "In building up regression models, our approach is different from the conventional models like SIR models (Anderson and May,1979; Jong et al., 1995; Dietz 1985) in which S, I and R correspond to the number of susceptible, infected and recovered individuals, respectively. In some modified models, the number of deaths due to viral infections have also been considered.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 128,
+                    "text": "(Anderson and May,1979;",
+                    "ref_id": null
+                },
+                {
+                    "start": 129,
+                    "end": 147,
+                    "text": "Jong et al., 1995;",
+                    "ref_id": null
+                },
+                {
+                    "start": 148,
+                    "end": 159,
+                    "text": "Dietz 1985)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Regression Models for I"
+        },
+        {
+            "text": "As the aim of our study is to determine the influence of the meteorological factors on the spreading of virus infection, we are mainly concerned with the number of infected individuals I. The number of persons recovered or dead also depends on various other factors, like immunity of the person, hospital facilities nearby, etc. which are not related to the virus explicitly. Although these numbers do influence S in the early period of the pandemic (which we are considering), they can be easily ignored because of being relatively much smaller than I. In finding the connection of the spreading of the virus with the meteorological factors and time, the proportionate mixing I = I/N will be considered as a parameter for the spreading of virus and, instead of I, the evolution of the parameter I will be studied in this work. This has the advantage as the upper limit of the quantity I is normalized to unity for a total population N in any city. It is legitimate to assume that the evolution of I depends only on the properties of the virus namely, its' response to different meteorological factors and response to the human host. So to find the evolution of I , one may consider together all the data on the number of infected cases corresponding to different major cities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression Models for I"
+        },
+        {
+            "text": "We have not considered a priori any specific form for evolution of I with time T i, like conventional model that takes into account an exponential increase in the number of infected cases with respect to time. The reason behind this is that in the SIR models, the rate 6 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression Models for I"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 of increase in the number of infected persons I with time T i will be proportional to the proportion of infectious contacts (I/N ). The model assumes that further infections occur due to the direct contact with the infected people and one follows the principle of mass action in chemistry where the proportionate mixing I/N stands for the concentration of some substance. But in the case of viral infections, it should be considered as the contacts of a large number of viruses with the population N to some extent like the scattering of elementary particles. This is because infections will be happening due to virus which could be in the air, which could be on the surface of some material, which could be due to the large number of viruses coming from the sneezing or cough of infected people. Furthermore, viruses coming from one infected person, may infect a large or a few number of people depending on the contacts with the numbers of individuals. That tells that the rate of increase in the number of infected individuals should not be considered to be proportional to the number of already infected persons I. So considering the viral infection problem as the one similar to the law of mass action in chemistry may not be correct and the rate of increase may not be proportional to I/N . In that case, the exponential time dependence which is a solution to I coming from the first order differential equation in I and time T i in which dI dT i is proportional to I, may not be correct. For these reasons, in building up regression models, in the time evolution part of I , we have explored other possible functional forms with time T i as variable. However, we have also explored the possibility of exponential time dependence, although that is not necessarily equivalent to considering that dI dT i is proportional to I and will be explained further in the later part of the paper.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In the absence of our understanding of the relationship of I with time T i at this point of discussion, it is kept as I \u221d F 1 (T i) where F 1 (T i) is some function of time. For building up models, the relationship of I with various meteorological factors like temperature (T in 0 C), relative humidity (H in percentage) and wind velocity (W in Km/hr) are written in terms of another function F 2 (T, H, W ) which has no explicit T i dependence and are separate from F 1 and we consider I \u221d F 2 (T, H, W ). However, T, H and W may or may not vary with time and may have no explicit time dependence. So we may write I as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "where the constants of proportionality are absorbed in the functions F 1 and F 2 . Corresponding to each additive term on the right hand side, one proportionality constant is expected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "7 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10. 1101 /2020 These constants could be related to the interactions of virus with individuals and with environment, its' self replication processes and so on. In the product of the two functions F 1 and F 2 , it is expected that each additive terms should have T i or its higher power as a factor, but T, H and W may or may not be present. This is because at T i = 0, I is assumed to be zero. The rate R of increase of I with time can be written, as the total derivative for which R = R tot is written as",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 99,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "where T, H and W are assumed to vary smoothly with time T i. However, under the assumption that T, H and W are not changing with time T i (which is in general not true, but may be considered as an approximation for a few days when the values of T, H and W are not changing significantly ) we can write R as partial derivative for which R = R part is written as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "One may note that in our discussion, dF 1 (T i)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We will refer R as R part in general. On the right-hand side of the above equations all terms are related to the properties of the spreading of virus. To identify these features from our statistical analysis, data on the number of infection cases of different cities were taken by considering I = I/N corresponding to different T, H, W, T i values. From the proper fitting with data points, we will determine the two functions F 1 and F 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "To smoothen the local fluctuations in the data (like say the number of cases recorded after a day or the variations of temperature, relative humidity or wind velocity) over a short period, which should not appear as a global effect, all the data were averaged over a period of three days. These averaged data points were tried to fit with various possible functional forms of F 1 and F 2 . We have considered various forms for F 1 and F 2 including linear, bi-linear, tri-linear, non-linear and other simpler forms. For F 1 exponential form has also been tried. For statistical analysis two types of data are considered -one before lockdown/travel restrictions and another combining both before and after lockdown/travel restriction data, as stated earlier. In this work, six possible models are presented -three with before lockdown/travel restrictions and three with both before and after restrictions data. For two models, F 2 is function of only T and H as shown in Table - I. For the other four models ( in which for two before lockdown/travel restrictions data and for the other 8 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 970,
+                    "end": 977,
+                    "text": "Table -",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10.1101/2020.05.26.20113985 doi: medRxiv preprint two both before and after restrictions data has been used), the function F 2 also depends on wind velocity (Table -II) . In deciding these models we have taken care of mainly four criteria: 1) adjustedR 2 value which indicates the goodness of fit, 2) the p value for the parameters appearing as coefficients with the various variables in F 1 and F 2 which indicates what is the probability of the values of those parameters not to be so, 3) the randomness in the residue plots (not shown in the paper) indicating somewhat appropriateness of the choice of functional forms, 4) predictive power of the model beyond the data points. We have imposed the condition p < 0.05 which determines the model to be statistically significant. For statistical analysis, Mathematica (URL: https://www.wolfram.com/mathematica) has been used. Based on above four criteria, we shall discuss at the end, which one out of six models presented here appears more appropriate.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 248,
+                    "end": 259,
+                    "text": "(Table -II)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10.1101/2020.05.26.20113985 doi: medRxiv preprint both before and after lockdown/travel restrictions data for statistical analysis. F 2 depends linearly in T and H with positive coefficients. Then there is bilinear term T H with negative coefficients. This is expected to be related to the condition showing the lack of stability of the virus under certain temperature and relative humidity subject to the strength of the linear terms in T and H. The p values of the parameters are given in the same order as they ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "10"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10. 1101 /2020 appear in the fitted equation in Table- I. As I varies with T i 2 , the number of infected cases also varies like that. From eqn (3), it follows that R = R part \u221d T i, so the rate of increase in the number of infections, also varies linearly in time. Based on the four criteria mentioned earlier, the model (B) seems to be better than the model (A) for which particularly various p values are much smaller than the model (A) indicating much better statistical significance.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 99,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 145,
+                    "text": "Table-",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Also the adjustedR 2 value is higher in comparison to model (A). Like model (A), in the case of the model (B) also, F 2 has no dependence with wind velocity (W ), and the rate R = R part varies linearly in time T i.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The Table II presents another set of four models in which F 2 depends on wind velocity W also, apart from its' dependence on T and H. In model (C), both before and after lockdown/travel restrictions data have been considered. The F 2 function for this model, has similar linear dependence with T and H like models (A) and (B) in Table -I there is W dependence in F 2 . It has the best goodness of fit as seen through the highest adjustedR 2 value among all models. Except for the coefficient of W dependent term in F 2 , the p values for other coefficients corresponding to different terms are quite low. F 1 varies as T i 2 like the other four previous models.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 4,
+                    "end": 12,
+                    "text": "Table II",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 329,
+                    "end": 337,
+                    "text": "Table -I",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Based on the predictive power of the model beyond data points considered, we have eliminated several models with other possible forms of F 1 and F 2 . One the basis of the 11 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10. 1101 /2020 other three criteria mentioned earlier, one may draw the following conclusions: considering all six models, it seems that the models having F 2 without wind velocity W , are somewhat better than those with W . Also the models based on before lockdown/travel restrictions data seems to be better. The model (B) appears to be the best among all these models as the goodness of fit with data reflected throughR 2 value is better than all others except model (F), p values of various numerical coefficients are much lower than those for other models, residual plots also shows that the model differs lesser from the observed data points in comparison to other models. However, among models with wind velocity W , model (F), seems to be better. If we consider both before and after lockdown/travel restrictions data, then the model (A) seems to be slightly better because of the lesser number of parameters involved in the model. ",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 99,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "This means there is always acceleration in the increase of I and hence also an aceleration in the increase in the number of infectious individuals and \u2202 2 I \u2202T i 2 is always non-zero. This will be further explained at the end of the result section 4. For the model (E), R is written as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Here, even the higher derivatives of I still depends on time. Had F 2 been a constant or 1, in other words, had the number of infectious individuals not depended on T, H, W , in that case only, one could write dI dT i \u221d C 3 I which is somewhat like SIR models considered extensively. But from the statistical analysis it is found that F 2 has functional dependence with T, H and also in some models with W and by writing dI dT i \u221d C 3 Log[F 2 ]I one does not get back I appropriately. So it seems difficult to get SIR kind of models even corresponding to the model (E) which has exponential time dependence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The number of infected cases for a population of 5 \u00d7 10 6 is shown in contour plots in CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results for different models"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10.1101/2020.05.26.20113985 doi: medRxiv preprint is expected to cause more or less infection or no infection. To get the number of cases, I has been multiplied by the total population N . In Figure 1 , we have considered I after 20 days and have assumed that the same temperature and relative humidity is there for entire 20 days. We have discussed the variations of temperature and humidity just before conclusion.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 283,
+                    "end": 291,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The number of cases is not so important in the figure rather the understanding of how virus is more viable for certain meteorological determinants is important . For example, for lower temperature around 0 0 C or below, the number of infected cases is expected to be more with higher relative humidity above about 65 % than that with relative humidity around 30% to 60 %. When the temperature rises above 10 0 C then the number of cases may gradually rise with lower relative humidity values with the maximum number of infection cases at a relative humidity below 20% and the temperature above 35 0 C. Conversely, with higher relative humidity above 70 % the number of cases is expected to drop significantly.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "From Figure 1 , it follows that according to model (B) around 5 0 C to 10 0 C unless relative humidity is above 60%, the probability of viral infection is expected to be very low. On the other hand, for higher temperatures above 15 0 C and relative humidity above 70%, the probability of infection is very low. However, for temperatures higher than 20 0 C and the relative humidity lower than 40%, the infection probability is very high, even higher than that expected in model (A). The unshaded regions in Figure 1 correspond to absence of viral 13 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 5,
+                    "end": 13,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 507,
+                    "end": 515,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10.1101/2020.05.26.20113985 doi: medRxiv preprint infections for the corresponding temperatures and relative humidities. From Figure 2 Model (C), it is evident that when wind velocity is considered at 10 Km/hr, the probability of infection with variation in temperature and relative humidity is very much similar to that of model (A) in Figure 1 , except that the probability of infection is almost nil for temperature above 30 0 C and relative humidity above 60%, whereas for model (A) it is above 70% relative humidity. Also, in Model (C), the probability of infection is almost nil for temperature around \u221210 0 C and relative humidity below 30%, whereas for model (A) it is below 35% relative humidity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 217,
+                    "end": 225,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 428,
+                    "end": 436,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "14 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 that F 2 in Model (F) also depends on W linearly.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The effect due to the variation of wind velocity in the range 0 to 25 Km/hr can be seen in Figure 3 for all the models presented in Table II . For these models, the regions for no viability of virus infections, related to lower temperature and lower relative humidity and also related to higher temperature and higher relative humidity; becomes larger for higher wind velocity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 91,
+                    "end": 99,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 132,
+                    "end": 140,
+                    "text": "Table II",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Probably it happens because virus are blown away more by the stronger winds even to the areas where hosts do not come into contact with the virus easily. However, statistically the dependance of I on wind velocity W , seems not that significant like temperature and relative humidity as reflected in the relatively greater values of p parameters corresponding to W terms in comparison to those for non-W terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "To get the actual number of infected cases I is to be multiplied by the total population having almost homogeneous mixing and also it is required to take care of the variations of In Figure 4 , the rate of increase of I written as \u2202I \u2202T i in equation (4) is shown for three 16 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 191,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. statistically significant models (A), (B) and (F) for temperature 35 0 C and relative humidity 55%. One can see that \u2202I \u2202T i is increasing linearly with time. However, the gradients of the straight lines corresponding to different models are different. For the chosen temperature and relative humidity, \u2202I \u2202T i for model (B), is always higher than those for the model (A) and (F). As stated earlier in section 3, there is non-zero rate of increase of \u2202I \u2202T i which implies that the increase in I , is associated with some acceleration with time T i. Let us consider the motion of an object with some acceleration, then total displacement of the object is 1 2 f T i 2 with initial zero velocity. If we compare this displacement with I , then acceleration f associated with I could be written as f = 2F 2 . Acceleration is understood from F 1 , however, its magnitude is controlled by the environmental factor F 2 . So the magnitude of the acceleration depends on the temperature, relative humidity and in some models also on wind velocity. If we consider further, the variation of temperature or relative humidity with time T i, then \u2202I \u2202T i will get the further contribution from the second term on the right-hand side of the equation (2). In this case, \u2202I \u2202T i will vary to some extent with T i 2 also and the plots of \u2202I \u2202T i versus T i will show deviations from the straight lines in the above figure. 17 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1470,
+                    "end": 1477,
+                    "text": "figure.",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10.1101/2020.05.26.20113985 doi: medRxiv preprint 5. Exploring Link of F 1 and F 2 with biophysical and biochemical features of",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In statistically significant models (A), (B) and (F), F 1 -the time evolution part of I , varies as T i 2 . From the relationship of I with time T i shown in Table I i.e. lower temperature-higher humidity and higher temperature-low to ambient humidity as found in Figure 1 Model (B). Such nature of interaction can be explained by the physicochemical characteristics of respiratory droplets or aerosol and the structural features of the virus itself. The enveloped virus SARS-CoV-2 has a positive sense, single-stranded RNA genome which encode four important structural proteins, namely spike glycoprotein (S), envelope protein (E), matrix glycoprotein (M), and nucleocapsid protein (N). The S glycoprotein is surface exposed and mediates the viral entry into host cells. The S-protein comprises two regions S1 and S2, where S1 is responsible for binding to the receptor of the host cell and S2 is for the fusion of the viral and cellular membrane. Like SARS-CoV, SARS-CoV-2 attaches the host cells through the binding of receptor-binding domain (RBD) of S1 region to the angiotensin converting enzyme 2 (ACE2) (Schoeman and Fielding, 2019; Walls et al. 2020) . Although, during infection SARS-CoV and SARS-CoV-2 recognize the same target protein, the pandemic impact of the later happens to be more severe with continuous worldwide increase in the number of infection cases and mortality.",
+            "cite_spans": [
+                {
+                    "start": 1111,
+                    "end": 1140,
+                    "text": "(Schoeman and Fielding, 2019;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1141,
+                    "end": 1159,
+                    "text": "Walls et al. 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 158,
+                    "end": 165,
+                    "text": "Table I",
+                    "ref_id": null
+                },
+                {
+                    "start": 264,
+                    "end": 272,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "SARS-CoV-2"
+        },
+        {
+            "text": "Several factors including, the structural features of virus for persistence in the environ-18 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SARS-CoV-2"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . ment and human contact might be associated with the severe infection of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Recently, an experimental study based on Cryo-EM structure of the SARS-CoV-2 spike protein in prefusion conformation has suggested higher binding affinity of SARS-COV-2 with human ACE2 than SARS-COV (Wrapp et al., 2020) . Another study on the proteinprotein interaction and molecular dynamics simulations of RBD-ACE2 complex for SARS-COV-2 and SARS-CoV showed significantly lower binding free energy of the SARS-COV-2 RBD-ACE2 interaction (-50.43 kcal/mol) compared with SARS-CoVRBD-ACE2 interaction (-36 .75 kcal/mol) and thus suggesting higher binding affinity of SARS-COV-2RBD-ACE2 interaction (He et al., 2020) . Ou et al., (2020) analyzed the SARS-COV-2RBD mutations worldwide and found the equilibrium dissociation constant of three RBD mutants to be two orders magnitude lower than the prototype Wuhan-Hu-1 strain indicating remarkable increase in the infectivity of the mutated viruses.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 219,
+                    "text": "(Wrapp et al., 2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 500,
+                    "end": 504,
+                    "text": "(-36",
+                    "ref_id": null
+                },
+                {
+                    "start": 597,
+                    "end": 614,
+                    "text": "(He et al., 2020)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 617,
+                    "end": 634,
+                    "text": "Ou et al., (2020)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Apart from the increased binding affinity of SARS-COV-2 to ACE2, the severity of COVID-19 can also be determined by the stability of the virus in the environment. Although most of the studies on the effect of meteorological factors on the COVID-19 have speculated the decline in infection with an increase in environmental temperature and humidity (He et al., 2020; Wang et al., 2020) , the number of infection cases in reality is increasing sharply with the rise in temperature. One may note that this increase at higher temperature is the general feature of all the models in Table I and II particularly for lower humidity. The persistence of the virus at higher temperatures can be explained in the context of the stability of the spike protein because it is a critical component determining the infectivity. A lengthy molecular dynamics simulation of trimeric spike proteins of SARS-COV-2 and SARS-CoV has shown that the spike protein of SARS-COV-2 has significantly lower total free energy (-67,303 .28 kcal/mol) than the spike protein of SAR-CoV (-63,139.96 kcal/mol) . Similarly, the free energy of the RBD of SARS-COV-2 spike protein is relatively lower than that of SARS-CoV. The results thus explained increased stability of SARS-COV-2 spike protein at higher temperature (He et al. 2020) . Several studies have been carried out on the effect of relative humidity on the survival and infectivity of enveloped and non-enveloped viruses (Benbough 1971; Shaman and Kohn; Pica and Bouvier, 2012; Marr et al. 2019) . When the virus is released into the environment as part of a respiratory fluid droplet, relative humidity of environment controls the amount of water evaporated from the droplet until equilibrium with the surrounding air is maintained/reached (Prussin et al.,",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 365,
+                    "text": "(He et al., 2020;",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 366,
+                    "end": 384,
+                    "text": "Wang et al., 2020)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 995,
+                    "end": 1003,
+                    "text": "(-67,303",
+                    "ref_id": null
+                },
+                {
+                    "start": 1052,
+                    "end": 1073,
+                    "text": "(-63,139.96 kcal/mol)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1282,
+                    "end": 1298,
+                    "text": "(He et al. 2020)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1445,
+                    "end": 1460,
+                    "text": "(Benbough 1971;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1461,
+                    "end": 1477,
+                    "text": "Shaman and Kohn;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1478,
+                    "end": 1501,
+                    "text": "Pica and Bouvier, 2012;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1502,
+                    "end": 1519,
+                    "text": "Marr et al. 2019)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 578,
+                    "end": 585,
+                    "text": "Table I",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "19"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 2018). The respiratory viral droplets or aerosol on exposure to lower to ambient relative humidity environment are subject to evaporation due to the vapour pressure gradient between its surface and air. As evaporation proceeds, the water vapour pressure at droplet surface decreases. The presence of lipid membrane in the enveloped viruses has been evidenced to protect their capsids from damage due to change in humidity leading to survival at lower humidity conditions (Benbough, 1971; .",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 577,
+                    "end": 593,
+                    "text": "(Benbough, 1971;",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Hence, a considerable higher infection level of SARS-COV-2 at low to ambient relative humidity and higher temperature as predicted in the present study could be related to the presence of structural features of the viral envelope and relatively stable spike protein with significantly lower free energy. Moreover, at lower relative humidity and higher temperature the respiratory droplet will undergo evaporation at a higher rate and the desiccated state of droplet will remain unaffected by the changes in temperature, causing higher infection rates. Infection is further enhanced due to more mobility of the smaller droplet size under high temperature and low humidity as such droplets can easily enter the human host. As predicted in this study, the experiments conducted by Prussin et al. (2018) showed that at 37 0 C temperature Phi6, a surrogate of influenza and coronaviruses, had the highest infectivity at 20-40% relative humidity. However, in the same experiment the virus showed a significantly higher level of infection throughout the entire range of relative humidity at lower temperature of 14 and 19 0 C. In our models for such temperature, infection occurs over a wide range of humidity but the level of infection is not very high.",
+            "cite_spans": [
+                {
+                    "start": 778,
+                    "end": 799,
+                    "text": "Prussin et al. (2018)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "On the other hand, our statistical analysis also showed an increase in viral infection at low temperature and high relative humidity as observed earlier for seasonality of influenza virus infection, which occurs at a significantly higher level during winters when average outdoors daily temperatures remains lower and relative humidity is higher ). The finding is also supported by the results of Prussin et al. (2018) reporting higher infectivity of Phi6 at lower temperature (10 \u2212 20 0 C) when relative humidity was kept constant at 75%. Probably at higher humidity with appropriate droplet size SARS-CoV-2 could remain wet by keeping it at slightly higher temperature with respect to the lower surface temperature of the droplet and thus remains viable for infection. However, our study indicates a complete reduction in infectivity of the virus under lower temperature and lower humidity condition. Under such condition, probably SARS-CoV-2 virus could not remain wet inside the droplets which are of smaller size and the lipid and 20 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 397,
+                    "end": 418,
+                    "text": "Prussin et al. (2018)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020. . https://doi.org/10.1101/2020.05.26.20113985 doi: medRxiv preprint the protein structure inside the virus gets deformed resulting in a reduction in viability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Furthermore, the predicted decrease in viral infectivity at a higher temperature and higher humidity in our models could be due to the reduced rate of evaporation of respiratory droplets at higher humidity, which consequently makes them highly susceptible to higher temperature resulting in non-viability of SARS-CoV-2 for infection. Furthermore, corresponding aerosols with bigger size falls down to the surface and loses the mobility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "This also could be a reason for the reduction in the viability of infection of SARS-CoV-2 at both high temperature and high humidity. according to Model B due to variation of relative humidity from 55 % in first 30 days to 40 % in the next 5 days and then to 75% after 35 days with temperature always at 35 0 C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In Figure 5 , considering most statistically significant model (B), an illustrative example of rise and fall of I which also means the rise and fall of the spreading of the virus, has been presented. Here, the variation of relative humidity with time T i for a fixed temperature at 35 0 C has been considered. The variation of both the temperature and relative humidity, also could have been considered but for simplicity, we have refrained from showing that. Also for simplicity, we have assumed the change in relative humidity is almost instantaneous. In this example, in the first 30 days, the relative humidity is H 1 = 55% and in the next 5 days it is H 2 = 40% and after 35 days it is H 3 = 75% and the temperature is always at T 1 = 35 0 C.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In general for model (B), I = F 2 (T, H)T i where F 2 (T, H) for Model (B) is given in Table I .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 94,
+                    "text": "Table I",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "21"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 To plot I in these three time periods the following functions for I has been used: I 1 = F 2 (T 1 , H 1 )T i 2 I 2 = F 2 (T 1 , H 2 )T i 2 + {F 2 (T 1 , H 1 ) \u2212 F 2 (T 1 , H 2 )} 30 2",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "21"
+        },
+        {
+            "text": "in which I 1 is to be considered with T i varying from 0 to 30, I 2 is to be considered with T i varying from 30 to 35 and I 3 is to be considered with T i varying from 35 to 65. From Figure 1 Model (B), one can see that at temperature 35 0 C, the number of infected cases is more for relative humidity 40% than that for relative humidity 55 %. So in Figure 5 , there is steeper rise in I during 30 to 35 days than that during 0 to 30 days. The temperature 35 0 C and relative humidity 75% is in the region where viral infections are not viable in Figure 1 Model (B). F 2 is actually negative in this region which should be interpreted as the fall in the spreading of the virus with which I is related. Once the weather is in such no viable region (which can be seen in Figure 1 and Figure 2 for various models) for the SARS-CoV-2 viral infections for some 10-14 days, one might expect that COVID-19 could go away. In statistical fitting the increase in I has been considered with time T i. In Figure   5 , the period from 35 to 65 days, corresponds to a fall in the spreading of the virus. We have considered that the function F 1 (which indicates the time evolution) and F 2 (which indicates the interactions of virus with the environment), will remain the same even during this period. Figure 5 is an illustrative example of how large cities could be free from COVID-19 in a natural way due to the change in the meteorological factors in the environment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 184,
+                    "end": 192,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 351,
+                    "end": 359,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 548,
+                    "end": 556,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 770,
+                    "end": 778,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 783,
+                    "end": 791,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 994,
+                    "end": 1004,
+                    "text": "Figure   5",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 1289,
+                    "end": 1297,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "21"
+        },
+        {
+            "text": "Based on statistical significance, the model (B) can be considered as most appropriate to understand the future outcome of COVID-19 in big cities. From Figure 1 model (B) , it appears that higher precautionary measures would be required in the cities during summer season with higher temperature and lower relative humidity, and during winter with low temperature and high relative humidity. On the other hand, the viability of SARS-CoV2 seems to be reduced at higher temperature with higher humidity and at lower temperature with lower humidity conditions in the environment, as depicted by the unshaded regions of Figure 1 and Figure 2 . The model (B) suggests that keeping the relative humidity below 60% in low temperature areas in hospitals and labs, such as in a cold room where temperature 22 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 170,
+                    "text": "Figure 1 model (B)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 616,
+                    "end": 624,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 629,
+                    "end": 637,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 is below 10 0 C, could prevent the viral infection among staff working in those conditions. In general, during summer days the relative humidity is higher and the temperature is lower in the evening and therefore, based on the model result, going out of home in the evening would be safer than that around noon.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "From data analysis on the spreading of COVID-19 virus, it is found that the increase in number of infected cases depends quadratically in time in a statistically significant way. This indicates the involvement of a certain kind of acceleration in the spreading of the virus which is related to the function F2. These features are expected for the spreading of any type of viruses which infect human host. However, further studies on exploring such acceleration and the relationship of F2 with the structural features of SARS-CoV2 would be worthwhile.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of competing interest"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of competing interest"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted May 29, 2020 . . https://doi.org/10.1101 /2020 ",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "May 29, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 72,
+                    "end": 99,
+                    "text": ". . https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 105,
+                    "text": "/2020",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Declaration of competing interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO. 2020. Coronavirus disease (COVID-2019) Situation Report",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The outbreak of COVID-19: An overview",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Chinese Medical Assoc",
+            "volume": "83",
+            "issn": "",
+            "pages": "217--220",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structure, function, and antigenicity of the SARSCoV-2 spike glycoprotein",
+            "authors": [],
+            "year": null,
+            "venue": "Cell",
+            "volume": "180",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Severe acute respiratory syndrome coronavirus as an agent of emerging and reemerging infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C V"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P S"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y P"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Clin. Microbiol. Rev",
+            "volume": "20",
+            "issn": "",
+            "pages": "660--694",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-toperson transmission: a study of a family cluster",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "514--523",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1199--1207",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Community transmission of severe acute respiratory syndrome coronavirus 2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Leu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "26",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.3201/eid2606.200239"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Aerosol and surface stability of SARS-CoV-as compared with SARS-CoV-1. New Engl",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bushmaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Holbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gamble",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1564--1567",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2004973"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Environmental factors affecting the transmission of respiratory viruses",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pica",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bouvier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Curr. Opinion Virol",
+            "volume": "2",
+            "issn": "",
+            "pages": "90--95",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Effects of air temperature and relative humidity on coronavirus survival on surfaces",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Casanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rutala",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sobsey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "App. Environ. Microbiol",
+            "volume": "76",
+            "issn": "",
+            "pages": "2712--2717",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Roles of humidity and temperature in shaping influenza seasonality",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "7692--7695",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Mechanisms by which ambient humidity may affect viruses in aerosols",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "App. Environ. Microbiol",
+            "volume": "78",
+            "issn": "",
+            "pages": "6781--6788",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Temperature significantly change COVID-19 transmission in 429 cities",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.22.20025791"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Temperature significantly changes COVID-19 transmission in (sub) tropical cities of Brazil",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Prata",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bermejo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci. Tot. Environ",
+            "volume": "729",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Temperature, humidity, and latitude analysis to predict potential spread and seasonality for COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Amoroso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3550308"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Population biologies of infectious diseases: Part I",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Nature",
+            "volume": "280",
+            "issn": "",
+            "pages": "361--367",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Coronavirus envelope protein: current knowledge",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schoeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Cryo-EM Structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Abiona",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1260--1263",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "BD mutations from circulating SARS-CoV-2 strains enhance the structure stability and infectivity of the spike protein. bioRxiv, Preprint server for",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.15.991844"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Molecular mechanism of evolution and human infection with SARS-CoV-2. Viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v12040428"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Some factors affecting the survival of airborne viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Benbough",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "J. Gen. Virol",
+            "volume": "10",
+            "issn": "",
+            "pages": "209--220",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Mechanisms by which ambient humidity may affect viruses in aerosols",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Appl. Environ. Microbiol",
+            "volume": "78",
+            "issn": "",
+            "pages": "6781--6788",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Survival of the enveloped virus Phi6 in droplets as a function of relative humidity, absolute humidity, and temperature",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Prussin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Schwake",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gallagher",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Buttling",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "App. Environ. Microbiol",
+            "volume": "84",
+            "issn": "",
+            "pages": "551--569",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Roles of humidity and temperature in shaping influenza seasonality",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "7692--7695",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Absolute humidity modulates influenza survival, transmission, and seasonality",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc. Nat. Acad. Sci",
+            "volume": "106",
+            "issn": "",
+            "pages": "3243--248",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Mechanistic insights into the effect of humidity on airborne influenza virus survival, transmission and incidence",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Mullekom",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lakdawala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "MATHEMATICA REFERENCE: Mathematica 12.1 Title: Mathematica Edition: Ver",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "68574 \u00d7 10 \u22128 , 1.93585 \u00d7 10 \u221210 , 1.5796 \u00d7 10 \u22128 , 2.6393 \u00d7 10 \u221210 Different regression models with the relationship of I with T , H and T i. p values of the numerical coefficients are in the same order of the coefficients in the fitted equations.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "but besides, it contains two bilinear terms T H and H W . Here, the coefficient of the bilinear term with W has p value just slightly less than 0.05 although p values for other numerical coefficients corresponding to other variables in F 2 are somewhat better. F 1 function is proportional to T i 2 and R part \u221d T i like models (A) and (B). For the model (D), only the data before lockdown/travel restrictions have been considered. In this case, p values for different numerical coefficients are somewhat better than the model (C) although the goodness of fit reflected through adjustedR 2 is slightly worse in comparison to model (C). But residuals plot (not shown here) seems better than the model (C). Unlike model (C), for model (D) F 2 is linear in W . F 1 varies as T i 2 like all other previous models. For model (E), both before and after lockdown/travel restrictions data have been considered. In this case, p values for different numerical coefficients are not that good like model (D). Although goodness of fit is slightly better than the model (D). The functional form of F 2 is very similar to the model (C). However, F 1 has exponential T i dependence unlike all other previous models. Model (F) is very similar to Model (B). However, unlike model (B), in the case of the model (F)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "of these models (A), (B), (C), (D), (F) show that I varies as T i 2 whereas model (E) shows I varies exponentially with time T i. This means that for the first four of these models, the rate",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "at different temperatures and relative humidities corresponding to model (A) and (B). One may compare different zones of temperature and relative humidity where the virus 12 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Contour plots of number of virus-infected persons with temperature and relative humidity in the first 20 days after the initial cases of infection. Different colors in the legend shows different ranges of the number of infected cases. Models are mentioned below each figure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Contour plots of number of virus infected persons with temperature, relative humidity and wind velocity in first 20 days after the initial cases of infection. Different colors in the legend shows different ranges of the number of infected cases. Models are mentioned below each figure.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Allowed region in 3d space of Temperature, relative humidity and wind velocity for which no. of virus infected persons are greater than 100 in first 20 days after the initial spreading. Models are mentioned below each figure.InFigure 2Model (D), for a fixed wind velocity of 10 Km/hr, the regions of no viral infections for both low and high temperatures are more in comparison to Model (A) and less in comparison to Model (B). InFigure 2Model (E), for a fixed wind velocity of 10 Km/hr, the region for no viability of virus infections is more in the high temperature region than all other earlier mentioned models and is less in the low temperature region than all other earlier mentioned models. InFigure 2Model (F), for a fixed wind velocity of 10 Km/hr, the regions for the viability and no viability of virus infections are almost the same as Model (B). One may note that the functions F 1 and F 2 of Model (F) are like Model (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "different meteorological factors (T, H, W ) with time T i. We have illustrated how to take care of such variations, in the earlier section. In various Figures except the last one, we have not considered the variations of T, H, W with time T i. Although wind velocity appears to be not so significant statistically, but according to Figure 3 Model (F), the higher wind velocity possibly could reduce the transmission of the virus by a small amount as observed in Figure 2 and 3 for Model (F). We have not analysed the data of infected cases where lock-down/travel restrictions have been imposed quite early like the case of India say. But even in such cases, the functional form of F 2 and F 1 in I , should not differ except that some scaling on I should be considered. This scaling will differ from place to place depending on the stringent nature of the restrictions. One may find such scaling by taking the ratio of the expected number of infected cases from the models with total population N after taking into account the time T i and also the variation of various meteorological parameters at different time; to the actual number of infected cases. This could be useful only to estimate approximately the actual number of infected cases in the future. But the general features regarding spreading of the virus as reflected in different figures shown in this work, remain the same. Such scaling should be considered for smaller cities also to understand and estimate approximately the number of SARS-CoV-2-infected cases, where the movement of people are different with respect to large cities.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "and II, there is increase of I with the increase of time T i. However, as discussed in the context of Figure 4, there is also increase in the rate of increase of I with time T i. The increase in I may be linked with various kind of transmission of the virus. Violent respiratory events like coughs and sneezes help transmitting virus. There could be long-range air-borne transmission of viruses as well as short-range large droplet transmission. Also the virus could be transmitted through direct contact. All these together, will result in an increase in the number of infected persons as well as an increase in I . Comparing with the motion of an object, the transmission of virus could be thought of as the velocity which is initially zero. The reason behind the increase in the rate of increase of I with time is linked with F 2 as discussed earlier. Let us consider the statistically most significant model (B) in which F 2 depends on temperature T and relative humidity H. Our statistical analysis through function F 2 indicates a complex interaction between COVID-19 infection and meteorological parameters. The infection is expected to enhance under two different combinations of environmental conditions",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Plot showing rise and fall of I implying rise and fall of the spreading of virus SARS-CoV-2",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Table-I, we have presented two models where F 2 only depends on temperature T and relative humidity H but not on wind velocity W . In model (A), we have considered",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Regression models with wind velocity",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "I = (0.0000266886 T + 4.99888 \u00d7 10 \u22126 H \u2212 5.93897 \u00d7 10 \u22127 T H \u2212 1.26361 \u00d7 10 \u22127 H W ) e 0.118656 T i I = (\u22120.0000385506 + 4.2459 \u00d7 10 \u22126 T + 6.19105 \u00d7 10 \u22127 H \u2212 6.26551 \u00d7 10 \u22128 T H \u2212 1.30748 \u00d7 10 \u22127 W ) T i 2 Different regression models with the relationship of I with T , H, W and T i. p values of the numerical coefficients are in the same order of the coefficients in the fitted equations.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We are grateful to USAFacts, U.S.A., the Centro de Coordina\u0107 \u0131 on de Alertas y Emergencias Sanitarias (CCAES), Spain, Ministero della Salute, Italy, and World Weather Online for providing access to their collected data. No funding was received for this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgement"
+        }
+    ]
+}

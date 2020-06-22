@@ -1,0 +1,1636 @@
+{
+    "paper_id": "95f1f303ddd91a1f8247bd5fdbd4a6998a5c9411",
+    "metadata": {
+        "title": "0123456789) 1 3 Journal of Community Health",
+        "authors": [
+            {
+                "first": "Barbara",
+                "middle": [
+                    "J"
+                ],
+                "last": "Turner",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yuanyuan",
+                "middle": [],
+                "last": "Liang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "Ambili"
+                ],
+                "last": "Ramachandran",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ramin",
+                "middle": [],
+                "last": "Poursani",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Community health workers (CHWs) can reduce health disparities for low income patients but type of contact and outcomes has had limited study. Low-income Hispanic primary care patients with hemoglobin A1c [HbA1c] \u2265 9% received care managment (CM) over 6 months classified as: (CM1) telephone only; (CM2) clinic visit but no calls; (CM3) clinic visit with calls; and (CM4) \u2265 2 visits \u00b1 calls. Type of CM delivery and time to DM control (HbA1c < 9%) examined in Cox proportional hazards model and more rapid control within 6 months using logistic regression. Models adjusted for demographics, clinical, and health care variables. At baseline, 523 patients had mean HbA1c 10.9% (SD = 1.7%), mean age 57.9 years (SD = 10), 58.5% women, 87.6% Hispanic, and 55.5% uninsured. CM types for patients: 51 (9.8%) CM1; 192 (36.7%) CM2; 44 (8.4%) CM3; and 236 (45.4%) CM4. Median time to HbA1c control was 197 days (95% CI [71, 548]) and 41.5% achieved control within 6 months. Compared with CM1, control was more rapid for CM2 (Hazard ratio [HR] 1.45, 95% CI [1.01, 2.09], p = 0.043) and CM4 but not significant (HR [95% CI] 1.29 [0.91, 1.83], p = 0.15)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ". Adjusted odds of more rapid control within 6 months were twofold higher for CM2 (p = 0.04) and CM4 (p = 0.055), respectively, versus CM1. CM2 did not differ from CM1. DM control was less likely for CM by telephone only than face-to-face in clinic. To benefit vulnerable patients with uncontrolled DM, in-person engagement may be required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Lifetime risk of diabetes mellitus for Hispanic men and women in the U.S. exceeds 50% which far exceeds that for the non-Hispanic white population [1] . Once diagnosed with diabetes, Hispanics experience greater morbidity from complications and mortality [2] . Successful management of diabetes requires patient education and supportive resources to promote treatment adherence and healthier lifestyle. Greater social support has been associated with a lower risk of diabetes among Hispanics of diverse backgrounds [3] and greater self-efficacy to manage diabetes in some Hispanic groups [4] . Community health workers (CHWs) serve a key support role as they come from similar communities and understand challenges of managing diabetes. CHWs address limited health literacy, needed resources and care, and behavioral change [5, 6] .",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 255,
+                    "end": 258,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 515,
+                    "end": 518,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 588,
+                    "end": 591,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 824,
+                    "end": 827,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 828,
+                    "end": 830,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A systematic review of randomized controlled trials of CHW support and education for diabetes reported improvement in patient-reported outcomes such as knowledge, self-care behaviors, emotional distress/well-being, and medication adherence [7] . A narrative review of randomized trials reported modest improvement in control with CHW care management as assessed by hemoglobin A1c (HbA1c), especially for patients with higher baseline levels [8] . Yet most interventions were face-to-face and this review deemed the benefit of telephone-based interventions as inconclusive [8] . However, face-to-face home visits are resource intensive and office visits can be challenging to coordinate with clinician visits. Phone calls may be more readily implemented in practices with high demand for patient support.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 243,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 441,
+                    "end": 444,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 572,
+                    "end": 575,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study examines a pilot CHW project undertaken for a Texas' Transformation and Quality Improvement Program (1115 Medicaid waiver) project in urban primary care practices serving primarily Hispanic patients. The project aimed to improve both diabetes and hypertension control among patients with diabetes. Patients with uncontrolled diabetes based on a HbA1c \u2265 9% were offered CHW care management in face-to-face meetings in clinic, by telephone, or both. This retrospective cohort study examines the association of the type of CHW contacts for care management delivered over a 6-month period and time to control based on a HbA1c < 9% as well as more rapid achievement of control within 6 months.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The 1115 Medicaid Waiver allowed the state of Texas to expand Medicaid managed care and services for the uninsured. Through this 1115 Medicaid waiver, a pilot project to improve diabetes outcomes was conducted in a family medicine and a general internal medicine residency practice serving low income Hispanic-majority communities. The waiver set HbA1c < 9% as the diabetes control goal.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Setting and Patients"
+        },
+        {
+            "text": "For this project, an electronic medical record (EMR) registry was created for patients aged 18-75 years and diagnosed with diabetes at one inpatient or two outpatient encounters (ICD-9-CM 250.xx or ICD-10 E10.xx or E11. xx) or HbA1c \u2265 6.5%. The registry included: demographics; diagnoses; medications; test results; and health care utilization [9] . Patients were eligible for CHW support with a HbA1c \u2265 9% or clinician referral. Eligibility criteria for this study were: most recent HbA1c \u2265 9%; clinic care initiated by January 2013; and at least two clinic visits from January 2014 through December 2017 (Fig. 1 ). Exclusions included: no CHW encounter; fewer than two HbA1c tests; and less than 6 months in care after initiating CHW support.",
+            "cite_spans": [
+                {
+                    "start": 344,
+                    "end": 347,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 606,
+                    "end": 613,
+                    "text": "(Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Setting and Patients"
+        },
+        {
+            "text": "Four bilingual (Spanish or English) CHWs-also called promotoras-were certified by the Texas Department of Health and Human Services to serve in this role after completing approved training. CHWs received 20 h of specific training for our project on: diabetes epidemiology; complications; medications; treatment goals; and evidence-based medication adherence supports. CHWs also received print and electronic information (Spanish and English) to share with patients, family, and caregivers about community resources, affordable healthy diet for diabetes, and physical activities. CHWs reviewed and practiced motivational interviewing skills to promote patient-centered care. CHWs met weekly with clinic directors and the research team to review successes and challenges.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CHW Support and Counseling Program"
+        },
+        {
+            "text": "CHWs were charged with contacting all eligible patients by telephone and/or in clinic. Clinic contact was attempted whenever time and space were available. The 15-30 min CHW-patient meetings addressed: access to prescribed medications/devices (e.g. glucose monitor); medication adherence; access to a local health care financial assistance program; and lifestyle changes. CHWs attempted to follow-up with patients at least once. Staff-directed group diabetes education classes were also offered. The CHW or a research staff member recorded all patient encounters and type (phone or visit) in a REDCap database. This analysis considered only telephone calls personally with the patient while calls with family members or visit reminder messages were not.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CHW Support and Counseling Program"
+        },
+        {
+            "text": "The primary outcome was time from initiating CHW support until the first HbA1c < 9%. A secondary outcome more rapid achievement of control as demonstrated by a HbA1c < 9% within 6 months after CHW initiation (Yes/No).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dependent Variables"
+        },
+        {
+            "text": "Type of CHW care management [CM] delivered over 6 months was classified as: CM1-no visits and one or more telephone calls; CM2-one visit but no calls; CM3one visit and one or more calls; and CM4-two or more visits with or without calls. Baseline data from the registry before CM initiation included: demographics (age, race/ ethnicity, and sex); clinical (Elixhauser comorbidity score [10] , most recent HbA1c, and diabetes medications/dose), and health care (insurance, primary care provider (PCP) visits in prior 6 months, offer of diabetes group visit). During the study years, available diabetes medications for these low income patients were insulin and/or four classes of oral diabetes drugs: biguanides (e.g., metformin), sulfonylureas (e.g., glimepiride); thiazolidinediones (e.g., pioglitazone), and dipeptidyl peptidase IV inhibitors (e.g., sitagliptin). With the guidance of a pharmacologist, dose of insulin (units/d) was classified as four levels (none; low < 50; medium 50-99; or high \u2265 100). Dose of each oral diabetes medication was assigned a point score as: minimum (1); minimum to less than maximum (2); or maximum (3) These points were totaled for a maximum of three oral drugs (range 1-9) and categorized as: none, low (1-3), medium (4-6), or high (7-9).",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Independent Variables"
+        },
+        {
+            "text": "We ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "The authors declare that they have no conflicts of interest. The Institutional Review Boards of both University of Texas Health Science Center at San Antonio and University Health System (UHS) approved the study and judged this quality improvement study as exempt from patient consent. The funding agency had no role in conducting or analyzing the results of this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        },
+        {
+            "text": "The study cohort included 523 subjects with a mean age of 57.9 years (SD = 10) and 58.5% women ( In regard to type of CM received over 6 months, 236 (45.1%) subjects received at least two office visits with or without telephone calls (CM4). One office visit with a CHW but no telephone calls (CM2) was received by 192 subjects (36.7%) while only telephone calls (CM1) or one visit with telephone calls (CM3) was received by 51 (9.8%) and 44 (8.4%) subjects, respectively. Type of CM received was not significantly associated with patient demographics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Mean baseline HbA1c was 10.9% (SD = 1.7%) and mean Elixhauser comorbidity score was 4 (SD = 2.4) ( Table 2) . Oral diabetes medication without insulin was prescribed for 29.1% of subjects, 24.3% received only insulin, and onethird received oral drugs with insulin. Only 13.8% of subjects were not treated at baseline. Among subjects receiving oral diabetes drugs, the most frequent dose category was medium but, among subjects treated with insulin, the most frequent dose was low. Significant differences by type of CM included higher comorbidity score for CM1 subjects and more prior PCP visits for CM1 and CM2 subjects.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 99,
+                    "end": 107,
+                    "text": "Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Both CM2 (one visit, no calls) and CM4 (two visits or more visits, with or without calls) were associated with a shorter time to diabetes control than CM1 (only calls) or CM3 (one visit and calls), log-rank p = 0.053 (Fig. 2) . Not shown, median time (days) to control was: 350 days for CM1; 159 days for CM2; 281 days for CM3; and 197 days for CM4. Compared with CM1 (reference), the adjusted hazard ratio for diabetes control for CM2 was 1.45 (p = 0.043) and 1.29 for CM4 but not significant (p = 0.15). CM3 did not differ from CM1 ( Table 3 ). The Cox model also showed that Fig. 2 Kaplan-Meier curves for time to first hemoglobin A1c < 9% after case management initiation for patients categorized by four case management typologies a longer time to control (p < 0.05) was required for: greater comorbidity; higher dose oral diabetes medication; low or high dose insulin; and 1-2 primary care visits in past six months versus none. By 6 months after CM initiation, the entire cohort had a mean HbA1c reduction of \u2212 1.37% (SD = 2.2%) but the reduction was even greater for CM2 (\u2212 1.58% [SD = 2.33%], not shown). Overall, 41.5% of the cohort achieved more rapid diabetes control by 6 months. Adjusted odds of control by 6 months were approximately twofold higher for CM2 (p = 0.046) and CM4 (p = 0.055) versus CM1 (Table 4) . Again, CM3 did not differ from CM1. Rapid control within 6 months was negatively associated with greater comorbidity (p = 0.001) and low dose insulin (p = 0.05). Five or more PCP visits within the 6 months prior to CM initiation was associated with over two-fold higher adjusted odds of achieving rapid control versus none (p = 0.016).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 217,
+                    "end": 225,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 536,
+                    "end": 543,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 578,
+                    "end": 584,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1315,
+                    "end": 1324,
+                    "text": "(Table 4)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In a systematic review examining multiple chronic conditions, CHW care management (CM) was reported to be cost effective for low-income, underserved patients but the specific types of CHW contact were not assessed [11] . Among 523 primarily Hispanic primary care subjects with poor diabetes control, this 3-year observational pilot study suggests that CHW contact only by telephone (CM1) was less likely to achieve control over time compared with face-to-face meetings (CM2 and CM4). This difference translated into a median of more than 150 days longer to achieve control for subjects receiving CM1 (350 days) than for those with either CM2 and CM4 (both less than 200 days). Our study also found that patients who received either CM2 or CM4 had approximately two-fold higher adjusted odds of achieving control more rapidly within 6 months after CM initiation as compared to CM1.",
+            "cite_spans": [
+                {
+                    "start": 214,
+                    "end": 218,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Other studies have observed less benefit from telephone CHW support. A review of telephone-based diabetes management by lay health workers judged the evidence to be weak [12] . A randomized trial of telephone-based diabetes counseling by CHWs in a local health department reported no improvement in HbA1c control among low income subjects [13] . CHW support may also require individualized in-person encounters; a randomized trial of group-based diabetes education by CHWs for Hispanics with uncontrolled diabetes did not reduce HbA1c [14] .",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 535,
+                    "end": 539,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The significant improvement among subjects with one face-to-face CHW clinic visit compared with those receiving telephone contacts remained after adjusting for diverse demographics, treatment, and health care variables. It is possible that these individuals required only limited support to address their barriers to following the treatment plan. Future studies should aim to identify characteristics of patients with uncontrolled diabetes who might not require more intensive face-to-face CHW support because CHW interventions have usually involved numerous encounters. A trial of four CHW home visits with an average of 20 telephone calls achieved a significant reduction in HbA1c [15] . Similarly, up to 36 home visits by CHWs plus calls significantly reduced HbA1c among Mexican-American subjects at 1 and 2 years follow-up [16] . Among subjects with mean baseline HbA1c 9.6%, a CHW intervention of up to 17 visits reduced mean HbA1c by 0.47% at 6 months versus controls and was maintained after 12 and 18 months [17] . However, the sustainability of CHW support for low income primary care patients requires attention to the infrastructure required for in-person clinic encounters including space, CHW time, and systems to encourage patients to take advantage of this resource.",
+            "cite_spans": [
+                {
+                    "start": 683,
+                    "end": 687,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 828,
+                    "end": 832,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1017,
+                    "end": 1021,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Of note, our study subjects had markedly poor diabetes control with a baseline mean HbA1c of 10.9%; unfortunately, this is common among Hispanics in the US. Not only is the age-standardized prevalence of diabetes in Hispanics over twice that of non-Hispanic whites [18] , but, nationally, less than half of Hispanics with diabetes achieved a HbA1c < 7% [19] . Gratifyingly, the mean reduction in HbA1c for our entire cohort was \u2212 1.37% supporting a clinically significant improvement but the reduction was even greater for the group with a face-to-face visit (\u2212 1.58% HbA1c). Types of CM received did not differ significantly by subjects' demographic characteristics. However, the comorbidity score did differ and may indicate the type of subjects who need to be targeted with in-person support. Patients who received a face-to-face meeting and both phone calls (CM3) comprised only 9% of the cohort but did not significantly improve versus CM1. It is possible these patients did not accept another meeting in clinic because they did not want CHW help. The favorable association of CM4, the group with multiple visits with or without calls, was not significant in the time to event analysis but was associated with nearly two-times greater adjusted odds of control within 6 months.",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 269,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 353,
+                    "end": 357,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Among our study limitations, foremost is our observational design that cannot prove causality. However, our analyses adjusted for multiple factors that can influence achievement of control. Second, the funding agency set HbA1c < 9% for diabetes control, similar to other studies in Medicaid enrollees [20] . Yet, a reduction of HbA1c to < 9% would not protect against diabetes-related complications [21] . Still, the reduction in HbA1c at 6 months for our cohort (\u2212 1.38%) was greater than the mean -0.45% observed for another CHW intervention in Hispanics [22] . Third, although type and intensity of diabetes medications prescribed at baseline were significantly associated with achievement of control, unmeasured medication adjustments during receipt of CHW support may have also influenced outcomes. Fourth, this study was conducted in two primary care practices serving largely uninsured, Hispanic patients and may not be relevant to practices serving different populations.",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 399,
+                    "end": 403,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 557,
+                    "end": 561,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "These observational cohort data should galvanize further studies to inform policymakers, administrators, and clinicians to define how to take best advantage of the talents of CHW for low-income minority populations with diabetes while conserving resources. It does require practices to set aside time and space for CHWs to see patients in clinic while other more intensive models involve home visits by CHWs. If CHW care management for patients from low income and other vulnerable populations is to become widely available, an important research priority will also aim to identify patients most likely to benefit from this support and examine outcomes of various types and intensities of delivering CHW services.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, most studies of telephone-based counseling for diabetes have involved nurses and report disappointing results in reducing HbA1c [23] [24] [25] . We also found limited benefit for telephone calls by CHWs for diabetes support. However, our longitudinal observational study offers encouraging preliminary evidence regarding the benefit of face-toface CHW support in clinic for poorly controlled Hispanic patients. Yet with advances in telemedicine related to the COVID-19 pandemic, it will be more important than ever to define more effective support strategies that do not require face-to-face encounters in primary care practices.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 148,
+                    "end": 152,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 153,
+                    "end": 157,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Funding CMS Medicaid 1115 Waiver for the Texas Healthcare Transformation and Quality Improvement Program #085144601.1.2.2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Lifetime risk for diabetes mellitus in the United States",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Narayan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Boyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sorensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "JAMA",
+            "volume": "290",
+            "issn": "",
+            "pages": "1884--1890",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Centers for Disease Control and Prevention. Hispanic/Latino Americans and Type 2 Diabetes",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Associations of structural and functional social support with diabetes prevalence in U.S. Hispanics/Latinos: Results from the HCHS/SOL Sociocultural Ancillary Study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fortmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mccurley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Isasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Penedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Daviglus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Behavioral Medicine",
+            "volume": "38",
+            "issn": "",
+            "pages": "160--170",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Social factors and barriers to self-care adherence in Hispanic men and women with diabetes",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mansyur",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Rustveld",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Nash",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jibaja-Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Patient Education and Counseling",
+            "volume": "98",
+            "issn": "",
+            "pages": "805--810",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A systematic review of community health center based interventions for people with diabetes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mckenna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nkimbeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rives",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ajomagberin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Community Health",
+            "volume": "44",
+            "issn": "",
+            "pages": "1253--1280",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Changing trends in etiology-and ethnicity-based annual mortality rates of cirrhosis and hepatocellular carcinoma in the United States",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Perumpail",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gadiparthi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cholankeril",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Hepatology",
+            "volume": "69",
+            "issn": "3",
+            "pages": "1064--1074",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Community health workers in diabetes care: A systematic review of randomized controlled trials. Families, Systems and Health",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Trump",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mendenhall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "35",
+            "issn": "",
+            "pages": "320--340",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Community health worker interventions to improve glycemic control in people with diabetes: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Palmas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "March",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Darakjy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Findley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Teresi",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Carrasquillo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of General Internal Medicine",
+            "volume": "30",
+            "issn": "",
+            "pages": "1004--1012",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Trajectory of systolic blood pressure in a low-income, racial-ethnic minority cohort with diabetes and baseline uncontrolled hypertension",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zullig",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vale",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Trevino",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bosworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Clinical Hypertension (Greenwich)",
+            "volume": "19",
+            "issn": "",
+            "pages": "722--730",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Comorbidity measures for use with administrative data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Elixhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Steiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Coffey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Medical Care",
+            "volume": "36",
+            "issn": "",
+            "pages": "8--27",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Effects of community-based health worker interventions to improve chronic disease management and care among vulnerable populations: A systematic review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nieman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Joo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "American Journal of Public Health",
+            "volume": "106",
+            "issn": "",
+            "pages": "3--28",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Telephone based self-management support by 'lay health workers' and 'peer support workers' to prevent and manage vascular diseases: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Small",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Blickem",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Blakeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Panagioti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chew-Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bower",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMC Health Services Research",
+            "volume": "13",
+            "issn": "",
+            "pages": "533--533",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Randomized controlled trial of a community health worker self-management support intervention among low-income adults with diabetes",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Silverman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiefer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hebert",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Preventing Chronic Disease",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A randomized, controlled trial of a stress management intervention for Latinos with type 2 diabetes delivered by community health workers: Outcomes for psychological wellbeing, glycemic control, and cortisol",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bermudez-Millan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Damio",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Segura-Perez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chhabra",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vergara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Diabetes Research and Clinical Practice",
+            "volume": "120",
+            "issn": "",
+            "pages": "162--170",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Effect of a community health worker intervention among Latinos with poorly controlled type 2 diabetes: The Miami Healthy Heart Initiative Randomized Clinical Trial",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Carrasquillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lebron",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Alonzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kenya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA Internal Medicine",
+            "volume": "177",
+            "issn": "",
+            "pages": "948--954",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Mexican American trial of community health workers: A randomized controlled trial of a community health worker intervention for Mexican Americans with type 2 diabetes mellitus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Rothschild",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Swider",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tumialan Lynas",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Janssen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Avery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "American Journal of Public Health",
+            "volume": "104",
+            "issn": "",
+            "pages": "1540--1548",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Impact of a community health workers-led structured program on blood glucose control among Latinos with type 2 diabetes: The DIALBEST trial",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Perez-Escamilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Damio",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chhabra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Segura-Perez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vega-Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Diabetes Care",
+            "volume": "38",
+            "issn": "",
+            "pages": "197--205",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Prevalence of diabetes by race and ethnicity in the United States",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kanaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R G"
+                    ],
+                    "last": "Araneta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Saydah",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gregg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "322",
+            "issn": "",
+            "pages": "2389--2398",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Hemoglobin A1c, blood pressure, and LDL-cholesterol control among Hispanic/Latino Adults with diabetes: Results from the Hispanic Community Health Study/Study of Latinos (HCHS/SOL). Endocrine Practice",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Casagrande",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Aviles-Santa",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Corsino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Daviglus",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Espinoza Giacinto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "23",
+            "issn": "",
+            "pages": "1232--1253",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Medicaid's impact on chronic disease biomarkers: A cohort study of community health center patients",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hatch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Killerby",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Angier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoopes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of General Internal Medicine",
+            "volume": "32",
+            "issn": "",
+            "pages": "940--947",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Glycemic targets: Standards of medical care in diabetes-2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "Diabetes Care",
+            "volume": "43",
+            "issn": "",
+            "pages": "66--76",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Outcomes at 18 months from a community health worker and peer leader diabetes self-management program for Latino adults",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kieffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sinco",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Palmisano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hawkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Diabetes Care",
+            "volume": "41",
+            "issn": "",
+            "pages": "1414--1422",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Living well with diabetes: 24-month outcomes from a randomized trial of telephone-delivered weight loss and physical activity intervention to improve glycemic control",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Eakin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Winkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dunstan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Healy",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Marshall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Diabetes Care",
+            "volume": "37",
+            "issn": "",
+            "pages": "2177--2185",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Nurse-led behavioral management of diabetes and hypertension in community practices: A randomized trial",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Edelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dolor",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Granger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lindquist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of General Internal Medicine",
+            "volume": "30",
+            "issn": "",
+            "pages": "626--633",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Effectiveness of a supportive telephone counseling intervention in type 2 diabetes patients: Randomized controlled study",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Mons",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Raum",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ruter",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rothenbacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rosemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS ONE",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "examined patient demographic and clinical characteristics by type of CM using the chi-squared test or Fisher's exact test for categorical variables and Kruskal-Wallis H test or ANOVA F test for continuous variables. Kaplan-Meier curves of time to first HbA1c < 9% by the four types of CM were plotted and compared using the log-rank test. For the primary outcome, Cox proportional hazards model examined *HbA1c = hemoglobin A1c \u2020 CHW = Community health worker For the secondary outcome, the association of type of CM with achieving an HbA1c < 9% within 6 months after CM initiation was examined using logistic regression and adjusted for the same covariates. Statistical analyses were performed using Stata/SE 16 (College Station, TX).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Baseline demographic characteristics of patients with uncontrolled diabetes by type of community health worker supportTable 2Baseline clinical characteristics by diabetes mellitus (DM) case management typology *See methods: dose for all oral DM drugs (range 1-9) was totaled and categorized in four levels: none, low (1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Cox model for time from initiating diabetes mellitus (DM) case management to first hemoglobin A1c control < 9%Reference groups: CM 1 (calls), uninsured, no insulin, no oral diabetes medication, no primary care visits before CM; Also adjusted for age, sex, Hispanic ethnicity, baseline A1c, insurance type, offer group DM education \u2020 See methods: dose for all oral DM drugs (range 1-9) was totaled and",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Logistic regression model of achieving hemoglobin A1c control < 9% within 6 months after diabetes mellitus (DM) case management initiation Reference groups: CM 1 (calls), no insulin, no oral DM medication, no primary care visits before CM Also adjusted for age, sex, Hispanic (Y/N), baseline A1c, insurance type, offer group DM education \u2020 See methods: dose for all oral DM drugs (range 1-9) totaled and categorized in four levels: none, low (1-3), moderate(4)(5)(6), and high (7-9) \u2021 Dose of insulin (units/d) at baseline classified as four levels: none; low < 50; medium 50-99; or high > 100",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

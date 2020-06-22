@@ -1,0 +1,1251 @@
+{
+    "paper_id": "4dc555f5a859dbbc0990dd2c7192884c581cd709",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Hemalkumar",
+                "middle": [
+                    ";"
+                ],
+                "last": "Mehta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Johns",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hemalkumar",
+                "middle": [
+                    "B"
+                ],
+                "last": "Mehta",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins University School of Medicine",
+                    "location": {
+                        "addrLine": "Johns Hopkins Bloomberg, Maryland 15 2., Johns Hopkins Bloomberg, 16 Maryland 17 3., 37 615 N. Wolfe Street",
+                        "postCode": "14, W6035 38, 21205 39, 116",
+                        "settlement": "Baltimore, Baltimore, Alexandria, Baltimore, Baltimore, Iran",
+                        "region": "Virginia, Maryland, MD, South Korea, India, Cuba, European Union, Germany",
+                        "country": "Brazil, China, Japan, Lebanon, Thailand, Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stephan",
+                "middle": [],
+                "last": "Ehrhardt",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thomas",
+                "middle": [
+                    "J"
+                ],
+                "last": "Moore",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jodi",
+                "middle": [],
+                "last": "Segal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins University School of Medicine",
+                    "location": {
+                        "addrLine": "Johns Hopkins Bloomberg, Maryland 15 2., Johns Hopkins Bloomberg, 16 Maryland 17 3., 37 615 N. Wolfe Street",
+                        "postCode": "14, W6035 38, 21205 39, 116",
+                        "settlement": "Baltimore, Baltimore, Alexandria, Baltimore, Baltimore, Iran",
+                        "region": "Virginia, Maryland, MD, South Korea, India, Cuba, European Union, Germany",
+                        "country": "Brazil, China, Japan, Lebanon, Thailand, Netherlands"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [
+                    "Caleb"
+                ],
+                "last": "Alexander",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Johns Hopkins University School of Medicine",
+                    "location": {
+                        "addrLine": "Johns Hopkins Bloomberg, Maryland 15 2., Johns Hopkins Bloomberg, 16 Maryland 17 3., 37 615 N. Wolfe Street",
+                        "postCode": "14, W6035 38, 21205 39, 116",
+                        "settlement": "Baltimore, Baltimore, Alexandria, Baltimore, Baltimore, Iran",
+                        "region": "Virginia, Maryland, MD, South Korea, India, Cuba, European Union, Germany",
+                        "country": "Brazil, China, Japan, Lebanon, Thailand, Netherlands"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "150 inclusive of all trials on drugs and plasma, we did not limit our inclusion criteria to randomized trials. 151 Second, we included studies where drugs or plasma was the primary intervention. Since there was not 152 standardized information about the components of each intervention, two individuals (KM, HM)",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "151",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "153 independently reviewed each interventional study to identify any trials of a drug or plasma. Any 154 disagreement was resolved by a third reviewer (GCA). Because study focus was on evaluating drugs 155 or plasma treatments, we excluded trials of stem cell transplants, devices, diagnostic tests, traditional 156 Chinese medicines/herbal medicine, rehabilitation, dietary supplements and psychological 157 interventions. We did not limit any studies based on the outcomes they evaluated. We also excluded 158 one trial with implausible information regarding its study design (a single-arm randomized controlled 159 trial). 182 blinding was unclear. In such cases, two reviewers (HM, SE) independently reviewed the registry 183 record in detail and extracted the information. If, after in depth review, study design was still unclear 184 (n=37), we used the following rules to assign intervention model and blinding: (i) trials with a single 185 group were considered as non-randomized and open-label; 17 (ii) trials that reported more than one 186 group were considered having a parallel group design; (iii) trials were considered open-label if blinding 187 was not reported and could not be inferred. We grouped parallel, cross-over, factorial, platform, and 188 sequential intervention trials as multi-arm (>2 trial arms). 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 Search strategy \"COVID-19\" OR \"COVID 19\" OR \"COVID19\" OR \"COVID2019\" OR \"COVID 2019\" OR \"COVID-2019\" OR \"novel coronavirus\" OR \"new coronavirus\" OR \"novel corona virus\" OR \"new corona virus\" OR \"SARS-CoV-2\" OR \"SARSCoV2\" OR \"SARS-CoV2\" OR \"2019nCoV\" OR \"2019-nCoV\" OR \"2019 coronavirus\" OR \"2019 corona virus\" OR \"coronavirus disease 2019\" OR \"severe acute respiratory syndrome coronavirus 2\" OR \"sars-coronavirus-2\" OR \"coronavirus disease 2019\" OR \"corona virus disease 2019\" 22 Viergever RF, Karam G, Reis A, Ghersi D. The quality of registration of clinical trials: still a problem. PLoS One. 2014;9:e84727. 23 Not registered Eligibility criteria 6 Specify study characteristics (e.g., PICOS, length of follow-up) and report characteristics (e.g., years considered, language, publication status) used as criteria for eligibility, giving rationale.",
+            "cite_spans": [
+                {
+                    "start": 1004,
+                    "end": 1006,
+                    "text": "17",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2484,
+                    "end": 2486,
+                    "text": "22",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 2618,
+                    "end": 2620,
+                    "text": "23",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1328,
+                    "end": 1553,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1554,
+                    "end": 1779,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1780,
+                    "end": 2005,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Information sources 7 Describe all information sources (e.g., databases with dates of coverage, contact with study authors to identify additional studies) in the search and date last searched.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Search 8 Present full electronic search strategy for at least one database, including any limits used, such that it could be repeated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Study selection 9 State the process for selecting studies (i.e., screening, eligibility, included in systematic review, and, if applicable, included in the meta-analysis).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Data collection process 10 Describe method of data extraction from reports (e.g., piloted forms, independently, in duplicate) and any processes for obtaining and confirming data from investigators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Data items 11 List and define all variables for which data were sought (e.g., PICOS, funding sources) and any assumptions and simplifications made. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "6"
+        },
+        {
+            "text": "Summary of evidence 24 Summarize the main findings including the strength of evidence for each main outcome; consider their relevance to key groups (e.g., healthcare providers, users, and policy makers).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Limitations 25 Discuss limitations at study and outcome level (e.g., risk of bias), and at review-level (e.g., incomplete retrieval of identified research, reporting bias). 323 Despite this, many registered trials lack features to optimize their scientific value. Global coordination 324 and increased funding of high-quality research may help to maximize scientific progress in rapidly 325 discovering safe and effective treatments. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60 F o r p e e r r e v i e w o n l y 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46 Search strategy \"COVID-19\" OR \"COVID 19\" OR \"COVID19\" OR \"COVID2019\" OR \"COVID 2019\" OR \"COVID-2019\" OR \"novel coronavirus\" OR \"new coronavirus\" OR \"novel corona virus\" OR \"new corona virus\" OR \"SARS-CoV-2\" OR \"SARSCoV2\" OR \"SARS-CoV2\" OR \"2019nCoV\" OR \"2019-nCoV\" OR \"2019 coronavirus\" OR \"2019 corona virus\" OR \"coronavirus disease 2019\" OR \"severe acute respiratory syndrome coronavirus 2\" OR \"sars-coronavirus-2\" OR \"coronavirus disease 2019\" OR \"corona virus disease 2019\" Not registered Eligibility criteria 6 Specify study characteristics (e.g., PICOS, length of follow-up) and report characteristics (e.g., years considered, language, publication status) used as criteria for eligibility, giving rationale.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 434,
+                    "end": 659,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 660,
+                    "end": 885,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 886,
+                    "end": 1115,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1150,
+                    "end": 1375,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1376,
+                    "end": 1601,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1602,
+                    "end": 1827,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1828,
+                    "end": 2053,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 2054,
+                    "end": 2227,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "9, 10"
+        },
+        {
+            "text": "Information sources 7 Describe all information sources (e.g., databases with dates of coverage, contact with study authors to identify additional studies) in the search and date last searched.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Search 8 Present full electronic search strategy for at least one database, including any limits used, such that it could be repeated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Study selection 9 State the process for selecting studies (i.e., screening, eligibility, included in systematic review, and, if applicable, included in the meta-analysis).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Data collection process 10 Describe method of data extraction from reports (e.g., piloted forms, independently, in duplicate) and any processes for obtaining and confirming data from investigators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "Data items 11 List and define all variables for which data were sought (e.g., PICOS, funding sources) and any assumptions and simplifications made.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "6"
+        },
+        {
+            "text": "Risk of bias in individual studies 12 Describe methods used for assessing risk of bias of individual studies (including specification of whether this was done at the study or outcome level), and how this information is to be used in any data synthesis. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "6"
+        },
+        {
+            "text": "Summary of evidence 24 Summarize the main findings including the strength of evidence for each main outcome; consider their relevance to key groups (e.g., healthcare providers, users, and policy makers).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Limitations 25 Discuss limitations at study and outcome level (e.g., risk of bias), and at review-level (e.g., incomplete retrieval of identified research, reporting bias). 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 173,
+                    "end": 350,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "9, 10"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The SARS-CoV-2 (COVID-19) pandemic has prompted many initiatives to identify safe 49 and efficacious treatments, yet little is known regarding where early efforts have focused. We aimed to 50 characterize registered clinical trials assessing drugs or plasma treatments for COVID-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Objectives",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Design, setting and participants. Cross-sectional analysis of clinical trials for the treatment of",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19 that were registered in the United States or in countries contributing to the World Health",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Relevant trial entries of drugs 54 or plasma were downloaded on March 26, 2020, de-duplicated, verified with reviews of major medical 55 journals and World Health Organization websites and independently analyzed by two reviewers",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Trial intervention, sponsorship, critical design elements and specified outcomes",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Overall 201 clinical trials were registered for testing the therapeutic benefits of 92 drugs or uses, including as antivirals, antimalarials, immunosuppressants and oncology treatments",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Results",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "61",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical scales 66 were being used in 33 (16.4%) trials, most often measures of oxygenation and critical illness",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Surrogate endpoints or biomarkers were studied in 88 (42.3%) of trials, primarily assays of viral load",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Although the trials were initiated in more than 17 countries or regions, 100 (49.8%) were registered in",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "8%) in the U.S. Registered trials increased rapidly, with the number of registered 70 trials doubling from",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "78",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "While accelerating morbidity and mortality from the COVID-19 pandemic has been 72 paralleled by early and rapid clinical investigation, many trials lack features to optimize their scientific",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Conclusions",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "16 To be 150 inclusive of all trials on drugs and plasma, we did not limit our inclusion criteria to randomized trials",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Because study focus was on evaluating drugs 155 or plasma treatments, we excluded trials of stem cell transplants, devices, diagnostic tests, traditional 156 Chinese medicines/herbal medicine, rehabilitation, dietary supplements and psychological 157 interventions. We did not limit any studies based on the outcomes they evaluated",
+            "authors": [],
+            "year": null,
+            "venue": "Second, we included studies where drugs or plasma was the primary intervention",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "registration date, recruitment status (recruiting, not yet 164 recruiting, withdrawn or cancelled), recruitment country, phase (0, 1, 2, 3, 4, 1-2, 2-3, not applicable, 165 missing), anticipated enrolment, lead sponsor, allocation status (randomized, non-randomized), 166 intervention model (single-arm, parallel, cross-over, factorial, platform trial, sequential), blinding 167 (open, single, double, triple, quadruple,), primary outcome (surrogate/biomarker, clinical scale, clinical 168 outcome) and a website address. Trials that reported recruitment status of completed, active or 169 enrolling by invitation were grouped as recruiting. We used the country address of each facility (i.e., a 170 site that can potentially enroll participants) to identify recruitment countries",
+            "authors": [],
+            "year": null,
+            "venue": "We extracted the following information from each trial: unique trial number; trial registry source 163 (WHO network registry country or the U.S.)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "We classified 176 sponsorship as follows: (i) the lead sponsor was considered to be a pharmaceutical company if the 177 primary sponsor was a pharmaceutical company, or a known funding body like the National Institutes 178 of Health (NIH) was neither a primary sponsor or collaborators/secondary sponsor, and at least one 179 collaborator was a pharmaceutical company; (ii) the lead sponsor was a known government research 181 was a hospital if so stated; (iv) all others were classifies as other. For some trials, the study design or 182 blinding was unclear. In such cases, two reviewers (HM, SE) independently reviewed the registry 183 record in detail and extracted the information. If, after in depth review, study design was still unclear 184 (n=37), we used the following rules to assign intervention model and blinding: (i) trials with a single 185 group were considered as non-randomized and open-label; 17 (ii) trials that reported more than one 186 group were considered having a parallel group design; (iii) trials were considered open-label if blinding 187 was not reported and could not be inferred",
+            "authors": [],
+            "year": null,
+            "venue": "We used the primary sponsor and collaborators fields from the U.S. registry, and primary and 175 secondary sponsor fields from the WHO registry to identify the probable lead sponsor",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "TM) independently reviewed primary outcomes of all trials and assigned them as 191 surrogate or biomarker, clinical scale, or clinical outcomes. Surrogate or biomarker included any 192 measure of SARS-Cov-2 or any blood test; clinical scales included measures of oxygenation, 193 Sequential Organ Failure Assessment (SOFA) score, National Early Warning Score 2 (NEWS2) score, 194 lung injury score or any measure of pulmonary harms; and clinical outcomes included symptoms, 195 clinical improvement scores, intubation, hospitalization or death",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Because the trial registries 200 did not record drugs in a standardized format, two pharmacist reviewers (HM, SS) independently 201 extracted this information, converting brand names were scientific names and correcting minor spelling 202 errors. We used the WHO's Anatomical Therapeutic Chemical Classification System to classify drugs 203 in major therapeutic or pharmacological subgroups. For the 18 drugs (e.g., remdesivir) that were not 204 included in the WHO's ATC algorithms",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "We summarized the characteristics of all 209 included trials using frequency and percentages. We listed unique drugs under investigation and the 212 (Link). The study was considered non-human subject research by the Johns Hopkins University 213 Institutional Review Board. We used SAS version 9",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "While we did not directly involve patients in the design or conduct of our investigation, our analyses 216 were motivated by a belief that it is important for patients, and the general public, to have accessible, 217 high-quality information regarding the structure and outcomes of clinical trials assessing therapeutics",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Although the trials were 225 initiated in more than 17 countries or regions, 100 (49.8%) were registered in China, and 78 (37.8%) in 226 the U.S. Of the 201 trials, 4 (2.0%) were registered in",
+            "authors": [],
+            "year": 2020,
+            "venue": "Overall 201 clinical trials were registered for testing the therapeutic benefits of 156 drugs or plasma, 224 including 62 in monotherapy and 92 different combinations (Table 1)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "7%) patients were randomized to treatment or comparator, including 55 trials with 233 some form of blinding and 97 open label studies (Figure 2)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Clinical endpoints were identified in 134 (66.7%) of 240 trials and included COVID-19 symptoms, death, recovery, required intensive care and hospital 241 discharge. Clinical scales were being used in 33 (16.4%) trials, most often measures of oxygenation 242 and critical illness assessment instruments. Surrogate endpoints or biomarkers were studied in 88 REFERENCES 1 World Health Organization Dashboard",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Coronavirus COVID-19 Global Cases by the Center for Systems Science and Engineering",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coronavirus Resource",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Center",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Coronavirus puts drug repurposing on the fast track",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Harrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Biotechnology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Treatment of 5 Critically Ill Patients With COVID-19 With Convalescent Plasma",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4783"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Scientists Identify 69 Drugs To Test Against the Coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zimmer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New York Times",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The Milken Institute. COVID-19 Treatment and Vaccine Tracker",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "An Updated Guide to the Coronavirus Drugs and Vaccines in Development",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Garde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "STAT News. Available",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "International Clinical Trials Registry Platform (ICTRP). World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "World Health Organization Data Set. International Clinical Trials Registry Platform (ICTRP)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Protocol Registration Data Element Definitions for Interventional and Observational Studies",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Clinicaltrials",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Library of Medicine. Available",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "World Health Organization Database of COVID-19 Trials. Available at: who.int/ictrp/en",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Available at: www.clinicaltrials.gov",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Clinicaltrials",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "International Standards for Clinical Trial Registries. World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Protocol Registration Data Element Definitions for Interventional and Observational Studies",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Clinicaltrials",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "ClinicalTrials.gov",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Characteristics of Clinical Trials Registered in ClinicalTrials.gov",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Califf",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Sherman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Aberle",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tasneem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "JAMA",
+            "volume": "307",
+            "issn": "",
+            "pages": "1838--1847",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "UN health chief announces global 'solidarity trial' to jumpstart search for COVID-19 treatment",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "WHO launches global megatrial of the four most promising coronavirus treatments",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kupferschmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Making Meaningful Clinical Use of Biomarkers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Selleck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Senthil",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Biomark Insights",
+            "volume": "12",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Evaluating the clinical utility of a biomarker: a review of methods for estimating health impact",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Pletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pignone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Circulation",
+            "volume": "123",
+            "issn": "",
+            "pages": "1116--1140",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The quality of registration of clinical trials: still a problem",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Viergever",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Karam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ghersi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "How to avoid common problems when using ClinicalTrials.gov in research: 10 issues to consider",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fain",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Zarin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMJ",
+            "volume": "361",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Cumulative Number of Registered Trials Date of Trial Registration Sources: World Health Organization and ClinicalTrials.gov (as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Data extraction and management162 We extracted the following information from each trial: unique trial number; trial registry source 163 (WHO network registry country or the U.S.), registration date, recruitment status (recruiting, not yet 164 recruiting, withdrawn or cancelled), recruitment country, phase (0, 1, 2, 3, 4, 1-2, 2-3, not applicable,165 missing), anticipated enrolment, lead sponsor, allocation status (randomized, non-randomized), 166 intervention model (single-arm, parallel, cross-over, factorial, platform trial, sequential), blinding 167 (open, single, double, triple, quadruple,), primary outcome (surrogate/biomarker, clinical scale, clinical 168 outcome) and a website address. Trials that reported recruitment status of completed, active or 169 enrolling by invitation were grouped as recruiting. We used the country address of each facility (i.e., a 170 site that can potentially enroll participants) to identify recruitment countries. Enrolment number 171 reflects the estimated total number of participants to be enrolled or the actual total number of 172 participants enrolled. 173174 We used the primary sponsor and collaborators fields from the U.S. registry, and primary and 175 secondary sponsor fields from the WHO registry to identify the probable lead sponsor. We classified 176 sponsorship as follows: (i) the lead sponsor was considered to be a pharmaceutical company if the 177 primary sponsor was a pharmaceutical company, or a known funding body like the National Institutes 178 of Health (NIH) was neither a primary sponsor or collaborators/secondary sponsor, and at least one 179 collaborator was a pharmaceutical company; (ii) the lead sponsor was a known government research 180 funding agency if identified as such or at least one collaborator was this funder; (iii) the lead sponsor 181 was a hospital if so stated; (iv) all others were classifies as other. For some trials, the study design or",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Two reviewers (HM, TM) independently reviewed primary outcomes of all trials and assigned them as 191 surrogate or biomarker, clinical scale, or clinical outcomes. Surrogate or biomarker included any 192 measure of SARS-Cov-2 or any blood test; clinical scales included measures of oxygenation, 193 Sequential Organ Failure Assessment (SOFA) score, National Early Warning Score 2 (NEWS2) score, 194 lung injury score or any measure of pulmonary harms; and clinical outcomes included symptoms, 195 clinical improvement scores, intubation, hospitalization or death. Reviewer disagreement was resolved 196 by discussion and consensus. 197 198 We identified drugs under investigation for COVID-19 from the experimental and/or control arm of 199 each trial, including multiple drugs when they were studied in combination. Because the trial registries 200 did not record drugs in a standardized format, two pharmacist reviewers (HM, SS) independently 201 extracted this information, converting brand names were scientific names and correcting minor spelling 202 errors. We used the WHO's Anatomical Therapeutic Chemical Classification System to classify drugs 203 in major therapeutic or pharmacological subgroups. For the 18 drugs (e.g., remdesivir) that were not 204 included in the WHO's ATC algorithms, we used product information from the European Medicines",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Cumulative Number of Registered Clinical Trials of Products for SARS-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Study Designs of Registered Clinical Trials of Products for SARS-CoV-2 Infection (N=201 trials). a Includes 147 parallel, 1 platform and 4 sequential trials; b Includes 1 crossover, 1 factorial, 17 parallel and 1 historical control arm trials; c Includes 14 single, 5 at least single, 16 double, 2 triple and 18 quadruple blinded trials; d Includes 2 double blind trials Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "all outcomes considered (benefits or harms), present, for each study: (a) simple summary data for each intervention group (b) effect estimates and confidence intervals, ideally with a forest plot. results of each meta-analysis done, including confidence intervals and measures of consistency. n/a Risk of bias across studies 22 Present results of any assessment of risk of bias across studies (seeItem 15). results of additional analyses, if done (e.g., sensitivity or subgroup analyses, meta-regression [seeItem 16]).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "a general interpretation of the results in the context of other evidence, and implications for future research.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Funding27 Describe sources of funding for the systematic review and other support (e.g., supply of data); role of funders for the systematic review.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Moher D, Liberati A, Tetzlaff J, Altman DG, The PRISMA Group (2009). Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement. PLoS Med 6(6): e1000097. doi:10.1371/journal.pmed1000097 For more information, visit: www.prisma-statement.org. Page 2 of 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "study characterized the scope, objectives, and content of the current global research program to 264 find effective therapies for COVID-19 as reported to the leading clinical trial registries. These data 265 show that the primary focus of clinical trial research at present is assess whether a wide range of 266 existing therapeutic products might also be effective against acute illnesses caused by the novel SARS-267 Cov-2 virus. Because one-third of trials exclude clinical endpoints, nearly one half are designed to 268 enroll fewer than 100 patients and two-thirds are open label, many of these studies are likely to yield 269 only preliminary evidence of a given treatment's safety and effectiveness against COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Our results indicate that current scientific activity is concentrated in China and the United States, 272 accounting for 87.6% of the studies. Some of the products under investigation, such as remdesivir, have 273 considerable pre-clinical and clinical evidence to support their potential value. In addition to single site 274 trials, several major, multi-site trials of therapies against COVID-19 are also underway. Solidarity, /lopinavir and ritonavir/lopinavir with interferon-beta against standard of care in dozens of 278 countries around the globe.18 Discovery, coordinated by France's National Institute of Health and 279 Medical Research (Inserm), is designed as an add-on trial in Europe and will study the same drugs with 280 the exclusion of chloroquine.19 The vast majority of test therapies have been approved for other uses, 281 although 8 new molecular entities are being assessed, a number that is likely to grow as governments 282 and industry invest in new compounds during the coming months.283 284 Our findings provide reason for both optimism and caution. Many registered COVID-19 trials have 285 been designed expediently, and while case series and single-arm trials have value and may provide 286 early signals, randomized study designs provide higher quality evidence and will maximize chances for 287 finding effective and safe treatments during this wave of the pandemic. These trial designs, however, 288 need adequate funding as well as scientific leadership, especially as frontline clinicians are tasked with 289 saving lives. In addition, it is important that surrogate outcomes, biomarkers or clinical scales are 290 strongly and directly linked to what matters most for providers and patients, improved chances of 291 recovery from COVID-19. 20,21 292 293 This study provides early evidence of the benefits of global registries to characterize urgent clinical 294 trial research questions now under investigation. Used wisely by active researchers, these registries can 295 help to identify the most promising avenues for developing new therapies, avoid unnecessary 296 duplication, and define unanswered questions that inevitably arise from early research. The registries297 also constitute a focal point for developing a more comprehensive program to share protocols and 298 research results. Given the early use of pre-prints prior to peer review and multiple journals publishing 299 results, the global research enterprise needs to enlarge and extend the cooperative effort initiated analysis was limited to a cross-sectional review of trials registered early in the pandemic with one 304 half the studies registered in the previous month. Many of these studies appeared to be exploratory and 305 not explicitly powered to test a specific drug effect on a pre-specified primary endpoint. In addition, 306 our assessment was limited to drugs and plasma, rather than other treatment modalities under",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "does not provide relevant details on trial characteristics. However, if trials are reported in US 309 or WHO database, they are included in our study. We did not apply Standard Protocol Items: 310 Recommendations for Interventional Trials (SPIRIT) guideline to evaluate overall quality of clinical 311 trials protocol. Future research can evaluate quality of clinical trials for COVID-19. Finally, our 312 analysis is only as good as the data that it is based on; the International Clinical Trials Registry 313 Platform (ICTRP) gathers information from more than a dozen contributing countries and despite its 314 value, there remain opportunities to improve the consistency and quality of submitted data from both 315 this platform 22 and ClinicalTrials.global pandemic has galvanized the world's research community, and there are signs of 320 remarkable scientific activity. 24 In this review of clinical trials registered early in course of the 321 pandemic's first wave, we found evidence of rapid clinical investigation of existing antivirals, 322 antimalarials, immunosuppressants and oncology treatments for repurposing against COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "Cumulative Number of Registered Clinical Trials of Products for SARSreview only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Study Designs of Registered Clinical Trials of Products for SARS-CoV-2 Infection (N=201 trials). a Includes 147 parallel, 1 platform and 4 sequential trials; b Includes 1 crossover, 1 factorial, 17 parallel and 1 historical control arm trials; c Includes 14 single, 5 at least single, 16 double, 2 triple and 18 quadruple blinded trials; d Includes 2 double blind trials Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "all outcomes considered (benefits or harms), present, for each study: (a) simple summary data for each intervention group (b) effect estimates and confidence intervals, ideally with a forest plot. results of each meta-analysis done, including confidence intervals and measures of consistency. n/a Risk of bias across studies 22 Present results of any assessment of risk of bias across studies (seeItem 15). results of additional analyses, if done (e.g., sensitivity or subgroup analyses, meta-regression [seeItem 16]).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "a general interpretation of the results in the context of other evidence, and implications for future research.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "Funding27 Describe sources of funding for the systematic review and other support (e.g., supply of data); role of funders for the systematic review.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Moher D, Liberati A, Tetzlaff J, Altman DG, The PRISMA Group (2009). Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement. PLoS Med 6(6): e1000097. doi:10.1371/journal.pmed1000097 For more information, visit: www.prisma-statement.org. Page 2 of 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "205 Agency, U.S. FDA or the companies' websites to characterize the product.208 We used descriptive statistics to analyze the extracted data. We summarized the characteristics of all 209 included trials using frequency and percentages. We listed unique drugs under investigation and the210 number of registered clinical trials for each product. We plotted the number of cumulative trials by 211 their registration date. All data was extracted and stored in an open-access Google Sheet document 212 (Link). The study was considered non-human subject research by the Johns Hopkins University 213 Institutional Review Board. We used SAS version 9.4 (SAS Institute Inc.) for all analyses.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "216 While we did not directly involve patients in the design or conduct of our investigation, our analyses 217 were motivated by a belief that it is important for patients, and the general public, to have accessible, 218 high-quality information regarding the structure and outcomes of clinical trials assessing therapeutics",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "263 This study characterized the scope, objectives, and content of the current global research program to 264 find effective therapies for COVID-19 as reported to the leading clinical trial registries. These data 265 show that the primary focus of clinical trial research at present is assess whether a wide range of 266 existing therapeutic products might also be effective against acute illnesses caused by the novel SARS-267 Cov-2 virus. Because one-third of trials exclude clinical endpoints, nearly one half are designed to 268 enroll fewer than 100 patients and two-thirds are open label, many of these studies are likely to yield 269 only preliminary evidence of a given treatment's safety and effectiveness against COVID-19. 271 Our results indicate that current scientific activity is concentrated in China and the United States, 272 accounting for 87.6% of the studies. Some of the products under investigation, such as remdesivir, have 273 considerable pre-clinical and clinical evidence to support their potential value. In addition to single site 274 trials, several major, multi-site trials of therapies against COVID-19 are also underway. Solidarity, 277 ritonavir/lopinavir and ritonavir/lopinavir with interferon-beta against standard of care in dozens of 278 countries around the globe. 18 Discovery, coordinated by France's National Institute of Health and 279 Medical Research (Inserm), is designed as an add-on trial in Europe and will study the same drugs with",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "new molecular entities are being assessed, a number that is likely to grow as governments 282 and industry invest in new compounds during the coming months. Percentages may exceed 100% as categories not mutually exclusive b Includes foundations and disease trial networks ISRCTN International Standard Randomised Controlled Trial Number Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020) ISRCTN International Standard Randomised Controlled Trial Number. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Products Being Assessed in Registered Clinical Trials for SARS-COV-2 Infection.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Drug Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020) For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml World Health Organization Data Set. International Clinical Trials Registry Platform (ICTRP). Available at: https://www.who.int/ictrp/network/trds/en/ (Accessed March 25, 2020).10 ClinicalTrials.gov Protocol Registration Data Element Definitions for Interventional and Observational Studies. National Library of Medicine. Available at: https://prsinfo.clinicaltrials.gov/definitions.html (Accessed March 25, 2020). 11 World Health Organization Database of COVID-19 Trials. Available at: who.int/ictrp/en/ (Accessed March 25, 2020). 12 ClinicalTrials.gov. National Library of Medicine. Available at: www.clinicaltrials.gov (Accessed March 25, 2020). 13 European Medicines Agency. Available at: https://www.ema.europa.eu/en (Accessed March 25, 2020). 14 U.S. Food and Drug Administration. Available at: FDA.gov (Accessed March 25, 2020). For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 15 International Standards for Clinical Trial Registries. World Health Organization. Available at: https://apps.who.int/iris/bitstream/handle/10665/76705/9789241504294_eng.pdf;jsessionid=719FA2F AFABCE205F4CD68277AD9FEAD?sequence=1 (Accessed March 25, 2020). 16 ClinicalTrials.gov Protocol Registration Data Element Definitions for Interventional and Observational Studies. ClinicalTrials.gov. March 7, 2019. Available at: https://prsinfo.clinicaltrials.gov/definitions.html (Accessed March 25, 2020). 17 Califf RM, Zarin DA, Kramer JM, Sherman RE, Aberle LH, Tasneem A. Characteristics of Clinical Trials Registered in ClinicalTrials.gov, 2007-2010. JAMA. 2012;307:1838-1847.18 \"UN health chief announces global 'solidarity trial' to jumpstart search for COVID-19 treatment.\" UN News. March 18, 2020. Available at: https://news.un.org/en/story/2020/03/1059722 (Accessed April 3, 2020).19 Kupferschmidt K, Cohen J. WHO launches global megatrial of the four most promising coronavirus treatments. Science.March 22, 2020. Available at: https://www.sciencemag.org/news/2020/03/wholaunches-global-megatrial-four-most-promising-coronavirus-treatments (Accessed April 3, 2020).20 Selleck MJ, Senthil M, Wall NR. Making Meaningful Clinical Use of Biomarkers. Biomark Insights. 2017;12:1-7.21 Pletcher MJ, Pignone M. Evaluating the clinical utility of a biomarker: a review of methods for estimating health impact. Circulation. 2011;123:1116-24.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Tse T, Fain KM, Zarin DA. How to avoid common problems when using ClinicalTrials.gov in research: 10 issues to consider. BMJ. 2018;361:k1452 24 Apuzzo M, Kirkpatrick DD. Covid-19 Changed How the World Does Science, Together. New York Times. April 1, 2020. Available at: https://www.nytimes.com/2020/04/01/world/europe/coronavirusscience-research-cooperation.html (Accessed April 1, 2020). For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "Cumulative Number of Registered Trials Date of Trial Registration Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020) For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 797 studies identified on SARS-CoV-2 192 US registry (ClinicalTrials.gov) 546 WHO ICTRP (who.int/ictrp/about/en/) a 21 Additional studies from seventeen individual WHO network registries which were not captured in the WHO ICTRP ICTRP International Clinical Trials Registry Platform; WHO World Health Organization a To avoid double counting we excluded 121 studies which were originally registered in the US registry b Expanded access refers to study designs where investigational drugs are provided to patients who cannot participate in clinical trial Indicate if a review protocol exists, if and where it can be accessed (e.g., Web address), and, if available, provide registration information including registration number.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "Risk of bias within studies19 Present data on risk of bias of each study and, if available, any outcome level assessment (see item 12).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF12": {
+            "text": "Dr. Alexander is past Chair of FDA's Peripheral and Central Nervous System Advisory Committee; has 27 served as a paid advisor to IQVIA; is a co-founding Principal and equity holder in Monument Analytics, 28 a health care consultancy whose clients include the life sciences industry as well as plaintiffs in opioid 29 litigation; and is a member of OptumRx's National P&T Committee. This arrangement has been 30 reviewed and approved by Johns Hopkins University in accordance with its conflict of interest policies. 31 HBM, SE, TJM and JS have no disclosures to report.For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml reports have characterized products being assessed for therapeutic activity 101 against COVID-19. We sought to complement these with a rigorous appraisal of early efforts around 102 the world to identify safe and efficacious treatments to address the pandemic. In addition to identifying 103 investigational therapies, we also characterized the sponsorship, critical design elements and specified 104 outcomes of each registered clinical trial. While our analysis represents an early snapshot of a 105 continually evolving area, it nevertheless provides timely and globally important information for 106 researchers, policy-makers and the general public. 132 nCoV\" or \"SARS-CoV-2\" (eTable 1). In order to assess whether there were omitted trials, we also 133 searched major medical journals, such as Lancet, New England Journal of Medicine and JAMA, and 134 websites from the World Health Organization, U.S. Centers for Disease Control and Prevention and 135 media aggregators. These searches did not reveal any additional trials to be included in the analysis.136137 For each product that that was approved by regulators, we searched for information from the European 138 Medicines Agency (EMA)13 and U.S. Food and Drug Administration (FDA) 14 describing mechanisms 139 of action and approved indications. We searched the pharmaceutical manufacturers' websites and other 140 online sources for information about drugs that were not approved in the European Union or the United",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF14": {
+            "text": "ISRCTN International Standard Randomised Controlled Trial Number.For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF16": {
+            "text": "Products Being Assessed in Registered ClinicalTrials for SARS-COV-2 Infection.a Column total exceeds 202 as some trials examine multiple drugs; b Ritonavir, cobicistat inhibits CYP3A metabolism and increases blood concentration of the other antiviral drug; c,d,e,f,g,h Details on drug combinations are provided inTable 3; i One trial did not specify type of corticosteroidPage 18 of 27 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF17": {
+            "text": "Drug Combinations Under Investigation for SARS-COV-2 Infection (n=28 combinations). Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020) For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF18": {
+            "text": "Hemalkumar B. Mehta (HBM) and G. Caleb Alexander (GCA) conceived the study idea. HBM, Stephan Ehrhardt (SE), Thomas J. Moore (TM), Jodi Segal (JS) and GCA contributed to the study design. HBM performed the data collection and analysis. SE and TM contributed to the data collection. HBM and GCA drafted the first version of the manuscript. HBM, SE, TM, JS and GCA critically reviewed the manuscript and approved the final version.B. Competing InterestsDr. Alexander is past Chair of FDA's Peripheral and Central Nervous System Advisory Committee; has served as a paid advisor to IQVIA; is a co-founding Principal and equity holder in Monument Analytics, a health care consultancy whose clients include the life sciences industry as well as plaintiffs in opioid litigation; and is a member of OptumRx's National P&T Committee. This arrangement has been reviewed and approved by Johns Hopkins University in accordance with its conflict of interest policies.HBM, SE, TJM and JS have no disclosures to report.C. FundingNoneD. Data Sharing StatementData is stored in an open-access Google Sheet documenthttps://docs.google.com/spreadsheets/d/1p_229olyi7ft6MCLYXdS4-The authors gratefully acknowledge Kristin Meek, Matthew Tajanlangit and Jamie Heyward for assistance extracting information from trial registries and Sneha Sura for assistance reviewing drug information and data management.For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF19": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF20": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF21": {
+            "text": "Page 24 of 27 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 797 studies identified on SARS-CoV-2 192 US registry (ClinicalTrials.gov) 546 WHO ICTRP (who.int/ictrp/about/en/) a 21 Additional studies from seventeen individual WHO network registries which were not captured in the WHO ICTRP ICTRP International Clinical Trials Registry Platform; WHO World Health Organization a To avoid double counting we excluded 121 studies which were originally registered in the US registry b Expanded access refers to study designs where investigational drugs are provided to patients who cannot participate in clinical trial Sources: World Health Organization and ClinicalTrials.gov (as of March 26, 2020) 201 interventional trials of drugs or biologicals included 76 US registry 112 WHO ICTRP 13 Additional studies from seventeen individual WHO network registries For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml eTable 1. Search Strategy.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF22": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Identify the report as a systematic review, meta-analysis, or both. Describe the rationale for the review in the context of what is already known.Objectives   4 Provide an explicit statement of questions being addressed with reference to participants, interventions, comparisons, outcomes, and study design (PICOS).METHODSProtocol and registration 5 Indicate if a review protocol exists, if and where it can be accessed (e.g., Web address), and, if available, provide registration information including registration number.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF23": {
+            "text": "Summary measures13 State the principal summary measures (e.g., risk ratio, difference in means).Synthesis of results14 Describe the methods of handling data and combining results of studies, if done, including measures of consistency (e.g., I 2 ) for each meta-analysis.For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtmlRisk of bias across studies 15 Specify any assessment of risk of bias that may affect the cumulative evidence (e.g., publication bias, selective reporting within studies).Additional analyses 16 Describe methods of additional analyses (e.g., sensitivity or subgroup analyses, meta-regression), if done, indicating which were pre-specified. Give numbers of studies screened, assessed for eligibility, and included in the review, with reasons for exclusions at each stage, ideally with a flow diagram.Study characteristics 18 For each study, present characteristics for which data were extracted (e.g., study size, PICOS, follow-up period) and provide the citations.Risk of bias within studies 19 Present data on risk of bias of each study and, if available, any outcome level assessment (see item 12).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF24": {
+            "text": "Page 28 of 27For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

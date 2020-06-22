@@ -1,0 +1,550 @@
+{
+    "paper_id": "3820b849eea1da4304b067f52b7b95ffbfabcfae",
+    "metadata": {
+        "title": "Public health interventions in India slowed the spread of COVID-19 epidemic dynamics School of Public Health & Zoonoses, Guru Angad Dev Veterinary and Animal Background The government of India implemented social distancing interventions to contain",
+        "authors": [
+            {
+                "first": "Balbir",
+                "middle": [
+                    "B"
+                ],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Lowerison",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "addrLine": "3330 Hospital Drive NW, 2500 2 6 University Drive NW, 3 3 India 3 4",
+                        "postCode": "T2N 4N1, T2N 1N4, 141004",
+                        "settlement": "Calgary, Calgary, Calgary, Ludhiana",
+                        "region": "AB, Canada, Punjab",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [
+                    "T"
+                ],
+                "last": "Lewinson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Isabelle",
+                "middle": [
+                    "A"
+                ],
+                "last": "Vallerand",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rob",
+                "middle": [],
+                "last": "Deardon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "addrLine": "3330 Hospital Drive NW, 2500 2 6 University Drive NW, 3 3 India 3 4",
+                        "postCode": "T2N 4N1, T2N 1N4, 141004",
+                        "settlement": "Calgary, Calgary, Calgary, Ludhiana",
+                        "region": "AB, Canada, Punjab",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "J\u00e1tinder",
+                "middle": [
+                    "Ps"
+                ],
+                "last": "Gill",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Singh",
+                "middle": [],
+                "last": "Gill",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Herman",
+                "middle": [
+                    "W"
+                ],
+                "last": "Barkema",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "P",
+                "middle": [
+                    "S"
+                ],
+                "last": "Gill",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Phd",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Singh",
+                "middle": [],
+                "last": "Phd",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "(",
+                "middle": [],
+                "last": "Balbir",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Baljit",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gill",
+                "middle": [],
+                "last": "Phd",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Isabelle",
+                "middle": [
+                    "A"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Team, http://www.r-project.org). Epidemic curves were plotted, based on laboratory 1 8 0 diagnosis date and intervention periods described. Choropleth maps describing geographical 1 8 1 distributions of COVID-19 case rates for the country and 12 Indian states through 4 1 8 2 intervention periods were generated by R software. The R t for 12 Indian states and for the entire country were calculated as per the 1 8 4 method developed by Cori et al. 13 . This method estimates R t from the incidence time-series 1 8 5 and incorporates uncertainty in the distribution of the serial interval. We used the daily 1 8 6 number of reported COVID-19 cases from the above-mentioned official data sources. The 5-d moving average was used to estimate R t and its 95% credible interval on each day. The first locally transmitted COVID-19 case is thought to have occurred in India on 1 9 1",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 450,
+                    "text": "Cori et al. 13",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "7 9"
+        },
+        {
+            "text": "March 5, 2020 and the Indian government closed international borders and air travel on and enables presumption of a closed population and ensures an appropriate total case count 13 . Therefore, the R t was estimated from March 22 to May 24 and results of initial burn-in period 1 9 6 (when both imported and locally transmitted cases were reported; Fig. 1 ) are not presented. For the 12 states, R t was estimated for the whole period, but was presented from the day when 1 9 8 50 cumulative cases were reported (or from March 22 onwards, whichever is later) given the Descriptive analyses to report changes in mobility index were conducted according to The COVID-19 epidemic started in India on January 30, 2020 with the first imported reported from 33 of the 36 states/union territories of the country 16 . Number of cases were minimal during the Pre-Lockdown Period but continued to rise 2 1 1 in subsequent Lockdown periods (Phases 1-3), with approximately 5,000 cases/day reported 2 1 2 at the end of Lockdown Phase 3 (Fig. 1 ). There were obvious differences among states in 2 1 3 epidemic progression (Fig. 2 The case rate was 0\u00b703, 3\u00b750, 12\u00b787, and 30\u00b705 per 10 million people per day across 2 2 3 the 4 discrete periods in India. Overall, the case rate was 7 per 10 million people per day from 2 2 4 30 January 2020 to 17 May 2020. The rate of increase was maximal from Pre-lockdown 2 2 5",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 349,
+                    "end": 355,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1023,
+                    "end": 1030,
+                    "text": "(Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1108,
+                    "end": 1115,
+                    "text": "(Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "7 9"
+        },
+        {
+            "text": "Period through Lockdown Phase 1 and minimal from Lockdown Phase 2 through Phase 3 in 2 2 6 the country (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 103,
+                    "end": 112,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "7 9"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "7"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. . https: //doi.org/10.1101 //doi.org/10. /2020 There were large differences in incidence rates across 12 Indian states and across time 2 2 8 periods (Table 1; Fig. 3 ). Among all states, the highest case rate was 53 per 10 million people 2 2 9 per day from NCT of Delhi, whereas the lowest case rate was 2 per 10 million people per day 2 3 0 from Kerala from 30 January 2020 to 17 May 2020 (Table 1) . to Phase 3 (Fig. 3) . The R t differed across all 4 periods. Average R t was 1\u00b799 (95% CI 1\u00b793-2\u00b706) for the Strong geographic differences were identified in R t across discrete periods in the West Bengal (1\u00b792) state from 30 January 2020 to 17 May 2020. The R t was < 1\u00b75 for Kerala Median mobility was 21% for retail and recreation, 53% at the grocery and pharmacy, 2 5 1 42% at parks, 34% at transit stations, 38% at workplaces and 129% at residential places from (Table 2 ). Mobility at grocery and pharmacy (median 37%), to 14 April 2020, during Lockdown Phase 1 (Fig. 4) . Interestingly, mobility for retail and 2 5 5 recreation (median 15%) and Parks (median 38%) was lowest from 15 April 2020 to 3 May 2 5 6 2020, during Lockdown Phase 2 (representing relaxation). Note that these values were 2 5 7 derived in comparison to a 100% baseline mobility in the country/state value when no such 2 5 8 interventions were imposed. The NCT of Delhi had the lowest mobility among the 12 states when compared to 2 6 0 100% baseline value at the retail and recreation (median 14%), grocery and pharmacy 2 6 1 3 0 1 derive R t estimates, so these estimates could not be compared. The mobility index highlighted the adoption level of the public health contact important role to contain COVID-19 epidemic in the country and will perhaps explain in part 3 0 8 why our calculated R t for India was substantially lower than many European countries and 3 0 9",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 99,
+                    "text": "//doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 119,
+                    "text": "//doi.org/10. /2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 222,
+                    "end": 231,
+                    "text": "(Table 1;",
+                    "ref_id": null
+                },
+                {
+                    "start": 232,
+                    "end": 238,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 463,
+                    "end": 472,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 486,
+                    "end": 494,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 942,
+                    "end": 950,
+                    "text": "(Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1043,
+                    "end": 1051,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF42"
+                }
+            ],
+            "section": "7"
+        },
+        {
+            "text": "the United States where mobility did not decrease as drastically as in India.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "7"
+        },
+        {
+            "text": "The current study had some limitations. Overall testing rate has not been very high in epidemic curve of COVID-19 28 . Therefore, an underestimated case rate in the initial stage of 3 1 8 the epidemic cannot be ruled out. Additionally, migration of COVID-19 cases between states 3 1 9 cannot be excluded. As per the census of India (2011), 29\u00b79% of total human population are 3 2 0 migrants and 13\u00b78% of the total population migrates between states, possibly due to social, . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "1 0"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. . https://doi.org/10.1101/2020.06.06.20123893 doi: medRxiv preprint not included for Tamil Nadu estimates, such data were not available from other states.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Therefore, under or overestimation at the state level cannot be ruled out.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2 7"
+        },
+        {
+            "text": "Many other epidemiologic variables such as symptom-onset date, proportion of 3 2 9 asymptomatic or undiagnosed cases, as well as diagnostic testing patterns, remain India. Availability of additional data, hopefully in the near future, are expected to further 3 3 5 improve these efforts. The Indian government imposed strict contact mitigation followed by phased 3 3 8 relaxation, which slowed the spread of COVID-19 epidemic progression in India. These The study was not funded and had no external influence in study design, data collection, data 3 4 7 analysis, data interpretation, or writing of the report. The corresponding author had full The authors acknowledge India's National and State Health departments for collecting the 17 May 2020). . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2 8"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. . https://doi.org/10.1101/2020.06.06.20123893 doi: medRxiv preprint is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CC-BY-ND 4.0 International license"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. Affairs, Government of India (https://www.mha.gov.in/media/whats-new). . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. . https://doi.org/10.1101/2020.06.06.20123893 doi: medRxiv preprint . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 7, 2020. . https://doi.org/10.1101/2020.06.06.20123893 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Grocery and pharmacy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "33",
+            "issn": "",
+            "pages": "121--133",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Grocery and pharmacy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "51",
+            "issn": "",
+            "pages": "117--125",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Grocery and pharmacy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "46",
+            "issn": "",
+            "pages": "24--28",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Grocery and pharmacy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "50",
+            "issn": "",
+            "pages": "117--132",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Grocery and pharmacy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "48",
+            "issn": "",
+            "pages": "33--46",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Grocery and pharmacy",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "55",
+            "issn": "",
+            "pages": "116--126",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF3": {
+            "text": "2020; therefore, March 22 was taken as our first day of R t estimation 19 .Cori et al., this allows for a complete serial interval from the first locally transmitted case,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "reported cannot be ruled out at the state level.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": ". For example, R t was > 2 for Maharashtra (2\u00b716), Odisha (2\u00b73), and Punjab state of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "all the domains except grocery and pharmacy, where mobility was 53%",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": ". However, there was a shortage of testing during early phase of the epidemic. samples per day before 20 March 2020 but this was scaled-up to 100,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "migrants due to national lockdown/curfew and loss of jobs; however, exact figures 3 2 3 remain unknown. Interstate migration of COVID-19 positive cases resulted in an unexplained 3 2 4 bias in state-level estimates. For example, Tamil Nadu state reported 646 cases as of 26 May 3 2 5 2020, with 54 cases being persons returning from other states 30 . Although these cases were 3 2 6",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF29": {
+            "text": "and analysed the study data and prepared the first draft of the manuscript. ML, IAV, RD, JPSG, BSG and HWB supervised this study, refined the study objectives, interpreted the analysis, and revised the final manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF31": {
+            "text": "all data in the study and had final responsibility for the decision to submit for",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF33": {
+            "text": "-19 epidemic data and releasing it in the public domain.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF34": {
+            "text": "https://www.who.int/news-room/detail/27-04-2020-who-timeline---covid-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF35": {
+            "text": "P, Yang X-L, Wang X-G, et al. A pneumonia outbreak associated with a new 16.MHFW. COVID-19 Statewise Status. , 2020. https://www.mohfw.gov.in/",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF36": {
+            "text": "a rural population in India. PLoS One 2018; 13(12): e0209039. doi: Delhi. BMJ Open 2016; 6(9): e011699-e. doi: 10.1136/bmjopen-2016-011699.Guidelines and learnings for replication by other Indian states. Kerala: IDFC institute, 2020. //www.idfcinstitute.org/knowledge/publications/working-and-briefing-papers/keralasfor-covid-19-response/ (accessed 24 May 2020).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF38": {
+            "text": "Figure legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF39": {
+            "text": "Fig. 1. Incidence of COVID-19 cases, key events and public health interventions across 4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF40": {
+            "text": "Fig. 2. Incidence of COVID-19 cases across 4 periods in 12 states of India. Vertical bars",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF41": {
+            "text": "number of laboratory-confirmed cases per 10 million people per day.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF42": {
+            "text": "The effective reproduction number (R t ) for the laboratory-confirmed COVID-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF43": {
+            "text": "The effective reproduction number (R t ) for laboratory-confirmed COVIDauthor/funder, who has granted medRxiv a license to display the preprint in perpetuity.(which was not certified by peer review)The copyright holder for this preprint this version posted June 7",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF44": {
+            "text": "author/funder, who has granted medRxiv a license to display the preprint in perpetuity.(which was not certified by peer review)The copyright holder for this preprint this version posted June 7, 2020. . https://doi.org/10.1101/2020.06.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "). As of 17 May 2020, the state of Maharashtra had the highest number of cumulative reported the highest number of cases per day during Lockdown Phase 1. The highest number of cases/day were reported in Andhra Pradesh, Punjab and West Bengal during Lockdown Phase 2. Over 1,500 cases/d were reported from Maharashtra at the end of Lockdown Phase 3, followed by NCT of Delhi and Tamil Nadu where close to 400 cases/d were reported (Fig.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "In Lockdown Phase 3, the highest case rate was recorded for NCT of Delhi (222 per 10 million people per day) and the lowest case rate was recorded for Kerala (2\u00b718 per 10 million people per day). The case rate for all states continued to rise despite implementing public health interventions, except Kerala, where case rate decreased from Lockdown Phase 1",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Daily incidence of COVID-19 cases during the 4 Periods in 12 states of India\u00b7",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Domain-specific mobility in the country and 12 Indian states during key intervention periods. Note that a 100% baseline mobility was considered when no interventions were imposed.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,672 @@
+{
+    "paper_id": "31db7e5143727e65c9b57b08646d6b3b61828dea",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Mai",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Ohio State University",
+                    "location": {
+                        "addrLine": "12",
+                        "postCode": "43210",
+                        "settlement": "Columbus",
+                        "region": "OH",
+                        "country": "USA"
+                    }
+                },
+                "email": "maihe@wustl.edu"
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Washington University School of Medicine 5 in St. Louis",
+                    "location": {
+                        "postCode": "63110",
+                        "settlement": "St. Louis",
+                        "region": "MO",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "A"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Louis",
+                "middle": [
+                    "P"
+                ],
+                "last": "Dehner",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Washington University School of Medicine 5 in St. Louis",
+                    "location": {
+                        "postCode": "63110",
+                        "settlement": "St. Louis",
+                        "region": "MO",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lucia",
+                "middle": [
+                    "F"
+                ],
+                "last": "Dunn",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Ohio State University",
+                    "location": {
+                        "addrLine": "12",
+                        "postCode": "43210",
+                        "settlement": "Columbus",
+                        "region": "OH",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "20 Background: 21 Epidemiological data provide important information for decision making. China's COVID-19 22 statistics fall outside of recognized and accepted medical norms. As the epicenter of the COVID-23 19 initial outbreak, the epidemiological information from Wuhan affects the response and 24 preparation of other parts of China and rest of the world. Here we estimated the incidence, death 25 and starting time of the COVID-19 outbreak in Wuhan and China based on medical literature 26 from China, official and non-official Chinese data sources.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "27 Methods: 28 Data sources included literature on COVID-19 in China, official Chinese government figures, 29 state-run and non state-run media reports. Our estimates are based on investigative media 30 reports of crematory operations in Wuhan, which is considered as a common data end point to 31 life. A range of estimates is presented by an exponential growth rate model from lockdown (Jan 32 23,2020) until the intervention started to show effects, which was estimated 14.5 days after 33 lockdown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "For the cumulative infections and total deaths, under different assumptions of death rates (from 36 2.5% to 10%) and doubling time 6.4 days, the estimates projected on February 7, 2020 in Wuhan 37 range from 305,000 to 1,272,000 for infections and from 6,811 to 7,223 for deaths -on the order : medRxiv preprint outbreak is October 2019. Under the assumption of the official 3.14% death rate and doubling 40 time of 2.54 days (which was derived based on Chinese official data), the infection cases reached 41 2.2 million on February 7. The estimates of cumulative deaths, based on both funeral urns 42 distribution and continuous full capacity operation of cremation services up to March 23, 2020, 43 give results around 36,000, more than 10 times of the official death toll of 2,524. : medRxiv preprint 4 BACKGROUND 59 The spread of the coronavirus (COVID-19) has evolved into a global public health crisis 60 affecting all aspects of individual, societal and economic activity. On December 31, 2019, the 61 Wuhan City Health Commission announced that recent cases of pneumonia of unknown etiology 62 seen in some hospitals were related to the Wet Market and 27 cases were found by the time. This 63 official announcement conflicted with at least two official numbers and one media report which 64 were 45, 104 and 266 cases. 1-3 Reports from the official Chinese state-run media on February 2, 65 2020 showing large numbers of possible coronavirus victims who were not treated within the 66 medical establishment and hence may have fallen outside of government statistics, have led 67 many to believe there may be serious gaps in our understanding of the outbreak based on what 68 can be determined from this official government data. 4 69 As the epicenter of the COVID-19 initial outbreak, the epidemiological information from 70 Wuhan affects the response and preparation of other parts of China and rest of the world. It is 71 therefore important to attempt to accurately assess the actual number of cases and gain some 72 insights from this deduction to the time of the first cases. 73 The purpose of this report is to investigate the epidemiological information of the early 74 phase of the COVID-19 outbreak in Wuhan, after lockdown on January 23, 2019, based on 75 official Chinese government figures, published literature and media reports, focusing on 76 cremation related data. The estimates of incidence and deaths are higher by a magnitude of at 77 least 10 times the official figures. Our estimates are further supported by others who were also 78 investigating the situation and recent updates of funeral urn distribution in Wuhan. : medRxiv preprint impact of this discrepancy is critical for both the medical projection of needs and for policy 80 decisions relating to public health. 81 82 METHODS 83 Data Sources 84 The official Chinese government figures include national and local Wuhan data 5 and 85 state-run media reports. Since there is no medical literature on \"COVID-19, cremation\" in 86 China, we also searched on the internet for media reports in Chinese by \"\u65b0\u578b\u51a0\u72b6\u80ba\u708e\" (novel 87 coronavirus pneumonia) and \"Wuhan\" on the operation of crematory facilities in Wuhan as 88 widely reported by established news organizations both inside and outside of China. 6-12 89 Cremation Data 90 Daily cremation due to the COVID-19 outbreak is defined and estimated by total number 91 of estimated cremations in the time period of this study minus pre-outbreak average daily 92 cremations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Detailed information on crematory facility and operation is listed in Appendix 1, but also 94 summarized in Table 1 . 6,7 Briefly, there are eight crematories in Wuhan, which under normal 95 circumstances would operate about 4 hours per day. Before the outbreak, cremation mainly 96 happened in the morning, according to Chinese rituals. Starting on or before January 25, 2020, 97 these were observed to be operating at or close to around-the-clock or 24 hours daily. 6-12 This 98 would put the current operating rate at about six times normal. Normal deaths per day can be 99 estimated as 136 based on an annual mortality rate of 0.00551 in a population of approximately 9",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 115,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "IV. To extrapolate from the Wuhan cremation data to the total number of infected cases, 126 alternative assumptions of 2.5%, 5%, and 10% were utilized for the case fatality rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "125"
+        },
+        {
+            "text": "V. Though media reported that Wuhan cremation service operated around the clock since 128 January 25, 2020, 6-12 we assumed no full capacity was utilized until two weeks later, on February 129 7, 2020. This assumption will be further discussed below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "127"
+        },
+        {
+            "text": "The Model",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "130"
+        },
+        {
+            "text": "Estimates of the total cases were calculated from an exponential growth model. At time ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "131"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "142"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . https://doi.org/10.1101/2020.05.28.20116012 doi: medRxiv preprint on 44 th day, that the exponential growth model is unreliable. From the 45 th day, we take into 144 account the declining number of susceptible individuals, and the model was modified (as in the 145 SIR simulation model) so that the relationship ( ) = ( \u2212 1) becomes ( ) =",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "where P is the population size of Wuhan after lock down.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The 95% confidence intervals presented in Table 2 is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 42,
+                    "end": 49,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "147"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. deaths. We assume that cremation service did not reached 100% utilization until February 7, and 177 the utilization was 80% between January 25 to February 6, 2020. The results of these estimates 178 are listed in Table 3 . Cumulative deaths are 9,384, for the nineteen days (January 25 to February 179 12, 2020) only. Based on the official crude case fatality rate of 3.14% (February 12, 2020, Table   180 1), the estimated cumulative infection was 298,854 within nineteen days (Table 3) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 286,
+                    "end": 293,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 467,
+                    "end": 478,
+                    "text": "Table   180",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 551,
+                    "end": 560,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "147"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "184"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . https://doi.org/10.1101/2020.05.28.20116012 doi: medRxiv preprint rate, 20 and under assumption of the crude fatality rates of 2.5%, 5%, and 10%, cumulative ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "184"
+        },
+        {
+            "text": "Estimates based of a 2.54 day doubling rate are also presented with estimated confidence 189 intervals in Table 3 . Since this doubling time was derived using Chinese official data, we 190 applied the official 3.14% fatality rate in the calculation. The total cases are projected to be 2.23 191 million with 95% confidence interval (2.12 million, 2.38 million) on February 7, 2020.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 106,
+                    "end": 113,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "188"
+        },
+        {
+            "text": "(c) Estimates based on funeral urn distribution",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "192"
+        },
+        {
+            "text": "No one was allowed to pick up urns during the lockdown. Beginning on March 23,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "193"
+        },
+        {
+            "text": "Wuhan residents were allowed to collect crematory urns, with the target date as April 4 to 195 complete the distribution of the backlog. Estimates based urn collection are listed in Table 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 182,
+                    "end": 189,
+                    "text": "Table 4",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "194"
+        },
+        {
+            "text": "Estimate of COVID related deaths and cumulative infections in all of China",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III."
+        },
+        {
+            "text": "If we use the Wuhan/China ratio based on China's official data listed in Table 1 198 (confirmed cases 39.4%), we can extrapolate estimates for China, with cumulative infections 199 potentially reaching 5.67 million on February 7, 2020. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 73,
+                    "end": 80,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "197"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . https://doi.org/10.1101/2020.05.28.20116012 doi: medRxiv preprint the officially announced figures of the outbreak. As the epicenter of the COVID-19 outbreak, the necessary epidemiological information about Wuhan was not made available n for the world to 206 initiate plans for a response and to prepare for the potential crisis that is now upon us.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Challenges for getting needed information in China ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "207"
+        },
+        {
+            "text": "The strength of this approach is that cremation is a common data end point. We applied ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "215"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "226"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . https://doi.org/10.1101/2020.05.28.20116012 doi: medRxiv preprint normal death rate as COVID-19 related. We do not include deaths that would happen on a later 228 date, due to delayed medical treatments of other diseases, the lockdown itself, the resulting 229 financial stress and the lack of social and emotional support, which may result in under- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Newsweek reported that roughly 5,000 urns were shipped to one of the eight Wuhan cremation 262 facilities. The number of urns that arrived in that one facility was already about twice of the 263 city's official overall death from COVID-19 toll. 33 Potential COVID-19 related death counts 264 from urn distribution for Wuhan could be 35,708 for seven funeral houses (Table 3) . This is CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 365,
+                    "end": 374,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "261"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "291"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . https://doi.org/10.1101/2020.05.28.20116012 doi: medRxiv preprint 8. Jinxin Kandian. \"I am at the first line of Wuhan funeral service, now needs some help\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "February 15, 2020. is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "330"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . https://doi.org/10.1101/2020.05.28.20116012 doi: medRxiv preprint Enterprise Institute. https://www.aei.org/research-products/report/estimating-the-true- is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 6, 2020. . ** The maximum capacity is calculated for the seven funeral houses, assuming non-stop cremation, and simplified procedure, since no farewell ceremony was allowed during lockdown period. *** In the linear calculation methodology, we assumed constant daily death from Jan 25-Feb 12, and the total confirmed cases were only calculated to reflect the accumulated cases within 19 days. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Marked increase during one night! 242 Deaths in Hubei + Funeral",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Wuhan pneumonia: Henan and Chongqing funeral teams going straight to support",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "353",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Interim Clinical Guidance for Management of Patients with Confirmed Coronavirus 361",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "html#:~:text=The%20incubation%20period%20for%20COVID,CoV%2D2%20i",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Disease",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30260-9"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Doubling 373 time of the COVID-19 epidemic by province, China. Emerg Infect Dis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Muniz-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-H",
+                    "middle": [],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P-Y",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2608.200219"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "An investigation of transmission control measures during the 382 first 50 days of the COVID-19 epidemic in China",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "6491",
+            "pages": "638--642",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb6105"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ". Outcomes are either survival with probability (1 \u2212 ) where d is the case fatality rate; or 124 death after 14 days with probability d.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "132 t, where t is the number of days since the occurrence of the initial case, the quantities of interest 133 are N(t), the cumulative number of cases, n(t), the daily cases, D(t), the cumulative number of",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "134 deaths, d(t), the daily deaths, and the case fatality rate d. ( ) = \u2212 1 + 1, so that (0) = 135 1, where c is a constant and the parameter \u03bb is set to match the reported doubling time. Matching the cumulative totals N(t) to the model 137 where each existing case infects R0 (the basic reproductive number) new cases on average after s 138 days (the serial interval) gives c = R0/(R0 -1). Wu et al. estimates 2.7 for R0. Exponential 139 growth model was not applied for projections of N(t) for Wuhan beyond the date February 7, 140 2020, due to the declining number of susceptible individuals and plausible effectiveness of city 141 lockdown.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "April 17, Wuhan City announced an adjustment of its death toll by additional 1,290, 171 and of confirmed diagnosis by 325 cases, making a total of confirmed diagnosis of 50,333 cases, 172 deaths of 3,869 cases, and crude case fatality rate of 7.69%. 24,25 173 II. Estimates of COVID-19 related deaths and cumulative infections in Wuhan 174 (a) Simple linear calculation 175 As a benchmark comparison, we have provided simple linear calculations with constant daily 176",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "the cremation data inference that COVID-19 related deaths reached 680 on 183 February 7, 2020, estimation of infection on February 7 is calculated. With 6.4 day doubling",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "intervention leading to the unprecedented sudden lockdown of Wuhan and 203 the published medical literature by Chinese researchers and scientists suggest a discrepancy from",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "major challenge to an effective response existed in the lack of transparency in reporting 209 by China. A pandemic impacts every aspect of social and economic life. With media reports 210 providing fragmented information with no well-defined focus, academic publications subject to 211 selection bias, and possibly less than forthright government data, many challenges have arisen in 212 formulating a data driven approach to this world-wide problem. 26 The current study used 213 cremation-related information to estimate epidemiological information including cumulative 214 infections and deaths.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "216 an exponential growth model during a window period from lockdown until the intervention 217 started to show effects. Note that the approach of the simple exponential growth model is valid218 under the assumption that countermeasures to slow the spread of the epidemic were ineffective 219 up to the date included. While people claimed that the lockdown in Wuhan combined with the 220 national emergency response have averted 96% of the cases by February 19, 2020, 27 it should be 221 considered that in the initial period after Wuhan lock down, the effectiveness of countermeasures 222 taken there could be impacted by many factors, including the lack of public awareness, the cross 223 infection at hospitals, the limitation of the medical capacity, the inadequacy of the quarantine 224 facility and space, and the family cluster chain-infections.. However, this is beyond the scope of 225 this manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "and deaths from cremation-based analysis 232 Based on data from the seven of eight Wuhan crematories, our conservative estimates of 233 cumulative infections on February 7 are more than 10 times than those of the official data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Chinese media raised concerns about infections and deaths beyond the official statistics; 235 for example, when the director of a fever clinic complained that he could admit only five out of 236 80 potentially infected patients, which suggested a potential 16-fold difference between possible 237 infected patients and confirmed diagnoses inWuhan. 4  The report mentioned the limited nucleic 238 acid-based testing, which was available only after the sequencing data was announced on 239 January 11, 2020. This information also pointed to the limited and exhausted medical facility 240 capacity in Wuhan in late January and early February 2020. InTable 5, we list representative 241 medical facilities in Wuhan and additional support from rest of China. Note that Wuhan was 242 reported to have approximately 90,000 beds by the end of 2018. 28 In addition, Wuhan had 243 already mandated an additional 100,000 beds using hotels and schools by early February, 244 bringing the total number of beds to 190,000 by mid-February. 29 This ratio of bed numbers to 245 official confirmed diagnoses as of February 12, 2020 was 190,000 to 32,994, which presents a 246 discrepancy which can not be explained by other causes.. Similarly, the medical staff to patient 247 ratio showing that Wuhan initially had more than 90, 000 health care professionals with an have inferred the percentage of undocumented infections, concluding 252 that approximately 86% of all infections were apparently undocumented and that these were the 253 source of infection for 79% of documented cases. 30 Scissors, examining out-migrants, has also 254 pointed out that China's COVID-19 figures are arithmetically impossible. 31 Tsang et. al. 255 estimated that by Feb 20, 2020, there would have been 232,000 (95% CrI (161,000-359,000)) 256 confirmed cases in China as opposed to only 55,508 reported cases. 32 These studies raise similar 257 concerns about the underreporting of Chinese COVID-19 cases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Correlation our estimates with funeral urn distribution259Since a major data source is the number of cremations in Wuhan, our estimates have been 260 further verified by the subsequent information of the funeral urn distribution. In late March,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "265 consistent with our linear estimate of 36,720, based on the cremation service operation. Both 266 estimates are more than ten times of the official death toll (2,524 on March 23). Additionally, 267 neither took into account those potentially processed in the 40 mobile crematories which were 268 brought to Wuhan after February 19, 2020 for the newly constructed hospitals (Huoshen Shan 269 and Leishen Shan) and \"Fangchang\" hospitals. 16,17 The mobile crematory stations can each 270 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "time for COVID-19 outbreak in Wuhan 273 As reported by Huang C et al., symptom onset of the first confirmed case was December 274 1, 2019. 34 Under the assumption of 6.4 doubling time, the start dates implied by this study range 275 from October 4, 2019 to October 17, 2019. The estimated \"implied start dates\" are consistent 276 with other reports where Kristian Andersen suggested a possible \"start date\" of October 1, 2019 277 based viral genome analysis. 35 Under the assumption of 2.54 doubling time, the implied start 278 date is December 14, 2019. However, in this scenario the infection cases were projected to total 279 2.23 million by February 7, 2020. If the doubling time 2.54 is close to the truth, then China's 280 official data under reported by millions. If the doubling time 6.4 is close to the truth, there was 281 significant under-and delayed reporting of the COVID-19 epidemic information by China in late 282 January and early February, the critical time for the world to respond and prepare for the 283 pandemic. Given the serious implications of the COVID-19 pandemic, further investigations into 284 this period in China needs to be carried out. 285 Readers are reminded of the assumptions that underlie our estimates, and they should 286 therefore be taken as approximate. However, even if there were non-negligible reporting errors 287 in these new data, the magnitude of the discrepancy between the results from their analysis and 288 China's official figures suggests that the potential impact on the global efforts to control the 289 pandemic is obvious. Transparency in China is of critical importance for the world to learn from 290 this infection and for those in the future.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "Been Working Around the Clock' National Review.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "335https://www.nationalreview.com/news/wuhan-residents-dismiss-official-coronavirus-336 death-toll-the-incinerators-have-been-working-around-the-clock/ Last accessed April He C. Amid virus outbreak, funeral home officials in Wuhan reveal sharp increase in 339 cremations. https://www.theepochtimes.com/exclusive-funeral-homes-in-coronavirus-340 ground-zero-cremating-dozens-of-bodies-a-day_3228938.html Last accessed February 341 12, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": ". \"Wuhan funeral service under heavy pressure from the epidemic: Lockdown affects 345 processing time, body designated to crematory\". January 31, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "346http://www.infzm.com/wap/#/content/175645 Last accessed on May 25, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "Wang W, Tang J, Wei F. Updated understanding of the outbreak of 2019 novel 366 coronavirus (2019-nCoV) in Wuhan, China. J Med Virol. 2020;92(4):441-447.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "Wu JT, Leung K, M Leung GM. Nowcasting and forecasting the potential domestic and 369 international spread of the 2019-nCoV outbreak originating in Wuhan,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "Tsang TK, Wu P, Lin Y, et al. Effect of changing case definitions for COVID-19 on the 394 epidemic curve and transmission parameters in mainland China: a modelling study.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "Newsweek. March 29, 2020. https://www.newsweek.com/wuhan-covid-19-death-toll-398 may-tens-thousands-data-cremations-shipments-urns-suggest-1494914.399 34. Huang C, Wang Y, Li X, et al. Clinical features of patients infected with 2019 novel 400 coronavirus in Wuhan, China. Lancet 2020 Jan 15.401 35. Cohen J. Wuhan seafood market may not be source of novel virus spreading globally.402 https://www.sciencemag.org/news/2020/01/wuhan-seafood-market-may-not-be-source-403 novel-virus-spreading-globally Last accessed February 18, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "* This does not include potential cremations performed in the 40 mobile crematory stations set up in Wuhan after February 19, 2020. *** Based on officially announced Wuhan crude case fatality rate 5.05% on March 23, 2020",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "are based on the confidence interval 148 for the doubling rate as presented. Confidence intervals for the estimated starting dates are not after lockdown) as the projected evaluation days. Retrospectively, February 12 was the day when 156 party leadership changes were undertaken in Wuhan and Hubei Province. 22",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "increase was relatively stable throughout the early period shown, there was a marked addition of confirmed cases on February 12, 2020, with 13,436 new cases reported in Wuhan and a total of164 15,151 (including Wuhan's data) of new cases in all of China, amounting to cumulative 165 confirmed diagnoses of 32,994 cases in Wuhan and 59,804 cases in China as a whole, and 1,036 166 cases of cumulative deaths in Wuhan and 1,367 deaths in China. On February 12, 2020, Wuhan's cases represented 55.2% and 75.8% of China's cases of cumulative confirmed diagnoses and 168deaths respectively. The crude case fatality rate due to COVID-19 ranged from 3 to 4% in Wuhan during this period, and ultimately 5% by April 11, 2020(Table 1).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Crematory Facilities and Operation in Wuhan, China Before lockdown on January 23, 2020 From January 25 to February 19, 2020 After February 19, 2020 including \"animal bodies\" per mobile crematory station, total capacity 5x40 = 200 tons) * The furnace information is for seven funeral houses, Hankou, Wuchang, Qingshan, Caidian District, JiangXia Distric, Huangpi District, Xinzhou District. Muslim Funeral House is not included in the table above, since the information there is scarce.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Official COVID-19 Epidemic Data in Wuhan and China from January 23 to April 17, 2020",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Estimates of COVID-19 Outbreak in Wuhan, China for Feb 7 and Feb 12, 2020 * From the 45 th day, the model was modified so that ( ) = 1 \u2212 ( ) ( \u2212 1), where P is the population after lock down. ** The doubling time was derived by Rodriguez et al. using Chinese official data.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Estimate of COVID-19 Related Deaths in Wuhan, China up to March 23, 2020 100% cremation utilization from Feb 7 to Mar 22 * This only includes seven funeral houses.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

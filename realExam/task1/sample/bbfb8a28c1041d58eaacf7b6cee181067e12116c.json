@@ -1,0 +1,92 @@
+{
+    "paper_id": "bbfb8a28c1041d58eaacf7b6cee181067e12116c",
+    "metadata": {
+        "title": "Chloroquine and hydroxychloroquine increase risk of death in COVID-19",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Two months ago, the WHO initiated the Solidarity Trial to evaluate the safety and efficacy of four drugs and drug combinations against COVID-19, said Dr Tedros Adhanom Ghebreyesus, Director-General of WHO, at a media briefing on COVID-19 on 25 May 2020. 2 To date, 17 of the 35 countries participating in the Solidarity Trial have enrolled nearly 3500 patients.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 255,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Remarks from the WHO Director-General"
+        },
+        {
+            "text": "However, after the results of the above observational trial were published in The Lancet, the Executive Group of the Solidarity Trial met and agreed \"to review a comprehensive analysis and critical appraisal of all evidence available globally,\" said the Director-General. The Executive Group has implemented a temporary pause of the hydroxychloroquine arm within the Solidarity Trial while the safety data is reviewed by the Data Safety Monitoring Board, but the other treatment arms are continuing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Remarks from the WHO Director-General"
+        },
+        {
+            "text": "\"This concern relates to the use of hydroxychloroquine and chloroquine in COVID-19. I wish to reiterate that these drugs are accepted as generally safe for use in patients with autoimmune diseases or malaria,\" he said.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Remarks from the WHO Director-General"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Hydroxychloroquine or chloroquine with or without a macrolide for treatment of COVID-19: a multinational registry analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mehra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "31180--31186",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 -25",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Who Director-General",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Adis \u00a9 2020 Springer Nature Switzerland AG. All rights reserved",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

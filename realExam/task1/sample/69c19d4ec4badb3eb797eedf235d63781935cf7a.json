@@ -1,0 +1,1877 @@
+{
+    "paper_id": "69c19d4ec4badb3eb797eedf235d63781935cf7a",
+    "metadata": {
+        "title": "Journal Pre-proof TOWARDS AN EVOLUTION OF INTERPROFESSIONAL PRACTICE: LESSONS LEARNED FROM TWO PIANO TRIOS Paul Haidet (Conceptualization) (Formal analysis) (Investigation)<ce:contributor-role>Writing original draft), Wendy S. Madigosky (Conceptualization) (Formal analysis) (Investigation)<ce:contributor-role>Writing review and editing) TOWARDS AN EVOLUTION OF INTERPROFESSIONAL PRACTICE: LESSONS LEARNED FROM TWO PIANO TRIOS",
+        "authors": [
+            {
+                "first": "Paul",
+                "middle": [],
+                "last": "Haidet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "and Public Health Sciences at the Penn State University College of Medicine",
+                    "location": {
+                        "settlement": "Humanities, Hershey",
+                        "region": "Pennsylvania",
+                        "country": "USA,"
+                    }
+                },
+                "email": "phaidet@pennstatehealth.psu.edu"
+            },
+            {
+                "first": "Wendy",
+                "middle": [
+                    "S"
+                ],
+                "last": "Madigosky",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Anschutz Medical Campus",
+                    "location": {
+                        "settlement": "Denver",
+                        "region": "Colorado",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Medicine, or the sponsoring organizations for the listed conferences. @myheroistrane J o u r n a l P r e -p r o o f Highlights \uf0b7 Interprofessional practice has been slow to take hold in healthcare \uf0b7 There was a similar interprofessional transition in jazz music in the early 1960s \uf0b7 Lessons learned from jazz history can inform today's interprofessional healthcare Abstract Interprofessional practice has been of great interest to both health systems and educational institutions, but has been slow to develop in actual practice. Important efforts to speed adoption have mostly focused on changes in structure or educational interventions. It turns out that the field of jazz music was grappling with similar issues in the early 1960s. In this essay, we draw lessons from the experiences of jazz musicians during a time of transition. We conclude that significant cultural transformation, focused on two paradoxes, and the barriers and contexts that flow from them, will be necessary to achieve ideal interprofessional healthcare practice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Over the last two decades, interprofessional collaborative practice has been increasingly embraced as an ideal model for the delivery of safe, high quality, and patient-centered healthcare. [2] There has been concurrent interest in interprofessional education, with articulation of core competencies by several international groups. [3, 4] At its best, interprofessional practice entails seamless communication across disciplinary boundaries, broad participation in and shared responsibility for healthcare decision-making among multiple professions, and high quality team-based practice. While these are laudable goals and have been demonstrated to foster a variety of positive outcomes, [5] [6] [7] [8] healthcare practice on the ground has been slow to evolve toward an interprofessional ideal. [9] Efforts to foster more rapid adoption have focused mainly on structurally-based barriers to interprofessional practice or educational deficiencies of practitioners. [10, 11] While both areas are important, we posit that additional issues lie at the heart of interprofessional practice, and will require significant cultural transformation before the ideal can be achieved. It turns out that the field of jazz music underwent a similar interprofessional transformation in the early 1960s. [12] In this essay, we examine two of the era's leading jazz groups as models of pre-and post-transformation practice, and identify lessons learned for today's healthcare environment. The jazz piano trio is one of the most fundamental and popular group formats, and consists of a piano, a bass, and drums. Piano trios can stand alone, or can serve as the backbone (called a \"rhythm section\") for larger groupings of instruments. One of the reasons that piano trios are ubiquitous is that the structure of the trio mirrors the structure of music itself. Music is generally regarded as being composed of three main elements: melody, harmony, and rhythm.",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 333,
+                    "end": 336,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 337,
+                    "end": 339,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 689,
+                    "end": 692,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 693,
+                    "end": 696,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 697,
+                    "end": 700,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 701,
+                    "end": 704,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 798,
+                    "end": 801,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 967,
+                    "end": 971,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 972,
+                    "end": 975,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1290,
+                    "end": 1294,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Melody consists of the progression of notes that give a song its identity. For example, if someone hummed the song \"happy birthday\", most people would recognize it, even if the words weren't being sung, because the melody carries the essence of the song. Harmony consists of the notes played simultaneously with the melody. Harmony provides context, and can make a given melody sound happy, sad, contemplative, or a wide range of other moods and feelings. Rhythm is responsible for creating the timing of a song, not only setting the pace, but also how the song \"moves\". The way rhythm unfolds can make a song sound like it is dancing, skipping, stumbling, flowing, or others.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Given the three structural elements of melody, harmony, and rhythm, the piano trio is ideally positioned, because each of the trio's instruments can be responsible for one of the musical elements. Most commonly, the piano takes the melody, the bass plays harmony, and the drums handle rhythm. This pairing of one instrument with one structural element can set up hierarchies within the trio, because audiences tend to focus on melody, making the piano seem like the most important instrument. It is not an accident that most piano trios are named for the pianist, and that the pianist often functions, or is seen to function, as the leader of the band. Since the instrument one plays forms a core component of the professional identity of the musician (just as specialties form the core of identity for health professionals), the primacy of melody over harmony or rhythm has implications for the interprofessional interplay among pianist, bassist, and drummer during a jazz trio performance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We suggest that the reader pause to listen to two different jazz piano trios perform the song Waltz for Debby. Both trios were led by highly accomplished and well-known pianists, and they serve as representative models of pre-(Oscar Peterson) and post-(Bill Evans) transformation ideas about interprofessionalism. Of particular importance are the actions of the bassists and drummers, which had implications for interprofessional practice in jazz, and have similar implications for health care practice today.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Different Models of Practice"
+        },
+        {
+            "text": "The first version of Waltz for Debby appears on the 1962 Verve Records album Affinity by the Oscar Peterson Trio, [13] and can be accessed at:",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 118,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Different Models of Practice"
+        },
+        {
+            "text": "https://www.youtube.com/watch?v=D7MhWDHYt1o. We invite the reader to focus on the bassist (Ray Brown) and drummer (Ed Thigpen), and their actions during the performance. Since jazz music is inherently improvisational, and since the musical score, as formally written, only provides a loose guide for jazz musicians when playing, they will depart from what is written during a performance, engaging in a form of musical conversation with each other. The conversation in the Oscar Peterson Trio version is dominated by Oscar himself on the piano.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Different Models of Practice"
+        },
+        {
+            "text": "Once the trio has played the song through the first time and starts to improvise (at approximately 1:33 on the track), the piano tears into a blitz of notes, going up and down, idea after idea, in a solo statement of speed and technique. Meanwhile, the drummer and bassist mostly stick to keeping time and harmony without much creative input. What is striking is how little input this J o u r n a l P r e -p r o o f bassist and drummer have, considering that Ray Brown and Ed Thigpen were two of jazz's great players on their respective instruments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Different Models of Practice"
+        },
+        {
+            "text": "Waltz for Debby by the Bill Evans Trio, [14] and can be accessed at:",
+            "cite_spans": [
+                {
+                    "start": 40,
+                    "end": 44,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The second version of Waltz for Debby appears on the 1962 Riverside Records album"
+        },
+        {
+            "text": "https://www.youtube.com/watch?v=P0FIsFD9MXU. At the time this was recorded, Bill Evans had been asking questions that challenged prevailing notions about piano trios. Why did the three functions of melody, harmony, and rhythm have to be siloed among the three instruments? What if the flow of ideas could come from multiple members of the band, instead of just the piano?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The second version of Waltz for Debby appears on the 1962 Riverside Records album"
+        },
+        {
+            "text": "How could two or more instruments co-construct a melody line, in essence changing the standard jazz solo from a soliloquy into a co-constructed, narrative dialogue? In this version, when the improvisational section begins around 1:15, the piano is not playing nearly as fast or as much as the previous version. However, many listeners perceive that more things are going on musically in this version. Scott LaFaro, the bassist, is all over his instrument, going high and low, playing snippets of melody, plunking occasional low harmony notes, and generally engaging in a back and forth exchange with the pianist. Meanwhile, the drummer Paul Motian is keeping a steady beat, but varying his accents to provide a kind of musical punctuation for the dialogue between the bassist and pianist. In this version, all three musicians seem to be attending to all three components of the music. The result is a more modern and complex sounding version, that, while less accessible at first, retains interest with repeated listening, because three sets of ideas, as played by three individuals, are unfolding in real time and having to be reconciled with each other. This stands in opposition to the Oscar Peterson Trio, with its one main set of ideas, voiced by the piano, and supported in predictable fashion by the bass and drums.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The second version of Waltz for Debby appears on the 1962 Riverside Records album"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The second version of Waltz for Debby appears on the 1962 Riverside Records album"
+        },
+        {
+            "text": "In order to achieve their new interprofessional model of jazz, Bill Evans, Scott LaFaro, and Paul Motian had to contend with two paradoxes. We call them \"paradoxes\" because they challenge cultural norms. Such norms exist in today's health care, and are strengthened by the two factors of uncertainty and risk. These risk and uncertainty factors act as barriers to realizing the potential inherent in the paradoxes, and they play out on three different levels (relational, individual, and systemic). These three levels can provide both context and potential targets for intervention aimed at promoting better interprofessional practice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Two Paradoxes at the Heart of Differences in Practice"
+        },
+        {
+            "text": "The first paradox is about power. Since audiences typically pay attention to melody, this positions the piano front and center and affords it a significant amount of power and control. By sharing the melody with LaFaro and Motian, Bill Evans was, in effect, sharing power with them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Power is Not a Zero Sum Game"
+        },
+        {
+            "text": "While the cultural norm would suggest that power is finite and that Bill Evans would therefore have less power, this flattening of the power differential had the paradoxical effect of increasing the total amount of power in the system. While it might be frightening for a pianist to consider giving up some of their power by sharing with the bassist and drummer, what the Trio discovered was that, rather than the piano losing power to the bassist and drummer, instead the piano retained its power, even as the bass and drums gained it. All three instruments were now empowered, and all three were responsible for the integrity of the melody. This increased the stakes, but also the level of commitment of the drums and bass, because now, rather than creating music indirectly by supporting the piano player, LaFaro and Motian could take part in creating it directly.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Power is Not a Zero Sum Game"
+        },
+        {
+            "text": "In health care settings, there have been some success stories about empowering members of the team. One example is the elevation of physician assistants and nurse practitioners in primary care practices. Traditionally, such providers have functioned in a subservient role to the physician, for instance, having to \"sign out\" patients to the physician before they could be discharged from the clinic, or having to get prescriptions countersigned by the physician. In contrast, many modern primary care practices address patient care needs indistinguishably by physicians, physician assistants, and nurse practitioners. [15, 16] All engage meaningfully in the task of caring for a population of patients, analogous to all members of the Bill Evans Trio engaging meaningfully in the task of caring for the melody. Another example is the participation of physician assistants on surgical services, taking a lead role in the postoperative medical management of patients. [17] While such examples provide a beacon of hope for interprofessionalism, we note that structural changes in the sharing of tasks is only the beginning. decisions. For example, a common factor that empowers nurses to speak up the hierarchy to prevent a potential error is the existence of an informal relationship with the doctor making the decision. [19] The trust garnered by such informal relationships reduces fear of retribution, and also enables the person in a position of power to take advice more seriously. Second, on an individual level, persons who are more comfortable with uncertainty will be more able to engage in back and forth deliberation that does not fall prey to premature closure, thus enabling higher quality decisions. Finally, on a systemic level, organizational factors such as availability of resources, examples set by senior leadership, fairness of processes, and cultural norms can either foster or inhibit the ability of teams to deal with uncertainty. Systems that inhibit teams' ability to embrace and work with uncertainty will be less likely to foster flattened power differentials, and less likely to realize the full benefits the first paradox of interprofessionalism.",
+            "cite_spans": [
+                {
+                    "start": 618,
+                    "end": 622,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 623,
+                    "end": 626,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 966,
+                    "end": 970,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1319,
+                    "end": 1323,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The second paradox has to do with supporting roles. In a jazz piano trio, bassists traditionally have to play the harmony and provide secondary rhythmic backup to the drummer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transcending Traditional Roles"
+        },
+        {
+            "text": "Ray Brown did this exceedingly well in the Oscar Peterson Trio. Scott LaFaro, though, playing with Bill Evans, faced a challenge. If he was going to go up into the high registers of the bass and share melody with the piano, what would happen to the harmony? In the past, whenever a bassist would take a melody solo, someone else in the band would drop down to attend to the harmony. With Bill Evans, however, Scott LaFaro would not be taking a solo; rather, he would be sharing the melody with the piano, and the problem of harmony needed to be addressed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transcending Traditional Roles"
+        },
+        {
+            "text": "LaFaro's solution realized a second paradox, and would revolutionize jazz bass playing. Scott LaFaro found a way to transcend his traditional role, even as he was fulfilling it. In Waltz For Debby, one hears the bass going up and down, playing snippets of melody in the high registers, J o u r n a l P r e -p r o o f and in between dropping down and hitting harmony notes. LaFaro's example showed bassists that they did not have to abandon the traditional role of the bass. In fact, they could take on additional roles at the same time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transcending Traditional Roles"
+        },
+        {
+            "text": "In health care settings, during the early days of the Patient Centered Medical Home movement, a core expectation was that medical assistants, nurses, and physicians would \"function at the top of their license\" [20, 21] , implying that they could safely and meaningfully take on additional tasks that would promote optimal patient outcomes. For example, medical assistants in some practices now gather core historical information from patients, pend orders relevant to the chief complaint, document subjective and objective data, and provide patient education. Using protocols, nurses manage anticoagulation levels. Pharmacists manage diabetes medications and recommend adjustments based upon patient-generated data. Patients themselves gather data and adjust medication dosages for conditions like diabetes and asthma, based upon care team guidance. All of these are tasks that were previously considered only in the purview of physicians, nurse practitioners, and physician assistants. Such new tasks exist in concert with the traditional tasks of these roles, and, when embraced, have resulted not only in improved medical outcomes, but also better patient and provider satisfaction. [22] [23] [24] Like the flattening of power, role transcendence can be difficult in health care, because of the factor of risk. By taking on additional roles, such as participating in decision making, a supporting player on a health care team is also taking on some of the responsibility for those decisions, and therefore incurring risk that comes with such responsibility. For example, a number of studies have identified the fear of malpractice litigation as a barrier to non-physician personnel assuming roles traditionally defined as residing in the purview of the physician. [25, 26] As with uncertainty, risk can be managed on relational, individual, and systems levels.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 215,
+                    "end": 218,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1186,
+                    "end": 1190,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1191,
+                    "end": 1195,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1196,
+                    "end": 1200,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1767,
+                    "end": 1771,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1772,
+                    "end": 1775,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Transcending Traditional Roles"
+        },
+        {
+            "text": "On a relational level, the positive effects of trust between the leader and other members of the team can help to mitigate risk, because the team members will feel that the leader has their back and is sharing in the responsibility for their behaviors, acting to help them succeed. On an individual level, those who are more comfortable with risk will be more able to transcend their traditional roles. Finally, on a systems level, those organizations that rigidly define job descriptions and foster a culture that incentivizes individuals to stay within their own boundaries and avoid approaching problems creatively will have very low rates of role transcendence on their interprofessional teams.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In the 1960s, the reaction of other pianists, bassists, and drummers to the Bill Evans Trio was mixed. Some saw an exciting development heralding new directions for jazz. Others saw the trio as a threat. These conversations in the jazz community were sometimes heated, and some pianists asserted that the Bill Evans Trio model would destroy jazz. The main argument was that the trio was creating chaotic music that would be less accessible to listeners. [27] However, what such arguments failed to acknowledge was that, while more complex, the music produced by the Bill Evans Trio was deeper, richer, and ultimately more rewarding for listeners, because they could witness the whole interprofessional process unfolding in real time on the bandstand. The Trio ultimately became one of the most influential bands in jazz history, inspiring generations of musicians to come.",
+            "cite_spans": [
+                {
+                    "start": 454,
+                    "end": 458,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Today's health care culture celebrates strong leaders who have power, make important decisions, are immediately decisive, and lead teams to victory. Such a narrative is organized, J o u r n a l P r e -p r o o f clear, straightforward, and predictable. Much of the hero worship in the news during the COVID-19 pandemic follows this narrative. Unfortunately, the world works in messy, unpredictable, and chaotic ways, and team science over the past few decades has demonstrated that the most successful teams have leadership that is distributed, relational, and not necessarily always done by the physician. [28] [29] [30] In other words, on any given day in any given situation, any of a team's members can help it find success. The best teams, whether in jazz or medicine, organize their business and communication to maximize this potential by drawing upon the full complement of perspectives and strengths of their members. This requires embracing the paradoxes of power and role transcendence. Rather than creating chaos, embracing the paradoxes represents an alternate, more complex and nuanced way of responding to chaos already inherent in health care settings, and better draws upon the strengths that teams bring to medical care. [31] The central paradoxes of power flattening and role transcendence, and the barriers of uncertainty and risk, can provide an important frame to guide the development of interventions that function on relational, individual, and systems-based levels. For example, a number of existing interventions that aim to flatten power hierarchies through reducing uncertainty and risk are designed to work by targeting one or more of these levels. These include TeamSTEPPS and Medical Team Training Program communication processes (both relational interventions), [32, 33] checklists to verify important facts rather than assuming authoritative accuracy (a systems intervention), and critical language that enables all team members to speak up (an individual intervention), like the CUS mnemonic (CUS = I'm Concerned, I'm Uncomfortable, this is a Safety issue). [34] Concepts such as psychological safety [35] help support the development and evaluation of such interventions. [36, 37] It is our hope that a focus on the power and role transcendence paradoxes, their respective barriers of uncertainty and risk, and the J o u r n a l P r e -p r o o f relational, individual, and systems levels will empower new ideas and interventions that significantly enhance the quality of interprofessional practice across health care settings.",
+            "cite_spans": [
+                {
+                    "start": 606,
+                    "end": 610,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 611,
+                    "end": 615,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 616,
+                    "end": 620,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1238,
+                    "end": 1242,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1794,
+                    "end": 1798,
+                    "text": "[32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1799,
+                    "end": 1802,
+                    "text": "33]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2092,
+                    "end": 2096,
+                    "text": "[34]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2135,
+                    "end": 2139,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 2207,
+                    "end": 2211,
+                    "text": "[36,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 2212,
+                    "end": 2215,
+                    "text": "37]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "For health care to achieve the ideals of interprofessional collaborative practice, we believe it must work toward a shared culture regarding interprofessionalism. [38] Work by multiple authors has demonstrated fundamental differences in how health care providers view interprofessional collaboration itself. For example, a discourse analysis of the interprofessional collaboration literature demonstrated not one, but two distinct conversations. [39] One conversation focuses on the utility of interprofessional collaboration to achieve improved outcomes, so that the ends justify the means, and is typically embraced by physicians and those in authority. Another conversation positions interprofessional collaboration as valuable in and of itself due to its emancipatory nature, affording all professionals with the respect, authority, and voice that they deserve. This second conversation most readily occurs among those traditionally in supportive roles (nurses, pharmacists, etc.). This difference is not just confined to the literature. A large survey of doctors and nurses demonstrated that not only did the two groups evaluate the quality of interprofessional collaboration differently, they defined the concept itself in different ways. [40] For health care culture to shift toward sharing power and responsibility, there needs to be not only tools and concepts, but also an acceptance of the need to promote the voices that have not been heard and to elevate those who have been made low by tradition. In other words, there needs to be a single integrated conversation.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 446,
+                    "end": 450,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1245,
+                    "end": 1249,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this essay, we have focused on the practitioners, whether they be the jazz musicians on the bandstand or health care personnel working in hospitals and clinics. However, there are additional important actors in both settings. Most musicians will acknowledge that the quality of a performance is dependent on the audience, and most health care personnel would agree that the J o u r n a l P r e -p r o o f chances for a positive outcome are strongly influenced by the patient and their community.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "While a discussion of the details of including patient voices in health care team decision making is beyond the scope of this article, we would just observe that modern articulations of patientcentered care, [41, 42] community engagement, [43] co-production of care, [44] as well as the processes of community-based participatory health research, [45] align well with the realization of the paradoxes of power and role-transcendence that Bill Evans, Scott Lafaro, and Paul Motian grappled with nearly sixty years ago.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "[41,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "42]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 239,
+                    "end": 243,
+                    "text": "[43]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 267,
+                    "end": 271,
+                    "text": "[44]",
+                    "ref_id": null
+                },
+                {
+                    "start": 347,
+                    "end": 351,
+                    "text": "[45]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, the lessons learned by examining differences between the Oscar Peterson and Bill Evans Trios have relevance for today's health care. In order to realize the potential of interprofessional practice, health care personnel need to grapple with the paradoxes of power and role transcendence. There are barriers to this endeavor in the form of uncertainty and risk.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "However, creative solutions exist on one or a combination of relational, individual, or systems levels. The lessons of the Bill Evans Trio can provide a useful framework for thinking about and devising interventions to promote higher quality interprofessional collaboration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Health care is not a one-size-fits-all endeavor. The tasks across varied environments, such as the hospital ward, clinic, operating theater, and elsewhere, are extremely different, and approaches to flatten power hierarchies and create role transcendence will necessarily differ.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Practice Implications"
+        },
+        {
+            "text": "While discussions about power and roles in an interprofessional context are not new, [38, 46, 47] the idea that power and roles set up paradoxes that need to be grappled with, in the setting of",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "[38,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 90,
+                    "end": 93,
+                    "text": "46,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 94,
+                    "end": 97,
+                    "text": "47]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Practice Implications"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Liner notes from the LP Bach to the Blues by the Ramsey Lewis Trio",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                }
+            ],
+            "year": 1964,
+            "venue": "Argo LP",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Health Professions Education: A Bridge to Quality",
+            "authors": [],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The CanMEDS initiative: implementing an outcomes-based framework of physician competencies",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Danoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Medical Teacher",
+            "volume": "29",
+            "issn": "",
+            "pages": "642--647",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Interprofessional Education Collaborative Expert Panel, Core Competencies for Interprofessional Collaborative Practice, Interprofessional Education Collaborative",
+            "authors": [],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "What do we know about health care team effectiveness? A review of the literature",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lemieux-Charles",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcguire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Medical Care Research and Review",
+            "volume": "63",
+            "issn": "",
+            "pages": "263--300",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Interprofessional collaboration: Effects of practicebased interventions on professional practice and healthcare outcomes, Cochrane Database of Systematic Reviews",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zwarenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Goldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The evidence base and recommendations for interprofessional education in health and social care",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Barr",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Freeth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hammick",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Koppel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of Interprofessional Care",
+            "volume": "20",
+            "issn": "",
+            "pages": "75--78",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Interprofessional education: effects on professional practice and healthcare outcomes, Cochrane Database of Systematic Reviews",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Perrier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Goldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Freeth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zwarenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Experiences and shared meaning of teamwork and interprofessional collaboration among health care professionals in primary health care settings: a systematic review",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sangaleti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schveitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pedruzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L C P"
+                    ],
+                    "last": "Zoboli",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Soares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JBI database System Rev Implement Rep",
+            "volume": "15",
+            "issn": "",
+            "pages": "2723--2788",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A scoping review to improve conceptual clarity of interprofessional interventions",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Goldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gilbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tepper",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Suter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zwarenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Interprofessional Care",
+            "volume": "25",
+            "issn": "",
+            "pages": "167--174",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Teamwork, collaboration, coordination, and networking: Why we need to distinguish between different types of interprofessional practice",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Xyrichis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zwarenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Interprofessional Care",
+            "volume": "32",
+            "issn": "",
+            "pages": "1--3",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Jazz: A History of America's Music, Knopf",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Burns",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Affinity, Verve Records",
+            "authors": [
+                {
+                    "first": "Oscar",
+                    "middle": [],
+                    "last": "Peterson Trio",
+                    "suffix": ""
+                }
+            ],
+            "year": 1962,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "6--8516",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Waltz For Debby",
+            "authors": [
+                {
+                    "first": "Bill",
+                    "middle": [],
+                    "last": "Evans Trio",
+                    "suffix": ""
+                }
+            ],
+            "year": 1962,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Nurse practitioner-physician comanagement of primary care patients: The promise of a new delivery care model to improve quality of care",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Norful",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Swords",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marichal",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Poghosyan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Health Care Management Review",
+            "volume": "44",
+            "issn": "",
+            "pages": "235--245",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A comparison of nurse practitioners, physician assistants, and primary care physicians' patterns of practice and quality of care in health centers",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kurtzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Barnow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Medical Care",
+            "volume": "55",
+            "issn": "",
+            "pages": "615--622",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Report of a national survey of surgical chairmen in large US hospitals",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Detmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Redmond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Annals of Surgery",
+            "volume": "193",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Distributed leadership in organizations: A review of theory and research",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bolden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "International Journal of Management Reviews",
+            "volume": "13",
+            "issn": "",
+            "pages": "251--269",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Speaking up behaviours (safety voices) of healthcare workers: A metasynthesis of qualitative research studies",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Morrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gustavson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "International Journal of Nursing Studies",
+            "volume": "64",
+            "issn": "",
+            "pages": "42--51",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Defining and measuring the patient-centered medical home",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stange",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nutting",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jaen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Crabtree",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Flocke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Journal of General Internal Medicine",
+            "volume": "25",
+            "issn": "",
+            "pages": "601--612",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Top-of-license nursing practice: describing common nursing activities and nurses' experiences that hinder topof-license practice",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Buck",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Loversidge",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Chipps",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gallagher-Ford",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Genter",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of Nursing Administration",
+            "volume": "48",
+            "issn": "1",
+            "pages": "266--271",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A team-based care model that improves job satisfaction",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "English",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Family Practice",
+            "volume": "25",
+            "issn": "",
+            "pages": "6--11",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Pharmacist roles in the management of patients with type 2 diabetes",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sisson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of the American Pharmacists Association",
+            "volume": "49",
+            "issn": "",
+            "pages": "41--45",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Impact of diabetes care by pharmacists as part of health care team in ambulatory settings: A systematic review and metaanalysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Fazel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bagalagel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Slack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Annals of Pharmacology",
+            "volume": "51",
+            "issn": "",
+            "pages": "890--907",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Nurse prescribing as an aspect of future role expansion: The views of Irish clinical nurse specialists",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lockwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fealy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of Nursing Management",
+            "volume": "7",
+            "issn": "",
+            "pages": "813--820",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A story of scrutiny and fear: Australian midwives' experiences of an external review of obstetric services, being involved with litigation and the impact on clinical practice",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fenwick",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Butt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Midwifery",
+            "volume": "26",
+            "issn": "",
+            "pages": "268--285",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Jade Visions: The Life and Music of Scott LaFaro",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lafaro-Fernandez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Team composition, distributed leadership, and performance: It's good to share",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Karriker",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Madden",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Katell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of leadership & Organizational Studies",
+            "volume": "24",
+            "issn": "",
+            "pages": "507--518",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Yes to the Mess: Surprising Leadership Lessons from Jazz",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Barrett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Safer Surgery: Analysing Behaviour in the Operating Theatre",
+            "authors": [],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Transforming Leadership: A New Pursuit of Happiness",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Burns",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "213",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "TeamSTEPPS: assuring optimal teamwork in clinical settings",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Clancy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Tomberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "American Journal of Medical Quality",
+            "volume": "22",
+            "issn": "",
+            "pages": "214--217",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Association between implementation of a medical team training program and surgical mortality",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Paull",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bagian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "JAMA",
+            "volume": "304",
+            "issn": "",
+            "pages": "1693--1700",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Psychological safety and learning behavior in work teams",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Edmondson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Administrative Science Quarterly",
+            "volume": "44",
+            "issn": "",
+            "pages": "350--383",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Interprofessional collaborative practice and relational coordination: improving healthcare through relationships",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gittell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Godfrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thistlewaite",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Interprofessional Care",
+            "volume": "27",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Impact of relational coordination on staff and patient outcomes in outpatient surgical clinics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gittell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Logan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cronenwett",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Godfrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Vidal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Health Care Manage Rev",
+            "volume": "45",
+            "issn": "",
+            "pages": "12--20",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Louder than words: Power and conflict in interprofessional education articles",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Paradis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Whitehead",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Medical Education",
+            "volume": "49",
+            "issn": "",
+            "pages": "399--407",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Are we all on the same page? A discourse analysis of interprofessional collaboration",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Haddara",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lingard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Academic Medicine",
+            "volume": "88",
+            "issn": "",
+            "pages": "1509--1515",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Doctor and nurse perception of inter-professional cooperation in hospitals",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Krogstad",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hofoss",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hjortdahl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "International Journal for Quality in Health Care",
+            "volume": "16",
+            "issn": "",
+            "pages": "491--497",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "When I say\u2026 patient-centredness",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Haidet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Medical Education",
+            "volume": "49",
+            "issn": "",
+            "pages": "1063--1064",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "What 'patient-centered' should mean: confessions of an extremist",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Berwick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "28",
+            "issn": "",
+            "pages": "555--565",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Leadership in volunteer multistakeholder groups tackling complex problems",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wageman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Leadership Lessons from Compelling Contexts",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1108/S1479-357120160000008016"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Coproduction of healthcare service",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hartung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BMJ Quality & Safety",
+            "volume": "25",
+            "issn": "",
+            "pages": "509--517",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Success in long-standing community-based participatory research (CBPR) partnerships: A scoping literature review, Health Education and Behavior. (2019) epub ahead of print",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lachance",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Relationships of power: Implications for interprofessional education",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Egan-Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martimianakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reeves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Interprofessional Care",
+            "volume": "25",
+            "issn": "",
+            "pages": "98--104",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The paradox of interprofessional education: IPE as a mechanism of maintaining physician power",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kuper",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Whitehead",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Interprofessional Care",
+            "volume": "26",
+            "issn": "",
+            "pages": "347--349",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Reducing power differentials entails changing the ways we communicate with each other, and the ways we view each other. The flattening of power differentials in health care can be difficult, because cultural norms about power relate to the factor of uncertainty. Medical culture values reducing uncertainty through clear lines of control and hierarchical decision making. While a leader sharing power may render the path of decision making less clear, he/she/they also increase the amount and diversity of input into decisions, potentially drawing upon a broader base of evidence and perspectives. [18] The difficulty comes from the stress resulting from a perception of greater uncertainty. This uncertainty can be managed on three levels. First, on a relational level, the trust developed by personal relationships can result in deeper listening, better comprehension of meaning, and more open back and forth conversation around important J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

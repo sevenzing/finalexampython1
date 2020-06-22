@@ -1,0 +1,702 @@
+{
+    "paper_id": "a117c9323ae4e846db5b45d6c57cd13e46463564",
+    "metadata": {
+        "title": "Journal Pre-proofs Anatomic evidence shows that lymphatic drainage exists in the pituitary to loop the cerebral lymphatic circulation Anatomic evidence shows that lymphatic drainage exists in the pituitary to loop the cerebral lymphatic circulation",
+        "authors": [
+            {
+                "first": "Elzat",
+                "middle": [],
+                "last": "Elham",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Xuzhou Medical University",
+                    "location": {
+                        "postCode": "221000",
+                        "settlement": "Xuzhou",
+                        "region": "Jiangsu",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Reziya",
+                "middle": [],
+                "last": "Wumaier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of Medical Molecular Virology",
+                    "institution": "Fudan University",
+                    "location": {
+                        "postCode": "200032",
+                        "settlement": "Shanghai",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chengji",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiangying",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "XiangYa Hospital of Central South University",
+                    "location": {
+                        "postCode": "410078",
+                        "settlement": "Changsha",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tao",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "First Affiliated Hospital of Guangzhou Medical University",
+                    "location": {
+                        "postCode": "510120",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": "taochen@gird.cn"
+            },
+            {
+                "first": "Nanshan",
+                "middle": [],
+                "last": "Zhong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Respiratory Disease",
+                    "institution": "First Affiliated Hospital of Guangzhou Medical University",
+                    "location": {
+                        "postCode": "510120",
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Taken together, our study may be the first to anatomically demonstrate the existence of novel lymphatic vessel structures in the pituitary, as well as their communication with the perinasal (lymphatic) tissue. Our findings suggest the existence of an ultimate loop for \"classical\" meningeal lymphatic drainage and are relevant to cerebral infection and immune defence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Respiratory infections can result in intracranial infections and unknown neurological symptoms. The central nervous system lacks classical meningeal lymphatic (circulation) drainage, and the exact underlying mechanisms of how immune cells from the peripheral lymphatic system enter the central nervous system (CNS) remain unknown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To determine whether the perinasal lymphatic system or lymphatic vessels are involved in cerebral immune defence and play a role in causing CNS infections (especially respiratory tract-related infections), we performed an anatomic study to investigate the drainage differences between the perinasal and intracerebral lymphatic systems by using injection of Evans blue and anatomic surgery, together with immunohistochemistry and immunofluorescence assays. Surprisingly, we found that (1) the pituitary (adenohypophysis) is involved and is rich in lymphatic vessels and (2) perinasal tissue could communicate with central pituitary lymphatic vessels in a specific and unidirectional manner.",
+            "cite_spans": [
+                {
+                    "start": 569,
+                    "end": 572,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Respiratory infections (e.g., fungi, bacteria, and coronavirus) can result in unknown intracranial infections and consequent neurological symptoms (1) (2) (3) . For example, in the current COVID-19 epidemic in China, 78 (36.4%) of 214 patients with COVID-19",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 155,
+                    "end": 158,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "were admitted with neurological symptoms to Wuhan Union Hospital (2) , and we observed 2 cases of diabetes insipidus (DI) related to pituitary disorder in patients with severe COVID-19 (in the First Affiliated Hospital of Guangzhou Medical University). It is generally believed that pathogens cause intracranial infection by entering the subarachnoid space via nasopharyngeal or middle ear passages, blood flow, blood-brain, and cerebrospinal fluid (CSF) barriers, although we still cannot explain the existence of pathogens in the CSF, as the blood-brain barrier (BBB) can prevent the transmission of pathogens to the meninges(1).",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 68,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "CSF originates from the choroid plexus of the intracranial lateral ventricle (4) . The reflux of CSF to the lymphatic system plays an important role in cerebral immunity (4, 5) . CSF is drained through meningeal lymphatic vessels, which allow immune cells to enter draining lymph nodes (DLNs) and play an important role in cerebral immune defence. However, the exact underlying mechanisms of how immune cells from the peripheral lymphatic system enter the central nervous system (CNS) remain unknown (4, 6) . The perinasal lymphatic system is the first-line barrier of respiratory immunity against pathogen invasion of the respiratory tract and body (7) . Respiratory infections can lead to CNS infections, but it is unclear whether the perinasal lymphatic system and lymphatic vessels are involved in cerebral immune defence and play a role in CNS infections caused by respiratory pathogens (1, 7) .",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 80,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 174,
+                    "end": 176,
+                    "text": "5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 500,
+                    "end": 503,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 504,
+                    "end": 506,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 650,
+                    "end": 653,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 892,
+                    "end": 895,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 896,
+                    "end": 898,
+                    "text": "7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To elucidate the roles of the perinasal lymphatic system during cerebral infection (especially respiratory-related infections) and cerebral immune defence, we carried out an anatomic study to investigate the drainage differences between the perinasal and intracerebral lymphatic systems. Under an anatomic (20\u00d7 magnification) microscope, we dissected the mouse intracranial nervous system after injection of Evans blue (perinasal lymphatic reflux assay) and found that lymphatic vessels that exist in the pituitary and loop the cerebral lymphatic circulation are responsible for the perinasal-pituitary lymphatic drainage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The Lyve1-Alexa 488 antibody was purchased from eBioscience (catalogue # 53-0443-80) and used at a 1:250 dilution. Anti-CD31 was purchased from Abcam (catalogue # ab222783) at a 1:100 dilution. Anti-rabbit IgG (H+L) Highly Cross-Adsorbed Secondary Antibody was purchased from Invitrogen Co., Ltd., (catalogue # A32740) and used at a 1:1000 dilution. Evans blue and other reagents were purchased from Sangon Biotech (Shanghai) and were of high analytical grade.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Antibodies and reagents"
+        },
+        {
+            "text": "Mice (BALB/c, 7 weeks old) were divided into different groups (5 for each group).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Injection of Evans blue and anatomic surgery"
+        },
+        {
+            "text": "For the treated groups, mice were anaesthetized with pentobarbital sodium (70 mg/kg) by intraperitoneal injections and then subcutaneously injected with 0.1 mL of Evans blue (5%) by microsyringe via either or both limbs, the tail and the perinasal area (e.g., bilateral the hindlimbs, the second toe of the dorsal feet, both flanks, the dorsal sides of the bilateral forelimbs, the bilateral retroauricular regions, the parietal midpoint between both ears, the tip of the nose, and the bilateral ventral mucosae of the tongue). The control groups received saline instead.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Injection of Evans blue and anatomic surgery"
+        },
+        {
+            "text": "After injection, the mice were placed on a heating pad at a stable (25\u00b0C) temperature for 4 hours and then euthanized (350 mg/kg) for anatomic analysis. In brief, with the abdomen facing down, the dorsal fur of the mouse was moistened with saline, after which the dorsal skin was cut transversely and then longitudinally to the mouse nose to fully expose the skull with scissors. Then, the cervical muscles were cut off the skull from the foramen magnum to expose the brain. The brain was then removed with tweezers; nerves connecting the brain were also cut off to expose the pituitary for observation under a Zeiss operating microscope (Zeiss Opmi Primo ceiling-mount microscope, 20\u00d7 magnification). Photos were taken with a Canon 5DSR camera (Micro Lens: Canon EF 100 mm f/2.8L IS USM; Micro Flash: Canon mr-14ex II).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Injection of Evans blue and anatomic surgery"
+        },
+        {
+            "text": "The pituitary was removed from the mouse, immersed in 4% PFA for fixation, and embedded in paraffin. The pituitary was transversely sectioned (Leica CM 1950) and adhered to a glass slide. The sections were then deparaffinized, after which they underwent antigen retrieval, 3% hydrogen peroxide solution blocking for endogenous peroxidase and 3% BSA blocking. The blocking buffer was discarded, and primary antibody in PBS was added to the section and incubated in a wet box at 4\u00b0C overnight.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunohistochemistry"
+        },
+        {
+            "text": "The glass slides were washed with PBS three times (5 min each) after incubation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunohistochemistry"
+        },
+        {
+            "text": "Then, the slides were incubated with secondary antibody (HRP-labelled) for 50 min at room temperature. The sections then underwent DAB and Harris haematoxylin staining after three washes in PBS. Then, the section was mounted using neutral balsam, and the blue staining was reversed in ammonia water. Photos were taken under a fluorescence microscope (Leica DMI4000B).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunohistochemistry"
+        },
+        {
+            "text": "The sections and slide preparation, antigen retrieval, BSA blocking, and primary and secondary antibody incubation processes were the same as the aforementioned conditions used for immunohistochemistry.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunofluorescence assay"
+        },
+        {
+            "text": "After staining with secondary antibodies, the glass slide was washed in PBS three times (5 min each). After the section dried slightly, DAPI was added to the sample, followed by 10 min of room temperature incubation in the dark. The glass slide was then washed again three times and mounted using an antifluorescence quenching mounting agent. Photos were taken under a confocal microscope (LSM710 laser confocal microscope, Zeiss).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immunofluorescence assay"
+        },
+        {
+            "text": "Adobe Photoshop, Fiji Image Analysis, and GraphPad Prism software were chosen for image processing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Image processing"
+        },
+        {
+            "text": "Two to four hours after the subcutaneous injection of Evans blue into the mouse limbs, tail, and perinasal area, we unexpectedly observed a light-blue, well-discriminated, regular \"birds eye\" region in the central pituitary (8) (Fig. 1A; We then dissected other untreated mice and found that the \"birds eye\" region exists in the central pituitary, which was identifiable but can be carefully discriminated from peripheral white matter ( Fig. 1C ; see green arrow and circle). We further performed pathological staining and confirmed that the \"birds eye\" region was actually the posterior pituitary or adenohypophysis(8) (Fig. 1D) . Moreover, lymphatic endothelial growth factor was found to be highly expressed in the \"birds eye\" region ( Fig. 1E and ",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 228,
+                    "end": 237,
+                    "text": "(Fig. 1A;",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 437,
+                    "end": 444,
+                    "text": "Fig. 1C",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 620,
+                    "end": 629,
+                    "text": "(Fig. 1D)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 739,
+                    "end": 746,
+                    "text": "Fig. 1E",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Evans blue can directly reach the central region of the mouse pituitary after subcutaneous injection into the perinasal area."
+        },
+        {
+            "text": "We acknowledge that the brain lacks classic lymph circulation according to our current understanding. However, it remains unclear how respiratory pathogens cause intracranial infection, how immune cells enter the brain for immune defence and whether the peripheral lymphatic system communicates with the central nervous system in addition to the meningeal lymphatic draining system. A, Colocalization analysis of Lyve-1 and CD31 under the scope in Figure 2D (upper right, the most colocalized area in Figure 2D was selected and marked with a yellow line; scale bar: 100 \u03bcm). B, Immunofluorescence analysis showed no colocalization of Lyve-1 and CD31 (Fiji Image analysis).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 448,
+                    "end": 457,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 501,
+                    "end": 510,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Funding: The study was financially supported by grants from the National Natural Science We declare that none of the authors has any potential conflicts of interest with regard to this manuscript. A, Colocalization analysis of Lyve-1 and CD31 under the scope in Figure 2D (upper right, the most colocalized area in Figure 2D was selected and marked with a yellow line; scale bar: 100 \u03bcm). B, Immunofluorescence analysis showed no colocalization of Lyve-1 and CD31 (Fiji Image analysis).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 271,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 315,
+                    "end": 324,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Conflict of Interest Disclosure"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Nasal lymphatics as a novel invasion and dissemination route of bacterial meningitis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Filippidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Fountas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Med Hypotheses",
+            "volume": "72",
+            "issn": "",
+            "pages": "694--697",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Neurological Manifestations of Hospitalized Patients with COVID-19 in Wuhan, China: a retrospective case series study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "medRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pituitary aspergillus infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Erstine",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Prayson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Clin Neurosci",
+            "volume": "29",
+            "issn": "",
+            "pages": "178--180",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Structural and functional features of central nervous system lymphatic vessels",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Louveau",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Smirnov",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Keyes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nature",
+            "volume": "523",
+            "issn": "",
+            "pages": "337--341",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Implications of the discovery of brain lymphatic pathways",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Iliff",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nedergaard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet Neurol",
+            "volume": "14",
+            "issn": "",
+            "pages": "977--979",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Current understanding of lymphatic vessels in the central nervous system",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Neurosurg Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Rapid transepithelial transport of prions following inhalation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kincaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hudson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Richey",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "12731--12740",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Neuronal M<sub>3</sub> muscarinic acetylcholine receptors are essential for somatotroph proliferation and normal somatic growth",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gautam",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Starost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "106",
+            "issn": "",
+            "pages": "6398--6403",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "and B, Fig. 1C; see yellow arrow and circle; 5x magnification from 1A). Interestingly, the dye could not travel to the middle pituitary after injection in other parts of the body (limbs, tail) alone or injection of the perinasal area alone (data not shown). This result suggests that some kind of vessels and (drainage) tissues may exist in the central pituitary area and are extended from or connected with the perinasal tissue. Lymphatic vasculatures may be enriched in the \"birds eye\" region in the central pituitary.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "). These results suggest that lymphatic vasculature may be enriched in the adenohypophysis. Lymphatic vasculature exists in the central pituitary region of the adenohypophysis. Thus, inspired by Louveau et al.'s study(4), we conducted a further immunofluorescence assay to confirm the lymphatic vasculature in the central pituitary. As shown in Figure 2, the central pituitary region of the adenohypophysis was positively labelled with the lymphatic endothelial marker Lyve-1 (green, Fig. 2B) as a capillary structure arrangement. Notably, no colocalization of the vascular endothelial cell markers CD31 (red in Fig. 2C) and Lyve-1 was found (Fig. 2D and Fig. 3), suggesting that lymphatic vasculature but not blood vasculature exists in the central pituitary region of the adenohypophysis. We hypothesized that these small lymphatic vasculatures (called central pituitary lymphatic vessels) may maintain communication with the nasal lymphatic vessels. Perinasal tissue may communicate with central pituitary lymphatic vessels in a specific and unidirectional manner. Interestingly, in our study, Evans blue was concentrated in central pituitary lymphatic tissue only when it was injected around the perinasal tissue; Evans blue was not found in the pituitary when injected in other parts of the body (limbs or tail, data not shown). This finding may indicate that only perinasal lymphatic tissue (vessels) is specifically connected to the pituitary (central pituitary lymphatic tissue) in a unidirectional manner.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Louveau et al.'s cerebral lymphatic drainage study, Evans blue could not be detected in the deep cervical lymph nodes (dCLN) 30 min after injection into the nasal mucosa; therefore, the researchers believed that meningeal lymphatic vessels were the only way to drain CSF(4). However, our findings showed that Evans blue specifically accumulated in the middle of the adenohypophysis (possibly through the perinasal-pituitary lymphatic vessel pathway) 2~4 hours after injection around the nasal mucosa. This finding suggests that Evans blue might be absorbed by the perinasal reticular (lymphatic) tissue and then reaches the pituitary via perinasal lymphatic drainage, through which it enters the CNS to participate in cerebral lymphatic circulation.To the best of our knowledge, this is the first study that anatomically observed and showed the existence of lymphatic vessels in the pituitary (lymphatic drainage).Although further studies and evidence are needed to verify these results (from the lymphatic draining or from the immune defence perspective), we believe that thispossible perinasal lymphatic-central pituitary lymphatic-central nervous system drainage route, together with classical meningeal lymphatic drainage, can ultimately comprise a complete loop for cerebral lymphatic circulation, the perinasal lymphpituitary-CSF-meningeal lymph-perispinal lymph lymphatic drainage loop. Taken together, our results, particularly those regarding the possible specificity and unidirectionality of the aforementioned perinasal-central pituitary lymphatic connection, indicate that pituitary-lymphatic drainage may play a key role in the regulation of cerebral infection caused by respiratory pathogens(1), which invade the CNS via the perinasal tissue due to the abnormal communication of the perinasal-pituitary lymphatic refluxes(1, 7). Acknowledgements: This work was supported by grants from the National Natural Science Foundation of China (81972163), the Guangdong Provincial Department of Science and Technology (2019A1515010947), and the State Key Lab of Respiratory Disease (SKLRDQN201702; SKLRD-OP-202003). We thank Professor Hexige Saiyin from the State Key Laboratory of Genetic Engineering at Fudan University, Dr. Jianwei Ge from the Neurosurgery Department of Renji Hospital at Shanghai Jiaotong University and Dr. Wenlong Tang from the Neurosurgery Department of Heping Hospital at Changzhi Medical College for helpful discussion and suggestions for the study.Author ContributionEE, RW and TC conceived and designed the study. EE and RW performed the experiments, and CW and XL provided necessary assistance. EE, RW and TC analysed the data and prepared the manuscript. TC and NZ reviewed the manuscript and supervised the work.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Mouse pituitary anatomic and immunohistochemical analysis. A, Pituitary anatomic observation under a 20\u00d7 magnification microscope after the subcutaneous injection of 50 \u03bcL of Evans blue at the perinasal region: a light-blue, well-discriminated, regular \"birds eye\" region was observed in the central pituitary. B, 5\u00d7 magnification of the region selected with the microscope in A. C, Pituitary anatomic observation with the no-injection mice: the \"birds eye\" region was identifiable from peripheral white matter in the central pituitary (7\u00d7 magnification). Photos were taken with a Canon 5DSR camera. D, Haematoxylin (HE) staining of pituitary tissue (D1-anterior pituitary/neurohypophysis; D2-posterior pituitary/adenohypophysis). E&F, Immunohistochemical staining of pituitary with the lymphatic endothelial marker Lyve-1 and HE staining (E-neurohypophysis, F-adenohypophysis; HE staining-blue, Lyve-1 staining-brown).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Lymphatic vasculatures existed and were enriched in the \"birds eye\" region of the central pituitary (adenohypophysis). A, Haematoxylin (HE) staining of pituitary tissue (scale bar: 100 \u03bcm). B, Immunofluorescence assay of pituitary tissue positively stained with the lymphatic endothelial marker Lyve-1 (green). C, Pituitary tissue that was positively stained with the vascular endothelial marker CD31 (red). D, Colocalization of vascular Lyve-1 and CD31.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Capillary structures in the central pituitary (adenohypophysis) are likely lymphatic vessels and not blood vessels.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "of China (81972163), the Guangdong Provincial Department of Science and Technology (2019A1515010947), the State Key Lab of Respiratory Disease (SKLRDQN201702; SKLRD-OP-202003).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Figure 1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Mouse pituitary anatomic and immunohistochemical analysis. A, Pituitary anatomic observation under a 20\u00d7 magnification microscope after the subcutaneous injection of 50 \u03bcL of Evans blue at the perinasal region: a light-blue, well-discriminated, regular \"birds eye\" region was observed in the central pituitary. B, 5 \u00d7 magnification of the region selected with the microscope in A. C, Pituitary anatomic observation with the no-injection mice: the \"birds eye\" region was identifiable from peripheral white matter in the central pituitary (adenohypophysis). E&F, Immunohistochemical staining of pituitary with the lymphatic endothelial marker Lyve-1 and HE staining (E-neurohypophysis, F-adenohypophysis; HE staining-blue, Lyve-1 staining-brown).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Lymphatic vasculatures existed and were enriched in the \"birds eye\" region of the central pituitary (adenohypophysis). A, Haematoxylin (HE) staining of pituitary tissue (scale bar: 100 \u03bcm). B, Immunofluorescence assay of pituitary tissue positively stained with the lymphatic endothelial marker Lyve-1 (green). C, Pituitary tissue that was positively stained with the vascular endothelial marker CD31 (red). D, Colocalization of vascular Lyve-1 and CD31.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Figure 3",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Capillary structures in the central pituitary (adenohypophysis) are likely lymphatic vessels and not blood vessels.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "None of the authors has any potential conflicts of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest Disclosure"
+        }
+    ]
+}

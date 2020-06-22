@@ -1,0 +1,649 @@
+{
+    "paper_id": "f9d11752b3d640e3990cba4869578165b3a2508f",
+    "metadata": {
+        "title": "Algorithms for Constructing Anonymizing Arrays",
+        "authors": [
+            {
+                "first": "Erin",
+                "middle": [],
+                "last": "Lanus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Virginia Tech",
+                    "location": {
+                        "postCode": "22203",
+                        "settlement": "Arlington",
+                        "region": "VA",
+                        "country": "USA"
+                    }
+                },
+                "email": "lanus@vt.edu"
+            },
+            {
+                "first": "(",
+                "middle": [
+                    "B"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Charles",
+                "middle": [
+                    "J"
+                ],
+                "last": "Colbourn",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Arizona State University",
+                    "location": {
+                        "postCode": "85281",
+                        "settlement": "Tempe",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": "charles.colbourn@asu.edu"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Attribute-based methods are inherently identity-less as authorization decisions are made in terms of attributes possessed by the subject rather than identity. However, anonymity against the system is not guaranteed when attribute distribution allows for the composition of a policy that few subjects can satisfy. An anonymizing array ensures that any assignment of values to t attributes that appears in the array appears at least r times. When an anonymizing array is used for subjects registered to a system and policies contain conjunctions of at most t attributes, the system cannot identify the subject using the policy to to gain authorization with greater than 1 r probability. Anonymizing arrays are similar to covering arrays with higher coverage and constraints, but have an additional desired property, homogeneity, due to their application domain. In this paper, we develop constructions for anonymizing arrays and propose a post-optimization mechanism to reduce homogeneity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In attribute-based systems used for access control, such as Attribute-Based Access Control and Ciphertext-Policy Attribute-Based Encryption (CP-ABE), decisions are made on the basis of attributes, or characteristics of a subject expressed as name-value pairs [1, 5] . A feature of these systems is that they can achieve anonymous access control, granting access to authorized subjects and denying access to unauthorized subjects without knowledge of the subject's identity. This is not a guarantee that the identity cannot be deduced. CP-ABE encrypts a ciphertext in a policy, and decryption is performed by a private key containing attributes satisfying the policy. CP-ABE is proposed to mediate authenticated key exchange with an anonymous mode [9] . Suppose a service broadcasts a session key encrypted by a policy. A subject whose private key contains attributes satisfying the policy decrypts the message, obtains the key, and begins communicating with the service via the session key. The service knows that the subject communicating with it is authorized based on possession of the required attributes to obtain the key. The authors claim that the service cannot uniquely identify the subject. All subjects must register with the service to receive a private key, and thus the service knows all attributes of the subjects in the system. If a policy can be composed so that only one subject's attributes satisfy the policy and this policy is used to encrypt the session key, the service knows the identity of the subject using this session key. \"Anonymous ABE\" uses hidden credentials which can be used to retrieve a session key anonymously, but the receiver anonymity is based on \"plausible deniability\" due to the fact that anyone can request the message, not just the intended recipient [6] . Plausible deniability fails if the message is decrypted to gain a session key to obtain authorization, proving that a subject with the correct credentials decrypted the message.",
+            "cite_spans": [
+                {
+                    "start": 259,
+                    "end": 262,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 263,
+                    "end": 265,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 747,
+                    "end": 750,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1796,
+                    "end": 1799,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The contribution of this work is to achieve a guaranteed degree of anonymity by requiring that certain properties of attribute distribution hold given a maximum credential size. Policies can be considered disjunctions of conjunctions of attribute values with the most restrictive policy being a single conjunction of many attribute values. Let t be the largest number of attributes in a single conjunction. An anonymizing array ensures that any assignment of values to t attributes that appears in the array appears at least r times [7] . When an anonymizing array is used for subjects registered to a system and policies contain conjunctions of at most t attributes, the system cannot identify the subject using the policy for authorization with greater than 1 r probability. An access profile is an assignment of values to attributes. When attributes are assigned to access profiles for the purpose of anonymous authorization, as in key distribution, rather than existing as real-world attributes of subjects, an anonymizing array is built from scratch. When the set of subject attributes registered to a system is fixed, an anonymizing array determines the largest conjunction that can be used while achieving the anonymity guarantee r or, equivalently, the guarantee achievable for the largest conjunction. When subject attributes are immutable but the set of access profiles can be appended, anonymizing arrays provide a mechanism to provide higher anonymity guarantees. Constructions for anonymizing arrays must account for constraints on attributes and, due to the security application, must not rely randomness in order to achieve the guarantee with a high probability. The rest of the paper is organized as follows. Definitions and relationship to covering arrays are in Sect. 2. Construction algorithms are in Sect. 3. Results are in Sect. 4, and conclusions are in Sect. 5.",
+            "cite_spans": [
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Consider an array with N rows and k columns and each column i for 1 \u2264 i \u2264 k has entries from a set of v i symbols. The rows of the array are access profiles, columns are attributes, and symbols in a column are the values for the attribute. To express the parameters of the array, write AA(N ; r, t, k, (v 1 , . . . , v k )) or use exponential notation v j i when j columns share the same number of symbols v i . Write AA(N ; r, t, k, v) when the number is the same for all columns. Such an array is (r, t)-anonymous if, when choosing an N \u00d7 t subarray, 1 \u2264 t \u2264 k, each row that appears is repeated at least r times. A credential is a tuple of attributevalue pairs presented for an authorization decision. The maximum credential size is t and r is the anonymity guarantee. Given an N \u00d7k array A, an N \u00d7k array A is (r, t)-anonymizing with respect to A if A \u2286 A and A is (r, t)-anonymous. Interesting cases require r > 1 and v i > 1 for all v i . An access profile may represent a subject or it may be padding, a row added to reach an anonymity guarantee. Access profiles need not be unique. The rows or columns of the array can be shuffled to obtain an equivalent array on the same parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definitions"
+        },
+        {
+            "text": "Hard constraints are credentials that cannot appear, while soft constraints are credentials that need not appear, but are not illegal. That is, hard constraints and non-appearing soft constraints must appear 0 times, while soft constraints that appear and all unconstrained credentials must appear at least r times. Hard constraints may give rise to implicit hard constraints that cause there to be no feasible solution. Constraints must be considered when appending padding rows to an anonymizing array to reach the anonymity guarantee r.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definitions"
+        },
+        {
+            "text": "Anonymizing arrays containing groups of highly similar access profiles may lead to affiliating subjects with and tracking subjects by their groups; [7] develops the following metrics to detect this similarity. Local homogeneity describes how often an access profile appears in small groups of similar access profiles, and global homogeneity is the average local homogeneity. The neighborhood of a credential is the set of access profiles possessing the credential. The closeness of a pair of access profiles is a sum of their weight over all credentials, and the weight of a pair of access profiles on a credential is inversely proportionate to the size of the neighborhood of the credential if the access profiles are in the neighborhood. Let U be a set of N access profiles and let C be the set of credentials. Define the neighborhood of a credential c \u2208 C as \u03c1(c) = {u i : u i possesses c, u i \u2208 U} and",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definitions"
+        },
+        {
+            "text": "A covering array denoted CA(N ; t, k, v) is an N \u00d7k array on v symbols such that in every N \u00d7 t subarray each of the v t combinations of symbols, called interactions, appears as a row. When different columns can have different numbers of symbols, it is a mixed-level covering array MCA(N ; t, k, (v 1 , . . . , v k )). In rare cases when higher coverage is needed, interactions may be required to appear at least \u03bb > 1 times. When not specified, \u03bb = 1 is implied. Anonymizing arrays are similar to covering arrays with constraints and higher coverage. The primary difference due to application is in the desired homogeneity property, but also in how constraints are treated. For covering arrays, the norm is to define the interactions that must not appear (hard constraints), then to define the interactions that might appear (soft constraints, possibly further divided into \"don't care\" and \"avoid\"), and then to derive the interactions that must appear [3] . For anonymizing arrays, the access profiles provided define the unconstrained credentials. The system specification defines the hard constraints, and the soft constraints are defined to be the remaining credentials that are in neither set. Given an anonymizing array without a defined set of constraints, it may be impossible to distinguish the soft and hard constraints from the set of non-appearing credentials. The same difficulty arises distinguishing the soft constraints from the unconstrained credentials. Care must be taken when converting between covering arrays and anonymizing arrays that constraints are categorized correctly. Many construction algorithms exist for building covering arrays, though few explicitly include constraint handling or higher coverage requirements. The following nonexhaustive list of relationships elucidate how to use covering array constructions to build anonymizing arrays.",
+            "cite_spans": [
+                {
+                    "start": 955,
+                    "end": 958,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "Any MCA \u03bb (t, k, (v 1 , . . . , v k )) with hard constraint set H is also an AA(\u03bb, t, k, (v 1 , . . . , v k )) with hard constraint set H and all other credentials appearing. Every t-way interaction that appears in the covering array \u03bb times is a credential that appears \u03bb times in the corresponding anonymizing array. The interactions in H never appear in the covering array so they never appear in the anonymizing array. In the context of covering arrays, higher \u03bb does not force a \"don't care\" or an \"avoid\" interaction to appear \u03bb times if it appears once. Then soft constraints must not be present in a covering array used as an anonymizing array. There must also exist a mapping of soft constraints in the anonymizing array onto either hard constraints in the covering array if they do not appear or onto unconstrained interactions if they do.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "If an MCA(t, k, (v 1 , . . . , v k )) with hard constraint set H and soft constraint set S exists, then an AA(r, t, k, (v 1 , . . . , v k )) with H and S exists. Copy the covering array vertically r times. No interaction of H appears in the covering array, so none of these credentials appear in the anonymizing array. Any interaction of S that appears in the covering array at least once appears in the anonymizing array at least r times, and the rest never appear. Unconstrained credentials appear at least once in the covering array and at least r times in the anonymizing array.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "An . . . , v k )) with no constrained credentials. In the mixedlevel covering array without constraints, a (t \u2212 1)-way interaction appears at least v i times, once with each of the v i symbols in the t-th column of the t-way interaction including those t \u2212 1 columns. Every (t \u2212 1)-way interaction appears at least v times, v the minimum v i . This is an anonymizing array for r = v.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 4,
+                    "text": ".",
+                    "ref_id": null
+                }
+            ],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "If there exists a covering array CA(t, k, v) with a set of hard constraints",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "To guarantee that the constrained credential with t \u2212 1 attributes never appears in the anonymizing array, it must be the case that no t-way interactions of which it is a subset appeared in the covering array. The coverage for all unconstrained credentials has already been shown. To extend this to soft constraints, there must be a mapping of soft constraints in the anonymizing array to either unconstrained interactions or hard constraints in the covering array.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "Given an array A that is (r, t)-anonymous and not (r + 1, t)-anonymous, for every t \u2264 t \u2264 k for which A is (r , t )-anonymous, it must be the case that r \u2264 r. Pick the credential c that appears the fewest number of times in A and let r be the number of times c appears. A is (r, t)-anonymous by definition and is not (r + 1, t)-anonymous. Choose any credential c that contains c. The rows in which c appears must be a subset of the rows in which c appeared. Then for t \u2265 t, if A is (r , t )-anonymous, then r \u2264 r. Similarly, an array that is (r, t)anonymous is (r, t )-anonymous for t < t. Any credential, c, of size t appears in at least r rows. Any t -subset of c appears in at least these rows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relationship to Covering Arrays"
+        },
+        {
+            "text": "Algorithm 1 is a Moser-Tardos-style column resampling algorithm (MTCR) [8] . A bad event is either a violation of a hard constraint or lack of necessary coverage on unconstrained or soft constraints. A candidate is checked systematically until either no bad events are found or an iteration limit is reached. If any bad event is found, all involved columns are resampled. If T is the set of k t t-subsets of columns and there are T \u2208T i\u2208T v i possible credentials, the position of T in colexicographic ordering of the sets is the rank. Estimating the number of rows is not obvious, so rows are added until coverage is met or an iteration limit is reached. When provided a set of rows, MTCR adds padding to meet the guarantee and forbids resampling of initial rows. When building from scratch, the candidate starts with no rows or an initial number of randomly populated rows is computed as r times the maximum number of non-constrained credentials of any rank. Adding rows too often may produce more rows than needed, while the iteration limit may be reached when adding conservatively. Too few rows can contribute to lack of r coverage, but not to presence of a constraint, as more rows increase the likelihood of a constraint appearing. The candidate is checked by a fixed ordering, so it is expected, though not guaranteed, that fewer bad events exist in a candidate when checking a higher rank. The number of resamplings due to a lack of coverage bad event since adding the last row is used to estimate progress. To add rows readily when bad events occur early, the number of resamplings to add a row is proportional to the amount remaining to check.",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 74,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Moser-Tardos-Style Column Resampling Algorithm"
+        },
+        {
+            "text": "Algorithm 2, Conditional Expectation Heuristic Search (CEHS), is a greedy, one-row-at-a-time algorithm that combines ideas from conditional expectation with a heuristic to avoid constraints [2, 4] . Call a credential not-yet-r-covered if it is unconstrained appearing fewer than r times or a soft constraint appearing between 0 and r times. The expectation for a row is the number of not-yet-rcovered credentials that are covered if symbols are assigned to columns randomly. Given a row with i\u22121 columns fixed to symbols and the rest free, choose a column i randomly and consider the v i symbols to place in column i. For the symbols of that column, there is a choice of symbol that does not reduce the expectation for the row. Let The expected number of not-yet-r-covered credentials newly covered by placing \u03c3 in i is value(i, \u03c3). The best symbol is one that maximizes value(i, \u03c3) without violating a hard constraint. Ties can be broken randomly. The heuristic lies in redefining \u039b. Prioritizing credentials that have been covered fewer times over those that have been covered more may be more useful than the all-or-nothing approach that works well when \u03bb = r = 1. To avoid fixing the last symbol \u03c3 in column i of a credential that violates a hard constraint when other not-yet-r-covered credentials require \u03c3 in i, define \u039b(c) = \u2212 k\u22121 t\u22121 for this case. There are k\u22121 t\u22121 \u2212 1 other t sets involving column i. At most, a t-set contributes 1 to value(i, \u03c3), so the most positive value a symbol receives from the other credentials is k\u22121 t\u22121 \u2212 1. A lookahead attempts to drive the search away from fixing symbols leading to one or more eventual hard constraints without preventing covering unconstrained credentials. The lowest benefit of placing symbol \u03c3 in column j occurs when there is one credential to be covered one remaining time with the highest number of symbols, v = max k i=1 (v i ). The probability of being placed is lowest when all other columns in the t-set are still free, assuming j is fixed to \u03c3. Then P (c) = 1 v t\u22121 and \u039b(c) = 1 r , so the benefit is 1 rv t\u22121 . The highest cost occurs when the other t-sets involving j have k\u22121 t\u22121 \u2212 1 potential hard constraints and one free column. For each t-set, let w be the number of symbols for the free column. There are w credentials with symbols matching the t \u2212 1 fixed columns, and each is chosen with probability P (c) = 1 w . Each t-set contributes at most w 1 w \u039b, so the total cost is ( k\u22121",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 193,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conditional Expectation Heuristic Search Algorithm"
+        },
+        {
+            "text": "if c is unconstrained or an appearing soft constraint, 0 if c is a non-appearing soft constraint,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The full definition is then"
+        },
+        {
+            "text": ", c a hard constraint with 0 free columns.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The full definition is then"
+        },
+        {
+            "text": "As with MTCR, a feasibility check should be conducted beforehand or an iteration limit used, as some scenarios can still result in infinite looping. CEHS lacks complete lookahead, so a series of local decisions based on the ordering of columns in an execution can lead to the placement of some hard constraint even if an anonymizing array exists. In this case, CEHS aborts and can be run again.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The full definition is then"
+        },
+        {
+            "text": "input : r, t, k, (v 1 , ..., v k ) , and a set of constraints output: A or \u2205 begin",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 8,
+                    "end": 34,
+                    "text": "r, t, k, (v 1 , ..., v k )",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Algorithm 2: Conditional Expectation Heuristic Search (CEHS)"
+        },
+        {
+            "text": "Create an empty array, A, and set count of all credentials = 0 while some not-yet-r-covered credential remains do Add a row to A with all columns free while some column is free do Randomly select a column i",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Algorithm 2: Conditional Expectation Heuristic Search (CEHS)"
+        },
+        {
+            "text": "ways to cover c ways to fix free columns of T",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Algorithm 2: Conditional Expectation Heuristic Search (CEHS)"
+        },
+        {
+            "text": ", c unconstrained or appearing soft constraint, 0, c non-appearing soft constraint, ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Algorithm 2: Conditional Expectation Heuristic Search (CEHS)"
+        },
+        {
+            "text": "We develop a post-optimization strategy in Algorithm 3 to reduce the homogeneity of an array by crossover, or swapping credentials between two access profiles. A first idea is to distance similar access profiles by identifying a high homogeneity access profile, u, and the access profile v with the largest closeness (u, v) . Then if credential c has the largest weight(u, v, c), we might swap the symbols of u and access profile w in the columns of credential c for which weight(u, w, c) is smallest. Computationally, this approach requires storage of the weight array whereas closeness can be computed as sums without the intermediary weights. Additionally, the view at the granularity level of weight does not inform how close u and w are on other credentials. They may be identical in all columns except some of c, and so crossover simply swaps u and w but the overall homogeneity of the array has not changed. Instead, select u and w such that homogeneity(u) is highest and closeness(u, w) is lowest. The key is to \"decouple\" u from u's group and create a link between u's group and w, an access profile outside the group, doing the same with w and w's group by swapping some credentials of u and w.",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 323,
+                    "text": "(u, v)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Homogeneity Post-Optimization"
+        },
+        {
+            "text": "The weights give information about shared credentials so we could choose to swap any credentials c where weight(u, w, c) = 0. However, too many swaps results in swapping the entire row, and as u and w are chosen to have the smallest closeness score, they may have no credentials in common. Swapping a single credential changes up to k t \u2212 k\u2212t t other credentials, so how to make the best decision without considering all possibilities is unclear. A middle path between random row resampling and computationally intensive search is to generate a set of child arrays by conducting crossover to probabilistically swap blocks of attributes between u and the S access profiles with the lowest closeness scores with u. The child with the lowest global homogeneity without violating hard constraints and meeting the anonymity guarantee becomes the parent of the next generation. As mentioned, swapping one credential changes up to k t \u2212 k\u2212t t other credentials in the same access profile. An affected credential that appears few times may fall below r coverage in all of the children allowed in a generation. In this case, the parent is retained and random resampling by mutation is conducted to allow additional appearances of the credential that is eliminated by resampling to occur elsewhere in the array to regain (r, t)-anonymity. It is not obvious how to set the mutation rate or how many and which rows to mutate. Additional tunable parameters include the set size of access profiles with which to swap, the blocksize of attributes to swap, the probability of swapping, and the number and size of generations. Stopping conditions include a generation limit, number of generations without reduced homogeneity, or meeting the expected global homogeneity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homogeneity Post-Optimization"
+        },
+        {
+            "text": "Comparison of MTCR and CEHS. In tests to construct AA(r, t, 10, (5 1 4 2 3 3 2 4 )), MTCR produces arrays with the same number of rows as CEHS when t = 1 without constraints if restricted to use the same number of rows produced by CEHS. When allowed to add additional rows, it typically adds more than needed. When t = 2 and MTCR is allowed 10 6 iterations, in general it requires more rows than CEHS to find a solution. For t = 2 with a hard constraint, MTCR requires about twice as many rows. For two hard constraints, MTCR does not complete in 10 6 iterations for any fixed number of rows or allowed unlimited rows. For two soft constraints, MTCR performs in fewer iterations and rows than for one hard constraint. These results suggest that randomized constructions perform poorly in the presence of hard constraints.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "A \"from scratch\" construction is used when attributes are assigned arbitrarily to subjects, as in key distribution. We compare the performance of CEHS against a covering array copy construction (CAcopy). CEHS is executed for 1 \u2264 r \u2264 5 for each 1 \u2264 t \u2264 4 with and 0, 6, 4, and 3 hard constraints for the values of t, respectively, to construct an AA(r, t, 10, (5 1 4 2 3 3 2 4 )). The number of rows for this construction are plotted in Fig. 1 with closed markers and labels indicating t and \"CEHS(r).\" To obtain an arbitrary covering array with the same constraints, CEHS is used to construct an AA with r = 1. Next, AAs are made for 2 \u2264 r \u2264 5 by stacking r copies of each covering array. The number of rows for this construction is plotted in Fig. 1 with open markers and labeled by t and \"CEHS(1) \u00d7 r.\" When t = 1, the number of rows needed is always r times the maximum number of levels, and both constructions produce the same number of rows. For t > 1, the redundancy of CAcopy clearly produces more rows than CEHS. A challenge in comparing these constructions by homogeneity is that additional rows increase the likelihood that access profiles have larger credential neighborhoods. In general, an anonymizing array with more rows is less homogeneous than one with fewer. When t = 1, the anonymizing arrays produced by both methods have the same number of rows for all values of r and so provide a good opportunity for comparison. In tests, the anonymizing arrays created by CEHS always have lower homogeneity scores than the copy constructed arrays. To attempt an ad-hoc comparison of the constructions in the absence of a standardized homogeneity metric that adequately compares arrays with differing numbers of rows, five rows are randomly selected from an (r, 2)-anonymizing array constructed by CEHS and appended to an AA(43; 2, 2, 10, (5 1 4 2 3 3 2 4 )). The rows are not constructed randomly to ensure that no hard constraints are introduced. This method is not without bias due to the pool of rows from which they are selected and is not intended for practical use. The resulting array has lower global homogeneity than the AA(48; 2, 2, 10, (5 1 4 2 3 3 2 4 )) created by CAcopy.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 436,
+                    "end": 442,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 744,
+                    "end": 750,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Comparison to Replicated Mixed-Level Covering Arrays with Constraints."
+        },
+        {
+            "text": "Comparison to Replicated Covering Arrays without Constraints. We construct a set of arrays, AA(245r; r, 3, 10, 5) by making 1 \u2264 r \u2264 10 vertical copies of a CA(245; 3, 10, 5) made by a conditional expectation algorithm shown to construct covering arrays with few rows efficiently [4] . As indicated in Fig. 2 , when r = 1, the covering array has 62 fewer rows, but the CEHS algorithm produces anonymizing arrays with fewer rows for r \u2265 2. Now, consider a row \u03c1 in the covering array. After r copies, \u03c1 appears (at least) r times, and this forms a cluster of rows sharing the same credentials and therefore neighborhoods. Instead, for each copy i > 1 and for each column j in the copy, choose a random permutation over the levels of a column, p ci,j : v \u2192 v. Each permuted copy is still a covering array, so the composed array is (r, t)-anonymous (CAperm). In this array, k independent permutations are applied to the columns of the \u03c1th row in a copy, so the likelihood that this row closely matches \u03c1 is reduced. In all tests, the permuted arrays have lower average and maximum homogeneity scores than by CAcopy, and in all but one data point, they have lower minimum homogeneity scores. To compare homogeneity of CAperm to CEHS, randomly generated rows are appended to the CEHS array to equalize the number of rows. For 2 \u2264 r \u2264 10, CEHS produces lower minimum, global, and maximum homogeneity scores than CAperm. The one exception is that CAperm produced lower maximum homogeneity for r = 10. This suggests that CEHS typically produces arrays with fewer rows and lower homogeneity than by copying covering arrays, even when utilizing permutations.",
+            "cite_spans": [
+                {
+                    "start": 279,
+                    "end": 282,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 301,
+                    "end": 307,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Comparison to Replicated Mixed-Level Covering Arrays with Constraints."
+        },
+        {
+            "text": "Evaluation of Homogeneity Post-optimization (HP). HP contains a number of tunable parameters, and details for the implementation tested here are in [7] . An example of the reduction of global homogeneity on an AA(62; 3, 2, 10, (5 1 4 2 3 3 2 2 )) generated by CEHS with six hard constraints is in Fig. 3 .",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 297,
+                    "end": 303,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Comparison to Replicated Mixed-Level Covering Arrays with Constraints."
+        },
+        {
+            "text": "Although anonymizing arrays differ from covering arrays in essential ways, constructive algorithms for covering arrays underlie useful algorithms for constructing anonymizing arrays. Indeed, this connection leads to copy constructions to produce arrays \"from scratch\" as well as two methods to add rows to a partial array (CEHS and MTCR). CEHS outperforms both MTCR and the copy constructions, both in terms of the number of rows generated and the homogeneity. Nevertheless, none of the construction methods examined ensures low homogeneity. To address this, we propose a \"post-optimization\" method (called HP) to reduce homogeneity, and provide preliminary evidence that HP is a reasonable first approach.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Ciphertext-policy attribute-based encryption",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bethencourt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sahai",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Waters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "2007 IEEE Symposium on Security and Privacy",
+            "volume": "",
+            "issn": "",
+            "pages": "321--334",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A density-based greedy algorithm for higher strength covering arrays",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bryce",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Colbourn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Softw. Test. Verif. Reliab",
+            "volume": "19",
+            "issn": "1",
+            "pages": "37--53",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Prioritized interaction testing for pair-wise coverage with seeding and constraints",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bryce",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Colbourn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Inf. Softw. Technol",
+            "volume": "48",
+            "issn": "10",
+            "pages": "960--970",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.infsof.2006.03.004"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Asymptotic and constructive methods for covering perfect hash families and covering arrays",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Colbourn",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lanus",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sarkar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Des. Codes Crypt",
+            "volume": "86",
+            "issn": "4",
+            "pages": "907--937",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10623-017-0369-x"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Guide to attribute based access control (ABAC) definition and considerations (draft)",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "NIST Spec. Publ",
+            "volume": "800",
+            "issn": "162",
+            "pages": "1--52",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Attribute-based publishing with hidden credentials and hidden policies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kapadia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "NDSS",
+            "volume": "7",
+            "issn": "",
+            "pages": "179--192",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Interaction testing, fault location, and anonymous attribute-based authorization",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lanus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A constructive proof of the general Lov\u00e1sz local lemma",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moser",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tardos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. ACM",
+            "volume": "57",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1145/1667053.1667060"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Location-enhanced authenticated key exchange",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Portnoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "2016 International Conference on Computing, Networking and Communications (ICNC)",
+            "volume": "",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "T i be the set of k\u22121 t\u22121 sets of t columns involving i, and C T the set of possible credentials for a t-set of columns, T . Suppose column i is fixed to symbol \u03c3. If P (c) is the probability of credential c appearing and \u039b(c) is related to the coverage status of c, \u039b(c) = 1 if c covered fewer than r times, 0 if c covered at least r times or c is a soft constraint, define value(i, \u03c3) = T \u2208Ti c\u2208CT \u039b(c)P (c).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Homogeneity Post-optimization (HP) input : A, r, t, k, (v1, ..., v k ), and a set of constraints output: A begin while generations remain do mostF it = A Compute homogeneity(i) for all rows in A u = max N i (homogeneity(i)) for each child in the generation do Create a copy of A as child Mutate based on implementation choices Compute S, a set of s rows with smallest closeness(u, w), w \u2208 S for each block of attributes based on implementation do Randomly select w with 1 s probability Swap w and u's attributes in the block if child is (r, t)-anonymous with lowest global homogeneity then Set mostF it = child Set A = mostFit Return A",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "CEHS versus CAcopy to build AAs with constraints",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "CEHS versus CAcopy to build unconstrained AAs",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "HP on AA(62; 3, 2, 19, (5 1 4 2 3 3 2 4 )) with 20 children and 1000 generations",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Moser-Tardos-style Column Resampling (MTCR) input :A, r, t, k, (v1, ..., v k ), and a set of constraints output: A or \u2205",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

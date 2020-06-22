@@ -1,0 +1,1149 @@
+{
+    "paper_id": "f407ab9b4b51902b7c57bff264dfcc2ea5981c93",
+    "metadata": {
+        "title": "Expanding access for COVID-19 patients by transforming a burn unit into a closed- circuit unit for surgical patients: experience from an academic medical center in Jordan",
+        "authors": [
+            {
+                "first": "Diab",
+                "middle": [
+                    "Bani"
+                ],
+                "last": "Hani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jordan University of Science and Technology",
+                    "location": {
+                        "postBox": "P. O. Box: 3030",
+                        "postCode": "22110",
+                        "settlement": "Irbid",
+                        "country": "Jordan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Omar",
+                "middle": [],
+                "last": "Altal",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jordan University of Science and Technology",
+                    "location": {
+                        "postBox": "P. O. Box: 3030",
+                        "postCode": "22110",
+                        "settlement": "Irbid",
+                        "country": "Jordan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Abdelwahab",
+                "middle": [],
+                "last": "Aleshawi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jordan University of Science and Technology",
+                    "location": {
+                        "postBox": "P. O. Box: 3030",
+                        "postCode": "22110",
+                        "settlement": "Irbid",
+                        "country": "Jordan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ala",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jordan University of Science and Technology",
+                    "location": {
+                        "postBox": "P. O. Box: 3030",
+                        "postCode": "22110",
+                        "settlement": "Irbid",
+                        "country": "Jordan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alhowary",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jordan University of Science and Technology",
+                    "location": {
+                        "postBox": "P. O. Box: 3030",
+                        "postCode": "22110",
+                        "settlement": "Irbid",
+                        "country": "Jordan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Basil",
+                "middle": [],
+                "last": "Obeidat",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jordan University of Science and Technology",
+                    "location": {
+                        "postBox": "P. O. Box: 3030",
+                        "postCode": "22110",
+                        "settlement": "Irbid",
+                        "country": "Jordan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The current coronavirus disease 2019 (COVID-19) pandemic highlights the importance of a mindful utilization of financial and human resources. Preventing infections and preserving resources and manpower are crucial in healthcare. It is important to ensure the ability of the surgeons and the specialized interventionalists to function through this pandemic. A tremendous effort should be achieved to minimize cross-infections in this sector. In addition, more efforts should be conducted to monitor surgical patients diagnosed with COVID-19 because they have higher mortality rates. A study by Lei et al. was conducted retrospectively on 34 patients with COVID-19 who underwent surgery. They reported that all patients developed COVID-19 pneumonia shortly after surgery with abnormal findings on chest computed tomographic scans. Also, they reported that 15 (44.1%) patients required admission to the intensive care unit (ICU) during disease progression, and 7 patients (20.5%) died after admission to the ICU [1] .",
+            "cite_spans": [
+                {
+                    "start": 593,
+                    "end": 603,
+                    "text": "Lei et al.",
+                    "ref_id": null
+                },
+                {
+                    "start": 1009,
+                    "end": 1012,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Another study was conducted in Italy regarding the protocols of dealing with operative patients in the era of COVID-19 pandemic. They recommended that the designated COVID-19 operating areas must be allocated to the operating room closest to the entrance of the theater block entrance [2] . Also, they advised that patients' transit to and from the operating room must be as quick as possible and a pre-defined direct pathway must be kept as short as possible and away from other patients within the hospital in order to minimize the chances of cross-infection. In addition, they recommended to minimize the number of operators and other staff who should be equipped with personal protection equipment. At the end of the operation and during the recovery phase, the patient must be assisted directly in the operation room until ready to be transferred back to the inpatients place of stay. The time needed to return to wards must be reduced in order to minimize contact between COVID-19 positive patients and the surrounding environment [2] . The role of personal protection equipment was emphasized by Bianco et al. [3] . Another important point is how to stratify elective surgery during the pandemic. Stahel recommended that elective operations can be stratified into \"essential\", which implies that there is an increased risk of adverse outcomes by delaying surgical care, versus \"non-essential \"or \"discretionary\", which implies that there is no increased risk [4] . Moreover, Chadi et al. hypothesized that the minimal-invasive surgery has more advantages in a safe and controlled fashion [5] . However, they recommended ultimately to proceed with technical approaches they are comfortable with to ensure no added risk to the patient and operating room team occur [5] .",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 288,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1037,
+                    "end": 1040,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1117,
+                    "end": 1120,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1466,
+                    "end": 1469,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1595,
+                    "end": 1598,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1770,
+                    "end": 1773,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Theoretically and practically, the aforementioned protocols carry a risk for hospital facilities contamination, and healthcare staff and other admitted patients crossinfection. Patients with COVID-19 are transferred in an \"open circuit\" even with the maximal strict adherence to the protocols [6, 7] . In addition, these protocols may affect the clinical status of these patients who; as reported by Lei et at; are at increased risk of postoperative complications and death [1] . Accordingly, at King Abdullah University Hospital in Jordan, we have prepared a \"close circuit\" model for surgical patients diagnosed with COVID-19. This \"close circuit\" model is being the burn unit at our center. The burn unit is equipped with 10 rooms. Each room in the burn unit has a bed in negative pressure environment. Also, each room can be adjusted to become an intensive-like care unit with intensive monitoring devices and mechanical ventilation. The rooms can be considered as a recovery room for each surgical patient. Moreover, the burn unit at has an operating theater that was supplied with the required surgical and interventional devices for all specialties and with the required anesthetic equipment (3 kits for general anesthesia, 3 kits for spinal anesthesia, 3 kits for epidural anesthesia and 3 kits for local anesthesia). Additionally, a neonatal coat and portable neonatal incubator were supplied. This unit is located above the emergency department and has its own elevator. All entrances were locked except for the main entrance which has double electronic doors. The changing rooms and the shower bath are located between the double doors. Furthermore, the healthcare staff including nurses, anesthesiologists and surgeons were supplied with the necessary personal protection equipment and includes: filtering face piece facial mask, disposable long sleeve waterproof coats and gowns, disposable double pair of nitrile gloves, protective goggles, disposable head caps, disposable long shoe covers and alcohol hygiene. The healthcare employees reside in this unit in an arranged schedule. After the completion of the shifts, the healthcare employees were isolated for 14 days in special comfortable isolated facilities without contacting anyone and they offered the COVID-19 tests before the end of the isolation. Successfully, two cesarean sections by spinal anesthesia were performed for two pregnant ladies. The neonates were admitted in another prepared rooms in the burn unit. It is important to highlight that the instruments from this unit have their own releasing track that is controlled by the infection control team. Also, the operations for non-COVID-19 patients were ceased except for the emergency or \"essential\" cases. Fortunately, Fig. 1 Blueprint for the burn unit that demonstrates the 10 rooms that can be adjusted to be an intensive-like care unit, operating theater, and the main entrance with changing rooms and due to the reduced social activity by the quarantine, no burn cases were reported from all Northern of Jordan; which is cover by our center. However, the center has an intermediate care unit which was prepared for any burn case. Now, and after more than 1 month of the first reported case of COVID-19 in Jordan, the number of new cases is zero in Northern of Jordan. Among the surgical patient, no death was encountered and all patients achieved the recovery from the virus. Most importantly, we did not report any cross-infection in the healthcare employees and the other admitted seronegative patient. Figure 1 can demonstrates the blueprint for the burn unit at our center.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 296,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 297,
+                    "end": 299,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 474,
+                    "end": 477,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2754,
+                    "end": 2760,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 3545,
+                    "end": 3553,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Healthcare staff and hospital facilities cross-infections are a major concern which can affect the strongest healthcare systems in the world. The current pandemic of the COVID-19 has a significant risk of viral transmission to healthcare workers who take care of infected patients, with high reported mortality rates [7] [8] [9] [10] . Proper management for the resources is very recommended in order to power the healthcare staff against the COVID-19 pandemic. Hill et al. adopted a new model \"Corona Curtain\" which can be implied for the perioperative management of urgent intubation [7] . The \"Corona Curtain\" described in this article represents an intuitively pragmatic, simple, innovative and cost-effective approach to attenuating the inherent risk of aerosol exposure with potential transmission of the virus to staff and providers during emergent or urgent intubations [7] . ",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 320,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 329,
+                    "end": 333,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 586,
+                    "end": 589,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 878,
+                    "end": 881,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical characteristics and outcomes of patients undergoing surgeries during the incubation period of COVID-19 infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.eclinm.2020.100331"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Surgery in COVID-19 patients: operational directives",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Coccolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Perrone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chiarugi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Marzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ansaloni",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Scandroglio",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Marini",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zago",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Paolis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Forfori",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Agresta",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Puzziello",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "&apos;ugo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bignami",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bellini",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Vitali",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Petrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pifferi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Corradi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tarasconi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pattonieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bonati",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Tritapepe",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Agnoletti",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Corbella",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sartelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Catena",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "World J Emerg Surg",
+            "volume": "15",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13017-020-00307-2"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Preventing transmission among operating room staff during COVID-19 pandemic: the role of the aerosol box and other personal protective equipment",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bianco",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Incollingo",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Grossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gallo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Updat Surg",
+            "volume": "24",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "How to risk-stratify elective surgery during the COVID-19 pandemic?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Stahel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Patient Saf Surg",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Current evidence for minimally invasive surgery during the COVID-19 pandemic and risk mitigation strategies: a narrative review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Chadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Guidolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Caycedo-Marulanda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sharkawy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Spinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Quereshy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Okrainec",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Isolation protocol for a COVID-2019 patient requiring emergent surgical intervention: case presentation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Firstenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Libby",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ochs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mangino",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Forrester",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Patient Saf Surg",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Introducing the \"Corona curtain\": an innovative technique to prevent airborne COVID-19 exposure during emergent intubations",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Crockett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Circh",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lansville",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Stahel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Patient Saf Surg",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rothan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Byrareddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Autoimmun",
+            "volume": "109",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Transmission of COVID-19 to health care personnel during exposure to a hospitalized patient",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heinzerling",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stuckey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Scheuer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Resseger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Magill",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Verani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Acosta",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Epson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "472--478",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Abbreviations COVID-19: Coronavirus disease 2019; ICU: Intensive care unit",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "All authors contributed significantly and in agreement with the content of the article. All authors presented substantial contributions to the article and participated of correction and final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' contributions"
+        },
+        {
+            "text": "No funding.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Data sharing does not apply to this article as no datasets were generated or analyzed during the current study.Ethics approval and consent to participate Institutional review board is not required for this type of articles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "The authors declare that they have no competing interests. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

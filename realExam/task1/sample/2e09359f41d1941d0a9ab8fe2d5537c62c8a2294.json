@@ -1,0 +1,1998 @@
+{
+    "paper_id": "2e09359f41d1941d0a9ab8fe2d5537c62c8a2294",
+    "metadata": {
+        "title": "Gravitational Waves Induced by Scalar Perturbations with a Lognormal Peak",
+        "authors": [
+            {
+                "first": "Shi",
+                "middle": [],
+                "last": "Pi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kavli Institute for the Physics and Mathematics of the Universe (WPI)",
+                    "location": {
+                        "postCode": "277-8583",
+                        "settlement": "Chiba",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Misao",
+                "middle": [],
+                "last": "Sasaki",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kavli Institute for the Physics and Mathematics of the Universe (WPI)",
+                    "location": {
+                        "postCode": "277-8583",
+                        "settlement": "Chiba",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We study the stochastic gravitational wave (GW) background induced by the primordial scalar perturbation with the spectrum having a lognormal peak of width \u2206 at k = k * . We derive an analytical formula for the GW spectrum \u2126GW for both narrow (\u2206 1) and broad (\u2206 1) peaks. In the narrow-peak case, the spectrum has a double peak feature with the sharper peak at k = 2k * / \u221a 3. On the infrared (IR) side of the spectrum, we find power-law behavior with a break at k = k b in the power-law index where it chages from k 3 on the far IR side to k 2 on the near IR side. We find the ratio of the break frequency to the peak frequency is determined by \u2206 as f b /fp \u2248 \u221a 3\u2206, where f b and fp are the break and peak frequencies, respectively. In the broad-peak case, we find the GW spectrum also has a lognormal peak at k = k * but with a smaller width of \u2206/ \u221a 2. Using these derived analytic formulae, we also present expressions for the maximum values of \u2126GW for both narrow and broad cases. Our results will provide a useful tool in searching for the induced GW signals in the coming decades.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The detection of gravitational waves (GWs) from the mergers of black holes (BHs) and neutron stars by LIGO/Virgo [1] [2] [3] [4] [5] [6] [7] has marked the beginning of the era of gravitational wave astronomy. Besides GW bursts from mergers, there are also stochastic backgrounds of various origins such as GWs from binary inspirals, GWs from first order phase transitions in the early universe, primordial GWs from inflation, and the induced GWs from the primordial scalar perturbation. In the spatially homogeneous and isotropic background, the tensor and scalar perturbations are decoupled at linear order, but they are coupled to each other at nonlinear order [8] [9] [10] [11] [12] [13] , giving rise to the induced GWs or secondary GWs . The primordial scalar perturbation (more precisely scalar-type curature perturbation) produces the cosmic microwave background radiation (CMB) anisotropy and seeds the large scale structure of the universe, and its properties are tightly constrained observations. Namely, it is Gaussian with a nearly scale-invariant spectrum with the rms amplitude of 10 \u22125 on scales larger than around 1 Mpc [40] . The GWs induced by such primordial scalar perturbation is also nearly scale-invariant at frequencies higher than 10 \u221215 Hz, but the amplitude is negligibly small to be detected [14] , and perhaps smaller than GWs from the primordial tensor perturbation [41, 42] .",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 116,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 121,
+                    "end": 124,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 125,
+                    "end": 128,
+                    "text": "[4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 129,
+                    "end": 132,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "[6]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 664,
+                    "end": 667,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 668,
+                    "end": 671,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 672,
+                    "end": 676,
+                    "text": "[10]",
+                    "ref_id": null
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 682,
+                    "end": 686,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 687,
+                    "end": 691,
+                    "text": "[13]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1137,
+                    "end": 1141,
+                    "text": "[40]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1321,
+                    "end": 1325,
+                    "text": "[14]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1397,
+                    "end": 1401,
+                    "text": "[41,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1402,
+                    "end": 1405,
+                    "text": "42]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "However, on scales much smaller than 1 Mpc , the amplitude of the primordial scalar perturbation is ony weakly constrained, and hence it is possible to be large [43] [44] [45] [46] [47] [48] . An interesting consequence associated with a large scalar perturbation is the formation of primordial black holes (PBHs). If the rms scalar perturbation amplitude is large at some specific wavenumber, PBHs can form from the high \u03c3 peaks when the corresponding wavelengths reenter the Hubble horizon [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] . The current observational constraints does not exclude the existence of a substantial amount of such PBHs. There are actually several interesting \"mass windows\" [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] , which can lead to fruitful phenomena. For instance, the detection of GWs by LIGO/Virgo has revealed the ubiquitous existence of BHs with 10 \u223c 100M , which revives our interest in the hypothesis that such BH binaries are formed by PBHs [73] [74] [75] [76] [77] [78] [79] [80] . It is also probable that PBHs are the dominant component of the dark matter if they are in the mass range 10 19 \u223c 10 22 g, which avoids recent observational constraints [81] [82] [83] [84] [85] [86] . In addition, PBHs may seed the galaxy or structure formation [87] [88] [89] [90] [91] , the planet 9 [92, 93] , or they may provide a mechanism for baryogenesis [94] [95] [96] [97] [98] . For review of PBHs and their observational constraints, see [99, 100] .",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 165,
+                    "text": "[43]",
+                    "ref_id": null
+                },
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "[44]",
+                    "ref_id": null
+                },
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[45]",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "[46]",
+                    "ref_id": null
+                },
+                {
+                    "start": 181,
+                    "end": 185,
+                    "text": "[47]",
+                    "ref_id": null
+                },
+                {
+                    "start": 186,
+                    "end": 190,
+                    "text": "[48]",
+                    "ref_id": null
+                },
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "[49]",
+                    "ref_id": null
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "[50]",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "[51]",
+                    "ref_id": null
+                },
+                {
+                    "start": 507,
+                    "end": 511,
+                    "text": "[52]",
+                    "ref_id": null
+                },
+                {
+                    "start": 512,
+                    "end": 516,
+                    "text": "[53]",
+                    "ref_id": null
+                },
+                {
+                    "start": 517,
+                    "end": 521,
+                    "text": "[54]",
+                    "ref_id": null
+                },
+                {
+                    "start": 522,
+                    "end": 526,
+                    "text": "[55]",
+                    "ref_id": null
+                },
+                {
+                    "start": 527,
+                    "end": 531,
+                    "text": "[56]",
+                    "ref_id": null
+                },
+                {
+                    "start": 532,
+                    "end": 536,
+                    "text": "[57]",
+                    "ref_id": null
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "[58]",
+                    "ref_id": null
+                },
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[59]",
+                    "ref_id": null
+                },
+                {
+                    "start": 710,
+                    "end": 714,
+                    "text": "[60]",
+                    "ref_id": null
+                },
+                {
+                    "start": 715,
+                    "end": 719,
+                    "text": "[61]",
+                    "ref_id": null
+                },
+                {
+                    "start": 720,
+                    "end": 724,
+                    "text": "[62]",
+                    "ref_id": null
+                },
+                {
+                    "start": 725,
+                    "end": 729,
+                    "text": "[63]",
+                    "ref_id": null
+                },
+                {
+                    "start": 730,
+                    "end": 734,
+                    "text": "[64]",
+                    "ref_id": null
+                },
+                {
+                    "start": 735,
+                    "end": 739,
+                    "text": "[65]",
+                    "ref_id": null
+                },
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "[66]",
+                    "ref_id": null
+                },
+                {
+                    "start": 745,
+                    "end": 749,
+                    "text": "[67]",
+                    "ref_id": null
+                },
+                {
+                    "start": 750,
+                    "end": 754,
+                    "text": "[68]",
+                    "ref_id": null
+                },
+                {
+                    "start": 755,
+                    "end": 759,
+                    "text": "[69]",
+                    "ref_id": null
+                },
+                {
+                    "start": 760,
+                    "end": 764,
+                    "text": "[70]",
+                    "ref_id": null
+                },
+                {
+                    "start": 765,
+                    "end": 769,
+                    "text": "[71]",
+                    "ref_id": null
+                },
+                {
+                    "start": 770,
+                    "end": 774,
+                    "text": "[72]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1012,
+                    "end": 1016,
+                    "text": "[73]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1017,
+                    "end": 1021,
+                    "text": "[74]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1022,
+                    "end": 1026,
+                    "text": "[75]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1027,
+                    "end": 1031,
+                    "text": "[76]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1032,
+                    "end": 1036,
+                    "text": "[77]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1037,
+                    "end": 1041,
+                    "text": "[78]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1042,
+                    "end": 1046,
+                    "text": "[79]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1047,
+                    "end": 1051,
+                    "text": "[80]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1223,
+                    "end": 1227,
+                    "text": "[81]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1228,
+                    "end": 1232,
+                    "text": "[82]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1233,
+                    "end": 1237,
+                    "text": "[83]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1238,
+                    "end": 1242,
+                    "text": "[84]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1243,
+                    "end": 1247,
+                    "text": "[85]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1248,
+                    "end": 1252,
+                    "text": "[86]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1316,
+                    "end": 1320,
+                    "text": "[87]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1321,
+                    "end": 1325,
+                    "text": "[88]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1326,
+                    "end": 1330,
+                    "text": "[89]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1331,
+                    "end": 1335,
+                    "text": "[90]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1336,
+                    "end": 1340,
+                    "text": "[91]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1356,
+                    "end": 1360,
+                    "text": "[92,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1361,
+                    "end": 1364,
+                    "text": "93]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1416,
+                    "end": 1420,
+                    "text": "[94]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1421,
+                    "end": 1425,
+                    "text": "[95]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1426,
+                    "end": 1430,
+                    "text": "[96]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1431,
+                    "end": 1435,
+                    "text": "[97]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1436,
+                    "end": 1440,
+                    "text": "[98]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1503,
+                    "end": 1507,
+                    "text": "[99,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1508,
+                    "end": 1512,
+                    "text": "100]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "To generate an amount of PBHs comparable to the energy density of cold dark matter, the spectrum of the primordial scalar perturbation is required to have an amplitude of order 10 \u22122 . Such a spectrum with a high peak can be realized in various models of inflation, for instance, models with potential having a near-inflection point [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] , modified gravity [112] [113] [114] [115] [116] [117] [118] [119] , multi-field inflation [120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] , curvaton scenarios [131] [132] [133] [134] , models with parametric resonance [135] [136] [137] [138] [139] , etc.. The induced GWs from these models may be detected in the near future by the current and future detectors like LIGO/Virgo, KAGRA [147] , LISA [148] [149] [150] [151] , Taiji [152] , Tianqin [153] , ET [154, 155] , DECIGO [156] , BBO [157] [158] [159] , FAST [160] , and SKA [161, 162] . The peak frequency of the induced GWs is related to the associated PBH mass as f peak = 6.7 \u00d7 10 \u22129 (M PBH /M ) \u22121/2 Hz [17] . If LIGO detections are PBHs, the induced GWs peak at nHz, right in the detection range of pulsar timing array (PTA) [140, 141] . The fact that there is no detection at present has already started to constrain the PBHs-as-LIGO-BHs scenario [142] [143] [144] [145] [146] . For asteroid-mass PBHs, the associated induced GWs peak at \u223c 10 \u22123 Hz, which must be detectable by LISA if PBHs are the dark matter [29] .",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 338,
+                    "text": "[101]",
+                    "ref_id": null
+                },
+                {
+                    "start": 339,
+                    "end": 344,
+                    "text": "[102]",
+                    "ref_id": null
+                },
+                {
+                    "start": 345,
+                    "end": 350,
+                    "text": "[103]",
+                    "ref_id": null
+                },
+                {
+                    "start": 351,
+                    "end": 356,
+                    "text": "[104]",
+                    "ref_id": null
+                },
+                {
+                    "start": 357,
+                    "end": 362,
+                    "text": "[105]",
+                    "ref_id": null
+                },
+                {
+                    "start": 363,
+                    "end": 368,
+                    "text": "[106]",
+                    "ref_id": null
+                },
+                {
+                    "start": 369,
+                    "end": 374,
+                    "text": "[107]",
+                    "ref_id": null
+                },
+                {
+                    "start": 375,
+                    "end": 380,
+                    "text": "[108]",
+                    "ref_id": null
+                },
+                {
+                    "start": 381,
+                    "end": 386,
+                    "text": "[109]",
+                    "ref_id": null
+                },
+                {
+                    "start": 387,
+                    "end": 392,
+                    "text": "[110]",
+                    "ref_id": null
+                },
+                {
+                    "start": 393,
+                    "end": 398,
+                    "text": "[111]",
+                    "ref_id": null
+                },
+                {
+                    "start": 418,
+                    "end": 423,
+                    "text": "[112]",
+                    "ref_id": null
+                },
+                {
+                    "start": 424,
+                    "end": 429,
+                    "text": "[113]",
+                    "ref_id": null
+                },
+                {
+                    "start": 430,
+                    "end": 435,
+                    "text": "[114]",
+                    "ref_id": null
+                },
+                {
+                    "start": 436,
+                    "end": 441,
+                    "text": "[115]",
+                    "ref_id": null
+                },
+                {
+                    "start": 442,
+                    "end": 447,
+                    "text": "[116]",
+                    "ref_id": null
+                },
+                {
+                    "start": 448,
+                    "end": 453,
+                    "text": "[117]",
+                    "ref_id": null
+                },
+                {
+                    "start": 454,
+                    "end": 459,
+                    "text": "[118]",
+                    "ref_id": null
+                },
+                {
+                    "start": 460,
+                    "end": 465,
+                    "text": "[119]",
+                    "ref_id": null
+                },
+                {
+                    "start": 490,
+                    "end": 495,
+                    "text": "[120]",
+                    "ref_id": null
+                },
+                {
+                    "start": 496,
+                    "end": 501,
+                    "text": "[121]",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 507,
+                    "text": "[122]",
+                    "ref_id": null
+                },
+                {
+                    "start": 508,
+                    "end": 513,
+                    "text": "[123]",
+                    "ref_id": null
+                },
+                {
+                    "start": 514,
+                    "end": 519,
+                    "text": "[124]",
+                    "ref_id": null
+                },
+                {
+                    "start": 520,
+                    "end": 525,
+                    "text": "[125]",
+                    "ref_id": null
+                },
+                {
+                    "start": 526,
+                    "end": 531,
+                    "text": "[126]",
+                    "ref_id": null
+                },
+                {
+                    "start": 532,
+                    "end": 537,
+                    "text": "[127]",
+                    "ref_id": null
+                },
+                {
+                    "start": 538,
+                    "end": 543,
+                    "text": "[128]",
+                    "ref_id": null
+                },
+                {
+                    "start": 544,
+                    "end": 549,
+                    "text": "[129]",
+                    "ref_id": null
+                },
+                {
+                    "start": 550,
+                    "end": 555,
+                    "text": "[130]",
+                    "ref_id": null
+                },
+                {
+                    "start": 577,
+                    "end": 582,
+                    "text": "[131]",
+                    "ref_id": null
+                },
+                {
+                    "start": 583,
+                    "end": 588,
+                    "text": "[132]",
+                    "ref_id": null
+                },
+                {
+                    "start": 589,
+                    "end": 594,
+                    "text": "[133]",
+                    "ref_id": null
+                },
+                {
+                    "start": 595,
+                    "end": 600,
+                    "text": "[134]",
+                    "ref_id": null
+                },
+                {
+                    "start": 636,
+                    "end": 641,
+                    "text": "[135]",
+                    "ref_id": null
+                },
+                {
+                    "start": 642,
+                    "end": 647,
+                    "text": "[136]",
+                    "ref_id": null
+                },
+                {
+                    "start": 648,
+                    "end": 653,
+                    "text": "[137]",
+                    "ref_id": null
+                },
+                {
+                    "start": 654,
+                    "end": 659,
+                    "text": "[138]",
+                    "ref_id": null
+                },
+                {
+                    "start": 660,
+                    "end": 665,
+                    "text": "[139]",
+                    "ref_id": null
+                },
+                {
+                    "start": 802,
+                    "end": 807,
+                    "text": "[147]",
+                    "ref_id": null
+                },
+                {
+                    "start": 815,
+                    "end": 820,
+                    "text": "[148]",
+                    "ref_id": null
+                },
+                {
+                    "start": 821,
+                    "end": 826,
+                    "text": "[149]",
+                    "ref_id": null
+                },
+                {
+                    "start": 827,
+                    "end": 832,
+                    "text": "[150]",
+                    "ref_id": null
+                },
+                {
+                    "start": 833,
+                    "end": 838,
+                    "text": "[151]",
+                    "ref_id": null
+                },
+                {
+                    "start": 847,
+                    "end": 852,
+                    "text": "[152]",
+                    "ref_id": null
+                },
+                {
+                    "start": 863,
+                    "end": 868,
+                    "text": "[153]",
+                    "ref_id": null
+                },
+                {
+                    "start": 874,
+                    "end": 879,
+                    "text": "[154,",
+                    "ref_id": null
+                },
+                {
+                    "start": 880,
+                    "end": 884,
+                    "text": "155]",
+                    "ref_id": null
+                },
+                {
+                    "start": 894,
+                    "end": 899,
+                    "text": "[156]",
+                    "ref_id": null
+                },
+                {
+                    "start": 906,
+                    "end": 911,
+                    "text": "[157]",
+                    "ref_id": null
+                },
+                {
+                    "start": 912,
+                    "end": 917,
+                    "text": "[158]",
+                    "ref_id": null
+                },
+                {
+                    "start": 918,
+                    "end": 923,
+                    "text": "[159]",
+                    "ref_id": null
+                },
+                {
+                    "start": 931,
+                    "end": 936,
+                    "text": "[160]",
+                    "ref_id": null
+                },
+                {
+                    "start": 947,
+                    "end": 952,
+                    "text": "[161,",
+                    "ref_id": null
+                },
+                {
+                    "start": 953,
+                    "end": 957,
+                    "text": "162]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1080,
+                    "end": 1084,
+                    "text": "[17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1203,
+                    "end": 1208,
+                    "text": "[140,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1209,
+                    "end": 1213,
+                    "text": "141]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1326,
+                    "end": 1331,
+                    "text": "[142]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1332,
+                    "end": 1337,
+                    "text": "[143]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1338,
+                    "end": 1343,
+                    "text": "[144]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1344,
+                    "end": 1349,
+                    "text": "[145]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1350,
+                    "end": 1355,
+                    "text": "[146]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1490,
+                    "end": 1494,
+                    "text": "[29]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The spectrum of the induced GWs from a \u03b4-function peak of the scalar perturbation was studied in Refs. [15, 17, 23, 24] , and an analytical expression for the GW spectrum was derived in Ref. [28] . However, it was found that the infrared scaling of the GW spectrum depends sensitively on the width, which is f 2 for a \u03b4-function peak, while f 3 for a finite width, and a transition from f 3 to f 2 was observed for a finite but small width [164, 165] . In the case of a broad peak, the induced GW spectrum was numerically studied and found to have a broad-peak-like feature near its maximum [22, 43, 44] . The goal of this paper is to derive an analytic formula for the induced GW spectrum due to the scalar perturbation with the spectrum having a lognormal peak, for both narrow and broad widths. The result will provide a very useful tool for studying various phenomena associated with the original curvature perturbation.",
+            "cite_spans": [
+                {
+                    "start": 103,
+                    "end": 107,
+                    "text": "[15,",
+                    "ref_id": null
+                },
+                {
+                    "start": 108,
+                    "end": 111,
+                    "text": "17,",
+                    "ref_id": null
+                },
+                {
+                    "start": 112,
+                    "end": 115,
+                    "text": "23,",
+                    "ref_id": null
+                },
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "24]",
+                    "ref_id": null
+                },
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[28]",
+                    "ref_id": null
+                },
+                {
+                    "start": 440,
+                    "end": 445,
+                    "text": "[164,",
+                    "ref_id": null
+                },
+                {
+                    "start": 446,
+                    "end": 450,
+                    "text": "165]",
+                    "ref_id": null
+                },
+                {
+                    "start": 591,
+                    "end": 595,
+                    "text": "[22,",
+                    "ref_id": null
+                },
+                {
+                    "start": 596,
+                    "end": 599,
+                    "text": "43,",
+                    "ref_id": null
+                },
+                {
+                    "start": 600,
+                    "end": 603,
+                    "text": "44]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "This paper is organized as follows. In Section II, we collect the necessary formulae needed to calculate the induced GWs. In Section III, we apply the formulae to the curvature perturbation with a lognormal peak. In Section III A and III B, we consider narrow and broad widths and present analytic expressions for the GW spectrum, respectively. We find they agree very well with the numerical results. We summarize our findings in Section IV. As the analytical calculation is a little bit long and tedious, readers may directly go to (19) and (40) to check the main results and Section IV for the conclusions.",
+            "cite_spans": [
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "(19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 543,
+                    "end": 547,
+                    "text": "(40)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "In linear cosmological perturbation, the perturbed metric can be written in the Newton gauge as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "where \u03a8 is the Newton potential, \u03a6 is the intrinsic curvature perturbation, and \u03a6 = \u2212\u03a8 for negligibe anisotropic stress [163] , h ij is the transverse traceless (tensor) part of the metric perturbation. In momentum space, the tensor perturbation can be written as",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 125,
+                    "text": "[163]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "where e \u03bb ij (k) are two orthonormal polarization tensors perpendicular tok-direction. The equation of motion for the tensor perturbation of each polarization at second order is sourced by the scalar perturbation:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "where the source term, S \u03bb (k, \u03b7), is the convolution of the scalar perturbation, which can be factorized into the primordial part \u03c8 \u03c8 k\u2212 and the combination of the transfer function T ( , \u03b7):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "In this paper we only consider the wavenumbers that reenter the Hubble horizon during the radiation-dominated stage. For the case of an (early) matter-dominated stage, see Refs. [18, 28, [35] [36] [37] 39] , while for an arbitrary background, see Ref. [167, 168] and a companion paper [169] . The power spectra of the primordial scalar perturbation and the tensor perturbation are defined as",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 182,
+                    "text": "[18,",
+                    "ref_id": null
+                },
+                {
+                    "start": 183,
+                    "end": 186,
+                    "text": "28,",
+                    "ref_id": null
+                },
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "[35]",
+                    "ref_id": null
+                },
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "[36]",
+                    "ref_id": null
+                },
+                {
+                    "start": 197,
+                    "end": 201,
+                    "text": "[37]",
+                    "ref_id": null
+                },
+                {
+                    "start": 202,
+                    "end": 205,
+                    "text": "39]",
+                    "ref_id": null
+                },
+                {
+                    "start": 252,
+                    "end": 257,
+                    "text": "[167,",
+                    "ref_id": null
+                },
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "168]",
+                    "ref_id": null
+                },
+                {
+                    "start": 285,
+                    "end": 290,
+                    "text": "[169]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "The power spectrum of the primordial Newton potential is related to that of the conserved comoving curvature perturbation in the radiation dominated universe as P \u03c8 = (4/9)P R . As mentioned in Introduction, the constraint by Planck is P R (k) \u2248 2.1 \u00d7 10 \u22129 at k = 0.05 Mpc \u22121 [69] . However, since the scales we have in mind are substantially smaller than 1 Mpc, we are free from the Planck constraint. We will specify the form of P R (k) on small scales later. The equation of motion for h k can be solved by the Green function method. In the radiation-dominated universe,",
+            "cite_spans": [
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[69]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "The two-point correlation function of the tensor perturbation is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "Here it may be worth mentioning that we do not assume anything about the statistical nature of the primordial scalar perturbation. It may be Gaussian or may be highly non-Gaussian. The essential point is that the spectrum of the induced GWs is given by a convolution of the primordial curvature perturbation spectrum, independent of its statistical nature. Nevertheless, we also mention that it may be possible to obtain the information about the non-Gaussianity if we combine the predictions on the induced GWs and those on the corresponding abundance of PBHs [29] .",
+            "cite_spans": [
+                {
+                    "start": 561,
+                    "end": 565,
+                    "text": "[29]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "Cosmologists commonly call the GW energy density per logarithmic interval of wavenumber, normalized by the total energy density of the universe as the GW spectrum,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "The power spectrum of the tensor perturbation is defined in (6) by the 2-point correlation function, which is expressed in (8) . To step further we have to calculate the time integral of the transfer functions, which is done in Ref. [28] . See an alternative calculation in Ref. [37] . Following Ref. [28] , we define a set of new variables, u = |k \u2212 |/k, and v = /k, and then integrate the solid angular elements perpendicular to\u02c6 -andq-direction in (8), (10) does not depend on time as it is the asymptotic value deep inside the horizon during the radiation dominated era. This short wavelength limit is crucial in the recent discussions on the gauge dependence of the induced GWs [170] [171] [172] [173] [174] . For any form of the power spectrum of the curvature perturbation, the spectrum of the induced GWs in the radiation-dominated stage can be calculated by numericaly integrating (10) . However, we note that since the GW energy density starts to decay relative to the matter density after the matter-radiation equality, the observational GW spectrum today is given by",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "(8)",
+                    "ref_id": null
+                },
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "[28]",
+                    "ref_id": null
+                },
+                {
+                    "start": 279,
+                    "end": 283,
+                    "text": "[37]",
+                    "ref_id": null
+                },
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[28]",
+                    "ref_id": null
+                },
+                {
+                    "start": 683,
+                    "end": 688,
+                    "text": "[170]",
+                    "ref_id": null
+                },
+                {
+                    "start": 689,
+                    "end": 694,
+                    "text": "[171]",
+                    "ref_id": null
+                },
+                {
+                    "start": 695,
+                    "end": 700,
+                    "text": "[172]",
+                    "ref_id": null
+                },
+                {
+                    "start": 701,
+                    "end": 706,
+                    "text": "[173]",
+                    "ref_id": null
+                },
+                {
+                    "start": 707,
+                    "end": 712,
+                    "text": "[174]",
+                    "ref_id": null
+                },
+                {
+                    "start": 890,
+                    "end": 894,
+                    "text": "(10)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "Here \u2126 GW (f ) is the GW spectrum at equality given by (10) , and to compare with the observables we replaced the comoving wavenumber k to the physical frequency f , by f = k/(2\u03c0a 0 ). Explicitly, f = 1.5 \u00d7 10 \u22129 (k/1 pc \u22121 )Hz. In the following sections, we calculate \u2126 GW in (10) for both narrow and broad widths of a lognormal peak in the power spectrum of the primordial curvature perturbation. Comparison of the result with observation signals should be done by using (11) for the current GW spectrum \u2126 GW (f, \u03b7 0 ).",
+            "cite_spans": [
+                {
+                    "start": 55,
+                    "end": 59,
+                    "text": "(10)",
+                    "ref_id": null
+                },
+                {
+                    "start": 473,
+                    "end": 477,
+                    "text": "(11)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. SETUP"
+        },
+        {
+            "text": "In the literature, a lognormal peak in the power spectrum of the curvature perturbation is often considered,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "where k * is the peak wavenumber, \u2206 is the dimensionless width, and the coefficient is to satisfy the normalization",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "The scale-invariant power spectrum responsible for the CMB anisotropies can be included as the infinitely broad limit: A R , \u2206 \u2192 \u221e but keeping A R /\u2206 =constant. Another limit is \u2206 \u2192 0, when (12) reduces to the \u03b4-function peak, i.e. P R = A R \u03b4(ln(k/k * )). This is used in some papers of generating PBHs which we will comment more in Sec.III A. For the lognormal peak, (10) reduces to",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "(12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "where we have defined \u03ba \u2261 k/k * for convenience. This GW spectrum is valid until the moment of matter-radiation equality, which is connected to the GW spectrum today by (11) .",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 173,
+                    "text": "(11)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "It is convenient to define the following new varables:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "Under this coordinate transformation, (13) becomes",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 42,
+                    "text": "(13)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "The integral on t is bounded by the lines v = 1 + u and v = |1 \u2212 u|, which correspond to the following curves in the new coordinates,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "where the real part is taken to ensure that \u03c7(s) = 0 for s > \u2212 \u221a 2 ln 2. The domain is shown in Fig. 1 . As the integrand is proportional to Gaussian functions, the result depends crucially on whether the widths of the Gaussian peaks are inside the integration domain or not, which are determined by the values of \u2206. We will discuss the cases of \u2206 1 and \u2206 1 separately in the following subsections.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 96,
+                    "end": 102,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "Some models predict a narrow peak in the curvature perturbation, \u2206 1 [113, 121, 122, 124, 131, [136] [137] [138] [139] . In this case, the main contribution of the integral (15) on s and t comes from the vicinity of the peak, s = \u2212 \u221a 2(ln \u03ba + \u2206 2 ) and t = 0. For the integral on t in the second line of (15), we can take t \u2192 0 in T (s, t), and then perform the Gaussian integral,",
+            "cite_spans": [
+                {
+                    "start": 69,
+                    "end": 74,
+                    "text": "[113,",
+                    "ref_id": null
+                },
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "121,",
+                    "ref_id": null
+                },
+                {
+                    "start": 80,
+                    "end": 84,
+                    "text": "122,",
+                    "ref_id": null
+                },
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "124,",
+                    "ref_id": null
+                },
+                {
+                    "start": 90,
+                    "end": 94,
+                    "text": "131,",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 100,
+                    "text": "[136]",
+                    "ref_id": null
+                },
+                {
+                    "start": 101,
+                    "end": 106,
+                    "text": "[137]",
+                    "ref_id": null
+                },
+                {
+                    "start": 107,
+                    "end": 112,
+                    "text": "[138]",
+                    "ref_id": null
+                },
+                {
+                    "start": 113,
+                    "end": 118,
+                    "text": "[139]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "We substitute this back into (15) . Again the narrow Gaussian distribution guarantees that we can take s \u2192 \u2212 \u221a 2(ln \u03ba+ \u2206 2 ) in (18) , and then perform the Gaussian integral on s. We then obtain an analytical result for the GW spectrum (15), which is bounded by the curves \u00b1\u03be(s) and \u00b1\u03c7(s) shown in (17) . We also show the curves of zero points (dotted purple) and the logarithmic divergence (black) in the integral kernel T (s, t) defined in (16) . The former curve is given by e \u221a 2s cosh( \u221a 2t) = 3/2, while the latter curve is e in the narrow-peak case,",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 33,
+                    "text": "(15)",
+                    "ref_id": null
+                },
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "(18)",
+                    "ref_id": null
+                },
+                {
+                    "start": 298,
+                    "end": 302,
+                    "text": "(17)",
+                    "ref_id": null
+                },
+                {
+                    "start": 442,
+                    "end": 446,
+                    "text": "(16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "where \u03ba \u2261 k/k * as defined before. This analytical result fits quite well with the numerical integration of (13), which is shown in Fig. 2 for \u2206 = 10 \u22122 . In the limit \u2206 \u2192 0, the result reduces to the GW spectrum induced by a \u03b4-function peak, obtained in Ref. [28] ,",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 264,
+                    "text": "[28]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 138,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "Our narrow-peak result (19) can be further simplified if we approximate e \u2206 2 \u2248 1,",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 27,
+                    "text": "(19)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "We note that the error function factor comes from (18) which is independent of the transfer function (21), implying that this formula is valid for any universe with arbitrary equation of state w. The whole equation-of-state dependence is contained in \u2126",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 54,
+                    "text": "(18)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "GW . In a companion paper [169] , an intermediate stage dominated by a scalar field with constant w between inflation and the radiation-dominated universe is considered, where (21) is applied to find the infrared behavior of the induced GWs from a narrow peak.",
+            "cite_spans": [
+                {
+                    "start": 26,
+                    "end": 31,
+                    "text": "[169]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "To summarize, the infrared behavior of GW spectrum is given by (19) or (21) by setting \u03ba 1,",
+            "cite_spans": [
+                {
+                    "start": 63,
+                    "end": 67,
+                    "text": "(19)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "3\u03ba 2 e \u2206 2 ln \u03ba + \u2206 2 2 , for 2\u2206e \u2212\u2206 2 < \u03ba < 1 (near-IR).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "In the last step, for an intuitive understanding of the scaling law of the GW spectrum, we use the asymptotic expression for the error function for small and large arguments, respectively, which we refer to as the far-IR and The results of numerical integration of (10), the analytical expression (19) , and the infrared approximation (22) are shown. Right: The GW spectra for different values of widths according to the infrared approximation (22) . The dashed gray curve is the GW spectrum from a \u03b4-function peak drawn for reference, whose near-peak behavior is nearly the same for all the cases of \u2206 1.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "(19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "(22)",
+                    "ref_id": null
+                },
+                {
+                    "start": 444,
+                    "end": 448,
+                    "text": "(22)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "near-IR regions. As clear from the above as well as from Fig. 2 , there is a break point at k/k * = 2\u2206e \u2212\u2206 2 where the GW spectrum changes its infrared behavior from \u2126 GW \u221d k 3 to \u2126 GW \u221d k 2 . Let us denote this break wavenumber by k b , i.e., k b = 2\u2206e \u2212\u2206 2 k * . This feature is characteristic of the GW spectrum induced by a narrowly peaked scalar perturbation, and it is a very useful feature in both identifying the origin of the curvature perturbation and measuring the peak width.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 57,
+                    "end": 63,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "It is clearly to see in (19) that besides an infrared local maximum at around k/k * = 1/e, there is another \"resonance peak\" with logarithmic divergence, which is located at k = (2/ \u221a 3)e \u2212\u2206 2 k * , which we denote by k p . The two maxima are separated by a dip at k/k * = 2/3e \u2212\u2206 2 . This two-peak structure is another characteristic feature of the induced GW from a narrow peak, which can be obviously seen for \u2206 0.4. 1 The value at the infrared local maximum can be easily estimated as",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 28,
+                    "text": "(19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 420,
+                    "end": 421,
+                    "text": "1",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "where the dependence on the width is of order O(\u2206 2 ) and can be neglected. Thus the infrared maximum of \u2126 GW only depends on the normalization of the curvature perturbation spectrum, which can be clearly seen in the right panel of Fig.2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 232,
+                    "end": 237,
+                    "text": "Fig.2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "As for the resonance peak, it must be smoothed when compared to observation as an infinitely narrow band observation is impossible [175] . For instance, Ref. [43] smooths the resonance peak induced by a \u03b4-function peak on one e-fold. Here we smooth it by taking account of the following fact. For a finite width peak, its width provides a natural smoothing scale,",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 136,
+                    "text": "[175]",
+                    "ref_id": null
+                },
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": "[43]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "We can see that if \u2206 is not too small, i.e. for \u2206 (1/2) exp(\u2212 \u221a 4 + 2\u03c0 2 \u2212 1) \u2248 0.016, the smoothed peak value is independent of its width and can be estimated by \u2126 (res,max) GW",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "Note that this is always higher than the infrared peak given in (23) . For \u2206 0.016, the peak is proportional to (ln \u2206) 2 , i.e. \u2126 (res,peak) GW \u2248 (4/9)(ln \u2206) 2 A 2 R . If f * \u2206 is smaller than the frequency resolution, \u03b4f , the latter should be used instead as the smoothing scales, though it is unlikely that the observation with such high resolution becomes possible in the near future.",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 68,
+                    "text": "(23)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "III. LOGNORMAL PEAK"
+        },
+        {
+            "text": "Many models predict a broad peak in the scalar perturbation, \u2206 O(1) [27, 101-104, 112, 120, 123-126, 130, 132-134] . In this case, we show that the induced GW spectrum has a lognormal peak with width \u2206/ \u221a 2. Since the integrand in (15) is not concentrated around the vicinity of the peak, it is difficult to calculate it at once. It is found that T (s, t) in the integrad behaves differently for s 1, |s| \u223c O(1), and s \u22121. We therefore decompose the integral into these three different domains, evaluate each separately, and add up all the contributions at the end to obtain a formula that has sufficiently satisfactory accuracy.",
+            "cite_spans": [
+                {
+                    "start": 68,
+                    "end": 114,
+                    "text": "[27, 101-104, 112, 120, 123-126, 130, 132-134]",
+                    "ref_id": null
+                },
+                {
+                    "start": 231,
+                    "end": 235,
+                    "text": "(15)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "First we consider the domain s 1. The contribution in the infrared is mainly from large s, where we may take the leading order of T (s, t) for s",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Then since \u03be(s) \u2206 for \u2206 1 and s 1, the integral along the t-axis can be approximated by an error function as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Substituting this back into (15) , and perform the Gaussian integral along the s-axis, we find",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 32,
+                    "text": "(15)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "where erfc(x) is the complementary error function defined as erfc(x) \u2261 1 \u2212 erf(x). For infrared k, \u03ba 1, the complementary error function approaches 2, while the last term in the curly brackets in (28) is exponentially suppressed. Thus the infrared GW spectrum is given approximately by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "We see the familiar k 3 scaling. On the other hand, for \u03ba 2 3 exp(\u2212 3 2 \u2206 2 ), the complimentary error function is also exponentially suppressed. Taking the large \u2206 limit of it gives the near-peak behavior,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Second, we focus on the domain |s| 1. There is a discontinuity at t = \u00b1 \u221a 2arccosh The main contribution is from the right hand side of the singularity, as there is an extra \u03c0 2 term in the curly brackets in (16) , which allows us to take t \u2192 0 and neglect the logarithm term, giving",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "(16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "As this is independent of t, the remaining integral on t is just an error function, which gives",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "In the second step, we have approximated the error function by taking the leading order at \u03be(s) \u221a 2\u2206. We have also approximated the Gaussian function in the integrand by putting s to its maximum value, s = \u2212(1/ \u221a 2) ln(4/3). In passing, we note that \u2206 is assumed to be larger than the interval of the integral, (1/ \u221a 2) ln 2 \u223c 0.49, which corresponds to the critical width that separates the narrow and broad peaks. The integral in the second line of (32) gives a constant. Although it may be evaluated analytically, since the expression is very long and it is not illuminating, we do not spell it out here. Instead we simply quote its numerical value:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "where the second line follows by taking the large \u2206 limit. For s \u22121, the domain of integration has two strips at the leftmost region of Fig. 1 . Along both strips, we may assume |s| \u2248 |t| 1, and the leading order of T (s, t) is given by",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 142,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Then the integral along the t-axis is straightforward to find 2 \u03be(s)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Substituting (36) into (15) and performing the Gaussian integral, we obtain",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 27,
+                    "text": "(15)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "This expression can be further simplified by using the asymptotic behavior of the complementary error function. For \u03ba < 4e 4\u2206 2 , which includes the near-peak region of \u03ba \u223c 1, we find",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "We see that the coefficient is much smaller than those of (30) and (34) , which constitute the near-peak contributions from s > 1 and |s| < 1, respectively. So we conclude that (38) is negligible around the peak. For \u03ba > 4e 4\u2206 2 , the complementary error function gives a constant of 2, hence \u2126 (UV,s<\u22121) GW (13) . The dashed curves are the approximate analytical expressions (40) . The near-peak approximation (42) is also shown as dot-dashed curves. The GW spectra for different widths are drawn together in the bottom right panel for comparison. The double-peak structure of the narrow-peak case is barely seen in the case \u2206 = 1/2, which is slightly above the critical value that divides narrow and broad peaks, \u2206 = \u2206c \u223c 0.4.",
+            "cite_spans": [
+                {
+                    "start": 67,
+                    "end": 71,
+                    "text": "(34)",
+                    "ref_id": null
+                },
+                {
+                    "start": 308,
+                    "end": 312,
+                    "text": "(13)",
+                    "ref_id": null
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "(40)",
+                    "ref_id": null
+                },
+                {
+                    "start": 411,
+                    "end": 415,
+                    "text": "(42)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "This overwhelms the contributions given by (28) and (33) , and gives an approximate expression of \u2126 GW in the ultraviolet region. But we have to keep in mind that this \"ultraviolet\" region is far away from the peak when \u2206 1, and, because of the exponential suppression, it is probably too difficult to be detected.",
+            "cite_spans": [
+                {
+                    "start": 43,
+                    "end": 47,
+                    "text": "(28)",
+                    "ref_id": null
+                },
+                {
+                    "start": 52,
+                    "end": 56,
+                    "text": "(33)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "To summerize, the final result of the GW spectrum when \u2206 O(1) is the summation of (28), (33) , and (37):",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 92,
+                    "text": "(33)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "where we have introduced K = \u03ba exp(3\u2206 2 /2) for simplicity. This is one of the main results of this paper. Its accuracy can be checked by looking at Fig. 3 where the numerical results are also shown. It is also useful to write down the asymptotic expressions of (29), (30) plus (34) , and (39), each of which gives the GW spectrum valid in each different region,",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 282,
+                    "text": "(34)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 149,
+                    "end": 155,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Although each of the above asymptotic formula fits very well in each region, we only plot the most important, near-peak formula in Fig. 3 , which is a sum of (30) and (34),",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 137,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "This formula for the near-peak region is another main result of this paper. It clearly shows that the induced GW spectrum has a lognormal peak with width \u2206/ \u221a 2 which is smaller by \u221a 2 of the peak width of the original curvature perturbation spectrum, \u2206. This is a reflection of the \"secondary\" nature of the induced GWs, as \u2126 GW \u221d (P R ) 2 . 2 The maximum of the GW spectrum is given directly by setting \u03ba = 1,",
+            "cite_spans": [
+                {
+                    "start": 343,
+                    "end": 344,
+                    "text": "2",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "Since (42) gives the height and width of the peak of the induced GW spectrum, we expect it to play an important role in the interpretaion of observational signals in the near future. An important special case of a broad peak is the GWs induced by a scale-invariant curvature perturbation, P R (k) = A R . Comparing to (12) , this corresponds to the limits A R \u2192 \u221e and \u2206 \u2192 \u221e with the ratio A R /( \u221a 2\u03c0\u2206) \u2261 A R = const.. This gives a scale-invariant GW spectrum,",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 322,
+                    "text": "(12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "which is in good agreement with the result obtained numerically in Ref. [28] .",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 76,
+                    "text": "[28]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "B. Broad Peak (\u2206 O(1))"
+        },
+        {
+            "text": "In this expanding new era of GW astronomy/cosmology, detecting the stochastic background of GWs is the next scientific goal for the GW experiments in the coming decades. Among possible sources of stochastic backgrounds, the secondary GWs induced by the primordial curvature perturbation is a very important target. As both the generation of GWs and the formation of PBHs occur essentially at the horizon reentry of the relevant scale in the early universe, the fruitful PBH physics motivated us to study the associated induced GWs. Observations on both sides can be used to probe the primordial curvature perturbation on small scales, where there is no stringent constraints.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "In this paper we have studied the spectrum of GWs induced by the primordial curvature perturbation whose spectrum has a lognormal peak. Such a spectrum is frequently discussed in the literature from the viewpoints of both inflationary phenomenology and PBH formation mechanism. We have found that the resulting spectrum of the induced GWs has distinct features depending on the width of the longnormal spectrum, \u2206. For both narrow-peak (\u2206 1) and broad-peak (\u2206 1) cases, we have successfuly obtained an analytical formula with amazingly good accuracy, as presented in (19) for \u2206 1 and (40) for \u2206 1, respectively. For the narrow-peak case, the GW spectrum (19) can be further simplified by using the GW spectrum for a \u03b4-function peak. Namely, it may be factorized into two components,",
+            "cite_spans": [
+                {
+                    "start": 567,
+                    "end": 571,
+                    "text": "(19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 654,
+                    "end": 658,
+                    "text": "(19)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "where the factor given by the error function is independent of the equation of state of the universe, and \u2126 (\u03b4)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "GW is for the \u03b4-function curvature perturbation spectrum whose formula in the radiation-dominated universe, (20) , is well known, and it is not difficult to extend it to that for a universe with arbitrary equation of state. Thus (45) gives a universal formula valid for any equation of state of the universe if \u2206 1. As \u2126 (\u03b4) GW \u221d k 2 in the radiation dominated universe, (45) clearly shows there is a break in the power-law at k b \u2248 2k * \u2206 on the infrared side of the GW spectrum, changing from k 3 to k 2 as k increases. In addition, there appears a logarithmically diverging peak at k p \u2248 2k * / \u221a 3. If such a GW spectrum is observed in the future, with both break and peak frequencies measured, the width of the peak in the original curvature perturbation spectrum can be read off as",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 112,
+                    "text": "(20)",
+                    "ref_id": null
+                },
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "(45)",
+                    "ref_id": null
+                },
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "(45)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "where f b and f p are the break and peak frequencies, respectively. For the broad-peak case, we have also derived an analytical expression (40) which fits the numerical result very well. Further, we have obtained the asymptotic expressions for infrared, near-peak, and ultraviolet regions, respectively. The most important feature of the GW spectrum for the broad-peak case is the appearance of a lognormal peak with width \u2206/ \u221a 2, which is smaller by \u221a 2 compared with the width \u2206 of the primordial curvature perturbation, as shown in (42) , which reflects the secondary nature of the induced GWs.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "(40)",
+                    "ref_id": null
+                },
+                {
+                    "start": 535,
+                    "end": 539,
+                    "text": "(42)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "The maximum of the GW spectrum has been also derived, \u2126 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "As we stated at the end of Section II, all the results of \u2126 GW listed above are valid only until the epoch of matterradiation equality. To obtain the GW spectrum we observe today, they should be multiplied by a redshift factor of 2\u2126 r,0 \u223c 8.2 \u00d7 10 \u22125 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "In this paper we have only considered lognormal spectra for the primordial curvature perturbation. Such spectra may arise in varieties of inflation models, which implies the usefulness of our results. Nevertheless, the primordial curvature perturbation may have a more complicated spectrum. For example, the spectrum may be composed of Gaussian fluctuations and non-Gaussian corrections. In such a case, even if the Gaussian part has a lognormal spectrum, the non-Gaussian part may substantially deform the spectral shape if its contribution is large. A specific example was discussed in Ref. [29] where the local-type non-Gaussianity is added on top of the Gaussian perturbation:",
+            "cite_spans": [
+                {
+                    "start": 593,
+                    "end": 597,
+                    "text": "[29]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        },
+        {
+            "text": "g with a narrowly peaked spectrum of R g . Deriving analytical expressions for more general forms of the primordial curvature perturbation spectrum is a challenging issue left for future work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The work of M.S. is supported in part by the JSPS KAKENHI No. 20H04727. Both S.P. and M.S. are supported by the World Premier International Research Center Initiative (WPI Initiative)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "No",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Abbott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Phys. Rev. Lett",
+            "volume": "119",
+            "issn": "16",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1103/PhysRevLett.119.161101"
+                ],
+                "arXiv": [
+                    "arXiv:1710.05832"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The shaded area is the domain of integration",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Left: The GW spectrum with \u2206 = 10 \u22122 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "The GW spectra for \u2206 = 1/2 (top left), \u2206 = 1 (top right), \u2206 = 2 (middle left), \u2206 = 3 (middle right), and \u2206 = 10 (bottom left), respectively. The solid thick curves are the results by numerical integration of",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "GW",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Rong-Gen Cai and Guillem Dom\u00e8nech for useful discussions. S.P. especially thanks his father Tian-Ming Pi for taking care of him when he was working in his hometown under the lockdown in Hubei Province, China during the COVID-19 pandemic. The work of S.P. is supported in part by JSPS Grant-in-Aid for Early-Career Scientists",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

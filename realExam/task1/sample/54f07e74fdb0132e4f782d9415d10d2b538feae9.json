@@ -1,0 +1,447 @@
+{
+    "paper_id": "54f07e74fdb0132e4f782d9415d10d2b538feae9",
+    "metadata": {
+        "title": "Treating COVID-19 in Rural America",
+        "authors": [
+            {
+                "first": "Dima",
+                "middle": [],
+                "last": "Dandachi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Missouri-Columbia",
+                    "location": {
+                        "settlement": "Columbia",
+                        "region": "Missouri"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": ";",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [],
+                "last": "Reece",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "West Virginia University",
+                    "location": {
+                        "settlement": "Morgantown",
+                        "region": "West Virginia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elizabeth",
+                "middle": [
+                    "W"
+                ],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Maryland St. Joseph Medical Center",
+                    "location": {
+                        "settlement": "Towson",
+                        "region": "Maryland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Taylor",
+                "middle": [],
+                "last": "Nelson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Missouri-Columbia",
+                    "location": {
+                        "settlement": "Columbia",
+                        "region": "Missouri"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Christian",
+                "middle": [],
+                "last": "Rojas-Moreno",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Missouri-Columbia",
+                    "location": {
+                        "settlement": "Columbia",
+                        "region": "Missouri"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "D Matthew"
+                ],
+                "last": "Shoemaker",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Kansas",
+                    "location": {
+                        "settlement": "Kansas City",
+                        "region": "Kansas"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "discusses the implications of giving patients medications of unclear effectiveness, outside of randomized controlled trials (RCTs). The author explains that without having a control group, we will be unable to accurately determine successful and bad outcomes to discover new therapies, and we will discourage patients and physicians from participating in clinical trials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Thus, the only way to find effective and safe treatments for COVID-19 is by conducting welldesigned RCTs and limiting off-label and compassionate use, especially when facing a pandemic such as SARS-CoV-2. 1 We do not disagree with the importance of RCTs in determining the effectiveness and safety of potential therapeutic interventions. Rather, we would like to focus on an issue that has not been acknowledged: specifically, the many barriers faced by institutions and patients keeping them from taking part in these clinical trials.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 206,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Across the United States, community hospitals and rural hospitals are caring for patients with COVID-19. More than half of all hospitals in the United States are rural hospitals, delivering essential access to inpatient, outpatient, and emergency medical services in rural communities. Yet, how many hospitals in smaller communities, or rural America have the capability and infrastructure to conduct clinical trials? How many academic and tertiary hospitals that receive referrals from surrounding rural hospitals, have the capacity to participate in large multicenter clinical trials but were not considered? In addition, many of these hospitals are struggling financially and these trials are expansive and will require securing funding. It is precisely because we understand the importance of clinical trials in the advancement of knowledge and identification of effective and safe therapies that we, and other clinicians and researchers, have reached out to investigators conducting NIH-sponsored or industry-sponsored trials to willingly participate. Unfortunately, our overtures have either gone unanswered or have been declined without clear rationale.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Sec.907 of the Food and Drug Administration (FDA) Safety and Innovation Act directed the FDA to investigate how well demographics are represented in applications for medical products, including medications. 2 The trial population should be representative of the patients who will use these medications in order for the results to be generalizable. Despite many efforts made, racial and ethnic minorities remain underrepresented in clinical trials. 3 Unfortunately, other important population subgroups are also underrepresented in clinical trials. Patients in medically underserved and rural communities continue to have limited access to health care 4 and also to clinical trials. 5 There are significant regional and state variations in clinical trial enrollment, as well as the urban vs. rural character of a county, and the proximity to a metropolitan statistical area. In addition, geographic areas with higher socioeconomic levels tend to have higher levels of clinical trial participation. 6 In a study looking at participation in National Cancer Institute (NCI)-sponsored cancer treatment trials, researchers found that patients' place of residence has a statistically significant effect on accrual to clinical trials, even after adjusting for number of incident cancer cases. 7 The Right to Try Act was signed into law May 30, 2018. This law ensures that patients diagnosed with life-threatening diseases and who are unable to participate in a clinical trial have access to unapproved treatments. The law recognizes that only the lucky few can enroll in clinical trials. However, the number of patients who have benefited from the right-to-try law is very limited. The reason is that the FDA does not control access to the medication. Those investigational medicines are the property of the drugs' sponsors: companies and their investors. We are unable to offer patients access to ongoing clinical trials. Even the compassionate use program for remdesivir has been complicated, time consuming, and mostly unsuccessful to acquire the medication.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 208,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 448,
+                    "end": 449,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 682,
+                    "end": 683,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 997,
+                    "end": 998,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1285,
+                    "end": 1286,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Unfortunately, as this pandemic unfolds, we are forced to treat our patients with limited scientific evidence at best. Many clinicians on the frontline feel ethically obliged to provide treatment that could benefit a patient who is severely ill when the potential benefits outweigh the harms. 8 The compassionate or off-label use of drugs does not necessarily stem from disregard or ignorance of the importance of RCTs. Thus, we must first acknowledge and study the critical barriers impacting access to clinical research. Then, we can develop potentially sustainable solutions to overcome these barriers and make access to research more equitable.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 294,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Additional efforts will be necessary to increase the proportion of rural residents and patients of lower socioeconomic status, traditionally underrepresented in clinical trials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Treating COVID-19-Off-Label Drug Use, Compassionate Use, and Randomized Clinical Trials During Pandemics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kalil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4742"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "US Food and Drug Administration. Diversity of Clinical Trials Participation",
+            "authors": [],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Increasing Diversity in Clinical Trials: Overcoming Critical Barriers",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Watkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pi\u00f1a",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Curr Probl Cardiol",
+            "volume": "44",
+            "issn": "5",
+            "pages": "148--172",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Exposing some important barriers to health care access in the rural USA",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Douthit",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kiv",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dwolatzky",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Biswas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Public Health",
+            "volume": "129",
+            "issn": "6",
+            "pages": "611--620",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Barriers to medical research participation as perceived by clinical trial investigators: communicating with rural and african american communities",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tanner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bergeron",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Health Commun",
+            "volume": "20",
+            "issn": "1",
+            "pages": "88--96",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Barriers to recruitment of rural patients in cancer clinical trials",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Virani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Remick",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Oncol Pract",
+            "volume": "7",
+            "issn": "3",
+            "pages": "172--177",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "How sociodemographics, presence of oncology specialists, and hospital cancer programs affect accrual to cancer treatment trials",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Sateren",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Trimble",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abrams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Clin Oncol",
+            "volume": "20",
+            "issn": "8",
+            "pages": "2109--2117",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Optimizing the Trade-off Between Learning and Doing in a Pandemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Angus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4984"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

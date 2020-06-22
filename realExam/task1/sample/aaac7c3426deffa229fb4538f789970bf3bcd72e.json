@@ -1,0 +1,1321 @@
+{
+    "paper_id": "aaac7c3426deffa229fb4538f789970bf3bcd72e",
+    "metadata": {
+        "title": "Journal Pre-proof Pneumonia caused by Mycobacterium tuberculosis Pneumonia caused by Mycobacterium tuberculosis",
+        "authors": [
+            {
+                "first": "Meili",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bengbu Medical College",
+                    "location": {
+                        "settlement": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yongjie",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhuoyu",
+                "middle": [],
+                "last": "Qian",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Biao",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Xi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bengbu Medical College",
+                    "location": {
+                        "settlement": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jun",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First Affiliated Hospital of Bengbu Medical College",
+                    "location": {
+                        "addrLine": "9 Anhui, 2600 Donghai Av-12 enue",
+                        "postCode": "233030",
+                        "settlement": "Bengbu",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bikui",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {},
+                "email": "bktang@sina.comb.tang"
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Z",
+                "middle": [],
+                "last": "Qian",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "B",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Xi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\uff0cyongjie",
+                "middle": [],
+                "last": "Zhao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bengbu Medical College",
+                    "location": {
+                        "settlement": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\uff0czhuoyu",
+                "middle": [],
+                "last": "Qian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Middle School affiliated to Guangzhou Foreign Studies University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\uff0cbiao",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bengbu Medical College",
+                    "location": {
+                        "settlement": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bengbu Medical College",
+                    "location": {
+                        "settlement": "Anhui",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Tuberculosis (TB) is one of the top ten leading causes of death worldwide. The causative 18 agent of TB is Mycobacterium tuberculosis. Acute tuberculous pneumonia (TP) is an acute 19 form of pulmonary TB. However, acute TP and non-tuberculous community-acquired pneu-20 monia can be easily confused, resulting in deterioration of TP due to delayed treatment. 21 Therefore, rapid and accurate diagnosis of acute TP is crucial in order to stop the transmission 22 of TB. Moreover, development of new diagnostic tools (technologies and approaches), and 23 flexible application of different therapy schemes will help to reduce the incidence of TP and 24 promote the goal of ending the TB epidemic. 25 26 27 Tuberculosis (TB) is a communicable disease caused by the bacillus Mycobacterium tu-28 berculosis (M. tuberculosis). Nowadays, TB is still one of the top ten causes of death world-29 wide. About a quarter of the world's population is infected with M. tuberculosis. According to 30 WHO's Global tuberculosis report 2019, there were an estimated 10 million new TB cases in 31",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "2018, and 1.5 million people died from TB worldwide. The leading cause of death for people 32 with HIV is TB [1]. 33 1. Acute tuberculous pneumonia 34 M. tuberculosis can invade various organs of the body. Pulmonary tuberculosis (PTB) is 35 the most common, which can mainly cause lung injury and tubercles. PTB is a typical chronic 36 consumptive disease, but it can present as an acute pneumonia. Acute tuberculous pneumonia 37 (TP) is similar to typical bacterial pneumonia, and it is one of the causes of childhood illness 38 [2]. 39 3 Acute TP generally refers to the clinical manifestations of community-acquired pneumo-40 nia (CAP), but the pathogen is M. tuberculosis instead of non-tuberculous bacteria or viruses 41 [3]. TP is contagious: coughing, sneezing, laughing, and even speaking can produce droplet 42 nuclei containing M. tuberculosis. Transmission occurs when a person inhales the droplet nu-43 clei [4]. 44 In developing countries, M. tuberculosis is a main pathogen that cause CAP. A systemat-45 ic review found that over 10% of patients with CAP in Asia were caused by M. tuberculosis 46 [5]. HamidReza Naderi reported that 17.5% of 120 CAP patients were diagnosed with M. tu-47 berculosis infection at Imam Reza Hospital in Mashhad, Iran [6]. Therefore, it is necessary to 48",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "identify TP in patients with CAP in TB endemic areas. The global distribution of TP is con-49 sistent with that of TB (Fig. 1) . The incident cases mostly occur in developing countries, 50 where many TB patients live in densely populated areas. This close contact increases the risk 51 of cross infection. 52 1.1 Clinical presentation 53 Different from typical PTB, acute TP presents as acute respiratory infection, including 54 dry cough, fever and chest pain. Dry cough often precedes other respiratory and systemic 55 symptoms [7]",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 126,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": ". Duration of symptoms is often more than 2 weeks prior to admission. The clin-56 ical symptoms of acute TP are similar to those of non-tuberculous CAP. However, patients 57 with acute TP are subjectively better than patients with non-tuberculous bacterial pneumonia 58 with less pleural pain, toxemia and dyspnea [8, 9]. Compare to non-tuberculous CAP, weight 59 loss is more common in patients with acute TP. Many patients with acute TP expectorate, but 60 hemoptysis is relatively rare [6]. 61 Acute TP can result in severe consequences in some cases, such as acute respiratory dis-62 tress syndrome (ARDS) in children [10]. Cases of acute respiratory failure caused by acute TP 63 4",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "have also been reported [11, 12]. Secondary diseases, including necrotizing pneumonia and 64 destruction of the lung parenchyma, can be found in children, and were more common in 65 HIV-infected children [13]. Jose Moreira pointed out that 59.3% of patients with TP have at 66 least one complication; the most common ones are AIDS and diabetes [7]. 67 1.2 Pathogenesis 68 Previous studies have tried to explain the pathogenesis of acute TP. M. tuberculosis 69 propagates every 18 to 24 hours, and it is uncommon for PTB to initially manifest as acute, 70 rapidly progressive pneumonia. Septimus believed that this rapid progression may be an exu-71 dative hypersensitivity to aspirated tuberculoprotein, instead of the inflammatory response 72 caused by M. tuberculosis [8]. Rich noted that the acute pneumonia could either be caused by 73 massive M. tuberculosis infection or inhaled tuberculprotein which cause acute exudative hy-74 persensitivity. A study showed that in human TB, fresh pneumonia exudates were found 75 around caseous lesions with little or no acid-fast bacilli (AFB) [14]. As early as 1931, Larson 76 and Long injected tuberculin into the trachea of normal and TB guinea pigs respectively, con-77 firming the hypersensitivity associated tuberculoproteins [15]. 78 Imaging examination showed that TP was characterized by parenchymal lesions in the 79 lung area around the affected bronchi. Bacteria and caseous substance penetrated into the pe-80 riphery through these affected bronchial fistulas. TP presents a poor clinical inflammatory re-81 sponse that is different from the classic caseous pneumonia [16]. Clinically, dry irritating 82 cough usually occurred a few days before fever and lung involvement, and appeared after the 83 complete formation of fistula [17]. 84 After the formation of TP, the outcome depends on the amount of bacteria in the caseous 85 substance inhaled into the lungs from the lymph nodes. If there is little or no bacteria in the 86 consolidation area, pneumonia will be relieved, which is previously called \"epituberculosis\" 87 102 manifestations of pneumonia are often more prominent. That may conceal the characteristics 103 of PTB and lead to misdiagnosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "104 2. Diagnosis 105 Patients with M. tuberculosis infection have lung damage and they may be at higher risk 106 when pneumonia with different pathogens are raging. Once being infected with SARS-CoV-107 2, they are likely to develop serious COVID-19, making the treatment difficult. Therefore, 108 timely and accurate screening of TP will help to reduce the transmission of TB. Serologic test: Leukocytosis was observed in only 35.6% of the TP patients [7]. The 126 white blood cell count rarely exceeds 15000/cu mm [8, 9]. Some potential biomarkers in se-127 rum have been discovered in the diagnosis of TP. Researchers have constructed TB prediction 128 model by detecting the levels of three iron biomarkers in serum (including serum iron, ferritin 129 and transferrin) that can diagnose TB well. It can distinguish PTB from pneumonia. And it is 130 hopeful to expand the diagnostic method of TP [28].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "131 Microbiological tests: The AFB smear microscopy of the sputum or the bronchial wash-132 ing specimens from TP patient is an effective and reliable method. Sputum smear microscopy 157 198 dren are less sensitive than adults [49]. Xpert MTB/RIF Ultra assay is more sensitive than 199 Xpert MTB/RIF assay in detecting TB patients complicated with paucibacillary disease or 200 HIV, and is more sensitive to specimens with low bacillus content [51]. Therefore it can over-201 come the limitation of Xpert MTB/RIF assay. The detection of bacterial RNA can target via-202 ble M. tuberculosis. Bacterial load in sputum can be quantified through detecting 16S riboso-203 mal RNA [52], as sensitive as solid culture [53]. 204 In contrast to M. tuberculosis culture, one of the main advantages of molecular test is the 205 10 rapid diagnosis that the results can be obtained on the same day [54]. However, the premise of 206 rapid PCR-based test is to obtain a respiratory specimen, which is not practical for sputum 207 samples of inadequate quality or patients who cannot spit. In order to collect specimens more 208 effectively, Williams CM and his colleagues developed face-mask sampling, a highly efficient 209 and non-invasive method for detecting exhaled M. tuberculosis output. This approach can de-210 tect early infection [55].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "211 3. Treatment 212 3.1 Anti-TB therapy 213 There are two types of anti-tuberculosis drugs in clinical use currently: first-line and se-214 cond-line antibiotics. First-line drugs include rifampicin, streptomycin, isoniazid, etc. Second-215 line drugs include kanamycin, ciprofloxacin, ethionamide, etc. [56]. TB treatment requires a 216 combination of multiple antibiotics with a treatment cycle of 6-9 months or even 2 years. 217 However, the combination of multiple antibiotics, non-standard medication and insufficient 218 medication duration are likely to produce strains of drug resistance [57]. These strains are de-219 fined as MDR. The main drugs used to treat MDR-TB are fluoroquinolones (FQ) and lastline 220 injections (amikacin, kanamycin and capreomycin). Their use may lead to the emergence of 221 extensively drug-resistant (XDR) strains that developed additional resistance mechanisms to 222 FQ and aminoglycosides [58]. Therefore, the use of FQ as an empirical treatment for CAP in 223 TB endemic areas should implement short-course (5 -10 days) regimen to reduce the appear-224 ance of FQ-resistant M. tuberculosis [59]. This emphasizes the importance of rapid screening 225 for M. tuberculosis infection in CAP patients [60]. It has been reported that delamanid and 226 bedaquiline can be used in combination to treat XDR-TB and MDR-TB. Increasing evidence 227",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "shows that this medicine combination is likely to be acceptable [61, 62]. 228 A series of candidate host-directed and immune-based therapies can accelerate the eradi-229 302 ces cerevisiae immunotherapeutic vaccine named GI-19007 had immunogenicity in mice. 303 This fusion vaccine can elicit strong IFN-\u03b3 and IL-17 responses. The survival rate of guinea 304 pigs treated with GI-19007 and BCG was higher than BCG alone, so it may be used to limit 305 lung injury and expand chemotherapy regimens for TB treat [94]. With the rapid development 306 of immunology and molecular biology, others new TB vaccines have emerged to provide new 307 hope for the prevention and treatment of TB, including inactivated vaccines, recombinant live 308 vaccines, attenuated live vaccines, subunit vaccines, and DNA vaccines, etc. [95].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "309 4. Concluding remarks 310 Lung infection with M. tuberculosis usually presents as a chronic consumptive disease, 311 but it can also cause symptoms of acute pneumonia. Under the cover of various types of 312 pneumonia, TP can be easily misdiagnosed, leading to more serious disease progression. No 313 matter in the areas with high or low prevalence of TB, the attending doctor should be alert to 314 M. tuberculosis infection for patients with doubtful pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "High sensitivity, high specificity and easy-to-use diagnostic tests are necessary for the 316 rapid and accurate detection of M. tuberculosis infection. However, it's worth noting that 317 many diagnostic tests are inadequate for young children who are prone to TP. In low income 318 areas where TB is prevalent, affordability of diagnostic tools is also an important issue.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "One difficulty in TP treatment is drug-resistant TB. Drug screening of infected patients 320 will undoubtedly increase the treatment effect. TP is more common in special populations, 321 such as children, the elderly, and HIV patients, individualized treatment should also be con-322 sidered. Of course, the clinical application of new vaccines with stronger protection is more 323 worthy of expectation, so as to realize the long-cherished desire to completely eliminate TB. 324 15 325 Acknowledgements 326",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "[18]. Otherwise, the disease will progress, and more necrotic cavities will spread to other are-88 as of the lungs. Permanent lesions may occur, such as bronchostenosis. If the lesion is located 89 in middle lobe or lingula, it will cause advanced complications such as bleeding and recurrent 90 bacterial pneumonia [19] . 91 1.3 TB and pneumonia 92 The incidence of pneumonia in PTB patients is higher than that in normal groups [20] . In 93 some areas, such as Uganda, epidemiological analysis has shown that children with severe 94 pneumonia have a higher incidence of PTB, accounting for 18.9% [21] . A recent study has 95 shown that in CAP patients with streptococcus pneumoniae and M. tuberculosis coinfection, 96 pneumococcal pneumonia is likely to provide fertile ground for reactivation of latent TB [22] . 97 In patients with multidrug-resistant TB (MDR-TB), long-term use of medication increases the 98 risk of secondary pneumonia. In turn, secondary pneumonia significantly delays in smear 99 conversion to negative in patients with MDR-TB. This is also a cause to TB treatment failure Imaging test: Medical imaging is an indispensable test in the diagnosis of acute TP. 115 Morphological feature analysis of lesion is a pivotal basis for imaging diagnosis for acute TP. 116 The radiographic characteristic of TP is homogeneous, segmental consolidation on CXR, 117 which is interpreted by chest radiologists as bacterial pneumonia [25] . A retrospective study 118 on 59 TP patients found that pulmonary consolidation of most cases (67.8%) appeared in up-119 per lobes, with the right lobe predominate. 9 cases' pulmonary consolidation were found in 120 the middle lobe [7].",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 197,
+                    "text": "89",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 316,
+                    "end": 320,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 347,
+                    "end": 349,
+                    "text": "92",
+                    "ref_id": null
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 440,
+                    "end": 442,
+                    "text": "93",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 598,
+                    "end": 602,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 624,
+                    "end": 626,
+                    "text": "95",
+                    "ref_id": null
+                },
+                {
+                    "start": 717,
+                    "end": 719,
+                    "text": "96",
+                    "ref_id": null
+                },
+                {
+                    "start": 809,
+                    "end": 813,
+                    "text": "[22]",
+                    "ref_id": null
+                },
+                {
+                    "start": 816,
+                    "end": 818,
+                    "text": "97",
+                    "ref_id": null
+                },
+                {
+                    "start": 1183,
+                    "end": 1186,
+                    "text": "115",
+                    "ref_id": null
+                },
+                {
+                    "start": 1283,
+                    "end": 1286,
+                    "text": "116",
+                    "ref_id": null
+                },
+                {
+                    "start": 1443,
+                    "end": 1447,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1472,
+                    "end": 1475,
+                    "text": "118",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "If a chest computed tomography (CT) scan is performed, the result will also be homoge- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "121"
+        },
+        {
+            "text": "The TS-SPOT assay, which is also based on IFN-\u03b3 detection, has the characteristics of low ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "186"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pulmonary tuberculosis with 523 acute respiratory failure",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pack",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Na",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Oh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Eur Respir J",
+            "volume": "32",
+            "issn": "",
+            "pages": "1625--1655",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Immune regulation by glucocorticoids",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Cain",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cidlowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Nat Rev Immunol",
+            "volume": "525",
+            "issn": "",
+            "pages": "233--280",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Corticosteroids for prevention of mortality in 527 people with tuberculosis: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Critchley",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Orton",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Garner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet Infect Dis",
+            "volume": "528",
+            "issn": "",
+            "pages": "223--260",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Tuberculosis meningitis",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bourgi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fiske",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sterling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Curr Infect Dis Rep",
+            "volume": "530",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Mycobacterium tuberculosis-532 associated necrotizing pneumonia with adjunctive corticosteroid therapy",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Duong",
+                    "middle": [],
+                    "last": "Thanh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Le",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tran",
+                    "middle": [],
+                    "last": "Van",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Resolvin D1 (RvD1) and maresin 1 (Mar1) 535 contribute to human macrophage control of M. tuberculosis infection while resolving 536 inflammation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ruiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sarabia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ju\u00e1rez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int Immunopharmacol",
+            "volume": "74",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Chronic lung 538 disease in adult recurrent tuberculosis survivors in Zimbabwe: a cohort study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rylance",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Makumbirofa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Meffert",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Clayton",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int J Tuberc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Successfully treated but 541 not fit for purpose: paying attention to chronic lung impairment after TB treatment",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Harries",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ade",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Burney",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hoa",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Schluger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Castro",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Int J",
+            "volume": "542",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Effect of diagnostic and 544 treatment delay on the risk of tuberculosis transmission in Shenzhen, China: an 545 observational cohort study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Treatment delay affects clinical severity of tuberculosis: a longitudinal cohort study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Virenfeldt",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rudolf",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Camara",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furtado",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Aaby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BMJ open",
+            "volume": "548",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Imaging of pulmonary post-tuberculosis sequelae",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Razaque",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Pak J",
+            "volume": "550",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The immune 552 mechanisms of lung parenchymal damage in tuberculosis and the role of host-directed 553 therapy",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stek",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Allwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wilkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lynen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Meintjes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Front Microbiol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Sinomenine protects against E. coli-555 induced acute lung injury in mice through Nrf2-NF-\u03baB pathway",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biomed Pharmacother",
+            "volume": "556",
+            "issn": "",
+            "pages": "696--702",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The antioxidant effects 558 of Radix Astragali (Astragalus membranaceus and related species) in protecting tissues 559 from injury and disease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shahzad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shabbir",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wojcikowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wohlmuth",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gobe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Curr Drug Targets",
+            "volume": "17",
+            "issn": "",
+            "pages": "1331--1371",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Environment, global climate change, and cardiopulmonary health",
+            "authors": [],
+            "year": 2017,
+            "venue": "Am J Respir Crit Care",
+            "volume": "562",
+            "issn": "",
+            "pages": "718--742",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Vaccination against tuberculosis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Aguilo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gonzalo-Asensio",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Enferm Infecc",
+            "volume": "573",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Childhood tuberculosis: old and new vaccines",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hussey",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hawkridge",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hanekom",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Prevention of tuberculosis in macaques after intravenous BCG immunization",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "578",
+            "issn": "2020",
+            "pages": "95--102",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Selective 580 delipidation of Mycobacterium bovis BCG enables direct pulmonary vaccination and 581 enhances protection against Mycobacterium tuberculosis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Moliva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hossfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sidiki",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Canan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Dwivedi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Beamer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Mucosal Immunol",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Safety 584 and efficacy of MVA85A, a new tuberculosis vaccine, in infants previously vaccinated 585 with BCG: a randomised, placebo-controlled phase 2b trial",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tameris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hatherill",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Landry",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Scriba",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Snowden",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lockhart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Lancet",
+            "volume": "381",
+            "issn": "",
+            "pages": "1021--1029",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Saccharomyces cerevisiae-based therapeutic vaccine against tuberculosis",
+            "authors": [],
+            "year": 2017,
+            "venue": "Clin Vaccine 588 Immunol",
+            "volume": "24",
+            "issn": "",
+            "pages": "245--262",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The current status, challenges, and future developments of new 590 tuberculosis vaccines",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Hum Vaccin Immunother",
+            "volume": "14",
+            "issn": "",
+            "pages": "1697--716",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "23]. Pneumonia and TB can be combined or exist one after another, and this would cause cer-101 tain difficulties in identifying of the two diseases. Especially in the diagnosis of PTB, the tions: 1) Confluent dense shadows on the CXR involving at least one lobe;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "160 the diagnosis of TP. In addition, Japanese researchers distinguished TP from non-tuberculous 161 pneumonia by testing serum IFN-\u03b3, matrix metalloproteinases-1 and-9 (MMP-1 and MMP-9), 162 and periostin [38]. 163 The serum neutrophil-lymphocyte count ratio (NLR) levels of PTB patients were signifi-164 cantly lower than patients with bacterial CAP [39]. NLR can be used to distinguish PTB from 165 bacterial CAP in the initial diagnosis. Besides, a study pointed out that the values of delta 166 neutrophil index (DNI) of PTB patients were lower than those of CAP patients. Initially ele-167 vated DNI may help to rule out the possibility of PTB and also serve as an important potential 168 diagnostic indicator to clinically distinguish PTB patients and CAP patients [40]. 169 A CT-based predictive nomogram built with pulmonary consolidation region, lymph 170 node region and a clinical factor (duration of fever) can distinguish childhood PTB from CAP 171 conveniently [26].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "culture: M. tuberculosis culture, which is regarded as the \"gold stand-174 ard\" for TB diagnosis by WHO, provides accurate and reliable results for acute TP diagnosis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Culture-positive strains can be used for subsequent strain identification and drug sensitivity176 testing. But traditional solid and liquid media culture have several limitations, including poor 177 practicability, bacterial cross-contamination, and long culture time (about 2 months). Auto-178 mated or semi-automated liquid culture system can significantly decrease the growth time of 179 to the rapid diagnosis for TP. Immunological diagnosis: IFN-\u03b3 release assays (IGRAs) are originally developed to 183 diagnose latent TB, and are widely used to detect M. tuberculosis infection with high specific-184 ity and sensitivity [42]. But the high cost limits their application in developing countries. 185 Moreover, some studies have shown that severe diabetes may affect the results of IGRAs [43].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "187cost-effectiveness and high sensitivity. So it is a useful auxiliary method for rapid diagnosis of188 M. tuberculosis infection in low-income and high-incidence environment [44]. IGRA-ELISA 189 can be used for large-scale detection, so it is easy to operate and saves manpower. In addition, 190 there is a good correlation and consistency between IGRA-ELISA and T-SPOT.TB in the di-191 agnosis of TB [45, 46].192 Molecular assays: The Center for Disease Control and Prevention (CDC) recommends 193 that in addition to smear microscopy, at least one nucleic acid amplification (NAA) test, in-194 cluding polymerase chain reaction (PCR), should be performed for every suspected PTB pa-195 tient [47, 48]. A rapid, automated NAA test-Xpert MTB/RIF assay, is the only approach rec-196 ommended by WHO for rapid diagnosis of TB and rifampicin resistance [49]. But this tech-197 nology is not affordable in high-TB burden countries with limited resources [50]. And chil-cation of M. tuberculosis. They are being developed and will be used as adjuvant therapies to 230 shorten the course of treatment, prevent permanent lung injury and improve the outcome of 231 MDR-TB treatment [63]. It has been reported that a female with TP complicated with severe 232 ARDS and disseminated intravascular coagulation has been successfully treated by high fre-233 quency oscillatory ventilation, vasopressor support, anti-TB therapy, intravenous immuno-234 globulin and recombinant soluble human thrombomodulin [10]. 235 Inhaled drug therapy for TB can be used to supplement traditional oral drug therapy. The 236 advantage of inhalation therapy for TB is that it can deliver high concentrations of drugs to 237 the lungs, which is the main sites of M. tuberculosis infection. Inhalation therapy for TB is a 238 potentially strategy that needs to be evaluated in clinical studies [64]. There is a precedent for 239 inhalation of beclomethasone dipropionate in acute TP patients complicated with asthma [65]. 240 A recent article described the effect of intrapulmonary administration on local and systemic 241 pharmacokinetics and showed how inhaled administration achieved high levels in the lung 242 along with low levels of systemic absorption, which will help avoid toxicity [66]. Therefore, 243 as one of the alternative strategies for traditional medicine, inhalation therapy is a potential 244 method for the treatment of TP.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "M. tuberculosis is engulfed by alveolar macrophages, the infected macrophages 247 will release pro-inflammatory cytokines[67]. Increasing evidence supports that inhibiting ex-248 cessive and harmful inflammatory responses may reduce mycobacterial dissemination without 249 inducing immunopathology [68-70]. Therefore, anti-inflammatory drugs should be considered 250 in treatment for TP except antibiotics that target M. tuberculosis. A study found that PTB pa-251 tients with acute renal failure who received corticosteroids had lower mortality than patients 252 without corticosteroids [71]. It may be related to the anti-inflammatory properties of gluco-corticoids and receptor agonists, such as dexamethasone and prednisone [72]. Corticosteroids 254 can prevent immune reconstitution inflammatory syndrome in TB/HIV co-infection by im-255 proving TB lung pathology [73]. Survival benefits for TB meningitis have been proved [74]. 256 Another study reported that M. tuberculosis associated necrotizing pneumonia was successful-257 ly treated by the initiation of corticosteroid followed by anti-TB drugs [75]. Andy Ruiz et al. 258 found that Resolvin D1 and Maresin 1 can induce anti-inflammatory mechanism of human 259 macrophages and produce different antimicrobial effectors to control intracellular growth of 260 M. tuberculosis [76]. These findings have clinical significance, and their clinical application 261 in patients with TP needs to be addressed in the future.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "the cure rate of new cases of TB has reached 85% in 2017, the chronic lung in-264 jury after PTB should not be ignored. Compared with the entire population, the morbidity and 265 mortality of TB survivors were higher [77, 78]. Pulmonary consolidation caused by TP can 266 cause destructive damage to lung tissue, which is typically marked by pulmonary cavity [79, 267 80]. Therefore, chronic lung damage after treatment of M. tuberculosis infection should be 268 considered [78, 81], and lung function repair should be performed to prevent M. tuberculosis 269 reinfection. 270 Studies have found that inhibiting matrix metalloproteinase may reduce lung damage in 271 people with history of tuberculosis, but it still needs to be proved by clinical trials [82]. Some 272 traditional Chinese medicines may have repairing and protecting effects on TB-induced lung 273 damage. Sinomenine, which was originally extracted from a Chinese herbal medicine-274 Sinomenium acutum, can attenuate acute lung injury by inhibiting inflammation and reducing 275 oxidative stress [83]. Radix Astragali, a traditional Chinese medicine, can protect cells and 276 tissues from oxidative stress by scavenging free radicals and reactive oxygen species, and fi-Climate change, air pollution and air allergens, etc. can affect cardiopulmonary health 279 [85]. In the elderly, the increase in temperature and relative humidity are related to the decline 280 in lung function [86]. Therefore elderly patients with TP should pay attention to living in a 281 suitable environment after recovery. Pablo A Salcedo et al. used meta-analysis to quantify the 282 effect of exercise training on indices of pulmonary function in adults with chronic lung dis-283 ease, and pointed out that whole body exercise training can effectively improve lung function, 284 especially the vital capacity index [87]. Exercise can also improve the lung function of chil-285 dren with cystic fibrosis [88]. Therefore, proper exercise is indispensable after TP treatment.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "the best way to prevent TP. Bacille Calmette-Gu\u00e9rin (BCG) is the only li-288 censed vaccine against M. tuberculosis infection [89]. Although BCG can effectively protect 289 infants and young children from M. tuberculosis infection, its efficacy on PTB varies, espe-290 cially among adults [90]. Therefore, the emergence of new vaccines or new usage of existing 291 vaccine is still worth looking forward to. The discovery of intravenous BCG by Darrah and 292 colleagues provided greater protection to prevent TB [91]. Juan I. Moliva et al. pointed out 293 that petroleum can be used to selectively remove many inflammatory lipids (including treha-294 lose dimycolate, trehalose dimycolate, mycoside B, triacylglycerols, and phthiocerol dimy-295 cocerosates) of BCG, without affecting the vitality of BCG. This would make the processed 296 vaccine safer by reducing inflammation [92].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "In addition, there are many candidate vaccines under development. For example, a modi-298 fied vaccine-MVA85A, which can express Ag85A, is the first therapeutic vaccine that under-299 go clinical efficacy trials in more than 60 years. However, the infants who received MVA85A 300 as booster vaccination after BCG have been found no significant improvement in TB protec-tion during three years' follow-up[93]. Thomas H.King  et al. found that a new Saccharomy-pneumonia may disguise the face of tuberculosis. Electron Physician 2017;Ngo DT, Phan PH, Kawachi S, Nakajima N, Hirata N, Ainai A, et al. Tuberculous 356 pneumonia-induced severe ARDS complicated with DIC in a female child: a case of 357 successful treatment. BMC Infect Dis 2018;18:294. 358 [11] Petrillo TM, Heard ML, Fortenberry JD, Stockwell JA, Leonard Jr MK. Respiratory 359 failure caused by tuberculous pneumonia requiring extracorporeal membrane 360 oxygenation. Perfusion 2001;16:525-9.361 [12] Puri M, Kumar S, Prakash B, Lokender K, Jaiswal A, Behera D. Tuberculosis pneumonia 362 as a primary cause of respiratory failure-report of two cases. Jacobs C, Goussard P, Gie RP. Mycobacterium tuberculosis, a cause of necrotising 365 pneumonia in childhood: a case series. Int J Tuberc Lung Dis 2018;22:614-6. 366 [14] Rich AR. The Pathogenesis of Tuberculosis. South Med J 1944;37:593. 367 [15] Larson A, Long ER. Experimental tuberculin pneumonia. Am Rev Tuberc 1931;23:41-4.368 [16] Yoshikawa M, Tokuda H, Kasai S, Kitagawa H, Oishi N, Nagase T. Clinical and 369 radiological features of tuberculous pneumonia in patients with emphysema. Kekkaku Clinical and bronchoscopic features in 121 cases. Chest 1992;Nantongo JM, Wobudeya E, Mupere E, Joloba M, Ssengooba W, Kisembo HN, et al. 381 High incidence of pulmonary tuberculosis in children admitted with severe pneumonia in 382 Uganda. BMC Pediatr 2013;13:16. 383 [22] Garcia R. Community-acquired pneumonia due to streptococcus pneumoniae: when to 384 consider coinfection with active pulmonary tuberculosis. Case Rep Infect Dis 385 2019;2019:4618413. 386 [23] Yong TS, Zhi LZ, Chiwala G, Bin KH, Pei HZ, Juan QH, et al. The effects of secondary 387 pneumonia on the curative efficacy of multidrug-resistant tuberculosis: a retrospective 388 cohort study. Biomed Environ Sci 2018;31:908-12. 389 [24] Schwartz WS, Moyer RE. The management of massive tuberculous pneumonia; a 390 therapeutic review of seventy-five cases. Am Rev Tuberc 1951;64:41-9. 391 [25] Lee KM, Choe KH, Kim SJ. Clinical investigation of cavitary tuberculosis and 392 tuberculous pneumonia. Korean J Intern Med 2006;21:230-5. 393 [26] Wang B, Li M, Ma H, Han F, Wang Y, Zhao S, et al. Computed tomography-based 394 predictive nomogram for differentiating primary progressive pulmonary tuberculosis from 395 community-acquired pneumonia in children. BMC Med Imaging 2019;19:63. 396 [27] Ankrah AO, Glaudemans AWJM, Maes A, Van de Wiele C, Dierckx RAJO, Vorster M, et al. Tuberculosis. Semin Nucl Med 2018;Foulds J, O'Brien R. New tools for the diagnosis of tuberculosis: the perspective of 404 developing countries. Int J Tuberc Lung Dis 1998;2:778-83. 405 [31] Zhang ZX, Sng LH, Yong Y, Lin LM, Cheng TW, Seong NH, et al. Delays in diagnosis 406 and treatment of pulmonary tuberculosis in AFB smear-negative patients with pneumonia. 407 Int J Tuberc Lung Dis 2017;21:544-9. 408 [32] Law YN, Jian H, Lo NWS, Ip M, Chan MMY, Kam KM. Low cost automated whole 409 smear microscopy screening system for detection of acid fast bacilli. PLoS One 410 2018;13:e0190988. 411 [33] Yang L, Cao Y, Dan Z, Wang Z, Wang X. Community-acquired Tsukamurella pneumonia 412 in a young immunocompetent adult: a case misdiagnosed as pulmonary tuberculosis and 413 literature review. Postgrad Med 2017;129:563-6. 414 [34] Matsuura H, Yamaji Y. Tuberculous pneumonia. QJM 2018;111:131. 415 [35] Mendelson F, Griesel R, Tiffin N, Rangaka M, Boulle A, Mendelson M, et al. C-reactive 416 protein and procalcitonin to discriminate between tuberculosis, Pneumocystis jirovecii 417 pneumonia, and bacterial pneumonia in HIV-infected inpatients meeting WHO criteria for 418 seriously ill: a prospective cohort study. BMC Infect Dis 2018;18:399. 419 [36] Huang SL, Lee HC, Yu CW, Chen HC, Wang CC, Wu JY, et al. Value of procalcitonin in 420 differentiating pulmonary tuberculosis from other pulmonary infections: a meta-analysis. [37] Yoon C, Chaisson LH, Patel SM, Allen IE, Drain PK, Wilson D, et al. Diagnostic 423 accuracy of C-reactive protein for active pulmonary tuberculosis: a meta-analysis. Yamauchi M, Kinjo T, Parrott G, Miyagi K, Haranaga S, Nakayama Y, et al. Diagnostic 426 performance of serum interferon gamma, matrix metalloproteinases, and periostin 427 measurements for pulmonary tuberculosis in Japanese patients with pneumonia. PLoS 428 One 2020;15:e0227636. 429 [39] Yoon NB, Son C, Um SJ. Role of the neutrophil-lymphocyte count ratio in the 430 differential diagnosis between pulmonary tuberculosis and bacterial community-acquired 431 pneumonia. Ann Lab Med 2013;33:105-10. 432 [40] Jhun BW, Sim YS, Shin TR, Kim DG. The utility of delta neutrophil index in 433 differentiation of pulmonary tuberculosis from community acquired pneumonia. Drobniewski FA, Caws M, Gibson A, Young D. Modern laboratory diagnosis of 436 tuberculosis. Lancet Infect Dis 2003;3:141-7. 437 [42] Pai M, Behr M. Latent Mycobacterium tuberculosis infection and interferon-gamma 438 release assays. Microbiol Spectr 2016;4:379-88. 439 [43] Takasaki J, Manabe T, Morino E, Muto Y, Hashimoto M, Iikura M, et al. Sensitivity and 440 specificity of QuantiFERON-TB Gold Plus compared with QuantiFERON-TB Gold In-441 Tube and T-SPOT.TB on active tuberculosis in Japan. J Infect Chemother 2018;24Li G, Li F, Zhao HM, Wen HL, Li HC, Li CL, et al. Evaluation of a new IFN-\u03b3 release 444 assay for rapid diagnosis of active tuberculosis in a high-incidence setting. Front Cell 445 Infect Microbiol 2017;7:117. 446 [45] Wang L, Tian XD, Yu Y, Chen W. Evaluation of the performance of two tuberculosis",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Boisson M, Jacobs M, Gr\u00e9goire N, Gobin P, Marchand S, Couet W, et al. Comparison of 507 intrapulmonary and systemic pharmacokinetics of colistin methanesulfonate (CMS) and 508 colistin after aerosol delivery and intravenous administration of CMS in critically ill 509 patients. Antimicrob Agents Chemother 2014;58:7331-9. 510 [67] Stamm CE, Collins AC, Shiloh MU. Sensing of Mycobacterium tuberculosis and 511 consequences to both host and bacillus. Immunol Rev 2015;264:204-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Di Liberto D, Caccamo N, Meraviglia S, Guggino G, La Manna MP, Sireci G, et al. 513 Tuning inflammation in tuberculosis: the role of decoy receptors. Garlanda C, Di Liberto D, Vecchi A, La Manna MP, Buracchi C, Caccamo N, et al. 516 Damping excessive inflammation and tissue damage in Mycobacterium tuberculosis 517 infection by Toll IL-1 receptor 8/single Ig IL-1-related receptor, a negative regulator of 518 IL-1/TLR signaling. J Immunol 2007;179:3119-25. 519 [70] Harishankar M, Afsal K, Banurekha V, Meenakshi N, Selvaraj P. 1, 25-Dihydroxy 520 vitamin D3 downregulates pro-inflammatory cytokine response in pulmonary 521 tuberculosis. Int Immunopharmacol 2014;23:148-52.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Figure legend",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Estimated",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "neous consolidation [26]. Positron emission tomography combined with CT (PET/CT), which measures pulmonary inflammation through cellular uptake of 18 F-labelled fluorodeoxyglucose, was very sensitive to detect M. tuberculosis early infection [27].is still the main laboratory test in many resource-limited settings[29]. The respiratory specimen of TP patient usually contains fewer bacteria and may require multiple samples for AFB test. The quality of microscopy diagnosis is often not guaranteed, as this test was noted to136    have poor sensitivity (between 30% and 70%)[30]. A retrospective observational study showed that 27 of 70 PTB patients (38.5%) were AFB smear-negative. These patients were more likely to be treated as non-tuberculous pneumonia and be admitted to the general ward 139 without quarantined during hospitalization [31].Using an automated screening system can improve the utility of this older diagnostic test-smear microscopy. Law has developed a computer-aided whole smear screening system, that can be used to detect AFB from respiratory specimens under general optical microscopy143 or fluorescence microscopy. So the staff workload can be reduced [32].Although there are many diagnostic methods, one of the challenges in the diagnosis of TP is to distinguish it from non-tuberculous CAP. In some areas with high TB prevalence, it is easy to misdiagnose PTB as CAP (such as community-acquired Tsukamurella pneumonia) due to similar symptoms[33]. Nonetheless, the two still have their own characteristics (Table 149 1). In the course of CAP treatment, acute TP should be considered when the patient experiences ineffective antibiotic treatment. And the patient should be screened for HIV infection shown the important clinical significance in identifying TB, Pneumocystis jirovecii pneumonia, and bacterial pneumonia in HIV patients [35]. PCT levels in patients with PTB were significantly lower than those non-tuberculous CAP patients [6]. PCT tests have acceptable sensitivity and specificity in distinguishing TB from bacterial pneumonia [36]. However, a pro-spective cohort study showed that using CRP and PCT to identify TB from CAP patients has limited value [35]. Moreover, CRP has high sensitivity but low specificity in diagnosis of HIV-associated TB [37]. Accordingly, CRP and PCT can be used as reference indicators for",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "First case of extensively drug-resistant tuberculosis treated with both delamanid and bedaquiline. Eur Respir J 2016;48:935-8. [63] Tiberi S, du Plessis N, Walzl G, Vjecha MJ, Rao M, Ntoumi F, et al. Tuberculosis: progress and advances in development of new drugs, treatment regimens, and hostdirected therapies. Lancet Infect Dis 2018;18:e183-e98. [64] Braunstein M, Hickey AJ, Ekins S. Why wait? The case for treating tuberculosis with inhaled drugs. Pharm Res 2019;36:166. [65] Tanaka I, Okazawa M, Taniguchi M, Suzuki K, Tamura R, Sakakibara H, et al. A case of acute tuberculous pneumonia in a patient with asthma. Allergol Int 2000;49:269-73.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Difference between tuberculous pneumonia and non-tuberculous CAP. WBC = White blood cell. b NE = Neutrophils. c CRP = C-reactive protein. d PCT = Procalcitonin.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

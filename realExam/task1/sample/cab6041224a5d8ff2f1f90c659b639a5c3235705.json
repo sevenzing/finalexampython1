@@ -1,0 +1,2115 @@
+{
+    "paper_id": "cab6041224a5d8ff2f1f90c659b639a5c3235705",
+    "metadata": {
+        "title": "Pattern-Aware Staging for Hybrid Memory Systems",
+        "authors": [
+            {
+                "first": "Eishi",
+                "middle": [],
+                "last": "Arima",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The University of Tokyo",
+                    "location": {
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": "arima@cc.u-tokyo.ac.jp"
+            },
+            {
+                "first": "Martin",
+                "middle": [],
+                "last": "Schulz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Technical University of Munich",
+                    "location": {
+                        "settlement": "Munich",
+                        "country": "Germany"
+                    }
+                },
+                "email": "schulzm@in.tum.de"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The ever increasing demand for higher memory performance and-at the same time-larger memory capacity is leading the industry towards hybrid main memory designs, i.e., memory systems that consist of multiple different memory technologies. This trend, however, naturally leads to one important question: how can we efficiently utilize such hybrid memories? Our paper proposes a software-based approach to solve this challenge by deploying a pattern-aware staging technique. Our work is based on the following observations: (a) the high-bandwidth fast memory outperforms the large memory for memory intensive tasks; (b) but those tasks can run for much longer than a bulk data copy to/from the fast memory, especially when the access pattern is more irregular/sparse. We exploit these observations by applying the following staging technique if the accesses are irregular and sparse: (1) copying a chunk (few GB of sequential data) from large to fast memory; (2) performing a memory intensive task on the chunk; and (3) writing it back to the large memory.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To check the regularity/sparseness of the accesses at runtime with negligible performance impact, we develop a lightweight pattern detection mechanism using a helper threading inspired approach with two different Bloom filters. Our case study using various scientific codes on a real system shows that our approach achieves significant speed-ups compared to executions with using only the large memory or hardware caching: 3\u00d7 or 41% speedups in the best, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The performance of future computing systems relies less and less on computational power, but directly depends on both memory performance and capacity [26, 29] . At the same time, classical DRAM technologies are at risk in scaling bandwidth/capacity, and thus systems built solely on them will face severe limitations [29] . In order to counteract these trends, new and promising technologies, such as 3D stacking, HMC [9] or HBM [18, 23] , have been developed, but face limitations in terms of capacity and scalability [23] . Therefore, to increase the memory capacity, DIMM-based off-package memories including NVRAM, such as Intel's 3D XPoint memory [16] , are still needed, but also face limitations, this time in terms of bandwidth-scalability due to power constraints on the memory bus/modules [8] and the number of off-package pins [32] . Driven by these diverging observations, adopting hybrid memory architectures, which combine different memory technologies on a single node, is an important design option for next generation computing systems from supercomputers to main stream systems [15, 17, 18, 34, 35] . While such hybrid memory systems have the potential to improve the performance of memory intensive applications, it is still unclear how to exploit-at the same time-both the available performance and the capacity on such hybrid memory systems. As an answer to this open question, we propose a softwarebased pattern-aware staging technique. Our core concept follows the fundamental observations 1 demonstrated in Fig. 1 : (a) the high-bandwidth fast memory outperforms the large memory for the memory intensive random updates task, but (b) it takes a much longer time than the sequential copy tasks.",
+            "cite_spans": [
+                {
+                    "start": 150,
+                    "end": 154,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 155,
+                    "end": 158,
+                    "text": "29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 418,
+                    "end": 421,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 434,
+                    "end": 437,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 519,
+                    "end": 523,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 652,
+                    "end": 656,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 799,
+                    "end": 802,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 838,
+                    "end": 842,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1096,
+                    "end": 1100,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1101,
+                    "end": 1104,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1105,
+                    "end": 1108,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1109,
+                    "end": 1112,
+                    "text": "34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1113,
+                    "end": 1116,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1531,
+                    "end": 1537,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "We exploit these observations to accelerate memory intensive tasks by using the staging technique shown in the figure if the accesses are irregular and sparse:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "(1) copying a large chunk of data from large to fast memory, (2) performing accesses on the chunk, and (3) writing it back to the large memory. We apply this technique when the data footprint is larger than the fast memory. In this technique, the data is divided into chunks of a few GB, and the staged access is, in turn, applied to each of them. Several recent studies also focus on the data managements for hybrid memory systems [3, 6, 11, 21, 27, 36, 38] , but none of them exploits this large performance impact of the access pattern to improve software-based data placement decisions at runtime.",
+            "cite_spans": [
+                {
+                    "start": 61,
+                    "end": 64,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 432,
+                    "end": 435,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 436,
+                    "end": 438,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 439,
+                    "end": 442,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 443,
+                    "end": 446,
+                    "text": "21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 447,
+                    "end": 450,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 451,
+                    "end": 454,
+                    "text": "36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 455,
+                    "end": 458,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To successfully enable our pattern-aware staging technique, we need to detect when it is profitable to apply. For this, we propose a lightweight software-based mechanism that dynamically samples small parts of the access sequence, analyzes the access pattern in terms of regularity/sparseness, and then decides-at runtime-whether to apply staging or not. More specifically, we sample addresses using our new mechanism inspired by helper threading [19, 25] , and then we efficiently characterize the pattern based on two different detectors implemented using Bloom filters: a Page Address Filter (PAF) for sparseness and a Stride Filter (SF) for regularity analysis. Finally, we propose a quantitative scheme to detect if an application can likely benefit from staging or not.",
+            "cite_spans": [
+                {
+                    "start": 447,
+                    "end": 451,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 452,
+                    "end": 455,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The followings are the major contributions of this paper:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "-We focus on the observations regarding the impact of access pattern on the effectiveness of staging. -Based on the above observations, we propose a software-based data management scheme called pattern-aware staging . -We propose a simple dynamic address sampling mechanism inspired by software-based helper threading [19, 25] . -We realize a lightweight pattern characterization scheme using two different small Bloom filters: PAF and SF. -We propose a quantitative approach to make a decision based on the outputs of the above access pattern analysis. -Finally, we evaluate our pattern-aware staging approach on a real system using scientific kernels. Figure 2 illustrates the target architecture of this study: the processor has multiple separated memory controllers, each of which is connected to a set of memories: one consists of fast but small memories; while the other one consists of large but slow memories. Looking forward, this kind of architecture is not only considered indispensable for any next generation high performance computing systems, covering exascale supercomputers and beyond [34, 35] , but is also poised to find its way into mainstream systems [18] . One example of this is installing both high-bandwidth 3D-stacked DRAMs (e.g., HBM [18, 23] or HMC [9] ) and conventional DDR modules in one compute board, which is supported in recent products such as Intel Knights Landing (KNL) processors [17] and Intel Agilex SoCs [15] , and will be so in the future systems [18, 35] . Another example is integrating both DRAM and NVRAM modules into DIMM slots, which is supported in Intel Cascade Lake processors [16] . In general, they are heterogeneous in terms of bandwidth as the 3D-stacked DRAMs can offer higher bandwidth scalability [9, 17, 18, 23] , and the bandwidth of NVRAM is limited [16] due to the significant memory access overheads [11, 38] .",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 322,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 323,
+                    "end": 326,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1102,
+                    "end": 1106,
+                    "text": "[34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1107,
+                    "end": 1110,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1172,
+                    "end": 1176,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1261,
+                    "end": 1265,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1266,
+                    "end": 1269,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1277,
+                    "end": 1280,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1419,
+                    "end": 1423,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1446,
+                    "end": 1450,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1490,
+                    "end": 1494,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1495,
+                    "end": 1498,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1629,
+                    "end": 1633,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1756,
+                    "end": 1759,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1760,
+                    "end": 1763,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1764,
+                    "end": 1767,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1768,
+                    "end": 1771,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1812,
+                    "end": 1816,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1864,
+                    "end": 1868,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1869,
+                    "end": 1872,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 654,
+                    "end": 662,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "The goal of this research is to provide an easy to use way for memory consuming/intensive applications to exploit the performance of the fast memory, while also being able to utilize the capacity of the large memory in hybrid memory systems. In particular, to enjoy the bandwidth heterogeneity, we target memory-intensive multi-threaded applications with high instruction/data/thread-level parallelisms, which thus can become bandwidthlimited . To achieve this goal, we aim at utilizing corse-grained data transfers/copies (data chunks in the order of GBs). This is because (1) over GBs of memory space is already available even in the fast memory, (2) accessing a large enough chunk is essential to exploit the bandwidth in the fast memory, and (3) we can allocate larger pages for larger chunks to mitigate the virtual/physical address translation overhead. As few applications naturally expose such coarse-grained accesses, we revisit the concept of access staging and adapt and extend it for managing data in hybrid memory systems. Figure 3 illustrates an overview. First, we reserve a buffer (up to a few GB) in the fast memory and divide the large data, still stored in the slow memory, into the several data chunks matching the buffer size in the fast memory. For each data chunk, we then apply data staging as follows: (1) copy the data from the large memory to the fast memory, (2) perform bandwidth-critical tasks in the fast memory, and (3) return the data to the large memory by copying it back. We then iterate this process across all data chunks, until all chunks are processed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1036,
+                    "end": 1044,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Concept of Memory Staging"
+        },
+        {
+            "text": "In this work, we purposely do not consider overlapping or pipelining between the different stages of processing consecutive data chunks. The detailed reasons behind this will be discussed in Sect. 8.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Concept of Memory Staging"
+        },
+        {
+            "text": "To achieve performance improvements, we must apply our staging technique only when the performance boost gained in the second stage (T boost ) is larger than the copy overhead caused by the first and third stages (T copy ). These overheads can be formulated by using the parameters shown in Fig. 3 . Here, T base represents the execution time without staging, while T 1st , T 2nd and T 3rd represent the execution time of the first, second, and third stages in the staging technique, respectively. We can obtain a performance improvement when these times meet the following condition:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 291,
+                    "end": 297,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Balancing Performance Boost and Overhead"
+        },
+        {
+            "text": ". These times, however, depend on the characteristics of the memory access patterns in the targeted code or algorithm, which we need to carefully consider when determining wether we apply the staging or not. Further, to reduce the copy overhead, in certain cases we can remove the first stage or third stage in our approach. More specifically, we remove the third stage (writing back a chunk to the large memory) for read only tasks. Likewise, we remove the first stage (reading a chunk from the large memory) for write only tasks such as overwriting temporary arrays.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Balancing Performance Boost and Overhead"
+        },
+        {
+            "text": "In Fig. 4 , we quantify the performance boost (T boost ) by comparing T 2nd and T base . For this evaluation, we utilized a real hybrid memory system whose details are shown in Sect. 6. The vertical axis shows the execution time that is divided by the data size, i.e., the inverse of bandwidth. In this evaluation we analyze the performance boost for two different access patterns. For random we performed one billion random memory accesses on an 8 GB data array whose data element size is eight bytes; for sequential we examined sequential memory references on the same 8 GB data array, also by issuing one billion memory references.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Tradeoff Observations"
+        },
+        {
+            "text": "As shown in the figure, the fast memory outperforms the large memory for both tasks. This is because the former has significantly more parallelism in ranks/banks/channels than the latter, and thus can provide data much faster regardless of access patterns if the accesses are intensive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Tradeoff Observations"
+        },
+        {
+            "text": "On the other hand, the random access pattern takes much longer to complete than the sequential one, which is a well-known phenomenon [14] happens also in NVRAMs [16, 38] , and hence T boost has to become much longer for the former. This is caused by the fundamental fact that memory systems are optimized in a way that they can exploit the bandwidth for sequential accesses by interleaving data across banks/ranks/channels [5] , while utilizing open page policies [20] . Therefore, more irregular patterns cause more bank/rank/channel level conflicts [33] . Further, such accesses are very sparse (and hence come with very low locality) and thus these contentions can occur very frequently as, under such conditions, on-chip caches cannot help with reducing the number of accesses to memory. Figure 5 represents the copy overhead (T copy ) between the two different memories. By comparing Fig. 4 and Fig. 5 , we find that the significance of the copy overhead depends on the access types of the codes. As shown in the figures, it is better to move data for the random access pattern (T boost > T copy ), but we should not do so for the sequential accesses (T boost < T copy ). Note that this patternaware comparison is universally valid for any hybrid memories-the application to other systems will be discussed in Sect. 8.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 161,
+                    "end": 165,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 166,
+                    "end": 169,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 423,
+                    "end": 426,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 464,
+                    "end": 468,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 551,
+                    "end": 555,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 792,
+                    "end": 800,
+                    "text": "Figure 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 889,
+                    "end": 895,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 900,
+                    "end": 906,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Tradeoff Observations"
+        },
+        {
+            "text": "Following the insights in the last section, we developed a lightweight software mechanism called pattern-aware staging that dynamically detects access patterns and decides on the fly whether to apply data staging or not. Figure 6 shows the overview with block diagrams. By a statical source-to-source transformation, the following functionalities are augmented into the original code as well as the staging: sampling the access sequence for a chunk just before executing the task, characterizing the pattern, and then using this information to make a decision on whether we use the staging or not, i.e., we make a pattern-aware decision. The time and memory overhead of this analysis part has to be small enough in order for this scheme to be effective. We achieve this by (1) limiting the number of samples obtained, (2) parallelizing the sampling across multiple threads, and (3) using a filter-based efficient pattern-analysis, as described below. We perform this analysis at runtime as it is both more convenient for the user and more flexible to adapt to varying application behavior such as input dependencies than performing a static, offline based pattern-analysis. Consequently, no profile from a previous run is needed for the application of our method. Figure 7 describes the concepts behind our pattern analysis component, which consists of three parts: sampling, characterization and decision. Each Sampling Thread in the figure acquires a part of the address sequence and analyzes the pattern at runtime. For this we use two separate detectors in the form of (Bloom) filters-a Page Address Filter (PAF) and a Stride Filter (SF)-as indicators. These filters keep the recent history of inputs (page-addresses/access-strides) and can thereby provide an answer on whether an input page-address/accessstride exists in the recent access history or not. A low hit rate in the PAF indicates low data locality, and thus a sparse access pattern. Additionally, a low hit rate in the SF indicates that accesses are irregular . More specifically, when accesses are more regular, the number of different access strides detected in the SF decreases and hence hits in the SF increase. For example, for an access pattern with only one constant stride, the SF only has one entry and shows a hit for all access except for the initial one.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 221,
+                    "end": 229,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1264,
+                    "end": 1272,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Pattern-Aware Staging"
+        },
+        {
+            "text": "After completing the sampling, we collect the hit/miss records of these two filters using a reduction operation and with that complete the characterization part. Based on the obtained statistics, we then make a decision based on the following observation: if the accesses are sparse and irregular, the task is likely to take much longer time than the copy and thus the performance boost brought by data staging will be larger and hence worthwhile. ) can be divided into chunks, and the outermost for loop then selects one of them turn by turn. The 3rd line in the figure shows our newly introduced directive to specify the target array to apply our technique to. Here, we assume the following scenario: when a compiler comes across this directive, it automatically attempts to transform this original code into the pattern-aware staging code in Fig. 9 and 10 for the target array. Although the transformation is performed by hand in this paper, as in previous studies on compiler-based pre-execution or helper thread prefetching [19, 25] , this can be automated using, e.g., a sourceto-source compiler [24, 30] , similar to previous software-based data management studies [22, 28, 31] .",
+            "cite_spans": [
+                {
+                    "start": 1029,
+                    "end": 1033,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1034,
+                    "end": 1037,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1102,
+                    "end": 1106,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1107,
+                    "end": 1110,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1172,
+                    "end": 1176,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1177,
+                    "end": 1180,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1181,
+                    "end": 1184,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 845,
+                    "end": 851,
+                    "text": "Fig. 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Pattern-Aware Staging"
+        },
+        {
+            "text": "Next, we describe the sampling thread code 3 in Fig. 9 . This code can be considered a modified version of the inner two loops of Fig. 8 . The 6th line, commented-out in Fig. 9 , shows the original helper threading approach.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 48,
+                    "end": 54,
+                    "text": "Fig. 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 130,
+                    "end": 136,
+                    "text": "Fig. 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 170,
+                    "end": 176,
+                    "text": "Fig. 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Pattern-Aware Staging"
+        },
+        {
+            "text": ", which is achieved by distilling the codes to execute only the address generation paths [19, 22, 25, 31] . Similar to this, our sampling mechanism just obtains the same address and utilizes it as an input for the filters (PAF and SF). Note that, if the array is accessed multiple times in the loop (e.g., unrolled loop), we add the filter input and increment the sample count accordingly. When the total number of sampled addresses exceeds a given threshold, we abort the loops and collect the statistics. Putting it all together, this sampling code is inlined at the 3rd line in Fig. 10 , just before the decision making function decision making(args). While this direct inlining of the code could be optimized by spawning separate sampling threads and overlapping them with the main threads, we decided to avoid this extra complexity due to the negligible sampling and characterization overhead shown in Fig. 13 (Sect. 4.3 ).",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 94,
+                    "end": 97,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 98,
+                    "end": 101,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 102,
+                    "end": 105,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 581,
+                    "end": 588,
+                    "text": "Fig. 10",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 907,
+                    "end": 925,
+                    "text": "Fig. 13 (Sect. 4.3",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Instead of calculating A[i][(j*I[k])%L] += 1, it prefetches data using the address (&A[i][(j*I[k])%L])"
+        },
+        {
+            "text": "We characterize the sampled address sequence in terms of sparseness and regularity using the PAF/SF as described in Sect. 3. To realize this, these filters have to be efficient in memory and time overheads. For this reason we turn to Bloom filters, as they fulfill the requirements, as laid out below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Access Characterization"
+        },
+        {
+            "text": "The Filter Mechanism. We assume each filter has three functionalities: T est(), Set(), and Clear as shown in Fig. 11 . First, the Clear function is used to initialize/reset the contents of the filter. For each access, we use the T est() function to examine whether an incoming element x (page-address/stride for PAF/SF, respectively) is recorded in the filter or not. If it returns a hit, then the corresponding hit counter is incremented, otherwise the miss counter is incremented and Set() is called to register x in the filter to detect future accesses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 109,
+                    "end": 116,
+                    "text": "Fig. 11",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Access Characterization"
+        },
+        {
+            "text": "Bloom Filter Based Implementation. To implement PAF and SF, we utilize Bloom filter, which is a probabilistic data structure that can record a large set of elements with a small memory footprint [4] . Figure 12 shows their principle structure: it consists of a bit array, which stores the elements in the filter, and multiple hash functions, each of which returns an index to the bit array. At first, all of the bits are set to zero. Then, to register input elements (e.g., in our case page-addresses/strides for PAF/SF), we can use the Set() function to identify the bits associated with the input using the hash functions and then set them to one. We use the T est() function to extract the bits associated with an input element using an AND operation on the bits pointed to by the hash functions: it should return a hit (1) if an element was recorded before, otherwise a miss (0).",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 198,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 201,
+                    "end": 210,
+                    "text": "Figure 12",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Access Characterization"
+        },
+        {
+            "text": "In the figure, T est(x) returns a hit because x was already registered (True Positive). The output of T est(z) is a miss, as z has not appeared, yet, at this point (True Negative). However, due to the hash collisions, T est(w) can return also a wrong answer: a hit for a non-registered element w (False Positive). Small numbers of false positives do not have a significant impact, but to avoid too frequent false positives, the size of the bit array must be chosen large enough. Thus, the memory overhead and the false positive probability are an important trade-off, which is further influenced by picking the right hash functions. Further, after recording a certain amount of records, the Clear function must be used to re-initialize the filter contents; otherwise the filter can be filled with positive values and always return hits.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Access Characterization"
+        },
+        {
+            "text": "We evaluate the overhead/effectiveness of our sampling and characterization approach using access patterns for various sparse matrices. The matrices are collected from the Florida sparse matrix collection [10] and are listed in Table 2 .",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 228,
+                    "end": 235,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Quantitative Analysis"
+        },
+        {
+            "text": "Assuming SpMV with CRS format [2] , we use the column indices of each matrix as an index array to a vector and analyze the access patterns with using our sampling and characterization approach. For this evaluation, we use our hybrid memory system whose detailed configuration is shown in Sect. 6. The configurations for our sampling phase and the filters are summarized in Table 1 . Figure 13 compares the time overhead between 1 or 8 GB copy operations (T 1st + T 3rd ) and our sampling and characterization approach. The X-axis indicates the sampled addresses for both PAF and SF in each thread, while the Y-axis represents the time overhead. For the sampling and characterization overhead, each value shows the average time with the standard deviation across workloads. As shown in the figure, when we limit the number of sampled addresses to less than 8 K per thread, the overhead of our approach becomes quite small (less than 1%) compared with the few GB of round-trip copy operations. In particular, it takes just 0.025% of time compared with a 8 GB copy at 1K samples. Figure 14 shows how many sampled addresses are needed to obtain accurate enough PAF/SF hit rates. The X-axis shows the number of sampled addresses per thread, while the Y-axis represents the PAF/SF hit rates. Each line in the figure is associated with one of the matrices listed in Table 2 . As the graph shows, the PAF/SF hit rates are almost constant when we sample more than 2 K/1 K addresses per thread. Based on this result, we limit ourselves to 2 K/1 K addresses per thread for the PAF/SF. The time overhead of this is less than 0.040% compared to the 8 GB copy operations, as shown in Fig. 13 . Figure 15 presents the PAF/SF hit rates as a function of the filter size. We scale the filter size from 64 B to 512 B (512 bit to 4096 bit) per thread while fixing the maximum number of filter inputs as 256. As shown in the figure, as the filter size scales, the PAF/SF hit rates become smaller, i.e., fewer false positive happen. However, they are almost constant when the size is larger than 256 B. Based on this result, we choose 256 B for both PAF and SF.",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 33,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 373,
+                    "end": 380,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 383,
+                    "end": 392,
+                    "text": "Figure 13",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1077,
+                    "end": 1086,
+                    "text": "Figure 14",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1359,
+                    "end": 1366,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1670,
+                    "end": 1677,
+                    "text": "Fig. 13",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1680,
+                    "end": 1689,
+                    "text": "Figure 15",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Quantitative Analysis"
+        },
+        {
+            "text": "Finally, Fig. 16 and 17 demonstrate how well our Bloom filter based detectors can represent the sparseness/regularity of memory accesses. In this evaluation, we examine a synthetic memory access code, in which the address of ith memory reference (Addr i ) is defined as follows: Addr i = Addr i\u22121 + \u03bc + URAND(\u2212\u0394, \u0394) (i > 0). Namely, \u03bc is the average stride of the accesses, which determines the sparseness, while URAND(\u2212\u0394, \u0394) is a random noise following a uniform distribution ranging from \u2212\u0394 to \u0394, thus affects the regularity. As shown in those figures, each filter is effective to sense the associated access feature. Figure 18 illustrates the overview of our strategy: on the R paf -R sf plane (PAF/SF hit rates), we consider the Break Even Line (BEL)-at any points on the line, the time reduction gained in the second stage (T boost ) is equal to the copy overhead time (T copy ). If the pattern feature vector (R paf , R sf ) is mapped below the BEL on the plane, we can achieve speed-up with the staging, otherwise not. The BEL is formulated as follows: T boost (R paf , R sf , P ) \u2212 T copy (P ) = 0.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 9,
+                    "end": 16,
+                    "text": "Fig. 16",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 620,
+                    "end": 629,
+                    "text": "Figure 18",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Quantitative Analysis"
+        },
+        {
+            "text": "In addition to the pattern features, this function also utilizes additional input parameters (denoted through the set P = {R write , R util , P else }), which help fine tune the shape of the BEL. The definitions of these parameters are listed in Table 3 . T boost () (the performance gain) will be shorter if the chunk is less utilized (R util is smaller), and it will also depend on the read/write access rate as read/write bandwidths are different in various memory systems. Furthermore, T 1st /T 3rd in T copy () can be skipped if the chunk is read-or write-only (R write =0 or 1) as described in Sect. 2.2. These parameters can be collected at such as the code transformation time 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 246,
+                    "end": 253,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Quantitative Analysis"
+        },
+        {
+            "text": "First, we formulate T copy () [s/GB] as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "In the equation, B 1st /B 3rd and T 1st /T 3rd represent the copy bandwidth and the time per GB of the first/third stages, respectively (see also Sect. 2.2). Here, \u03b1 = 0/\u03b2 = 0 stands when the write-/read-only case (namely, R write = 1/0), otherwise we set \u03b1 = 1/\u03b2 = 1, respectively. Note that T copy () does not depend on R paf , R sf , R util , or others as it has nothing to do with how the chunk is accessed during the task except for R write .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "Second, we define T boost () [s/GB] (time per chunk size) as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "Here, we divide T boost () into memory access pattern (or types) dependent/independent parts. T boost () is a pattern dependent function, which can be regarded as the special case of T boost (), namely when S() = 1 stands. S() is a scaling factor, which is independent of the access pattern/types. In this paper, we utilize S(R util , P else ) = R util assuming that a task takes N times longer when the access sequence also becomes N times longer with the same access pattern/types, which is generally the case. Further extensions of S() will be discussed in Sect. 8. Then, we utilize the following linear approximation:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "We determine the coefficients (C i ) by testing the following three patterns on each memory (fast/large) for a fixed R write : (1) random accesses on a large enough array (R paf 0, R sf 0), (2) accesses with a long enough stride (R paf 0, R sf 1), and (3) sequential streaming accesses (R paf 1, R sf 1). By acquiring T boost () with measurements for these patterns (here put as T rand , T strd , and T seq ) and solving the given linear equations, we can gain C i for a fixed R write .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "We decide on whether to stage or not, based on these functions, combined with a threshold T th . More specifically, we apply the staging if the following condition holds:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "T boost (R paf , R sf , P ) \u2212 Tcopy(P ) > T th (4) When T th is set lower/higher, the staging is applied more aggressively/conservatively, respectively. We assume the parameter is predetermined, but as an option, this should also be controllable by users depending on their confidence.",
+            "cite_spans": [
+                {
+                    "start": 47,
+                    "end": 50,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Decision Criterium"
+        },
+        {
+            "text": "We evaluate the accuracy of our staging criteria using synthetic workloads. The system/coefficients setups will be described in Sect. 6, and the sampling thread settings are based on the evaluation in Sect. 4.3. We apply our staging technique to the source vectors in SpMV operations (CRS format) whose matrices are listed in Table 2 in Sect. 4.3. In this evaluation, we utilize multiple vectors and organize a chunk by using consecutive vectors. The number of vectors is set so that the total data size becomes around 90 GB. Also, we scale the number of rows of the matrices from 1 to 1/32 to change the chunk utilization (R util ). Figure 19 demonstrates the performance impact of false decisions. The horizontal axis represents workload number, while the vertical axis indicates relative performance, which is normalized to that of Large Mem Only (the pure large memory only solution). The workloads appear in the left side of the figure have smaller R util but higher R sf and R paf -chunks are less utilized and more regularly accessed with higher locality. In this graph, the threshold parameter T th , which is a preferable feature for our approach. This is because (1) our approach basically compares T boost and T copy , which is equal to comparing the performance of Always Staging and Large Mem Only as |T boost \u2212 T copy | = |(T 1st + T 2nd + T 3rd ) \u2212 T base | (see also Sect. 2.2); and thus (2) this comparison becomes more error tolerant when the performance difference of the two approaches becomes larger. Figure 20 shows the breakdown of decision types as a function of T th /T copy (T th : the threshold parameter used in decisions). In the figure, \"True\" means the decision is correct, and \"Positive\" represents the staging is conducted-the equation T boost ()\u2212T copy () > T th is expected to stand. As shown in the figure, 79% of the decisions are correct (\"True Positive/Negative\") at T th /T copy = 0. We can trade-off \"False Positive\" and \"False Negative\" by changing the threshold T th . According to the figure, scaling T th /T copy from 0 to 1 has no significant impact on the decision accuracy, allowing users to freely choose the right tradeoff. To balance false positives/negatives, we choose 0.5 in Sect. 6 and 7. Table 4 summarizes the environment for our experiments. We utilize a KNLbased system whose nodes provide a hybrid memory system [17] . The fast memory in the system supports both software-based scratch pad mode (Flat) and hardware-based data management (Cache), and we choose the former for our approach. The operating system used for the evaluation is Cent OS 7 and we use Intel C/C++ compiler (ICC) with the listed options. The sampling thread settings are based on the evaluation in Sect. 4.3, and the threshold parameter T th /T copy is set to 0.5. Through this evaluation we set the number of threads to 256 for all of the applications. In our implementation, a 16 GB buffer is allocated to the fast memory using the memkind library [7] , which is designed to use different kinds of memories in a node.",
+            "cite_spans": [
+                {
+                    "start": 2372,
+                    "end": 2376,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2982,
+                    "end": 2985,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 326,
+                    "end": 333,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 634,
+                    "end": 643,
+                    "text": "Figure 19",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1522,
+                    "end": 1531,
+                    "text": "Figure 20",
+                    "ref_id": null
+                },
+                {
+                    "start": 2244,
+                    "end": 2251,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Accuracy Analysis"
+        },
+        {
+            "text": "Before applying our approach, we have to correctly set the coefficients described in Sect. 5.1: T 1st , T 3rd , T rand , T strd and T seq . Here, we summarize how to acquire them. First, to obtain T rand , T strd and T seq for a given R write , we measure the bandwidth of the following tasks on both fast and large memories: (1) 1G times random accesses on an 8 GB array, (2) 2 M times stride accesses on 8 GB array (4 K + B stride) and (3) a streaming task on 8 GB array. In this paper, the measurements are performed for R write = {0, 0.5, 1} by changing the rate of load/store operations in the main loop of the test tasks. Second, to determine T 1st and T 3rd , we just measure the copy bandwidth between the memories.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coefficients Calibration"
+        },
+        {
+            "text": "Our proposal is implemented manually in each application, following the example of various published studies of software-based data management [19, 25] . In this evaluation, to represent widely used kernels for a range of applications especially in scientific computing, we choose various benchmarks from HPC Challenge (HPCC), NAS Parallel Benchmarks (NPB), and also use stencil codes (Jacobi2D/3D). The followings are the details:",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implementation and Workloads"
+        },
+        {
+            "text": "This application randomly updates a big table. We repeat the main update loop multiple times, and, in the loop, we filter the update accesses: only the accesses to a target area (chunk) pass the filter [14] . By doing so, we can restrain the accesses within the buffer in the fast memory and, at the same time, can conduct all the update accesses. Note that we apply this to all methods that we compare. In this evaluation, the total table size and the chunk size are set to 64 GB and 16 GB, respectively.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 206,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RandomAccess (HPCC):"
+        },
+        {
+            "text": "This application transposes a matrix and adds it to another (T + = A T ). These matrices are dividable into sub-matrices (chunks), and we apply our technique to the source matrix A, which is accessed with a long stride. In this evaluation, the total size of the matrices, and the chunk size are 96 GB (=48 GB \u00d7 2) and 16 GB, respectively Compiler ICC 19.0, options: -O3, -qopenmp, -lmemkind, -xMIC-AVX512",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PTRANS (HPCC):"
+        },
+        {
+            "text": "This workload calculates one dimensional FFT using two 32 GB arrays: input and output array. We apply our staging technique to the output array by dividing it into 4 GB \u00d7 8 chunks. Through the evaluation, a temporal array is located at the fast memory.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FFT (HPCC):"
+        },
+        {
+            "text": "In this workload, a simple vector operation dst = src is performed, and we applied our method to the destination vector dst. In the evaluation, the total data size is around 96 GB, and the chunk size is 16 GB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "STREAM (HPCC):"
+        },
+        {
+            "text": "Jacobi2D/3D: We utilize 5/7-point 2D/3D Jacobi stencil codes. In these codes, we keep the results of all time steps to different arrays (= chunks). We apply our technique to the source array, which is heavily loaded in the stencil operations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "STREAM (HPCC):"
+        },
+        {
+            "text": "In this evaluation, the chunk size is set to 8 GB (the array size for one time step), and the total data size is 80 GB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "STREAM (HPCC):"
+        },
+        {
+            "text": "This workload sorts an integer array by counting the distribution of the elements (bucket sort). Our approach is applied to the array of the distribution (16 GB = the chunk size). The total data size is around 64 GB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IntegerSort (NPB):"
+        },
+        {
+            "text": "In this kernel, we focus on the iterative SpMV operations, as it is the major performance bottleneck. We apply our technique to the source vector for the SpMV operations whose size is 2 GB (= the chunk size). The total data size is 90 GB, which includes multiple different vectors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ConjugateGradient(NPB):"
+        },
+        {
+            "text": "For the above workloads, we compare the performance of the following methods: LO: The execution with the Large memory Only (baseline). NP: The execution with a N umactl command with Preferred option, which preferentially stores data on the fast memory [17] . HC: The fast memory works as a direct mapped H ardware C ache [17] .",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Compared Methods"
+        },
+        {
+            "text": "The execution with our Pattern-aware S taging. Figure 21 compares the performance among the methods across all applications. The vertical axis indicates relative performance that is normalized to LO for each application. GeometricMean in the figure shows the geometric mean of performance across all the workloads for each method. Our method (PS ) achieves a factor of three performance improvement over LO at the best case and on average, it improves performance by a factor of 1.9. As the data management policy of NP is naive, it does not improve performance except for STREAM. Compared to hardware cache (HC ), our approach has the following benefits: (1) ours purposely puts the useful chunk of data on the fast memory based on the pattern-analysis thus can avoid unnecessary allocations/conflicts on it; (2) ours can fully utilize the hardware resources of the fast memory, but the hardware cache wastes the available bandwidth/storage due to the hardware overheads such as tags. Thanks to these characteristics, our PS outperforms HC for almost all workloads in this evaluation (up to 41%). Figure 22 demonstrates the memory access traffic (or bandwidth consumption) on the two different memories. The measurement was accomplished through Intel PCM, a well-known performance monitoring tool. Although our approach increases the data traffic compared with LO/NP due to the additional data transfer between the memories, it reduces 36% of the traffic compared with HC on average. This is because HC induces unnecessary data conflicts on the fast memory, while ours not as described later. This traffic reduction will lead to a considerable power reduction on the memory system as a consequence.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 47,
+                    "end": 56,
+                    "text": "Figure 21",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1098,
+                    "end": 1107,
+                    "text": "Figure 22",
+                    "ref_id": null
+                }
+            ],
+            "section": "PS:"
+        },
+        {
+            "text": "One exception in Fig. 21 is ConjugateGradient (the hardware cache works better than ours), and we can see the reason in Fig. 23 : in the figure, the X-axis represents the total data size, while the Y-axis indicates the relative performance normalized to LO at 16 GB. When the data footprint size is small enough, the hardware cache approach can keep almost all the useful data on the fast memory, thus it works well. However, as we scale the data size, more conflicts happen on the fast memory, which degrades performance significantly. In contrast to this, ours can explicitly hold the useful data without conflicts on the fast memory no matter how much we scale the total footprint. Therefore, if we would scale the data size more (over 96 GB, the capacity limitation in our system), ours would work better than the hardware cache for this workload.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 17,
+                    "end": 24,
+                    "text": "Fig. 21",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 120,
+                    "end": 127,
+                    "text": "Fig. 23",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Experimental Result"
+        },
+        {
+            "text": "Finally, we summarize the statistics of our approach in Table 5 . The pattern features (R paf , R sf ) are taken from our sampling technique, while the other . 24 . Performance/overhead comparison parameters (R util , R write ) are acquired by manually counting the number of load/store instructions to the target array in the target loop. As for the decision makings, if T boost \u2212T copy \u2212T th is greater than zero, which is equal to T boost /T copy \u2212 1.5 > 0 in our T th setting, we use the staging technique; otherwise not (see also Eq. (4) in Sect. 5.1). From this point of view, as long as the signs of the estimated T boost /T copy \u22121.5 and the measured T boost /T copy \u22121 are the same, our approach is correct, and our approach is correct for all the workloads. Note that by adjusting T th based on the observation in Sect. 5.2, our approach successfully avoids slow down for STREAM unlike HC.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 56,
+                    "end": 63,
+                    "text": "Table 5",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 158,
+                    "end": 162,
+                    "text": ". 24",
+                    "ref_id": null
+                }
+            ],
+            "section": "Experimental Result"
+        },
+        {
+            "text": "Applicability of the Approach: The most significant restriction to apply our approach to a kernel is that the data structure of a potential target array has to be transformable into a multi-dimensional array form (e.g., into a matrix or SoA). Note that several access optimization approaches, such as multi-pass gather/scatter [14] , are useful to meet this requirement. For multi-dimensional arrays, we can choose a chunk by designating the indices for the higher dimensions, and at the same time, we can ensure the size of the chunk and the area of the accesses. After copying the chunk to the fast memory, the pointer to the data is replaced to go to the fast memory, while the remaining data stays in the large memory. With this, any complicated access pattern that includes accesses to both inside/outside of the chunked area are handled correctly, but the performance gain will be less if too many accesses don't hit the target chunk. We assume the indices to choose the target chunk are manually assigned by the programmer just before the target loop by using a specific function to set them. However, it is not always easy for the programmer to set the right indices. One promising option to cope with this issue is providing a functionality to automatically choose the chunk that is most likely to be intensively accessed. We can support this option by extending our sampling and characterization approach to include additional filters to store the indices.",
+            "cite_spans": [
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussions"
+        },
+        {
+            "text": "Our approach is applicable regardless of the number of arrays the target kernel accesses. In this work, we assume the programmer chooses one array by designating the variable in the directive shown in Fig. 8 , and then the compiler generates a distilled version of the code that executes only the address generation path for the target while ignoring the others, which relies on the prior helper threading works [19, 22, 25, 31] . However, our approach is extensible to multiple arrays: (1) listing them in the directive; (2) creating the address generation paths for all the targets; and (3) storing the addresses in their own unique filters separately. To this end, the decision making part needs several modifications (in both the decision function and the control structure after it).",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 416,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 417,
+                    "end": 420,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 421,
+                    "end": 424,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 425,
+                    "end": 428,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 201,
+                    "end": 207,
+                    "text": "Fig. 8",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussions"
+        },
+        {
+            "text": "When multiple different array/pointer variables are used in a kernel, pointer aliasing can potentially happen, i.e., different variables point to the same memory. Namely, even if a chunk is moved to the fast memory for a variable, another pointer may point to the old data stored on the large memory. One option to cope with this is applying our technique only when the programmer specifies that they are free from the aliasing by putting a keyword like restrict supported in C99. Such a keyword is widely utilized to allow compilers aggressive optimizations, and our approach can be considered one of them in a broad view.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussions"
+        },
+        {
+            "text": "Pipelining is a well-known technique to hide the communication latency between components/nodes by overlapping computation and data transfer [28] . In our case, the second stage for one chunk and the first/third copy stages of other chunks can be overlapped (see also Sect. 2). However, we purposely do not consider this optimization in our approach due to significant hardware contention on the fast memory, as all of the stages access it intensively for memory intensive tasks.",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Overlapping and Pipelining:"
+        },
+        {
+            "text": "We quantify the impact of the contention using the same environment and workloads as in Sect. 2.3, which clarifies that the performance benefit of overlapping is limited or even harmful (Fig. 24 ) 5 . This is due to the following reasons: the overlapping does not reduce the amount of traffic on the memory subsystem; 5 * For \"Staging w/ Overlap\", we refer to the contention overhead as C \u00d7 Tcopy, i.e., this approach is beneficial only when both C < 1 and T boost > CTcopy stand, which is not the case in the figure: neither (a) nor (b) . * \"Ideal\" or \"Staging w/o Overlap\" are executed by 64 threads, while for \"Staging w/ Overlap\", additional 64 copy threads also run in parallel and are distributed to all 64 cores to balance the loads. The contention in core resources does not matter as the memory is the bottleneck.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 186,
+                    "end": 194,
+                    "text": "(Fig. 24",
+                    "ref_id": null
+                },
+                {
+                    "start": 510,
+                    "end": 537,
+                    "text": "figure: neither (a) nor (b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Overlapping and Pipelining:"
+        },
+        {
+            "text": "it can cause more conflicts on the memory resources (e.g., at row buffers [38] ) for case (a) ; and the copy time is too large to hide for case (b).",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 78,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Overlapping and Pipelining:"
+        },
+        {
+            "text": "In our evaluation, when applying our technique, we utilized the fast memory as a scratchpad region instead of a hardware cache. This is because the major benefit of our technique is selectively allocating a useful chunk on the fast memory, which should be conflict free, but the cache mode evicts data placed on the fast memory by automatically allocating the others (even more so for larger data, as demonstrated in Fig. 23 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 417,
+                    "end": 424,
+                    "text": "Fig. 23",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Interaction with Hardware Caching:"
+        },
+        {
+            "text": "Our methodology is applicable to any hybrid memory systems including the configuration of DRAM+NVRAM [16, 38] . This is because ours is based on the fundamental architectural principle: memories are optimized and thus operate significantly faster for sequential accesses [5, 16, 20, 33, 38] regardless of the memory cell implementation. Based on the above, our decision criterion estimates the impact of access pattern/types using several system-dependent coefficients. Thus, what we have to do when applying ours to different platforms is just updating the coefficients, i.e., the calibration process performed in Sect. 6.1, which is needed only once for a system.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 271,
+                    "end": 274,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 275,
+                    "end": 278,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 279,
+                    "end": 282,
+                    "text": "20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 283,
+                    "end": 286,
+                    "text": "33,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 287,
+                    "end": 290,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application to Other Platforms:"
+        },
+        {
+            "text": "Automation: Although we quantify the effectiveness of our proposal, some parts, such as the sampling and the staging, are hand coded. In future work, we will automate them in the compilers/runtime tool chain such as LLVM [24] or the ROSE compiler [30] , similar to previous software-based data management studies [22, 28, 31] . For this automation, our approach needs to obtain some parameters (P ) at the code generation time or by using augmented codes at runtime as described in Sect. 5 (see the footnote). As for the staging part, existing compiler techniques to apply pipelining to CPU-GPU systems will be useful [28] .",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 225,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 247,
+                    "end": 251,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 313,
+                    "end": 317,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 618,
+                    "end": 622,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application to Other Platforms:"
+        },
+        {
+            "text": "In addition, acquiring more parameters (P else ) at compilation or runtime and updating the scaling function S() accordingly is a promising direction to cover more aspects in the decision making. One example for this is counting floating operations and memory access instructions in the target loops, calculating the arithmetic intensity based on the results, and tuning S() following our existing models.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Application to Other Platforms:"
+        },
+        {
+            "text": "Since hybrid memory systems have become a significant design choice recently, various software-based data placement techniques for them have been proposed. Due to their limited availabilities, we couldn't compare our approach with them quantitatively in the evaluation. However, our technique qualitatively has the following uniqueness/benefit compared with them: (1) ours does not require any application profiles; and thus (2) ours can detect the pattern of both inputdependent/independent memory accesses well, while the others cannot. Especially, when the pattern heavily depends on the input such as the problem set-tings, which is often the case for the scientific computing, our runtime pattern analysis approach becomes essential. Data Tiering API provides a memory allocation interface that optimizes the page allocations automatically, but the decisions are based on the application statistics that depend on the inputs [13] . Unimem API provides a similar memory allocation interface and optimizes the placements at the granularity of data objects. However, it does not target the chunking except for sequential accesses [36] . A prior study proposed a compiler-based technique that attempts to optimize the initial data allocations, but it does not handle the data transfer and relies on a statical analysis [21] . Some runtime-based approaches target different programming model, such as task parallel programming [1, 37] , which is out of our scope. Other studies focus on application specific solutions [6, 27] , but ours aims at covering general applications. OS/HW-level page managements have been widely studied for hybrid memory systems, but they require hardware modifications [11, 38] . A recently proposed page scheduler does not require such hardware, but needs a large number of profiles to work [12] .",
+            "cite_spans": [
+                {
+                    "start": 930,
+                    "end": 934,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1132,
+                    "end": 1136,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1320,
+                    "end": 1324,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1427,
+                    "end": 1430,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1431,
+                    "end": 1434,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1518,
+                    "end": 1521,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1522,
+                    "end": 1525,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1697,
+                    "end": 1701,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1702,
+                    "end": 1705,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1820,
+                    "end": 1824,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related Work"
+        },
+        {
+            "text": "This paper proposed and made a case for a software-based data management technique called patten-aware staging to exploit both the high performance and the large capacity components of hybrid main memory systems. Our technique dynamically examines the pattern of memory accesses and, in case of irregular/sparse patterns, fetches chunks of data from large memories to fast memories, just before they are referenced. The experimental results using scientific codes on a real system show that our approach enables 300% improvements compared to using only large memory and still 41% compared to hardware caching.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Runtime-guided management of stacked DRAM memories in task parallel programs",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Alvarez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ICS",
+            "volume": "",
+            "issn": "",
+            "pages": "218--228",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Implementing sparse matrix-vector multiplication on throughputoriented processors",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "SC, pp",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A performance model to execute workflows on high-bandwidthmemory architectures",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Benoit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ICPP, pp",
+            "volume": "36",
+            "issn": "10",
+            "pages": "1--36",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Space/time trade-offs in hash coding with allowable errors",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bloom",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Commun. ACM",
+            "volume": "13",
+            "issn": "7",
+            "pages": "422--426",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A study of interleaved memory systems",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burnett",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "AFIPS 1970 (Spring)",
+            "volume": "",
+            "issn": "",
+            "pages": "467--474",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Optimizing for KNL usage modes when data doesn't fit in MCDRAM",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Butcher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ICPP, pp",
+            "volume": "37",
+            "issn": "10",
+            "pages": "1--37",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "User Extensible Heap Manager for Heterogeneous Memory Platforms and Mixed Memory Policies",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cantalupo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Architecting an energy-efficient dram system for GPUs",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "HPCA",
+            "volume": "",
+            "issn": "",
+            "pages": "73--84",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Hybrid Memory Cube Specification 2.1. Last Revision",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "M C"
+                    ],
+                    "last": "Consortium",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The university of Florida sparse matrix collection",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "ACM TOMS",
+            "volume": "38",
+            "issn": "1",
+            "pages": "1--1",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "PDRAM: a Hybrid PRAM and DRAM main memory system",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dhiman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "664--669",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Kleio: a hybrid memory page scheduler with machine intelligence",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Doudali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "HPDC",
+            "volume": "",
+            "issn": "",
+            "pages": "37--48",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Data tiering in heterogeneous memory systems",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Dulloor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Efficient gather and scatter operations on graphics processors",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "SC",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Intel: Intel R Agilex TM FPGA Advanced Information Brief: (Device Overview). INTEL",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Basic performance measurements of the intel Optane DC persistent memory module",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Izraelevitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1903.05714"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Intel Xeon Phi Processor High Performance Programming: Knights, Landing edn",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jeffers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "HBM (High Bandwidth Memory) for 2.5D. SEMICON Taiwan",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Inter-core prefetching for multicore processors using migrating helper threads",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kamruzzaman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "393--404",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Minimalist open-page: a DRAM page-mode scheduling policy for the many-core era",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kaseridis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "24--35",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Towards automatic HBM allocation using LLVM: a case study with knights landing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Khaldi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "LLVM-HPC 2016",
+            "volume": "",
+            "issn": "",
+            "pages": "12--20",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Physical Experimentation with Prefetching Helper Threads on Intel's Hyper-Threaded Processors. In: CGO, p",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "HBM: memory solution for bandwidth-hungry processors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Hot Chips 26 Symposium (HCS)",
+            "volume": "",
+            "issn": "",
+            "pages": "1--24",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "LLVM: a compilation framework for lifelong program analysis & transformation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lattner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "CGO",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Prefetching with helper threads for loosely coupled multiprocessor systems",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "IEEE TPDS",
+            "volume": "20",
+            "issn": "9",
+            "pages": "1309--1324",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "From FLOPS to BYTES: disruptive change in highperformance computing towards the post-moore eera",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsuoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "274--281",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "StreamBox-HBM: stream analytics on high bandwidth hybrid memory",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Miao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "167--181",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "BigKernel -high performance CPU-GPU communication pipelining for big data-style applications",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mokhtari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "IPDPS",
+            "volume": "",
+            "issn": "",
+            "pages": "819--828",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Research problems and opportunities in memory systems",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Mutlu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "SUPERFRI",
+            "volume": "1",
+            "issn": "3",
+            "pages": "19--55",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "ROSE: compiler support for object-oriented frameworks",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Quinlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Parallel Process. Lett",
+            "volume": "10",
+            "issn": "02n03",
+            "pages": "215--226",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Design and implementation of a compiler framework for helper threading on multi-core processors",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "PACT",
+            "volume": "",
+            "issn": "",
+            "pages": "99--109",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Pinned to the walls: impact of packaging and application properties on the memory and power walls",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stanley-Marbell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "ISLPED",
+            "volume": "",
+            "issn": "",
+            "pages": "51--56",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Improving bank-level parallelism for irregular applications",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Opportunities for nonvolatile memory systems in extreme-scale high-performance computing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vetter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Comput. Sci. Eng",
+            "volume": "17",
+            "issn": "2",
+            "pages": "73--82",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Design and analysis of an APU for exascale computing",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vijayaraghavan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "HPCA",
+            "volume": "",
+            "issn": "",
+            "pages": "85--96",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "UNIMEM: runtime data management on non-volatile memory-based heterogeneous main memory",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "58",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Runtime data management on non-volatile memory-based heterogeneous memory for task-parallel programs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Row buffer locality aware caching policies for hybrid memories",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "337--344",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Concept of our staging technique Fig. 2. Target architecture",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Overview of staging Fig. 4. Performance boost Fig. 5. Copy overhead",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Block diagram for Pattern-Aware Staging",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Overall strategy of pattern analysis",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Sampling thread code for ( i =0; i<num chunks ; i ++){ // p r o c e s s i n g i t h chunk [Put the sampling thread code here (inline)] i f ( decision making ( a r g s ) ) { [ code with s t a g i n g ] } e l s e { [ code without s t a g i n g ] } } Patternrepresents a sample pseudo code to apply our pattern-aware staging technique 2 . In this figure, the two-dimensional array (A[num chunks][L]",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Filter operations Fig. 12. Bloom filter mechanism",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Time overhead comparison Fig. 14. Hit rates v.s. # of sampling",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Hit rates v.s. filter size",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Hit rates vs. \u03bc (\u0394 = 0-fixed)Fig. 17. Hit rates vs. \u0394 (\u03bc = 1K-fixed)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Overview of decision making strategy",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Impact of false decisions Fig. 20. Correctness of decisions is set to 0. In the figure, Always Staging means the staging is always applied regardless of the access features. According to the figure, the false decisions (False Positive/Negative in the figure) occur more often when the performance impact of decision makings is less significant (Always Staging and Large Mem Only are closer)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Performance comparison among methods across applicationsFig. 22. Comparison of memory access traffic",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Sampling and filter settings",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Selected matrices",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Functions and parameters Time Functions/Parameter [s/GB] T boost () Speed-up gained in the second stage Tcopy() Time overhead of the copy operations",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Evaluation environment",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Statistics of our pattern-aware staging approach",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We are grateful to all the reviewers of ISC'20, CGO'20, ICS'19, and IPDPS'19 for their valuable suggestions. In particular, we would like to express our sincere gratitude to our shepherd in ISC'20 for helping us with completing this work. Also, we would like to thank folks in CAPS at TU Munich, ITC at U Tokyo, and CASC at LLNL for their helpful comments to carry out this study. This work is partly supported by JSPS Grant-in-Aid for Research Activity Start-up (JP16H06677), JSPS Grant-in-Aid for Early-Career Scientists (JP18K18021), and Research on Processor Architecture, Power Management, System Software and Numerical Libraries for the Post K Computer System of RIKEN.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments."
+        }
+    ]
+}

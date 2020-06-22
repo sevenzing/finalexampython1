@@ -1,0 +1,679 @@
+{
+    "paper_id": "6d19115a7ff62523eabe683d40f8e9a46224bd2c",
+    "metadata": {
+        "title": "Journal Pre-proof Treating COVID-19 with colchicine in community healthcare setting TITLE PAGE Treating COVID-19 with Colchicine in Community Healthcare Setting ARTICLE TYPE: Letter to the Editor",
+        "authors": [
+            {
+                "first": "Emanuel",
+                "middle": [],
+                "last": "Della-Torre",
+                "suffix": "",
+                "affiliation": {},
+                "email": "dellatorre.emanuel@hsr.it"
+            },
+            {
+                "first": "Fabrizio",
+                "middle": [],
+                "last": "Della-Torre",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Centro Medico Sant'Agostino",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Marija",
+                "middle": [],
+                "last": "Kusanovic",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ATS Milano Citt\u00e0 Metropolitana",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Raffaella",
+                "middle": [],
+                "last": "Scotti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRCCS San Raffaele Scientific Institute",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Giuseppe",
+                "middle": [],
+                "last": "Alvise-Ramirez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e0 Vita-Salute San Raffaele",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Lorenzo",
+                "middle": [],
+                "last": "Dagna",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e0 Vita-Salute San Raffaele",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Moreno",
+                "middle": [],
+                "last": "Tresoldi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "IRCCS San Raffaele Scientific Institute",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Authors",
+                "middle": [
+                    "Emanuel"
+                ],
+                "last": "Della-Torre",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e0 Vita-Salute San Raffaele",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Affiliations",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In late February 2020 the Lombardy region (Italy) was dramatically hit by a new infectious coronavirus disease (COVID-19) caused by the severe acute respiratory syndrome coronavirus-2 (Sars-CoV-2). COVID-19 is paucisymptomatic in the majority of patients but can lead to acute respiratory distress syndrome (ARDS) in up to 30% of cases and to death in 3 to 5% of cases [1] .",
+            "cite_spans": [
+                {
+                    "start": 369,
+                    "end": 372,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dear Editor,"
+        },
+        {
+            "text": "Accumulating evidence suggests that severe COVID-19 manifestations are sustained by a \"cytokine storm\" triggered by Sars-CoV-2 mediated inflammasome activation [2, 3] . Of note, this hyper-inflammatory state is typically preceded by 5 to 10 days of spiking fever that takes over mild influenza-like symptoms, suggesting that, after a first phase characterized by viral spread, COVID-19 might progress to an uncontrolled cytokine release syndrome [1] [2] [3] .",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 163,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 164,
+                    "end": 166,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 450,
+                    "end": 453,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 454,
+                    "end": 457,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dear Editor,"
+        },
+        {
+            "text": "COVID-19 was aggressively faced by the Italian healthcare authorities with restrictive containment measures but, despite that, Lombardy still records 11.337 deaths, 12.043 hospitalized individuals, and 1.073 critically ill patients at the time of writing [www.salute.gov.it]. Because these numbers exceed the maximum capacity of available intensive care units (ICU), patients are asked to stay at home until advanced respiratory impairment, thus increasing the lethality of COVID-19 [4] . In shortage of ICU beds, treating patients at risk of developing hyper-inflammatory ARDS in outpatient settings becomes, therefore, imperative in order to impact disease course and to relieve the pressure on hospitals' structures. Yet, in the absence of effective antiviral therapies and reliable predictors of negative disease progression, this neglected category of patients can rely only on supportive measures while awaiting for clinical deterioration and transportation to emergency departments.",
+            "cite_spans": [
+                {
+                    "start": 483,
+                    "end": 486,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dear Editor,"
+        },
+        {
+            "text": "We herein report the favourable outcome of 9 domiciliary consecutive COVID-19 patients treated with a loading dose of 1mg oral colchicine 12 hours apart followed by 1mg daily colchicine until third day of axillary temperature < 37.5\u00b0C. Colchicine was started after a median of 8 days (range 6-13) from COVID-19 onset and after 3 to 5 days of spiking fever despite acetaminophen or antibiotic treatment. As shown in Figure 1 , colchicine led to defervescence within 72 hours in all patients. Only one patient was hospitalized because of persisting dyspnea and discharged after four days of low-flow oxygen therapy. Colchicine was in general well tolerated. Two patients reported a mild diarrhea that did not interfere with the completion of the treatment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 415,
+                    "end": 423,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Colchicine is an alkaloid extracted from the autumn colchicum, an herbaceous plant belonging to the Liliaceae family. Its analgesic and anti-inflammatory properties has been known since ancient times, and colchicine is now approved to treat autoinflammatory conditions such as gout, familiar Mediterranean fever, and pericarditis [5] . In the present study, colchicine was used offlabel based on its capability to interfere with pathogenic mechanisms implicated in COVID-19 related hyper-inflammation, including inflammasome activation and cytokines release [2] [3] 5 ]. In addition, by interfering with the polymerization of microtubules, colchicine inhibits the chemotaxis of monocytes and neutrophils, cells that have been abundantly found in the lungs of COVID-19 patients [1] [2] [3] 6] . Our hypothesis-driven experience supports the use of colchicine in outpatient settings to intercept rampant \"cytokine storm\" in a subset of patients with hyperinflammatory phenotype clinically characterized by persistent high fever.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 333,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 558,
+                    "end": 561,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 562,
+                    "end": 565,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 566,
+                    "end": 567,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 777,
+                    "end": 780,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 781,
+                    "end": 784,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 785,
+                    "end": 788,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 789,
+                    "end": 791,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Notably, this population of patients is considered at high risk of progression to respiratory failure, and typically shows increased serum levels of the pro-inflammatory cytokines interleukin (IL)-1 and IL-6 [1] [2] [3] . Based on this evidence, patients hospitalized with severe COVID-19 are J o u r n a l P r e -p r o o f Journal Pre-proof currently being treated with anti-cytokine biologic drugs including the IL-1 receptor antagonist anakinra and the IL-6 receptor blockers tocilizumab and sarilumab [7] [8] [9] ]. Yet, although these targeted approaches have provided encouraging results in preliminary retrospective cohorts, they do not seem to induce a prompt recovery as optimistically expected, likely because administered at a later stage of the disease when irreversible organ damage is already established [7] [8] [9] .",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 211,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 212,
+                    "end": 215,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 216,
+                    "end": 219,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 505,
+                    "end": 508,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 509,
+                    "end": 512,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 513,
+                    "end": 516,
+                    "text": "[9]",
+                    "ref_id": null
+                },
+                {
+                    "start": 819,
+                    "end": 822,
+                    "text": "[7]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 823,
+                    "end": 826,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 827,
+                    "end": 830,
+                    "text": "[9]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Treating COVID-19 patients early in the rampant phase of systemic inflammation becomes, therefore, essential in order to prevent tissue damage caused by an uncontrolled \"cytokine storm\". In this regard, identifying the right therapeutic window where anti-inflammatory treatment might perform better is not a trivial concern since early colchicine administration could impair physiological immune response to Sars-CoV-2 while late administration might not be as effective on established ARDS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        },
+        {
+            "text": "Keeping into consideration the limitations of an uncontrolled case series, our study cohort represents the first describing the use of colchicine in COVID-19 on the territory. In a setting overwhelmed by COVID-19 and in shortage of ICU resources -as Lombardy was when hit by the pandemic -colchicine may allow relieving pressure on emergency departments and reducing hospitalizations. Large randomized controlled trials in both inpatient and outpatient settings will definitively confirm the utility of colchicine in the current and future COVID-19 outbreaks. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Journal Pre-proof"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "Dawei",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bo",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 pathophysiology: A review",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fujiogi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koutsogiannaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Immunol",
+            "volume": "215",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clim.2020.108427"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19: Immunology and treatment options",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Felsenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Herbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mcnamara",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hedrich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Immunol",
+            "volume": "215",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clim.2020.108448"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 and Italy: what next?",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Remuzzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Remuzzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1225--1228",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Colchicine as a new therapeutic option for antithyroid arthritis syndrome",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mancuso",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Boffini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dagna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rheumatology (Oxford)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Endothelial cell infection and endotheliitis in COVID-19",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Varga",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Flammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Steiger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haberecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Andermatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zinkernagel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mehra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Interleukin-1 blockade with high-dose anakinra in patients with COVID-19, acute respiratory distress syndrome, and hyperinflammation: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cavalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Luca",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Campochiaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Della-Torre",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ripa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Canetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Rheum",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.1016/S2665-9913(20)30127-2"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Efficacy and safety of tocilizumab in severe COVID-19 patients: a single-centre retrospective cohort study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Campochiaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Della-Torre",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cavalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Luca",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ripa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boffini",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Int Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Time-course of fever progression in patients treated with colchicine. J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

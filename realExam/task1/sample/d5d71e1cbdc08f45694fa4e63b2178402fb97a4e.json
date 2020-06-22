@@ -1,0 +1,571 @@
+{
+    "paper_id": "d5d71e1cbdc08f45694fa4e63b2178402fb97a4e",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The rapidly evolving global pandemic from the severe acute respiratory syndrome coronavirus 2 and its resulting coronavirus disease (COVID-19) has sowed confusion regarding actual risk to patients and health care workers, presenting symptoms, what actions health care workers should take, and when to act. 1 A global Biogen management meeting on February 27, 2020, in Boston, purportedly resulted in 70 linked infections within 2 weeks, which was amplified by broader dissemination from postmeeting travel. 2 This single event likely substantially contributed to viral spread within Massachusetts and transmission to other states. The global spread of the virus; high reported mortality in China, Italy, and other countries; and other events raise important questions for our disciplines. How much more dangerous is this than influenza and similar viruses? Should we stop elective procedures? Are there specific symptoms relevant to gastroenterologists and hepatologists? Should we hold in-person research and clinical meetings? How should geographic regions without many cases respond? As gastroenterologists, and as an epidemiologist and a basic scientist, we have followed recent events closely.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 307,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 507,
+                    "end": 508,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19: What Should Clinicians and Scientists Do and When?"
+        },
+        {
+            "text": "You are a leader within your health care setting, community, and family; you can influence actions that will save lives and decrease the potential human and economic damage from COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19: What Should Clinicians and Scientists Do and When?"
+        },
+        {
+            "text": "In this commentary, we cover current knowledge about COVID-19, information particularly relevant to gastroenterology/hepatology, and actions that can be effective.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19: What Should Clinicians and Scientists Do and When?"
+        },
+        {
+            "text": "COVID-19 is global and is now considered a pandemic; as of March 15, it is in >150 countries. 3 The virus is readily transmissible. In China, it spread from a single city to the entire country within 30 days. 4 The total number of both cases and deaths outside of China, as of March 13, were growing almost exponentially ( Figure 1 ). 5 In Wuhan, it was estimated that, initially, each infected patient transmitted the virus to an additional 2.3 individuals, comparable with the 1918 influenza pandemic; in contrast, influenza transmits to 1.3 individuals. 6 Infectivity can precede discernible symptoms. Because of this, simple postsymptom isolation alone is ineffective in halting transmission.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 95,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 209,
+                    "end": 210,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 335,
+                    "end": 336,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 557,
+                    "end": 558,
+                    "text": "6",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 323,
+                    "end": 331,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "COVID-19 Is a Clear Danger to Public Health"
+        },
+        {
+            "text": "Published cases reported markedly underestimate the number of infected people. The paucity of test kits, lack of population-level surveillance, and presence of infection among minimally symptomatic people means published case counts underestimate actual infections, many-fold. 4 The population lacks substantial immunity. Because of this, many of those exposed may become infected.",
+            "cite_spans": [
+                {
+                    "start": 277,
+                    "end": 278,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 Is a Clear Danger to Public Health"
+        },
+        {
+            "text": "It will cause many deaths, including among health care providers. The US Centers for Disease Control and Prevention (CDC) noted the proportion of infected people to those who died (case-fatality rate) was 3.5% in China (0.8% excluding Hubei Province) and 0.6% on a cruise ship, suggesting a likely range of 0.25-3.00%. 7 In contrast, fatality rates for influenza hover around 0.1%. Assuming that early rates are overestimates, given undertesting of milder cases, a 0.5% mortality rate in a country the size of the United States, if 50% are ultimately infected, would result in >800,000 deaths. 8",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 320,
+                    "text": "7",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 Is a Clear Danger to Public Health"
+        },
+        {
+            "text": "Gastrointestinal symptoms such as vomiting, diarrhea, and abdominal pain have been reported in approximately 20% of patients with COVID-19, including among patients with minimal respiratory symptoms. 9 In addition, viral RNA is detectable in stool in many infected patients. Stool shedding can persist after viral clearance from respiratory specimens; however, whether this is meaningfully infectious and if there is any substantial fecal-oral transmission is unknown. 10 Patients also can experience elevations in liver transaminases, similar to other systemic viral infections. Stool assays are not recommended or available at this time; however, this knowledge may recommend testing for appropriate patients with predominantly gastrointestinal symptoms in communities with known viral transmission.",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 201,
+                    "text": "9",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 469,
+                    "end": 471,
+                    "text": "10",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 Can Result in Gastrointestinal Symptoms and Viral Shedding in Stool"
+        },
+        {
+            "text": "A key current recommendation is to slow transmission through mitigation efforts that decreased person-toperson contacts and improve infection control. Commonly referred to as \"flattening the curve,\" this strategy may lead to few total cases or, at the minimum, spread cases out over time, allowing greater alignment between the number of ill patients at any given time and available health care resources, such as ventilators, extracorporeal membrane oxygenation units, and intensive care units beds ( Figure 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 502,
+                    "end": 510,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Clinicians and Researchers Can Have an Impact"
+        },
+        {
+            "text": "A modeling study suggested that, in China, travel restrictions and the practice of \"social distancing\" (decreasing the number and proximity of contacts between people to decrease opportunities for transmission) changed the daily reproduction number from 2.35 to 1.05 within 1 week. 11 Similar data from South Korea, which instituted relatively broad-scale testing, also suggested a rapid decrease in new cases diagnosed (Figure 3) . The broader the implementation, the greater the impact; this is why France recently shut down COMMENTARIES Gastroenterology 2020;158:2020-2023 nonessential businesses, including restaurants and cafes.",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 284,
+                    "text": "11",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 420,
+                    "end": 430,
+                    "text": "(Figure 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Change in-person meetings to teleconferences. Most clinical and research collaborations are highly amenable to remote communications; numerous integrated (eg, Teams in Office 365) and web-based services (Zoom, Go to Meeting, etc) are easily accessible. Changing small 2,3 and larger research, clinical, and educational meetings to video conferences preserves social interactions and productivity, while markedly decreasing social contacts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Minimize nonessential travel, especially to gatherings. 12 The Boston Biogen meeting described in the introduction, is a poignant example.",
+            "cite_spans": [
+                {
+                    "start": 56,
+                    "end": 58,
+                    "text": "12",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Another is the complex single-person effects on transmission suggested by an attorney in New Rochelle, New York, who likely infected multiple people throughout the community before diagnosis. These examples demonstrate how a small number of undiagnosed individuals with broad social contacts can rapidly amplify viral infections. 13 Change in-person patient visits to telehealth visits, where appropriate. Many office visits are primarily for interviews and exchange of information. Telemedicine is appropriate and covered by insurance for many initial and follow-up visits; it markedly decreases person-to-person contacts that occur throughout the travel from home to office. 14 Delay nonessential (elective) procedures in areas with reported cases. In regions with reported cases, strongly consider deferring nonessential procedures. A single screening endoscopic examination may create encounters at the pharmacy (bowel preparation), office (preparation instructions), preprocedure transportation, procedure registration, preoperative nursing, intraprocedure personnel, postoperative care, and postprocedure transportation.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 332,
+                    "text": "13",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Screen patients for symptoms. Patients coming for office or procedural visits typically receive previsit phone calls. Use these calls to screen for potential viral symptoms and to inform relevant steps, such as postponing nonurgent visits or, if the visit is urgent, plan relevant intravisit and perivisit protective measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Monitor local conditions and recommendations. Active infections and community-based transmission likely precede diagnosed cases; thus, if there are diagnosed cases in your region, there likely are many more people with active infections. Your actions can change with local disease prevalence (see the CDC mitigation recommendations).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Continue patients' current medications. It can be difficult to balance concerns about theoretical benefits with known harms. Patients on medications altering their immune systems, such as biologic agents, methotrexate, and azathioprine, are understandably concerned regarding their risk, including whether they should stop or decrease their medications. The CDC does not currently list this group as high risk; the CDC website is an excellent source for evolving recommendations. 15 There are few data suggesting that otherwise healthy nontransplant patients on such medications are at a substantially increased risk of either acquiring coronavirus (or similar viruses such as influenza) or, if infected, having a more severe disease course. In contrast, there are Medical personnel and staff should follow infectious precautions. They should stringently adhere to recommendations regarding decreasing spread, such as handwashing and minimizing touching of face and hair.",
+            "cite_spans": [
+                {
+                    "start": 480,
+                    "end": 482,
+                    "text": "15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "Develop plans now for decreases in personnel. Clinics and laboratories should plan for possible illnesses among critical personnel, and protocols to minimize adverse impacts. We Can Decrease the Impact of the Current Pandemic People will look to you for leadership, policies, and advice. These are practical, evidence-based steps you can recommend now and/or implement directly with your teams and colleagues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        },
+        {
+            "text": "THE AGA is actively developing consensus recommendations; we look forward to these and other information from our medical societies and public health leaders. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Emerging Data Indicate This Approach Works"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Naming the coronavirus disease (COVID-19) and the virus that causes it. Available: www.who.int/emergencies/ diseases/novel-coronavirus-2019/ technical-guidance/naming-thecoronavirus-disease-(covid-2019)-and-the-virus-that-causes-it",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Massachusetts declares state of emergency as coronavirus spreads",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Woods",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "? CDC_AA_refVal=https%3A%2F% 2Fwww.cdc.gov%2Fcoronavirus %2F2019-ncov%2Flocations-confirmed-cases.html. Accessed",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Characteristics of and Important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72 314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus cases",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldometer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Modeling influenza epidemics and pandemics: insights into the future of swine flu (H1N1)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Blower",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "BMC Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Numbers of active patients with infections in South Korea",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Case-fatality estimates for COVID-19 calculated by using a lag time for fatality",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kvalsvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "Telfar",
+                    "middle": [],
+                    "last": "Barnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Available: www. census.gov/popclock",
+            "authors": [],
+            "year": 2020,
+            "venue": "US Census Bureau. U.S. and world population clock",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19: Gastrointestinal manifestations and potential fecal-oral transmission",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Evidence for gastrointestinal infection of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Features, evaluation and treatment coronavirus (COVID-19). www.ncbi.nlm.nih.gov/books/ NBK554776",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cascella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuomo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "For 4 days, the hospital thought he had just pneumonia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Goldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salcedo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Transforming gastroenterology care with telemedicine",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Siegel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Gastroenterology",
+            "volume": "152",
+            "issn": "",
+            "pages": "958--963",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Total global reported deaths from COVID (from: www.worldometers.info).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Flattening the curve: effects of interventions to decrease transmission. (Adapted from www.ncbi.nlm.nih.gov/pmc/articles/PMC5837128/.) COMMENTARIES known potential harms regarding disease flare, need for steroids (which impose greater infectious risk), and hospitalization with medication discontinuation. Thus, patients should continue their current medications and, if experiencing any infectious symptoms, consult with their physician regarding whether to modify their medication regimens.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Frequently check updated recommendations. The following are excellent, official, frequently updated resources for health care providers and patients. CDC recommendations for community mitigation: www.cdc.gov/ coronavirus/2019-ncov/downloads/ community-mitigation-strategy. pdf CDC recommendations for infection control within health care settings: www.cdc.gov/coronavirus/2019ncov/infection-control/controlrecommendations.html World Health Organization recommendations and updates: www. who.int/emergencies/diseases/novelcoronavirus-2019 Guidance for high-risk groups: www. cdc.gov/coronavirus/2019-ncov/ specific-groups/high-risk-complications.html Patient information about masks and infection control: www.who. int/emergencies/diseases/novelcoronavirus-2019/advice-for-public Addressing myths about coronavirus: www.who.int/emergencies/ diseases/novel-coronavirus-2019/ advice-for-public/myth-busters General information, including emerging treatments: www.cdc.gov/ coronavirus/2019-ncov/index.html; and www.uptodate.com/contents/ coronaviruses; Latest research and recommendations from the American Gastroenterological Association (see COVID-19 tab at top left): www. gastrojournal.org/",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors disclose no conflicts. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of interest"
+        }
+    ]
+}

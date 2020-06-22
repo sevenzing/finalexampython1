@@ -1,0 +1,390 @@
+{
+    "paper_id": "c8bc1b53e1f5b379b5c9cbb3d529c83a30af42dd",
+    "metadata": {
+        "title": "Letter to the Editor: Are severe COVID-19 patients more susceptible to conjunctivitis?",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "We read with interest the article by Lorenzo et al 1 of conjunctivitis and COVID-19: a meta-analysis. We appreciate the article's suggestions on protection in ophthalmic diagnosis and treatment but believe that the data and conclusions in meta-analysis need further study, the reasons are as follows: First, the original meta-analysis included three studies 2-4 one of which the data processing of Wu et al 2 may not be consistent with the original text. Wu et al 2 found conjunctivitis in 12 of the 38 patients. Among these 12 patients, there were four cases judged as moderate, two cases judged as severe, and six cases judged as critical. Therefore, according to the guideline of PC-NCP, 5 the proportion of severe COVID-19 should be 8 of 15 and that of not severe COVID-19 should be 4 of 23. However, the data of this meta-analysis are 2 of 15 and 1 of 23, respectively. Second, in a study by Li et al, 3 there is a great difference between the severe and not severe sample sizes, which is larger than that in the other two included studies. The probability of conjunctivitis in patients with not severe COVID-19 was 4 of 173, and the severe COVID-19 is 5 of 926. The original analysis concluded that patients with severe COVID-19 are more likely to suffer from conjunctivitis while excluding Li et al. Sensitivity analysis in large sample studies concluded that patients with not severe COVID-19 are more likely to suffer from conjunctivitis. So we can find that the conclusion is completely opposite after removing this study. COVID-19 patients may have conjunctivitis, and even the first symptom of some cases is conjunctivitis. 6-8 However, it is not clear whether the onset of conjunctivitis is different for COVID-19 patients with different severe conditions. Based on the above thinking, we searched PubMed and CNKI for articles on COVID-19 and conjunctivitis with the words of COVID-19, 2019-CoV, SARS-CoV-2, and conjunctivitis. The severity of COVID-19 was distinguished according to PC-NCP guidelines, the incidence of conjunctivitis in patients with severe and not severe COVID-19 was included. A total of 62 studies were searched, 37 studies were read in full after duplication, and 4 studies were included (Figure 1). 2,4,9,10 Meta-analysis showed that the probability of conjunctivitis (odds ratio = \u22120.84; 95% confidence interval, [\u2212 1.66, \u2212 0.01]; P = .05) between severe patients and not severe patients was statistically significant, not severe COVID-19 patients seem to be more likely to develop conjunctivitis. It can be seen that the results of our meta-analysis are not consistent with those of the original meta-analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Inevitably, our meta-analysis also has certain limitations, such as too few documents and factors of the reporting population. Therefore, whether the patient has conjunctivitis or not is not necessarily related to the severity of COVID-19, this controversial issue may require further study. But when it is unknown whether conjunctival infection exists and whether it has an early warning effect on some systemic diseases, it is necessary to improve prevention and is also an important measure to facilitate treatment and avoid further spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Inevitably, our meta-analysis also has certain limitations, such as too few documents and factors of the reporting population. Therefore, whether the patient has conjunctivitis or not is not necessarily related to the severity of COVID-19, this controversial issue may require further study. But when it is unknown whether conjunctival infection exists and whether it has an early warning effect on some systemic diseases, it is necessary to improve prevention and is also an important measure to facilitate treatment and avoid further spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "F I G U R E 1 The forest map comparing conjunctivitis with severe COVID-19 and not severe COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Conjunctivitis and COVID-19: a meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Loffredo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pacella",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pacella",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tiscione",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oliva",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Violi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Characteristics of ocular findings of patients with coronavirus disease 2019 (COVID-19) in Hubei province, China",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Ophthalmol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Novel Coronavirus disease 2019 (COVID-19): the importance of recognising possible early ocular manife station and using protective eyewear",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dsc",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ting",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Br J Ophthalmol",
+            "volume": "104",
+            "issn": "3",
+            "pages": "297--298",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Evaluation of coronavirus in tears and conjunctival secretions of patients with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "National Health Commission of the People's Republic of China. The guideline on diagnosis and treatment of the novel coronavirus pneumonia (NCP): revised version of the 5th edition",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Conjunctivitis can be the only presenting sign and symptom of COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Scalinci",
+                    "suffix": ""
+                },
+                {
+                    "first": "Trovato",
+                    "middle": [],
+                    "last": "Battagliola",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IDCases",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Keratoconjunctivitis as the initial medical presentation of the novel coronavirus disease 2019 (COVID -19)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cheema",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Aghazadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nazarali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Can J Ophthalmol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "SARS-CoV-2 may be related to conjunctivitis but not necessarily spread through the conjunctiva SARS-CoV-2 and conjunctiva",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Evaluation of ocular symptoms and tropism of SARS-CoV-2 in patients confirmed with COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yap",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Ophthalmol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Three cases of novel coronavirus pneumonia complicated with conjunctivitis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin J Exp Ophthalmol",
+            "volume": "03",
+            "issn": "",
+            "pages": "242--244",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "tions on protection in ophthalmic diagnosis and treatment but believe that the data and conclusions in meta-analysis need further study, the reasons are as follows: First, the original meta-analysis included three studies 2-4 one of which the data processing of Wu et al 2 may not be consistent with the original text. Wu et al 2 found conjunctivitis in 12 of the 38 patients. Among these 12 patients, there were four cases judged as moderate, two cases judged as severe, and six cases judged as critical. Therefore, according to the guideline of PC-NCP, 5 the proportion of severe COVID-19 should be 8 of 15 and that of not severe COVID-19 should be 4 of 23. However, the data of this meta-analysis are 2 of 15 and 1 of 23, respectively. Second, in a study by Li et al, 3 there is a great difference between the severe and not severe sample sizes, which is larger than that in the other two included studies. The probability of conjunctivitis in patients with not severe COVID-19 was 4 of 173, and the severe COVID-19 is 5 of 926. The original analysis concluded that patients with severe COVID-19 are more likely to suffer from conjunctivitis while excluding Li et al. Sensitivity analysis in large sample studies concluded that patients with not severe COVID-19 are more likely to suffer from conjunctivitis. So we can find that the conclusion is completely opposite after removing this study. COVID-19 patients may have conjunctivitis, and even the first symptom of some cases is conjunctivitis. 6-8 However, it is not clear whether the onset of conjunctivitis is different for COVID-19 patients with different severe conditions. Based on the above thinking, we searched PubMed and CNKI for articles on COVID-19 and conjunctivitis with the words of COVID-19, 2019-CoV, SARS-CoV-2, and conjunctivitis. The severity of COVID-19 was distinguished according to PC-NCP guidelines, the incidence of conjunctivitis in patients with severe and not severe COVID-19 was included. A total of 62 studies were searched, 37 studies were read in full after duplication, and 4 studies were included (Figure 1). 2,4,9,10 Meta-analysis showed that the probability of conjunctivitis (odds ratio = \u22120.84; 95% confidence interval, [\u2212 1.66, \u2212 0.01]; P = .05) between severe patients and not severe patients was statistically significant, not severe COVID-19 patients seem to be more likely to develop conjunctivitis. It can be seen that the results of our meta-analysis are not consistent with those of the original meta-analysis.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

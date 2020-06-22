@@ -1,0 +1,2208 @@
+{
+    "paper_id": "29da8ecd1fbbe822b6c03ef06d64d396be941aaf",
+    "metadata": {
+        "title": "Meso-scale modeling of COVID-19 spatio-temporal outbreak dynamics in Germany",
+        "authors": [
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Kerga\u00dfner",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Burkhardt",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "Lippold",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Nistler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [],
+                "last": "Kerga\u00dfner",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "P",
+                "middle": [],
+                "last": "Steinmann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "Budday",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Budday",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Friedrich-Alexander-University Erlangen-N\u00fcrnberg",
+                    "location": {
+                        "postCode": "91058",
+                        "settlement": "Erlangen",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemic has kept the world in suspense for the past months. In most federal countries such as Germany, locally varying conditions demand for state-or county-level decisions. However, this requires a deep understanding of the meso-scale outbreak dynamics between micro-scale agent models and macro-scale global models. Here, we introduce a reparameterized SIQRD network model that accounts for local political decisions to predict the spatio-temporal evolution of the pandemic in Germany at county and city resolution. Our optimized model reproduces state-wise cumulative infections and deaths as reported by the Robert-Koch Institute, and predicts development for individual counties at convincing accuracy. We demonstrate the dominating effect of local infection seeds, and identify effective measures to attenuate the rapid spread. Our model has great potential to support decision makers on a state and community politics level to individually strategize their best way forward. : medRxiv preprint (PDE). Colizza et al. have focused on the importance of the air travel network as a basis for global diffusion at a pandemic outbreak [21] . Following this strategy, Ellen Kuhl's group at Stanford have coupled an air travel network to the SEIR model to understand spatial spreading in China, the US [18] and across Europe [22] . However, with air travel being almost entirely cancelled, we are in need of short-to mid-range network models, such as [23] . While the global epidemic and mobility (GLEAM) model [24] includes air travel as the major source of wide-range disease spreading, it also models more localized commuting patterns that correspond well to traffic data in Germany, among other countries. The model has explained a great deal of COVID-19 spreading in mainland China [3] . As suggested by multiple previous studies [25, 26] , mildly or asymptomatic carriers account for the major share of new infections, and the large number of hidden infections facilitated global spreading [27] . Thus, here we model the spatio-temporal outbreak dynamics of COVID-19 in Germany with an SIQRD model that specifically distinguishes between the hidden infectious I group and a Q group that holds people with known, quarantined infections that, consequently, do not infect others anymore. Since Germany was several weeks behind China and Italy with several global travel restrictions already being in place, we couple the SIQRD model to the GLEAM mobility network to model short-range and intra-country interactions essential to locally resolve the evolution of the COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 1149,
+                    "end": 1153,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1337,
+                    "end": 1341,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1463,
+                    "end": 1467,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1523,
+                    "end": 1527,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1799,
+                    "end": 1802,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1847,
+                    "end": 1851,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1852,
+                    "end": 1855,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2008,
+                    "end": 2012,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Over the last months, we have observed the historic, global outbreak of the COrona VIrus Disease, COVID-19 (SARS-CoV-2). With the first official cases being reported in December 2019 in Wuhan, China [1] , cases have since spread over the entire world, culminating in the world health organization (WHO) declaring it a global pandemic on March 11, 2020 [2] .",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 352,
+                    "end": 355,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Since then, each individual country had to find their own way to get the rapid spreading under control, to 'flatten the curve', and to avoid a breakdown of the healthcare system. Different strategies of shut down as well as travel and contact restrictions have been implemented in different countries and states, with more or less evidence for their success [3] [4] [5] . Now the great challenge is to slowly loosen restrictions but to avoid the feared second wave. Germany has been given special attention during this pandemic. Firstly, its reported death counts were, especially initially, significantly lower than in neighboring countries such as Italy, Spain or France [6] . This gives rise to the question whether Germany could serve as an important example for successful strategies to mitigate the impact now and during future pandemics. Secondly, its federal structure has lead to different responses across its states to reduce human contact, to prevent further spreading, and now to slowly reopen the country and steadily go back to normal. And thirdly, the Robert-Koch Institute (RKI) provides locally highly resolved data on current cases that enables us to fit and test distributive models [7] . Besides the medicinal effort to understand the disease, numerous mathematical studies have focused on modeling the outbreak dynamics of COVID-19, predict its future course and provide scientific reasoning for political decisions. Typically, those epidemiology models follow the basic idea of compartmentalizing the entire population into different subgroups and modeling their coupled evolution with a set of ordinary differential equations (ODEs). The most basic of such models is the SIR model, with groups of susceptible, infectious, and recovered or removed people, dating back to the 1920s [8] . Overall, the course of a COVID-19 infection within such compartment models is quite well established by now. A susceptible is first exposed to the virus to become infected, before becoming infectious himself after some latency period. From here on, the infection may take various courses [9] , ranging from no or mild symptoms for arguably the largest group of patients, to strong symptoms and patients who require hospitalization or even intensive care, before they recover or die from the disease. Severity mostly seems to depend on existing pre-conditions and general health, but also other reasons that have not yet been fully understood [10, 11] . The well-known SIR model has been extensively analyzed [12] and extended to finer compartments (see [13] for an earlier overview) that mimic the described course. Examples include the SEIR model with an exposed group, the SEIRD model to separate truly recovered and dead, an S(E)IQR model [14] [15] [16] that puts known infections into a quarantined group that does not infect others, or the MSEIR model [12] to include children with mother immunity, thus covering non-constant population sizes. Overall, these models have been abundantly applied to locally analyze COVID-19 outbreak dynamics in various countries, largely focusing on China [4, 17] , Italy [14] and the United States (US) [18] . However, models to predict the temporal and spatial spreading of the virus have so far been rather limited. While agent-based models [19] successfully cover the high resolution end at the level of individual people and their movement, especially the intermediate to high resolution on a state or county level is understudied territoryeven though this is exactly where many of the political decisions are being made. A variant of the SIRS model has previously been coupled to a reaction-diffusion model [20] to mathematically study cholera dynamics with partial differential equations",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 366,
+                    "end": 369,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 673,
+                    "end": 676,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1203,
+                    "end": 1206,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1804,
+                    "end": 1807,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2098,
+                    "end": 2101,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2452,
+                    "end": 2456,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 2457,
+                    "end": 2460,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2518,
+                    "end": 2522,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2563,
+                    "end": 2567,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2752,
+                    "end": 2756,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2757,
+                    "end": 2761,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2762,
+                    "end": 2766,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2867,
+                    "end": 2871,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 3104,
+                    "end": 3107,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 3108,
+                    "end": 3111,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 3120,
+                    "end": 3124,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 3152,
+                    "end": 3156,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3292,
+                    "end": 3296,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 3661,
+                    "end": 3665,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The basic SIQRD model CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) the schematic in Fig. 1 (parameters in suppl. table S1). The model estimates that Germany could have suffered nearly half a million dead. Note that the total number of currently infected corresponds to I+Q. Our model yields an initial reproduction number of R 0 \u2248 4.61 in early March, consistent with previous studies [11, 28] . As Germany claimed high testing rates from the beginning on, we refrain from including a time-dependent \u03b1, denoting the rate at which people transition from the infectious group I to the tested, confirmed, and quarantined group Q. Instead, for a more natural interpretation of the transition rates, we replace \u03b1 and \u03b4 -the rate at which diseased individuals in Q die and enter the group D -by introducing the dark figure \u03c9 and the true mortality \u00b5, also referred to as infection fatality rate (IFR), and obtain",
+            "cite_spans": [
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 545,
+                    "end": 548,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 239,
+                    "end": 245,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "where \u03b3 1 and \u03b3 2 quantify the recovery rates from hidden (I) and quarantined (Q) infections, respectively. The reparameterization allows us to explicitly identify the role of the dark figure in COVID-19 spreading. The measurable ratio D / Q, usually referred to as case fatality rate (CFR), will eventually approach the (constant) product \u03c9\u00b5, demonstrating the inherent coupling of the two parameters. However, during the course of the pandemic, CFR is not constant due to the time delay between D and Q, a potentially varying dark figure \u03c9, fluctuating testing capacities, and a disparate mortality across the age structure of infected people [29] . The pivotal group for the disease dynamics are the infectious people I, while infection numbers reported by institutions such as the RKI correspond to the daily or cumulative influx to Q. It is obvious from the model that reducing the number of infectious people in I is achievable by reducing the infection rate \u03b2, the size of S [4] and/or the size of I itself. The latter is, on the one hand, indicated by a faster transition rate \u03b1 from I to Q, e.g., by increased testing: Once people have been positively tested, they will quarantine and likely not infect others any more. On the other hand, a faster transition rate \u03b3 1 will reduce people in I, e.g., by general protective and hygienic measures: If an individual is exposed to a lower viral load, symptoms and the general course of the disease may be milder [30] .",
+            "cite_spans": [
+                {
+                    "start": 645,
+                    "end": 649,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 982,
+                    "end": 985,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1465,
+                    "end": 1469,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "To capture the influence of political decisions and restrictions on the disease dynamics, we have included three reduction factors for the infection rate \u03b2 red,1\u22123 representing the major restrictions of 1) cancelling large events, 2) school closings, and 3) contact restrictions. We model each of them as a single constant factor for all of Germany, but consider their federal-state-dependent starting date. Taken together, these political decisions, implemented at the right time, successfully slowed down the spread by reducing the number of daily new infections -the influx to Qcompared to the unrestrained evolution displayed in Fig. 1 , and have thus prevented an overburdened health care system, as seen in Bergamo or New York City. A much less tangible group than the detected infections in Q are the hidden infections in I. By assuming a Germany-wide identical mortality of \u00b5 = 0.006 [9] , we obtain estimates on state-wise dark figures \u03c9 i ( Fig. 2A) ",
+            "cite_spans": [
+                {
+                    "start": 892,
+                    "end": 895,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 633,
+                    "end": 639,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 951,
+                    "end": 959,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Accounting for state-wise political measures and testing"
+        },
+        {
+            "text": "To obtain spatially resolved outbreak predictions, we combined the refined SIQRD model with an adapted short-and mid-range mobility network from GLEAM [32] . The latter has been shown to well capture commuting patterns in Germany, as described in [24] . It accounts for the interaction between different cities and counties throughout Germany, as illustrated in Fig. 2B . To adequately represent cross-county infections considering severely altered mobility patterns in times of the pandemic, we introduce state-wise cross-county multipliers \u03b2 cc,i , i = 1, . . . , 16 to modulate the exponential cross-county term.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 247,
+                    "end": 251,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 362,
+                    "end": 369,
+                    "text": "Fig. 2B",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "The spatially resolved SIQRD model"
+        },
+        {
+            "text": "With state-wise identified dark figures \u03c9 i ( Fig. 2A) and otherwise estimated parameters \u00b5 = 0.006, \u03b3 1 = 0.067, \u03b3 2 = 0.04 (see Methods), we obtain optimized state-wise infection rates \u03b2 i and cross-county weights \u03b2 cc,i , as well as Germany-wide contact reduction factors \u03b2 red,1\u22123 . Importantly, our preliminary investigations had shown that it is not sufficient to provide a single \u03b2 valid in entire Germany, even with state-wise dark figures \u03c9 i . It is, therefore, key to calibrate infection rates \u03b2 i differing between federal states. We further note that current data do not allow us to clearly distinguish three independent reduction factors. Especially, effective dates of \u03b2 red,2 (school closings) and \u03b2 red,3 (contact restrictions) are close by in time, leading to similarly good fits with various pairs of the two. To prevent over-fitting, we thus set \u03b2 red,2 = 1 and use one combined reduction factor for school closings and 5 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 46,
+                    "end": 54,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "The spatially resolved SIQRD model"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. contact restrictions for our spatial simulations instead, optimized to \u03b2 red,1 = 0.378 and \u03b2 red,3 = 0.189 (see Methods). Another important component of spatially resolved predictions is the choice of ap-6 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The spatially resolved SIQRD model"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "propriate initial conditions. Besides the mere size of I 0 , the initial infectious population, we also needed to specify its spatial distribution at the start date of the county-wise simulation, March 2. Due to several days delay between the outbreak in different federal states and, naturally, their different population size, we selected the RKI reported distribution on March 16 and scaled its magnitude down to obtain the overall number as determined on March 2, state-wise amounting to I 0,i = 2679 (see Methods, suppl. table S1). Fig. 3 demonstrates that the optimized spatially resolved SIQRD model with 401 network nodes representing each county of Germany well predicts the cumulative confirmed cases in each of its federal states from March 2 until April 25. For cumulative infection data reported by the RKI [7] , we find astonishing agreement on the temporal evolution (all R 2 > 0.96). Some states, most noticeably Bremen, show rather irregular numbers of daily new infections and slight deviations from the model, which we attribute to its low testing rate (second lowest in Germany), a corresponding high dark figure ( Fig. 2A) , and the overall very low case counts. The model slightly overestimates the number of deaths in the initial period but well matches the overall number, the only dead count included in the fitting procedure (Methods). This can be attributed to a strong age-dependence in mortality [10, 11] and the fact that the spread of COVID-19 in Germany started off not least due to -mainly younger -infected returnees from skiing vacations in Italy and Austria [29] . Later on, more and more elderly people caught the disease, which then lead to an overall stronger death toll around the early midst of April, including devastating death rates in several nursing homes. Fig. 4A and B display federal-state-wise \u03b2 i and \u03b2 cc,i . On average, the intra-county infection rates \u03b2 i are about half as large as for the basic SIQRD models [14] , leading us to believe that about half of infections occur through cross-county interactions. We observe an opposite trend between \u03b2 i and \u03b2 cc,i , suggesting a trade-off between intra-and inter-state contact. Remarkably, northern (touristy) regions obtain higher inter-state contact rates, suggesting they observed relevant inflow from other states. Furthermore, highly populated states, most notably the city-states Berlin, Hamburg and Bremen (isolated black dots in Fig. 4B ), but also Northrhine-Westphalia (NW), Baden-W\u00fcrttemberg (BW), and Bavaria (BY), seem slightly over-represented in the network and thus receive smaller \u03b2 cc,i . This is to be expected, as densely populated areas typically observe more mobility and commuter traffic, which was more severely reduced when the pandemic hit.",
+            "cite_spans": [
+                {
+                    "start": 820,
+                    "end": 823,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1425,
+                    "end": 1429,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1430,
+                    "end": 1433,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1594,
+                    "end": 1598,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1964,
+                    "end": 1968,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 537,
+                    "end": 543,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1135,
+                    "end": 1143,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1803,
+                    "end": 1810,
+                    "text": "Fig. 4A",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2439,
+                    "end": 2446,
+                    "text": "Fig. 4B",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We then analyzed how well the federal-state-wise fitted model represented the infections on a county level. Fig. 4C shows the difference of cumulative entries in Q between our model predictions and RKI reported numbers on two dates in April, without further county-wise fitting or optimization. On both dates, we find a strong, significant correlation of the spatial distribution (March 28: R 2 = 0.84, p < 1e\u221216; April 25: R 2 = 0.81, p < 1e \u2212 16), demonstrating an overall high level of accuracy of our meso-scale model. On the earlier date in March, larger differences are almost exclusive to Hannover and Berlin, two densely populated cities rather dis-7 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 115,
+                    "text": "Fig. 4C",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "County-wise predictions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . tant from major initial hubs. One month later, we observe slightly more deviations overall. Not surprisingly, they mostly occur in BY, BW and NW, the three most populous states with highest infection numbers overall, putting the differences into perspective. Comparing per-capita cumulative infections on March 28 (April 25), we find that, despite a lowered correlation, 79% (57%) of counties differ less than 50 per 100000 inhabitants, which is the politically imposed threshold for daily new infections to reimplement restrictive measures in most German states. We also observe some rural areas that suffered from more infections than predicted by our model. The most prominent examples are the indicated counties Rosenheim (R) and Tirschenreuth (T). Per-capita infections in the hot-spot city Mitterteich in Tirschenreuth temporally surpassed the numbers in New York City [6] and one of the most stringent curfews was put in place to contain the virus spread [33] . Following this validation, we used our model to obtain a complete spatio-temporal timeline of the COVID-19 spreading. Fig. 5A and supplementary movie S1 show the predicted spatial distribution of all infections, i.e., combined entries of I and Q, evolving from early March until early June at the resolution of individual counties, assuming the contact reduction factors stay in place. The snapshots nicely capture the more severe course of the pandemic in the Southern and Western states, while Eastern Germany was less affected.",
+            "cite_spans": [
+                {
+                    "start": 951,
+                    "end": 954,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1038,
+                    "end": 1042,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1163,
+                    "end": 1170,
+                    "text": "Fig. 5A",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "8"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The spreading of COVID-19 in Germany has allegedly evolved from two major hubs: (1) a carnival event in the county Heinsberg (H) in the Ruhr area in Western Germany, and (2) returnees from skiing holidays in Northern Italy and Austria, with 9 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The effect of seeds"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . a large share tracing back to Ischgl (I). With the aid of our spatially resolved model, we investigated how these sources may have affected the spreading throughout Germany. Fig. 5B shows the distributions of confirmed, quarantined infections Q resulting from initial outbreaks in Heinsberg (left) and Ischgl (center) only, as well as the distribution resulting from the combination of both (right), demonstrating the balance of local and far-reached infections with our model. Red hot-spots appear in nearly all major urban areas across Germany, but rural spreading occurs much more in areas closer to the seeds. When evaluating differences of infections from their combined spreading to RKI data (Fig. 5C ) near the German peak on March 28, we find that, despite increased differences very close to the Southern border, overall state-wise distribution in BY is near identical in quality (R 2 = 0.89 in both cases). This demonstrates the dominating influence of returnees from skiing holidays in Italy and Austria represented by the Ischgl seed for the Germany-wide initiation of the spread. Tirschenreuth (T), however, seems to have suffered from their very own, less documented super-spreading event. On the other hand, the distribution in NW differs more to the data (R 2 from 0.79 to 0.64). We observe several underrepresented counties, suggesting that cases from Heinsberg alone spread less, similar to the localized situation in Tirschenreuth. The overall similarity between Fig. 5C and Fig. 4C , as well as Fig. 5A and Fig. 5B does confirm, however, that the virus indeed spread from the Southern and Western states of Germany, with Ischgl and Heinsberg as two major representative seeds.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 250,
+                    "end": 257,
+                    "text": "Fig. 5B",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 774,
+                    "end": 782,
+                    "text": "(Fig. 5C",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1558,
+                    "end": 1565,
+                    "text": "Fig. 5C",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1570,
+                    "end": 1577,
+                    "text": "Fig. 4C",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1591,
+                    "end": 1598,
+                    "text": "Fig. 5A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1603,
+                    "end": 1610,
+                    "text": "Fig. 5B",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "It is possible to further refine the resolution of the spatial SIQRD network model to account for individual cities. Fig. 5D compares the county-wise (left) with the even more refined city-wise model (right) in Bavaria on April 11. While the numbers of the whole county are controlled by larger cities, the more refined model also captures lower numbers in small communities. The increased resolution may provide valuable information for local decision makers, especially in more rural areas where the epidemic course is not as much controlled by the closest major city.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 124,
+                    "text": "Fig. 5D",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Meso-to micro-scale"
+        },
+        {
+            "text": "We have shown that a spatially resolved SIQRD model can well explain and predict the temporal and spatial outbreak dynamics of COVID-19 in Germany. The reparameterized model specifically includes undetected, hidden infections as a separate compartment, revealing a direct coupling between mortality, testing efforts and the dark figure. Our systematic refinement from Germany-wide to spatially resolved county-level predictions has revealed that we require different values for dark figures \u03c9 i , infection rates \u03b2 i and cross-county weights \u03b2 cc,i in each federal state of Germany to accurately capture the spreading of COVID-19 from March until May 2020. At first, this is quite surprising considering that various other studies with single-node, country-wide models have predicted single infection rates \u03b2 that are quite similar for 10 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.10.20126771 doi: medRxiv preprint different countries, such as Germany, France or Spain [11, 14] . However, this can be attributed to their low spatial resolution and high infection numbers, which average out any spatio-temporal fluctuations. Higher-resolution information as presented here thus comes at the cost of more complex model requirements. Differences in \u03c9 i can in part be attributed to variable testing activities. It is important to note, however, that the varying dark figure alone is not enough to account for the different outbreak dynamics in the federal states of Germany. Rather, there seems to be a non-negligible influence of habits and mentality that drive different infection rates \u03b2 i , together with random factors and local super-spreader events such as the carnival celebrations in Heinsberg [30] . We observe an opposite trend between \u03b2 i and \u03b2 cc,i (Fig. 4A and B) , suggesting that some states (mostly Northern and distant from initial seeds) received more infections from neighboring states, while states close to epidemic seeds suffered more from localized infections. Generally, the adapted mobility network tended to overestimate cross-county terms in densely populated areas, where the pandemic seemed to have a larger reduction effect on typically observed traffic patterns, manifested by smaller weights \u03b2 cc,i . It has become clear from our analysis that the data we currently have at our disposal makes it impossible to provide 'true' parameter sets that uniquely describe the evolution of the pandemic. However, despite the deduced interdependence of mortality \u00b5 and dark figure \u03c9, the relationship to testing activities holds regardless, underlining the importance of broad, fast testing. In addition, increased (antibody) testing can help strengthen our confidence bounds on \u03c9 and \u00b5 in the future. Similar relationships exist for the politically induced reduction factors \u03b2 red , where data only allowed us to distinguish two independently. Our spatially resolved model can predict the temporal evolution of infections on a county level at convincing accuracy, and even extends to individual cities (Fig. 5D ). It nicely captures the fact that the probability for new incoming infections and higher spreading is generally larger in densely populated urban environments. However, we have also seen a few rather rural counties with high infection numbers that were much less hit in our predictions, e.g., the county Tirschenreuth in Eastern Bavaria (Fig. 4C) . We postulate that such locally over-proportionate case counts can be attributed to rather random super-spreading events, which may pop up anytime and can easily be included in our model, but are hard to predict in advance. Exploiting our county-level resolution, we were able to infer the effect of infections stemming from selected seeds, such as two major hubs for Germany, Heinsberg and returning travellers from Ischgl in Austria. Our model demonstrates how the outbreak dynamics in Germany were initially driven by these two major seeds and spread from there throughout the rest of the country (Fig. 5B) . Nevertheless, from our difference analysis we found that Heinsberg itself was far more contained than Ischgl (Fig. 5B) .Taken together, these observations corroborate that refraining from traveling and large events are two key interventions that can effectively attenuate the spreading of infectious diseases such as COVID-19. The presented model has certain limitations that we aim to address in the future. One drawback of all SIR-type modeling approaches is that they hardly account for the various courses of disease: in such rate-dependent models, some appear as infinitely long infectious. To prevent this issue from significantly affecting our opti-11 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 201,
+                    "end": 204,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 927,
+                    "end": 931,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 986,
+                    "end": 1001,
+                    "text": "(Fig. 4A and B)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 2249,
+                    "end": 2257,
+                    "text": "(Fig. 5D",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2597,
+                    "end": 2606,
+                    "text": "(Fig. 4C)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 3208,
+                    "end": 3217,
+                    "text": "(Fig. 5B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 3329,
+                    "end": 3338,
+                    "text": "(Fig. 5B)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . mized parameters, we only considered the latest dead count in our fitting procedure (see Methods). Still, we plan to adapt our model to integrate detailed information on specific courses of disease within a memory-based or delayed ODE, as introduced e.g. in [34] . Most noticeable deviations of our model predictions on a state level occurred in Bremen, a city-state with overall very low infection numbers. Despite a high dark figure and concomitant uncertainty, on the city level our quasi-continuum modeling approach and the underlying exponential growth seem to approach their validity limit, while stochastic effects start to become more important. Whereas SIR-type compartment models may capture the spread on a macro-and meso-scale level, at very low infection numbers or high spatial resolution, individual agent-based models [19, 35] are required to accurately predict the course of the epidemic. It is noteworthy, though, that current agent-based models may scale up to \u2248 50.000 agents, leaving quite a gap to meso-scale models like ours. We will investigate how coupling both types of methods in a multi-scale model can close this gap in the future. Similarly, explicitly integrating uncertainty via stochastic models [36] may help to further improve model predictions at high spatial resolution and low to medium infection numbers, potentially providing insights into optimal strategies for political action. Overall, our refined predictions could provide a trustworthy rationale to elaborate community-wise reopening and closing strategies, safely plan the occupation and need of hospital beds, and inform on optimal distribution strategies of vaccination and/or antibody tests once available. The optimized model can be directly adopted to estimate the effects of loosened restrictions, potential new seeds, or other influencing factors on the resolution of individual cities. It can thus be a valuable tool to support (political) decision makers to appropriately react to future developments of the COVID-19 situation and expediently avoid a second wave.",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 915,
+                    "end": 918,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1305,
+                    "end": 1309,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We model the spatio-temporal outbreak dynamics of COVID-19 in Germany with an SIQRD model, coupled to a network model that allows for spatially distributed cross-county infections. We start out with the description of our basic compartment model that mainly governs the spread of the disease over time, and then continue with its spatial resolution. All simulations were implemented and performed in ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "In contrast to many existing studies that use a standard SEIR(D) model including a latency period between being infected and becoming infectious [18, 22] , we focus on the difference between asymptomatic or mildly symptomatic, unknown cases that account for the major share of new infections [25, 26] , and people with noticeable symptoms. We integrate this knowledge and use an SIQRD model [12, 16] that 12 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 150,
+                    "end": 153,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 297,
+                    "end": 300,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 391,
+                    "end": 395,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Basic SIQRD model"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . specifically distinguishes between the infectious group I, representing a measure for the estimated total number of infections, and a group Q representing known, and therefore quarantined, infections, who do not infect others anymore [14] . In our case, the transition rate \u03b1 from I to Q describes how long it takes for an infected person to be tested/detected and put in quarantine. The remaining three groups are considered as usual, where S represents the initial state of being susceptible, R represents truly recovered, and D dead. Some fraction of I can directly recover at rate \u03b3 1 without ever being tested, overall representing the hidden infections that are never detected, while the remainder transitions to Q at rate \u03b1. The rate \u03b3 2 describes the rate to recover from a tested infection, while \u03b4 represents the rate to die from a confirmed infection (see schematic in Fig. 1) . Overall, we obtain the set of equations\u1e60",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 75,
+                    "text": "June 12, 2020. .",
+                    "ref_id": null
+                },
+                {
+                    "start": 310,
+                    "end": 314,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 956,
+                    "end": 963,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Since we are neglecting disease unrelated births and deaths, the total number of people N is constant, in Germany N \u2248 8e7, such that in normalized terms S + I + Q + R + D = 1, and therefore\u1e60 +\u0130 +Q +\u1e58 +\u1e0a = 0. For easier interpretation of the parameters, we introduce the dark figure \u03c9 = 1 + \u03b3 1 /\u03b1 and the true mortality \u00b5 = \u03b4/(\u03b3 2 + \u03b4) \u00b7 \u03b1/(\u03b1 + \u03b3 1 ) as given in the Results Section. Thus, we can replace the previous parameters \u03b1 and \u03b4 by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "If we consider the stationary point when the pandemic has passed, we can directly relate the number of confirmed or tested infections with the estimated overall number of infections by\u00ce = \u03c9Q, while \u00b5 represents the fraction of all infected people that died. The true mortality \u00b5 is also often referred to as infection fatality rate (IFR). Further, the mortality can also be represented by the ratio of cumulative total infections over deaths, \u00b5 =D/\u00ce. Since \u03c9 =\u00ce/Q, we identify the stationary relationshipD",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In other words, the measurable ratio D/Q, usually referred to as the case fatality rate (CFR), will eventually approach the number \u00b5\u03c9, demonstrating the inherent dependence of the two parameters. During the course of the pandemic, however, CFR will not be constant [29] .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 269,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "13"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We model the effect of contact restriction and other political measures through a time-dependent infection rate \u03b2 = \u03b2(t) by introducing three reduction factors \u03b2 red,i via step functions\u03b2 i (t), such that the effective contact rate yields",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling political measures and contact restrictions"
+        },
+        {
+            "text": "The three reduction factors \u03b2 red,i represent the major restrictions of 1) cancelling large events, 2) school closings, and 3) contact restrictions. We assume that each of them are constant over all of Germany, but consider their state-dependent starting date T i following the respective political timeline. From preliminary investigations we observed that current data do not allow to robustly distinguish three reduction factors, manifested by parameter dependencies between \u03b2 red,i in our optimization scheme. Thus, we set \u03b2 red,2 = 1 and used only \u03b2 red,3 as a jointly fitted value to avoid over-fitting the data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Modeling political measures and contact restrictions"
+        },
+        {
+            "text": "The model allows for a straight-forward estimate on the initial and effective reproduction number R 0 and R eff , respectively, which are well-known in public and the general media as the number of infections originating from one infected person. Since this number is represented by the ratio between the influx and outflux of the hidden infectious group I in our model, we obtain the time-dependent upper-bound expression",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reproduction number"
+        },
+        {
+            "text": "where, in relative numbers, S = 1 during early stages of the pandemic. Note that model parameters such as \u03b1 and \u03c9 may also vary over time, and a continuous or even randomized representation of the evolution of R 0 (t) [28] may potentially better explain the imperfect data. For better readability, we drop the time-dependence of \u03b2 and R 0 in the following. As can be inferred from the expression, the uncertainty associated with the dark figure and the infection rates translate somewhat into the reproduction number, making reliable bounds on R 0 difficult to obtain.",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 222,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Reproduction number"
+        },
+        {
+            "text": "In order to study the spatial dynamics of the spreading disease, we consider a network model on the resolution level of individual counties that allows for cross-county infections. Data analysis and preliminary simulations had shown that we require a federal-state-dependent dark figure \u03c9 i and infection rate \u03b2 i , i = 1, . . . , 16. On a discrete county level, for an overall number of n c counties, the set of reparameterized 14 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Spatially resolved SIQRD model"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.10.20126771 doi: medRxiv preprint coupled SIQRD network differential equations for each county k = 1, . . . , n c yiel\u1e0b",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "with the cross county infections",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "where \u03b2 cc,i , i = 1, . . . , 16 are the state-dependent cross-county infection weights, N k is the number of inhabitants in county k, N max = 3e6 corresponds to the number of inhabitants in Germany's largest city Berlin, and r kl is the distance between counties k and l. Note that \u03b2, \u03c9 and \u03b2 cc are state-dependent, but not county-dependent, while all other parameters are identical for all of Germany. The exponential cross-county infection term is adopted from the Global Epidemic And Mobility (GLEAM) model, where the expression represents commuter flows between communities k, l. It can be tuned by three parameters \u03ba, \u03bb, and r that were fit to large amounts of commuting data to globally emulate their patterns, as described in [24] (suppl. table S2). We reuse their expression in a simplified fashion and argue that cross-county infections are proportional to the commuting flow, up to the size of the infectious group at the distant county I l , local susceptibles S k and \u03b2 cc,i , i = 1, . . . , 16.",
+            "cite_spans": [
+                {
+                    "start": 735,
+                    "end": 739,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "We use data from the Robert-Koch Institute (RKI) that is available for each county in Germany over time [7] . Since RKI infection data has limited information content, we had to fix several parameters from other data describing the course of infection. Following the works of An der Heiden [9] , we set the mortality to \u00b5 = 0.006. As described by various other works [9, 10, 37] , the time to recover from a confirmed infection varies between 18 and 25 days, while milder, often undetected infections last for about 5 to 10 days. In agreement, we chose \u03b3 2 = 0.04 and \u03b3 1 = 0.067, assuming that about 50% of cases are asymptomatic [38] and undetected over a time-span of 7.5 days. Following the assumed mortality and an average time-todeath for a confirmed infection of 15 days [9] , state-wise dark figures can be directly read-out from the RKI reported death toll [7] on April 25, the last day of our fit. We decided against fitting the D group over time, due to the disparate mortality 15 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 290,
+                    "end": 293,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 367,
+                    "end": 370,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 371,
+                    "end": 374,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 375,
+                    "end": 378,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 778,
+                    "end": 781,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 866,
+                    "end": 869,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Initial conditions and parameter fitting"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . across the age structure of infected people [29] which is not very well represented in SIR-type rate-based models. The age-dependent mortality was clearly visible in Germany, especially during the early stages when younger people were overproportionally affected, with correspondingly low death rates. For our parameter optimization, we solve the nonlinear set of ordinary differential equations (ODEs) from the start date onward in time using an ODE45 integration scheme with variable time-stepping and evaluate the daily new and cumulative infection numbers via spline interpolation. To approach our spatially resolved county-model, we followed a cascade optimization strategy. Using state-wise identified dark figures \u03c9 i and constant \u00b5, \u03b3 1 , and \u03b3 2 , we first used a 16-node network model connecting each federal state to obtain a Germany-wide average \u03b2 and reduction factors \u03b2 red,1 and \u03b2 red,3 by fitting the cumulative data for Germany. We then considered state-wise data to fit \u03b2 i , i = 1, . . . , 16, while keeping \u03b2 cc = 1. As initial values, we set the number of confirmed infections on our start date March 2 as the size of Q 0 . To obtain an appropriate size of I 0 , we estimate the change rate of Q on our start date via an exponential function and then exploit I 0 =Q 0 (\u03c9 \u2212 1)/\u03b3 1 . We fit the cumulative number of confirmed infections from the RKI for the time period from March 2 until April 25 with the cumulative entries in our Q group, normalized by the maximum number of RKI infections. This is the time period during which the various shutdown measures were in place without any noticeable relaxation. On top of that, we include the change-rate of infections on our last day April 25 into the residual vector. Note that cumulative infections at time T reported by the RKI correspond to the integrated influxQ RKI (T ) into the Q group of our SIQRD model, such that the fitted expression is obtained vi\u00e3",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 124,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Finally, we increased the resolution to full county level, amounting to a network of 401 nodes. We used a gradient-descent algorithm to iteratively fit state-wise cross-county weights \u03b2 cc,i , i = 1, . . . , 16 to re-balance the changed influence of the larger network, while keeping the previously determined state-wise \u03b2 i fixed. The high-resolution network model brings with it the challenge for spatially consistent initial conditions. Thus, we selected the distribution of initial infections according to the RKI database on March 16, scaling down the overall number of infections to the number reported on our starting date, March 2. The ratio between Q and I was computed as before.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "For the Heinsberg/Ischgl simulations, we started out with an I group of 30 times the number of inhabitants in Ischgl, amounting to I 0 = 1617 \u00b7 30 = 48510, to represent the major tourist flow through the town and returnees from other ski resorts in Austria and Italy. In Heinsberg, we set 10% of the population in the I group, i.e., I 0 = 4195, corresponding to about 65% of the population found infected in [30] .",
+            "cite_spans": [
+                {
+                    "start": 408,
+                    "end": 412,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "In Ischgl, we further chose \u03b2 cc equal to the highest found one in a German state (Brandenburg) to initiate the spreading, and chose Bavaria's \u03b2 value due to its spatial proximity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "16"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The entire fitting procedure, except for obtaining the final cross-county weights \u03b2 cc,i , was done using a particle swarm optimization (PSO) scheme. PSO is a metaheuristic inspired by the behavior of natural animal swarms. It uniformly initializes a swarm of particles in a multidimensional search space, such that the objective function is evaluated at the current position of each particle. Particles communicate their best position amongst each other. Thereby, individual particle direction and speed are updated depending on their own and the overall best position in search space found up to this point. This way, the swarm broadly covers the bounded search space [39] and likely converges to a global optimum, while exploring many local minima along the way [40] . The scheme balances broad coverage with fast convergence and provides valuable information on explored samples.",
+            "cite_spans": [
+                {
+                    "start": 670,
+                    "end": 674,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 765,
+                    "end": 769,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "To validate the model, we evaluated the temporal and spatial correlation between model predictions and RKI data by computing the Pearson correlation coefficient r P , the coefficient of determination R 2 = r 2 P and the corresponding p-value to assess statistical significance via the function [r P ,p] = corrcoeff (. . . ) in Octave 5.2.0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Supplementary tables 17 . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary materials"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. Table S2 : Parameters for the network mobility model as derived in [24] .",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 82,
+                    "text": "Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary materials"
+        },
+        {
+            "text": "Movie S1. Spatio-temporal prediction of COVID-19 outbreak dynamics in Germany at county level from March 2 until June 2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary files"
+        },
+        {
+            "text": ". CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary files"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary files"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . . CC-BY-NC 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary files"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 12, 2020. . https://doi.org/10.1101/2020.06.10.20126771 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary files"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Outbreak of pneumonia of unknown etiology in Wuhan, China: The mystery and the miracle",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stratton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "401--402",
+            "other_ids": {
+                "DOI": [
+                    "https:/onlinelibrary.wiley.com/doi/abs/10.1002/jmv.25678"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Virtual press conference on COVID-19 -11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chinazzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Effective containment explains subexponential growth in recent confirmed COVID-19 cases in China",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Maier",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brockmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "742--746",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Transmission dynamics of the COVID-19 outbreak and effectiveness of government interventions: A data-driven analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Penny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 Dashboard by the Center for Systems Science and Engineering last accessed",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19-Dashboard last accessed",
+            "authors": [
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Koch Institute",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A contribution to the mathematical theory of epidemics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kermack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckendrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 1927,
+            "venue": "Proceedings of the royal society of london. Series A",
+            "volume": "115",
+            "issn": "",
+            "pages": "700--721",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Modellierung von Beispielszenarien der SARS-CoV-2-Epidemie 2020 in Deutschland",
+            "authors": [
+                {
+                    "first": "An",
+                    "middle": [],
+                    "last": "Der Heiden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Buchholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Unter Mitarbeit des Robert Koch-Instituts",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--1062",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Monitoring transmissibility and mortality of COVID-19 in Europe",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "95",
+            "issn": "",
+            "pages": "311--315",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The mathematics of infectious diseases",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hethcote",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "SIAM Rev",
+            "volume": "42",
+            "issn": "",
+            "pages": "599--653",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Epidemic processes in complex networks",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pastor-Satorras",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Mieghem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Rev. Mod. Phys",
+            "volume": "87",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Quantifying undetected COVID-19 cases and effects of containment measures in Italy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Pedersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Meneghini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Effects of quarantine in six endemic models for infectious diseases",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hethcote",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhien",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shengbing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Math. Biosci",
+            "volume": "180",
+            "issn": "",
+            "pages": "141--160",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A SEIQR model for pandemic influenza and its parameter identification",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Jumpen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wiwatanapataphee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Int. J. Pure Appl. Math",
+            "volume": "52",
+            "issn": "",
+            "pages": "247--265",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Early dynamics of transmission and control of COVID-19: a mathematical modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect. Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Outbreak dynamics of COVID-19 in China and the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peirlinck",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Costabal",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Linka",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kuhl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biomech. Model. Mechanobiol",
+            "volume": "27",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Modelling disease outbreaks in realistic urban social networks",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eubank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nature",
+            "volume": "429",
+            "issn": "",
+            "pages": "180--184",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Global stability and uniform persistence of the reaction-convection-diffusion cholera epidemic model",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yamazaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Math. Biosci. Eng",
+            "volume": "14",
+            "issn": "",
+            "pages": "559--579",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The role of the airline transportation network in the prediction and predictability of global epidemics",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Colizza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barrat",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Barth\u00e9lemy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vespignani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "103",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Outbreak dynamics of COVID-19 in Europe and the effect of travel restrictions",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Linka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peirlinck",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Costabal",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kuhl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Comput. Methods Biomech. Biomed. Engin",
+            "volume": "",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10255842.2020.1759560"
+                ],
+                "PMID": [
+                    "32367739"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Network-based prediction of the 2019-ncov epidemic outbreak in the chinese province hubei",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prasse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Achterberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Mieghem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2002.04482"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Multiscale mobility networks and the spatial spreading of infectious diseases",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "106",
+            "issn": "",
+            "pages": "21484--21489",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Epidemiological parameters of coronavirus disease 2019: a pooled analysis of publicly reported individual data of 1155 cases from seven countries",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Presumed asymptomatic carrier transmission of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "489--493",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The reproduction number of COVID-19 and its correlation with public health interventions",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Linka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peirlinck",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kuhl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Monitoring trends and differences in COVID-19 case fatality rates using decomposition methods: Contributions of age structure and age-specific fatality",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dudel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Riffe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Acosta",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Raalte",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Myrskyla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Infection fatality rate of SARS-CoV-2 infection in a German community with a super-spreading event",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Streeck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Laborbasierte Surveillance von SARS-CoV-2 -weekly report last accessed",
+            "authors": [
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Koch Institute",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Modeling the spatial spread of infectious diseases: The GLobal Epidemic and Mobility computational model",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Balcan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Comput. Sci",
+            "volume": "1",
+            "issn": "",
+            "pages": "132--145",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Amtsblatt des Landkreises Tirschenreuth",
+            "authors": [
+                {
+                    "first": "Landratsamt",
+                    "middle": [],
+                    "last": "Tirschenreuth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Modeling infectious diseases using integro-differential equations: Optimal control strategies for policy decisions and Applications in COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Keimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pflug",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Modeling exit strategies from COVID-19 lockdown with a focus on antibody tests",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "German",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Djanatliev",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Maile",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bazan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hackstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Flattening the Curve: Insights From Queueing Theory. arXiv",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Palomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pender",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Massey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hampshire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Report 4: severity of 2019-novel coronavirus (nCoV). Imperial College London",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dorigatti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Field Briefing: Diamond Princess COVID-19 Cases",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Particle Swarms for Constrained Optimization PhD thesis (Particle Swarms for Constrained Optimization",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Helwig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Particle swarm optimization almost surely finds local optima",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schmitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wanka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Theor. Comput. Sci. 561. Genetic and Evolutionary Computation",
+            "volume": "",
+            "issn": "",
+            "pages": "57--72",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The basic SIQRD model. Unrestrained evolution of the pandemic in Germany based on the basic SIQRD model (schematic lower right) with parameters fit to the initial exponential growth (left).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "demonstrates how the overall COVID-19 cases in Germany would have evolved at initially observed exponential growth without any political interventions -based on the optimized SIQRD model with the model structure and dynamics displayed in 3 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Federal-state-wise dark figure and cross-county interactions. (A) State-wise estimated dark figures following from a Germany-wide constant mortality. (B) Major connectors (lines) between counties (circles) of the network mobility model to predict cross-county infections in the spatial SIQRD model. Circle size (color) increases (from yellow to dark purple) with county area (population density).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Optimized model parameters and validation. Illustration of state-wise optimized values for \u03b2 i (A) and \u03b2 cc,i (B) for i = 1, . . . , 16. (C) County-level evaluation of cumulative quarantined infections Q on two selected dates, showing the difference of infections SIQRD \u2212 RKI, increasing from blue to red, with indicated counties Tirschenreuth (T) and Rosenheim (R). Color scale fixed to [-1000,1000] from [-305,3206] on March 28 and [-1197,4896] on April 25 for comparability and better contrast.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Model predictions. (A) Temporal snapshots of the epidemic spread across Germany, continuing with the identified reduced infection rates \u03b2 i . (B) Scenario comparison on March 28 close to the epidemic peak, with seeds spreading from Heinsberg (H, left), Ischgl (I, center) and both cities (H+I, right). (C) Difference plot of cumulative infections Q between our simulation with seeds from Ischgl and Heinsberg (panel B, right) vs RKI data on March 28. Color scale cropped from [-2230,6550] to [-1000,1000] for better contrast. (D) Refined predictions on April 11 in Bavaria at county vs. city resolution.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Octave 5.2.0 using packages optim 1.6.0, statistics 1.4.1, io 2.4.13, parallel 3.1.3, and splines 1.3.3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": ". https://doi.org/10.1101/2020.06.10.20126771 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Optimized state-wise parameters for the spatially resolved SIQRD model, and percentage of population tested by April 24[31].",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Dr. Lukas Pflug and the entire COVID-19 modeling group at FAU for valuable discussions and feedback on this work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments General"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "Data on the spread of COVID-19 in Germany is publicly available from the respective resources as cited in the paper. We curated county-wise infection data over time from the RKI dashboard [7] . Data on performed tests is publicly available from the Antibiotika Resistenz Surveillance (ARS) instute of the RKI [31] . Simulation scripts are available from the corresponding author at reasonable request.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 191,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 309,
+                    "end": 313,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and materials availability"
+        }
+    ]
+}

@@ -1,0 +1,2048 @@
+{
+    "paper_id": "79877daadf353df9ef7325886ae36555388a8a0c",
+    "metadata": {
+        "title": "Insights on cross-species transmission of SARS-CoV-2 from structural modeling",
+        "authors": [
+            {
+                "first": "Jo\u00e3o",
+                "middle": [
+                    "Pglm"
+                ],
+                "last": "Rodrigues",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Susana",
+                "middle": [],
+                "last": "Barrera-Vilarmau",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jo\u00e3o",
+                "middle": [],
+                "last": "#2",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "CSIC",
+                    "location": {
+                        "addrLine": "Jordi Girona 18-26",
+                        "postCode": "08034",
+                        "settlement": "Barcelona",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Teixeira",
+                "middle": [],
+                "last": "Mc",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elizabeth",
+                "middle": [],
+                "last": "#3",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital for Sick Children",
+                    "location": {
+                        "postCode": "M5G 0A4",
+                        "settlement": "Toronto",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Seckel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Panagiotis",
+                "middle": [],
+                "last": "Kastritis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Martin Luther University Halle-Wittenberg",
+                    "location": {
+                        "addrLine": "Weinbergweg 22",
+                        "postCode": "06120",
+                        "settlement": "Biozentrum, Halle (Saale)",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Levitt",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Stanford University School of Medicine",
+                    "location": {
+                        "postCode": "94305",
+                        "settlement": "Stanford",
+                        "region": "CA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is responsible for the ongoing global pandemic that has infected more than 6 million people in more than 180 countries worldwide. Like other coronaviruses, SARS-CoV-2 is thought to have been transmitted to humans from wild animals. Given the scale and widespread geographical distribution of the current pandemic, the question emerges whether human-to-animal transmission is possible and if so, which animal species are most at risk. Here, we investigated the structural properties of several ACE2 orthologs bound to the SARS-CoV-2 spike protein. We found that species known not to be susceptible to SARS-CoV-2 infection have non-conservative mutations in several ACE2 amino acid residues that disrupt key polar and charged contacts with the viral spike protein. Our models also predict affinityenhancing mutations that could be used to design ACE2 variants for therapeutic purposes. Finally, our study provides a blueprint for modeling viral-host protein interactions and highlights several important considerations when designing these computational studies and analyzing their results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Introduction SARS-CoV-2, a novel betacoronavirus first identified in China in late 2019, is responsible for the ongoing global pandemic that has infected more than 6 million people worldwide and killed nearly 400.000 [1] . Based on comparative genomics, SARS-CoV-2 is thought to have been transmitted to humans from an animal host, most likely bats or pangolins [2] . Given the widespread human-to-human transmission across the globe, the question emerges whether humans can infect other animal species with SARS-CoV-2, namely domestic and farm animals. Identifying potential intermediate hosts that can act as reservoirs for the virus has both important global health, animal welfare, and ecological implications.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "During the course of this pandemic, there have been several news reports of domestic, farm, and zoo animals testing positive for SARS-CoV-2 infection. Belgium [3] and New York [4] reported positive symptomatic cases in cats, The Netherlands reported infection of minks in farms [5] , and the Bronx Zoo in New York reported infections in lions and tigers [6] . In all these cases, the vehicle of transmission appears to be an infected human owner or handler. More importantly, in the case of the mink farms in The Netherlands, there is evidence of human-to-animal-to-human transmission. In addition to these reported cases, several groups put forward both pre-prints and peer-reviewed studies on animal susceptibility to SARS-CoV-2 under controlled laboratory conditions [7] [8] [9] , two of which are of particular interest. The first study showed that cats, civets, and ferrets are susceptible to infection; pigs, chickens, and ducks are not, while the results for dogs were inconclusive [7] . A second study, using human cells expressing recombinant SARS-CoV-2 receptor proteins showed that camels, cattle, cats, horses, sheep, and rabbit can be infected with the virus, but not chicken, ducks, guinea pigs, pigs, mice, and rats [8] . Together, these studies provide a dataset of confirmed susceptible and non-susceptible species that we can use to find molecular discriminants between the two groups. For simplicity, from here on we will refer to susceptible and non-susceptible species as SARS-CoV-2 pos and SARS-CoV-2 neg , respectively.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 278,
+                    "end": 281,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 354,
+                    "end": 357,
+                    "text": "[6]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 770,
+                    "end": 773,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 774,
+                    "end": 777,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 778,
+                    "end": 781,
+                    "text": "[9]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 989,
+                    "end": 992,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1231,
+                    "end": 1234,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Like SARS-CoV-1 before, SARS-CoV-2 infection starts with the binding of the viral spike protein to the extracellular protease domain of angiotensin-converting enzyme 2 (ACE2) [10] , a single-pass transmembrane protein expressed on the surface of a variety of tissues, including along the respiratory tract and the intestine. Several biophysical and structural studies identified helices \u03b11 and \u03b12, as well as a short loop between strands \u03b23 and \u03b24 in ACE2 as the interface for the viral spike protein [10] [11] [12] [13] . These studies also identified key differences between the sequences of the receptor binding domains (RBD) of SARS-CoV-1 and SARS-CoV-2, which explain the stronger interaction of the latter with human ACE2. As such, we can reasonably assume that sequence variation across ACE2 orthologs might explain why some animal species are susceptible to infection while others are not. In addition, combining structural and binding data with the natural diversity of ACE2 across species is likely to shine a light on the key aspects that drive ACE2 interaction to viral RBDs and ultimately help guide the development of therapeutic molecules against SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 179,
+                    "text": "[10]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 501,
+                    "end": 505,
+                    "text": "[10]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 506,
+                    "end": 510,
+                    "text": "[11]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 511,
+                    "end": 515,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 516,
+                    "end": 520,
+                    "text": "[13]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Unsurprisingly, several groups already published, or made available as preprints, multiple sequence and structure-based analyses of how sequence variation affects ACE2 binding to SARS-CoV-2 RBD [14] [15] [16] [17] . Two recent preprints, specifically, focus on the effects of ACE2 variation on RBD binding. The first used an ACE2 sequence library to select for mutants that bind RBD with high affinity, identifying several mutants that enhance or decrease affinity to the viral protein and providing a blueprint for engineering proteins and peptides with therapeutic purposes [14] . While useful, we note that the authors carried out a single round of selection as opposed to the multiple rounds commonly carried out in similar studies. The second study used computational modeling to predict \u0394\u0394G of mutations in 215 animal species and assess their risk for infection [15] . In addition, the authors also identified a number of locations on ACE2 that contribute to binding the viral RBD, in particular residues 31, 38, 353, as well as a cluster of N-terminal hydrophobic amino acid residues.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 199,
+                    "end": 203,
+                    "text": "[15]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 204,
+                    "end": 208,
+                    "text": "[16]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 209,
+                    "end": 213,
+                    "text": "[17]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 576,
+                    "end": 580,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 868,
+                    "end": 872,
+                    "text": "[15]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this study, we aimed to leverage structural, binding, and sequence data to investigate how different ACE2 orthologs bind to SARS-CoV-2 RBD. We selected 29 animal species likely to encounter humans in a variety of residential, industrial, and commercial settings. For each of these species, we generated 3D models of ACE2 bound to RBD and refined these models using short molecular dynamic simulations. After refinement, we found that models of SARS-CoV-2 pos species generally have a lower (better) score than those of SARS-CoV-2 neg species. Further, we carried out a per-residue energy analysis that identified key locations in ACE2 that are consistently mutated across SARS-CoV-2 neg species. Collectively, our results provide a structural framework that explains why certain animal species are not susceptible to SARS-CoV-2 infection, and also suggests potential mutations that can enhance binding to the viral RBD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Sequence conservation of ACE2 orthologs We analyzed the sequence conservation of ACE2 across our dataset, with respect to the entire sequence (591 residues) and to the interface residues computed from a structure of ACE2 bound to RBD (PDB ID: 6m17) (22 residues) ( Table 1 ). All orthologs are reasonably conserved, with global similarity values to the human ACE2 sequence (hACE2) ranging from 72% (goldfish) to 99.5% (chimpanzee) (Figure 1 , left panel). All species coarsely cluster in three classes consistent with evolutionary distance to humans: primates have the highest similarity values, followed by other mammals, birds and reptiles, and finally fish. Zooming in on the interface residues, we find substantially more variation (Figure 1, right panel) . Similarity values for these residues range from 50% (crocodile) to 100% (all 3 primates) but, despite an overall correlation (Pearson R 2 of 0.69), do not always match global similarities. Hedgehogs and sheep, for example, share 86.7% and 86.4% global similarity with hACE2, respectively, but 59% and 95.5% for the interface region. In absolute numbers, these similarities mean that sheep share 21 out of 22 residues with hACE2 at the interface with RBD, while hedgehogs share 13. The horseshoe bat, one of the proposed animal reservoirs for SARS-CoV-2, shares 72.2% interface similarity with hACE2, a comparable value to the 77.3% of the SARS-CoV-2 neg mouse sequence. Altogether, these results prompt two observations. First, neither global nor interface sequence similarity is predictive of SARS-CoV-2 susceptibility. Second, that the interface of the viral RBD is substantially plastic and able to bind to sufficiently different ACE2 orthologs.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 265,
+                    "end": 272,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 431,
+                    "end": 440,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 736,
+                    "end": 759,
+                    "text": "(Figure 1, right panel)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Refinement of the hACE2:RBD complex In order to validate the refinement protocol used in our analysis, we created and refined models of human ACE2 (hACE2) bound to SARS-CoV-2 RBD. We used the cryo-EM structure of full-length human ACE2 bound to the RBD, in the presence of the amino acid transporter B 0 AT1 (PDB ID: 6m17). Compared to a high-resolution crystal structure of the same complex (PDB ID: 6m0j), the cryo-EM structure lacks several key contacts between our two proteins of interest, which we attribute to poor density for side-chain atoms at the interface region. Our refinement protocol restores the majority of these contacts (Table S1) , yielding an average HADDOCK score of -116.2 (arbitrary units) for the 10 best models of the best cluster. See Materials and Methods for further details on the protocol. These negative HADDOCK scores suggest a favorable interface and agree with scores calculated for a reference set of transient protein-protein interactions (N=144, HADDOCK score=-124.9 \u00b1 53.4) [18] . The interfaces in our models are dominated by hydrogen bond interactions involving the ACE2 \u03b11 helix and a small loop between strands \u03b23 and \u03b24. There is one single salt-bridge involving hACE2 D30 and RBD K417 consistently present in all our hACE2 models. These observations all agree with the published crystal structure. Further, the buried surface area of the refined models is also in agreement with published crystal structures (~1800 \u00c5 2 ). As such, considering the low quality of the interface region in our template structure, we are confident that our modeling and refinement protocol is robust enough to model all ACE2 orthologs.",
+            "cite_spans": [
+                {
+                    "start": 1014,
+                    "end": 1018,
+                    "text": "[18]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 640,
+                    "end": 650,
+                    "text": "(Table S1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "We modeled and refined complexes for all 29 ACE2 orthologs in our dataset (Table 1 ) using the same protocol as above. The representative models for each species (10 best models of the best cluster) are available for visualization and download at https://joaorodrigues.github.io/ace2-animal-models/. The HADDOCK scores of all 30 ACE2 complexes (including hACE2) range from -137.5 (dog) to -93.2 (mouse), a significant range that indicates substantial differences between these interfaces (Table 2 and Figure 2 ). The average HADDOCK score is -116.4, very close to that of the human complex (-116.2). Overall, models of SARS-CoV-2 pos species have consistently lower (better) scores than those of SARS-CoV-2 neg species. Although it is well-known that docking scores do not quantitatively correlate with experimental binding affinities [19] , these scores suggest that SARS-CoV-2 neg species lack one or more key ACE2 residues that contribute significantly to the interaction with RBD.",
+            "cite_spans": [
+                {
+                    "start": 835,
+                    "end": 839,
+                    "text": "[19]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 82,
+                    "text": "(Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 501,
+                    "end": 509,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "To understand what forces drive the interactions between ACE2 and SARS-CoV-2 RBD, we quantified the contribution of each component of the HADDOCK scoring function to the overall score ( Figure 3 ). The HADDOCK score is a linear combination of van der Waals, electrostatics, and desolvation energy terms. In our models, electrostatics are the most discriminatory component (Pearson R 2 of 0.60), followed by desolvation (0.31), and finally van der Waals (0.08). These correlations suggest that differences between the models of the different species originate primarily in polar and charged residues, in agreement with observations from experimental structures. In addition, the buried surface area of the models also correlates quite strongly with the HADDOCK score (Pearson R 2 of 0.66), which is unsurprising since larger interfaces tend to make more contacts. Most models bury between 1700 and 1850 \u00c5 2 , in agreement with the crystal and cryo-EM structures, while the topscoring species (dog and goldfish) bury nearly 2000 \u00c5 2 and the lowest-scoring (mouse) bury only 1600 \u00c5 2 . Finally, there is a weak correlation between the average HADDOCK score of the representative models and the sequence similarity of the ACE2 interface residues (Pearson R 2 of 0.18) ( Figure S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 186,
+                    "end": 194,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1266,
+                    "end": 1275,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "Per-residue energetics of the ACE2:RBD interface To gain further insight on how ACE2 sequence variation across the different orthologs affects binding to SARS-CoV-2 RBD, we calculated HADDOCK scores for each interface residue in the refined models ( Figure 4 ). This high-resolution analysis reveals several sites that discriminate between SARS-CoV-2 pos and SARS-CoV-2 neg species.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 250,
+                    "end": 258,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "The first and most relevant of these sites is amino acid 30, which in hACE2 (D30) interacts with RBD K417 to form the only intermolecular salt-bridge of the interface. In all 12 SARS-CoV-2 pos species, this site is occupied by a negatively charged amino acid residue. In contrast, 4 out of 5 SARS-CoV-2 neg species have a hydrophobic or polar residue at this position. The goldfish ACE2 sequence is an interesting outlier, with the second-best HADDOCK score despite having a lysine at position 30 that breaks the intermolecular salt-bridge. The loss of such an important site is compensated by the introduction of an alternative salt-bridge between E34 and RBD R403. Finally, the sequences of the top-scoring models also suggest that between aspartate and glutamate, the latter results in a stronger interaction, likely due to a stabilizing effect of the longer side-chain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "The second site is amino acid 31, a lysine in hACE2, and in nearly all of the SARS-CoV-2 pos species, that interacts both with ACE2 E35 and RBD Q493. The only exceptions are the civet and dromedary sequences, mutated to threonine and glutamate, respectively. In the case of the civet, our models show that T31 can still hydrogen bond with both E35 and RBD Q493. Dromedaries, on the other hand, share E31 with chickens, guinea pigs, and ducks, all SARS-CoV-2 neg species. However, and quite beautifully, dromedaries compensate the possible electrostatic repulsion between E31 and E35 with a lysine at position 76 (Q76 in hACE2) leading to the formation of an additional intramolecular salt-bridge that stabilizes the fold of ACE2 and frees E35 to hydrogen bond with Q493 in 90% of our models. All three SARS-CoV-2 neg species have an additional charge-reversal mutation at position 35, although with different outcomes in our models. In both chicken and duck ACE2, E31 is locked in an intramolecular salt-bridge with R35 in all of our models, losing the intermolecular hydrogen bond with RBD Q493. Lastly, guinea pigs compensate K31E with E35K and remain able to hydrogen bond with RBD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "The third discriminatory site between SARS-CoV-2 pos and SARS-CoV-2 neg species is amino acid 34, a histidine in hACE2 and a polar residue in all SARS-CoV-2 pos species. In our hACE2 models, H34 is doubly-protonated and forms an intramolecular salt-bridge/hydrogen bond with E37 and an intermolecular hydrogen bond with the hydroxyl group of RBD Y453. In addition, in most of our models, the aromatic ring of H34 is close enough (<4.5 \u00c5) to the aliphatic side-chain of RBD L455 to form productive hydrophobic interactions. Our energetic analysis shows that substituting H34 by polar (serine, threonine) or hydrophobic (leucine, valine) residues destabilizes the interface, while substitution by a tyrosine substantially contributes to a stronger interaction. SARS-CoV-2 neg species except mouse and rat have hydrophobic residues at position 34, losing the ability to hydrogen bond with RBD Y453. In addition, the side-chain of RBD L455 is often out of range of hydrophobic interactions. In contrast, the H34Y substitution in the dog, ferret, and civet sequences loses the intramolecular hydrogen bond with E37 but compensates by hydrophobic interactions with nearby RBD residues and hydrogen bonds with RBD R403 (ferret), S494 (civet) or Y495 (dog). In addition, the loss of aromatic residues at position 34 leads to a steep decrease in desolvation energy of the models( Figure S2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1371,
+                    "end": 1380,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "Besides these three major discriminatory sites, we identified three other sites that are systematically mutated in SARS-CoV-2 neg species. The first of these sites is K353 (in hACE2), which is involved in an intramolecular saltbridge with D38 and an additional backbone hydrogen bond with RBD G502. In rat and mouse ACE2, both SARS-CoV-2 neg species, this residue is mutated to a histidine, which weakens the interaction with D38, possibly leading to increased conformational dynamics of the \u03b23-\u03b24 loop and consequently lower binding affinity. Then, position 42, a glutamine in hACE2 and in most other species, hydrogen bonds with RBD Y449 in the majority of our models. In canary, chicken, pigeon, hedgehog, duck, and crocodile ACE2 sequences, this amino acid is mutated to a glutamate. This substitution introduces the possibility of an additional intramolecular salt-bridge with K68, in ACE2 helix \u03b12, which we observe in some of our models, preventing the formation of the intermolecular hydrogen bond. Finally, Y83 in hACE2 is mutated to phenylalanine in canary, chicken, rat, duck, and mouse ACE2, mostly SARS-CoV-2 neg species. Although our models do not offer a clear reason as to why this mutation could be damaging to RBD binding, the loss of the terminal hydroxyl group could have two negative consequences. First, there is the clear loss of two possible hydrogen bonds, with ACE2 Q24 and RBD N487. Then, the gain in hydrophobicity could lead the aromatic moiety to bury between both \u03b11 and \u03b12 helices, causing RBD F486 to lose a valuable interaction partner.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Refinement of orthologous ACE2:RBD complexes"
+        },
+        {
+            "text": "All our models and the scoring statistics are available for visualization and download at https://joaorodrigues.github.io/ace2-animal-models/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Can structural modeling predict cross-species transmission of SARS-CoV-2? Our computational modeling of 30 vertebrate ACE2 orthologs bound to SARS-CoV-2 RBD discriminates between previously reported SARS-CoV-2 pos and SARS-CoV-2 neg species. Models of SARS-CoV-2 neg species -chicken, duck, guinea pig, mouse, and rat -generally have higher (worse) HADDOCK scores than average (Figure 2 ), suggesting that these species' non-susceptibility to infection could stem from deficient RBD binding to ACE2. Despite this clear trend, there are two notable outliers. Our modeling ranks guinea pig ACE2 (SARS-CoV-2 neg ) as a better receptor for SARS-CoV-2 RBD than for example, human, cat, horse, or rabbit ACE2 (all SARS-CoV-2 pos species), despite experiments showing that there is negligible binding between the two proteins [8] . Then, the goldfish ACE2 sequence ranks second among all models, despite reports that fishes are unlikely to be susceptible to infection due to their physiology and environment [20] .",
+            "cite_spans": [
+                {
+                    "start": 819,
+                    "end": 822,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1001,
+                    "end": 1005,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 377,
+                    "end": 386,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "These two results highlight the need for critical thinking when evaluating predictions from computational models. As noted earlier in the introduction, SARS-CoV-2 infection is a complex multi-step process [21] . Thus, while we can assume that impaired ACE2 binding decreases odds of infection, we cannot state that ACE2 binding is predictive of infection. For instance, experiments with recombinant ACE2 show that the pig ortholog binds SARS-CoV-2 RBD and leads to entry of the virus in host cells [8] , but tests in live animals returned negative results [7] . In addition, our modeling protocol makes assumptions about the bound state of the two proteins, starting from the cryo-EM template structure. However, cryo-EM structures of the full-length SARS-CoV-2 spike protein [22] highlight multiple unbound conformations for RBD, and coarse-grained simulations of the hACE2:RBD complex show that there is substantial flexibility in some of the interfacial RBD loops [23] . Altogether, these limitations show that computational models alone cannot predict whether certain animal species are at risk of infection. What our models do predict, however, is that there are distinctive molecular features characteristic of SARS-CoV-2 neg species. As the adage goes, 'all models are wrong, but some are useful.' SARS-CoV-2 neg species lack important polar and charged ACE2 residues On further inspection, we find that SARS-CoV-2 neg models rank worse due to a substantial decrease in electrostatic energy (Figure 3 ), indicating loss of polar interface contacts, namely hydrogen bonds and saltbridges ( Figure 4) . Indeed, models of mouse, duck, rat, and chicken lack the ability to form an intermolecular salt-bridge with RBD due to the loss of hACE2 D30. These predictions are supported by experimental work, where mutants lacking a negative charge at this position are largely unable to bind RBD [14] . Non-conservative mutations at other sites on ACE2 also contribute negatively to the interface scores. Residues K31 and H34 (hACE2) engage multiple neighboring residues in both intra-and intermolecular hydrogen bonds, contributing both to ACE2 fold stability and RBD binding, respectively. Our models suggest that the introduction of a negatively charged residue at position 31 is disruptive to binding, in agreement with experiments [14] . In SARS-CoV-2 pos species, like dromedary camels, this mutation is more likely to be tolerated due to additional compensatory mutations that stabilize the ACE2 fold and still allow for contacts with RBD. In all SARS-CoV-2 neg species except guinea pig however, there are no additional mutations to compensate for this substitution. As for position 34, our predictions contrast with experimental measurements [14] , which show that mutation to a hydrophobic residue improves binding between ACE2 and RBD. In our models, the preference seems to be for aromatic residues (histidine, tyrosine) capable of both hydrogen bonds and hydrophobic interactions. We note, however, that our coverage of sequence space is limited to naturally occurring variants. Unlike in the work referenced before [14] , where the selection driver is RBD binding, natural selection of ACE2 might impose additional constraints on sequence variability. Finally, our models suggest that reduced flexibility of ACE2 might be a positive contributor to RBD binding affinity. Disrupting an intramolecular salt-bridge between D38 and K353 by substituting K353 with a shorter polar amino acid residue is a consistent feature in mice and rats, both SARS-CoV-2 neg species. These results support other computational modeling work [17] that suggest that RBD mutants G496D bind worse to ACE2 because of the disruption of this intramolecular salt-bridge.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[21]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "[8]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 556,
+                    "end": 559,
+                    "text": "[7]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 776,
+                    "end": 780,
+                    "text": "[22]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 967,
+                    "end": 971,
+                    "text": "[23]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1892,
+                    "end": 1896,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2332,
+                    "end": 2336,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2747,
+                    "end": 2751,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 3125,
+                    "end": 3129,
+                    "text": "[14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 3630,
+                    "end": 3634,
+                    "text": "[17]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1498,
+                    "end": 1507,
+                    "text": "(Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1596,
+                    "end": 1605,
+                    "text": "Figure 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Natural variants of ACE2 encode potential affinity-enhancing mutations for SARS-CoV-2 RBD In addition to identifying mutations that impair binding of SARS-CoV-2 RBD, our models suggest several hACE2 variants that could be used to enhance affinity between the two proteins. The clearest affinity enhancer seems to be D30E, a variant observed in 6 of the 8 best scoring species ( Figure 4 ) and shown in experiments to increase binding to RBD [8, 14] . The longer side-chain of a glutamate residue can help strengthen and stabilize the intermolecular salt-bridge with RBD K417. The impact of such conservative mutations in stabilizing protein interactions has been reported previously for other systems [24] . The second predicted enhancer is H34Y, which as we discussed above, contrasts with experimental measurements. In addition to maintaining hydrogen bonds and hydrophobic contacts, our models show that this mutation results in a substantial increase in desolvation energy ( Figure S2 ).",
+            "cite_spans": [
+                {
+                    "start": 441,
+                    "end": 444,
+                    "text": "[8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 445,
+                    "end": 448,
+                    "text": "14]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 701,
+                    "end": 705,
+                    "text": "[24]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 378,
+                    "end": 386,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 979,
+                    "end": 988,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, our protocol combines structural, sequence, and binding data to create a structure-based framework to understand SARS-CoV-2 susceptibility across different animal species. Our models help rationalize the impact of naturally-occurring ACE2 mutations on SARS-CoV-2 RBD binding and explain why certain species are not susceptible to infection with the virus. In addition, we propose possible affinityenhancing mutants that can help guide engineering efforts for the development of ACE2-based antiviral therapeutics. Despite the aforementioned limitations, our protocol and models can easily be replicated using freely-available tools and web servers and serve as a blueprint for future modeling studies on ACE2 interactions with coronaviruses' RBDs. Finally, to prevent human-to-animal transmission, we recommend following the World Organization for Animal Health guidelines: people infected with COVID-19 should limit contact with their pets, as well as with other animals (including humans).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Sequence Alignment of ACE2 Orthologs Sequences of ACE2 orthologs from 28 species were retrieved from NCBI using the human gene as a reference (Gene ID: 59272, updated on 20-Apr-2020) and the query term \"ortholog_gene_59272[group]\". Other species, such as Rhinolophus sinicus, were manually included using custom queries. The sequences were aligned with MAFFT version 7 [25, 26] , using the alignment method FFT-NS-i (Standard). Some sequences had undefined amino acids ('X'), which we converted to glycine to allow modeling without any bias for amino acid identity. All species and the respective protein identifiers are listed in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 369,
+                    "end": 373,
+                    "text": "[25,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 374,
+                    "end": 377,
+                    "text": "26]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 631,
+                    "end": 638,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "All calculations were based on the alignments from MAFFT, restricted to the region used for modeling (residues 21-600). To calculate sequence similarity, we considered the following groups based on physico-chemical properties: charged-positive (Arg, Lys, His), charged-negative (Asp, Glu), aromatic (Phe, Tyr, Trp), polar (Ser, Thr, Asn, Gln), and apolar (Ala, Val, Ile, Met). Cys, Gly, and Pro residues were considered individual classes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition of Sequence Similarity"
+        },
+        {
+            "text": "The modeling of ACE2 orthologs was carried out using MODELLER 9.24 [27] and custom Python scripts (available upon request). We used the cryo-EM structure of the SARS-CoV-2 RBD bound to human ACE2 (PDB ID: 6M17) [12] as a template for all our subsequent models, including all glycans and the coordinates of RBD. To save computational resources, we modeled only the extracellular domain of ACE2, specifically residues 21-600, which are known to be sufficient to bind to RBD. To avoid unwanted deviation from the initial cryo-EM structure, we restricted the optimization and refinement of the models to the coordinates of atoms of mutated or inserted residues. We used the fastest library schedule for model optimization and the very_fast schedule for model refinement. For each species, we generated 10 backbone or loop models and selected the one with the lowest normalized DOPE score as a representative. These final models were then processed to remove any sugar molecules in species where the respective asparagine residue had been mutated.",
+            "cite_spans": [
+                {
+                    "start": 67,
+                    "end": 71,
+                    "text": "[27]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 211,
+                    "end": 215,
+                    "text": "[12]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Modeling of ACE2 Orthologs"
+        },
+        {
+            "text": "The initial complex models were prepared for refinement using the pdb-tools suite [28] . Each chain was separated into a different PDB file (pdb_selchain) and standardized with TER and END statements (pdb_tidy). We used HADDOCK 2.4 [29] to carry out the refinement of the models. The protein molecules were parameterized using the standard force field in HADDOCK, while the sugars were parameterized using updated parameters for carbohydrates [30] . We used a modified version of the topology generation scripts to allow automatic detection of N-linked glycans and expand the range of the interface refinement (10 \u00c5 distance cutoff). Each initial homology model was refined through 50 independent short molecular dynamics simulations in explicit solvent (solvshell=True). These refined models were then clustered using the FCC algorithm [31] with default parameters and scored using the HADDOCK score, a linear combination of van der Waals, electrostatics, and desolvation. A lower HADDOCK score is better. The top 10 models of the top scoring cluster, ranked by its average HADDOCK score, were selected as representatives of the complex.",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 86,
+                    "text": "[28]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 232,
+                    "end": 236,
+                    "text": "[29]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 443,
+                    "end": 447,
+                    "text": "[30]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 837,
+                    "end": 841,
+                    "text": "[31]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Refinement of ACE2:RBD complexes"
+        },
+        {
+            "text": "Analysis of interface contacts of refined ACE2:RBD complexes We used the interfacea analysis library (version 0.1) (http://doi.org/10.5281/zenodo.3516439) to identify intermolecular contacts between hACE2 and RBD, specifically hydrogen bonds, salt bridges, and aromatic ring stacking. Hydrogen bonds were defined between any donor atom (nitrogen, oxygen, or sulfur bound to a hydrogen atom) within 2.5 \u00c5 of an acceptor atom (nitrogen, oxygen, or sulfur), if the donor-hydrogen-acceptor angle was between 120 and 180 degrees. Salt bridges were defined between two residues with a pair of cationic/anionic groups within 4 \u00c5 of each other. Finally, two aromatic residues were defined as stacking if the centers of mass of the aromatic groups were within 7.5 \u00c5 (pi-stacking) or 5 \u00c5 (t-stacking) and the angle between the planes of the rings was between 0 and 30 degrees (pi-stacking) or between 60 and 90 degrees (t-stacking). Additionally, for pi-stacking interactions, the projected centers of both rings must fall inside the other ring. For each modelled species, we took the 10 best models of the best cluster, judged by their HADDOCK score, and aggregated all their contacts together. Contacts present in at least 5 models were considered representative.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Refinement of ACE2:RBD complexes"
+        },
+        {
+            "text": "Per-residue decomposition of HADDOCK scores We used a custom CNS [32] script to calculate the HADDOCK score of each residue at the interface between ACE2 and RBD. Briefly, the protocol was the following. For each model, since HADDOCK uses a united-atom force field, we first added missing hydrogen atoms and minimized their coordinates, keeping all other atoms fixed. We marked a residue of ACE2 as part of the interface if any of its atoms were within 5 \u00c5 of any atom of RBD, and vice-versa. We then calculated the electrostatics, van der Waals, and desolvation energies for each of these residues, considering only atoms belonging to the other protein chain. Note that this protocol does not account for intramolecular effects of mutations. Finally, we calculated the HADDOCK score per residue, using the default scoring function weights, and averaged per-residue values for the best 10 models of the best cluster of each species. . HADDOCK scores of modeled ACE2 orthologs bound to SARS-CoV-2 RBD. The HADDOCK score predicts the strength of the interaction between proteins. Models of SARS-CoV-2 pos species (green) generally have better (more negative) scores than SARS-CoV-2 neg species (red), suggesting that impaired binding between the two proteins might explain differences in viral susceptibility. The scores shown here are the average of the 10 best models for each ACE2 ortholog. Figure 3 . Correlation of HADDOCK score with individual energy terms and structural features. Differences in electrostatics energy contribute the most towards discriminating SARS-CoV-2 pos species (green) from SARS-CoV-2 neg species (red), supporting observations of hydrogen bonding networks and charged interactions in experimental structures. The buried surface area of the models is also correlated with their HADDOCK score. The units for van der Waals and electrostatics energies, desolvation, and buried surface area are kcal.mol -1 , arbitrary units, and \u00c5 2 , respectively. The human complex is shown in black for reference. Figure 4 . HADDOCK score of individual ACE2 interface residues. Amino acid residues at positions 30, 31, 34, and 353 are predicted to be the largest contributors to the stability of the interface. SARS-CoV-2 neg (red labels) species consistently show changes in these positions which could explain their non-susceptibility to the virus. The top-scoring SARS-CoV-2 pos (green labels) also suggest that hACE2 D30E and H34Y could potentially act as affinity enhancers. For each species, each block represents an interface residue of ACE2. The identity of the amino acid is shown in one-letter codes. The colors represent the average HADDOCK score of each particular residue over the best 10 models: lower scores (blue) indicate more favorable interactions. Positive scores (dark red) indicate steric clashes or electrostatic repulsion. Blank squares indicate that in that ortholog, that position is not part of the interface of the complex. Residues marked with *, and ** are observed to form hydrogen bonds or salt-bridges in the hACE2:RBD crystal structure, respectively. See Materials and Methods for additional details on definitions. Figure S1 . Correlation between interface sequence similarity to hACE2 and HADDOCK score. Figure S2 . Desolvation energy of individual ACE2 interface residues. Aromatic residues at position 34 contribute the most to the gain in desolvation energy across all species of the complex, indicating that H34Y could be a potential affinity enhancing mutation in hACE2. For each species, each block represents an interface residue of ACE2. The identity of the amino acid is shown in one-letter codes. The colors represent the average desolvation energy of each particular residue over the best 10 models: lower scores (blue) indicate more favorable interactions. Blank squares indicate that in that ortholog, that position is not part of the interface of the complex. Residues marked with *, and ** are observed to form hydrogen bonds or salt-bridges in the hACE2:RBD crystal structure, respectively. See Materials and Methods for additional details on definitions.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 69,
+                    "text": "[32]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1392,
+                    "end": 1400,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 2025,
+                    "end": 2033,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 3161,
+                    "end": 3170,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 3251,
+                    "end": 3260,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Refinement of ACE2:RBD complexes"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "533--534",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20)30120-1"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The proximal origin of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Lipkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "450--452",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0820-9"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A cat appears to have caught the coronavirus, but it's complicated",
+            "authors": [],
+            "year": 2020,
+            "venue": "Science News",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Mink infected two humans with coronavirus: Dutch government. Reuters. 25",
+            "authors": [],
+            "year": 2020,
+            "venue": "Confirmation of COVID-19 in Two Pet Cats in New York | CDC Online Newsroom | CDC",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Seven more big cats test positive for coronavirus at Bronx Zoo. In: Animals [Internet",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Susceptibility of ferrets, cats, dogs, and other domesticated animals to SARS-coronavirus 2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "1016--1020",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb7015"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Potential host range of multiple SARS-like coronaviruses and an improved ACE2-Fc variant that is potent against both SARS-CoV-2 and SARS-CoV-1. Microbiology",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.10.032342"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Simulation of the clinical and pathological manifestations of Coronavirus Disease 2019 (COVID-19) in golden Syrian hamster model: implications for disease pathogenesis and transmissibility",
+            "authors": [
+                {
+                    "first": "Jf-W",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vk-M",
+                    "middle": [],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cc-S",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ac-Y",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa325"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Structural and Functional Basis of SARS-CoV-2 Entry by Using Human ACE2",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "894--904",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.03.045"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "581",
+            "issn": "",
+            "pages": "215--220",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2180-5"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Structural basis for the recognition of SARS-CoV-2 by fulllength human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1444--1448",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2762"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Structural basis of receptor recognition by SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Aihara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "581",
+            "issn": "",
+            "pages": "221--224",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2179-y"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The sequence of human ACE2 is suboptimal for binding the S spike protein of SARS coronavirus 2. Biochemistry",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Procko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.16.994236"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "SARS-CoV-2 spike protein predicted to form stable complexes with host receptor protein orthologues from mammals",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bordin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Waman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Scholes",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ashford",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioinformatics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.01.072371"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Receptor Recognition by the Novel Coronavirus from Wuhan: an Analysis Based on Decade-Long Structural Studies of SARS Coronavirus",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Virol",
+            "volume": "94",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.00127-20"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "SARS-CoV-2, an evolutionary perspective of interaction with human ACE2 reveals undiscovered amino acids necessary for complex stability",
+            "authors": [
+                {
+                    "first": "Armijos-Jaramillo V",
+                    "middle": [],
+                    "last": "Yeager",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Muslin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Perez-Castillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Evol Appl",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/eva.12980"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Proteins Feel More Than They See: Fine-Tuning of Binding Affinity by Properties of the Non-Interacting Surface",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kastritis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jpglm",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Folkers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Boelens",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amjj",
+                    "middle": [],
+                    "last": "Bonvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Mol Biol",
+            "volume": "426",
+            "issn": "",
+            "pages": "2632--2652",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmb.2014.04.017"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Are Scoring Functions in Protein\u2212Protein Docking Ready To Predict Interactomes? Clues from a Novel Binding Affinity Benchmark",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kastritis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amjj",
+                    "middle": [],
+                    "last": "Bonvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Proteome Res",
+            "volume": "9",
+            "issn": "",
+            "pages": "2216--2225",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/pr9009854"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Viewpoint: SARS-CoV-2 (The Cause of COVID-19 in Humans) is Not Known to Infect Aquatic Food Animals nor Contaminate Their Products",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Bondad-Reantaso",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fisheries",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aquaculture",
+                    "middle": [],
+                    "last": "Department ; Mackinnon",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jie",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tang-Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian Fish Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.33997/j.afs.2020.33.1.009"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "R\u00e9nia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Macary",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lfp",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Immunol",
+            "volume": "20",
+            "issn": "",
+            "pages": "363--374",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41577-020-0311-8"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mcguire",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Veesler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "281--292",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.058"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Coarse-grained molecular simulations of the binding of the SARS-CoV 2 spike protein RBD to the ACE2 cell receptor",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Sancho",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gavira",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "P\u00e9rez-Jim\u00e9nez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biophysics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.07.083212"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Dynamic Control of Selectivity in the Ubiquitination Pathway Revealed by an ASP to GLU Substitution in an Intra-Molecular Salt-Bridge Network",
+            "authors": [
+                {
+                    "first": "Sjl",
+                    "middle": [],
+                    "last": "Van Wijk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Asj",
+                    "middle": [],
+                    "last": "Melquiond",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "De Vries",
+                    "suffix": ""
+                },
+                {
+                    "first": "Timmers",
+                    "middle": [],
+                    "last": "Hthm",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amjj",
+                    "middle": [],
+                    "last": "Bonvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS Comput Biol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pcbi.1002754"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Misawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Nucleic Acids Res",
+            "volume": "30",
+            "issn": "",
+            "pages": "3059--3066",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkf436"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "aLeaves facilitates on-demand exploration of metazoan gene family trees on MAFFT sequence alignment server with enhanced interactivity",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kuraku",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zmasek",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nucleic Acids Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "22--28",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkt389"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Comparative protein modelling by satisfaction of spatial restraints",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blundell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Mol Biol",
+            "volume": "234",
+            "issn": "",
+            "pages": "779--815",
+            "other_ids": {
+                "DOI": [
+                    "10.1006/jmbi.1993.1626"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "pdb-tools: a swiss army knife for molecular structures",
+            "authors": [
+                {
+                    "first": "Jpglm",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jmc",
+                    "middle": [],
+                    "last": "Teixeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Trellet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amjj",
+                    "middle": [],
+                    "last": "Bonvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.12688/f1000research.17456.1"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The HADDOCK2.2 Web Server: User-Friendly Integrative Modeling of Biomolecular Complexes",
+            "authors": [
+                {
+                    "first": "Gcp",
+                    "middle": [],
+                    "last": "Van Zundert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jpglm",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Trellet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kastritis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karaca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Mol Biol",
+            "volume": "428",
+            "issn": "",
+            "pages": "720--725",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmb.2015.09.014"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Compatible topologies and parameters for NMR structure determination of carbohydrates by simulated annealing",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS ONE",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0189700"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Clustering biomolecular complexes by residue contacts similarity",
+            "authors": [
+                {
+                    "first": "Jpglm",
+                    "middle": [],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Trellet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schmitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kastritis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karaca",
+                    "suffix": ""
+                },
+                {
+                    "first": "Asj",
+                    "middle": [],
+                    "last": "Melquiond",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proteins Struct Funct Bioinforma",
+            "volume": "80",
+            "issn": "",
+            "pages": "1810--1817",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/prot.24078"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Version 1.2 of the Crystallography and NMR system",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Brunger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nat Protoc",
+            "volume": "2",
+            "issn": "",
+            "pages": "2728--2733",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nprot.2007.406"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Sheep -126",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "P. G. L. M. Rodrigues, Susana Barrera-Vilarmau, Jo\u00e3o M. C. Teixeira, Panagiotis Kastritis Writing -Original Draft: Jo\u00e3o P. G. L. M. Rodrigues, Jo\u00e3o M. C. Teixeira, Susana Barrera-Vilarmau, Elizabeth Seckel Writing -Review and Editing: Jo\u00e3o P. G. L. M. Rodrigues, Susana Barrera-Vilarmau, Jo\u00e3o M. C. Teixeira, Elizabeth Seckel, Panagiotis Kastritis Sequence similarity of ACE2 orthologs to human ACE2. Global sequence similarity values range from 70-95%, while similarity values for residues interacting with SARS-CoV-2 RBD (derived from 6m17) range from 50-100%. Species are ordered by decreasing global sequence similarity to human ACE2. Colors indicate known susceptibility to infection: SARS-CoV-2 pos species in green, SARS-CoV-2 neg species in red, others in gray.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 2. HADDOCK scores of modeled ACE2 orthologs bound to SARS-CoV-2 RBD. The HADDOCK score predicts the strength of the interaction between proteins. Models of SARS-CoV-2 pos species (green) generally have better (more negative) scores than SARS-CoV-2 neg species (red), suggesting that impaired binding between the two proteins might explain differences in viral susceptibility. The scores shown here are the average of the 10 best models for each ACE2 ortholog.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Interface contacts of refined human ACE2:RBD",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements JPGLMR acknowledges support from the Molecular Sciences Software Institute (ACI-1547580). JPGLMR and ML acknowledge funding from the National Institutes of Health USA (R35GM122543). PLK acknowledges funding from the Federal Ministry for Education and Research (BMBF, ZIK program) (02Z22HN23) and the European Regional Development Funds for Saxony-Anhalt (EFRE: ZS/2016/04/78115). The authors thank T. Dots, K. Lindorff-Larsen, J. Puglisi, and R. Fernandes for feedback and encouragement during the course of the project.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

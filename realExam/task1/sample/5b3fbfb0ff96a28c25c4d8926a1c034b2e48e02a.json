@@ -1,0 +1,1285 @@
+{
+    "paper_id": "5b3fbfb0ff96a28c25c4d8926a1c034b2e48e02a",
+    "metadata": {
+        "title": "Acute cholecystitis during COVID-19 pandemic: a multisocietary position statement",
+        "authors": [
+            {
+                "first": "Fabio",
+                "middle": [
+                    "Cesare"
+                ],
+                "last": "Campanile",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mauro",
+                "middle": [],
+                "last": "Podda",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Arezzo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emanuele",
+                "middle": [],
+                "last": "Botteri",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Sartori",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mario",
+                "middle": [],
+                "last": "Guerrieri",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elisa",
+                "middle": [],
+                "last": "Cassinotti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Irnerio",
+                "middle": [],
+                "last": "Muttillo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marcello",
+                "middle": [],
+                "last": "Pisano",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Riccardo",
+                "middle": [
+                    "Brachet"
+                ],
+                "last": "Contul",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Giancarlo",
+                "middle": [],
+                "last": "D&apos;ambrosio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Diego",
+                "middle": [],
+                "last": "Cuccurullo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carlo",
+                "middle": [],
+                "last": "Bergamini",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marco",
+                "middle": [
+                    "Ettore"
+                ],
+                "last": "Allaix",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Valerio",
+                "middle": [],
+                "last": "Caracino",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wanda",
+                "middle": [
+                    "Luisa"
+                ],
+                "last": "Petz",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marco",
+                "middle": [],
+                "last": "Milone",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gianfranco",
+                "middle": [],
+                "last": "Silecchia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gabriele",
+                "middle": [],
+                "last": "Anania",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Antonino",
+                "middle": [],
+                "last": "Agrusa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Salomone",
+                "middle": [
+                    "Di"
+                ],
+                "last": "Saverio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Salvatore",
+                "middle": [],
+                "last": "Casarano",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Caterina",
+                "middle": [],
+                "last": "Cicala",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Piero",
+                "middle": [],
+                "last": "Narilli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sara",
+                "middle": [],
+                "last": "Federici",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Massimo",
+                "middle": [],
+                "last": "Carlini",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alessandro",
+                "middle": [],
+                "last": "Paganini",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paolo",
+                "middle": [
+                    "Pietro"
+                ],
+                "last": "Bianchi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Adelona",
+                "middle": [],
+                "last": "Salaj",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Mazzari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Roberto",
+                "middle": [
+                    "Luca"
+                ],
+                "last": "Meniconi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alessandro",
+                "middle": [],
+                "last": "Puzziello",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Giovanni",
+                "middle": [],
+                "last": "Terrosu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Belinda",
+                "middle": [],
+                "last": "De Simone",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Federico",
+                "middle": [],
+                "last": "Coccolini",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fausto",
+                "middle": [],
+                "last": "Catena",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ferdinando",
+                "middle": [],
+                "last": "Agresta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Following the spread of the infection from the new SARS-CoV2 coronavirus in March 2020, several surgical societies have released their recommendations to manage the implications of the COVID-19 pandemic for the daily clinical practice. The recommendations on emergency surgery have fueled a debate among surgeons on an international level. We maintain that laparoscopic cholecystectomy remains the treatment of choice for acute cholecystitis, even in the COVID-19 era. Moreover, since laparoscopic cholecystectomy is not more likely to spread the COVID-19 infection than open cholecystectomy, it must be organized in such a way as to be carried out safely even in the present situation, to guarantee the patient with the best outcomes that minimally invasive surgery has shown to have.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Following the spread of the infection from the new SARS-CoV2 coronavirus in March 2020, several surgical societies have released their recommendations to manage the implications of the COVID-19 pandemic for the daily clinical practice.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The recommendations on emergency surgery have fueled a debate among surgeons on an international level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The SICE (Societ\u00e0 Italiana di Chirurgia Endoscopica e Nuove Tecnologie), ACS-Italy Chapter (American College of Surgeons), AICO (Associazione Italiana infermieri di Camera Operatoria), CRSA (Clinical Robotic Surgery Association), SICG (Societ\u00e0 Italiana di Chirurgia Geriatrica), SICOP (Societ\u00e0 Italiana di Chirurgia dell'Ospedalit\u00e0 Privata), SPIGC (Societ\u00e0 Polispecialistica Italiana dei Giovani Chirurghi), and the WSES (World Society of Emergency Surgery) have come out in favor of a rational analysis of the issue, especially about the choice of the surgical techniques to be implemented, preferring a \"selective\" approach that does not exclude the use of laparoscopy a priori but, instead, strongly considers it. This approach is based on an analysis of the organization of human and logistical resources within which each of us operates, and takes into account the surgical skills that each surgeon has developed in the non-COVID era.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The British Intercollegiate General Surgery Guidance on COVID-19 stated that during the COVID-19 pandemic, \"whenever non-operative management is possible (such as for early appendicitis and acute cholecystitis), this should be implemented\" [1].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "Other surgical societies, however, including the SICE, the Society of American Gastrointestinal and Endoscopic Surgeons (SAGES), and the European Association for Endoscopic Surgery (EAES), have recommended a more patient-centered and hospital-centered approach [2-4].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "There is still an essential ongoing debate on the specific question: \"should we change our surgical indications for urgent conditions in this global situation?\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "Reports from China told us that asymptomatic COVID-19-positive patients undergoing surgery go against unfavorable clinical outcomes, characterized by increased mortality and pulmonary complication rates [5] .",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 206,
+                    "text": "[5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "This issue, along with the increased non-surgical care load that has impacted, and in some cases continues to impact profoundly on the activity of many hospitals in the world and also in Italy, has favored a change in the therapeutic approach for some surgical diseases, including acute cholecystitis (AC).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "The debate that arose from these recommendations has revealed some further concerns about the possible evolution towards the aggravation of AC during nonoperative treatment, such as to require a higher level of care following the failure of antibiotic therapy. A level of care that would not be possible to achieve in specific contexts with intensive care units still occupied by patients with COVID pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "As a scientific society, we must remember that therapeutic indications are established based on the best scientific evidence available at the moment and organizational choices must be founded on the evidence that science and research make available to health systems. This underlying assumption should never be forgotten, and even the possible revision of the surgical indications for the COVID-19 emergency (or other future emergencies) should take into account this fundamental principle.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "Therefore, it is necessary to refer to the best available evidence to choose the therapeutic strategy for our patients, and do not allow the pressure imposed by the emergency conditioning to change our choices.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Surgical societies and recommendations"
+        },
+        {
+            "text": "Laparoscopic cholecystectomy (LC) remains the treatment of choice for AC, even in the COVID-19 era.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "All current guidelines recommend LC as the gold standard of therapy for AC, because of the better results in terms of mortality, morbidity, and postoperative hospital stay compared to open cholecystectomy (OC) [6] [7] [8] .",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 213,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "[8]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "The Italian guidelines, promoted by SICE in 2012 in collaboration with all the leading Italian scientific societies [8] and our evidence-based guidelines on laparoscopic cholecystectomy published in 2015 [6] , reiterated that \"patients with acute cholecystitis should be treated with laparoscopic cholecystectomy\" with a grade of recommendation A in the former and \"strong\" in the latter. This indication also applies in the case of elderly patients and those with severe AC. The guidelines from the World Society of Emergency Surgery (WSES) agree with this setting [7, 9] .",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 119,
+                    "text": "[8]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 566,
+                    "end": 569,
+                    "text": "[7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 570,
+                    "end": 572,
+                    "text": "9]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Several studies have emphasized that many toxic components of the surgical smoke may endanger the operating team's health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Blood-borne viruses (HPV, HBV, HIV) are known to be present in the plume produced by electrocautery and other energy devices [10, 11] . However, although the SARS-Cov-2 RNA has recently been detected in the peritoneal cavity [12] , there is no evidence to indicate the presence of SARS-CoV-2 in surgical smoke.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 129,
+                    "text": "[10,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 130,
+                    "end": 133,
+                    "text": "11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 225,
+                    "end": 229,
+                    "text": "[12]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "No evidence emerged suggesting that the risk of COVID-19 infection related to LC may be higher than that of OC, neither for the patient nor for the health professionals. Therefore, this working group does not consider that patients should be denied the benefits that high-quality studies have shown to be associated with LC. We recommend surgeons to take the necessary safety measures to reduce the risk of viral diffusion in the operating theater and ensure that patients continue to benefit from advantages of laparoscopic surgery [13] .",
+            "cite_spans": [
+                {
+                    "start": 533,
+                    "end": 537,
+                    "text": "[13]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "If, on the one hand, laparoscopy contains the surgical smoke within the peritoneal cavity, on the other, the pneumoperitoneum evacuation could put the staff at risk of infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "We suggest filtering the pneumoperitoneum through filters able to remove most viral particles. The ULPA (ultralow particulate air) filters are extremely efficient to filter the SARS-CoV-2 virus whose diameter is about 0.06-0.14 \u03bcm. According to the ISO standard 29463 (issued to harmonize the European Standard EN 1822 and the US MIL-STD-282), an ULPA filter must have a \u2265 99.9995% efficiency at filtering particles with a MMPS (most penetrating particle size) of 0.12 \u03bcm. The MMPS is the particle that the filter is less efficient to remove. Smaller particles are filtered with an even higher efficiency. The use of these filters is recommended [3, 4, 13].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "It is crucial nowadays to examine the evidence concerning the timing of LC for AC, which compares the results of \"early\" cholecystectomy with those of \"delayed\" cholecystectomy, that is carried out after a period of conservative therapy to overcome the acute phase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Early cholecystectomy is recommended in all the guidelines mentioned above, based on the results of several meta-analyses of randomized controlled trials that compared the two different approaches. It has been demonstrated that early cholecystectomy (i.e., performed \"as soon as possible\" after the onset of symptoms and, in any case, not later than the tenth day from it) has not shown inferior results compared with the delayed one in terms of morbidity, mortality, and conversion rate (i.e., six weeks after the acute episode).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Therefore, early cholecystectomy is preferable to the delayed, for its shorter overall length of hospitalization (considering the sum of the stay of the first hospitalization-that is, of acute cholecystitis-and the second-that of the delayed intervention).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "The equivalency of the two strategies in terms of morbidity, mortality, and conversion rate cannot justify the systematic use of delayed cholecystectomy. During the COVID epidemic, it may instead be desirable to postpone the surgical act away from the epidemic period, even at the cost of greater use of resources of the health system (length of stay).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "The equivalency in terms of morbidity and mortality between the two approaches can be a solid basis for more extensive use of delayed cholecystectomy, based on the analysis of the human and logistical resources of the hospital in which each of us works, the organizational pathways adopted, and the local epidemiological situation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "It is mandatory that during the conservative treatment period, attention must be paid to monitoring sepsis parameters and pain progression despite appropriate analgesic therapy. The danger of progress of the septic state and the risk of progression towards the gangrene, emphysematous cholecystitis, or the rupture of the gallbladder may, anyway, require emergency cholecystectomy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "If it is true that in the pre-COVID period, cholecystectomy in patients classified as high risk according to the various guidelines has a mortality rate that can reach 19% [14] , clearly this aspect assumes greater relevance in positive or suspected COVID-19 patients, which are considered at high surgical risk in themselves.",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 176,
+                    "text": "[14]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Both the incidence of AC and the mortality from COVID-19 are higher in elderly patients. Although elderly patients are more likely to present with different comorbidities that complicate any postoperative course, early LA for AC is safe and effective in this group of patients, albeit burdened by increasing conversion rates [15] . The Italian guidelines (by SICE, ACOI, SIC, SICUT, SICOP) on LC [6] and the recent WSES guidelines [7, 9] refer as in the case of patients with prohibitive surgical risk (\"unfit for surgery\") percutaneous drainage of the gallbladder may be considered after the failure of conservative therapy with antibiotics. However, it must be stressed that advanced age, or other factors of higher COVID-19 risk, cannot be regarded as sufficient to indicate this alternative treatment except in real conditions of the impracticability of cholecystectomy.",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 329,
+                    "text": "[15]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 431,
+                    "end": 434,
+                    "text": "[7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 435,
+                    "end": 437,
+                    "text": "9]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "The analysis of the international literature, despite being mainly based on observational studies with a low level of evidence, demonstrates a high mortality rate for patients undergoing percutaneous gallbladder drainage. High mortality was also shown in recent extensive retrospective analyzes [16, 17] .",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 299,
+                    "text": "[16,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 300,
+                    "end": 303,
+                    "text": "17]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Moreover, the CHOCOLATE trial, a randomized controlled trial that had been started to compare the results of percutaneous drainage vs cholecystectomy, was prematurely terminated because the ethical problems arising from the observation of the high mortality in patients who underwent percutaneous drainage did not allow the further continuation of the study [18] .",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[18]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "As indicated, the execution of a percutaneous cholecystostomy (only in patients with prohibitive surgical risk) takes place, as specified above, after the failure of conservative therapy, which constitutes the first therapeutic strategy in these particularly fragile patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "Of all the options currently listed in the literature (percutaneous transhepatic cholecystostomy, transpapillary drainage, transmural drainage), percutaneous transhepatic cholecystostomy is generally the preferred one, due to its simplicity of execution, safety, and reduced costs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "The optimal timing for performing percutaneous cholecystostomy is widely debated. However, when the cholecystostomy is carried out within 24 h from the onset of the clinical presentation is associated with fewer complications in terms of bleeding and lower hospital stay [19] . However, the timing of percutaneous cholecystostomy depends primarily on the clinical indication. Urgent drainage should be considered in case of severe sepsis in a patient not eligible for surgery.",
+            "cite_spans": [
+                {
+                    "start": 271,
+                    "end": 275,
+                    "text": "[19]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "For the remaining patients not eligible for surgery, it is common practice to proceed with cholecystostomy if the patient does not improve within 1-3 days of starting antibiotic therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What therapeutic strategy for acute cholecystitis during the COVID-19 pandemic?"
+        },
+        {
+            "text": "We maintain that, since laparoscopy is not more likely to spread the COVID-19 infection than open surgery, it must be organized in such a way as to be carried out safely even in the present situation, to guarantee the patient with the best outcomes that minimally invasive surgery has shown to have. In the case of patients unfit for surgery, percutaneous transhepatic cholecystostomy may be considered after the failure of conservative therapy with antibiotics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Division of General Surgery",
+            "authors": [],
+            "year": null,
+            "venue": "SS",
+            "volume": "554",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Department of Surgical Sciences",
+            "authors": [
+                {
+                    "first": "Italy",
+                    "middle": [],
+                    "last": "Cagliari",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "ASST Spedali Civili di Brescia",
+            "volume": "",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Ospedale San Filippo Neri, Roma, Italy. 9 Department of General Surgery, Ospedale San Marcellino di Muravera, Cagliari, Italy. 10 Department of General and Emergency Surgery",
+            "authors": [],
+            "year": null,
+            "venue": "Surgical Specialties and Organ Transplantation",
+            "volume": "",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "23 Division of General Surgery, Casa di Cura Nuova Itor",
+            "authors": [],
+            "year": null,
+            "venue": "Fondazione Policlinico Gemelli IRCSS",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "26 Department of General and Minimally Invasive Surgery, Misericordia Hospital",
+            "authors": [],
+            "year": 2020,
+            "venue": "33 Emergency and Trauma Surgery",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical characteristics and outcomes of patients undergoing surgeries during the incubation period of COVID-19 infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.eclinm.2020.100331"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Laparoscopic cholecystectomy: consensus conference-based guidelines. Langenbeck's Arch Surg",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Agresta",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Campanile",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vettoretto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "400",
+            "issn": "",
+            "pages": "429--53",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00423-015-1300-4"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Laparoscopic approach to acute abdomen from the Consensus Development Conference of the Societ\u00e0 Italiana di Chirurgia Endoscopica e nuove tecnologie (SICE)",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Agresta",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ansaloni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Baiocchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Associazione Chirurghi Ospedalieri Italiani (ACOI), Societ\u00e0 Italiana di Chirurgia (SIC), Societ\u00e0 Italiana di Chirurgia d'Urgenza e del Trauma (SICUT)",
+            "volume": "26",
+            "issn": "",
+            "pages": "2134--64",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00464-012-2331-3"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "WSES and SICG guidelines on acute calcolous cholecystitis in elderly population",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pisano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ceresoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cimbanassi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "World J Emerg Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13017-019-0224-7"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Surgical smoke and infection control",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Alp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bijl",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bleichrodt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Hosp Infect",
+            "volume": "62",
+            "issn": "1",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jhin.2005.01.014"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Detecting hepatitis B virus in surgical smoke emitted during laparoscopic surgery",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kwak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Seo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Occup Environ Med",
+            "volume": "73",
+            "issn": "12",
+            "pages": "857--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/oemed-2016-103724"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "SARS-C oV-2 is present in peritoneal fluid in COVID-19 patients. Ann Surg. 2020. E-published ahead-of-print",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Coccolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tartaglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Puglisi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A low cost, safe and effective method for smoke evacuation in laparoscopic surgery for suspected coronavirus patients",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mintz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arezzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Boni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SLA.0000000000003965"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Systematic review of cholecystostomy as a treatment option in acute cholecystitis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Winbladh",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gullstrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Svanvik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "HPB (Oxford)",
+            "volume": "11",
+            "issn": "",
+            "pages": "183--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1477-2574.2009.00052.x"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Cholecystectomy in elderly: challenge and critical analysis of available evidence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Puzziello",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Landi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Vicinanza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "299--309",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Outcome comparison between percutaneous cholecystostomy and cholecystectomy: a 10-year population-based analysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Surg",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12893-017-0327-6"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Emergent cholecystectomy is superior to percutaneous cholecystostomy tube placement in critically ill patients with emergent calculous cholecystitis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Armijo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Krause",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am J Surg",
+            "volume": "216",
+            "issn": "",
+            "pages": "116--125",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.amjsurg.2017.11.002"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Laparoscopic cholecystectomy versus percutaneous catheter drainage for acute cholecystitis in high risk patients (CHOCOLATE): multicentre randomised clinical trial",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Loozen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Van Santvoort",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Duijvendijk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "BMJ",
+            "volume": "363",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.k3965"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Early percutaneous cholecystostomy in severe acute cholecystitis reduces the complication rate and duration of hospital stay",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Medicine (Baltimore)",
+            "volume": "94",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MD.0000000000001096"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "All the authors contributed equally to this article. The author(s) read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' contributions"
+        },
+        {
+            "text": "This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "There are no individual author data that reach the criteria for availability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials"
+        },
+        {
+            "text": "No ethical approval was required for this article. The authors are accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval and consent to participate"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        }
+    ]
+}

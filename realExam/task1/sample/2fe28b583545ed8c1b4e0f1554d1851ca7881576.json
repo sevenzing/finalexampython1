@@ -1,0 +1,547 @@
+{
+    "paper_id": "2fe28b583545ed8c1b4e0f1554d1851ca7881576",
+    "metadata": {
+        "title": "Guillain-Barr\u00e9 syndrome during SARS-CoV-2 pandemic: A case report and review of recent literature",
+        "authors": [
+            {
+                "first": "Erika",
+                "middle": [],
+                "last": "Scheidl",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Dierdorf-Selters",
+                    "location": {
+                        "addrLine": "Waldstr. 5",
+                        "postCode": "56242",
+                        "settlement": "Selters, Selters",
+                        "country": "Germany, Germany"
+                    }
+                },
+                "email": "erika.scheidl@gmail.com"
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Daniel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Dierdorf-Selters",
+                    "location": {
+                        "addrLine": "Waldstr. 5",
+                        "postCode": "56242",
+                        "settlement": "Selters, Selters",
+                        "country": "Germany, Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Diez",
+                "middle": [],
+                "last": "Canseco",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Dierdorf-Selters",
+                    "location": {
+                        "addrLine": "Waldstr. 5",
+                        "postCode": "56242",
+                        "settlement": "Selters, Selters",
+                        "country": "Germany, Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Aleksandar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Dierdorf-Selters",
+                    "location": {
+                        "addrLine": "Waldstr. 5",
+                        "postCode": "56242",
+                        "settlement": "Selters, Selters",
+                        "country": "Germany, Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hadji-Naumov",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Dierdorf-Selters",
+                    "location": {
+                        "addrLine": "Waldstr. 5",
+                        "postCode": "56242",
+                        "settlement": "Selters, Selters",
+                        "country": "Germany, Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Benjamin",
+                "middle": [],
+                "last": "Bereznai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Dierdorf-Selters",
+                    "location": {
+                        "addrLine": "Waldstr. 5",
+                        "postCode": "56242",
+                        "settlement": "Selters, Selters",
+                        "country": "Germany, Germany"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Acute demyelinating inflammatory polyneuropathy (AIDP) is the most common type of Guillain-Barr\u00e9 syndrome (GBS) in Europe, following several viral and bacterial infections. Data on AIDP-patients associated with SARS-CoV-2 (coronavirus-2) infection are scarce. We describe the case of a 54-years-old Caucasian female patient with typical clinical and electrophysiological manifestations of AIDP, who was reported positive with PCR for SARS-CoV-2, 3 weeks prior to onset of the neurological symptoms. She did not experience a preceding fever or respiratory symptoms, but a transient loss of smell and taste. At the admission to our neurological department, a progressive proximally pronounced paraparesis, areflexia, and sensory loss with tingling of all extremities were found, which began 10 days before. The modified Erasmus Giullain-Barr\u00e9 Syndrome outcome score (mEGOS) was 3/9 at admission and 1/12 at day 7 of hospitalization. The electrophysiological assessment proved a segmental demyelinating polyneuropathy and cerebrospinal fluid examination showed an albuminocytologic dissociation. The neurological symptoms improved significantly during treatment with immunoglobulins. Our case draws attention to the occurrence of GBS also in patients with COVID-19 (coronavirus disease 2019), who did not experience respiratory or general symptoms. It emphasizes that SARS-CoV-2 induces immunological processes, regardless from the lack of prodromic symptoms. However, it is likely that there is a connection between the severity of the respiratory syndrome and further neurological consequences.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "K E Y W O R D S",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "ascending flaccid symmetrical limb paralysis with areflexia, sensory symptoms and often involvement of the cranial nerves. Typical electrodiagnostic features include signs of segmental demyelination as temporal dispersion of the compound muscle action potentials (CMAP) and sensory potentials, prolonged distal motor latencies and reduced conduction velocity in the demyelinative range as well as conduction blocks and absent or prolonged F-waves. 3 A few patients with demyelinating and axonal type of Guillain-Barr\u00e9 syndrome have been reported recently, the onset of neurological symptoms occurred 5 to 10 days after the diagnosis of COVID-19 with respiratory symptoms. [4] [5] [6] [7] [8] ",
+            "cite_spans": [
+                {
+                    "start": 448,
+                    "end": 449,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 672,
+                    "end": 675,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 676,
+                    "end": 679,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 680,
+                    "end": 683,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 684,
+                    "end": 687,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 688,
+                    "end": 691,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The 54-year-old, Caucasian female patient with an uneventful medical history was admitted to our neurological department in April 2020 with an acute, proximally pronounced, moderate, symmetric paraparesis (Medical Research Council/MRC/scale was 3/5 proximal and 4/5 distal in the lower extremities). Areflexia, numbness, and tingling of all extremities were also found, with initial maintained gain ability. These symptoms began 3 weeks following a positive reverse-transcriptasepolymerase-chain-reaction (PCR) oropharyngeal test for COVID-19 and were progressing already for 10 days at admission. The test was performed because of her contact to a coronavirus-positive person. She did not experience fever, respiratory or gastrointestinal symptoms, but reported about a transient loss of smell and taste 2 weeks before the GBS symptoms occurred. The modified Erasmus Guillain-Barr\u00e9 Syndrome outcome score (mEGOS) was 3/9 at admission and 1/12 at day 7 of hospitalization pointing to a favorable outcome. The general physical examination was normal, she had no fever and a new PCRoropharyngeal test was negative. Cerebrospinal fluid (CSF) assessment showed an albuminocytologic dissociation with increased protein level (140 g/L) and normal cell count, immunoassay, and Lyme-serology were negative. SARS-Cov-2 RNA was not tested in CSF. Standard laboratory tests (complete blood count, CRP, serum glucose, creatinin, sodium and potassium level, TSH, creatine kinase, and urine test) and special blood tests (Campylobacter jejuni serology, HbA1c, ANA, anti-DNA, c-ANCA, p-ANCA, HIV, serum vitamin B12-level, and serum protein electrophoresis) were also within the normal range. MRI of the cervical spine and the chest x-ray examination did not show pathological findings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| CASE REPORT"
+        },
+        {
+            "text": "Electrophysiological studies were performed using a Nicolet Viking The clinical and electrophysiological findings of our patient were consistent with AIDP, however, in contrast to the previously reported cases, she did not suffer from preceding fever or respiratory F I G U R E 2 F-wave study of the right tibial nerve with pathological intermediate-latency response (A-wave) symptoms. Nevertheless, she did suffer from transient anosmia and ageusia. The clinical course of the GBS in this case was benign as well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| CASE REPORT"
+        },
+        {
+            "text": "Seemingly, more serious respiratory symptoms in the acute phase of COVID-19 are associated with a more severe form of GBS, as an indicator of the intensity of pathological immune response. On the other hand, the previous respiratory syndrome might aggravate the GBS-symptoms leading to a worse outcome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| CASE REPORT"
+        },
+        {
+            "text": "We conclude that GBS occurs also in patients with COVID-19, who did not experience preceding respiratory symptoms or fever. Further studies should be conducted about the connection between early neurological symptoms as anosmia and ageusia and further neurological consequences of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| CASE REPORT"
+        },
+        {
+            "text": "https://orcid.org/0000-0002-5553-3061",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Erika Scheidl"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Neurological complications of coronavirus and COVID-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carod-Artal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Rev Neurol",
+            "volume": "70",
+            "issn": "9",
+            "pages": "311--322",
+            "other_ids": {
+                "DOI": [
+                    "10.33588/rn.7009.2020179"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Neurologic features in severe SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Helm",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kremer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Merdji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2008597"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Giullain-Barre syndrome",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Willison",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Doorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Lancet",
+            "volume": "338",
+            "issn": "16",
+            "pages": "339--340",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(16)00339-1"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Guillain-Barr\u00e9 syndrome associated with SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Toscano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Palmerini",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ravaglia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2009191"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Guillain-Barre syndrome associated with COVID-19 infection: a case report",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sedaghat",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Karimi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Neurosci",
+            "volume": "20",
+            "issn": "",
+            "pages": "30882--30883",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jocn.2020.04.062"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 may induce Guillain-Barr\u00e9 syndrome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Camdessanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Morel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pozzetto",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Rev Neurol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.neurol.2020.04.003"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Guillain-Barr\u00e9 syndrome following COVID-19: new infection, old complication?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Padroni",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mastrangelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Asioli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Neurol",
+            "volume": "24",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00415-020-09849-6"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Guillain-Barr\u00e9 syndrome associated with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Virani",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rabold",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hanson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IDCases",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.idcr.2020.e00771"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Miller-Fisher syndrome and polyneuritis cranialis in COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gutierrez-Ortiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mendez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rodrigo-Rey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Neurology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1212/WNL.0000000000009619"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Guillain-Barr\u00e9 syndrome during SARS-CoV-2 pandemic: A case report and review of recent literature",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Canseco",
+                    "middle": [],
+                    "last": "Dd",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hadji-Naumov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bereznai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Peripher Nerv Syst",
+            "volume": "1",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jns.12382"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "EMG device. The first electrophysiological evaluation (at admission) showed significantly prolonged distal motor latencies and temporal dispersion of the CMAP of the common peroneal nerve bilaterally (recorded from the extensor digitorum brevis muscle; Figure 1). Stimulation of the tibial nerves at the ankle elicited normal F-wave latencies with pathological intermediate latency responses (complex A-waves) on both sides (Figure 2). Motor nerve conduction studies of the tibial, median and ulnar nerves and sensory nerve conduction studies of the median, ulnar, and sural nerves were normal on both sides. Electromyography (EMG) showed no denervation signs. An acute inflammatory demyelinating polyradiculoneuropathy was diagnosed. Two days after the admission the patient showed a deterioration of the paraparesis and complained about dysphagia. She received intravenous immunoglobulin at the dose of 0.4 g/kg/day given over the course of 5 days which was followed by an almost complete recovery. Follow-up electrophysiological study was performed 14 days after admission, without significant changes in comparison to previous findings. F I G U R E 1 Motor conduction study of the peroneal nerves with significantly prolonged distal motor latencies and temporal dispersion of CMAP-s 3 | INTERPRETATION Guillain-Barr\u00e9 syndrome is caused by an aberrant autoimmune response to a preceding infection which evokes a cross-reaction against gangliosid-components of the peripheral nerves (\"molecular mimicry\") targeting different antigens in the demyelinating and axonal subtypes of GBS. The most commonly identified precipitants are Campylobacter jejuni, cytomegalovirus (CMV), Epstein-Barr virus, influenza-A virus, Mycoplasma pneumoniae, and Haemophilus influenzae. Earlier discovered coronavirus-types (SARS-severe acute respiratory syndrome and MERS-middle east respiratory syndrome) and Zika virus have been associated with GBS as well. 3 SARS-CoV-2 infection causes mostly fever and a severe respiratory syndrome, but other organ manifestations (heart, kidney, and gastrointestinal system) and neurological complications were also reported. The actual data indicate that SARS-CoV-2 is capable of causing an excessive immune reaction with an increased level of cytokines as Interleukin-6 (IL-6), which are produced by activated leukocytes and stimulate the inflammatory cascade leading to extensive tissue damage. IL-6 plays an important role in multiple organ dysfunctions, which is often fatal for patients with COVID-19. 1,2,4,5 It is likely, that these immunological processes are responsible for the major part of the organ manifestations, including the neurological complications. According to the literature it is likely that patients with severe symptoms of COVID-19 and rapid clinical deterioration have more risk to develop serious neurological events. Nine cases of GBS in patients with COVID-19 have been recently reported. 4-8 All patients had fever and respiratory symptoms 5 to 10 days before the onset of the neurological symptoms, one of them had ongoing fever and poor general condition. The electrodiagnostic findings were consistent with an axonal variant of GBS in four out of nine patients. In four other cases, a demyelinating subtype was found and in one patient the pathophysiology was not clear. All of them were treated with immunoglobulins. Toscano et al. 4 analyzed the data of five GBS-patients with COVID-19, admitted to three northern Italian hospitals. Three of them had a preceding anosmia or ageusia. Four patients still had a positive nasopharyngeal test for SARS-CoV-2 at the onset of the neurological symptoms. Antiganglioside antibodies were absent in the three patients who were tested for it. In all the cases, a real-time polymerase-chain-reaction assay was negative for SARS-CoV-2 in CSF. Four of five patients had facial weakness and three of them developed respiratory failure in the course of the GBS, leading to a poor outcome. Four weeks after treatment, two patients remained in the intensive care unit and were receiving mechanical ventilation, two were undergoing physical therapy because of severe quadriparesis and only one could be discharged and was able to walk independently. Regarding to all nine reported patients in the literature, six had a respiratory failure and needed mechanical ventilation. It was not clear if the cause of the respiratory failure was the neuromuscular dysfunction due to GBS or the preceding severe respiratory infection. Furthermore, Guti\u00e9rrez et al. reported two cases of Miller-Fisher syndrome in COVID-19 patients, 3 to 5 days after onset of fever and general symptoms. Both patients had ageusia and one of them anosmia. PCR for coronavirus was positive in oropharyngeal sampling and negative in CSF in these cases. Both patients recovered completely. 9",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

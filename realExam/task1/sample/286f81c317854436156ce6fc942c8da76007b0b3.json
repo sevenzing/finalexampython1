@@ -1,0 +1,614 @@
+{
+    "paper_id": "286f81c317854436156ce6fc942c8da76007b0b3",
+    "metadata": {
+        "title": "How machine learning could be used in clinical practice during an epidemic",
+        "authors": [
+            {
+                "first": "Charles",
+                "middle": [],
+                "last": "Verdonk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "French Armed Forces Biomedical Research Institute",
+                    "location": {
+                        "postCode": "91220",
+                        "settlement": "Br\u00e9tigny-sur-Orge",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Franck",
+                "middle": [],
+                "last": "Verdonk",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "G\u00e9rard",
+                "middle": [],
+                "last": "Dreyfus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ESPCI Paris -PSL University",
+                    "location": {
+                        "postCode": "75005",
+                        "settlement": "Paris",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Classically, experts in the field work together to select features that they believe to be relevant to the research question. Feature selection is essential in model design, because the inclusion of irrelevant features is detrimental to the understanding and performance of the model, while rejecting relevant features can be just as bad [5] . Recent times have seen the emergence of \"big\" healthcare data that increase the number of candidate features. Here, we argue that feature selection should be performed by ML algorithms, rather than humans.",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 341,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A reductionist view assumes that the prediction of patient outcomes relies on the sum of risk factors, as is the case with most scoring systems. We believe that such a reductionist approach is limited in its ability to successfully predict patient outcomes. The majority of health conditions (e.g., asymptomatic, infection, or critical) do not arise from a linear interaction between isolated factors, but from non-linear interactions among a web of determinants (genetic, biological, clinical, social, etc.). Neural networks, a family of ML nonlinear models (of which deep learning is a variant), are a particularly attractive way to model this, not least because of their universal approximation property [6] .",
+            "cite_spans": [
+                {
+                    "start": 707,
+                    "end": 710,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "At the same time, an epidemic context is characterized by a high risk of a shortage of medical equipment (e.g., ventilators). Therefore, there is a critical need to be able to predict resource consumption (e.g., the duration of mechanical ventilation) and patient outcomes (e.g., mortality risk). Neural networks can be used in regression and classification tasks as a function of the type of outcome (quantitative or categorical) to be predicted [6] .",
+            "cite_spans": [
+                {
+                    "start": 447,
+                    "end": 450,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Finally, the time course of an epidemic is characterized by a gradual increase in information regarding the disease, as the number of infected patients increases. It should be possible to train decision support systems with dynamic datasets that grow as the amount of data increases; to this end, \"stochastic\" or \"on-line\" training techniques are available. Another key issue, in the context of an epidemic, is the choice of \"informative\" data. The latter needs to be carefully selected, in order to avoid choking training algorithms with redundant information. This problem can be addressed by active learning methods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A challenge for machine learning in healthcare: linking biomedical data Despite the many fascinating applications of ML in healthcare [2, 7] , some challenges remain to be overcome before it can be deployed as a support to clinical practice during an epidemic. First and foremost, ML algorithms need to have access to sufficient amounts of data that closely resemble the data expected in a clinical scenario. Therefore, we encourage the healthcare community and organizations to make biomedical data public as early as possible and right from the beginning of the epidemic. The COVID-19 epidemic promotes the constitution of medical databases (e.g., COVID ICU, French corona) that will be exhaustive enough to allow ML, but they are currently not public.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 138,
+                    "end": 140,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Once the data are made available, the next challenge is to aggregate disparate datasets that are scattered across hospitals. Processing big healthcare data requires a variety of skillsets; this can only be provided by multidisciplinary teams that include physicians and ML experts. If this does not happen, predictive models are likely to be irrelevant, due to data misrepresentation. Consequently, the integration of ML-based decision support systems into clinical practice becomes hopeless.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A search of the PubMed database (see Supplementary material) highlights some promising proofs of concept regarding the ability of ML-based technologies to assist medical decision-making during an epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An early illustration of ML-based decision support systems"
+        },
+        {
+            "text": "For instance, Yao et al. [8] have developed a screening system that can detect individuals infected with influenza from three clinical features (heart rate, respiration rate, and facial temperature). Their system is especially interesting as it uses contactless technologies that make it particularly suitable for clinical application with contagious patients [8] . More recently, Dagdanpurev et al. [9] have developed a similar screening system using the same three clinical features. Their system uses a random tree algorithm to predict the patient's infection status and is easily understood by physicians because it can be expressed as a flow chart [9] .",
+            "cite_spans": [
+                {
+                    "start": 25,
+                    "end": 28,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 360,
+                    "end": 363,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 400,
+                    "end": 403,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 653,
+                    "end": 656,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "An early illustration of ML-based decision support systems"
+        },
+        {
+            "text": "Another promising ML-based decision support system is a mobile app that provides physicians with access to clinical guidelines. Colubri et al. [10, 11] designed MLbased models that can predict the mortality risk of patients infected with Ebola. Their models were subsequently incorporated into a mobile app to support medical decision-making in isolated clinical care settings [10, 11] . These systems are particularly attractive during an epidemic because they can be readily deployed and regularly updated as new biomedical information becomes available.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 147,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 377,
+                    "end": 381,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 382,
+                    "end": 385,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "An early illustration of ML-based decision support systems"
+        },
+        {
+            "text": "Supplementary information accompanies this paper at https://doi.org/10. 1186/s13054-020-02962-y.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary information"
+        },
+        {
+            "text": "Additional file 1. Fig. 1 Machine learning-based decision support systems can help clinical practice during an epidemic. Efficient diagnostic and accurate prediction of patient outcomes can ultimately lead to effective medical resource management. In contrast to traditional approaches, machine learning algorithms enable feature selection and design of non-linear models that improve prediction of clinical outcomes, and on-line training techniques allow upgrading of decision support systems, as the data regarding the epidemic increases",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 19,
+                    "end": 25,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary information"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Big data and machine learning in health care",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Beam",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kohane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA",
+            "volume": "319",
+            "issn": "13",
+            "pages": "1317--1325",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Artificial intelligence in the intensive care unit",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gutierrez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care",
+            "volume": "24",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Deep learning -a technology with the potential to transform health care",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA",
+            "volume": "320",
+            "issn": "11",
+            "pages": "1101--1103",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Unintended consequences of machine learning in medicine",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cabitza",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rasoini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gensini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JAMA",
+            "volume": "318",
+            "issn": "6",
+            "pages": "517--525",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "An introduction to variable and feature selection",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Guyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Elisseeff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Mach Learn Res",
+            "volume": "3",
+            "issn": "",
+            "pages": "1157--82",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Neural networks: methodology and applications",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dreyfus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Machine learning in medicine",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rajkomar",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dean",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kohane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "380",
+            "issn": "14",
+            "pages": "1347--58",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Multiple vitalsign-based infection screening outperforms thermography independent of the classification algorithm",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matsui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hakozaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Waasen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schiek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "IEEE Trans Biomed Eng",
+            "volume": "63",
+            "issn": "5",
+            "pages": "1025--1058",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A novel machine-learning-based infection screening system via 2013-2017 seasonal influenza patients' vital signs as training datasets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dagdanpurev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Choimaa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hakozaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Inf Secur",
+            "volume": "78",
+            "issn": "5",
+            "pages": "409--430",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Machinelearning prognostic models from the 2014-16 Ebola outbreak: dataharmonization challenges, validation strategies, and mHealth applications",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Colubri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hartley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Siakor",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Wolfman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Felix",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sesay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "EClinicalMedicine",
+            "volume": "11",
+            "issn": "",
+            "pages": "54--64",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Transforming clinical data into actionable prognosis models: machine-learning framework and field-deployable app to predict outcome of Ebola patients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Colubri",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fradet",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Retzepi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fry",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sabeti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS Negl Trop Dis",
+            "volume": "10",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Not applicable. 4 Department of Anaesthesiology and Intensive Care, H\u00f4pital Saint-Antoine, Assistance Publique-H\u00f4pitaux de Paris, 75012 Paris, France.Received: 30 April 2020 Accepted: 8 May 2020",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 17,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The opinions or assertions expressed herein are the private views of the authors and are not to be considered as official or as reflecting the views of the French Military Health Service.Authors' contributions All authors listed have made a direct and intellectual contribution to the work and approved it for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author's Note"
+        },
+        {
+            "text": "Availability of data and materials Not applicable Ethics approval and consent to participate Not applicable",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Not applicable"
+        },
+        {
+            "text": "The authors declare that they have no conflict of interest. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publisher's Note"
+        }
+    ]
+}

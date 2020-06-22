@@ -1,0 +1,88 @@
+{
+    "paper_id": "2307fe5df2ad994dcbc55435a275f3fb2a6aa5dd",
+    "metadata": {
+        "title": "A Systematic Review of the Availability, Quality and Inclusivity of Supportive Care Guidelines in the Management of High Consequence Infectious Disease",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "19 (care adj2 (standard or path or paths or pathway or pathways or map or maps or plan or plans)).ti,ab,kf,kw. (56205) 20 (algorithm* adj2 (screening or examination or test or tested or testing or assessment* or diagnosis or diagnoses or diagnosed or diagnosing or pharmacotherap* or therap* or treatment* or intervention*)).ti,ab,kf,kw. (16631) 21 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 27 (ebola* or ebov or marburg* or lassa* or CCHF or \"crimean-congo*\" or \"congo virus\" or (crimean adj2 (hemorrhagic or haemorrhagic)) or \"rift valley*\" or RVF 18 (care adj2 (standard or path or paths or pathway or pathways or map or maps or plan or plans)).ti,ab,kw. (99334) 19 (algorithm* adj2 (screening or examination or test or tested or testing or assessment* or diagnosis or diagnoses or diagnosed or diagnosing or pharmacotherap* or therap* or treatment* or intervention*)).ti,ab,kw. (24363) 20 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 29 (\"middle east* respiratory syndr*\" or MERS-CoV or \"novel CoV*\" or \"novel betacoronavirus\" or \"novel coronavirus*\" or (\"middle east\" adj3 (coronavirus* or cov or betacoronavirus*)) or (MERS adj3 (coronavirus* or cov or betacoronavirus*)) or \"mers-coronavirus\" or \"mers cov\" or merscov).tw. 10 (care adj2 (standard or path or paths or pathway or pathways or map or maps or plan or plans)).ti,ab. (5259) 11 (algorithm* adj2 (screening or examination or test or tested or testing or assessment* or diagnosis or diagnoses or diagnosed or diagnosing or pharmacotherap* or therap* or treatment* or intervention*)).ti,ab. (1743) 12 1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 (65662) 22 (\"middle east* respiratory syndr*\" or MERS-CoV or \"novel CoV*\" or \"novel betacoronavirus\" or \"novel coronavirus*\" or (\"middle east\" adj3 (coronavirus* or cov or betacoronavirus*)) or (MERS adj3 (coronavirus* or cov or betacoronavirus*)) or \"mers-coronavirus\" or \"mers cov\" or merscov).tw. ",
+            "cite_spans": [
+                {
+                    "start": 430,
+                    "end": 432,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Cluster 1 ( ( TITLE-ABS-KEY ( \"clinical pathway*\" OR \"clinical protocol*\" OR consensus OR guideline* OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" ) OR TITLE-ABS-KEY ( ( care W/2 ( standard OR path OR paths OR pathway OR pathways OR map OR maps OR plan OR plans ) ) ) OR TITLE-ABS-KEY ( ( algorithm* W/2 ( screening OR examination OR test OR tested OR testing OR assessment* OR diagnosis OR diagnoses OR diagnosed OR diagnosing ) ) ) OR TITLE-ABS-KEY ( ( algorithm* W/2 ( pharmacotherap* OR therap* OR treatment* OR intervention* ) ) ) OR TITLE ( standards OR recommendat* ) ) ) AND ( ( TITLE-ABS-KEY ( ( ( virus OR viral ) W/3 ( \"hemorrhagic fever*\" OR \"haemorrhagic fever*\" ) ) OR ebola* OR ebov* OR marburg* OR lassa ) OR TITLE-ABS-KEY ( cchf OR \"crimean-congo*\" OR \"congo virus\" OR ( crimean W/2 ( hemorrhagic OR haemorrhagic ) ) OR \"rift valley\" OR rvf ) ) ) Cluster 2 ( ( TITLE-ABS-KEY ( \"clinical pathway*\" OR \"clinical protocol*\" OR consensus OR guideline* OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" ) OR TITLE-ABS-KEY ( ( care W/2 ( standard OR path OR paths OR pathway OR pathways OR map OR maps OR plan OR plans ) ) ) OR TITLE-ABS-KEY ( ( algorithm* W/2 ( screening OR examination OR test OR tested OR testing OR assessment* OR diagnosis OR diagnoses OR diagnosed OR diagnosing ) ) ) OR TITLE-ABS-KEY ( ( algorithm* W/2 ( pharmacotherap* OR therap* OR treatment* OR intervention* ) ) ) OR TITLE ( standards OR recommendat* ) ) ) AND ( ( TITLE-ABS-KEY ( \"middle east* respiratory syndr*\" OR mers-cov OR \"novel CoV*\" OR \"novel betacoronavirus\" OR \"novel coronavirus*\" ) OR TITLE-ABS-KEY ( ( \"middle east\" W/3 ( coronavirus* OR cov OR betacoronavirus* ) ) OR ( mers W/3 ( coronavirus* OR cov OR betacoronavirus* ) ) OR \"mers-coronavirus\" OR \"mers cov\" OR merscov ) OR TITLE-ABS-KEY ( ( \"wuhan flu\" OR 2019-ncov ) ) OR TITLE-ABS-KEY ( h1n1 OR h5n1 ) OR TITLE-ABS-KEY ( \"zoonotic influenza*\" ) ) ) Cluster 3 ( ( TITLE-ABS-KEY ( \"clinical pathway*\" OR \"clinical protocol*\" OR consensus OR guideline* OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" ) OR TITLE-ABS-KEY ( ( care W/2 ( standard OR path OR paths OR pathway OR pathways OR map OR maps OR plan OR plans ) ) ) OR TITLE-ABS-KEY ( ( algorithm* W/2 ( screening OR examination OR test OR tested OR testing OR assessment* OR diagnosis OR diagnoses OR diagnosed OR diagnosing ) ) ) OR TITLE-ABS-KEY ( ( algorithm* W/2 ( pharmacotherap* OR therap* OR treatment* OR intervention* ) ) ) OR TITLE ( standards OR recommendat* ) ) ) AND ( TITLE-ABS-KEY ( henipavirus OR nipah OR hendra OR monkeypox OR \"monkey pox\" OR chikungunya OR \"Severe Fever with Thrombocyto* Syndrome\" OR sfts OR plague OR \"black death\" OR \"pathogen x\" ) ) Web of Science Core Collection #1 TOPIC: (\"clinical pathway*\" OR \"clinical protocol*\" OR consensus OR guideline* OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" OR CPG OR CPGs) OR TOPIC: ((care near/2 (standard or path or paths or pathway or pathways or map or maps or plan or plans))) OR TOPIC: ((algorithm* near/2 (screening or",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Scopus"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "middle east* respiratory syndr*\" or MERS-CoV or \"novel CoV*\" or \"novel betacoronavirus\" or \"novel coronavirus*\" or (\"middle east\" adj3 (coronavirus* or cov or betacoronavirus*)) or (MERS adj3 (coronavirus* or cov or betacoronavirus*)) or \"mers-coronavirus\" or \"mers cov\" or merscov).tw. (2593)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "standards or guideline or guidelines).ti,kw. (148899) 12 ((practice or treatment* or clinical) adj guideline*).ab. (58666)13 (position statement* or policy statement* or practice parameter* or best practice*).ti,ab,kw.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "CPG or CPGs).ti. (6767) 15 consensus*.ti,kw. (31714) 16 ((critical or clinical or practice) adj2 (path or paths or pathway or pathways or protocol*)).ti,ab,kw. (30587) 17 recommendat*.ti,kw. (50325)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Congo hemorrhagic fever/ (1134) 25 Rift Valley fever/ (877) 26 (ebola* or ebov or marburg* or lassa* or CCHF or \"crimean-congo*\" or \"congo virus\" or (crimean adj2 (hemorrhagic or haemorrhagic)) or \"rift valley*\" or RVF).ti,ab. (18386) 27 21 or 22 or 23 or 24 or 25 or 26 (21968) 28 exp coronavirinae/ or coronavirus infection/ or severe acute respiratory syndrome/ (16337)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "--------------------------------------------------------------------------standards or guideline or guidelines).ti. (11939) 4 ((practice or treatment* or clinical) adj guideline*).ab. (5437) 5 (position statement* or policy statement* or practice parameter* or best practice*).ti,ab. (4691) 6 (CPG or CPGs).ti. (481) 7 consensus*.ti. (1891)8 ((critical or clinical or practice) adj2 (path or paths or pathway or pathways or protocol*)).ti,ab.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "ebola* or ebov or marburg* or lassa* or CCHF or \"crimean-congo*\" or \"congo virus\" or (crimean adj2 (hemorrhagic or haemorrhagic)) or \"rift valley*\" or RVF).ti,ab.(8739) 20 13 or 14 or 15 or 16 or 17 or 18 or 19 (12292) 21 exp betacoronavirus/ (3784)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "black death\".tw. (93) 38 \"pathogen x\".tw. (3) 39 27 or 28 or 29 or 30 or 31 or 32 or 33 or 34 or 35 or 36 or 37 or 38 (13219)",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "examination or test or tested or testing or assessment* or diagnosis or diagnoses or diagnosed or diagnosing))) OR TOPIC: ((algorithm* near/2 (pharmacotherap* or therap* or treatment* or intervention*))) OR TITLE: (standards OR recommendat*) #2 TOPIC: (((virus or viral) near/3 (\"hemorrhagic fever*\" OR \"haemorrhagic fever*\")) OR ebola* OR ebov* OR marburg* OR lassa OR CCHF or \"crimean-congo*\" or \"congo virus\" or (crimean near/2 (hemorrhagic or haemorrhagic)) OR \"rift valley\" OR RVF) #3 TOPIC: (\"middle east* respiratory syndr*\" or MERS-CoV or \"novel CoV*\" or \"novel betacoronavirus\" or \"novel coronavirus*\") OR TOPIC: ((\"middle east\" near/3 (coronavirus* or cov or betacoronavirus*)) or (MERS near/3 (coronavirus* or cov or betacoronavirus*)) or \"mers-coronavirus\" or \"mers cov\" or merscov) OR TOPIC: ((\"wuhan flu\" or 2019-nCoV)) OR TOPIC: (h1n1 or h5n1) OR TOPIC: (\"zoonotic influenza*\") #4 TOPIC: (Henipavirus OR nipah or hendra or monkeypox or \"monkey pox\" OR Chikungunya OR \"Severe Fever with Thrombocyto* Syndrome\" OR SFTS OR plague OR \"black death\" OR \"pathogen x\") #5 #2 AND #1 #6 #3 AND #1 #7 #4 AND #1The WHO Global Index Medicus Regional Libraries https://pesquisa.bvsalud.org/gim/?lang=en Cluster 1 (tw:(\"clinical path*\" OR \"clinical protocol*\" or \"critical path*\" OR \"critical protocol*\" OR \"practice path*\" OR \"practice protocol*\" OR consensus OR guideline* OR standards OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" OR CPG OR CPGs OR \"care standard\" OR \"care path*\" OR \"care map*\" OR \"care plan*\" OR algorithm*)) AND (tw:((\"viral hemorrhagic fever*\" or \"hemorrhagic fever* virus*\" OR \"viral haemorrhagic fever*\" or \"haemorrhagic fever* virus*\" OR ebola* OR ebov* OR marburg* OR lassa OR CCHF or \"crimean-congo*\" or \"congo virus\" or \"crimean hemorrhagic\" or \"crimean haemorrhagic\" OR \"rift valley\" OR RVF))) Cluster 2 (tw:(\"clinical path*\" OR \"clinical protocol*\" or \"critical path*\" OR \"critical protocol*\" OR \"practice path*\" OR \"practice protocol*\" OR consensus OR guideline* OR standards OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" OR CPG OR CPGs OR \"care standard\" OR \"care path*\" OR \"care map*\" OR \"care plan*\" OR algorithm*)) AND (tw:((\"middle east* respiratory syndr*\" or MERS-CoV or \"novel CoV*\" or \"novel betacoronavirus\" or \"novel coronavirus*\") or (\"middle east\" and (coronavirus* or cov or betacoronavirus*)) or (MERS near/3 (coronavirus* or cov or betacoronavirus*)) or \"mers-coronavirus\" or \"mers cov\" or merscov or (\"wuhan flu\" or 2019-nCoV) or h1n1 or h5n1 or \"zoonotic influenza*\")) Cluster 3 (tw:(\"clinical path*\" OR \"clinical protocol*\" or \"critical path*\" OR \"critical protocol*\" OR \"practice path*\" OR \"practice protocol*\" OR consensus OR guideline* OR standards OR \"position statement*\" OR \"policy statement*\" OR \"practice parameter*\" OR \"best practice*\" OR CPG OR CPGs OR \"care standard\" OR \"care path*\" OR \"care map*\" OR \"care plan*\" OR algorithm*)) AND (tw:(Henipavirus OR nipah or hendra or monkeypox or \"monkey pox\" OR Chikungunya OR \"Severe Fever with Thrombocyto* Syndrome\" OR SFTS OR plague OR \"black death\" OR \"pathogen x\")) Google Scholar -Screen the first 10 pages of results Sorted by relevance:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "Cluster 1 (guideline|consensus|standards|\"clinical path*\"|\"clinical protocol*\"|\"practice path*\"|\"position statement*\"|\"policy statement*\"|\"best practice*\")(\"viral hemorrhagic fever\"|ebola*|ebov*|lassa|Marburg|CCHF|Crimean-congo|\"congo virus*\"|\"rift valley\") https://scholar.google.co.uk/scholar?hl=en&as_sdt=0%2C5&q=%28guideline%7Cconsensus %7Cstandards%7C%22clinical+path*%E2%80%9D%7C%22clinical+protocol*%22%7C%2 2practice+path*%22%7C%22position+statement*%22%7C%22policy+statement*%22%7C %22best+practice*%22%29%28%22viral+hemorrhagic+fever%22%7Cebola*%7Cebov*%7 Classa%7CMarburg%7CCCHF%7CCrimean-congo%7C%22congo+virus*%22%7C%22rift+valley%22%29&btnG=Cluster 2 (guideline|consensus|standards|\"clinical path*\"|\"clinical protocol*\"|\"practice path*\"|\"position statement*\"|\"policy statement*\"|\"best practice*\")(\"middle east resp* syndrome*\"|mers*|\"novel coronavirus*\"|\"middle east coronavirus*\"|2019-nCoV|h1n1|h5n1|\"zoonotic influenza*\") https://scholar.google.co.uk/scholar?hl=en&as_sdt=0%2C5&q=%28guideline%7Cconsensus %7Cstandards%7C%22clinical+path*%E2%80%9D%7C%22clinical+protocol*%22%7C%2 2practice+path*%22%7C%22position+statement*%22%7C%22policy+statement*%22%7C %22best+practice*%22%29%28%22middle+east+resp*+syndrome*%22%7Cmers*%7C%2 2novel+coronavirus*%22%7C%22middle+east+coronavirus*%22%7C2019-nCoV%7Ch1n1%7Ch5n1%7C%22zoonotic+influenza*%22%29&btnG=Cluster 3 (guideline|consensus|standards|\"clinical path*\"|\"clinical protocol*\"|\"practice path*\"|\" policy statement*\"|\"best practice*\")(henipavirus|nipah|hendra|monkeypox|chickungunya|\"severe fever with thrombocyte* syndrome\"|sfts|\"black death\"|plague|\"pathogen x\") https://scholar.google.co.uk/scholar?hl=en&as_sdt=0%2C5&q=%28guideline%7Cconsensus %7Cstandards%7C%22clinical+path*%E2%80%9D%7C%22clinical+protocol*%22%7C%2 2practice+path*%22%7C%22+policy+statement*%22%7C%22best+practice*%22%29%28h enipavirus%7Cnipah%7Chendra%7Cmonkeypox%7Cchickungunya%7C%22severe+fever+ with+thrombocyte*+syndrome%22%7Csfts%7C%22black+death%22%7Cplague%7C%22p athogen+x%22%29&btnG=",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Database"
+        }
+    ]
+}

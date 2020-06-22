@@ -1,0 +1,1398 @@
+{
+    "paper_id": "8a0a9b5662c32e88ea44b66c1b7f7e9f4242dfa0",
+    "metadata": {
+        "title": "Heart Rate Estimation from Face Videos for Student Assessment: Experiments on edBB",
+        "authors": [
+            {
+                "first": "Javier",
+                "middle": [],
+                "last": "Hernandez-Ortega",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Autonoma de Madrid",
+                    "location": {
+                        "country": "Spain"
+                    }
+                },
+                "email": "javier.hernandezo@uam.es"
+            },
+            {
+                "first": "Roberto",
+                "middle": [],
+                "last": "Daza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Autonoma de Madrid",
+                    "location": {
+                        "country": "Spain"
+                    }
+                },
+                "email": "roberto.daza@uam.es"
+            },
+            {
+                "first": "Aythami",
+                "middle": [],
+                "last": "Morales",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Autonoma de Madrid",
+                    "location": {
+                        "country": "Spain"
+                    }
+                },
+                "email": "aythami.morales@uam.es"
+            },
+            {
+                "first": "Julian",
+                "middle": [],
+                "last": "Fierrez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Autonoma de Madrid",
+                    "location": {
+                        "country": "Spain"
+                    }
+                },
+                "email": "julian.fierrez@uam.es"
+            },
+            {
+                "first": "Ruben",
+                "middle": [],
+                "last": "Tolosana",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad Autonoma de Madrid",
+                    "location": {
+                        "country": "Spain"
+                    }
+                },
+                "email": "ruben.tolosana@uam.es"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In this study we estimate the heart rate from face videos for student assessment. This information could be very valuable to track their status along time and also to estimate other data such as their attention level or the presence of stress that may be caused by cheating attempts. The recent edBBplat, a platform for student behavior modelling in remote education, is considered in this study 1 . This platform permits to capture several signals from a set of sensors that capture biometric and behavioral data: RGB and near infrared cameras, microphone, EEG band, mouse, smartwatch, and keyboard, among others. In the experimental framework of this study, we focus on the RGB and near-infrared video sequences for performing heart rate estimation applying remote photoplethysmography techniques. The experiments include behavioral and physiological data from 25 different students completing a collection of tasks related to e-learning. Our proposed face heart rate estimation approach is compared with the heart rate provided by the smartwatch, achieving very promising results for its future deployment in e-learning applications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Nowadays e-learning is experiencing a period of high growth thanks to the flexibility it provides to students who do not have the possibility to access to traditional education, like users with an employ, geographical limitations, or any other special conditions. Trying to reach that increasing market of potential students, most of higher education institutions like Stanford, Harvard, Oxford, and the MIT have started to offer new options of virtual education [1] . Moreover, episodes such as the COVID-19 outbreak in 2020 and the social distancing imposed, have demonstrated the necessity to develop new technologies to improve e-learning platforms.",
+            "cite_spans": [
+                {
+                    "start": 463,
+                    "end": 466,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Even though e-learning presents many advantages, it also has some drawbacks, being one of the more relevant the difficulty to demonstrate if an online evaluation is really being carried out by a specific student. Without this verification step, it is hard to know if a student has acquired the knowledge associated to a certain course, or if he is incurring in some type of fraud/cheating on the evaluation, e.g. asking another person to complete his/her exam.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Biometric technologies seem to be a perfect choice to enhance virtual education environments. These technologies allow to identify a person by their physiological and behavioral characteristics, rather than traditional methods such as a 1 https://github.com/BiDAlab/edBB password or an ID card that could be lost, forgotten, or used by another person to perform student impersonation [2] .",
+            "cite_spans": [
+                {
+                    "start": 384,
+                    "end": 387,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The interaction between the students and the computer or the device in which they are accessing to the educational contents can be used to acquire other information about their state, e.g. their heart rate, their level of attention, and how much stressed they are [3] . These type of factors, i.e. stress, emotional state, motivation, focus, and attention, can affect the effectiveness of the learning process [4] , [5] . A student who is affected by any external agent or emotion will not take as much benefit of the lessons as another that is totally focused. Traditional education theory has been centered in how to explain the contents to the students in the best way possible, but usually without considering these context and human factors. For online education, these elements are specially crucial.",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 267,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 416,
+                    "end": 419,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The main contributions of this study are:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "\u2022 A brief survey of state-of-the-art biometric and behavioral technologies based on Human-Computer Interaction (HCI) with potential application to student monitoring.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "\u2022 The acquisition of a dataset consisting of biometrics and behavioral data using the student monitoring platform for e-learning edBBplat [6] . This database (edBBdb) is publicly available for research purposes (see footnote on this page).",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "\u2022 An experimental evaluation of heart rate estimation in the edBB framework, and the development of a baseline algorithm for heart rate estimation based on remote photoplethysmography.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "\u2022 Application of the developed baseline algorithm to two different scenarios in a simulated e-learning environment: one of them consists in estimating the mean heart rate of the students over a whole session and the other consists in making a continuous heart rate estimation during a session (useful for detecting heart rate alterations).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The rest of this paper is organized as follows. Section II introduces behavioral biometrics and their application to e-learning scenarios. Section III provides details about the structure of edBBplat. Section IV explains the different challenges related to student monitoring proposed in the edBB framework, being one of them heart rate estimation. Section V shows the experimental protocol and the results achieved for the heart rate estimation sub-challenges. Finally, conclusions are drawn in Section VI. Historically, the first approaches for monitoring student evaluations in remote learning have consisted in installing a special software in the student's computer. This software is intended to be connected to an institutional server in which a Learning Management System (LMS) controls that users do not perform any forbidden action during their evaluations, i.e. executing certain applications such as the web browser, making screenshots, running certain commands, etc.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The usage of online supervisors, i.e. people that manually supervise each session by webcam, allows to monitor students in real time in a similar way as in a classroom. However, this method is not scalable to a large number of students.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "The possibilities of biometric-based technologies for monitoring online evaluations have been recently showed in real world applications like the Coursera e-learning platform. In this case, the programmers used keystroke methods [7] , [8] for verifying the identity of the students enrolled in a course.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 232,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 235,
+                    "end": 238,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "Behavioral biometrics refers to those biometric traits that describe the way that users perform different actions [9] . Behavioral biometrics traits can be extracted from Human-Computer Interaction, in which a person interacts with some devices, such as computers and smartphones, in a manner that can be highly different among them [10] - [12] .",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 117,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 333,
+                    "end": 337,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 340,
+                    "end": 344,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "A machine learning algorithm can learn patterns from HCI data. These patterns will be affected by several factors like the acquisition sensors, the tasks that are being captured, or the human condition and behavior. Modelling these data (that usually comes from heterogeneous sources) is useful for a multitude of applications such as elearning, security, entertainment, and health. Behavioral biometrics is composed by different traits like touchpad interaction [13] , keystroking [8] , mouse dynamics [14] , [15] , handwriting patterns [16] , and stylometry. Relevant works in this field of research demonstrate that the information coming from HCI can be used not only for user authentication, but also for characterizing other human features like [12] : neuromotor and cognitive abilities [17] , physiological signals such as human pulse [18] , and human behaviors/routines.",
+            "cite_spans": [
+                {
+                    "start": 463,
+                    "end": 467,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 482,
+                    "end": 485,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 503,
+                    "end": 507,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 510,
+                    "end": 514,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 538,
+                    "end": 542,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 793,
+                    "end": 797,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 842,
+                    "end": 846,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "I. INTRODUCTION"
+        },
+        {
+            "text": "We employed the platform from [6] , called edBBplat. It has been designed for capturing data for automatic detection of anomalous behaviors in virtual evaluation environments. Table I shows the sensors and the types of data captured by the platform. The data is acquired through a set of activities for the students to complete.",
+            "cite_spans": [
+                {
+                    "start": 30,
+                    "end": 33,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 176,
+                    "end": 183,
+                    "text": "Table I",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "III. EDBBPLAT: A PLATFORM OF BIOMETRICS AND BEHAVIOR FOR REMOTE EDUCATION"
+        },
+        {
+            "text": "The acquisition setup consists of (see Fig. 1 left):",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 39,
+                    "end": 45,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "A. Sensors"
+        },
+        {
+            "text": "\u2022 Video: 4 RGB cameras (2 frontal, 1 side, and 1 zenital), 2 Near Infrared cameras (Intel Real-Sense model D435i), and depth images.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Sensors"
+        },
+        {
+            "text": "\u2022 Pulse and Motion Sensors: we employed a Huawei Watch 2 smartwatch that captures pulse and motion signals including accelerometer, magnetometer, and gyroscope.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Sensors"
+        },
+        {
+            "text": "\u2022 A Personal Computer with Microsoft Windows 10, a mouse, a keyboard, a microphone, and a screen. The computer is used by the students to complete the tasks, while the screen data, the mouse and keyboard dynamics, the audio, and other PC metadata are being acquired in the background.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Sensors"
+        },
+        {
+            "text": "The activities that conform the platform consist of 8 different tasks categorized in 3 main groups:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Tasks"
+        },
+        {
+            "text": "\u2022 Enrollment form: meant for obtaining personal data of the students, e.g. name and surname, e-mail address, ID number, and nationality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Tasks"
+        },
+        {
+            "text": "\u2022 Writing questions: Since this type of questions are more complex, they can be used to measure the students' cognitive abilities under different situations such as: solving logical problems, describing images, crosswords, finding differences, etc. Additionally, some activities have been designed to induce different emotional states to the participants, e.g. stress or nervousness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Tasks"
+        },
+        {
+            "text": "\u2022 Multiple choice questions: These are questions largely used in online assessment platforms and are included to detect the students' attention and focus levels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B. Tasks"
+        },
+        {
+            "text": "An example of the employed sensors and of the information that is acquired while a student is completing a task can be seen in Fig. 1 . The work in [6] proposed 5 different challenges that are relevant to student monitoring:",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 127,
+                    "end": 133,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "IV. METHODS AND CHALLENGES"
+        },
+        {
+            "text": "\u2022 Challenge 1 -Attention Estimation: the estimation of the intensity of mental focus or attention of the students.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. METHODS AND CHALLENGES"
+        },
+        {
+            "text": "\u2022 Challenge 2 -Anomalous Behavior Detection: detection of non-allowed activities performed by the students.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. METHODS AND CHALLENGES"
+        },
+        {
+            "text": "\u2022 Challenge 3 -Performance Prediction: prediction of accuracy and time necessary for the completion of the tasks. Fig. 1 . Example of the information acquired for heart rate estimation using remote photoplethysmography. The acquisition setup can be seen in the left diagram. The sensors of the RealSense camera used in this case are the RGB and the left and right near infrared channels (top-right images). We show two different groundtruth heart rates captured with the Huawei Watch 2 smartwatch (bottom-right plots). In these plots, the points in which the users were asked to perform physical activity are highlighted.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 120,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "IV. METHODS AND CHALLENGES"
+        },
+        {
+            "text": "And, finally, the fifth challenge, which is the main focus of the present paper:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. METHODS AND CHALLENGES"
+        },
+        {
+            "text": "\u2022 Challenge 5 -Pulse Estimation: changes in the human pulse have showed to be related to altered emotional states and the presence of stress. Emotional states can affect perception and performance. Understanding the emotional state of the student may help in different ways: 1) online adaptation of the session according to the emotional state (e.g. reducing working load and the difficulty or type of the contents); 2) improved performance analysis including emotional features. The objective of this challenge consists in estimating the groundtruth human pulse (obtained from the smartwatch) by using the front camera. Alternatively, the NIR cameras present in the acquisition setup can be used to analyse the potential of this type of sensors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IV. METHODS AND CHALLENGES"
+        },
+        {
+            "text": "In this study we propose an accurate estimation of the heart rate through Remote Photoplethysmography (rPPG) techniques applied to face biometrics [18] . The proposed benchmark is divided into the following two different sub-challenges related to the student activity monitoring:",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "\u2022 Sub-Challenge 5.1 -Heart Rate averaged by session:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "knowing the mean heart rate of a student for a whole session can be useful for comparing these values across different sessions. This way we can track the student's activity along time for detecting unusual events. The average heart rate during the task, the grade obtained, and the student historic data (previous average heart rate and grades) can serve to obtain a detailed picture of the student's performance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "\u2022 Sub-Challenge 5.2 -Heart Rate continuous monitoring: this challenge consists in dividing each session in shorter temporal windows and estimating the heart rate for each one of them individually. Unlike the first sub-challenge, this approach can be useful for analyzing the state of the student throughout a single session and detecting anomalous behaviors within the session. Additionally, this information is useful to better understand the potential difficulties faced during the tasks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "Plethysmography refers to techniques for measuring the changes in the volume of blood through human vessels. This information can be used to estimate parameters such as heart rate, arterial pressure, blood glucose level, or oxygen saturation levels. The variant called Photoplethysmography (PPG) includes low-cost and noninvasive techniques associated with imagery and the optical properties of the human body [3] . Oxygenated blood absorbs more light at specific wavelengths than the blood with less oxygen, so measuring over time the amount of light reflected by the tissues of a person, we can estimate his pulse signal and other parameters like respiration variability [19] .",
+            "cite_spans": [
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 673,
+                    "end": 677,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "Studies have proven that it is possible to measure the changes in the amount of oxygenated blood through facial video sequences [20] . These techniques are called remote photoplethysmography and their operating principle consists in looking for slight changes in the skin color at video recordings using signal processing methods [18] . Remote PPG methods can take advantage of cameras that contain both RGB and near Result of the heart rate estimation (Right). The highest peak in the acquired heart rate corresponds with a moment in which the student was requested to perform a 20 seconds period of physical activity to get him into an altered state. The mean heart rate for the whole session (sub-challenge 5.1) and the values of the heart rate for 10 second windows (subchallenge 5.2) are also shown.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 132,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "infrared sensors. The NIR spectrum band information is highly invariant to light conditions, providing robustness against this external source of variability at a low cost. The NIR band can also help to derive depth information that could improve the location accuracy of the Regions of Interest (ROI) at face tracking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "Our approach is based in the one presented in [21] and consists in four main stages: i) we first locate and track 3 different regions of interest in the student's faces, i.e., the forehead and the right and left cheeks (see Figure 2 left); ii) we track the regions during the video and we extract their raw rPPG signals; iii) we postprocess the raw rPPG signals from the 3 regions using a moving window to isolate the component associated to the pulse by minimizing the other components in the video sequences; and iv) we estimate the value of the heart rate for each temporal window by analyzing the frequency components of the postprocessed rPPG signal and we concatenate all these values for obtaining the heart rate estimation for all the video sequence (see Fig. 2 ",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 50,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 224,
+                    "end": 232,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 763,
+                    "end": 769,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "V. ASSESSING THE STUDENT HEART RATE BY RPPG"
+        },
+        {
+            "text": "We have acquired 25 different students while completing the tasks described in Section III-B. The duration of each video recording is variable, going from 15 to 30 minutes. One session has been recorded for each student. The video sequences have been captured at 30 frames per second with the Intel RealSense camera (we have used both the RGB and the NIR channels), with a resolution of 1280 \u00d7 720 pixels. The groundtruth for the heart rate has been acquired with the Huawei Watch 2 smartwatch at a sampling frequency of 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Experimental Protocol"
+        },
+        {
+            "text": "Hz. An example of the images captured with the RealSense camera and the smartwatch can be seen in Fig. 1 right. During the acquisition, each student had to perform physical activity in a different moment of the evaluation in order to put him into an altered state with a higher heart rate. With the physical activity we intended to simulate possible situations in which the pulse of the student may vary due to events such as high stress or cheating attempts. We are aware that physiological changes are highly related with the nature of the stimulus. Changes in the pulse due to physical activity may show different physiological responses that those caused by stress level for example. However, the resulting changes in the heart rate should be similar.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 98,
+                    "end": 104,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "A. Experimental Protocol"
+        },
+        {
+            "text": "We decided to use the RGB and the NIR channels in order to compare the results obtained with each type of images. However, in most acquisition setups, the only available sensor will probably be a RGB camera, so we have centered our analysis in the results obtained with that frequency band.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Experimental Protocol"
+        },
+        {
+            "text": "The metric used to report the accuracy in the heart rate estimation challenge is the Mean Average Error (MAE) expressed in beats per minute (bpm). MAE refers to the mean difference in absolute value between the estimated heart rate and the groundtruth. This metric can give us an idea of the average accuracy we can expect of our heart rate estimation method, thus giving us orientation of its possible applications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Experimental Protocol"
+        },
+        {
+            "text": "There are slight differences in the protocol we followed for each one of the two sub-challenges. The first step is common to both challenges: we divided the video sequences in temporal windows of a fixed length and we computed a value of the estimated heart rate for each one of these windows. Regarding the groundtruth heart rate, we computed the mean value of the samples acquired with the smartwatch from each temporal window.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Experimental Protocol"
+        },
+        {
+            "text": "1) Sub-Challenge 5.1 -Heart Rate averaged by session: For computing the mean heart rate of a whole session we calculated the average of the heart rate estimations of all its temporal windows. Then we used the absolute difference between the estimated mean heart rate and the groundtruth as our error metric in beats per minute (bpm). We have selected values for the window length going from 5 to 20 seconds with an increment of 5 seconds.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A. Experimental Protocol"
+        },
+        {
+            "text": "In this case we took the estimated heart rate and the groundtruth heart rate for each single window and we calculated the absolute difference between them. After that we averaged the error of all the windows inside each video sequence. The results of each session were then combined to produce a single performance measure for the whole dataset, i.e. the Mean Average Error (MAE) expressed in bpm. In this case we explored values for the window length going from 5 seconds to 20 seconds with a step of 2 seconds.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2) Sub-Challenge 5.2 -Heart Rate continuous monitoring:"
+        },
+        {
+            "text": "In this sub-challenge we have calculated the MAE values for the estimation of the heart rate for complete sessions. The rPPG algorithm used in this work employs information from the three color channels available in RGB videos. However, in NIR videos only one channel is available, so we replicated its information into three different channels to imitate a RGB video.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "In Table II we can observe a clear trend of the heart rate estimations, where the NIR videos obtain a higher accuracy when using short video windows, while the RGB-based estimation is the most accurate when using a longer window duration. The accuracy obtained is high for both types of videos, being slightly higher for the NIR band when using short windows, and better for the RGB color channel when using a wider temporal window. We think that this may be caused by the fact that the NIR band is more robust to external illumination changes that affect severely to the rPPG heart rate estimation. However, for longer window sequences, having more information available (three channels instead of one) makes possible to obtain better rPPG signals.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 11,
+                    "text": "Table II",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "This sub-challenge may be applicable for monitoring the state of the students between sessions, i.e. knowing in which Fig. 3 . Temporal evolution of the heart rate in a scenario in which the student has been induced to an altered state by means of physical activity at the beginning of the session. The four plots correspond to the same video sequence but with different temporal window lengths. The figure shows the changes in the accuracy when changing the length of the temporal window.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 124,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "classes or evaluations the mean heart rate is higher or lower. These alterations may be caused by user impersonation, lack of interest, or a high level of stress.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "2) Sub-Challenge 5.2 -Heart Rate continuous monitoring: Table III shows the performance results for heart rate estimation obtained for different values of the temporal window, going from 5 seconds to 20 seconds, and also for both the RGB and the NIR bands. It can be seen that the MAE decreases when increasing the temporal window length because the algorithm has more information for extracting the frequency components correspondent to the heart rate. However, when the window duration reaches a limit (close to 20 seconds in both cases) the MAE does not further improve due to the variations of the heart rate inside a too long window. Other drawback related to the use of a longer temporal window is the lower temporal resolution of the predictions. If the heart rate changes quickly, a long temporal window will not be able of capturing that behavior. Similarly to the case of the Subchallenge 5.1, in this case the accuracy is slightly higher for the NIR band when using short windows and better for the RGB color channel when using a wider temporal window. Fig. 3 shows the temporal evolution of the heart rate estimation in a scenario in which the students performed physical activity at some points of the evaluation in order to get their heart rate artificially high. The target is checking if the heart rate estimation algorithm is capable of detecting these changes in the heart rate.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 56,
+                    "end": 65,
+                    "text": "Table III",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1064,
+                    "end": 1070,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "By inducing alterations we want to simulate a situation in which a student performs any forbidden or inappropriate action, e.g. cheating, that may lead to an altered heart rate. The four plots in the figure correspond to the same video sequence but with a different temporal window length. The figure shows how the estimation algorithm manages to capture the main behavior of the heart rate during the induced alterations. It also reflects the change in the accuracy for the heart rate estimation for the same video sequence when changing the value of the temporal window.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "As has been said previously when commenting the results of Table III , a higher value for the temporal window makes the MAE to decrease. This is shown in Fig. 3 with the plot of the averaged groundtruth and estimated heart rates, that become closer when increasing the temporal window length. However, it can also be seen that even though using smaller windows decreases the general accuracy of the heart rate estimation, it also allows to reflect better the quick changes in the heart rate due to the altered states induced in these experiments. These quick changes in the heart rate can only be captured when using lower values for the temporal window. This way, the decision of what window length must be used depends of the desired application.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 59,
+                    "end": 68,
+                    "text": "Table III",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 154,
+                    "end": 160,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "1) Sub-Challenge 5.1 -Heart Rate averaged by session:"
+        },
+        {
+            "text": "In this paper, we have: i) discussed the application of behavioral biometrics for remote education, ii) employed edBBplat [6] , a platform of biometrics and behavior for student assessment during virtual education, iii) captured data from sensors that are usually present in remote education (RGB cameras), and also from more advanced sensors like NIR cameras and a smartwatch, and iv) used the acquired NIR and RGB video recordings for estimating the heart rate of the students using rPPG while they are completing a series of virtual evaluation tasks.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 125,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "VI. CONCLUSION AND FUTURE WORK"
+        },
+        {
+            "text": "The type of information acquired in this work can be used for detecting unusual events during an evaluation task in remote education. Some examples of events that can be detected are: cheating attempts, a stress level out of the ordinary values, drops in the level of attention of the students, or changes in their heart rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "VI. CONCLUSION AND FUTURE WORK"
+        },
+        {
+            "text": "For future work, we expect to add different types of stimuli that lead to altered states. Correlating those altered states with the information from the other basic and advanced sensors of the platform (EEG band, other cameras, test results, etc.) may be helpful for detecting inappropriate behaviors and other factors such as the stress level, the focus level, or even for trying to predict some variables like the student's performance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "VI. CONCLUSION AND FUTURE WORK"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Students' perceptions of teaching and social presence: A comparative analysis of face-to-face and online learning environments",
+            "authors": [
+                {
+                    "first": "James",
+                    "middle": [],
+                    "last": "Bowers",
+                    "suffix": ""
+                },
+                {
+                    "first": "Poonam",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int. Journal of Web-Based Learning and Teaching Technologies",
+            "volume": "10",
+            "issn": "1",
+            "pages": "27--44",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Biometrics systems under spoofing attack: an evaluation methodology and lessons learned",
+            "authors": [
+                {
+                    "first": "Abdenour",
+                    "middle": [],
+                    "last": "Hadid",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nicholas",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sbastien",
+                    "middle": [],
+                    "last": "Marcel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "IEEE Signal Processing Magazine",
+            "volume": "32",
+            "issn": "5",
+            "pages": "20--30",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Photoplethysmography and its application in clinical physiological measurement",
+            "authors": [
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Physiological Measurement",
+            "volume": "28",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Academic Emotions in Students' Self-Regulated Learning and Achievement: A Program of Qualitative and Quantitative Research",
+            "authors": [
+                {
+                    "first": "Reinhard",
+                    "middle": [],
+                    "last": "Pekrun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Thomas",
+                    "middle": [],
+                    "last": "Goetz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wolfram",
+                    "middle": [],
+                    "last": "Titz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Raymond",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Educational Psychologist",
+            "volume": "37",
+            "issn": "2",
+            "pages": "91--105",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Emotions in classrooms: The need to understand how emotions affect learning and education",
+            "authors": [
+                {
+                    "first": "Kelly",
+                    "middle": [],
+                    "last": "Trezise",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amanda",
+                    "middle": [],
+                    "last": "Bourgeois",
+                    "suffix": ""
+                },
+                {
+                    "first": "Camilla",
+                    "middle": [],
+                    "last": "Luck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Biometrics and Behavior for Assessing Remote Education",
+            "authors": [
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Hernandez-Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "Roberto",
+                    "middle": [],
+                    "last": "Daza",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Ortega-Garcia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Workshop on Artificial Intelligence for Education (AI4EDU), AAAI Conference on Artificial Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Keystroke biometrics ongoing competition",
+            "authors": [
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "IEEE Access",
+            "volume": "4",
+            "issn": "",
+            "pages": "7736--7746",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Typenet: Scaling up keystroke biometrics",
+            "authors": [
+                {
+                    "first": "Alejandro",
+                    "middle": [],
+                    "last": "Acien",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Monaco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruben",
+                    "middle": [],
+                    "last": "Vera-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "50 years of biometric research: Accomplishments, challenges, and opportunities",
+            "authors": [
+                {
+                    "first": "Karthik",
+                    "middle": [],
+                    "last": "Anil K Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "Arun",
+                    "middle": [],
+                    "last": "Nandakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Pattern Recognition Letters",
+            "volume": "79",
+            "issn": "",
+            "pages": "80--105",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Understanding and changing behavior",
+            "authors": [
+                {
+                    "first": "Albert",
+                    "middle": [
+                        "Ali"
+                    ],
+                    "last": "Salah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bruno",
+                    "middle": [],
+                    "last": "Lepri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alex",
+                    "middle": [
+                        "Sandy"
+                    ],
+                    "last": "Pentland",
+                    "suffix": ""
+                },
+                {
+                    "first": "John",
+                    "middle": [],
+                    "last": "Canny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "IEEE Pervasive Computing",
+            "volume": "12",
+            "issn": "3",
+            "pages": "18--20",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Smartphone sensors for modeling humancomputer interaction: General outlook and research datasets for user authentication",
+            "authors": [
+                {
+                    "first": "Alejandro",
+                    "middle": [],
+                    "last": "Acien",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruben",
+                    "middle": [],
+                    "last": "Vera-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Oscar",
+                    "middle": [],
+                    "last": "Delgado",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE International Workshop on Consumer Devices and Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Benchmarking touchscreen biometrics for mobile authentication",
+            "authors": [
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ada",
+                    "middle": [],
+                    "last": "Pozo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marcos",
+                    "middle": [],
+                    "last": "Martinez-Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Galbally",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Transactions on Information Forensics and Security",
+            "volume": "13",
+            "issn": "11",
+            "pages": "2720--2733",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "What can a mouse cursor tell us more?: correlation of eye/mouse movements on web browsing",
+            "authors": [
+                {
+                    "first": "Mon",
+                    "middle": [],
+                    "last": "Chu Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Myeong",
+                    "middle": [],
+                    "last": "John R Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ho Sohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "ACM Ext. Abs. on Human Factors in Computing Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "281--282",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "BeCAPTCHA-Mouse: Synthetic mouse trajectories and improved bot detection",
+            "authors": [
+                {
+                    "first": "Alejandro",
+                    "middle": [],
+                    "last": "Acien",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruben",
+                    "middle": [],
+                    "last": "Vera-Rodriguez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Benchmarking Desktop and Mobile Handwriting across COTS Devices: the e-BioSign Biometric Database",
+            "authors": [
+                {
+                    "first": "Ruben",
+                    "middle": [],
+                    "last": "Tolosana",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruben",
+                    "middle": [],
+                    "last": "Vera-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Ortega-Garcia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS ONE",
+            "volume": "12",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Active detection of age groups based on touch interaction",
+            "authors": [
+                {
+                    "first": "Alejandro",
+                    "middle": [],
+                    "last": "Acien",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ruben",
+                    "middle": [
+                        "Vera"
+                    ],
+                    "last": "Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Hernandez-Ortega",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IET Biometrics",
+            "volume": "8",
+            "issn": "1",
+            "pages": "101--108",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A comparative evaluation of heart rate estimation methods using face videos",
+            "authors": [
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Hernandez-Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "IEEE International Workshop on Medical Computing",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Photoplethysmography: beyond the calculation of arterial oxygen saturation and heart rate",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kirk",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shelley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Anesthesia & Analgesia",
+            "volume": "105",
+            "issn": "6",
+            "pages": "31--36",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Advancements in noncontact, multiparameter physiological measurements using a webcam",
+            "authors": [
+                {
+                    "first": "Ming-Zher",
+                    "middle": [],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Daniel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rosalind",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mcduff",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Picard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "IEEE Transactions on Biomedical Engineering",
+            "volume": "58",
+            "issn": "1",
+            "pages": "7--11",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Time analysis of pulse-based face anti-spoofing in visible and NIR",
+            "authors": [
+                {
+                    "first": "Javier",
+                    "middle": [],
+                    "last": "Hernandez-Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julian",
+                    "middle": [],
+                    "last": "Fierrez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aythami",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pedro",
+                    "middle": [],
+                    "last": "Tome",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proc. of the IEEE Conference on Computer Vision and Pattern Recognition Workshops",
+            "volume": "",
+            "issn": "",
+            "pages": "544--552",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Heart Rate estimation using rPPG. The Regions of Interest for extracting the raw rPPG signals from a NIR image (Left-Up) and the corresponding RGB image (Left-Down) are highlighted in red.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "SENSORS AND DATA CAPTURED IN EDBBPLAT[6]",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

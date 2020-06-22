@@ -1,0 +1,427 @@
+{
+    "paper_id": "09f1bcb48df9bc5819cf43cf60178d9535f8897f",
+    "metadata": {
+        "title": "A combined approach to priorities of Surgical Oncology during the COVID-19 epidemic",
+        "authors": [
+            {
+                "first": "Vincenzo",
+                "middle": [],
+                "last": "Mazzaferro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Istituto Nazionale Tumori di Milano",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": "vincenzo.mazzaferro@istitutotumori.mi.it"
+            },
+            {
+                "first": "Piergiorgio",
+                "middle": [],
+                "last": "Danelli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Milan",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Guido",
+                "middle": [],
+                "last": "Torzilli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "HPB Surgery and Liver Transplantation, Istituto Nazionale Tumori, Fondazione IRCCS",
+                    "institution": "Humanitas University",
+                    "location": {
+                        "addrLine": "Via Venezian 1",
+                        "postCode": "20133",
+                        "settlement": "Humanitas, Rozzano, Milan",
+                        "region": "Milan",
+                        "country": "Italy, Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Michele",
+                "middle": [],
+                "last": "Droz Dit Busset",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Istituto Nazionale Tumori di Milano",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Matteo",
+                "middle": [],
+                "last": "Virdis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Istituto Nazionale Tumori di Milano",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carlo",
+                "middle": [],
+                "last": "Sposito",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione IRCCS Istituto Nazionale Tumori di Milano",
+                    "location": {
+                        "settlement": "Milan",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mazzaferro",
+                "middle": [],
+                "last": "Vincenzo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The COVID-19 pandemia has caused a severe discrepancy among the available operatory resources and the demand of surgery in cancer patients. We describe a prioritization model for cancer patients based on combined urgency, utility and survival-benefit principles, to maximize lives saved while maintaining evidence-based surgical indications.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The number of people infected with Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) has exponentially increased worldwide 1 ",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 135,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "(COVID-19) is officially a pandemic. On Feb 21 th , 2020, the first person-to-person transmission was reported in Italy and since then the infection chain has led to one of the largest COVID-19 outbreaks outside Asia to date. All started and spread in the Lombardy region, the most populated region in Italy (10.2 million of inhabitants), with an outbreak accounting for most of the Italian registered cases of COVID-19, thousands of hospitalized patients, 15% of whom required an admission in intensive care units 2 . Such a tsunami of acute patients punched the hospital system in a matter of 4 weeks, and forced the largest part of the region healthcare resources (3.2 beds/1000 inhabitants) to be reconverted into COVIDunits, with consequent dramatic imbalance between supply and demand for most non-urgent medical and surgical diseases 3, 4 . In particular, most patients with solid cancer awaiting surgical intervention had their surgery delayed indefinitely. The current regional model of prioritization in surgical oncology, based on the \"first-come, first-served\" principle and able Copyright \u00a9 2020 Wolters Kluwer Health, Inc. Unauthorized reproduction of this article is prohibited.",
+            "cite_spans": [
+                {
+                    "start": 841,
+                    "end": 843,
+                    "text": "3,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 844,
+                    "end": 845,
+                    "text": "4",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "to guarantee an average waiting time of 40 days for elective gastrointestinal surgery in the pre-COVID era, had necessarily to be revised.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "In such circumstances, the aim of the intervention we were asked to work on was twofold: a) guarantee a hospital-based system for surgical oncology interventions and b) design a unitbased priority system for cancer patients eligible to surgical intervention.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "With respect to the first aim, the regional government selected a few hospitals able to remain relatively COVID-free, thanks to the implementation of restricted infectious triage protocols and intentional closure of emergency access. By means of a hub-and-spoke model the COVID-transformed hospitals with cancer patients in need of surgery could then refer to a full steam cancer-hub in which case discussion and possible interventions could be continued.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "With respect to the second aim, we proposed a renowned system of priority for patients with gastro-intestinal malignancies (about one quarter of the surgical volume for oncological indications) 5 largely drawn from organ transplant allocation principles, namely from the longstanding area of surgery in which the imbalance between demand and supply is permanent 6, 7 . Here we share the framework that guided our work and the introduction of the model in the Lombardy region, in the hope that it could act as a positive influence for other regions possibly facing similar pandemic. The framework is outlined in Figure 1 borderline resectable pancreatic tumors, >T2N1 asymptomatic gastric adenocarcinoma, colorectal liver metastases etc.); 3) patients within TNM stage 1 or bearing biologically low aggressive cancers (i.e. neuroendocrine tumors, asymptomatic GISTs, pancreatic IPMNs). As for the previous category, green patients who progress during waiting time would be reclassified into the yellow class.",
+            "cite_spans": [
+                {
+                    "start": 362,
+                    "end": 364,
+                    "text": "6,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 365,
+                    "end": 366,
+                    "text": "7",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 611,
+                    "end": 619,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "To each category a variable time frame for surgical intervention was arbitrarily assigned (see Figure 1 ). The entire framework was based on the following principles: Copyright \u00a9 2020 Wolters Kluwer Health, Inc. Unauthorized reproduction of this article is prohibited.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 95,
+                    "end": 103,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "\uf0b7 As surgical intensive care units (SICU) play an essential role in determining the outcome of patients both in the surgical oncology scenario and for COVID19-related complications, allocation to surgery during the pandemic is prone to disfavour those who are more likely to require a prolonged SICU stay. To provide objective measures for decision-making we propose to consider the preoperative ASA (American Society of Anaesthesiologists) score and age cut-offs (in our region arbitrarily set at 80 years).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "As presented in Figure 1 , red and orange patients who are \u226580 y.o. and/or with ASA score \u22653 are downgraded to next category, as well as yellow patients with similar preoperative risk.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 16,
+                    "end": 24,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "\uf0b7 As definition of surgical complexity is an operator-dependent variable coupled with resource availability and hospital volumes, we felt that the risk of unfair discrimination would be in place if surgical burden was used as a universal priority variable. For instance, procedures related to pancreatic head, esophageal or retroperitoneal cancers are defined as complex in almost all cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "In conclusion, an allocation scheme of priority for surgical oncology is proposed to face the dramatic restrictions in elective surgery resources during the COVID19 pandemic. We aimed at maintaining surgical indications while optimizing allocation and prioritization according to the survival benefit principle. The proposed framework has been adopted for patients with cancer of the gastrointestinal tract, but can be easily extended to most of other fields of surgical oncology. Only time will tell how it works.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        },
+        {
+            "text": "Copyright \u00a9 2020 Wolters Kluwer Health, Inc. Unauthorized reproduction of this article is prohibited.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "and Coronavirus disease 2019"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO -World Health Organization: Coronavirus disease (COVID-19) Pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The response of Milan's Emergency Medical System to the COVID-19 outbreak in Italy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Spina",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Marrazzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Migliari",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Critical Care Utilization for the COVID-19 Outbreak in Lombardy, Italy: Early Experience and Forecast During an Emergency Response",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grasselli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pesenti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cecconi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Ministero della salute -Agenzia Nazionale per i Servizi Sanitari Regionali -Programma Nazionale esiti",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Squaring the circle of selection and allocation in liver transplantation for HCC: An adaptive approach",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mazzaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Hepatology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A Multistep, Consensus-Based Approach to Organ Allocation in Liver Transplantation: Toward a \"blended Principle Model",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Cillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Burra",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mazzaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Transplant",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Principles for allocation of scarce medical interventions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Persad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wertheimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Emanuel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "and identifies the priorities as in a traffic light model: -Red category: urgent because of cancer-related clinical conditions and complications. These are patients lacking any therapeutic alternative and therefore at risk of dying within few hours/few days if not surgically treated. Examples are: gastric tumors presenting with uncontrollable bleeding, pancreatic tumors with obstructive jaundice in which endoscopic palliation has failed, intestinal obstruction from tumors of the right colon and tumor perforation.Copyright \u00a9 2020 Wolters Kluwer Health, Inc. Unauthorized reproduction of this article is prohibited.-Orange category: nearly-urgent because of negative cancer-related biologic factors. These are patients for whom tumor aggressiveness or stringent therapeutic window (for instance at the end of neoadjuvant chemo-radiation therapy) mandate surgical intervention within few weeks, because of the risk of progression beyond resectability. In these patients the risk of progression equates the risk of death in the near future, and the net benefit of surgery is expected to be very high. Examples are resectable mass-forming cholangiocarcinoma or gallbladder cancer or locally advanced rectal cancer. The orange group also includes tumors in which progressive or stable disease following neoadjuvant treatments appears still resectable (i.e. colorectal liver metastases, lymph node-positive gastric cancer, pancreatic adenocarcinoma).-Yellow category: non-urgent because of positive biologic factors in the absence of nonsurgical alternatives. In these patients, the biological behaviour of disease is not particularly aggressive, but no therapeutic alternatives nor neoadjuvant treatments allowing surgery to be deferred are available. The risk of progression during waiting time is relatively low and does not imply a risk of death in a short time, while the expected outcome after surgery is generally good, thus maintaining a high net benefit of delayed surgery. Examples are: T1b-T2 N0 gastric cancers, most of hepatocellular carcinomas, <T3 colorectal cancers. In this category, tumors following neoadjuvant treatments with partial/complete response are also included (i.e. colorectal liver metastases, lymph node-positive gastric cancer etc.); patients who progress during the delayed waiting time should be reclassified into the orange group.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Green category: non-aggressive tumors or deferrable because of presence of non-surgical alternatives. These are: 1) patients for whom surgery might be indicated, but in which alternative non-surgical treatments have demonstrated nearly equal survival outcomes (i.e. T1a gastric cancers, single HCC <2 cm etc.); 2) tumors in which surgical outcomes would be comparable or even better if neoadjuvant treatments were used to delay surgery (i.e.Copyright \u00a9 2020 Wolters Kluwer Health, Inc. Unauthorized reproduction of this article is prohibited.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "We thought of utmost importance that even under the current severe imbalance between demand and supply, surgical indications in patients with cancer of the gastrointestinal tract should not deviate from what is supported by scientific evidence. \uf0b7 A shift from a model aimed at doing everything possible to save every life to a model aimed at maximizing the number of lives saved 8 was needed. Since oncological patients are rarely an urgent indication to surgery, the principle of \"the sickest first\"which implies prioritising those with the worst future prospects if left untreatedremained applicable only to selected cases, identified by the red category. \uf0b7 The concept of survival benefit informed the rest of the model. Survival benefit is the survival gain offered by a given therapy (in this case surgery) in comparison with the best alternative option (in this case delayed surgery or palliative treatments). This principle, widely used in organ transplantation 9 , has the potential of maximizing the total years of life gained when applied to a population of similar patients in need of surgical intervention 10 . We framed the orange, yellow and green categories according to this principle, considering that priority of surgical intervention decreases in parallel with the net health benefit expected in each group.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

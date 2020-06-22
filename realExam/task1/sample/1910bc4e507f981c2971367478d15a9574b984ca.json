@@ -1,0 +1,844 @@
+{
+    "paper_id": "1910bc4e507f981c2971367478d15a9574b984ca",
+    "metadata": {
+        "title": "Mathematical estimation of COVID-19 prevalence in Latin America",
+        "authors": [
+            {
+                "first": "Marcos",
+                "middle": [],
+                "last": "Matabuena",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago de Compostela",
+                    "location": {
+                        "settlement": "Santiago de Compostela",
+                        "country": "Spain"
+                    }
+                },
+                "email": "5marcos.matabuena@usc.es"
+            },
+            {
+                "first": "Pablo",
+                "middle": [],
+                "last": "Rodr\u00edguez-Mier",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "UPS",
+                    "location": {
+                        "settlement": "Toulouse",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carlos",
+                "middle": [],
+                "last": "Meijide-Garc\u00eda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidade de Santiago of Compostela",
+                    "location": {
+                        "settlement": "Santiago de Compostela",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "V\u00edctor",
+                "middle": [],
+                "last": "Lebor\u00e1n",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidade de Santiago of Compostela",
+                    "location": {
+                        "settlement": "Santiago de Compostela",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francisco",
+                "middle": [],
+                "last": "Gude",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Cl\u00ednico Universitario de Santiago de Compostela",
+                    "location": {
+                        "settlement": "Santiago de Compostela",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "After the rapid spread with severe consequences in Europe and China, the SARS-CoV-2 virus is now manifesting itself in more vulnerable countries, including those in Latin America. In order to guide political decision-making via epidemiological criteria, it is crucial to assess the real impact of the epidemic. However, the use of large-scale population testing is unrealistic or not feasible in some countries. Based on a newly developed mathematical model, we estimated the seroprevalence of SARS-CoV-2 in Latin American countries. The results show that the virus spreads unevenly across countries. For example, Ecuador and Brazil are the most affected countries, with approximately 3% of the infected population. Currently, the number of new infections is increasing in all countries examined, with the exception of some Caribbean countries as Cuba. Moreover, in these countries, the peak of newly infected patients has not yet been reached.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In late December 2019, Chinese scientists isolated a novel coronavirus that was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), and the relevant disease was called coronavirus-2019 disease (Covid-19) [1] . Since then, the dramatic increase in cases has posed numerous challenges to even the most sophisticated and advanced health systems, which led the World Health Organization (WHO) to declare the outbreak a pandemic in March 2020 [2] . Two months later, more than 2.4 million cases and over 143, 000 deaths have made the Americas the epicenter of the COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 226,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 457,
+                    "end": 460,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "After North America, the sub-region with the highest number of confirmed cases and deaths reported to date remains South America. As of 28 May, the 10 countries in this sub-region have reported a total of 721, 893 confirmed cases, including 35, 412 deaths, which represents 30% of the total cases and 25% of the total deaths in the region of the Americas [3] .",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "In the last decades, almost all of the South American countries introduced health financing and organizational reforms to strengthen health systems and to progress to universal health coverage. Despite improvements, inequities persist, and South America is the most inequitable region in the world, where there are disparities in social determinants of health [4] . The WHO risk assessment for Covid-19 is considered very high, mainly because the community transmission is ongoing in these territories; there is limited testing capacity; medical supply shortages; stringent population-level control measures are unlikely to be sustainable in the long-term; uncertainty about the resurgence of outbreaks following the relaxation of stringent control measures; the impact due to interruption of routine health services, routine vaccination and other disease control programs such as measles, polio, tuberculosis, and malaria, etc.",
+            "cite_spans": [
+                {
+                    "start": 360,
+                    "end": 363,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "Given the ongoing reporting of Covid-19 cases in countries and territories in the Region of the Americas, PAHO/WHO continues to reiterate and update recommendations to support all Member States on the measure to manage and protect against the disease. A recent document developed by WHO to provide a practical guide to be used by national authorities states that Covid-19 surveillance data are essential to calibrate appropriate and proportional public health measures [5] . However, as we have pointed out, in Latin America, large-scale testing to quantify the spread of Coronavirus is an unrealistic methodology.",
+            "cite_spans": [
+                {
+                    "start": 469,
+                    "end": 472,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "As an alternative to overcome this challenge, we can see two different strategies in the literature: i) survey data with geolocation technology as proposed by the team led by Eran Segal in Israel [6] , ii) mathematical models to estimate the spread of the epidemic [7, 8] . The first option is not realistic in our context because mobile devices are not as widespread as in other places. As for the second point, many mathematical models were proposed in the literature, but based on our previous observation; we should consider using another source of information to fit the models instead of infection records [9] .",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 269,
+                    "end": 271,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 612,
+                    "end": 615,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "In a recent paper [10] , we proposed a new framework to estimate the prevalence of the virus in the populationbased on mortality records. Our proposal was applied successfully in many countries and cities. After the first large-scale seroprevalence studies in different cities and countries, we confirm the accuracy of the previous initial estimations about percent of infections in each localization (more information available in https:// covid19-modeling.github.io/). We refer to the original reference for technical mathematical details about the models.",
+            "cite_spans": [
+                {
+                    "start": 18,
+                    "end": 22,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "This paper aims to show our estimate of seroprevalence as of May 27 in Latin America. We show only the complete results in Brazil and Peru due to space restriction, with the average infection estimate for most Latin American countries on a map. A more detailed description of the results can be found in the Supplementary Material and on the website related to the project (https://covid19-modeling.github.io/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "Before start, we introduce the main variables estimated by our model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "\u2022 I 1 (t): Number of infected individuals who are incubating the virus on day t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "\u2022 I 2 (t): Number of infected people who have passed the incubation period and who: i) does not show symptoms or ii) symptoms are mild on the day t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "\u2022 I 3 (t): Number of infected people who have passed the incubation period and do show severe symptoms on day t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "\u2022 R 1 (t): Number of recovered cases still able to infect day t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "\u2022 \u03bb(t): Number of new infection on day t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "In addition, to increase the interpretability of the results, we show our adjusted model of death records and the total number of infections in each country under consideration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "Results in Brasil and Peru are shown in Figures 1 and 2 . Averaged estimations of seroprevalence in other Latin American countries are shown in Figure 3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 40,
+                    "end": 55,
+                    "text": "Figures 1 and 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 144,
+                    "end": 152,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Main"
+        },
+        {
+            "text": "As can be seen, there are two different groups regarding epidemic evolution. The first group corresponds to Central American and Caribbean countries such as Cuba and Puerto Rico, where the situation seems to be under control. The rest of the countries are in the other group where the rate of new infections is growing, and this may indicate that an epidemic situation is at its worst. In particular, countries with most infections are Ecuador, Brazil, Chile, and Peru, with an incidence of between 2.5 and 4% of the population. Interestingly, in Argentina and Colombia, the estimated number of infections is low, despite the geographical previous to the above countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "The number of infections estimated by the model in Latin America is lower than in European epidemiological studies. However, in order to rigorously compare the spread of epidemics, we should perform the analyses under the same conditions. In Latin America, the number of new cases is increasing, and blocking measures or social distance cannot be so strict in Latin America or difficult to implement in some settings, for example, in the areas of highest poverty. It is therefore foreseeable that in the immediate future, the number of infections maybe even higher.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "One possible limitation of our estimates is that the number of deaths may be higher than the government data reflect. A precise correction requires the use of previous mortality records, but this information is not always available in most of the countries under consideration. In fact, we excluded Venezuela and other countries in the analysis due to the poor quality of the data. In this context, we should be more cautious with estimates in Latin American countries than in European countries. In our estimations, we assumed an infection mortality rate (IFR) of 1.2%. Recent research [11] establishes that the IFR can range from 1 \u2212 1.4%; however, we must analyze the above factors on the demographic structure, epidemiological profiles, and quality of the health system. Further refinement is not possible due to unreliable data. From a public health perspective, our model helps to understand deeper insights as the virus spreads in these countries and to obtain important information such as the estimated seroprevalence of the population in a simple, low-cost procedure, which can be helpful to guide the next actions [7] . We are currently making efforts to maintain up-to-date estimates in the different countries of Latin America and other parts of the world on our website (https://covid19-modeling.github.io/). Figure 4 shows a screenshot with the information offered on the web for the particular case of Puerto Rico.",
+            "cite_spans": [
+                {
+                    "start": 587,
+                    "end": 591,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1125,
+                    "end": 1128,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1323,
+                    "end": 1331,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Main"
+        },
+        {
+            "text": "2 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 11, 2020. Figure 2 : Per\u00fa results by our mathematical model. We assume that there are as many fatalities as in the official records.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 82,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "Following the notation of our previosly pre-print [10] ,",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 54,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "The rest of parameter are tunning the same as original reference.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model parameters"
+        },
+        {
+            "text": "Official data are obtained through John Hopkins repository (https://github.com/CSSEGISandData/COVID-19/ tree/master/csse_covid_19_data/csse_covid_19_time_series).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Databases"
+        },
+        {
+            "text": "Acknowledgements This work has received financial support from Carlos III Health Institute, Grant/Award Number: COV20/00404, Ministry of Economy and Competitiveness (SPAIN) and the European Regional Development Fund (FEDER); and the Axencia Galega de Innovaci\u00f3n, Conseller\u00eda de Econom\u00eda, Emprego e Industria, Xunta de Galicia, 3 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 11, 2020. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 11, 2020. Figure 11 : Results in Ecuador: we assume that there are as many fatalities as in the official records. we assume that there are as many fatalities as in the official records.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 83,
+                    "text": "Figure 11",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing Interests"
+        },
+        {
+            "text": "6 . CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing Interests"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 11, 2020. Figure 17 : Results in Guatemala: we assume that there are as many fatalities as in the official records. Code availability",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 83,
+                    "text": "Figure 17",
+                    "ref_id": null
+                }
+            ],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": "The code is publicly available from https://github.com/covid19-modeling/pyncov-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        },
+        {
+            "text": ". CC-BY-NC-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "7"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted June 11, 2020. . https://doi.org/10.1101/2020.06.09.20126326 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "Roujian",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiang",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Juan",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peihua",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bo",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Honglong",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wenling",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hao",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Baoying",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Na",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Who director-general's opening remarks at the media briefing on covid-19",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2023",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Epidemiological update: Coronavirus disease (covid-19) -28",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2020--2025",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Healthsystem reform and universal health coverage in latin america",
+            "authors": [
+                {
+                    "first": "Rifat",
+                    "middle": [],
+                    "last": "Atun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Luiz",
+                    "middle": [],
+                    "last": "Odorico Monteiro De Andrade",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gisele",
+                    "middle": [],
+                    "last": "Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "Daniel",
+                    "middle": [],
+                    "last": "Cotlear",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tania",
+                    "middle": [],
+                    "last": "Dmytraczenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "Patricia",
+                    "middle": [],
+                    "last": "Frenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Patr\u00edcia",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Octavio",
+                    "middle": [],
+                    "last": "G\u00f3mez-Dant\u00e9s",
+                    "suffix": ""
+                },
+                {
+                    "first": "Felicia",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Knaul",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carles",
+                    "middle": [],
+                    "last": "Muntaner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "The Lancet",
+            "volume": "385",
+            "issn": "9974",
+            "pages": "1230--1247",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Operational planning guidance to support country preparedness and response. who, editors. geneva, switzerland",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "22",
+            "issn": "",
+            "pages": "2020--2025",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "A framework for identifying regional outbreak and spread of covid-19 from one-minute population-wide surveys",
+            "authors": [
+                {
+                    "first": "Ayya",
+                    "middle": [],
+                    "last": "Hagai Rossman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Smadar",
+                    "middle": [],
+                    "last": "Keshet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amir",
+                    "middle": [],
+                    "last": "Shilo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tal",
+                    "middle": [],
+                    "last": "Gavrieli",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ori",
+                    "middle": [],
+                    "last": "Bauman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Esti",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ran",
+                    "middle": [],
+                    "last": "Shelly",
+                    "suffix": ""
+                },
+                {
+                    "first": "Benjamin",
+                    "middle": [],
+                    "last": "Balicer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yuval",
+                    "middle": [],
+                    "last": "Geiger",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Medicine",
+            "volume": "26",
+            "issn": "5",
+            "pages": "634--638",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Mathematics of life and death: How disease models shape national shutdowns and other pandemic policies",
+            "authors": [
+                {
+                    "first": "Martin",
+                    "middle": [],
+                    "last": "Enserink",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kai",
+                    "middle": [],
+                    "last": "Kupferschmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science Magazine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Modeling infectious diseases in humans and animals",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Matt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pejman",
+                    "middle": [],
+                    "last": "Keeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rohani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Statistical and mathematical modeling in the coronavirus epidemic: some considerations to minimize biases in the results",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Matabuena",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Padilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gonzalez-Barcala",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Archivos de Bronconeumologia",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Covid-19: Estimating spread in spain solving an inverse problem with a probabilistic model",
+            "authors": [
+                {
+                    "first": "Marcos",
+                    "middle": [],
+                    "last": "Matabuena",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carlos",
+                    "middle": [],
+                    "last": "Meijide-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pablo",
+                    "middle": [],
+                    "last": "Rodr\u00edguez-Mier",
+                    "suffix": ""
+                },
+                {
+                    "first": "V\u00edctor",
+                    "middle": [],
+                    "last": "Lebor\u00e1n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.13695"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Estimating the global infection fatality rate of covid-19. medRxiv",
+            "authors": [
+                {
+                    "first": "Richard",
+                    "middle": [],
+                    "last": "Grewelle",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giulio De",
+                    "middle": [],
+                    "last": "Leo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Map representing average estimations of seroprevalence percentage across several countries in Latin America. Gray colours indicates bad data quality or not enough data to fit models(colorblind-friendly palette) Screenshot of our dynamically updated webpage containing the results of worldwide estimations Spain, Grant/Award Number: GPC IN607B 2018/01. In addition, some member of this project has been partially support to develop this research by the Conseller??a de Cultura, Educaci\u00f3n e Results in Argentina: we assume that there are as many fatalities as in the official records. Results in Bolivia: we assume that there are as many fatalities as in the official records. Results in Chile: we assume that there are as many fatalities as in the official records. Results in Colombia: we assume that there are as many fatalities as in the official records. Results in Cuba: we assume that there are as many fatalities as in the official records. Results in Rep\u00fablica Dominicana: we assume that there are as many fatalities as in the official records.(accreditation 2019-2022 ED431G-2019/04).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Results in Honduras: we assume that there are as many fatalities as in the official records. Results in Hait\u00ed: we assume that there are as many fatalities as in the official records. Results in Mexico: we assume that there are as many fatalities as in the official records. Results in Nicaragua:we assume that there are as many fatalities as in the official records. Results in Panam\u00e1:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Results in Paraguay: we assume that there are as many fatalities as in the official records. Results in El Salvador:we assume that there are as many fatalities as in the official records. Results in Uruguay: we assume that there are as many fatalities as in the official records. Results in Puerto Rico: we assume that there are as many fatalities as in the official records.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Figure 1: Brazil results by our mathematical model. We assume that there are as many fatalities as in the official records.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

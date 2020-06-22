@@ -1,0 +1,479 @@
+{
+    "paper_id": "cef7b11e0fd802aac38b0fd4e1fbd50fd50ea864",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "We thank the authors for their very useful and constructive criticisms about laboratory monitoring of haemostatic variables detailed in the International Society on Thrombosis and Haemostasis guidance document for coagulopathy in COVID-19. We still believe that the use of simple and easily available laboratory markers both at admission and while in the hospital is necessary in the management of COVID-19 patients. Since the writing of this guidance and the letter from the experts being sent to us, there have been several reports of very high incidence of both arterial and venous thromboembolism (TE) in patients with COVID-19. [1] [2] [3] In one report published in the Journal of Thrombosis and Haemostasis, the incidence of venous TE was 25%, some of whom died from this complication. 2 Laboratory markers including D-dimer were relevant in these patients. The authors used D-dimer cutoff of 1.5 \u00b5g/mL for predicting venous TE and demonstrated sensitivity of 85.0% and specificity of 88.5% and negative predictive value of 94.7%. 2 They also suggested D-dimers may be used to monitor the effectiveness of anticoagulants, although this practice is not universally accepted. A recent case report also noted the \"decrease\" in D-dimers in a patient esca- Extremely high fibrinogen levels are noted in the COVID-19 patients. 5 But we do understand measuring plasma fibrinogen is not routine in many laboratories and may not be \"necessary\" in all cases if there is overburden on the biomedical scientists' workload. On the other hand, monitoring of coagulation status by laboratory tests is useful especially when the manpower and access to computed tomography are limited.",
+            "cite_spans": [
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 637,
+                    "end": 640,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 641,
+                    "end": 644,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 793,
+                    "end": 794,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1328,
+                    "end": 1329,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Laboratory haemostasis monitoring in COVID-19"
+        },
+        {
+            "text": "In addition to measuring D-dimers and prothrombin time, platelet count measurements may also have clinical relevance in this scenario.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Laboratory haemostasis monitoring in COVID-19"
+        },
+        {
+            "text": "COVID-19 literature is not replete with thrombocytopenia as a clinical feature but thrombocytosis has been reported. 5 Ranucci and colleagues have tried adding antiplatelet agent in critically ill COVID-19 patients with high platelet counts along with escalating the dose of prophylactic low molecular weight heparin and noted some clinical benefits. 6 Platelet activation is likely to be contributing to the hypercoagulability but the extent to which it does and which signalling pathways are involved are certainly interesting areas of research.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 118,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 351,
+                    "end": 352,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Laboratory haemostasis monitoring in COVID-19"
+        },
+        {
+            "text": "Certainly, we admit the risk of anticoagulant therapy using heparins. If the platelet count does drop by 30% to 50% since the start of low molecular weight heparin or other types of heparin, the possibility of heparin-induced thrombocytopenia (HIT) 7 as a complication should be considered. This adverse drug effect may be a cause for \"failure of anticoagulation\" and also the reason for the development of limb ischemia noted in some of these patients. We would consider HIT even if the platelet count is in the normal range but has decreased more than 50% in the 4 to 14 days of commencing heparin treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Laboratory haemostasis monitoring in COVID-19"
+        },
+        {
+            "text": "We also thank the authors for pointing out the different thresholds for transfusion, which is gratefully accepted and acknowledged in the final document. We also stress the importance of taking advice from the transfusion experts in this regard. The need for transfusion in COVID-19 patients is not high, however, because in our clinical experience bleeding is extremely uncommon because the hemostatic balance is shifted markedly toward thrombosis. We also acknowledge the important issue of iatrogenic anemia, something that has been highlighted by one of the authors for many years. 8 It may be that less frequent tests are ordered once the clinical situation improves is a possible solution.",
+            "cite_spans": [
+                {
+                    "start": 586,
+                    "end": 587,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Laboratory haemostasis monitoring in COVID-19"
+        },
+        {
+            "text": "The authors considered the possibility that the coagulopathy seen in COVID-19 might largely or even solely represent COVID-19 sepsis-induced hepatopathy. However, a recent retrospective study has described that although abnormalities of liver function indexes are common in COVID-19 patients, the impairment of liver function is not a prominent feature of COVID-19. 9 Another review also summarized that liver injury has often manifested as transient elevation of serum aminotransferases, and acute liver failure has been seldom reported in the available studies. 10 In addition, the level of antithrombin, which is also a predictor of liver reserve, is maintained within normal range in most of COVID patients during most of the hospitalization, according to the study by Tang et al. 5 It seems that changes of coagulation markers in COVID-19 cannot be attributed to liver failure based on current evidence. ",
+            "cite_spans": [
+                {
+                    "start": 366,
+                    "end": 367,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 564,
+                    "end": 566,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 785,
+                    "end": 786,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Laboratory haemostasis monitoring in COVID-19"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Anticoagulant treatment is associated with decreased mortality in severe coronavirus disease 2019 patients with coagulopathy",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemost",
+            "volume": "18",
+            "issn": "5",
+            "pages": "1094--1099",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Prevalence of venous thromboembolism in patients with severe novel coronavirus pneumonia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemost",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jth.14830"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Incidence of thrombotic complications in critically ill ICU patients with COVID-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Klok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjha",
+                    "middle": [],
+                    "last": "Kruipb",
+                    "suffix": ""
+                },
+                {
+                    "first": "Njm",
+                    "middle": [],
+                    "last": "Van Der Meerc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb Res",
+            "volume": "",
+            "issn": "20",
+            "pages": "30120--30121",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Severe COVID-19 infection associated with endothelial activation",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Escher",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Breakey",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "L\u00e4mmle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb Res",
+            "volume": "190",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Abnormal coagulation parameters are associated with poor prognosis in patients with novel coronavirus pneumonia",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemost",
+            "volume": "18",
+            "issn": "4",
+            "pages": "844--847",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The procoagulant pattern of patients with COVID-19 acute respiratory distress syndrome",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ranucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ballotta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Dedda",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemost",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jth.14854"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Think of HIT when thrombosis follows heparin",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Warkentin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Chest",
+            "volume": "130",
+            "issn": "3",
+            "pages": "631--632",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Twenty-five million liters of blood into the sewer",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Levi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Thromb Haemost",
+            "volume": "12",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Liver impairment in COVID-19 patients: a retrospective analysis of 115 cases from a single center in Wuhan city",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Liver Int",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "PMID": [
+                    "32239796"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Characteristics and mechanism of liver injury in 2019 coronavirus disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Transl Hepatol",
+            "volume": "8",
+            "issn": "1",
+            "pages": "13--17",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "lated to treatment dose anticoagulation (D-dimers decreased from 6.26 to 1.94 mg/L) reflecting in clinical improvement. 4 In relation to other haemostatic tests, Klok et al studied 184 patients with proven COVID-19 pneumonia admitted to the critical care unit and identified age and coagulopathy, defined as spontaneous prolongation of the prothrombin time > 3 seconds or activated partial thromboplastin time > 5 seconds as independent predictors of thrombotic complications. 3 Fibrinogen is another marker of hypercoagulability.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Clinical assessment should clearly trump in all situations including COVID-19. But, laboratory markers may be relevant in raising suspicion of an underlying thrombotic problem in these patients in addition to a good clinical assessment. The diagnosis of TE is often overlooked for several reasons: respiratory symptoms attributed to pneumonia or acute respiratory distress syndrome, chest \u00a9 2020 International Society on Thrombosis and Haemostasis Manuscript handled by: David Lillicrap Final decision: David Lillicrap and 17-Apr-2020",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

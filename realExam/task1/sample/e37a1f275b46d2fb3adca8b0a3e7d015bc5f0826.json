@@ -1,0 +1,1610 @@
+{
+    "paper_id": "e37a1f275b46d2fb3adca8b0a3e7d015bc5f0826",
+    "metadata": {
+        "title": "Clinical sequelae of the novel coronavirus: does COVID-19 infection predispose patients to cancer?",
+        "authors": [
+            {
+                "first": "Priya",
+                "middle": [],
+                "last": "Hays",
+                "suffix": "",
+                "affiliation": {},
+                "email": "phays@talisbio.com"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Reproduced with permission from [2] C StatPearls (2020).",
+            "cite_spans": [
+                {
+                    "start": 32,
+                    "end": 35,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "its RNA, to the creation of the of polyprotein 1a/1ab (pp1a/pp1ab) in the host [2] . Figure 3 shows how the viral replication-transcription complex is the product of the transcription apparatus which is housed in doublemembrane vesicles formed from subgenomic RNAs [2] . Open reading frames serve as templates for the production of the subgenomic mRNAs. In between these open reading frames, transcription termination occurs at transcription regulatory sequences [2] . At least six open reading frames are present, including a frameshift able to block host innate immune response. The viral envelope, a structural protein, confers viral pathogenicity since it promotes viral assembly and release. However, many of these features (e.g., those of nonstructural protein 2, and 11 ) have not yet been described [2] .",
+            "cite_spans": [
+                {
+                    "start": 79,
+                    "end": 82,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 265,
+                    "end": 268,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 463,
+                    "end": 466,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 777,
+                    "end": 778,
+                    "text": ")",
+                    "ref_id": null
+                },
+                {
+                    "start": 807,
+                    "end": 810,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 93,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The spike glycoproteins of CoV are composed of two subunits S1 and S2. The S2 protein is highly conserved and contains a fusion peptide, a transmembrane domain and a cytoplasmic domain [2] . The S subunits consists of homotrimers that compose the spikes on the viral surface which can transduce through host receptors. Thus, it could be a target for antiviral (anti-S2) compounds. On the contrary, the spike receptor-binding domain presents only a 40% amino acid identity with other SARS-CoVs [2] . Other structural elements on which research must necessarily focus are the ORF3b that has no homology with that of SARS-CoVs and a secreted protein (encoded by ORF8), which is structurally different from those of SARS-CoV.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 188,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 493,
+                    "end": 496,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Mutations and strain recognitions can be determined from the SARS-CoV-2 gene sequences that were recently published. A spike mutation which may have occurred in late 2019 triggered jumping to humans. In particular, SARS-CoV-2 gene sequence was compared with that of SARS-CoV. They analyzed the transmembrane helical segments in the ORF1ab encoded 2 (nsp2) and nsp3 and found that position 723 presents a serine instead of a glycine residue, while the position 1010 is occupied by proline instead of isoleucine [2] . The matter of viral mutations is key for explaining potential disease relapses.",
+            "cite_spans": [
+                {
+                    "start": 510,
+                    "end": 513,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "(4955-5900) 3CL-protease (10,055-10,977)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Papain-like protease"
+        },
+        {
+            "text": "Replicase (13, 236) Helicase (16, 043) Endoribonuclease (19, 658) Spike (S1 & S2) (21, 384) Single stranded RNA genome of SARS CoV-2 (\u223c30 kb length) 266 13,468 21,563 29,674 3' 5' Figure 2 . The SARS CoV-2 genomic structure. A papain-like protease, 3CL-protese and endoribonuclease are produced to lyse host cells. The replicase gene codes for replicative apparatus to create more virus to infect host cells. Reproduced with permission from [2] , C StatPearls (2020).",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 14,
+                    "text": "(13,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 15,
+                    "end": 19,
+                    "text": "236)",
+                    "ref_id": null
+                },
+                {
+                    "start": 29,
+                    "end": 33,
+                    "text": "(16,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 34,
+                    "end": 38,
+                    "text": "043)",
+                    "ref_id": null
+                },
+                {
+                    "start": 56,
+                    "end": 60,
+                    "text": "(19,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 61,
+                    "end": 65,
+                    "text": "658)",
+                    "ref_id": null
+                },
+                {
+                    "start": 82,
+                    "end": 86,
+                    "text": "(21,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 87,
+                    "end": 91,
+                    "text": "384)",
+                    "ref_id": null
+                },
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "266",
+                    "ref_id": null
+                },
+                {
+                    "start": 441,
+                    "end": 444,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 180,
+                    "end": 188,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Papain-like protease"
+        },
+        {
+            "text": "Immune response against the novel coronavirus The current understanding of how a dysregulated immune response that causes lung immunopathology would lead to deleterious clinical manifestations after pathogenic hCoV infections was reported in prior studies. As early as 2017, Channappanavar and Perlman declared that recent identification of SARS-like coronaviruses in bats and MERS-CoV in domesticated camels makes it likely that these viruses will continue to cross species barriers and cause additional outbreaks in human populations [11] . These highly pathogenic hCoVs cause a wide spectrum of clinical manifestations in humans, with a large fraction of patients developing short period of moderate clinical illness and a small but a substantial number of patients experiencing severe disease characterized by acute lung inflammation and acute respiratory disease [11] .",
+            "cite_spans": [
+                {
+                    "start": 536,
+                    "end": 540,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 868,
+                    "end": 872,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 infection & the immune response it elicits"
+        },
+        {
+            "text": "There are certain inflammatory responses that may be conducive to cancer. IFN-\u03b1/\u03b2 or inflammatory monocytemacrophage-derived pro-inflammatory cytokines sensitized T cells to undergo apoptosis, further impeding virus clearance [11] . The loss of TIR-domain-containing adapter-inducing IFN-\u03b2 (TRIF), an adapter molecule for TLR-3 and TLR-4 signaling, resulted in a distinct inflammatory signature characterized by neutrophil and other inflammatory cell infiltration [11] . A dysregulated immune response to SARS-CoV in TRIF-deficient mice was associated with aberrant antiviral IFN (IFN-\u03b1 and IFN-\u03b2), pro-inflammatory cytokine and chemokine (IL-6, TNF, IFN-\u03b3 and monocyte chemoattractant CCL5), and interferon-stimulated gene (RSAD2, IFIT1 and CXCL10) responses, another possible indicator of cancer risk [11] .",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 230,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 464,
+                    "end": 468,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 803,
+                    "end": 807,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 infection & the immune response it elicits"
+        },
+        {
+            "text": "Multiple structural and nonstructural proteins of SARS-CoV antagonize interferon responses [5] . Very early after infection, hCoV reach high titers and sequester multiple proteins that inhibit the interferon response, suggesting that immune response delay or evasion may be the result of early antagonism of the interferon [11] . A dysfunctionally regulated inflammatory response and T-cell apoptotic sensitization is also further orchestrated by the delayed interferon signaling [11] . Some consequences of cytokine storm and immunopathology are epithelial and endothelial cell apoptosis and vascular leakage, suboptimal T-cell response, in other words. CoV-specific T cells are crucial for virus clearance and limit further damage to the host. Additionally, T-cell responses also dampen overactive innate immune responses [11] . Exuberant inflammatory responses caused by pathogenic hCoV diminish the T-cell response, in the case of SARS CoV infection via TNF-mediated T-cell apoptosis, thus resulting in uncontrolled inflammatory response; accumulation of alternatively activated macrophages and altered tissue homeostasis; and acute respiratory distress syndrome [11] . Figure 4 demonstrates the enormous immune response against the novel coronavirus [12] . The innate immune response and adaptive immunity have distinct responses to coronaviruses infection [12] . The SARS-Cov-2 (CoV) infects macrophages, and then macrophages present CoV antigens to T cells and this process leads to T-cell activation and differentiation, including the production of cytokines associated with the different T-cell subsets (i.e., T helper cells), followed by a massive release of cytokines for immune response amplification [12] . The continued production of these mediators due to viral persistence has a negative effect on natural killer cells and CD8 + T-cell activation, and CD8 + T cells produce very effective mediators to clear CoV [6] .",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 94,
+                    "text": "[5]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 480,
+                    "end": 484,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 824,
+                    "end": 828,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1167,
+                    "end": 1171,
+                    "text": "[11]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1255,
+                    "end": 1259,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1362,
+                    "end": 1366,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1713,
+                    "end": 1717,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1928,
+                    "end": 1931,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1174,
+                    "end": 1182,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "COVID-19 infection & the immune response it elicits"
+        },
+        {
+            "text": "The attachment of CoV to DPP4R on the host cell through S protein leads to the appearance of genomic RNA in the cytoplasm. An immune response to dsRNA that results can be partially generated during CoV replication. TLR-3 sensitized by dsRNA leads to cascades of signaling pathways (IRFs and NF-\u03baB activation, respectively) which are activated to produce type I interferons and pro-inflammatory cytokines [12] . The production of type I interferons is important to enhance the release of antiviral proteins for the protection of uninfected cells. Sometimes, Reproduced with permission from [12] .",
+            "cite_spans": [
+                {
+                    "start": 404,
+                    "end": 408,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Binding and viral entry via membrane fusion or endocytosis on interaction of S1 (spike) glycoprotein with RBD on membrane receptors"
+        },
+        {
+            "text": "accessory proteins of CoV can interfere with TLR-3 signaling and bind the dsRNA of CoV during replication to prevent TLR-3 activation and evade the immune response [12] . TLR-4 might recognize S protein and lead to the activation of pro-inflammatory cytokines through the MyD88dependent signaling pathway. Virus-cell interactions lead to the strong production of immune mediators [6] . The secretion of large quantities of chemokines and cytokines (IL-1, IL-6, IL-8, IL-21, TNF-\u03b2 and MCP-1) is promoted in infected cells in response to CoV infection. These chemokines and cytokines, in turn, recruit lymphocytes and leukocytes to the site of infection [12] .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 380,
+                    "end": 383,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 652,
+                    "end": 656,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Binding and viral entry via membrane fusion or endocytosis on interaction of S1 (spike) glycoprotein with RBD on membrane receptors"
+        },
+        {
+            "text": "The host innate immune system detects viral infections by using PRRs to recognize pathogen-associated molecular patterns (PAMPs). At present, the known PRRs mainly include TLR, RIG-I-like receptor, NOD-like receptor, C-type lectin-like receptors and free-molecule receptors in the cytoplasm, such as cGAS, IFI16, STING and DAI [12] .",
+            "cite_spans": [
+                {
+                    "start": 327,
+                    "end": 331,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "PAMPs recognized by TLRs include lipids, lipoproteins, proteins and nucleic acids of the bacterial, viral, parasite and fungal origins [12] . The recognition of PAMPs by TLRs also occurs in cell membranes, endosomes, lysosomes and endocyte-lysosomes and other locations in cells [12] . Different TLRs can induce different biological responses via subsequent activation of varied adapter proteins, such as MyD88, TIRAP, TRIP and TRAM, but these adapter proteins all share the TIR structure [12] .",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 279,
+                    "end": 283,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "Viral infection plays a key role in signaling factor activation, that may have relevance for the initiation of cancer. MyD88 is the first identified TIR family member, which acts as an adapter protein; it mainly activates the transcription factors NF-\u03baB and MAPKs pathways to induce inflammatory factors expression [12] . Additionally, after a TLR is activated by the corresponding PAMP, MyD88 recruits the receptor-related kinases IRAK4, IRAKI, IRAK2 and IRAK-M. IRAK4 plays an important role in activating NF-\u03baB and MAPKs downstream of MyD88. IRAK interacts with TRAF6, which causes its K-63 ubiquitination, and facilitates NEMO ubiquitination to activate NF-\u03baB, which may have implications for aberrant cell growth. TRIF-dependent pathways activate IRF3 and NF-\u03baB. The function of TRAM and TIRAP is to recruit TRIF molecules to the TLR4 receptor and MyD88 to the TLR2 and TLR4 receptors, promoting cellular growth [12] .",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 917,
+                    "end": 921,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "Other signaling pathways are activated. Depletion of CD4 + T cells is associated with reduced pulmonary recruitment of lymphocytes and neutralizing antibody and cytokine production, resulting in a strong immunemediated interstitial pneumonitis and delayed clearance of SARS-CoV from lungs [12] . Additionally, T helper cells produce pro-inflammatory cytokines via the NF-\u03baB signaling pathway. IL-17 cytokines recruit monocytes and neutrophils to the site of infection with inflammation and activate other downstream cytokine and chemokine cascades, such as IL-1, IL-6, IL-8, IL-21, TNF-\u03b2 and MCP-1 [12] .",
+            "cite_spans": [
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 598,
+                    "end": 602,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "There may be a distinct association between novel coronavirus infection and the onset of cancer through the activation of the MAPK and JAK-STAT signaling pathways and the NF-\u03baB transcription factor. The MAPK signaling pathway, activated upon COVID-19 infection, is involved in the tumorigenesis of a number of cancers, including hepatocellular carcinoma, adrenocortical cancer, endometrial cancer, colorectal cancer and pituitary adenomas. The Ras/MAPK pathway is activated in 50-100% of human hepatocellular carcinomas and is correlated with a poor prognosis [13] . The MAPK signaling pathway is also implicated in pituitary adenomas and because of the important roles of MAPK signaling pathways in tumorigenesis, the use of the MAPK signaling pathways as therapeutic targets has continuously been considered as a promising strategy for pituitary adenoma therapy [14] . In the context of the role of two of the MAPK signaling pathways (ERKs 1/2 and p38), data suggest that MEK-MAPK-ERK signaling has a role in adrenocortical tumorigenesis that could be potentially used as a diagnostic marker for malignancy and targeted treatment in adrenocortical carcinoma [15] . Cholesterol in the form of LDL enhances intestinal inflammation and colorectal cancer progression via activation of reactive oxygen species (ROS) and signaling pathways including the MAPK pathway; [16] and, the estrogen receptor-\u03b1 activates MAPK signaling pathway to promote the development of endometrial cancer [17] . The oncologic sequelae of COVID-19 may include these cancers upon viral activation of the MAPK signaling pathway. These tumorigenic pathways may play a role in cancer initiation and progression in COVID-19 infection.",
+            "cite_spans": [
+                {
+                    "start": 560,
+                    "end": 564,
+                    "text": "[13]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 864,
+                    "end": 868,
+                    "text": "[14]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1160,
+                    "end": 1164,
+                    "text": "[15]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1364,
+                    "end": 1368,
+                    "text": "[16]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1480,
+                    "end": 1484,
+                    "text": "[17]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "The JAK-STAT signaling pathway is also activated by type I interferon synthesis promoted by IRF3 and IRF7 activation. This has been through PRRs that recognize viral RNA. The activation JAK-STAT signaling pathway has shown to be involved in tumorigenesis, including T-cell lymphoma, lung cancer and breast cancer. Gene expression profiling has implicated several intracellular signaling cascades, including the JAK/STAT pathway, in the pathogenesis of particular subtypes of lymphoma [18] . JAK-STAT signaling pathways are mutationally activated in many extranodal T-cell lymphomas, such as natural killer/T-cell and hepatosplenic T-cell lymphomas [19] . Since the JAK-STAT pathway is considered to be a central player in inflammation-mediated tumorigenesis, the implication of JAK-STAT signaling and the therapeutic potential of JAK1/2 inhibition was investigated in K-RAS-driven lung adenocarcinoma, and data showed that JAK1 and JAK2 are activated in human lung adenocarcinoma and that increased activation of JAK-STAT signaling correlated with disease progression and K-RAS activity in human lung adenocarcinoma [20] . Dysregulated JAK/STAT signaling has been implicated in breast cancer metastasis, which is associated with high relapse risks, which may be mediated through GRAM1b [21] . NF-\u03baB, and TRIF-dependent pathways are also activated; and, IRF3 and IFN-\u03b2 are activated in turn [12] . Transcription factors IRF3 and NF-\u03baB induce the gene expression of type I interferon through their activation by adaptor protein TRIF of TLRs. TLRs classify these types of signaling pathways induced by viral infection: The TLR signaling pathways are classified as the MyD88-dependent pathway, which functions to activate immune inflammatory factors and the TRIF-dependent pathway, which then in turn functions to activate the type I interferons and inflammatory factors [12] . NF-\u03baB-driven gene products include cytokines/chemokines, growth factors, anti-apoptotic factors, angiogenesis regulators and metalloproteinases, and drive oncogenesis. For instance, many of the genes transcribed by NF-\u03baB promote gastric carcinogenesis. Since it has been shown that chemotherapy-caused cellular stress could elicit activation of the survival factor NF-\u03baB, which leads to acquisition of chemoresistance, the NF-\u03baB system is recommended for therapeutic targeting [22] . Prosaposin, a neurotrophic factor, promotes the proliferation and tumorigenesis of glioma through TLR4-mediated NF-\u03baB signaling pathways [23] .",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 488,
+                    "text": "[18]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 648,
+                    "end": 652,
+                    "text": "[19]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1116,
+                    "end": 1120,
+                    "text": "[20]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1286,
+                    "end": 1290,
+                    "text": "[21]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1390,
+                    "end": 1394,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1867,
+                    "end": 1871,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2351,
+                    "end": 2355,
+                    "text": "[22]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2495,
+                    "end": 2499,
+                    "text": "[23]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "Dendritic cells (DCs) also respond to the virus, and their differentiation from precursor cells to mature cells may be inhibited as is the case with HIV-1. If their maturation is blocked, by perhaps the lack of GM-CSF, IL-4 and TNF-\u03b1, the adaptive immune response, which plays a key role in the cancer-immunity cycle may be inhibited ( Figure 5 ). DC's are the major antigen-presenting cells in the organism, and contribute both types of immunity by activating T cells and B cells. Immature DCs have strong migration ability, and mature DCs can effectively activate",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 344,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Novel coronavirus & oncologic sequelae: how cancer may be implicated"
+        },
+        {
+            "text": "Cancer antigen presentation (dendritic cells/APCs)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Priming and activation (APCs & T cells)"
+        },
+        {
+            "text": "Blood Reproduced with permission from [24] .",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 42,
+                    "text": "[24]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Trafficking of T cells to tumors (CTLs)"
+        },
+        {
+            "text": "T cells in the central link of start-up, regulation and maintenance of immune responses [6] . Thus, if the maturation process of DCs is blocked, it directly affects the initiation of subsequent adaptive immune responses that may need to be mobilized in attacking cancer.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 91,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Trafficking of T cells to tumors (CTLs)"
+        },
+        {
+            "text": "Other types of viruses have ostensible effects on adaptive immunity. In the case of HIV-1, DC precursor cells cannot differentiate into DCs if transfected with HIV-1 Nef protein in the presence of the inducers, indicating that Nef blocks the differentiation of DC precursor cells into mature DCs [12] . Additionally, both the core protein and NS3 protein of HCV inhibits the expression of CD1a, CD1b and DC-SIGN molecules on human peripheral blood mononuclear precursor cells, which play an important role in the development of peripheral blood mononuclear precursor cells to DCs [12] . In addition, HIV-1 attenuates the MHC I on the surface of DCs, thereby reducing the ability of DCs to present the viral antigens. HIV-1 infection enhances the expression of DC-specific intercellular adhesion molecule-3-grabbing nonintegrity (DC-SIGN), thus inhibiting CC chemokine receptor 7 and MHC-II, which are important receptors of DC homing [12] . These results indicate that virus infection interferes with the differentiation and function of DCs, hinders the subsequent adaptive immune response mediated by DCs and makes the virus evade the adaptive immune response of the host successfully [6] . If these DC events are occurring, cancer may co-opt normal cellular function and evade immune responses in a viral infection such as COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 580,
+                    "end": 584,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 934,
+                    "end": 938,
+                    "text": "[12]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1186,
+                    "end": 1189,
+                    "text": "[6]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Trafficking of T cells to tumors (CTLs)"
+        },
+        {
+            "text": "A 'cytokine storm', an excessive immune reaction in the host, also results from viral mechanisms that results in extensive tissue damage, mediated by IL-produced by activated leukocytes. B lymphocyte differentiation, cell growth stimulation and pathogenesis of some types for cancer may result. These effects are linked to the function of structural and nonstructural proteins of the virus [2] . Cytokine release syndrome, an immune-related adverse effect of chimeric antigen receptor T-cell therapies, is also implicated in the potential emergence of cancer. Additionally, as tissue damage envelopes the body's physiological functioning, and cellular resources are increasingly devoted to compensating for it, cancer may emerge as a risk factor. Lung tissue damage, a prevalent and major consequence of 10 Reproduced with permission from [25] .",
+            "cite_spans": [
+                {
+                    "start": 390,
+                    "end": 393,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 839,
+                    "end": 843,
+                    "text": "[25]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Trafficking of T cells to tumors (CTLs)"
+        },
+        {
+            "text": "infection, may be particularly at risk for developing into lung cancer, and patients who experience these symptoms, may need to be monitored for these sequelae.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Trafficking of T cells to tumors (CTLs)"
+        },
+        {
+            "text": "In the cancer-immunity cycle ( Figure 5 ), the cancer presents antigens which antigen-presenting cells present to MHC to activate cytotoxic CD8 + T cells, to ultimately destroy cancer cells in a cyclic process [24] . In cancer, the cancer-immunity cycle is dysfunctional with the accumulation of inhibitors of T-cell response and promoters of cancer cell growth. In SARS-CoV infection, cytotoxic T cells play a significant role and combat the pathogen by killing viral-infected cells and promoting the production of virus-specific antibodies by activating T-dependent B cells. The inflammation observed in the pulmonary environment upon viral infection is due to this large role played by CD8 + T cells which lead to immune injury. Immunosuppression, a risk factor for novel coronavirus, may emerge, conversely, as a risk for cancer in the context of viral infection. From an understanding of the cancer-immunity cycle, are there are any elements of novel coronavirus infection that would make the cycle vulnerable to cancer at any point and prevent the generation of immunity to cancer? The presence of checkpoint inhibitors to immune responses, such as cytotoxic T-lymphocyte associated protein-4, programmed death-1 and programmed death-ligand-1, may inure the development of cancer with viral infection. In a depleted T-cell environment postinfection, the broad T-cell response to cancer may be undermined. This inflammatory response concomitant with immune cell depletion, whether temporary or not, may lead to oncologic sequelae if accompanied by a superimposed mutagenic and/or carcinogenic event potentially occurring in a timeadjacent manner. Figure 6 displays the tumor microenvironment in the context of breast cancer and illustrates major inflammation and cytokine release, marks of viral infection which may predispose to cancer.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[24]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 39,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1652,
+                    "end": 1660,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Relevance of the cancer-immunity cycle & tumor microenvironment"
+        },
+        {
+            "text": "The implications for novel coronavirus infection on genomic variability are unknown at this point. If the virus through its replicative [26] and recombination capabilities [27] leads to genetic alterations that may predispose to cancer, another risk factor may be revealed.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 140,
+                    "text": "[26]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 172,
+                    "end": 176,
+                    "text": "[27]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Somatic mutations, drug resistance & COVID-19"
+        },
+        {
+            "text": "The administration of antiviral agents and other proposed treatments such as the antimalarial drug hydroxychloroquine may induce drug resistance to cancer therapies, such as targeted agents and immunotherapies. Even further, the status of targeted therapies may be jeopardized by the infection of the virus, since many personalized agents target growth factors that are possibly affected by viral transduction; however, this remains to be investigated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Somatic mutations, drug resistance & COVID-19"
+        },
+        {
+            "text": "It is generally known that viruses can cause cancer by integration of the genomes into host cell chromosomes and the expression of oncoproteins. While both of these mechanisms are not implicated in SARS-CoV-2, these are not exclusive mechanisms. The turning on of oncogenic signaling pathways and the acute inflammatory response that results upon coronavirus infection can be hypothesized as being cancer inducing, or leading to the risk of developing cancer, especially if the patient has a superimposed mutagenic or carcinogenic event occurring concomitantly, even if the virus does not cause a chronic infection like viruses such as HCV, HCV and EBV. Additionally, there exist limited resources and research as a result of the pandemic that may damage the prognosis of cancer patients. Novel coronavirus can destroy T cells, but unlike HIV, does not lead to persistent infection of T cells. Data suggest however that there is a general depletion of T cells in the COVID-19 infection environment, and this may affect the healthy progression of the cancer-immunity cycle. Also, there exist gaps in current knowledge on the novel coronavirus' impact on the immune system during co-infection by other viruses, such as HCV, HIV and EBV. Finally, the overwhelming organ dysfunction that novel coronaviruses results in some cases should be further investigated, and as possibly having an association with cancer. These should remain areas of research for future study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Countervailing viewpoints"
+        },
+        {
+            "text": "As the population infected with the novel coronavirus grows, and the infection spreads, its clinical sequelae may pose an issue of concern for physicians, and oncologists in particular. Future studies should focus on the predisposition of these recovering patients for cancer, and if these patients need to be monitored for the disease. It is the cumulative effect of many distinguishable aspects of coronavirus infection that leads to the increased predisposition to cancer, which then warrants closer follow-up in the future. The organ damage, inflammatory response and signaling pathways activation that occur upon viral infection may sum to significantly increase patients' predisposition to cancer, and this may be compounded by a superimposed mutagenic or carcinogenic event. The oncology field may evolve by investigating the potential tumor microenvironment in the context of SARS-CoV-2 infection, and if the virus can be considered an etiological agent in the development of cancer. Clinical sequelae may involve physicians needing to refer COVID-19 cases to oncologists for the confirmation of cancer, either benign and malignant cases. The caveat must be mentioned however that knowledge surrounding coronavirus is constantly being updated and this review must be interpreted in light of any recently updated knowledge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future perspective"
+        },
+        {
+            "text": "Acknowledgments P Hays would like to extend special thanks to L Gautier for his personal assistance and support in the writing and publishing of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future perspective"
+        },
+        {
+            "text": "Financial & competing interests disclosure P Hays is an employee of Talis Biomedical Corporation (Talis). The authors have no other relevant affiliations or financial involvement with any organization or entity with a financial interest in or financial conflict with the subject matter or materials discussed in the manuscript apart from those disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future perspective"
+        },
+        {
+            "text": "No writing assistance was utilized in the production of this manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future perspective"
+        },
+        {
+            "text": "The views expressed in this paper are P Hays' own and do not necessarily represent those of Talis, its parents, subsidiaries or related Talis entities. Executive summary",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer"
+        },
+        {
+            "text": "\u2022 The novel coronavirus is leading to a global pandemic and is causing worldwide clinical and economic devastation. The infection may pose medical risk factors for patients, both symptomatic and asymptomatic, who recover. There will be a distinct health population in the future that will need to deal with clinical sequelae, and cancer may be one of them. Oncologic sequelae of the novel coronavirus \u2022 Viral infection induces a robust immune response, a 'cytokine storm' leading to tissue damage and inflammation, which may predispose to cancer. Signaling factors, such as MAPK and JAK-STAT, promoted by viral infection may lead to aberrant cellular growth that marks cancer. The maturation of dendritic cells may be inhibited, as shown in patients infected with HIV-1. The cancer-immunity cycle & tumorigenesis \u2022 The cancer-immunity cycle may be impaired upon viral infection, since T-cell apoptosis also occurs as a result of viral infection, leading to a state of immunosuppression. If concomitant with a mutagenic or carcinogenic event, a cancerous state may result. The 'cytokine storm' poses a risk factor for cancer in the tumor microenvironment. Summary \u2022 In conclusion, patients infected and recovered from novel coronavirus, particularly those with lung tissue damage, may need to be monitored for cancer, among other diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclaimer"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical management of lung cancer patients during the outbreak of 2019 novel coronavirus disease",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zhongguo Fe Ai Za Zhi",
+            "volume": "23",
+            "issn": "3",
+            "pages": "136--141",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Di Napoli R. Features, evaluation and treatment coronavirus (COVID-19). In: StatPearls. StatPearls Publishing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cascella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dulebohn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Excellent overview of clinical symptoms and progression of COVID-19 infection patients. Excellent graphics on coronavirus genome and structure",
+            "authors": [
+                {
+                    "first": "\u2022",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Epidemiology, causes, clinical manifestation and diagnosis, prevention and control of coronavirus disease (COVID-19) during the early outbreak period: a scoping review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Adhikari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect. Dis. Poverty",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "\u2022 Very informative review article encompasses the epidemiology and clinical presentation of the coronavirus disease",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalized with COVID-19 in the New York City area",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narasimhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA e206775",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "\u2022 One of the first major studies conducted at a hotspot of the pandemic on characteristics of coronavirus patients and their comorbities",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Advisory Board: it's not just lungs: COVID-19 may damage the heart, brain, and kidneys",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Association of cardiac injury with mortality in hospitalized patients with COVID-19 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamacardio.2020.0950"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Neurologic manifestations of hospitalized patients with coronavirus disease",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JAMA Neurol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2020.1127"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Renal histopathological analysis of 26 postmortem findings of patients with COVID-19 in China",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kidney Int",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.kint.2020.04.003"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Prevalence of venous thromboembolism in patients with severe novel coronavirus pneumonia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Thromb. Haemost",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jth.14830"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Pathogenic human coronavirus infections: causes and consequences of cytokine storm and immunopathology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Channappanavar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Semin Immunopathol",
+            "volume": "39",
+            "issn": "5",
+            "pages": "529--539",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "\u2022 An early article on the molecular responses to coronavirus infection and possibility of pandemics",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Coronavirus infections and immune responses",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "92",
+            "issn": "4",
+            "pages": "424--432",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "\u2022\u2022 An excellent overview with graphics on the immune-mediated responses to coronavirus",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The Ras/MAPK pathway and hepatocarcinoma: pathogenesis and therapeutic implications",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Delire",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Starkel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Eur. J. Clin. Invest",
+            "volume": "45",
+            "issn": "6",
+            "pages": "609--623",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The MAPK pathway-based drug therapeutic targets in pituitary adenomas",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front. Endocrinol",
+            "volume": "10",
+            "issn": "",
+            "pages": "419--430",
+            "other_ids": {
+                "DOI": [
+                    "10.2217/fon-2020-0300"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "MAPK/ERK pathway inhibition is a promising treatment target for adrenocortical tumors",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Monteiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Costa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Cell. Biochem",
+            "volume": "15",
+            "issn": "",
+            "pages": "894--906",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Cholesterol enhances colorectal cancer progression via ROS elevation and MAPK signaling pathway activation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peiwei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xuan",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cell Physiol. Biochem",
+            "volume": "42",
+            "issn": "",
+            "pages": "728--742",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Estrogen receptor alpha activates MAPK signaling pathway to promote the development of endometrial cancer",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Cell. Biochem",
+            "volume": "120",
+            "issn": "",
+            "pages": "17593--17601",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Deregulated JAK/STAT signalling in lymphomagenesis, and its implications for the development of new targeted therapies",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gandhi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Blood Rev",
+            "volume": "29",
+            "issn": "",
+            "pages": "405--415",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Novel insights into the pathogenesis of T-cell lymphomas",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Van Arnam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elenitoba-Johnson",
+                    "middle": [],
+                    "last": "Ksj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Blood",
+            "volume": "24",
+            "issn": "",
+            "pages": "2320--2330",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "JAK-STAT inhibition impairs K-RAS-driven lung adenocarcinoma progression",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mohrherr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haber",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Breitnencecker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int. J. Cancer",
+            "volume": "145",
+            "issn": "",
+            "pages": "3376--3388",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "GRAMD1B regulates cell migration in breast cancer cells through JAK/STAT and Akt signaling",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Khanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sereemaspun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci. Rep",
+            "volume": "22",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "NF-\u03baB signaling in gastric cancer",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Sokolova",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Naumann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Toxins (Basel)",
+            "volume": "9",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Prosaposin promotes the proliferation and tumorigenesis of glioma through toll-like receptor 4 (TLR4)-mediated NF-\u03baB signaling pathway",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "EbioMedicine",
+            "volume": "37",
+            "issn": "",
+            "pages": "78--90",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Oncology meets immunology: the cancer-immunity cycle",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mellman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Immunity",
+            "volume": "39",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The complex interaction between the tumor micro-environment and immune checkpoints in breast cancer",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Barriga",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kuol",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nurgali",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Apostolopoulos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cancers (Basel)",
+            "volume": "11",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Emerging coronaviruses: genome structure, replication and pathogenesis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "418--423",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Mechanisms and consequences of positive-strand RNA virus recombination",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bentley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Gen. Virol",
+            "volume": "99",
+            "issn": "10",
+            "pages": "1345--1356",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Structure of SARS-CoV2. A positive single-stranded RNA genome with a nucleocapsid is surrounded by a membrane with spike proteins.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Coronavirus Infection Course. How the novel coronavirus infects host cells. E: Envelope; ER: Endoplasmic reticulum; M: Membrane; S: Spike. Reproduced with permission from [3].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "COVID-19 infection and the immune response. Activated signaling pathways such as JAK-STAT and MAPK, cytokine storm, T-cell depletion, humoral responses and high levels of inflammation may predispose patients infected with novel coronavirus to cancer.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The cancer-immunity cycle. Dendritic cells present cancer antigens to T cell, which are honed to the cancer site. T cells infiltrate tumors and recognize cancer cells upon their destruction. Each point in this cycle may be points of vulnerability upon novel coronavirus infection. APC: Antigen-presenting cell.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Tumor microenvironment of breast cancer. The tumor microenvironment progresses through cytokine release.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "10.2217/fon-2020-0300 Future Oncol. (Epub ahead of print) future science group Clinical sequelae of the novel coronavirus: does COVID-19 infection predispose patients to cancer? Review",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

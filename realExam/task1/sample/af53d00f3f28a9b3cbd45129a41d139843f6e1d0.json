@@ -1,0 +1,290 @@
+{
+    "paper_id": "af53d00f3f28a9b3cbd45129a41d139843f6e1d0",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Renato",
+                "middle": [],
+                "last": "Sobral Monteiro-Junior",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The global COVID-19 pandemic is related to an acute respiratory disease caused by the coronavirus (SARS-CoV-2), which is highly contagious and rapidly evolving [1] . Considering the case series based on laboratory diagnosis worldwide until 17-May-2020, almost five million cases of COVID-19 have been confirmed and the associated mortality rate has fluctuated between approximately 2 and 6% (See https://www.worldometers.info/coronavirus/). SARS-CoV-2 can impairs a variety of tissues including the brain, where the virus triggers neurological symptoms [2] . Acute respiratory diseases as coronavirus have been involved in febrile seizures, convulsions, loss of consciousness, encephalomyelitis, encephalitis, among others. The close relationship of coronaviruses and angiotensin converting enzyme-2 (ACE2) is a molecular interaction studied to explain how these viruses can reach the central nervous system [2] .",
+            "cite_spans": [
+                {
+                    "start": 160,
+                    "end": 163,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 553,
+                    "end": 556,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 908,
+                    "end": 911,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "SARS-CoV-2 has spike proteins with ACE2 receptors affinity. ACE2 receptors are expressed in glial cells and neurons in the brain, which could facilitate the entry of SARS-CoV-2 in the central nervous system [2] . A Chinese retrospective study with 214 infected patients recently reported that 45.5% (n=40) of severe patients (n=88) presented neurological manifestations [3] . A recent study [4] revealed three different coronavirus-induced phenotypes of mice model of multiple sclerosis, indicating the link between coronavirus and the worst prognosis of the disease. Hence, although these evidences have shown acute neurological complications in those patients, additional data are needed to understand how SARS-CoV-2 affects the brain. The hypothesis herein shown is that SARS-CoV-2 could affect the brain since ACE2 interacts with proteins in the nervous system.",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 391,
+                    "end": 394,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hypothesis"
+        },
+        {
+            "text": "A computational database (String -http://string-db.org) was used to determine possible interactions among ACE2 and other proteins in the brain. Firstly, GeneCards (https://www.genecards.org) was handled to search main topic-associated molecules. The following terms were incorporated into the database: coronavirus AND mental disorders OR neurological disorders. Among a list of molecules retrieved, three were included in the String database, combined with ACE2: tumor necrosis factor (TNF), interleukin-6 (IL6) and apolipoprotein-E (APOE). String analysis showed a significant (PPI enrichment p-value=0.0192) interaction among all molecules.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network bioinformatic model and discussion"
+        },
+        {
+            "text": "ACE2 is co-expressed with APOE and IL6, while an indirect association was regarded with TNF mediated by IL6 (see https://version-11-0.string-db.org/cgi/network.pl?networkId=3nIqdTaO4fcM).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Network bioinformatic model and discussion"
+        },
+        {
+            "text": "While APOE 4 is known as a related factor to Alzheimer's disease (AD), other forms of this apoprotein have many interactions with molecules associated with neurodegenerative illness, such as amyloid precursor protein and microtubule-associated protein tau (both related with AD), and synuclein alpha protein (e.g. Parkinson's disease). Likewise, IL6 and TNF as pro-inflammatory cytokines have a critical role in neroinflammation. Furthermore, IL6 and TNF are closely related to SARS-CoV-2 infection, as an upregulation of these and other cytokines is modulated by the virus, causing a cytokine storm [4, 5] . Hence, it is reasonable think further possible neurological complications in patients with SARS-CoV-2, as ACE2 interactions could trigger a chaotic protein interaction network in the brain.",
+            "cite_spans": [
+                {
+                    "start": 600,
+                    "end": 603,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 604,
+                    "end": 606,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Network bioinformatic model and discussion"
+        },
+        {
+            "text": "The author declares no known competing financial interests or personal relationship that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DECLARATION OF COMPETING INTEREST"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Articles Genomic characterisation and epidemiology of 2019 novel coronavirus : implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "10224",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Evidence of the COVID-19 Virus Targeting the CNS: Tissue Distribution, Host-Virus Interaction, and Proposed Neurotropic Mechanisms",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Baig",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khaleeq",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Syeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Chem. Neurosci",
+            "volume": "",
+            "issn": "",
+            "pages": "0--3",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Neurological Manifestations of Hospitalized Patients with COVID-19 in Wuhan, China: A Retrospective Case Series Study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SSRN Electron. J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Differential neurodegenerative phenotypes are associated with heterogeneous voiding dysfunction in a coronavirus-induced model of multiple sclerosis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nedumaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hypolite",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Caldwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rudolph",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Malykhina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci. Rep",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Trials of anti-tumour necrosis factor therapy for COVID-19 are urgently needed",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "6736",
+            "issn": "20",
+            "pages": "10--13",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "DECLARATION OF COMPETING INTEREST The author declares no known competing financial interests or personal relationship that could have appeared to influence the work",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Monteleone",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sarzi-Puttini",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ardizzone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Rheumatol",
+            "volume": "",
+            "issn": "20",
+            "pages": "483--504",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "of the Neuroscience of Exercise Institute, Aroldo Tourinho Hospital, Minas Gerais, Brazil. Correspondence address: Av. Doutor Rui Braga s/n, Vila Mauriceia, Montes Claros, Minas Gerais, 555 39.401-089, Building 08. E-mail address: monteirojuniorms@gmail.com Dear Sir,",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

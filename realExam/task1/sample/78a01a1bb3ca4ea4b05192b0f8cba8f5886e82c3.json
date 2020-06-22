@@ -1,0 +1,654 @@
+{
+    "paper_id": "78a01a1bb3ca4ea4b05192b0f8cba8f5886e82c3",
+    "metadata": {
+        "title": "Transnasal endoscopic skull base surgery during COVID-19 pandemic: algorithm of management in an Italian reference COVID center",
+        "authors": [
+            {
+                "first": "P",
+                "middle": [
+                    "P"
+                ],
+                "last": "Mattogno",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "M"
+                ],
+                "last": "Rigante",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "addrLine": "Largo A. Gemelli n. 8",
+                        "postCode": "00168",
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "L"
+                ],
+                "last": "Lauretti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "C"
+                ],
+                "last": "Parrilla",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy Acta Neurochirurgica"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Q",
+                "middle": [
+                    "G"
+                ],
+                "last": "D&apos;alessandris",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "G"
+                ],
+                "last": "Paludetti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy Acta Neurochirurgica"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "A"
+                ],
+                "last": "Olivi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Fondazione Policlinico Universitario A. Gemelli -IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Dear Editor, On March 12, 2020, the WHO officially declared the COVID-19 disease a global pandemic emergency. Since then, radical changes took place in the organization and the daily care priorities of the Italian Health System. Our Institution represents one of the main COVID Hospitals in the Lazio region. We heavily reduced our routine clinical activities, but we are able to preserve part of the hospital as COVIDfree, thanks to structural and logistical facilities arrangements. Considering the virus' homing and that a significant number of skull base pathologies require a transnasal endoscopic approach, safety for both patients and medical providers is obviously considered of paramount importance. We would like to focus on the transnasal endoscopic skull base surgery adding information and sharing our experience in comment to the paper of Zoia et al. [8] .",
+            "cite_spans": [
+                {
+                    "start": 865,
+                    "end": 868,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In our Institution, 2 different admissions and clinical pathways were defined based on patient COVID+ or COVID\u2212 status. All the patients scheduled for surgery are prehospitalized 24 h prior to the admission: vital signs and body temperature are recorded, and a detailed History and Physical is taken. A rapid blood test (IgM and IgG for COVID-19) and nasal and pharyngeal swab are performed. Patients negative to the first rapid test and to the swab test are admitted to the COVID-free Neurosurgical Unit, so they can be operated on the following day. Conversely, patients with positive rapid and swab test are referred to a COVID+ Department. The planned surgical procedure is postponed, if possible, after the resolution of the infection and the full recovery of the patient. In patients requiring urgent surgery, we adopted our Institutional protocol for surgical emergencies in COVID+ patients. In detail, for patients COVID+ needing a transsphenoidal endoscopic surgery, we recommend the following items.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "All the members of the surgical staff are required to complete appropriate simulations to become familiar with the environment, the equipment, and the special steps to minimize infections, contaminations, and aerosol generation [2, 4] .",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 231,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 232,
+                    "end": 234,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Negative pressure or dedicated operating rooms are preferred. All the unnecessary tools and devices are removed. Endoscopic tower, camera, light cable, and 4 k monitor are draped (Fig. 2 ). Patient face, mouth, and nostrils are draped with an additional layer of transparent steri-drape. In this way, the endoscope and the surgical instruments passed through the drape can minimize the potential aerosolization (Fig. 1) . The use of personal protective equipment (PPE) is mandatory for the members of the surgical team, in particular a properly fitted, molded, and handled FFP3 mask plus surgical mask, eye protection (goggles/full face shield), impermeable scrub, and double gloves (level 3 protection [2, 4, 6] ). We adopt endonasal transsphenoidal 4 hands technique with both surgeons on the same side of the bed (see Figs. 1 and 2) . Only the surgeons are potentially exposed to the aerosol, significantly reducing the risk of contamination (see Fig. 1 ). During surgery, the use of nasal pledgets is minimized, and the drilling and use of rongeurs for bone removal are avoided; in summary, try to reduce as much as possible any aerosol-generating procedures [1, [3] [4] [5] [6] . Avoid nasal packing and use re-absorbable materials, in order to avoid cough or gagging during removal. Start nasal rinse with saline solution on post-operative days. If no major or minor complications occur after 3 days, the patient is managed in a COVID + Medical Unit and subsequently discharged for home quarantine. Nasal endoscopic assessment is performed 2 weeks after surgery, using all the precautions recommended for COVID+ patients. An environment with all the protections (level 3) for the ENT surgeons and nurse is designated, requiring the patient to come at the scheduled time wearing the appropriate protections [4, 7] .",
+            "cite_spans": [
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 707,
+                    "end": 709,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 710,
+                    "end": 712,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1163,
+                    "end": 1166,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1167,
+                    "end": 1170,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1171,
+                    "end": 1174,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1175,
+                    "end": 1178,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1179,
+                    "end": 1182,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1812,
+                    "end": 1815,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1816,
+                    "end": 1818,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 186,
+                    "text": "(Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 411,
+                    "end": 419,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 821,
+                    "end": 835,
+                    "text": "Figs. 1 and 2)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 950,
+                    "end": 956,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "During the last month, we operated on 12 patients affected by skull base tumors using endoscopic endonasal approach. We treated 1 patient with sinonasal SCC with frontal lobe involvement, 1 recurrence of ethmoid adenocarcinoma involving the orbit, 1 clivus chordoma with acute onset of headache, 1 Rathke's cleft cyst, 1 expansive lesion of the clivus, 7 pituitary adenomas (2 pituitary apoplexia, 1 ACTH, 2 GH, 1 PRL secreting adenomas, 1 not-secreting macroadenoma, all with acute worsening of visual field). All of them resulted COVID\u2212, but in 3 of them in which drilling was necessary, we adopted the precautions as for COVID+ patients. None of them presented perioperative and post-operative complications, even if in 5/12 (42%) of cases we observed intraoperative CSF leak repaired with multilayer and pedicled flap. During the ENT outpatient follow-up, none of them presented any symptoms and signs of COVID infection. Two patients are now starting the post-operative adjuvant radiation therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, careful preclinical evaluations are essential in this period: we must be prepared to deal with COVID+ patients not only in emergency situations and in the inpatient settings but also during the follow-up. Encouraging and implementing strict protection measures to providers and patients will prevent the further spreading of the COVID-19 infection in hospital settings where the care to selected patient requiring urgent surgery must continue. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Conflict of interest The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        },
+        {
+            "text": "Ethical approval All procedures performed in the present paper were in accordance with the ethical standards of the institutional research committee and with the 1964 Helsinki declaration and its later amendments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        },
+        {
+            "text": "Informed consent Informed consent was obtained from all individual participants included in the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        },
+        {
+            "text": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Recommendations on COVID -19 pandemic-Italian Skull base Society",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Castelnuovo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "What to do when a patient infected with COVID-19 needs an operation: a pre-surgery, peri-surgery and postsurgery guide",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Erdin\u00e7",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c7",
+                    "middle": [],
+                    "last": "Tahsin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Turk J Colorectal Dis",
+            "volume": "30",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19: what's now? European Rhinologic Society, Guideline and Recommendations",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Endonasal neurosurgery during the COVID-19 pandemic: the Singapore perspective",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "Teo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--3",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Precautions for endoscopic transnasal skull base surgery during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fernandez-Miranda",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hwang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nayak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dodd",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sajjadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jackler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Neurosurgery",
+            "volume": "125",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Endonasal instrumentation and aerosolization risk in the era of COVID-19: simulation, literature review, and proposed mitigation strategies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Workman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Welling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Curry",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Holbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scangas",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bleier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int Forum Allergy Rhinol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/alr.22577"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A COVID-19 patient who underwent endonasal endoscopic pituitary adenoma resection: a case report",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Neurosurgery",
+            "volume": "147",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Neurosurgery during the COVID-19 pandemic: update from Lombardy, northern Italy",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zoia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bongetta",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Veiceschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cenzato",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Meco",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Locatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Boeris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fontanella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Neurochir (Wien). Mar",
+            "volume": "28",
+            "issn": "",
+            "pages": "1--2",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schematic drawing of the position of the team during transsphenoidal endoscopic surgery adapted in COVID-19 period. In red potential area of direct aerosol dispersion, the dotted line is drape division protecting anesthesiologist. I first surgeon, II second surgeon, SN scrub nurse, A anesthesiologist, SST surgical tables",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "COVID + OR setting. a Nasal draping with transparent steridrape. b Passage of instruments through the drape in order to reduce aerosolization. c Binostril-four hands technique, showing the distance between first surgeon's protected airways and patient's nose. d, e Different perspective views of the relative position of the surgical team during procedure",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

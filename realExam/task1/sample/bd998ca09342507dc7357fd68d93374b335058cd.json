@@ -1,0 +1,336 @@
+{
+    "paper_id": "bd998ca09342507dc7357fd68d93374b335058cd",
+    "metadata": {
+        "title": "Journal Pre-proof Does COVID-19 infection impact on the trend of seasonal influenza infection? 11 countries and regions, from 2014 to 2020 Title: Does COVID-19 infection impact on the trend of seasonal influenza infection? 11 countries and regions, from 2014 to 2020",
+        "authors": [
+            {
+                "first": "Takahiro",
+                "middle": [],
+                "last": "Itaya",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kyoto University",
+                    "location": {
+                        "settlement": "Kyoto",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuki",
+                "middle": [],
+                "last": "Furuse",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kyoto University",
+                    "location": {
+                        "settlement": "Kyoto",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kazuaki",
+                "middle": [],
+                "last": "Jindai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kyoto University",
+                    "location": {
+                        "settlement": "Kyoto",
+                        "country": "Japan"
+                    }
+                },
+                "email": "jindai.kazuaki.z15@kyoto-u.jp"
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Affiliations",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The number of people infected with the 2019 novel coronavirus disease (COVID-19) has surged worldwide since the first case of COVID-19 was reported in December 2019 in Wuhan, China [1] . COVID-19 has been featured extensively in both traditional and social media, leading to high levels of attention on previously unknown respiratory disease and risk perception among the public [2] . Moreover, infection prevention and control strategies to help prevent the spread of COVID-19 in community settings have aligned with those used for other common respiratory J o u r n a l P r e -p r o o f viral infections such as influenza infection; such strategies have included hand hygiene, cough etiquette, and avoiding close contact with sick persons [3] . We aimed to identify the relationship between the COVID-19 pandemic and the incidence of seasonal influenza in different regions and countries.",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 184,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 379,
+                    "end": 382,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 741,
+                    "end": 744,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The subjects resided in the following 11 countries and regions: Northern . Of note, the Chinese healthcare authorities officially reported human-to-human transmission on January 20, 2020 [4] . Therefore, we operated on the assumption that public concern presumptively derived from the COVID-19 epidemic affected the incidence of influenza after January 20, 2020 (EPI week 4). ",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 190,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 72,
+                    "text": "Northern",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Since Hong Kong, Japan, and Taiwan are geographically proximal to China, the impact of the COVID-19 outbreak in China might have impacted the public more directly in these countries than in other countries. Hong Kong, Japan, and Taiwan reported imported cases from China in the evolving phase of the COVID-19 outbreak, and public concern about the COVID-19 outbreak could have risen dramatically as a result [1] . The citizens of these areas might have taken robust preventive measures, including wearing masks, hand hygiene, and even selfimposed physical distancing. Consequently, these precautionary measures may have helped to prevent influenza transmission.",
+            "cite_spans": [
+                {
+                    "start": 408,
+                    "end": 411,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We propose that not only geographic differences but also cultural differences could have enhanced self-protective rituals. For instance, although the effect of wearing face masks on virus transmission is unknown [5] , people in Asian regions routinely wore masks in public even before the COVID-19 outbreak, whereas this practice was not commonly seen in the US or in European countries [6, 7] . In addition, norms concerning interpersonal distance, hugging, ",
+            "cite_spans": [
+                {
+                    "start": 212,
+                    "end": 215,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 387,
+                    "end": 390,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 391,
+                    "end": 393,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Coronavirus disease (COVID-2019) situation reports",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The CDC Field Epidemiology Manual",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goodman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "How to Protect Yourself",
+            "authors": [],
+            "year": 2020,
+            "venue": "Centers for Disease Control and Prevention",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Japan Times. WHO emergency group to meet on spreading China virus",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "World Health Organization. Coronavirus disease (COVID-19) advice for the public: When and how to use masks",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Risk, ritual and health responsibilisation: Japan's 'safety blanket' of surgical face mask-wearing",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Burgess",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Horii",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Sociol Health Illn",
+            "volume": "34",
+            "issn": "8",
+            "pages": "1184--98",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Qualitative study on the shifting sociocultural meanings of the facemask in Hong Kong since the severe acute respiratory syndrome (SARS) outbreak: implications for infection control in the post-SARS era",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Siu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int J Equity Health",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Preferred interpersonal distances: a global comparison",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sorokowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sorokowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hilpert",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cantarero",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Frackowiak",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ahmadi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Cross-Cult Psychol",
+            "volume": "48",
+            "issn": "4",
+            "pages": "577--592",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "China, Southern China, Hong Kong, the Republic of Korea, Japan, Taiwan, Canada, the United States (US), England, France, and Germany. We extracted weekly reports of seasonal influenza data from the 2014-15 season through to the 2019-20 season, from epidemiological (EPI) week 40 to EPI week 10, using the open-access databases of each public health authority. The seasonal influenza data was summarized by country and by region. We conducted a quasi-experimental difference-indifference (DID) design to examine whether the trend in the number or proportion of patients with influenza before and after January 20 of this season (2019-20) was different from those the previous five seasons (2014-15 to 2018-19)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "week 4 of the 2019-20 season, the US, Canada, and European countries have experienced similar trends in the fluctuation of seasonal influenza cases to those experienced in previous seasons. In contrast, some Asian regions experienced different trends in influenza incidence this season from those experienced in previous seasons (Figure). In Northern and Southern China, the number of influenza patients fluctuated without following any consistent trends in the 2019-20 season. The number of patients infected with influenza in Hong Kong, Japan, and Taiwan were significantly lower after EPI week 4 of the 2019-20 season than in previous influenza seasons. The numbers of influenza cases this season did not peak in these countries as they had in previous seasons. Conversely, the number of influenza cases in the Republic of Korea in the 2019-20 season was similar to the numbers of cases seen in previous years. Although we also investigated the number of influenza specimens tested, the data were unavailable for most countries and regions. We could collect the data in Northern China, Southern China, Hong Kong, the Republic of Korea, and the US (Supplementary material).Within the available data, the number of influenza tests in the Republic of Korea gradually decreased after EPI week 4 in this season compared to previous seasons. However, the COVID-",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Figure legend",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Trends in patients with influenza in 11 countries/regions over six seasons. ILI = influenza-like illness; PMP = private medical practitioner; ILINet = Influenza-like Illness Surveillance Network; GP = general practitioner.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

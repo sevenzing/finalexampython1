@@ -1,0 +1,3054 @@
+{
+    "paper_id": "f731c4db39836e37bfa58e698d73eee9a15bad2c",
+    "metadata": {
+        "title": "Ethical and Professional Considerations in the Forensic Assessment of Complex Trauma and Dissociation",
+        "authors": [
+            {
+                "first": "Lisa",
+                "middle": [
+                    "M"
+                ],
+                "last": "Rocchio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lisa M. Rocchio, Ph.D. & Associates, Inc",
+                    "location": {
+                        "addrLine": "1524 Atwood Avenue, Suite 222",
+                        "postCode": "02919",
+                        "settlement": "Johnston",
+                        "region": "RI",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Empirical research spanning the past three decades has consistently upheld that traumatic experiences are prevalent (Gold,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Psychologists, mental health professionals, researchers, and public policy makers are becoming increasingly aware that exposure to traumatic events is not a rare occurrence and is related to a number of trauma-related disorders (Gold, 2008) . For example, a national study utilizing a large sample of adults residing in the USA found that 89.7% had experienced at least one DSM-5 Criterion A traumatic event and that many had experienced more than one type of trauma (Kilpatrick et al., 2013) . Another study found that 69% of a sample of over 4000 US women reported having experienced a traumatic event over the course of their lifetime (Resnick et al., 1993) . While prevalence rates in community samples are high, studies of clinical populations have found significantly higher prevalence rates (Mauritz, Goossens, Draijer, & van Achterberg, 2013; Shi, 2013) . Given the high prevalence rates of trauma exposure, it is very likely that forensic psychologists will find themselves involved in civil or criminal matters involving the assessment of an individual who has experienced at least one significant traumatic event. Although ethical practice is critical in all aspects of forensic practice, evaluating individuals who have experienced complex trauma can present some unique difficulties that are important for psychologists to understand. This paper will address those ethical considerations that are critical for any forensic evaluation, as well as discuss how repeated trauma can increase the complexity of forensic practice.",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 240,
+                    "text": "(Gold, 2008)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 467,
+                    "end": 492,
+                    "text": "(Kilpatrick et al., 2013)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 638,
+                    "end": 660,
+                    "text": "(Resnick et al., 1993)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 798,
+                    "end": 850,
+                    "text": "(Mauritz, Goossens, Draijer, & van Achterberg, 2013;",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 851,
+                    "end": 861,
+                    "text": "Shi, 2013)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Forensic psychologists can and frequently do perform varied roles at the point of intersection between psychology and the law, and there is a myriad of ways in which a forensic psychologist can be called upon to provide specialized expertise in the areas of trauma, complex trauma, and dissociation. A forensic evaluator will conduct an independent psychological evaluation in order to obtain information in response to a specific psycho-legal question (Dalenberg et al., 2017) . The evaluator may then be asked to prepare a written report and /or to provide testimony about that evaluation and their expert opinions. For example, in civil contexts, they may be asked to evaluate a plaintiff who has alleged compensable injury as a result of a traumatic event or series of events. In this example, the evaluator may be asked to assess the individual's prior level of functioning, the impact of the traumatic events, and the extent of harm, or damages incurred as a result (Foote & Lareau, 2013) . Forensic evaluators may also be asked to determine the time at which an individual reasonably knew or should have known about a connection between a traumatic event or events and any alleged resulting injuries. In criminal cases, forensic evaluators may be called upon to assess an individual's state of mind at the time of an alleged offense and to opine about the possible impact of traumatic events on that person's state of mind. At sentencing hearings, forensic psychologists could be asked to evaluate an individual's history to identify any potential traumatic events that could be used as mitigating factors.",
+            "cite_spans": [
+                {
+                    "start": 453,
+                    "end": 477,
+                    "text": "(Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 972,
+                    "end": 994,
+                    "text": "(Foote & Lareau, 2013)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Roles of Forensic Psychologists"
+        },
+        {
+            "text": "In both civil and criminal matters, psychological experts may also be retained to provide scientific framework testimony about relevant psychological issues without having evaluated an individual client. This is often referred to as providing \"general scientific testimony\" about topics within an individual's general area of scientific expertise. For example, an expert witness who has not performed an evaluation of an individual may be asked to assist the trier of fact by presenting scientific data pertaining to issues such as the prevalence of trauma, the psychological and physical consequences of trauma, traumatic memory, dissociation, grooming behavior, or issues related to predictions of risk and/or dangerousness Frankel, 2009) . They may also provide valuable information about ways in which an individual's experiences of traumatic events may influence their participation with the legal system or may influence the ways in which they tell their story. The role of the evaluating expert and the expert providing scientific framework testimony is to provide independent scientific information about specific topics to the trier of fact that falls within an area of the witness's demonstrated area of expertise (American Psychological Association, [APA], 2013; Melton et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 726,
+                    "end": 740,
+                    "text": "Frankel, 2009)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1274,
+                    "end": 1294,
+                    "text": "Melton et al., 2018)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Roles of Forensic Psychologists"
+        },
+        {
+            "text": "In other instances, forensic psychologists are hired as consultants to work with attorneys as part of their legal team, and in those circumstances, there is no expectation that the psychologist will conduct an evaluation or provide expert testimony. Rather, the psychologist works to assist the attorneys with their presentation and execution of their client's case. (Dalenberg et al., 2017) . They may be called upon to assist the attorney with understanding the scientific literature related to trauma exposure or to help the attorney to make sense of a traumatized individual's behaviors. Irrespective of the role the forensic psychologist has in a particular matter, it is critical that they adhere to ethical principles and standards of practice. They must be prepared to respond professionally to the professional challenges that may arise in the context of a forensic evaluation generally and a forensic evaluation involving trauma, complex trauma, and/or dissociation more specifically.",
+            "cite_spans": [
+                {
+                    "start": 367,
+                    "end": 391,
+                    "text": "(Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Roles of Forensic Psychologists"
+        },
+        {
+            "text": "When working as forensic psychologists, as in all areas of professional work, psychologists are expected to conform their behavior to the APA Ethics Code, the most recent version of which was developed in 2002 and revised in 2010 and 2017 (American Psychological Association [APA], 2017). While the APA Ethics Code applies to all psychology specialty areas, including Forensic Psychology (Bush 2020) , certain sections of the code may be relevant for forensic practice, generally, and forensic assessment involving complex trauma, more specifically. The Code is composed of an Introduction, a Preamble, General Principles A-E, and specific Ethical Standards. The Preamble and General Principles of the Code, in contrast to the Standards, are aspirational in nature. \"Their intent is to guide and inspire psychologists toward the very highest ethical ideals of the profession\" (APA, 2017, p. 3). The General Principles are not meant to be obligatory in nature but rather provide an overall context for ethical behavior. The second section of the Code consists of specific standards for ethical behavior which are \"enforceable rules for conduct as psychologists\" (APA, 2017, p. 3) .",
+            "cite_spans": [
+                {
+                    "start": 388,
+                    "end": 399,
+                    "text": "(Bush 2020)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1161,
+                    "end": 1178,
+                    "text": "(APA, 2017, p. 3)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ethical and Professional Considerations"
+        },
+        {
+            "text": "In addition to the APA Ethics Code, Forensic Psychologists can seek guidance from the APA Specialty Guidelines for Forensic Practice (APA, 2013). These guidelines were originally developed and published in 1991 and have been revised and updated along with continuing developments in the field (APA, 1991 (APA, , 2013 . The Guidelines specifically state \"The goals of these Specialty Guidelines for Forensic Psychology ('the Guidelines') are to improve the quality of forensic psychological services; enhance the practice of forensic psychology; encourage a high level of quality in professional practice; and encourage forensic practitioners to acknowledge and respect the rights of those they serve\" (APA, 2013, p. 11) . Although the Guidelines are informed by the APA Ethics Code, they are advisory in nature, and are aspirational in intent. They are not meant to be used as standards, nor are they intended to be mandatory or exhaustive.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 303,
+                    "text": "(APA, 1991",
+                    "ref_id": null
+                },
+                {
+                    "start": 304,
+                    "end": 316,
+                    "text": "(APA, , 2013",
+                    "ref_id": null
+                },
+                {
+                    "start": 701,
+                    "end": 719,
+                    "text": "(APA, 2013, p. 11)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Ethical and Professional Considerations"
+        },
+        {
+            "text": "In addition to the APA Ethics Code and Specialty Guidelines for Forensic Psychology, forensic psychologists should also take into account the information, guidelines, and standards that have been developed, adopted, or endorsed by scientific and professional organizations within their areas of specialization (Bush, Connell, & Denney, in press) . For example, within the areas of forensic assessment of complex trauma, forensic psychologists should be thoroughly familiar with the relevant guidelines related to complex trauma and PTSD (Cloitre et al., 2012; International Society for the  Study of Trauma and Dissociation [ISSTD] , 2011).",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 345,
+                    "text": "(Bush, Connell, & Denney, in press)",
+                    "ref_id": null
+                },
+                {
+                    "start": 537,
+                    "end": 559,
+                    "text": "(Cloitre et al., 2012;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 560,
+                    "end": 573,
+                    "text": "International",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 574,
+                    "end": 631,
+                    "text": "Society for the  Study of Trauma and Dissociation [ISSTD]",
+                    "ref_id": null
+                }
+            ],
+            "section": "Ethical and Professional Considerations"
+        },
+        {
+            "text": "Many of the ethical issues inherent in a forensic evaluation involving complex trauma and dissociation are common to forensic psychological practice. In the following sections, these ethical challenges and professional considerations and the specific applicable sections of the APA Ethics Code and the corresponding section of the Specialty Guidelines will be reviewed. Wherever appropriate, specific applications to the forensic assessment of complex trauma and dissociation will be highlighted and explored.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical and Professional Considerations"
+        },
+        {
+            "text": "When initially contacted by an attorney, the forensic psychologist must clarify the referral question to determine if the questions asked fall within the evaluator's areas of expertise and if an evaluation is likely to be able to determine the answers to the questions posed. When undertaking an examination, it is incumbent upon the evaluator to ensure they have the requisite skills, training, and level of competence to conduct the evaluation and provide answers to the relevant psycholegal questions. Standard 2.01 (a) of the APA Ethics Code states \"Psychologists provide services, teach, and conduct research with populations and in areas only within the boundaries of their competence, based on their education, training, supervised experience, consultation, study, or professional experience\" (APA, 2017). Guideline 2.01 of the Specialty Guidelines similarly emphasizes the need for assessing one's competence:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "When determining one's competence to provide services in a particular matter, forensic practitioners may consider a variety of factors including the relative complexity and specialized nature of the service, relevant training and experience, the preparation and study they are able to devote to the matter, and the opportunity for consultation with a professional of established competence in the subject matter in question. (APA, 2013, p. 9 ).",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 441,
+                    "text": "(APA, 2013, p. 9",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Few mental health practitioners have received systematic training in the assessment and treatment of trauma and its effects, and even fewer have received training in the area of complex trauma and dissociation (Brand, 2016) . Within the specialized areas of trauma, complex trauma, and dissociation, forensic psychologists should therefore seek out relevant training and supervision in the area of trauma psychology and have expertise in the psychological assessment of complex trauma, dissociation, and its effects as well as training and expertise in the area of forensic psychology more generally (Brand, 2016; Brand, Schielke, & Brams, 2017a; Dalenberg et al., 2017) . Minimally, forensic psychologists engaged in this work will need to be well versed in the scientific literature pertaining to matters related to following content areas.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 223,
+                    "text": "(Brand, 2016)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 600,
+                    "end": 613,
+                    "text": "(Brand, 2016;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 614,
+                    "end": 646,
+                    "text": "Brand, Schielke, & Brams, 2017a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 647,
+                    "end": 670,
+                    "text": "Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Prevalence and Incidence of Traumatic Stress Although the incidence of traumatic events is high, the prevalence of Posttraumatic Stress Disorder following a traumatic event is relatively low. For example, Kilpatrick and colleagues found that lifetime, past 12-month, and past 6-month prevalence of PTSD was 8.3%, 4.7%, and 3.8% respectively (2013). In spite of the relatively low incidence of PTSD among trauma survivors, individuals who have experienced traumatic events are likely to be overrepresented within forensic settings. For example, Dalenberg et al. (2017) contacted two large law firms in California in 2016 and found that the attorneys estimated that over 80% of law suits included allegations of trauma. Claims of emotional injury involving pain and suffering can be raised in cases involving harassment, discrimination, rape and sexual assault, personal injury, and disability. In these cases, forensic psychologists are frequently called upon to assess the impact and emotional damage resulting from a specific traumatic event or events and may need to opine about the relative impact and sequelae of a number of traumatic events that have occurred over the course of an individual's lifetime. It is also important to understand that many of the prevalence studies do not evaluate the frequency with which a particular trauma happened, with many reporting the number of categories rather than how many instances of a particular trauma are present (see Bailey & Brown this issue) .",
+            "cite_spans": [
+                {
+                    "start": 544,
+                    "end": 567,
+                    "text": "Dalenberg et al. (2017)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1468,
+                    "end": 1494,
+                    "text": "Bailey & Brown this issue)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Revictimization Given that childhood victimization has been found to increase vulnerability for subsequent revictimization (Classen, Palesh, & Aggarwal, 2005; Widom, Czaja, & Dutton, 2008) , forensic psychologists may also be asked to assess the impact of traumatic events that have occurred during adulthood when there is also a prior history of other traumatic events (See Brown, this issue, for further discussion.). They may also need to address the sequelae of traumatic events that have occurred during childhood and draw conclusions about ways in which those traumatic events have impacted the individual's life trajectory. Within the criminal arena, forensic psychologists may be called upon to assess the impact of traumatic events on an individual's state of mind at the time a crime occurred or to help to explain their behavior during of following the commission of an alleged criminal act. They may also be asked to elaborate upon the presence of traumatic events as mitigating factors to be taken into account during sentencing. However, it is important to note that much of the research has been completed on singleincident trauma survivors and, therefore, may not well represent individuals with repeated and/or ongoing trauma exposure.",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 158,
+                    "text": "(Classen, Palesh, & Aggarwal, 2005;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 159,
+                    "end": 188,
+                    "text": "Widom, Czaja, & Dutton, 2008)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Complex Trauma Complex trauma is trauma involving harm or abandonment by caregivers that occurs during a developmentally vulnerable time period in an individual's life, especially during childhood, and that involves repetitive or prolonged exposure to multiple traumatic stressors that is perpetrated by caregivers over a prolonged period (Courtois & Ford, 2013) . Exposure to this type of repeated trauma has been shown to increase the likelihood of chronic and complex issues, as well as significantly increased risk for further victimization (Briere, Agee, & Dietrich, 2016; Briere, Kaltman, & Greene, 2008; Cloitre et al., 2011; Courtois & Ford, 2013; Herman, 1992) . The proposed clinical syndrome describing the constellation of difficulties experienced by adults who were severely and repeatedly traumatized during childhood is referred to as complex posttraumatic stress disorder (cPTSD) (Courtois, 2008; Herman, 1992) . A study of the prevalence of complex PTSD as defined in the ICD-11 found prevalence rates of 0.6% in a representative community sample of US adults and 13% in a sample of US trauma exposed military veterans (Wolf et al., 2015) .",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 362,
+                    "text": "(Courtois & Ford, 2013)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 545,
+                    "end": 577,
+                    "text": "(Briere, Agee, & Dietrich, 2016;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 578,
+                    "end": 610,
+                    "text": "Briere, Kaltman, & Greene, 2008;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 611,
+                    "end": 632,
+                    "text": "Cloitre et al., 2011;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 633,
+                    "end": 655,
+                    "text": "Courtois & Ford, 2013;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 656,
+                    "end": 669,
+                    "text": "Herman, 1992)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 896,
+                    "end": 912,
+                    "text": "(Courtois, 2008;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 913,
+                    "end": 926,
+                    "text": "Herman, 1992)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1136,
+                    "end": 1155,
+                    "text": "(Wolf et al., 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Authors have conceptualized cPTSD as \"involving pathological dissociation; emotion dysregulation; somatization, and altered core schemas about the self, relationships, and sustaining beliefs (i.e., morality, spirituality) in the aftermath of exposure to traumatic interpersonal victimization\" (van Dijke, Ford, Frank, & van der Hart, 2015, p. 429). In their book on the treatment of complex trauma, Courtois and Ford describe the ways that complex trauma can result in major changes in the following \"seven key domains of an individual's development: emotional regulation, memory, attention, and consciousness, self-perception, perceptions of the perpetrator, relationships with others, somatic symptoms and/or medical problems, and sense of meaning in self, others, and the world\" (Courtois & Ford, 2013 . In a literature review, Bailey and Brand (2017) have further delineated the connections among and between childhood traumatic events and the development of enduring and severe sequalae, including cPTSD and dissociation. It is critical that forensic evaluators are aware of the connection between trauma and dissociation because individuals who have been diagnosed with cPTSD have been found to experience trauma-related dissociation with more severity and frequency than other populations (Brand, Schielke, Brams, & DiComo, 2017b; Hyland, Shevlin, Fyvie, Cloitre, & Karatzias, 2019) .",
+            "cite_spans": [
+                {
+                    "start": 782,
+                    "end": 804,
+                    "text": "(Courtois & Ford, 2013",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 831,
+                    "end": 854,
+                    "text": "Bailey and Brand (2017)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1296,
+                    "end": 1337,
+                    "text": "(Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1338,
+                    "end": 1389,
+                    "text": "Hyland, Shevlin, Fyvie, Cloitre, & Karatzias, 2019)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Dissociation Dissociation is defined in the Diagnostic and Statistical Manual of Mental Disorders (5th ed) as \"a disruption and/or discontinuity in the normal integration of consciousness, memory, identity, emotion, perception, body representation, motor control, and behavior\" (American Psychiatric Association [APA], 2013, p. 291). It is often conceptualized as an adaptive response designed to assist with coping with trauma when physical escape is not possible (Dalenberg et al., 2012) . Although dissociation can be present in a variety of clinical presentations, such as somatic, substance use, and psychotic disorders, it is most commonly related to trauma (Bailey, Boyer, & Brand, 2018; Lyssenko et al., 2018) . Dissociative disorders are more prevalent than is commonly realized (See Bailey et al., 2018; Bailey & Brand, 2017; Loewenstein, 2018) . In his recent review, Loewenstein (2018) found prevalence rates in the general population ranging from 9.1 to 18.3% and prevalence rates in clinical populations ranging from 4.6 to 48% across diverse samples. Given that dissociation has been associated with a range of functional impairments, as well as poor prognosis and lower quality of life, it is particularly important that forensic evaluators involved in the assessment of trauma also assess for dissociative symptoms (Brand, Schielke, & Brams, 2017a; Brand, Schielke, Brams, & DiComo, 2017b; Frankel, 2009) . Assessment of complex trauma and dissociation in a forensic context is a highly specialized area that requires expertise and training in both forensic psychology and trauma psychology (Brand, 2016; Dalenberg et al., 2017) . Unfortunately, there is an overall lack of training and education about trauma and dissociation, and the information is often missing or inaccurate in many psychology textbooks and training programs (Courtois & Gold, 2009) .",
+            "cite_spans": [
+                {
+                    "start": 465,
+                    "end": 489,
+                    "text": "(Dalenberg et al., 2012)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 664,
+                    "end": 694,
+                    "text": "(Bailey, Boyer, & Brand, 2018;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 695,
+                    "end": 717,
+                    "text": "Lyssenko et al., 2018)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 793,
+                    "end": 813,
+                    "text": "Bailey et al., 2018;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 814,
+                    "end": 835,
+                    "text": "Bailey & Brand, 2017;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 836,
+                    "end": 854,
+                    "text": "Loewenstein, 2018)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 879,
+                    "end": 897,
+                    "text": "Loewenstein (2018)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1332,
+                    "end": 1365,
+                    "text": "(Brand, Schielke, & Brams, 2017a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1366,
+                    "end": 1406,
+                    "text": "Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1407,
+                    "end": 1421,
+                    "text": "Frankel, 2009)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1608,
+                    "end": 1621,
+                    "text": "(Brand, 2016;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1622,
+                    "end": 1645,
+                    "text": "Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1847,
+                    "end": 1870,
+                    "text": "(Courtois & Gold, 2009)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Cultural Competence Within the context of complex trauma and cPTSD, issues pertaining to cultural competency and diversity must be attended to, particularly when the examiner and evaluee are from different ethnic, socioeconomic, and/or racial backgrounds. Principle E of the APA Ethics Code states that:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "Psychologists respect the dignity and worth of all peo-ple\u2026. Psychologists are aware of and respect cultural, individual and role differences, including those based on age, gender, gender identity, race, ethnicity, culture, national origin, religion, sexual orientation, disability, language, and socioeconomic status, and consider these factors when working with members of such groups. Psychologists try to eliminate the effect on their work of biases based on those factor\u2026 (APA, 2017, p. 4).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "When evaluating a trauma survivor, the evaluator must also attend to the ways in which that individual's cultural background is impacted by and impacts their experiences of the alleged traumatic events and their interactions with the legal system. As outlined by Brown, \"Responding to trauma in a culturally competent manner requires the psychotherapist to understand how those added meanings that derive from context and identity make each instance of trauma unique\" (Brown, 2008, p. 4 ). In addition, various aspects of identity can increase the likelihood of experiencing a traumatic event and developing dissociative symptoms, particularly when an individual identifies with a group that is relatively disempowered within the dominant culture (Bailey et al., 2018) . Sensitivity and understanding are similarly required in a forensic context, especially when there is a need to delineate the specific impact and potential harm experienced as a result of a traumatic event. Forensic psychologists must also be aware of the power imbalance inherent in the relationship between psychologist and evaluee and the ways in which that power imbalance may impact the evaluee's behavior and state of mind throughout the evaluation (Bailey et al., 2018) ",
+            "cite_spans": [
+                {
+                    "start": 468,
+                    "end": 486,
+                    "text": "(Brown, 2008, p. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 747,
+                    "end": 768,
+                    "text": "(Bailey et al., 2018)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1225,
+                    "end": 1246,
+                    "text": "(Bailey et al., 2018)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Competence"
+        },
+        {
+            "text": "As described earlier, forensic psychologists can take on a variety of roles when working within the legal system, including evaluators, scientific framework experts providing general scientific testimony, and consultants (Bush et al., 2020; Gottlieb & Coleman 2012) . While both types of testifying experts, evaluators and scientific framework experts, speak with attorneys and educate them about trauma and dissociation, their role is to provide independent and scientifically informed information rather than advocacy. They should be free of conflicts, and their opinions should not vary depending upon the retaining party. In contrast, a forensic psychologist hired as a consultant may be retained to work with the legal team to assist with their preparation and execution of their side of the case, and there is no expectation that they will evaluate the individual or provide testimony. In their capacity as forensic consultants, they may work with the legal team to assist them in their understanding of the psycho-legal issues and in evaluating opposing expert depositions and reports. They may also assist with legal strategy such as jury selection and preparation of questions for deposition or direct or cross examination of witnesses. However, in this role, they do not provide expert witness testimony or conduct evaluations. They are considered a member of the legal advocacy team and do not have the same expectations of independence and objectivity as those providing expert testimony.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 240,
+                    "text": "(Bush et al., 2020;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 241,
+                    "end": 265,
+                    "text": "Gottlieb & Coleman 2012)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Potential Role Conflicts"
+        },
+        {
+            "text": "It is also critical to understand the distinctions between clinical and forensic roles (Greenberg & Shuman, 1997) . In their influential article, Greenberg and Shuman enumerate ten specific differences between clinical and forensic roles and outline the numerous ethical difficulties and conflicts that interfere with the ability of a clinician's ability to offer a forensic opinion about their client. They highlight the necessity of respecting these role differences and argue convincingly that ignoring the role conflict jeopardizes both the therapeutic and forensic endeavors for the patient as well as the rights of all involved parties. Since this article's publication, there has also been increased awareness of the ethical challenges presented when forensic psychologists are asked to assume a clinical role after the conclusion of the legal matter (Drogin 2019; Melton et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 113,
+                    "text": "(Greenberg & Shuman, 1997)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 858,
+                    "end": 871,
+                    "text": "(Drogin 2019;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 872,
+                    "end": 892,
+                    "text": "Melton et al., 2018)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Potential Role Conflicts"
+        },
+        {
+            "text": "The importance of paying attention to potential role conflicts is similarly emphasized in APA Ethics Code Standard 3.05: \"A psychologist refrains from entering into a multiple relationship if the multiple relationship could reasonably be expected to impair the psychologist's objectivity, competence, or effectiveness in performing his or her functions as a psychologist\" (APA, 2017, p. 6). Similarly, Guideline 4.02 of the Specialty Guidelines for Forensic Psychologists, states that \"A multiple relationship occurs when a forensic practitioner is in a professional role with a person and, at the same time or at a subsequent time, is in a different role with the same person\" (APA, 2013, p. 11). Guideline 4.02.01 further states that \"Providing forensic and therapeutic psychological services to the same individual or closed related individuals involves multiple relationships that may impair objectivity and/or cause exploitation or other harm\" (APA, 2013, p. 11).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Potential Role Conflicts"
+        },
+        {
+            "text": "When conducting any forensic evaluation, it is essential to clarify the forensic psychologist's role in the case and to determine \"who is the client?\" Unlike in clinical settings, the person being evaluated in a forensic evaluation is not the client and is not the individual (or agency) to whom the psychologist owes the primary responsibility. One must therefore first ascertain who the individual client is. In most civil evaluations, the client will be an attorney, either for the defense or for the plaintiff. However, the client could also be the court, in cases of a court-ordered evaluation. At the time of the initial contact with the retaining party, the forensic psychologist should also determine who is involved in the case in order to identify any potential conflicts (Foote & Lareau, 2013) . Ethics Code Standard 3.06 also clarifies obligations related to conflict of interest and Standard 3.07 deals with third-party requests for services (APA, 2017) . Ensuring that the role of the evaluator is clearly explained is even more critical when evaluating a trauma survivor because they frequently present difficulties with establishing trust, particularly when a power differential is present (Courtois and Ford 2009) .",
+            "cite_spans": [
+                {
+                    "start": 782,
+                    "end": 804,
+                    "text": "(Foote & Lareau, 2013)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 955,
+                    "end": 966,
+                    "text": "(APA, 2017)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1206,
+                    "end": 1230,
+                    "text": "(Courtois and Ford 2009)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Potential Role Conflicts"
+        },
+        {
+            "text": "The interpersonal nature of complex trauma and the inherent violations of trust and safety involved make it particularly important that forensic psychologists evaluating complex trauma and dissociation maintain clear and consistent boundaries and be wary of potential role conflicts in their work in order to avoid doing further harm (Dalenberg et al., 2017) . In addition, the evaluator may need to clarify these critical distinctions between therapist and expert and the problems associated with role conflicts with attorneys; in this writer's experience, attorneys often mistakenly believe that a therapist is the \"best\" person to testify on behalf of their clients and benefit from education about why these roles should not be blurred.",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 358,
+                    "text": "(Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Potential Role Conflicts"
+        },
+        {
+            "text": "In addition to identifying potential conflicts, psychologists need to be certain that they are able to practice in the jurisdiction of the case. Licensure laws vary from state to state, as do the requirements and permissions related to temporary practice and the issue of practicing forensic psychology in states where one is not licensed is controversial (Heilbrun, Grisso, & Goldstein, 2009 ). While many states do allow for limited temporary practice, a significant minority of states do not (Tucillo, DeFilippis, Denney, & Dsurney, 2002) . Standard 2.01(f) of the Ethics Code requires that \"When assuming forensic roles, psychologists are or become reasonable familiar with the judicial or administrative rules governing their roles\" (APA, 2017, p. 5). Similarly, Specialty Guideline 2.04 states:",
+            "cite_spans": [
+                {
+                    "start": 356,
+                    "end": 392,
+                    "text": "(Heilbrun, Grisso, & Goldstein, 2009",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 495,
+                    "end": 541,
+                    "text": "(Tucillo, DeFilippis, Denney, & Dsurney, 2002)",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Legal and Jurisdictional Issues"
+        },
+        {
+            "text": "Forensic practitioners recognize the importance of obtaining a fundamental and reasonable level of knowledge and understanding of the legal and professional standards, laws, rules and precedents that govern their participation in legal proceedings and that guide the impact of their services on service recipients (APA, 2013, p. 9).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Legal and Jurisdictional Issues"
+        },
+        {
+            "text": "Given the specialized nature of the forensic assessment of trauma and dissociation, and the relative lack of training in this area, psychologists who have that specialization may find themselves contacted by attorneys from multiple jurisdictions. It is therefore imperative that practicing forensic psychologists are aware of the laws that apply in the jurisdictions in which they intend to practice; however, information regarding temporary practice can be vague and difficult to obtain (Shuman, Cunningham, Connell, & Reid, 2003) . It is therefore recommended that the forensic evaluator contact the licensing board of the state in which they intend to conduct an evaluation if they are not licensed in that jurisdiction.",
+            "cite_spans": [
+                {
+                    "start": 488,
+                    "end": 531,
+                    "text": "(Shuman, Cunningham, Connell, & Reid, 2003)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Legal and Jurisdictional Issues"
+        },
+        {
+            "text": "The specific terms of the engagement agreement between the hiring party (generally the attorney) and the psychologist should be clearly delineated, ideally, in writing. Guideline 4.01 of the Specialty Guidelines states that:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fees and Engagement Agreement"
+        },
+        {
+            "text": "At the initiation of any request for service, forensic practitioners seek to clarify the nature of the relationship and the services to be provided including the role of the forensic practitioner\u2026 ; which person or entity is the client; the probable uses of the services provided or information obtained; and any limitations to privacy, confidentiality, or privilege (APA, 2013, p. 11).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fees and Engagement Agreement"
+        },
+        {
+            "text": "Similarly, the Ethics Code Standard 3.07 states that \"When psychologists agree to provide services to a person or entity at the request of a third party, psychologists attempt to clarify at the outset of the service the nature of the relationship withal individuals or organizations involved\" (APA, 2017, p. 6). The engagement agreement should specifically address the components of the evaluation, the fee agreement, and the timeframe. Specialty Guidelines 5.01 and 5.02 specifically deal with determination of fees and the need to clarify with the client the likely cost of services, respectively (APA, 2013, p. 12). The attorney should also be given guidance regarding the anticipated total time required for the evaluation and for writing a report, if needed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fees and Engagement Agreement"
+        },
+        {
+            "text": "Clients who are severely traumatized and experiencing symptoms of dissociation may require a longer period of time in order to adequately review their histories. In particular, clients who have experienced multiple episodes of trauma beginning in early childhood will likely have more complex and lengthier relevant background information that will need to be reviewed and potentially documented in a report. In addition, given the potentially triggering nature of the information being reviewed, when possible, evaluees may benefit from multiple, shorter appointments rather than one long meeting for the evaluation. The complex nature of these evaluations can therefore add significantly to the time required for an evaluation of complex trauma and dissociation, and this will need to be explicitly discussed with the retaining party prior to the evaluation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fees and Engagement Agreement"
+        },
+        {
+            "text": "Although the Ethics Code does not specifically refer to the issue of payment on a contingent basis, Specialty Guideline 5.02 specifies that \"Because of the threat to impartiality presented by acceptance of contingent fees and associated legal prohibitions, forensic practitioners strive to avoid providing professional services on the basis of contingent fees\" (APA, 2013, p. 12) .",
+            "cite_spans": [
+                {
+                    "start": 361,
+                    "end": 379,
+                    "text": "(APA, 2013, p. 12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fees and Engagement Agreement"
+        },
+        {
+            "text": "The specifics of the engagement agreement should also take into account the relevant legal requirements per the laws in the specific jurisdiction, for example, federal law generally requires production of a report, as do evaluations conducted of plaintiffs by forensic examiners retained by defense counsel (Melton et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 328,
+                    "text": "(Melton et al., 2018)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fees and Engagement Agreement"
+        },
+        {
+            "text": "In keeping with Forensic Guideline 9.02 which states that \"Forensic practitioners ordinarily avoid relying solely on one source of data, and corroborate important data whenever feasible\" (APA, 2013, p. 15), a comprehensive forensic mental health assessment (FMHA) requires multiple sources of information (Heilbrun et al., 2009) . The psychologist should make it clear to the retaining party at the outset of the evaluation that they will require access to all documents pertaining to the case and will need to conduct collateral interviews as part of the evaluation. The evaluator should not only take care to thoroughly review all documents provided but will also need to request specific other documents. For example, when evaluating damages following a traumatic event or series of events, the evaluator will need to review independent sources of information regarding the individuals' prior and current level of functioning (Foote & Lareau, 2013) . Such documentation may include, but is not limited to, school records, employment records and performance evaluations, any prior psychological testing, psychotherapy and medical records, arrest and prison records, and possibly records related to involvement with foster care or the state's department of children, youth, and families.",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 328,
+                    "text": "(Heilbrun et al., 2009)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 929,
+                    "end": 951,
+                    "text": "(Foote & Lareau, 2013)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Multiple Sources of Information"
+        },
+        {
+            "text": "The evaluator will also need to identify individuals who have potentially useful information with whom to conduct collateral interviews. Specialty Guideline 8.03 states that \"Forensic practitioners strive to access information or records from collateral sources with the consent of the relevant attorney or the relevant party\u2026\" (APA, 2013, p. 14) . In matters involving the assessment of complex trauma, these individuals will typically include those who have known the evaluee over a long period of time, ideally before, during, and after the alleged incidents, as well as individuals who can provide information about the individuals previous and current levels of functioning and performance (Foote & Lareau, 2013) . These individuals may include parents, siblings, other family members, friends, coworkers, supervisors, therapists, and mentors, among others. The individuals contacted for collateral interviews should be asked about their observations of the evaluee's performance, functioning and symptoms, as well as any other relevant information they are able to provide (Foote & Lareau, 2013) . However, particularly when interviewing family members, it is also critical to understand that some of these individuals may be perpetrators of past or ongoing trauma, even if the evaluee is not willing to discuss this with the examiner.",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 346,
+                    "text": "(APA, 2013, p. 14)",
+                    "ref_id": null
+                },
+                {
+                    "start": 695,
+                    "end": 717,
+                    "text": "(Foote & Lareau, 2013)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1079,
+                    "end": 1101,
+                    "text": "(Foote & Lareau, 2013)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Multiple Sources of Information"
+        },
+        {
+            "text": "Once the evaluator has reviewed relevant documents and discovery materials, upon meeting with the evaluee, it is essential to obtain informed consent. The APA Ethics code 3.10(c) specifies that psychologists must obtain informed consent and that when services are court ordered or otherwise mandated, \"psychologists inform the individual of the nature of the anticipated services, including whether the services are court ordered or mandated and any limits of confidentiality, before proceeding.\" Standard 3.10(d) further specifies that consent must be appropriately documented (APA, 2017, p. 7). Standard 9.03 clarifies issues pertaining to the informed consent process in assessments (APA, 2017, p. 13) . Consent should be obtained in writing and it is essential that the individual being evaluated understand fully the process of the evaluation, the role of the evaluator, the limits of confidentiality, and the differences between a forensic evaluation and treatment. The process should also delineate clearly how the information will be utilized and to whom it will be provided.",
+            "cite_spans": [
+                {
+                    "start": 686,
+                    "end": 704,
+                    "text": "(APA, 2017, p. 13)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Informed Consent and Limits of Confidentiality"
+        },
+        {
+            "text": "Standard 4 of the Ethics Code specifies the obligation of psychologists to \"take reasonable precautions to protect confidential information\" and to discuss with persons \"the relevant limits of confidentiality\" and the \"foreseeable uses of the information generated\" (APA, 2017, p. 7). This informed consent process should also be repeated when conducting any collateral interviews, as it is essential that any person with whom the forensic evaluator interacts understand the purpose of the interview and the limits of confidentiality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed Consent and Limits of Confidentiality"
+        },
+        {
+            "text": "When evaluating individuals who have experienced complex trauma, and who may be exhibiting symptoms of dissociation, it is particularly important to keep in mind that issues related to informed consent may need to be addressed frequently over the course of the evaluation. In addition, forensic psychologists will need to take into account the pacing of the evaluation, and ensure that the individual being evaluated understands the nature of the questions that will be asked, and the information that will be discussed. Further, the evaluee should be prepared for the potential difficulty of the evaluation, given the need to disclose trauma-related information in a time-limited setting (Dalenberg et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 689,
+                    "end": 713,
+                    "text": "(Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Informed Consent and Limits of Confidentiality"
+        },
+        {
+            "text": "The APA Ethics Code and Specialty Guidelines for Forensic Psychology both include statements emphasizing the importance of using assessment tools that are appropriate for assessing the matter at hand. Standard 9.01 emphasizes the need to base opinions \"on information and techniques sufficient to substantiate their findings, and Standard 2.04 states that \"Psychologists' work is based upon established scientific and professional knowledge of the discipline\" (APA, 2017, pp. 12, 09). Specialty Guideline 9.01 states that \"Forensic practitioners strive to utilize appropriate methods and procedures in their work\" (APA, 2013, p. 14), and Specialty Guideline 10.02 states that \"Forensic practitioners use assessment procedures in the manner and for the purposes that are appropriate in light of the research on or evidence of their usefulness and proper application\" (APA, 2013, p. 15 ).",
+            "cite_spans": [
+                {
+                    "start": 866,
+                    "end": 883,
+                    "text": "(APA, 2013, p. 15",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Use of Appropriate Assessment Tools"
+        },
+        {
+            "text": "In the case of the forensic assessment of complex trauma and dissociation, the evaluator generally includes assessment tools that are global measures of personality and potentially cognitive functioning, as well as assessment tools that are trauma specific (Brand, Schielke, Brams, & DiComo, 2017b; Brown, 2009; Dalenberg et al., 2017) . When using general measures of personality, such as the PAI or the MMPI, the psychologist must be well versed in the ways in which trauma survivors respond to these measures, both on validity and on clinical scales (Brand et al., in press; Brand, Schielke, Brams, & DiComo, 2017b; Brown, 2009; Eakin, Weathers, Benson, Anderson, & Funderburk, 2005; Lange, Sullivan, & Scott, 2010) . In accordance with Ethical Standards 9.08 and 9.09, tests utilized should be current, and if test scoring and interpretation services are utilized, the psychologist must ensure that the interpretations are based upon accurate data and norms that have been validated for use with the population being evaluated (APA, 2017) .",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 298,
+                    "text": "(Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 299,
+                    "end": 311,
+                    "text": "Brown, 2009;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 312,
+                    "end": 335,
+                    "text": "Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 553,
+                    "end": 577,
+                    "text": "(Brand et al., in press;",
+                    "ref_id": null
+                },
+                {
+                    "start": 578,
+                    "end": 618,
+                    "text": "Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 619,
+                    "end": 631,
+                    "text": "Brown, 2009;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 632,
+                    "end": 686,
+                    "text": "Eakin, Weathers, Benson, Anderson, & Funderburk, 2005;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 687,
+                    "end": 718,
+                    "text": "Lange, Sullivan, & Scott, 2010)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1031,
+                    "end": 1042,
+                    "text": "(APA, 2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Use of Appropriate Assessment Tools"
+        },
+        {
+            "text": "In addition to the use of general measures, a competent and ethical forensic evaluation of trauma and dissociation will need to include measures that specifically evaluate these traumatic experiences and symptoms (Brand, Schielke, Brams, & DiComo, 2017b; Brown, 2009; Dalenberg et al., 2017; Foote & Lareau, 2013; Frankel, 2009) . Careful selection of these trauma-specific measures will assist the evaluator in using measures appropriately normed and validated and those that have demonstrated efficacy in evaluating trauma-related symptomatology. Several of these, such as the TSI-2, also contain validity measures. All instruments utilized should of course be carefully and properly scored using appropriate norms.",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 254,
+                    "text": "(Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 255,
+                    "end": 267,
+                    "text": "Brown, 2009;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 268,
+                    "end": 291,
+                    "text": "Dalenberg et al., 2017;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 292,
+                    "end": 313,
+                    "text": "Foote & Lareau, 2013;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 314,
+                    "end": 328,
+                    "text": "Frankel, 2009)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Use of Appropriate Assessment Tools"
+        },
+        {
+            "text": "In any forensic evaluation, where there may be external motivation to either exaggerate or minimize symptoms and psychopathology, it is essential that the possibility of malingering and overall response style both be carefully evaluated (Heilbrun et al., 2009; Melton et al., 2018) . There have been many articles written about the assessment of malingering in trauma survivors, and it is essential that the evaluator ensure that they are using measures that have been appropriately normed and validated in traumatized populations (Brand, Schielke, Brams, & DiComo, 2017b; Brand, Tursich, Tzall, & Loewenstein, 2014; Brown, 2009; Rogers, Payne, Correa, Gillard, & Ross, 2009 ). In addition, it is critical that forensic evaluators be aware of ways in which the responses of complex trauma survivors can appear to be exaggerated or feigned (Brown, 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 260,
+                    "text": "(Heilbrun et al., 2009;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 261,
+                    "end": 281,
+                    "text": "Melton et al., 2018)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 531,
+                    "end": 572,
+                    "text": "(Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 573,
+                    "end": 616,
+                    "text": "Brand, Tursich, Tzall, & Loewenstein, 2014;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 617,
+                    "end": 629,
+                    "text": "Brown, 2009;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 630,
+                    "end": 674,
+                    "text": "Rogers, Payne, Correa, Gillard, & Ross, 2009",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 839,
+                    "end": 851,
+                    "text": "(Brown, 2009",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Use of Appropriate Assessment Tools"
+        },
+        {
+            "text": "Over the course of the evaluation, the evaluator should take care to keep careful and accurate records. They will need to make note of both what is observed throughout the evaluation and what is reported by the evaluee, and these behavioral observations should be accurately labelled as such (Brand, Schielke, Brams, & DiComo, 2017b; Dalenberg et al., 2017; Foote & Lareau, 2013; Heilbrun et al., 2009; Melton et al., 2018) . In addition, it is critical that the evaluator retain a copy of the engagement agreement with the attorney, carefully and thoroughly document everything reviewed as part of the evaluation, and maintain a complete record of all testing and notes taken during the evaluation.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 333,
+                    "text": "(Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 334,
+                    "end": 357,
+                    "text": "Dalenberg et al., 2017;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 358,
+                    "end": 379,
+                    "text": "Foote & Lareau, 2013;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 380,
+                    "end": 402,
+                    "text": "Heilbrun et al., 2009;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 403,
+                    "end": 423,
+                    "text": "Melton et al., 2018)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Record Keeping"
+        },
+        {
+            "text": "Brand and colleagues (Brand, Schielke, & Brams, 2017a) and Brown (2009) provide guidance on the importance of recording observations, particularly when assessing an individual who has experienced complex trauma and dissociation. This recommendation is consistent with the Ethics Code Standard 6.01 regarding documentation of professional work and records maintenance (APA, 2017, p. 9) , and with Specialty Guideline 10.06 which states that \"Forensic practitioners are encouraged to recognize the importance of documenting all data they consider with enough detail and quality to allow for reasonable judicial scrutiny and adequate discover by all parties\" (APA, 2013, p. 16) . The evaluator will also likely be required to provide a copy of their entire file to the court and to the opposing attorneys.",
+            "cite_spans": [
+                {
+                    "start": 21,
+                    "end": 54,
+                    "text": "(Brand, Schielke, & Brams, 2017a)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 59,
+                    "end": 71,
+                    "text": "Brown (2009)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 367,
+                    "end": 384,
+                    "text": "(APA, 2017, p. 9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 656,
+                    "end": 674,
+                    "text": "(APA, 2013, p. 16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Record Keeping"
+        },
+        {
+            "text": "Finally, when preparing and copying the record, attention should be given to the maintenance of test security in accordance with Ethics Code Standard 9.11 which specifies the need for maintaining test security (APA, 2017), as well as any copyright regulations pertaining to the test materials being replicated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Record Keeping"
+        },
+        {
+            "text": "Additional areas for consideration that are specific to a forensic evaluation involving the assessment of complex trauma and dissociation include awareness of ways in which the evaluee's individual history and experiences may impact them throughout the course of the evaluation (Brand, Schielke, & Brams, 2017a; Brand, Schielke, Brams, & DiComo, 2017b; Dalenberg et al., 2017) . For example, victims of complex trauma may have significant difficulties with trust and with feelings of shame, and may rely upon coping strategies such as minimization, denial, or avoidance, that could significantly impact their responses during the evaluation (Dalenberg et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 311,
+                    "text": "(Brand, Schielke, & Brams, 2017a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 312,
+                    "end": 352,
+                    "text": "Brand, Schielke, Brams, & DiComo, 2017b;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 353,
+                    "end": 376,
+                    "text": "Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 641,
+                    "end": 665,
+                    "text": "(Dalenberg et al., 2017)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Impact of Trauma Exposure on the Individual Being Evaluated and the Evaluator"
+        },
+        {
+            "text": "The very nature of a forensic evaluation requires review of a great deal of potentially traumatic information over a very brief period, often only 1-2 days. This type of intense exposure can be potentially overwhelming for the individual being evaluated. As a result, the evaluator needs to pay attention to the pacing of the evaluation and may need to offer frequent breaks. In addition, the evaluator needs to pay attention to the ways in which the individual being evaluated in responding to questions and to the degree to which they are present and grounded. They will need to work to help the individual being evaluated remain within a window of affect tolerance, in order to maximize the quality and accuracy of the data being gathered (Brand, Schielke, & Brams, 2017a; Brand, Schielke, Brams, & DiComo, 2017b) . This may seemingly put the forensic evaluator at odds with the role of the forensic evaluator as an objective investigator, and the evaluator must take care not to blur their role between forensic evaluator and treating clinician. However, a competent forensic assessment will require use of both clinical and assessment skills, particularly when evaluating a survivor of complex trauma. In many circumstances, the evaluee may be in therapy, and it is prudent to request that the therapist be \"on call\" and available to the individual to assist them with issues related to safety, stabilization, and distress tolerance during and following the evaluation. In those circumstances where the evaluee is incarcerated, it is helpful to consider that overt distress can make someone a target and ensure that there is sufficient time to help the individual regulate before returning to their cell.",
+            "cite_spans": [
+                {
+                    "start": 742,
+                    "end": 775,
+                    "text": "(Brand, Schielke, & Brams, 2017a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 776,
+                    "end": 816,
+                    "text": "Brand, Schielke, Brams, & DiComo, 2017b)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Impact of Trauma Exposure on the Individual Being Evaluated and the Evaluator"
+        },
+        {
+            "text": "It is also important to be aware of and to communicate with the retaining attorney the ways that the trauma survivor's experiences may impact their interactions with the legal system as well as their response to the demands of the evaluation and to testifying. For example, individuals with cPTSD may be very hesitant to discuss or even to disclose their experiences to their attorneys, and their use psychological defenses such as minimization, compartmentalization, or denial may make it more difficult for their attorneys to successfully advocate on their behalf. In addition, difficulties with emotional regulation and management of impulses, as well as engagement in highrisk behaviors such as self-injury or substance use, may also interfere with their interactions with the legal system (Brand, Schielke, & Brams, 2017a; Brand, Schielke, Brams, & DiComo, 2017b) . Judges and juries may have difficulty understanding the apparent lack of emotional response of an individual who is testifying about their experiences, and the testifying forensic expert will need to clearly explain the individual's behavior in a way that helps the triers of fact make sense of what they are seeing.",
+            "cite_spans": [
+                {
+                    "start": 794,
+                    "end": 827,
+                    "text": "(Brand, Schielke, & Brams, 2017a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 828,
+                    "end": 868,
+                    "text": "Brand, Schielke, Brams, & DiComo, 2017b)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Impact of Trauma Exposure on the Individual Being Evaluated and the Evaluator"
+        },
+        {
+            "text": "In addition to attending to the impact of the evaluation on the individual being evaluated, a significant component of competency for the forensic evaluation of complex trauma involves an awareness of how the demands and content of the evaluation will impact the evaluator. Standard 2.06(a) and 2.06(b) of the Ethics Code state that psychologists should not initiate professional activities when they know or should know that their personal problems will interfere with performance and that when experiencing personal problems with the potential to interfere with competency, they \"take appropriate measures such as obtaining professional consultation or assistance and determine whether they should limit , suspend, or terminate their work-related duties\" (APA, 2017, p. 5).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Impact of Trauma Exposure on the Individual Being Evaluated and the Evaluator"
+        },
+        {
+            "text": "The nature of a forensic assessment of complex trauma and its effects is such that the evaluator will be exposed to explicit details about traumatic events and their effects in a relatively brief period of time. In addition, the evaluator will not have the benefits of eliciting the information in the context of a therapeutic relationship that occurs over time, which may increase vulnerability to vicarious traumatization. Vicarious traumatization, which is distinct from burnout and compassion fatigue, can produce in the evaluator (or therapist) the same symptoms experienced by the trauma survivor (Pearlman & Saakvitne, 1995; Saakvitne & Pearlman, 1996) . Similarly, Dalenberg (2000) addresses the impact of countertransference on the therapist's ability to hear and understand what the trauma survivor is trying to communicate. Considering the risks of vicarious traumatization and their potential negative impact on the psychologist and on the forensic evaluation, it is imperative that the forensic evaluator engage in self-care. Clinician self-care can include things such as diet, exercise, sleep, and time off, as well as consultation and personal therapy (Frankel, 2017; Saakvitne & Pearlman, 1996) .",
+            "cite_spans": [
+                {
+                    "start": 603,
+                    "end": 631,
+                    "text": "(Pearlman & Saakvitne, 1995;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 632,
+                    "end": 659,
+                    "text": "Saakvitne & Pearlman, 1996)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 673,
+                    "end": 689,
+                    "text": "Dalenberg (2000)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1168,
+                    "end": 1183,
+                    "text": "(Frankel, 2017;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1184,
+                    "end": 1211,
+                    "text": "Saakvitne & Pearlman, 1996)",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Impact of Trauma Exposure on the Individual Being Evaluated and the Evaluator"
+        },
+        {
+            "text": "Following the completion of the evaluation, the forensic psychologist will typically provide feedback to the retaining party and may then be required or asked to prepare a written report. The report should carefully describe the assessment process and the bases for the conclusions made. As highlighted by Brand and colleagues (Brand, Schielke, & Brams, 2017a; Brand, Schielke, Brams, & DiComo, 2017b) , in the context of the forensic assessment of complex trauma and dissociation, it is particularly important that the forensic psychologist be prepared to present accurate information in a manner that is both readily comprehensible and evidence-based. The psychologist should also be prepared to dispel myths and correct mis-information, and to present all information in a scientifically informed manner.",
+            "cite_spans": [
+                {
+                    "start": 327,
+                    "end": 360,
+                    "text": "(Brand, Schielke, & Brams, 2017a;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 361,
+                    "end": 401,
+                    "text": "Brand, Schielke, Brams, & DiComo, 2017b)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Report Writing and Testimony"
+        },
+        {
+            "text": "In accordance with Ethical Standard 9.01(a) \"Psychologists base the opinions contained in their recommendations, reports, and diagnostic or evaluative statements, including forensic testimony on information and techniques sufficient to substantiate their findings\" (APA, 2017, pp. 12-13) . The evaluator should be certain to limit their conclusions to those results supported by the evaluation, and not go beyond the data when explaining assessment results. As specified in Specialty Guideline 11.02, care should also be taken to carefully \"distinguish observations, inferences, and conclusions. Forensic practitioners are encouraged to explain the relationship between their expert opinions and the legal issues and facts of the case at hand\" (APA, 2013, p. 16) .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 287,
+                    "text": "(APA, 2017, pp. 12-13)",
+                    "ref_id": null
+                },
+                {
+                    "start": 744,
+                    "end": 762,
+                    "text": "(APA, 2013, p. 16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Report Writing and Testimony"
+        },
+        {
+            "text": "The evaluator may also experience pressure from the retaining attorney to add or to withhold statements that the attorney sees as potentially damaging or disadvantageous to their client. This is especially true when the plaintiff has a long and extensive history of complex trauma, and the attorney is concerned that discussion of the individual's past trauma could be harmful to the case. It is critical that the forensic psychologist make it clear to the attorney that all relevant history will need to be explored and disclosed, and that the psychologist's role is to provide an independent evaluation, not an advocacy report. The psychologist should be guided by the Ethical principle B of Fidelity and Responsibility as well as Principle C: Integrity in adhering to the standard 5.01 regarding the avoidance of false or deceptive statements (APA, 2017) . In addition, Specialty Guidelines 11.01 and 11.04 provide guidance regarding accuracy, fairness and avoidance of deception and comprehensive and accurate presentation of opinions in reports respectively (American Psychological Association, 2013) .",
+            "cite_spans": [
+                {
+                    "start": 846,
+                    "end": 857,
+                    "text": "(APA, 2017)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1063,
+                    "end": 1105,
+                    "text": "(American Psychological Association, 2013)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Report Writing and Testimony"
+        },
+        {
+            "text": "This article has highlighted key ethical and professional considerations in a forensic psychological evaluation generally and more specifically in the assessment of complex trauma and dissociation. In particular, the recognition of trauma psychology and forensic psychology as specialized areas of practice has been emphasized. Therefore, forensic practitioners who wish to evaluate victims of complex trauma and trauma specialists who wish to become involved with forensic practice both will require specialized training, education, and professional consultation, as well as ongoing continuing education in order to maintain the requisite competencies. Forensic practitioners need to remain aware of the relevant laws and regulations governing the jurisdictions in which they intend to practice and remain aware of potential role conflicts. In addition, the need for cultural competency as well as an ongoing awareness of ways that exposure to trauma will impact the individual being evaluated and their participation in the legal system as well as the forensic psychologist are essential. Forensic psychologists should rely upon evidencebased and trauma-informed assessment tools and make use of multiple data sources when conducting evaluations. Knowledge and comfort with the appropriate use of measures specific to trauma and dissociation as well as awareness of the ways in which complex trauma survivors that respond to broad-based measures are also essential. An evaluator who attends to these ethical and professional considerations can contribute greatly to the field of forensic psychology. As concluded by Dalenberg et al., \"Taking into account the devastating consequences that trauma can produce, as well as the resilience of the human spirit, the forensic evaluator can help the court come to a just and balanced solution in civil and criminal matters\" (2017, p. 556).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Diagnostic and statistical manual of mental disorders DSM-5",
+            "authors": [],
+            "year": 2013,
+            "venue": "American Psychiatric Association",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Specialty guidelines for forensic psychologists",
+            "authors": [],
+            "year": 1991,
+            "venue": "Law and Human Behavior",
+            "volume": "15",
+            "issn": "",
+            "pages": "655--665",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Specialty guidelines for forensic psychology",
+            "authors": [],
+            "year": 2013,
+            "venue": "American Psychologist",
+            "volume": "68",
+            "issn": "1",
+            "pages": "7--19",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/a0029889"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Ethical principles of psychologists and code of conduct",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/a0029889"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Dissociative disorders",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Boyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Diagnostic interviewing",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Traumatic dissociation: Theory, research, and treatment",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clinical Psychology: Science and Practice",
+            "volume": "24",
+            "issn": "2",
+            "pages": "170--185",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/cpsp.12195"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The necessity of clinical training in trauma and dissociation",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Anxiety and Depression",
+            "volume": "5",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4172/2167-1044.1000251"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Truth is in the details: A comparison of MMPI-2 item endorsements by patients with dissociative identity disorder patients versus simulators",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chasson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Polermo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Donato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rhodes",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Voorhees",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The Journal of the American Academy of Psychiatry and the Law",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Separating fact from fiction: An empirical examination of six myths about dissociative identity disorder",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Sar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stavropoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kruger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Korzekwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Martinez-Taboas",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Middleton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Harvard Review of Psychiatry",
+            "volume": "24",
+            "issn": "4",
+            "pages": "257--270",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/HRP.0000000000000100"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Assisting the courts in understanding and connecting with experiences of disconnection: Addressing trauma-related dissociation as a forensic psychologist, part I",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schielke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Psychological Injury and Law",
+            "volume": "10",
+            "issn": "4",
+            "pages": "283--297",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12207-017-9304-8"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Assessing trauma-related dissociation in forensic contexts: Addressing trauma-related dissociation as a forensic psychologist, part II",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schielke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brams",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dicomo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Psychological Injury and Law",
+            "volume": "10",
+            "issn": "4",
+            "pages": "298--312",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12207-017-9305-7"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Utility of the SIRS-2 in distinguishing genuine from simulated dissociative identity disorder",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tursich",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tzall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Loewenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Psychological Trauma Theory Research Practice and Policy",
+            "volume": "6",
+            "issn": "4",
+            "pages": "308--317",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Cumulative trauma and current posttraumatic stress disorder status in general population and inmate samples",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Briere",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Agee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dietrich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Psychological Trauma",
+            "volume": "8",
+            "issn": "4",
+            "pages": "439--446",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/tra0000107"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Accumulated childhood trauma and symptom complexity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Briere",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaltman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Greene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Journal of Traumatic Stress",
+            "volume": "21",
+            "issn": "2",
+            "pages": "223--226",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jts"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Cultural competence in trauma therapy: Beyond the flashback",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "True drama or true trauma? Forensic trauma assessment and the challenge of detecting malingering",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Dissociation and the dissociative disorders: DSM-V and beyond",
+            "volume": "",
+            "issn": "",
+            "pages": "585--594",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Ethical practice in forensic psychology: A guide for mental health professionals",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bush",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Connell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Denney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Sexual revictimization: A review of the empirical literature",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Classen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Palesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Aggarwal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Trauma Violence Abuse",
+            "volume": "6",
+            "issn": "2",
+            "pages": "103--129",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1524838005275087"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Treatment of complex PTSD: Results of the ISTSS expert clinician survey on best practices",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cloitre",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Courtois",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Charuvastra",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carapezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stolbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Traumatic Stress",
+            "volume": "24",
+            "issn": "6",
+            "pages": "615--627",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/a0029889"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Van der Hart",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cloitre",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Courtois",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ford",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Alexander",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Briere",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "The ISTSS expert consensus treatment guidelines for complex PTSD in adults",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Complex trauma, complex reactions: Assessment and treatment",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Courtois",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Psychological Trauma Theory Research Practice and Policy",
+            "volume": "",
+            "issn": "1",
+            "pages": "86--100",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/1942-9681.S.1.86"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Treatment of complex trauma: A sequenced, relationship-based approach",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Courtois",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Treating complex traumatic stress disorders: An evidence-based guide",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Courtois",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The need for inclusion of psychological trauma in the professional curriculum: A call to action",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Courtois",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Gold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Psychological Trauma Theory Research Practice and Policy",
+            "volume": "1",
+            "issn": "1",
+            "pages": "3--23",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Countertransference and the treatment of trauma",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dalenberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Evaluation of the evidence for the trauma and fantasy models of dissociation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dalenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brand",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gleaves",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dorahy",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Loewenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cardena",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Psychological Bulletin",
+            "volume": "138",
+            "issn": "3",
+            "pages": "550--588",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/a0027447"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Forensic psychology in the context of trauma",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dalenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Straus",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ardill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "APA handbook of trauma psychology",
+            "volume": "",
+            "issn": "",
+            "pages": "543--563",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Ethical conflicts in psychology",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Drogin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Detection of feigned posttraumatic stress disorder: A comparison of the MMPI-2 and PAI",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Eakin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Weathers",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Benson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Funderburk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Psychopathology and Behavioral Assessment",
+            "volume": "28",
+            "issn": "3",
+            "pages": "145--155",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10862-005-9006-5"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Psychological evaluation of emotional damages in tort cases",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Foote",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lareau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Handbook of psychology: Forensic psychology",
+            "volume": "11",
+            "issn": "",
+            "pages": "172--200",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Dissociation and the dissociative disorders: Clinical and forensic assessment with adults",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Frankel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Dissociation and the dissociative disorders: DSM-V and beyond",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Legal and ethical considerations in working with trauma survivors: Risk management principles for clinicians",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Frankel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "APA handbook of trauma psychology: Foundations in knowledge",
+            "volume": "1",
+            "issn": "",
+            "pages": "547--558",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The relevance of trauma to general clinical practice",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Gold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Psychological Trauma Theory Research Practice and Policy",
+            "volume": "1",
+            "issn": "",
+            "pages": "114--124",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/1942-9681.S.1.114"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Ethical challenges in forensic psychology practice",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gottlieb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coleman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "APA handbook of ethics in psychology",
+            "volume": "2",
+            "issn": "",
+            "pages": "91--123",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Irreconcilable conflict between therapeutic and forensic roles",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Greenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Shuman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Professional Psychology: Research and Practice",
+            "volume": "28",
+            "issn": "",
+            "pages": "50--57",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Foundations of forensic mental health assessment",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Heilbrun",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Grisso",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Goldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Trauma and recovery",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Herman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Guidelines for treating dissociative identity disorder in adults, third revision",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hyland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shevlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fyvie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cloitre",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Karatzias",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal Of Trauma & Dissociation, No Pagination Specified-No Pagination Specified",
+            "volume": "21",
+            "issn": "2",
+            "pages": "115--187",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/15299732.2019.1675113"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "National estimates of exposure to traumatic events and PTSD prevalence using DSM-IV and DSM-5 criteria",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kilpatrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Resnick",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Milanak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Keyes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Traumatic Stress",
+            "volume": "26",
+            "issn": "5",
+            "pages": "537--547",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jts.21848"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Comparison of MMPI-2 and PAI validity indicators to detect feigned depression and PTSD symptom reporting",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lange",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Psychiatry Research",
+            "volume": "176",
+            "issn": "2-3",
+            "pages": "229--235",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psychres.2009.03.004"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Dissociation debates: Everything you know is wrong",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Loewenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Dialogues in Clinical Neuroscience",
+            "volume": "20",
+            "issn": "3",
+            "pages": "229--242",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Dissociation in psychiatric disorders: A meta-analysis of studies using the dissociative experiences scale",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lyssenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schmahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bockhacker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Vonderlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bohus",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kleindienst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "American Journal of Psychiatry",
+            "volume": "175",
+            "issn": "1",
+            "pages": "37--46",
+            "other_ids": {
+                "DOI": [
+                    "10.1176/appi.ajp.2017.17010025"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Prevalence of interpersonal trauma exposure and traumarelated disorders in severe mental illness",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mauritz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Goossens",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Draijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Van Achterberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "European Journal of Psychotraumatology",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3402/ejpt.v4i0.19985"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Psychological evaluations for the courts: A handbook for mental health professional and lawyers",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Melton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Petrila",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Poythress",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Slobogin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Otto",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mossman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Condie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Trauma and the therapist: Countertransference and vicarious traumatization in psychotherapy with incest survivors",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pearlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Saakvitne",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Prevalence of civilian trauma and PTSD in a representative national sample of women",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Resnick",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kilpatrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dansky",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Saunders",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Best",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Journal of Clinical and Consulting Psychology",
+            "volume": "",
+            "issn": "6",
+            "pages": "984--991",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A study of the SIRS with severely traumatized patients",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Payne",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Correa",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gillard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Personality Assessment",
+            "volume": "91",
+            "issn": "5",
+            "pages": "429--438",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/00223890903087745"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Transforming the pain: A workbook on vicarious traumatization",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Saakvitne",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pearlman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Childhood abuse and neglect in an outpatient clinical sample: Prevalence and impact",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "American Journal of Family Therapy",
+            "volume": "41",
+            "issn": "3",
+            "pages": "198--211",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Interstate forensic psychology consultations: A call for reform and proposal of a model rule",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Shuman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Cunningham",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Connell",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Reid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Professional Psychology: Research and Practice",
+            "volume": "34",
+            "issn": "3",
+            "pages": "233--239",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Association of childhood complex trauma and dissociation with complex PTSD symptoms in adulthood",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tucillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Defilippis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Denney",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dsurney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Dijke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ford",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Van Der",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Hart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Professional Psychology: Research and Practice",
+            "volume": "33",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/15299732.2015.1016253"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Childhood victimization and lifetime revictimization",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Widom",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Czaja",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dutton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Child Abuse & Neglect",
+            "volume": "32",
+            "issn": "8",
+            "pages": "785--796",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chiabu.2007.12.006"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "ICD-11 complex PTSD in US national and veteran samples: Prevalence and structural associations with PTSD",
+            "authors": [],
+            "year": null,
+            "venue": "Clinical Psychological Science: A Journal of the Association for Psychological Science",
+            "volume": "3",
+            "issn": "2",
+            "pages": "215--229",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2167702614545480"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Conflict of Interest The author declares that she has no conflicts of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        }
+    ]
+}

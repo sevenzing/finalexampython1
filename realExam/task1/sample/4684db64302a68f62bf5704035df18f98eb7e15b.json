@@ -1,0 +1,530 @@
+{
+    "paper_id": "4684db64302a68f62bf5704035df18f98eb7e15b",
+    "metadata": {
+        "title": "C O M M E N T A R Y ACE2 activators for the treatment of COVID 19 patients",
+        "authors": [
+            {
+                "first": "Rafael",
+                "middle": [],
+                "last": "Rodr\u00edguez-Puertas",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Then, the really positive treatment could be the activation of ACE2 with direct activators that could have two complementary therapeutic effects: on one side, avoiding the binding of protein S of SARS-CoV-2 to ACE2, and at the same time, promoting the protective effects of the enzyme on different organs preventing fibrosis and lung injury. The infection could remain in the upper respiratory tract and prevent other clinical complications in patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "A very important previous result that has been reported by Cheng et al, is that the expression of ACE2 depends on age and sex as has been observed in rat lungs. There is a higher expression in younger animals and in females than in adults and males. 6 Then, it is foreseeable that higher ACE2 levels are present in lungs of children and young people than in adults and particularly in old men. This fact is in clear contradiction with the hypothesis that a high ACE2 expression could worsen the clinical symptoms of COVID 19 and that ACE2 inhibitors could be a treatment. On the contrary, a high expression of ACE2 in children, young people, and women would be coincident with the lower pathology and morbidity reported for COVID 19 in these groups of population. Genetic ACE2 polymorphisms could account for the morbidity in children and young people, and may be related to the variability in COVID 19 symptoms that are being reported in different populations worldwide. 7 In summary, ACE2 activators are able to avoid pulmonary fibrosis, 8 for example, xanthenone (XNT) or diminazene aceturate (DIZE) that is an antiparasitic drug mainly for veterinary use in cattle to treat trypanosomiasis. 9 Some medicines containing DIZE are commercially available, for example, Veriben\u00ae or Berenil\u00ae. XNT and DIZE promote the migration of CD 34 cells inducing vascular repair, effect mediated by Ang II. In addition, DIZE could improve the vascular and pulmonary hypertension, 10 alveolar remodeling, and other pathologies. 11",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The possible therapeutic effects of other antiparasitic drugs that are being used for the treatment of COVID 19, for example, chloroquine, could also share similar mechanisms reducing the binding of SARS-CoV-2 to ACE2 by decreasing its glycosylation. 12",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The ACE2 activators are a plausible therapeutic strategy to control the escalation of COVID 19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The authors acknowledge all the health professionals worldwide who are risking their lives to take care of patients with COVID 19. This study was supported by a grant from the regional Basque Government IT975-16 to the \"Neurochemistry and Neurodegeneration\" consolidated research group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The authors declare that there are no conflict of interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "ORCID",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Rafael Rodr\u00edguez-Puertas",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The infection by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in humans produces the disease known as coronavirus disease 2019 (COVID 2019), which is able to trigger pneumonia followed by a pulmonary failure with fatal consequences. The entry to the organism of SARS-CoV-2 would be using the SARS-CoV-2 spike protein (S) as a ligand-like key to open the cell \"door,\" the angiotensin-converting enzyme 2 (ACE2), which is a common target to other known previous coronaviruses, such as SARS-CoV. The first effect of SARS-CoV-2 would be the blocking of the physiological activity of ACE2, preceding the cell death, and would account for the asymptomatic or first mild cold-like symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "To the Editor,"
+        },
+        {
+            "text": "The density or availability of ACE2 in a tissue or organ is determinant to maintain its activity and effects on the renin-angiotensin system (RAS), and hence, the homeostasis of the vasoconstriction, blood pressure, heart, lung and kidney physiology, etc. 1 The loss of all these ACE2-mediated effects and RAS homeostasis could be responsible for most of the clinical symptoms reported in patients with COVID 19. Moreover, lung alveoli cells such as type 2 pneumocytes and macrophages express ACE2 and are particularly vulnerable to SARS-CoV-2, that together with the lost of ACE2 activity seem to be responsible for the most worrying COVID 19 effects in the respiratory system, causing pneumonia and lung fibrosis.",
+            "cite_spans": [
+                {
+                    "start": 256,
+                    "end": 257,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "To the Editor,"
+        },
+        {
+            "text": "Some authors have suggested the use of ACE2 inhibitors to block the virus infection of the cells expressing this enzyme, however to abolish or diminish its physiological effects does not seem to be a good idea, given their relevance in maintaining different organs functioning, specially the lungs. 2 The inhibitors of the ACE (ACEIs) and angiotensin receptor blockers (ARBs), increase the availability of Ang 1-7. The ARBs move the Ang II signaling to the ACE2 activation. Thus, it does not seem desirable to discontinue those treatments in the presence of SARS-CoV-2 infection. 3 The increase of Ang II by ACEIs or ARBs could be activating ACE2, maintaining it occupied with Ang II, delaying in some way SARS-CoV-2 binding, and gaining some precious time for the immune system response.",
+            "cite_spans": [
+                {
+                    "start": 299,
+                    "end": 300,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 580,
+                    "end": 581,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "To the Editor,"
+        },
+        {
+            "text": "However, the problem that could arise with the ARBs and/or ACEIs treatments is the direct and/or indirect inhibition on the AT1R-mediated effects on the RAS homeostasis. It could be a better idea to maintain unharmed the RAS in physiological conditions, that is, the activation of AT1R by Ang III, together with MasR by Ang 1-7 as described in Chengs's 2 study. Although MasR activation by direct agonists could also contribute, SARS-CoV-2 would be initiating its first evil effects by blocking ACE2-mediated activity. Therefore, to activate ACE2 together with blocking the binding of the S protein of SARS-CoV-2 could be much more efficacious.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "To the Editor,"
+        },
+        {
+            "text": "The active site of ACE2 is probably common to the endogenous susbtrates, that is, Ang II, synthetic ACE2 activators, and the proper S protein of SARS-CoV-2. Some of these critical active-site amino acid residues have been identified, such as the Arg273, which could also be necessary for the binding of both ACE2 activators and S protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "To the Editor,"
+        },
+        {
+            "text": "The decrease of ACE2 activity is able to induce pneumonia; on the contrary, its activation protects against asthma, or decrease the inflammatory response in lung damage. 4,5 ACE2 activation is also able to protect from influenza A H5N1 infection. Moreover, SARS-CoV-2 could be affecting other organs or systems where ACE2 is expressed, including the central nervous system, where other coronaviruses such as SARS have shown the ability to infect certain brain areas entering by the olfactory bulb. The loss of olfaction has been reported in patients with COVID 19, which could be indicating olfactory bulb infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "To the Editor,"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Pulmonary angiotensin-converting enzyme 2 (ACE2) and inflammatory lung disease",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Shock",
+            "volume": "3",
+            "issn": "",
+            "pages": "239--248",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/SHK.0000000000000633"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Organ-protective effect of angiotensinconverting enzyme 2 and its effect on the prognosis of COVID-19",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25785"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Renin-angiotensinaldosterone system inhibitors in patients with Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vaduganathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Vardeny",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Michel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1653--1659",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMsr2005760"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Angiotensin-converting enzyme 2 attenuates inflammatory response and oxidative stress in hyperoxic lung injury by regulating NF-\u03baB and Nrf2 pathways",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "QJM",
+            "volume": "112",
+            "issn": "",
+            "pages": "914--924",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/qjmed/hcz206"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Substituting angiotensin-(1-7) to prevent lung damage in SARSCoV2 infection? Circulation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peir\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Moncada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCULATIONAHA.120.047297"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Age-and gender-related difference of ACE2 expression in rat lung",
+            "authors": [
+                {
+                    "first": "X1",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Life Sci",
+            "volume": "78",
+            "issn": "",
+            "pages": "2166--2171",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.lfs.2005.09.038"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Structural variations in human ACE2 may influence its binding with SARS-CoV-2 spike protein",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hussain",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jabeen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Raza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25832"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Original research: ACE2 activator associated with physical exercise potentiates the reduction of pulmonary fibrosis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Prata",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rodrigues",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Martins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Exp Biol Med",
+            "volume": "242",
+            "issn": "",
+            "pages": "8--21",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1535370216665174"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Diminazene aceturate-An antiparasitic drug of antiquity: advances in pharmacology & therapeutics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Da Silva Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Freitas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Pharmacol Res",
+            "volume": "102",
+            "issn": "",
+            "pages": "138--157",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.phrs.2015.10.005"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Angiotensin converting enzyme 2 and diminazene: role in cardiovascular and blood pressure regulation",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Velkoska",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Burrell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The potential actions of angiotensin-converting enzyme II (ACE2) activator diminazene aceturate (DIZE) in various diseases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Qaradakhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gadanec",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mcsweeney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Exp Pharmacol Physiol",
+            "volume": "47",
+            "issn": "",
+            "pages": "751--758",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1440-1681.13251"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Chloroquine is a potent inhibitor of SARS coronavirus infection and spread",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vincent",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bergeron",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benjannet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Virol J",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1743-422X-2-69"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}
